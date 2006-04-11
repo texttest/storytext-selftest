@@ -1,0 +1,15 @@
+
+'set new movie name to' event created with arguments 'The Muppet Show'
+
+'add movie' event created with arguments ''
+Adding movie 'The Muppet Show'. There are now 1 movies.
+
+'select menu 'file'' event created with arguments ''
+
+'select menu item 'show buttons'' event created with arguments ''
+
+'delete movie' event created with arguments ''
+ERROR: widget <gtk.Button object (GtkButton) at 0x9cdd884> is not visible at the moment, cannot simulate event 'delete movie'
+
+'close' event created with arguments ''
+Exiting the video store!

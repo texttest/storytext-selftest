@@ -1,0 +1,71 @@
+# Path to the binary.
+binary:${TEXTTEST_CHECKOUT}/Testing/PyUseCase/examples/videostore.py
+
+# Settings for Carmen
+checkout_location:~/work
+default_checkout:master
+
+# Might as well have nice printouts
+full_name:PyUseCase
+
+[run_dependent_text]
+usecase:delete movie
+output:widget <gtk.{WORD 7}{REPLACE <run_dependent_adress>>}
+[end]
+
+# Good to record standard error. 
+# Maybe also to take advantage of Xvfb
+# Need LSF so we can avoid Opterons, where
+# PyGTK isn't installed and Java crashes...
+config_module:carmenqueuesystem
+queue_system_module:sge
+
+use_case_record_mode:GUI
+
+# Machines where we can start Xvfb
+#virtual_display_machine:reedsville
+virtual_display_machine:fougamou
+virtual_display_machine:singleton
+
+# Want slow motion replays, as it's a GUI
+slow_motion_replay_speed:1
+
+# allow diagnostics to be enabled
+[diagnostics]
+input_directory_variable:TEXTTEST_DIAGNOSTICS
+write_directory_variable:TEXTTEST_DIAGDIR
+configuration_file:log4py.conf
+[end]
+
+# Things to collate
+[collate_file]
+shortcut:*.shortcut
+[end]
+
+# Don't save default nightjob versions
+unsaveable_version:master
+unsaveable_version:i386_linux
+
+# For each "special batch" run, specify recipients, time limit, architectures and versions 
+# Not present means $USER as recipient, no time limit, all versions and all architectures accepted
+[batch_recipients]
+default:carmen.testtool_tests
+local:$USER
+
+[batch_version]
+nightly_publish:master
+weekly_publish:master
+default:i386_linux
+
+[batch_result_repository]
+default:/carm/proj/texttest/html/TestStateRepository
+
+[historical_report_location]
+default:/carm/proj/texttest/html/TestResults
+
+# ---------------- Values for the static GUI -------------------
+
+# GUI configuration, drop-down lists to appear in static gui...
+[gui_entry_options]
+use_checkout:/carm/master
+reconnect_to_previous_run:nightjob

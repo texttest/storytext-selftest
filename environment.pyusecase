@@ -1,0 +1,3 @@
+PYTHONPATH:${TEXTTEST_CHECKOUT}/Testing/PyUseCase:${PYTHONPATH}
+# Exclude RH7 due to Python 1.5
+QUEUE_SYSTEM_RESOURCE:osversion=RHEL3
