@@ -30,6 +30,8 @@ virtual_display_machine:singleton
 # Want slow motion replays, as it's a GUI
 slow_motion_replay_speed:1
 
+create_catalogues:true
+
 # allow diagnostics to be enabled
 [diagnostics]
 input_directory_variable:TEXTTEST_DIAGNOSTICS
@@ -39,7 +41,13 @@ configuration_file:log4py.conf
 
 # Things to collate
 [collate_file]
-shortcut:*.shortcut
+shortcut:usecases/*.shortcut
+[end]
+
+copy_test_path:usecases
+
+[test_data_environment]
+usecases:USECASE_HOME
 [end]
 
 # Don't save default nightjob versions

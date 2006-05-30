@@ -31,3 +31,9 @@ use_insensitive
 # the menu item is considered visible and sensitive even when it is not
 # currently 'rolled out'
 use_hidden_menu
+
+# 
+create_empty_shortcut
+
+# Check we can view the notebook pages
+view_notebook
