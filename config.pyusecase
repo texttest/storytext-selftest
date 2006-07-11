@@ -1,12 +1,17 @@
 # Path to the binary.
-binary:${TEXTTEST_CHECKOUT}/Testing/PyUseCase/examples/videostore.py
-
-# Settings for Carmen
-checkout_location:~/work
-default_checkout:master
+binary:${TEXTTEST_CHECKOUT}/videostore.py
 
 # Might as well have nice printouts
 full_name:PyUseCase
+
+default_major_release:none
+
+default_checkout:master
+
+# Settings for Carmen
+[checkout_location]
+default:~/work/${TEXTTEST_CHECKOUT_NAME}/Testing/PyUseCase/examples/
+nightly_publish:/carm/master/Testing/PyUseCase/examples/
 
 [run_dependent_text]
 usecase:delete movie

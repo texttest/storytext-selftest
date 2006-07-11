@@ -1,4 +1,6 @@
 
+'set new movie name to' event created with arguments 'Hello'
+
 'show' event created with arguments 'text info'
 
 'close' event created with arguments ''
