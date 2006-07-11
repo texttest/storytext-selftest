@@ -12,6 +12,7 @@ default_checkout:master
 [checkout_location]
 default:~/work/${TEXTTEST_CHECKOUT_NAME}/Testing/PyUseCase/examples/
 nightly_publish:/carm/master/Testing/PyUseCase/examples/
+weekly_publish:/carm/master/Testing/PyUseCase/examples/
 
 [run_dependent_text]
 usecase:delete movie
@@ -80,5 +81,5 @@ default:/carm/proj/texttest/html/TestResults
 
 # GUI configuration, drop-down lists to appear in static gui...
 [gui_entry_options]
-use_checkout:/carm/master
+use_checkout:/carm/master/Testing/PyUseCase
 reconnect_to_previous_run:nightjob
