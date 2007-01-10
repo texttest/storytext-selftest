@@ -79,7 +79,10 @@ default:/carm/proj/texttest/html/TestResults
 
 # ---------------- Values for the static GUI -------------------
 
+[gui_entry_overrides]
+temporary_result_directory:/carm/proj/matador2/publish/coach.texttest_tmp
+version_to_reconnect_to:master.i386_linux
+
 # GUI configuration, drop-down lists to appear in static gui...
 [gui_entry_options]
 use_checkout:/carm/master/Testing/PyUseCase
-reconnect_to_previous_run:nightjob
