@@ -1,6 +1,8 @@
 # Path to the binary.
 binary:${TEXTTEST_CHECKOUT}/videostore.py
 
+interpreter:python2.4.i386
+
 # Might as well have nice printouts
 full_name:PyUseCase
 
