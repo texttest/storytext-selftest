@@ -13,8 +13,7 @@ default_checkout:master
 # Settings for Carmen
 [checkout_location]
 default:~/work/${TEXTTEST_CHECKOUT_NAME}/Testing/PyUseCase/examples/
-nightly_publish:/carm/master/Testing/PyUseCase/examples/
-weekly_publish:/carm/master/Testing/PyUseCase/examples/
+nightjob:/carm/master/Testing/PyUseCase/examples/
 
 [run_dependent_text]
 usecase:delete movie
