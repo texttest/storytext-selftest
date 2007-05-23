@@ -23,15 +23,12 @@ output:widget <gtk.{WORD 7}{REPLACE <run_dependent_adress>>}
 
 # Good to record standard error. 
 # Maybe also to take advantage of Xvfb
-# Need LSF so we can avoid Opterons, where
-# PyGTK isn't installed and Java crashes...
 config_module:carmenqueuesystem
 queue_system_module:sge
 
 use_case_record_mode:GUI
 
 # Machines where we can start Xvfb
-#virtual_display_machine:reedsville
 virtual_display_machine:fougamou
 virtual_display_machine:singleton
 
@@ -69,9 +66,9 @@ default:carmen.testtool_tests
 local:$USER
 
 [batch_version]
-nightly_publish:master
-weekly_publish:master
+default:unix
 default:i386_linux
+[end]
 
 [batch_result_repository]
 default:/carm/proj/texttest/html/TestStateRepository
@@ -82,8 +79,8 @@ default:/carm/proj/texttest/html/TestResults
 # ---------------- Values for the static GUI -------------------
 
 [gui_entry_overrides]
-temporary_result_directory:/carm/proj/matador2/publish/coach.texttest_tmp
-version_to_reconnect_to:master.i386_linux
+temporary_result_directory:/carm/proj/texttest/nightjob_tmp
+version_to_reconnect_to:unix.i386_linux
 
 # GUI configuration, drop-down lists to appear in static gui...
 [gui_entry_options]
