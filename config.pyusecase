@@ -17,7 +17,7 @@ nightjob:/carm/master/Testing/PyUseCase/examples/
 
 [run_dependent_text]
 usecase:delete movie
-output:widget <gtk.{WORD 7}{REPLACE <run_dependent_adress>>}
+output:0x[0-9a-f]*{REPLACE <pointer value>>}
 [end]
 
 # Good to record standard error. 
