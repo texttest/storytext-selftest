@@ -36,13 +36,6 @@ slow_motion_replay_speed:1
 
 create_catalogues:true
 
-# allow diagnostics to be enabled
-[diagnostics]
-input_directory_variable:TEXTTEST_DIAGNOSTICS
-write_directory_variable:TEXTTEST_DIAGDIR
-configuration_file:log4py.conf
-[end]
-
 # Things to collate
 [collate_file]
 shortcut:usecases/*.shortcut
