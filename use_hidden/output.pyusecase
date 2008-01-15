@@ -9,7 +9,7 @@ Adding movie 'The Muppet Show'. There are now 1 movies.
 'select menu item 'show buttons'' event created with arguments ''
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x56300e8c (GtkButton at 0x81af878)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object (GtkButton) at 0x2a994aedc0> is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
 Exiting the video store!
