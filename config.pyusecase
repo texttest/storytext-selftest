@@ -47,7 +47,7 @@ usecases:USECASE_HOME
 
 # Don't save default nightjob versions
 unsaveable_version:master
-unsaveable_version:std_linux
+unsaveable_version:linux_std
 
 # For each "special batch" run, specify recipients, time limit, architectures and versions 
 # Not present means $USER as recipient, no time limit, all versions and all architectures accepted
@@ -57,7 +57,7 @@ local:$USER
 
 [batch_version]
 default:unix
-default:std_linux
+default:linux_std
 [end]
 
 [batch_result_repository]
@@ -70,7 +70,7 @@ default:/carm/proj/texttest/html/TestResults
 
 [gui_entry_overrides]
 temporary_result_directory:/carm/proj/texttest/nightjob_tmp
-version_to_reconnect_to:unix.std_linux
+version_to_reconnect_to:unix.linux_std
 
 # GUI configuration, drop-down lists to appear in static gui...
 [gui_entry_options]
