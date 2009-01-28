@@ -11,7 +11,7 @@ default_checkout:master
 # Settings for Carmen
 [checkout_location]
 default:~/work/${TEXTTEST_CHECKOUT_NAME}/Testing/PyUseCase/examples/
-nightjob:/carm/master/Testing/PyUseCase/examples/
+tt_nightjob:/carm/master/Testing/PyUseCase/examples/
 
 [run_dependent_text]
 usecase:delete movie
@@ -24,10 +24,6 @@ config_module:carmenqueuesystem
 queue_system_module:sge
 
 use_case_record_mode:GUI
-
-# Machines where we can start Xvfb
-virtual_display_machine:fougamou
-virtual_display_machine:singleton
 
 # Want slow motion replays, as it's a GUI
 slow_motion_replay_speed:1
@@ -48,6 +44,8 @@ usecases:USECASE_HOME
 # Don't save default nightjob versions
 unsaveable_version:master
 unsaveable_version:linux_std
+
+batch_use_version_filtering:true
 
 # For each "special batch" run, specify recipients, time limit, architectures and versions 
 # Not present means $USER as recipient, no time limit, all versions and all architectures accepted
