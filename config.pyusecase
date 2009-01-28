@@ -66,6 +66,9 @@ default:/carm/proj/texttest/html/TestStateRepository
 [historical_report_location]
 default:/carm/proj/texttest/html/TestResults
 
+[historical_report_all_page]
+default:false
+
 # ---------------- Values for the static GUI -------------------
 
 [gui_entry_overrides]
