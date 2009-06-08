@@ -1,3 +1,13 @@
+---------- Window 'The Video Store' ----------
+'File'
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+Tabs showing : text info, video view
+
+Viewing notebook page for 'video view'
+Showing Tree View with columns: Movie Name
+
+'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+----------------------------------------------
 
 'create new shortcut' event created with arguments ''
 

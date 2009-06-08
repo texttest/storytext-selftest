@@ -1,5 +1,8 @@
 # Path to the binary.
-binary:${TEXTTEST_CHECKOUT}/videostore.py
+executable:${TEXTTEST_CHECKOUT}/examples/videostore.py
+
+# Use same GTK environment as TextTest
+interpreter:ttpython
 
 # Might as well have nice printouts
 full_name:PyUseCase
@@ -10,8 +13,8 @@ default_checkout:master
 
 # Settings for Carmen
 [checkout_location]
-default:~/work/${TEXTTEST_CHECKOUT_NAME}/Testing/PyUseCase/examples/
-tt_nightjob:/carm/master/Testing/PyUseCase/examples/
+default:~/work/${TEXTTEST_CHECKOUT_NAME}/Testing/PyUseCase/
+tt_nightjob:/carm/master/Testing/PyUseCase/
 
 [run_dependent_text]
 usecase:delete movie

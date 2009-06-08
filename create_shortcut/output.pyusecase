@@ -1,3 +1,13 @@
+---------- Window 'The Video Store' ----------
+'File'
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+Tabs showing : text info, video view
+
+Viewing notebook page for 'video view'
+Showing Tree View with columns: Movie Name
+
+'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+----------------------------------------------
 
 'create new shortcut' event created with arguments ''
 
@@ -14,22 +24,6 @@ Adding movie 'Star Wars'. There are now 1 movies.
 Adding movie 'Die Hard'. There are now 2 movies.
 
 'stop recording' event created with arguments ''
-
-'add several' event created with arguments ''
-
-'set new movie name to' event created with arguments 'Star Wars'
-
-'add movie' event created with arguments ''
-ERROR : Movie 'Star Wars' has already been added
-
-'set new movie name to' event created with arguments 'Die Hard'
-
-'add movie' event created with arguments ''
-ERROR : Movie 'Die Hard' has already been added
-
-'accept error saying "movie 'die hard' has already been added"' event created with arguments ''
-
-'accept error saying "movie 'star wars' has already been added"' event created with arguments ''
 
 'close' event created with arguments ''
 Exiting the video store!

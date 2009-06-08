@@ -1,5 +1,4 @@
-
-# Tests entering text into a text field and clicking a button 
+# Tests entering text into a text field and clicking a button
 textfield_button
 
 # Check that we can press enter in a text field
@@ -10,6 +9,9 @@ dialogue
 
 # Test that we can create a simple shortcut that will add 2 movies
 create_shortcut
+
+# Make sure a shortcut file can be used
+use_shortcut
 
 # Test usage of a menubar
 menu
@@ -31,8 +33,6 @@ use_insensitive
 # the menu item is considered visible and sensitive even when it is not
 # currently 'rolled out'
 use_hidden_menu
-
-# 
 create_empty_shortcut
 
 # Check we can view the notebook pages

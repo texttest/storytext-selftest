@@ -1,7 +1,22 @@
+---------- Window 'The Video Store' ----------
+'File'
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+Tabs showing : text info, video view
+
+Viewing notebook page for 'video view'
+Showing Tree View with columns: Movie Name
+
+'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+----------------------------------------------
 
 'set new movie name to' event created with arguments 'Hello'
 
 'show' event created with arguments 'text info'
+
+Viewing notebook page for 'text info'
+========== Text View ==========
+This is the Video Store, an example program for PyUseCase
+===============================
 
 'close' event created with arguments ''
 Exiting the video store!
