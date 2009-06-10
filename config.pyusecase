@@ -1,30 +1,19 @@
 # Path to the binary.
 executable:${TEXTTEST_CHECKOUT}/examples/videostore.py
 
-# Use same GTK environment as TextTest
-interpreter:ttpython
+# Mechanism for keeping site-specific setup separate
+extra_search_directory:site
+extra_search_directory:default_site
+
+import_config_file:site_configfile
 
 # Might as well have nice printouts
 full_name:PyUseCase
-
-default_major_release:none
-
-default_checkout:master
-
-# Settings for Carmen
-[checkout_location]
-default:~/work/${TEXTTEST_CHECKOUT_NAME}/Testing/PyUseCase/
-tt_nightjob:/carm/proj/texttest/release/current/PyUseCase
 
 [run_dependent_text]
 usecase:delete movie
 output:0x[0-9a-f]*{REPLACE <pointer value>>}
 [end]
-
-# Good to record standard error. 
-# Maybe also to take advantage of Xvfb
-config_module:carmenqueuesystem
-queue_system_module:sge
 
 use_case_record_mode:GUI
 
@@ -33,46 +22,11 @@ slow_motion_replay_speed:1
 
 create_catalogues:true
 
-# Things to collate
-[collate_file]
-shortcut:usecases/*.shortcut
-[end]
-
 copy_test_path:usecases
 
 [test_data_environment]
 usecases:USECASE_HOME
-[end]
 
-# Don't save default nightjob versions
-unsaveable_version:master
-unsaveable_version:linux_std
-
-batch_use_version_filtering:true
-
-# For each "special batch" run, specify recipients, time limit, architectures and versions 
-# Not present means $USER as recipient, no time limit, all versions and all architectures accepted
-[batch_recipients]
-default:carmen.testtool_tests
-local:$USER
-
-[batch_version]
-default:unix
-default:linux_std
-[end]
-
-[batch_result_repository]
-default:/carm/proj/texttest/html/TestStateRepository
-
-[historical_report_location]
-default:/carm/proj/texttest/html/TestResults
-
-# ---------------- Values for the static GUI -------------------
-
-[gui_entry_overrides]
-temporary_result_directory:/carm/proj/texttest/nightjob_tmp
-version_to_reconnect_to:unix.linux_std
-
-# GUI configuration, drop-down lists to appear in static gui...
-[gui_entry_options]
-use_checkout:/carm/master/Testing/PyUseCase
+# Things to collate
+[collate_file]
+shortcut:usecases/*.shortcut
