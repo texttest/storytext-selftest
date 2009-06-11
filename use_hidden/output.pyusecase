@@ -12,14 +12,16 @@ Showing Tree View with columns: Movie Name
 'set new movie name to' event created with arguments 'The Muppet Show'
 
 'add movie' event created with arguments ''
-Adding movie 'The Muppet Show'. There are now 1 movies.
+After update : Tree View with columns: Movie Name
+-> The Muppet Show
+
 
 'select menu 'file'' event created with arguments ''
 
 'select menu item 'show buttons'' event created with arguments ''
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2afd3e34c5f0 (GtkButton at 0x7976230)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x833f66c (GtkButton at 0x8295ad8)> is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
 Exiting the video store!

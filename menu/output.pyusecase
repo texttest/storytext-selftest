@@ -20,24 +20,44 @@ Showing Tree View with columns: Movie Name
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'add'' event created with arguments ''
-Adding movie 'Nisse'. There are now 1 movies.
+After update : Tree View with columns: Movie Name
+-> Nisse
+
 
 'set new movie name to' event created with arguments 'Basse'
 
 'add movie' event created with arguments ''
-Adding movie 'Basse'. There are now 2 movies.
+After update : Tree View with columns: Movie Name
+-> Nisse
+-> Basse
+
 
 'set new movie name to' event created with arguments 'Muppe'
 
 'add movie by pressing <enter>' event created with arguments ''
-Adding movie 'Muppe'. There are now 3 movies.
+After update : Tree View with columns: Movie Name
+-> Nisse
+-> Basse
+-> Muppe
+
 
 'select menu 'file'' event created with arguments ''
 
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'sort'' event created with arguments ''
-Sorted movies, now in order: ['Basse', 'Muppe', 'Nisse']
+After update : Tree View with columns: Movie Name
+-> Basse
+
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nisse
+
 
 'select menu 'file'' event created with arguments ''
 
@@ -48,7 +68,12 @@ Sorted movies, now in order: ['Basse', 'Muppe', 'Nisse']
 'set new movie name to' event created with arguments 'Nils'
 
 'add movie by pressing <enter>' event created with arguments ''
-Adding movie 'Nils'. There are now 4 movies.
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nisse
+-> Nils
+
 
 'select menu 'file'' event created with arguments ''
 
@@ -63,7 +88,13 @@ Adding movie 'Nils'. There are now 4 movies.
 'set new movie name to' event created with arguments 'Nils igen'
 
 'add movie' event created with arguments ''
-Adding movie 'Nils igen'. There are now 5 movies.
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nisse
+-> Nils
+-> Nils igen
+
 
 'select menu 'file'' event created with arguments ''
 
@@ -72,7 +103,31 @@ Adding movie 'Nils igen'. There are now 5 movies.
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'sort'' event created with arguments ''
-Sorted movies, now in order: ['Basse', 'Muppe', 'Nils', 'Nils igen', 'Nisse']
+After update : Tree View with columns: Movie Name
+-> Basse
+
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nils
+
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nils
+-> Nils igen
+
+After update : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nils
+-> Nils igen
+-> Nisse
+
 
 'select menu 'file'' event created with arguments ''
 
