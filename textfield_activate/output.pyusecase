@@ -4,6 +4,7 @@
 Tabs showing : text info, video view
 
 Viewing notebook page for 'video view'
+
 Showing Tree View with columns: Movie Name
 
 'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
@@ -12,9 +13,9 @@ Showing Tree View with columns: Movie Name
 'set new movie name to' event created with arguments 'Star Wars'
 
 'add movie by pressing <enter>' event created with arguments ''
-After update : Tree View with columns: Movie Name
--> Star Wars
 
+After insertion : Tree View with columns: Movie Name
+-> Star Wars
 
 'close' event created with arguments ''
 Exiting the video store!

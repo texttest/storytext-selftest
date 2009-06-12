@@ -4,6 +4,7 @@
 Tabs showing : text info, video view
 
 Viewing notebook page for 'video view'
+
 Showing Tree View with columns: Movie Name
 
 'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
@@ -20,44 +21,54 @@ Showing Tree View with columns: Movie Name
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'add'' event created with arguments ''
-After update : Tree View with columns: Movie Name
--> Nisse
 
+After insertion : Tree View with columns: Movie Name
+-> Nisse
 
 'set new movie name to' event created with arguments 'Basse'
 
 'add movie' event created with arguments ''
-After update : Tree View with columns: Movie Name
+
+After insertion : Tree View with columns: Movie Name
 -> Nisse
 -> Basse
-
 
 'set new movie name to' event created with arguments 'Muppe'
 
 'add movie by pressing <enter>' event created with arguments ''
-After update : Tree View with columns: Movie Name
+
+After insertion : Tree View with columns: Movie Name
 -> Nisse
 -> Basse
 -> Muppe
-
 
 'select menu 'file'' event created with arguments ''
 
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'sort'' event created with arguments ''
-After update : Tree View with columns: Movie Name
--> Basse
 
-After update : Tree View with columns: Movie Name
+After deletion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 
-After update : Tree View with columns: Movie Name
+After deletion : Tree View with columns: Movie Name
+-> Muppe
+
+After deletion : Tree View with columns: Movie Name
+
+
+After insertion : Tree View with columns: Movie Name
+-> Basse
+
+After insertion : Tree View with columns: Movie Name
+-> Basse
+-> Muppe
+
+After insertion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 -> Nisse
-
 
 'select menu 'file'' event created with arguments ''
 
@@ -68,12 +79,12 @@ After update : Tree View with columns: Movie Name
 'set new movie name to' event created with arguments 'Nils'
 
 'add movie by pressing <enter>' event created with arguments ''
-After update : Tree View with columns: Movie Name
+
+After insertion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 -> Nisse
 -> Nils
-
 
 'select menu 'file'' event created with arguments ''
 
@@ -88,13 +99,13 @@ After update : Tree View with columns: Movie Name
 'set new movie name to' event created with arguments 'Nils igen'
 
 'add movie' event created with arguments ''
-After update : Tree View with columns: Movie Name
+
+After insertion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 -> Nisse
 -> Nils
 -> Nils igen
-
 
 'select menu 'file'' event created with arguments ''
 
@@ -103,31 +114,52 @@ After update : Tree View with columns: Movie Name
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'sort'' event created with arguments ''
-After update : Tree View with columns: Movie Name
+
+After deletion : Tree View with columns: Movie Name
+-> Muppe
+-> Nisse
+-> Nils
+-> Nils igen
+
+After deletion : Tree View with columns: Movie Name
+-> Nisse
+-> Nils
+-> Nils igen
+
+After deletion : Tree View with columns: Movie Name
+-> Nils
+-> Nils igen
+
+After deletion : Tree View with columns: Movie Name
+-> Nils igen
+
+After deletion : Tree View with columns: Movie Name
+
+
+After insertion : Tree View with columns: Movie Name
 -> Basse
 
-After update : Tree View with columns: Movie Name
+After insertion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 
-After update : Tree View with columns: Movie Name
+After insertion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 -> Nils
 
-After update : Tree View with columns: Movie Name
+After insertion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 -> Nils
 -> Nils igen
 
-After update : Tree View with columns: Movie Name
+After insertion : Tree View with columns: Movie Name
 -> Basse
 -> Muppe
 -> Nils
 -> Nils igen
 -> Nisse
-
 
 'select menu 'file'' event created with arguments ''
 
