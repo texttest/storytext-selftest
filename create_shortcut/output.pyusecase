@@ -5,7 +5,7 @@ Tabs showing : text info, video view
 
 Viewing notebook page for 'video view'
 
-Showing Tree View with columns: Movie Name
+Showing Movie Tree with columns: Movie Name
 
 'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
 ----------------------------------------------
@@ -18,14 +18,14 @@ Showing Tree View with columns: Movie Name
 
 'add movie' event created with arguments ''
 
-After insertion : Tree View with columns: Movie Name
+After insertion : Movie Tree with columns: Movie Name
 -> Star Wars
 
 'set new movie name to' event created with arguments 'Die Hard'
 
 'add movie' event created with arguments ''
 
-After insertion : Tree View with columns: Movie Name
+After insertion : Movie Tree with columns: Movie Name
 -> Star Wars
 -> Die Hard
 
