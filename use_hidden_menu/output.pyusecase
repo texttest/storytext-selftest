@@ -24,7 +24,5 @@ After insertion : Movie Tree with columns: Movie Name
 
 After deletion : Movie Tree with columns: Movie Name
 
-Deleting movie 'The Muppet Show'. There are now 0 movies.
 
 'close' event created with arguments ''
-Exiting the video store!

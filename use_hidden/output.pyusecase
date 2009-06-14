@@ -25,7 +25,6 @@ After insertion : Movie Tree with columns: Movie Name
 'select menu item 'show buttons'' event created with arguments ''
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x8345234 (GtkButton at 0x8295ad8)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x8344234 (GtkButton at 0x8295ad8)> is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
-Exiting the video store!

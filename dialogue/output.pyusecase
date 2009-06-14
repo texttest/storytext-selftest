@@ -21,9 +21,12 @@ After insertion : Movie Tree with columns: Movie Name
 -> Star Wars
 
 'add movie' event created with arguments ''
-ERROR : Movie 'Star Wars' has already been added
+---------- Dialog 'VideoStore Error!' ----------
+'Movie 'Star Wars' has already been added'
+---------------
+Button 'gtk-ok', stock image 'gtk-ok'
+------------------------------------------------
 
 'accept error saying "movie 'star wars' has already been added"' event created with arguments ''
 
 'close' event created with arguments ''
-Exiting the video store!
