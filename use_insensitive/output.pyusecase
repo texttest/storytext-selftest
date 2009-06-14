@@ -1,5 +1,8 @@
 ---------- Window 'The Video Store' ----------
-'File'
+'File' Menu :
+  'Actions' Menu, 'Show buttons', 'Enable buttons', 'Quit'
+  'Actions' Menu :
+    'Add', 'Delete', 'Sort', 'Clear'
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 Tabs showing : text info, video view
 
@@ -22,7 +25,7 @@ After insertion : Movie Tree with columns: Movie Name
 'select menu item 'enable buttons'' event created with arguments ''
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2ab3025dd910 (GtkButton at 0x1293a230)> is not sensitive to input at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x8344234 (GtkButton at 0x8295ad8)> is not sensitive to input at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
 Exiting the video store!
