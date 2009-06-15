@@ -4,9 +4,9 @@
   'Actions' Menu :
     'Add', 'Delete', 'Sort', 'Clear'
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
-Tabs showing : text info, video view
 
-Viewing notebook page for 'video view'
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
 
@@ -25,6 +25,6 @@ Updated : Movie Tree with columns: Movie Name
 'select menu item 'enable buttons'' event created with arguments ''
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2b1500314af0 (GtkButton at 0x7f36230)> is not sensitive to input at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x2ba2552eea50 (GtkButton at 0x1068b230)> is not sensitive to input at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
