@@ -17,7 +17,7 @@ Showing Movie Tree with columns: Movie Name
 
 'add movie by pressing <enter>' event created with arguments ''
 
-After insertion : Movie Tree with columns: Movie Name
+Updated : Movie Tree with columns: Movie Name
 -> Star Wars
 
 'close' event created with arguments ''

@@ -21,14 +21,14 @@ Showing Movie Tree with columns: Movie Name
 
 'add movie' event created with arguments ''
 
-After insertion : Movie Tree with columns: Movie Name
+Updated : Movie Tree with columns: Movie Name
 -> Star Wars
 
 'set new movie name to' event created with arguments 'Die Hard'
 
 'add movie' event created with arguments ''
 
-After insertion : Movie Tree with columns: Movie Name
+Updated : Movie Tree with columns: Movie Name
 -> Star Wars
 -> Die Hard
 

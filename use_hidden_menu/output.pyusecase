@@ -17,12 +17,12 @@ Showing Movie Tree with columns: Movie Name
 
 'add movie' event created with arguments ''
 
-After insertion : Movie Tree with columns: Movie Name
+Updated : Movie Tree with columns: Movie Name
 -> The Muppet Show
 
 'select menu item 'delete'' event created with arguments ''
 
-After deletion : Movie Tree with columns: Movie Name
+Updated : Movie Tree with columns: Movie Name
 
 
 'close' event created with arguments ''
