@@ -9,7 +9,6 @@ Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
-
 'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
 ----------------------------------------------
 
@@ -23,6 +22,5 @@ Updated : Movie Tree with columns: Movie Name
 'select menu item 'delete'' event created with arguments ''
 
 Updated : Movie Tree with columns: Movie Name
-
 
 'close' event created with arguments ''

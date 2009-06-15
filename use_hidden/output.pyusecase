@@ -9,7 +9,6 @@ Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
-
 'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
 ----------------------------------------------
 
@@ -25,6 +24,6 @@ Updated : Movie Tree with columns: Movie Name
 'select menu item 'show buttons'' event created with arguments ''
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2b644d106a00 (GtkButton at 0xb3fe230)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x2b72085979b0 (GtkButton at 0x1ee42230)> is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
