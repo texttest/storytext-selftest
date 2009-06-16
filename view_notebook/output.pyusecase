@@ -13,6 +13,7 @@ Showing Movie Tree with columns: Movie Name
 ----------------------------------------------
 
 'set new movie name to' event created with arguments 'Hello'
+Edited 'Movie Name' Text entry (set to 'Hello')
 
 'show' event created with arguments 'text info'
 

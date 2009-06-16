@@ -15,8 +15,10 @@ Showing Movie Tree with columns: Movie Name
 'create new shortcut' event created with arguments ''
 
 'set shortcut name to' event created with arguments 'Add Several'
+Edited 'Shortcut Name' Text entry (set to 'Add Several')
 
 'set new movie name to' event created with arguments 'Star Wars'
+Edited 'Movie Name' Text entry (set to 'Star Wars')
 
 'add movie' event created with arguments ''
 
@@ -24,6 +26,7 @@ Updated : Movie Tree with columns: Movie Name
 -> Star Wars
 
 'set new movie name to' event created with arguments 'Die Hard'
+Edited 'Movie Name' Text entry (set to 'Die Hard')
 
 'add movie' event created with arguments ''
 

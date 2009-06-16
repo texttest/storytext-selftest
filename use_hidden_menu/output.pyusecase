@@ -13,6 +13,7 @@ Showing Movie Tree with columns: Movie Name
 ----------------------------------------------
 
 'set new movie name to' event created with arguments 'The Muppet Show'
+Edited 'Movie Name' Text entry (set to 'The Muppet Show')
 
 'add movie' event created with arguments ''
 

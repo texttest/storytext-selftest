@@ -17,6 +17,7 @@ Showing Movie Tree with columns: Movie Name
 'set new movie name to' event created with arguments 'Star Wars'
 
 'add movie' event created with arguments ''
+Edited 'Movie Name' Text entry (set to 'Star Wars')
 
 Updated : Movie Tree with columns: Movie Name
 -> Star Wars
@@ -24,6 +25,7 @@ Updated : Movie Tree with columns: Movie Name
 'set new movie name to' event created with arguments 'Die Hard'
 
 'add movie' event created with arguments ''
+Edited 'Movie Name' Text entry (set to 'Die Hard')
 
 Updated : Movie Tree with columns: Movie Name
 -> Star Wars

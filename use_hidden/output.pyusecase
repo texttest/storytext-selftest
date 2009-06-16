@@ -13,6 +13,7 @@ Showing Movie Tree with columns: Movie Name
 ----------------------------------------------
 
 'set new movie name to' event created with arguments 'The Muppet Show'
+Edited 'Movie Name' Text entry (set to 'The Muppet Show')
 
 'add movie' event created with arguments ''
 
@@ -24,6 +25,6 @@ Updated : Movie Tree with columns: Movie Name
 'select menu item 'show buttons'' event created with arguments ''
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2b72085979b0 (GtkButton at 0x1ee42230)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x2b3bb3d219b0 (GtkButton at 0x1abec230)> is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
