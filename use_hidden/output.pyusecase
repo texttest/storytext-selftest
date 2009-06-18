@@ -1,15 +1,23 @@
 ---------- Window 'The Video Store' ----------
-'File' Menu :
-  'Actions' Menu, 'Show buttons', 'Enable buttons', 'Quit'
-  'Actions' Menu :
-    'Add', 'Delete', 'Sort', 'Clear'
+Focus widget is 'Movie Name'
+
+Menu Bar :
+  'File' Menu :
+    'Actions' Menu :
+      'Add'
+      'Delete'
+      'Sort'
+      'Clear'
+    'Show buttons' (checked)
+    'Enable buttons' (checked)
+    'Quit'
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
-'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
 'set new movie name to' event created with arguments 'The Muppet Show'
@@ -23,8 +31,12 @@ Updated : Movie Tree with columns: Movie Name
 'select menu 'file'' event created with arguments ''
 
 'select menu item 'show buttons'' event created with arguments ''
+Hiding the 'Add' widget
+Hiding the 'Delete' widget
+Hiding the 'Sort' widget
+Hiding the 'Clear' widget
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2b3bb3d219b0 (GtkButton at 0x1abec230)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x2ae8e48b9e60 (GtkButton at 0x7120230)> is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''

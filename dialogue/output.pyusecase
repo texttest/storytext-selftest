@@ -1,15 +1,23 @@
 ---------- Window 'The Video Store' ----------
-'File' Menu :
-  'Actions' Menu, 'Show buttons', 'Enable buttons', 'Quit'
-  'Actions' Menu :
-    'Add', 'Delete', 'Sort', 'Clear'
+Focus widget is 'Movie Name'
+
+Menu Bar :
+  'File' Menu :
+    'Actions' Menu :
+      'Add'
+      'Delete'
+      'Sort'
+      'Clear'
+    'Show buttons' (checked)
+    'Enable buttons' (checked)
+    'Quit'
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
-'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
 'set new movie name to' event created with arguments 'Star Wars'
@@ -22,9 +30,10 @@ Updated : Movie Tree with columns: Movie Name
 
 'add movie' event created with arguments ''
 ---------- Dialog 'VideoStore Error!' ----------
+Focus widget is 'gtk-ok'
 'Movie 'Star Wars' has already been added'
 ---------------
-Button 'gtk-ok', stock image 'gtk-ok'
+Button 'gtk-ok' (Stock image 'gtk-ok')
 ------------------------------------------------
 
 'accept error saying "movie 'star wars' has already been added"' event created with arguments ''

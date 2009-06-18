@@ -1,15 +1,23 @@
 ---------- Window 'The Video Store' ----------
-'File' Menu :
-  'Actions' Menu, 'Show buttons', 'Enable buttons', 'Quit'
-  'Actions' Menu :
-    'Add', 'Delete', 'Sort', 'Clear'
+Focus widget is 'Movie Name'
+
+Menu Bar :
+  'File' Menu :
+    'Actions' Menu :
+      'Add'
+      'Delete'
+      'Sort'
+      'Clear'
+    'Show buttons' (checked)
+    'Enable buttons' (checked)
+    'Quit'
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
-'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
 'select menu 'file'' event created with arguments ''
@@ -63,6 +71,10 @@ Updated : Movie Tree with columns: Movie Name
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'show buttons'' event created with arguments ''
+Hiding the 'Add' widget
+Hiding the 'Delete' widget
+Hiding the 'Sort' widget
+Hiding the 'Clear' widget
 
 'set new movie name to' event created with arguments 'Nils'
 Edited 'Movie Name' Text entry (set to 'Nils')
@@ -80,6 +92,10 @@ Updated : Movie Tree with columns: Movie Name
 'select menu item 'actions'' event created with arguments ''
 
 'select menu item 'show buttons'' event created with arguments ''
+Button 'Add'
+Button 'Delete'
+Button 'Sort'
+Button 'Clear'
 
 'select menu 'file'' event created with arguments ''
 

@@ -1,15 +1,23 @@
 ---------- Window 'The Video Store' ----------
-'File' Menu :
-  'Actions' Menu, 'Show buttons', 'Enable buttons', 'Quit'
-  'Actions' Menu :
-    'Add', 'Delete', 'Sort', 'Clear'
+Focus widget is 'Movie Name'
+
+Menu Bar :
+  'File' Menu :
+    'Actions' Menu :
+      'Add'
+      'Delete'
+      'Sort'
+      'Clear'
+    'Show buttons' (checked)
+    'Enable buttons' (checked)
+    'Quit'
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
-'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
 'set new movie name to' event created with arguments 'The Muppet Show'
@@ -24,7 +32,9 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu item 'enable buttons'' event created with arguments ''
 
+Greyed out : Add, Delete, Sort, Clear
+
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2b7330baca00 (GtkButton at 0x1e369230)> is not sensitive to input at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x2b3d95b11eb0 (GtkButton at 0xb3ce230)> is not sensitive to input at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''

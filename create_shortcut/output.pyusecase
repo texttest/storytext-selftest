@@ -1,18 +1,30 @@
 ---------- Window 'The Video Store' ----------
-'File' Menu :
-  'Actions' Menu, 'Show buttons', 'Enable buttons', 'Quit'
-  'Actions' Menu :
-    'Add', 'Delete', 'Sort', 'Clear'
+Focus widget is 'Movie Name'
+
+Menu Bar :
+  'File' Menu :
+    'Actions' Menu :
+      'Add'
+      'Delete'
+      'Sort'
+      'Clear'
+    'Show buttons' (checked)
+    'Enable buttons' (checked)
+    'Quit'
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
-'Shortcuts:' , Button '_New' , 'Recording shortcut named:' , Text entry , Button 'S_top'
+'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
 'create new shortcut' event created with arguments ''
+Hiding the '_New' widget
+'Recording shortcut named:'
+Text entry
+Button 'S_top'
 
 'set shortcut name to' event created with arguments 'Add Several'
 Edited 'Shortcut Name' Text entry (set to 'Add Several')
@@ -35,5 +47,10 @@ Updated : Movie Tree with columns: Movie Name
 -> Die Hard
 
 'stop recording' event created with arguments ''
+'Shortcuts:' , Button 'Add Several'
+Button '_New'
+Hiding the 'Recording shortcut named:' widget
+Hiding the 'Shortcut Name' widget
+Hiding the 'S_top' widget
 
 'close' event created with arguments ''
