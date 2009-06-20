@@ -1,3 +1,4 @@
+
 ---------- Window 'The Video Store' ----------
 Focus widget is 'Movie Name'
 
@@ -37,6 +38,6 @@ Hiding the 'Sort' widget
 Hiding the 'Clear' widget
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x2ae8e48b9e60 (GtkButton at 0x7120230)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget <gtk.Button object at 0x83c3eb4 (GtkButton at 0x8315ad8)> is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''

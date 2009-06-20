@@ -1,3 +1,4 @@
+
 ---------- Window 'The Video Store' ----------
 Focus widget is 'Movie Name'
 
@@ -29,6 +30,7 @@ Updated : Movie Tree with columns: Movie Name
 -> Star Wars
 
 'add movie' event created with arguments ''
+
 ---------- Dialog 'VideoStore Error!' ----------
 Focus widget is 'gtk-ok'
 'Movie 'Star Wars' has already been added'
