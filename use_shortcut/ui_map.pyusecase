@@ -1,0 +1,53 @@
+[Title=The Video Store]
+delete-event = close
+
+[Label=Quit]
+activate = select menu item 'quit'
+
+[Label=Show buttons]
+activate = select menu item 'show buttons'
+
+[Label=Delete]
+activate = select menu item 'delete'
+clicked = delete movie
+
+[Label=Enable buttons]
+activate = select menu item 'enable buttons'
+
+[Label=Sort]
+activate = select menu item 'sort'
+clicked = sort movies
+
+[Label=File]
+activate = select menu 'file'
+
+[Label=Clear]
+activate = select menu item 'clear'
+clicked = clear list
+
+[Type=Notebook]
+switch-page = show
+
+[Label=Actions]
+activate = select menu item 'actions'
+
+[Name=Movie Name]
+changed = set new movie name to
+activate = add movie by pressing <enter>
+
+[Label=Add]
+activate = select menu item 'add'
+clicked = add movie
+
+[Name=Shortcut Name]
+changed = set shortcut name to
+
+[Label=Add Several]
+clicked = add several
+
+[Label=_New]
+clicked = create new shortcut
+
+[Label=S_top]
+clicked = stop recording
+

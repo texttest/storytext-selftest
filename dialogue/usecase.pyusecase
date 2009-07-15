@@ -1,5 +1,5 @@
 set new movie name to Star Wars
 add movie
 add movie
-accept error saying "movie 'star wars' has already been added"
+accept videostore error
 close

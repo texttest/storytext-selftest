@@ -30,3 +30,4 @@ usecases:USECASE_HOME
 # Things to collate
 [collate_file]
 shortcut:usecases/*.shortcut
+ui_map:usecases/ui_map.conf
