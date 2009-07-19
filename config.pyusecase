@@ -24,6 +24,8 @@ create_catalogues:true
 
 copy_test_path:usecases
 
+extra_version:fullinst
+
 [test_data_environment]
 usecases:USECASE_HOME
 

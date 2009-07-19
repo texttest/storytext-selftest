@@ -1,0 +1,2 @@
+# Path to the binary.
+executable:${TEXTTEST_HOME}/pyusecase/videostore_full_instrument.py
