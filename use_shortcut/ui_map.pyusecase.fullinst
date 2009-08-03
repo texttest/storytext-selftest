@@ -11,9 +11,8 @@ activate = select menu item 'show buttons'
 activate = select menu item 'delete'
 clicked = delete movie
 
-[Label=Clear]
-activate = select menu item 'clear'
-clicked = clear list
+[Label=Enable buttons]
+activate = select menu item 'enable buttons'
 
 [Label=Sort]
 activate = select menu item 'sort'
@@ -22,8 +21,9 @@ clicked = sort movies
 [Label=File]
 activate = select menu 'file'
 
-[Label=Enable buttons]
-activate = select menu item 'enable buttons'
+[Label=Clear]
+activate = select menu item 'clear'
+clicked = clear list
 
 [Type=Notebook]
 switch-page = show
@@ -42,8 +42,8 @@ clicked = add movie
 [Name=Shortcut Name]
 changed = set shortcut name to
 
-[Title=VideoStore Error!]
-response.accept = accept videostore error
+[Label=Add Several]
+clicked = add several
 
 [Label=_New]
 clicked = create new shortcut

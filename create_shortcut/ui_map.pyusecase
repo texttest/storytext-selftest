@@ -46,7 +46,7 @@ clicked = add movie
 changed = set shortcut name to
 
 [Title=VideoStore Error!]
-response = accept videostore error
+response.accept = accept videostore error
 
 [Label=_New]
 clicked = create new shortcut
