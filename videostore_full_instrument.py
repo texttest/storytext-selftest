@@ -37,7 +37,7 @@ class VideoStore:
         win = gtk.Window(gtk.WINDOW_TOPLEVEL)
         win.set_title("The Video Store")
         win.connect("delete_event", self.quit)
-        self.scriptEngine.monitorSignal("close", "delete_event", win, method=self.quit)
+        self.scriptEngine.monitorSignal("close", "delete_event", win)
         vbox = self.createWindowContents()
         win.add(vbox)
         win.show()

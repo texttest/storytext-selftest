@@ -1,5 +1,5 @@
-[Type=Notebook]
-switch-page = show
+[Title=The Video Store]
+delete-event = close
 
 [Label=Quit]
 activate = select menu item 'quit'
@@ -25,8 +25,8 @@ activate = select menu 'file'
 activate = select menu item 'clear'
 clicked = clear list
 
-[Title=The Video Store]
-delete-event = close
+[Type=Notebook]
+switch-page = show
 
 [Label=Actions]
 activate = select menu item 'actions'
