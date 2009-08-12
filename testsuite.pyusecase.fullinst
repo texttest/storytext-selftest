@@ -37,6 +37,3 @@ create_empty_shortcut
 
 # Check we can view the notebook pages
 view_notebook
-
-# What happens with no instrumenting and no map file?
-no_map_file

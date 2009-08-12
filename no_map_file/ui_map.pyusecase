@@ -1,0 +1,9 @@
+[Label=S_top]
+clicked = stop recording
+
+[Label=_New]
+clicked = create new shortcut
+
+[Name=Shortcut Name]
+changed = set shortcut name to
+
