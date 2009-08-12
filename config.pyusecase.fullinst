@@ -1,4 +1,7 @@
 # Path to the binary.
 executable:${TEXTTEST_HOME}/pyusecase/videostore_full_instrument.py
 
+# Don't run the command-line pyusecase
 interpreter:python
+
+import_config_file:site_config_for_fullinst
