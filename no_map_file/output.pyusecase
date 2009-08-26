@@ -21,12 +21,12 @@ Showing Movie Tree with columns: Movie Name
 'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
-'Auto.changed.Name=Movie Name' event created with arguments 'Star Wars'
+'Auto.changed.'Name=Movie Name'' event created with arguments 'Star Wars'
 Edited 'Movie Name' Text entry (set to 'Star Wars')
 
-'Auto.clicked.Label=Add' event created with arguments ''
+'Auto.clicked.'Label=Add'' event created with arguments ''
 
 Updated : Movie Tree with columns: Movie Name
 -> Star Wars
 
-'Auto.delete-event.Title=The Video Store' event created with arguments ''
+'Auto.delete-event.'Title=The Video Store'' event created with arguments ''
