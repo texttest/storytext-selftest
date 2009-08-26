@@ -38,6 +38,6 @@ Hiding the 'Sort' widget
 Hiding the 'Clear' widget
 
 'delete movie' event created with arguments ''
-ERROR: widget <gtk.Button object at 0x83c3eb4 (GtkButton at 0x8315ad8)> is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: widget 'GtkButton' is not visible at the moment, cannot simulate event 'delete movie'
 
 'close' event created with arguments ''
