@@ -1,0 +1,8 @@
+create new shortcut
+set shortcut name to Add Several
+set new movie name to Star Wars
+add movie
+set new movie name to Die Hard
+add movie
+stop recording
+close

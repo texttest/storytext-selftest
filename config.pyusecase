@@ -1,7 +1,7 @@
 # Path to the binary.
 executable:${TEXTTEST_CHECKOUT}/examples/videostore.py
 
-interpreter:python ${TEXTTEST_CHECKOUT}/pyusecase
+interpreter:python ${TEXTTEST_CHECKOUT}/pyusecase -t
 
 # Mechanism for keeping site-specific setup separate
 extra_search_directory:site
@@ -13,7 +13,6 @@ import_config_file:site_configfile
 full_name:PyUseCase
 
 [run_dependent_text]
-usecase:delete movie
 output:0x[0-9a-f]*{REPLACE <pointer value>>}
 [end]
 
@@ -28,6 +27,14 @@ copy_test_path:usecases
 
 extra_version:fullinst
 
+discard_file:usecase
+
+[definition_file_stems]
+regenerate:{CLEAR usecase}
+regenerate:nameentry_usecase
+builtin:usecase
+[end]
+
 [test_data_environment]
 usecases:USECASE_HOME
 
@@ -35,3 +42,4 @@ usecases:USECASE_HOME
 [collate_file]
 shortcut:usecases/*.shortcut
 ui_map:usecases/ui_map.conf
+recorded_usecase:usecase.pyusecase
