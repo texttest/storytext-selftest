@@ -1,0 +1,8 @@
+create new shortcut
+set shortcut name to Add Several
+Auto.Entry.changed.'Name=Movie Name' Star Wars
+Auto.Button.clicked.'Label=Add'
+Auto.Entry.changed.'Name=Movie Name' Die Hard
+Auto.Button.clicked.'Label=Add'
+stop recording
+Auto.Window.delete-event.'Title=The Video Store'

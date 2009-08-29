@@ -1,0 +1,77 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar :
+  'File' Menu :
+    'Actions' Menu :
+      'Add'
+      'Delete'
+      'Sort'
+      'Clear'
+    'Show buttons' (checked)
+    'Enable buttons' (checked)
+    'Quit'
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+'Shortcuts:' , Button '_New'
+----------------------------------------------
+
+'create new shortcut' event created with arguments ''
+Hiding the '_New' widget
+'Recording shortcut named:'
+Text entry
+Button 'S_top'
+
+'set shortcut name to' event created with arguments 'Add Several'
+Edited 'Shortcut Name' Text entry (set to 'Add Several')
+
+'Auto.Entry.changed.'Name=Movie Name'' event created with arguments 'Star Wars'
+Edited 'Movie Name' Text entry (set to 'Star Wars')
+
+'Auto.Button.clicked.'Label=Add'' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Star Wars
+
+'Auto.Entry.changed.'Name=Movie Name'' event created with arguments 'Die Hard'
+Edited 'Movie Name' Text entry (set to 'Die Hard')
+
+'Auto.Button.clicked.'Label=Add'' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Star Wars
+-> Die Hard
+
+'stop recording' event created with arguments ''
+'Shortcuts:' , Button 'Add Several'
+Button '_New'
+Hiding the 'Recording shortcut named:' widget
+Hiding the 'Shortcut Name' widget
+Hiding the 'S_top' widget
+
+'Auto.Window.delete-event.'Title=The Video Store'' event created with arguments ''
+
+---------- Window 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 4 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'Entry' | 'Name=Movie Name' | 'changed' | Text entry
+'Button' | 'Label=Add' | 'clicked' | Text entry
+'Window' | 'Title=The Video Store' | 'delete-event' | Text entry
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set new movie name to'
+Edited 'GtkEntry' Text entry (set to 'set new movie name to')
+
+'enter usecase name for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'add movie'
+Edited 'GtkEntry' Text entry (set to 'add movie')
+
+'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+'close name entry window' event created with arguments ''
