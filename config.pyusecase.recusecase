@@ -1,0 +1,5 @@
+
+interpreter:python ${TEXTTEST_CHECKOUT}/pyusecase -t -x
+
+discard_file:{CLEAR LIST}
+discard_file:recorded_usecase

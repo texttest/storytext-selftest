@@ -1,0 +1,31 @@
+select menu 'file'
+select menu item 'actions'
+set new movie name to Nisse
+select menu 'file'
+select menu item 'actions'
+select menu item 'add'
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+toggle menu item 'show buttons'
+set new movie name to Nils
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+toggle menu item 'show buttons'
+select menu 'file'
+select menu item 'actions'
+set new movie name to Nils igen
+add movie
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+close

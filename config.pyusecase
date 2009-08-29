@@ -19,13 +19,14 @@ output:0x[0-9a-f]*{REPLACE <pointer value>>}
 use_case_record_mode:GUI
 
 # Want slow motion replays, as it's a GUI
-slow_motion_replay_speed:1
+slow_motion_replay_speed:0
 
 create_catalogues:true
 
 copy_test_path:usecases
 
 extra_version:fullinst
+extra_version:nouimap
 
 discard_file:usecase
 

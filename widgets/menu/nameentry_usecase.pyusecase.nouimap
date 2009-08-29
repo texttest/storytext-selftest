@@ -1,0 +1,6 @@
+enter usecase name for signal 'activate' on MenuItem 'Label=File' = select menu 'file'
+enter usecase name for signal 'activate' on MenuItem 'Label=Actions' = select menu item 'actions'
+enter usecase name for signal 'activate' on MenuItem 'Label=Add' = select menu item 'add'
+enter usecase name for signal 'activate' on MenuItem 'Label=Sort' = select menu item 'sort'
+enter usecase name for signal 'activate' on CheckMenuItem 'Label=Show buttons' = toggle menu item 'show buttons'
+close name entry window

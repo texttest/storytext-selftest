@@ -1,5 +1,0 @@
-set new movie name to The Muppet Show
-add movie
-select menu 'file'
-select menu item 'enable buttons'
-close

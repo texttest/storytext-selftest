@@ -1,0 +1,162 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar :
+  'File' Menu :
+    'Actions' Menu :
+      'Add'
+      'Delete'
+      'Sort'
+      'Clear'
+    'Show buttons' (checked)
+    'Enable buttons' (checked)
+    'Quit'
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+'Shortcuts:' , Button '_New'
+----------------------------------------------
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'set new movie name to' event created with arguments 'Nisse'
+Edited 'Movie Name' Text entry (set to 'Nisse')
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Add'' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Nisse
+
+'set new movie name to' event created with arguments 'Basse'
+Edited 'Movie Name' Text entry (set to 'Basse')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Nisse
+-> Basse
+
+'set new movie name to' event created with arguments 'Muppe'
+Edited 'Movie Name' Text entry (set to 'Muppe')
+
+'add movie by pressing <enter>' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Nisse
+-> Basse
+-> Muppe
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Sort'' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nisse
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'Auto.CheckMenuItem.activate.'Label=Show buttons'' event created with arguments ''
+Hiding the 'Add' widget
+Hiding the 'Delete' widget
+Hiding the 'Sort' widget
+Hiding the 'Clear' widget
+
+'set new movie name to' event created with arguments 'Nils'
+Edited 'Movie Name' Text entry (set to 'Nils')
+
+'add movie by pressing <enter>' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nisse
+-> Nils
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'Auto.CheckMenuItem.activate.'Label=Show buttons'' event created with arguments ''
+Button 'Add'
+Button 'Delete'
+Button 'Sort'
+Button 'Clear'
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'set new movie name to' event created with arguments 'Nils igen'
+Edited 'Movie Name' Text entry (set to 'Nils igen')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nisse
+-> Nils
+-> Nils igen
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Sort'' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Basse
+-> Muppe
+-> Nils
+-> Nils igen
+-> Nisse
+
+'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+
+'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+'close' event created with arguments ''
+
+---------- Window 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 6 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'MenuItem' | 'Label=File' | 'activate' | Text entry
+'MenuItem' | 'Label=Actions' | 'activate' | Text entry
+'MenuItem' | 'Label=Add' | 'activate' | Text entry
+'MenuItem' | 'Label=Sort' | 'activate' | Text entry
+'CheckMenuItem' | 'Label=Show buttons' | 'activate' | Text entry
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'activate' on MenuItem 'Label=File' =' event created with arguments 'select menu 'file''
+Edited 'GtkEntry' Text entry (set to 'select menu 'file'')
+
+'enter usecase name for signal 'activate' on MenuItem 'Label=Actions' =' event created with arguments 'select menu item 'actions''
+Edited 'GtkEntry' Text entry (set to 'select menu item 'actions'')
+
+'enter usecase name for signal 'activate' on MenuItem 'Label=Add' =' event created with arguments 'select menu item 'add''
+Edited 'GtkEntry' Text entry (set to 'select menu item 'add'')
+
+'enter usecase name for signal 'activate' on MenuItem 'Label=Sort' =' event created with arguments 'select menu item 'sort''
+Edited 'GtkEntry' Text entry (set to 'select menu item 'sort'')
+
+'enter usecase name for signal 'activate' on CheckMenuItem 'Label=Show buttons' =' event created with arguments 'toggle menu item 'show buttons''
+Edited 'GtkEntry' Text entry (set to 'toggle menu item 'show buttons'')
+
+'close name entry window' event created with arguments ''

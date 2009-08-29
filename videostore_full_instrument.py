@@ -97,8 +97,8 @@ class VideoStore:
         self.scriptEngine.monitorSignal("select menu item 'Delete'", "activate", deleteItem)
         self.scriptEngine.monitorSignal("select menu item 'Sort'", "activate", sortItem)
         self.scriptEngine.monitorSignal("select menu item 'Clear'", "activate", clearItem)
-        self.scriptEngine.monitorSignal("select menu item 'Show buttons'", "activate", buttonsItem)
-        self.scriptEngine.monitorSignal("select menu item 'Enable buttons'", "activate", buttons2Item)
+        self.scriptEngine.monitorSignal("toggle menu item 'Show buttons'", "activate", buttonsItem)
+        self.scriptEngine.monitorSignal("toggle menu item 'Enable buttons'", "activate", buttons2Item)
         self.scriptEngine.monitorSignal("select menu item 'Quit'", "activate", quitItem)
         
         menuBar = gtk.MenuBar()

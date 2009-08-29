@@ -1,0 +1,6 @@
+set new movie name to The Muppet Show
+add movie
+select menu 'file'
+toggle menu item 'show buttons'
+delete movie
+close

@@ -1,0 +1,14 @@
+# Tests entering text into a text field and clicking a button
+textfield_button
+
+# Check that we can press enter in a text field
+textfield_activate
+
+# Test usage of a menubar
+menu
+
+# Check we can view the notebook pages
+view_notebook
+
+# Tests closing a dialog window
+dialog

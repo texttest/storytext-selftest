@@ -1,39 +1,5 @@
-# Tests entering text into a text field and clicking a button
-textfield_button
+# Tests for the various widgets
+widgets
 
-# Check that we can press enter in a text field
-textfield_activate
-
-# Tests closing a dialogue window
-dialogue
-
-# Test that we can create a simple shortcut that will add 2 movies
-create_shortcut
-
-# Make sure a shortcut file can be used
-use_shortcut
-
-# Test usage of a menubar
-menu
-
-# The menubar has a check menu item which makes the buttons invisible.
-# This test demonstrates the PyUseCase 'bug'/feature that invisible 
-# buttons can be pressed via usecase scripts. (the buttons are hidden,
-# but the usecase script still simulates the 'add movie' event that is
-# triggered by the 'Add' button) This shouldn't be a problem for normal 
-# usage, but can make it possible to create scripts which end up in a 
-# weird state.
-use_hidden
-
-# Same as above, buttons are disabled (not sensitive), but still visible
-use_insensitive
-
-# Same as above, but using a menu item in a non-visible submenu. This 
-# is not quite the same thing, and should probably be possible, since
-# the menu item is considered visible and sensitive even when it is not
-# currently 'rolled out'
-use_hidden_menu
-create_empty_shortcut
-
-# Check we can view the notebook pages
-view_notebook
+# Tests to do with the shortcut functionality
+shortcuts
