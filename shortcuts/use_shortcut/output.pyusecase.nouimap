@@ -42,14 +42,16 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.Window.delete-event.'Title=The Video Store'' event created with arguments ''
 
----------- Window 'Enter Usecase names for auto-recorded actions' ----------
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 2 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'Window' | 'Title=The Video Store' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
 Edited 'GtkEntry' Text entry (set to 'close')
 
-'close name entry window' event created with arguments ''
+'finish name entry editing' event created with arguments ''

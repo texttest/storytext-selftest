@@ -35,14 +35,16 @@ This is the Video Store, an example program for PyUseCase
 
 'close' event created with arguments ''
 
----------- Window 'Enter Usecase names for auto-recorded actions' ----------
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 2 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'Notebook' | 'Type=Notebook' | 'switch-page' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'switch-page' on Notebook 'Type=Notebook' =' event created with arguments 'show'
 Edited 'GtkEntry' Text entry (set to 'show')
 
-'close name entry window' event created with arguments ''
+'finish name entry editing' event created with arguments ''

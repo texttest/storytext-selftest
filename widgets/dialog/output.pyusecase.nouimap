@@ -42,14 +42,16 @@ Button 'gtk-ok' (Stock image 'gtk-ok')
 
 'close' event created with arguments ''
 
----------- Window 'Enter Usecase names for auto-recorded actions' ----------
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 2 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'Dialog' | 'Title=VideoStore Error!' | 'response.accept' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'response.accept' on Dialog 'Title=VideoStore Error!' =' event created with arguments 'accept videostore error'
 Edited 'GtkEntry' Text entry (set to 'accept videostore error')
 
-'close name entry window' event created with arguments ''
+'finish name entry editing' event created with arguments ''

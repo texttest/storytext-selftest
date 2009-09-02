@@ -133,7 +133,7 @@ Updated : Movie Tree with columns: Movie Name
 
 'close' event created with arguments ''
 
----------- Window 'Enter Usecase names for auto-recorded actions' ----------
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 6 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
@@ -142,6 +142,8 @@ Viewing table with 6 rows and 4 columns.
 'MenuItem' | 'Label=Add' | 'activate' | Text entry
 'MenuItem' | 'Label=Sort' | 'activate' | Text entry
 'CheckMenuItem' | 'Label=Show buttons' | 'activate' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'activate' on MenuItem 'Label=File' =' event created with arguments 'select menu 'file''
@@ -159,4 +161,4 @@ Edited 'GtkEntry' Text entry (set to 'select menu item 'sort'')
 'enter usecase name for signal 'activate' on CheckMenuItem 'Label=Show buttons' =' event created with arguments 'toggle menu item 'show buttons''
 Edited 'GtkEntry' Text entry (set to 'toggle menu item 'show buttons'')
 
-'close name entry window' event created with arguments ''
+'finish name entry editing' event created with arguments ''

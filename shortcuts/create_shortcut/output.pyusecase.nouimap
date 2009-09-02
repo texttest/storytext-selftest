@@ -56,13 +56,15 @@ Hiding the 'S_top' widget
 
 'Auto.Window.delete-event.'Title=The Video Store'' event created with arguments ''
 
----------- Window 'Enter Usecase names for auto-recorded actions' ----------
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 4 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'Entry' | 'Name=Movie Name' | 'changed' | Text entry
 'Button' | 'Label=Add' | 'clicked' | Text entry
 'Window' | 'Title=The Video Store' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set new movie name to'
@@ -74,4 +76,4 @@ Edited 'GtkEntry' Text entry (set to 'add movie')
 'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
 Edited 'GtkEntry' Text entry (set to 'close')
 
-'close name entry window' event created with arguments ''
+'finish name entry editing' event created with arguments ''
