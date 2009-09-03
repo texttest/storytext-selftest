@@ -1,7 +1,7 @@
 # Path to the binary.
-executable:${TEXTTEST_CHECKOUT}/examples/videostore.py
+executable:${TEXTTEST_CHECKOUT}/pyusecase
 
-interpreter:python ${TEXTTEST_CHECKOUT}/pyusecase -t
+interpreter:python
 
 # Mechanism for keeping site-specific setup separate
 extra_search_directory:site
@@ -24,6 +24,7 @@ slow_motion_replay_speed:0
 create_catalogues:true
 
 copy_test_path:usecases
+link_test_path:target_ui.py
 
 extra_version:fullinst
 extra_version:nouimap
