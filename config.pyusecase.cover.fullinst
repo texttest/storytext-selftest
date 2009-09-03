@@ -1,0 +1,4 @@
+# Don't run the command-line pyusecase
+interpreter:coverage -x
+
+import_config_file:site_config_for_fullinst_coverage
