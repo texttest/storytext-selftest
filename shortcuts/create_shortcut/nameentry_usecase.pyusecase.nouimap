@@ -1,4 +1,2 @@
-enter usecase name for signal 'changed' on Entry 'Name=Movie Name' = set new movie name to
-enter usecase name for signal 'clicked' on Button 'Label=Add' = add movie
 enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' = close
 finish name entry editing
