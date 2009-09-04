@@ -17,3 +17,6 @@ use_insensitive
 # the menu item is considered visible and sensitive even when it is not
 # currently 'rolled out'
 use_hidden_menu
+
+# Check what happens if the tab we want isn't there
+bad_notebook_tab
