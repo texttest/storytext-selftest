@@ -1,2 +1,2 @@
 # Don't run the command-line pyusecase
-executable:$TEXTTEST_HOME/pyusecase/target_ui.py.fullinst
+executable:target_ui.py
