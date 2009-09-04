@@ -1,0 +1,44 @@
+[Name=Movie Name]
+changed = set new movie name to
+activate = add movie by pressing <enter>
+
+[Label=Add]
+activate = select menu item 'add'
+clicked = add movie
+
+[Title=The Video Store]
+delete-event = close
+
+[Label=File]
+activate = select menu 'file'
+
+[Label=Actions]
+activate = select menu item 'actions'
+
+[Label=Sort]
+activate = select menu item 'sort'
+clicked = sort movies
+
+[Label=Show buttons]
+activate = toggle menu item 'show buttons'
+
+[Type=Notebook]
+switch-page = show
+
+[Label=Delete]
+activate = select menu item 'delete'
+clicked = delete movie
+
+[Label=Clear]
+activate = select menu item 'clear'
+clicked = clear list
+
+[Label=Enable buttons]
+activate = toggle menu item 'enable buttons'
+
+[Label=Quit]
+activate = select menu item 'quit'
+
+[Title=VideoStore Error!]
+response.accept = accept videostore error
+

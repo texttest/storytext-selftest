@@ -26,8 +26,9 @@ create_catalogues:true
 copy_test_path:usecases
 link_test_path:target_ui.py
 
-extra_version:fullinst
 extra_version:nouimap
+extra_version:fullinst
+extra_version:instnomap
 
 discard_file:usecase
 
