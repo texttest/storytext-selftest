@@ -1,0 +1,4 @@
+enter usecase name for signal 'toggled.true' on CheckButton 'Label=check button 1' = check first button
+enter usecase name for signal 'toggled.false' on CheckButton 'Label=check button 2' = uncheck second button
+enter usecase name for signal 'clicked' on Button 'Label=Quit' = quit
+finish name entry editing

@@ -12,3 +12,6 @@ view_notebook
 
 # Tests closing a dialog window
 dialog
+
+# Test for gtk.CheckButtons
+check_button

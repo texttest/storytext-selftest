@@ -1,0 +1,3 @@
+Auto.CheckButton.toggled.true.'Label=check button 1'
+Auto.CheckButton.toggled.false.'Label=check button 2'
+Auto.Button.clicked.'Label=Quit'

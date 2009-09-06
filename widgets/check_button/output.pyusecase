@@ -1,0 +1,17 @@
+
+---------- Window 'Check Button' ----------
+Focus widget is 'check button 1'
+Check button 'check button 1'
+Check button 'check button 2' (checked)
+Button 'Quit'
+-------------------------------------------
+
+'check first button' event created with arguments ''
+check button 1 was toggled ON
+Toggled Check button 'check button 1' (checked)
+
+'uncheck second button' event created with arguments ''
+check button 2 was toggled OFF
+Toggled Check button 'check button 2'
+
+'quit' event created with arguments ''
