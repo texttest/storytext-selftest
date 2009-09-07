@@ -6,3 +6,6 @@ shortcuts
 
 # Various actions that shouldn't be allowed...
 error_handling
+
+# Tests for console aspect of PyUseCase - i.e. app events and signals
+console

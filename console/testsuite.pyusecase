@@ -1,0 +1,2 @@
+# Check we can do a simple application event and record/replay a signal
+wait_and_signal
