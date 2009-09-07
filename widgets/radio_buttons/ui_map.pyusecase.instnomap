@@ -1,0 +1,15 @@
+[Type=Window]
+delete-event = close application
+
+[Label=radio button1]
+toggled.true = check first button
+
+[Label=radio button2]
+toggled.true = check second button
+
+[Label=radio button3]
+toggled.true = check third button
+
+[Label=close]
+clicked = close
+

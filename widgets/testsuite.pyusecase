@@ -15,3 +15,6 @@ dialog
 
 # Test for gtk.CheckButtons
 check_button
+
+# Check we handle radio buttons correctly, i.e. don't create uncheck events
+radio_buttons

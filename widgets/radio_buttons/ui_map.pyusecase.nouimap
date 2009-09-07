@@ -1,0 +1,6 @@
+[Label=radio button3]
+toggled.true = check third button
+
+[Title=radio buttons]
+delete-event = close application
+

@@ -1,0 +1,19 @@
+radio button 1 was toggled OFF
+radio button 2 was toggled ON
+
+---------- Window 'radio buttons' ----------
+Default widget is 'close'
+Radio button 'radio button1'
+Radio button 'radio button2' (checked)
+Radio button 'radio button3'
+---------------
+Button 'close'
+--------------------------------------------
+
+'check third button' event created with arguments ''
+radio button 2 was toggled OFF
+radio button 3 was toggled ON
+Toggled Radio button 'radio button2'
+Toggled Radio button 'radio button3' (checked)
+
+'close application' event created with arguments ''
