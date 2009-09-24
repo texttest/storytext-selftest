@@ -18,3 +18,6 @@ check_button
 
 # Check we handle radio buttons correctly, i.e. don't create uncheck events
 radio_buttons
+
+# Test for demonstration of paned windows (gtk.VPaned)
+paned_window

@@ -1,0 +1,2 @@
+Auto.VPaned.notify::position.'Type=VPaned' 50% of the space
+Auto.Window.delete-event.'Title=Paned Windows'

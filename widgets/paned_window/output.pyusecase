@@ -1,0 +1,33 @@
+
+---------- Window 'Paned Windows' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Messages
+-> Message #0
+-> Message #1
+-> Message #2
+-> Message #3
+-> Message #4
+-> Message #5
+-> Message #6
+-> Message #7
+-> Message #8
+-> Message #9
+
+------------------------------ (horizontal pane separator, 19% from the top)
+
+========== GtkTextView ==========
+From: pathfinder@nasa.gov
+To: mom@nasa.gov
+Subject: Made it!
+
+We just got in this morning. The weather has been
+great - clear but cold, and there are lots of fun sights.
+Sojourner says hi. See you soon.
+ -Path
+=================================
+--------------------------------------------
+
+'drag pane separator so message list uses' event created with arguments '50% of the space'
+
+'close application' event created with arguments ''

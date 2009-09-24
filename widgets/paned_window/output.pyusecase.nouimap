@@ -1,0 +1,51 @@
+
+---------- Window 'Paned Windows' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Messages
+-> Message #0
+-> Message #1
+-> Message #2
+-> Message #3
+-> Message #4
+-> Message #5
+-> Message #6
+-> Message #7
+-> Message #8
+-> Message #9
+
+------------------------------ (horizontal pane separator, 19% from the top)
+
+========== GtkTextView ==========
+From: pathfinder@nasa.gov
+To: mom@nasa.gov
+Subject: Made it!
+
+We just got in this morning. The weather has been
+great - clear but cold, and there are lots of fun sights.
+Sojourner says hi. See you soon.
+ -Path
+=================================
+--------------------------------------------
+
+'Auto.VPaned.notify::position.'Type=VPaned'' event created with arguments '50% of the space'
+
+'Auto.Window.delete-event.'Title=Paned Windows'' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 3 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'VPaned' | 'Type=VPaned' | 'notify::position' | Text entry
+'Window' | 'Title=Paned Windows' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'notify::position' on VPaned 'Type=VPaned' =' event created with arguments 'drag pane separator so message list uses'
+Edited 'GtkEntry' Text entry (set to 'drag pane separator so message list uses')
+
+'enter usecase name for signal 'delete-event' on Window 'Title=Paned Windows' =' event created with arguments 'close application'
+Edited 'GtkEntry' Text entry (set to 'close application')
+
+'finish name entry editing' event created with arguments ''
