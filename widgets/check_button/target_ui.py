@@ -4,7 +4,7 @@
 
 import pygtk
 pygtk.require('2.0')
-import gtk, logging, sys
+import gtk
 
 class CheckButton:
     # Our callback.
@@ -20,7 +20,6 @@ class CheckButton:
     def __init__(self):
         # Create a new window
         self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
-        logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
         
         # Set the window title
         self.window.set_title("Check Button")

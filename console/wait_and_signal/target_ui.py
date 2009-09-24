@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from usecase import ScriptEngine
-import logging, time, sys
+from usecase import applicationEvent
+import time
 
 def sleep(length):
     try:
@@ -9,8 +9,6 @@ def sleep(length):
     except KeyboardInterrupt:
         print "Interrupted while sleeping for", length, "seconds."
 
-logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-engine = ScriptEngine()
 sleep(0.5)
-engine.applicationEvent("first sleep to complete")
+applicationEvent("first sleep to complete")
 sleep(5)

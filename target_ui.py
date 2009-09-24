@@ -7,15 +7,10 @@
 #  (d) menus
 #  (e) notebooks
 
-# Has universal logging enabled, via the first line, printed on standard output
-
-# Also illustrates an idiom for making sure nothing happens if PyUseCase isn't available.
-
-import gtk, gobject, logging, sys
+import gtk, gobject
 
 class VideoStore:
     def __init__(self):
-        logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
         self.model = gtk.ListStore(gobject.TYPE_STRING)
         self.nameEntry = gtk.Entry()
         self.nameEntry.set_name("Movie Name")

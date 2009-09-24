@@ -4,7 +4,7 @@
 
 import pygtk
 pygtk.require('2.0')
-import gtk, logging, sys
+import gtk
 
 class RadioButtons:
     def callback(self, widget, data=None):
@@ -15,7 +15,6 @@ class RadioButtons:
         return False
 
     def __init__(self):
-        logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
         self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
   
         self.window.connect("delete_event", self.close_application)
