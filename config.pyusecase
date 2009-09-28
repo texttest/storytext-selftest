@@ -13,7 +13,7 @@ import_config_file:site_configfile
 full_name:PyUseCase
 
 [run_dependent_text]
-output:0x[0-9a-f]*{REPLACE <pointer value>>}
+output:pane separator, [0-9]*{REPLACE pane separator, <pos>} 
 [end]
 
 use_case_record_mode:GUI
