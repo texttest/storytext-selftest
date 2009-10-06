@@ -13,6 +13,8 @@ import_config_file:site_configfile
 full_name:PyUseCase
 
 [run_dependent_text]
+output:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
+output:[A-z]{3} *[A-z]{3} *[0-9]* *[0-9]{2}:[0-9]{2}:[0-9]{2} *[0-9]{4}{REPLACE <date/time>}
 output:pane separator, [0-9]*{REPLACE pane separator, <pos>} 
 [end]
 
@@ -24,6 +26,7 @@ slow_motion_replay_speed:0
 create_catalogues:true
 
 copy_test_path:usecases
+copy_test_path:sampledir
 link_test_path:target_ui.py
 
 extra_version:nouimap

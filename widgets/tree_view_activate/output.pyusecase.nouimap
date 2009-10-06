@@ -1,0 +1,38 @@
+
+---------- Window '/home/geoff/.texttest/tmp/pyusecase.05Oct224655.9153/pyusecase.nouimap/widgets/tree_view_activate/sampledir' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
+-> Image 'Number 1' | .. | 4096 | 0755 | Mon Oct  5 22:46:56 2009
+-> Image 'Number 2' | file1.txt | 6 | 0664 | Mon Oct  5 22:20:34 2009
+-> Image 'Number 2' | file2.txt | 5 | 0664 | Mon Oct  5 22:20:41 2009
+-> Image 'Number 1' | subdir | 4096 | 0755 | Mon Oct  5 22:20:57 2009
+----------------------------------------------------------------------------------------------------
+
+'Auto.TreeView.row-activated.'Type=TreeView'' event created with arguments 'subdir'
+
+Changing title for Window '/home/geoff/.texttest/tmp/pyusecase.05Oct224655.9153/pyusecase.nouimap/widgets/tree_view_activate/sampledir/subdir'
+
+Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
+-> Image 'Number 1' | .. | 4096 | 0755 | Mon Oct  5 22:20:45 2009
+-> Image 'Number 2' | file.txt | 1 | 0664 | Mon Oct  5 22:20:57 2009
+
+'Auto.Window.delete-event.'Name=File-listing Window'' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 3 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'TreeView' | 'Type=TreeView' | 'row-activated' | Text entry
+'Window' | 'Name=File-listing Window' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'row-activated' on TreeView 'Type=TreeView' =' event created with arguments 'select file'
+Edited 'GtkEntry' Text entry (set to 'select file')
+
+'enter usecase name for signal 'delete-event' on Window 'Name=File-listing Window' =' event created with arguments 'close application'
+Edited 'GtkEntry' Text entry (set to 'close application')
+
+'finish name entry editing' event created with arguments ''

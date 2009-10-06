@@ -21,3 +21,7 @@ radio_buttons
 
 # Test for demonstration of paned windows (gtk.VPaned)
 paned_window
+
+# Test for a tree view with activation by double-clicking the rows
+# uses set_cell_data_func which we can't handle right now...
+tree_view_activate

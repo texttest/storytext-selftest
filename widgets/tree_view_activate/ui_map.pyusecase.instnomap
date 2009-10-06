@@ -1,0 +1,6 @@
+[Name=File-listing Window]
+delete-event = close application
+
+[Type=TreeView]
+row-activated = select file
+
