@@ -1,0 +1,11 @@
+
+---------- Window 'TreeViewColumn Example' ----------
+Focus widget is 'GtkButton'
+
+Showing GtkTreeView with columns: Pixbuf and Text , Text Only
+-> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File (pink)
+-> Stock image 'gtk-new' (yellow) | New (cyan) | New File (pink)
+-> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File
+-----------------------------------------------------
+
+'close application' event created with arguments ''

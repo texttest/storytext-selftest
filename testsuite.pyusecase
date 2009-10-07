@@ -1,6 +1,9 @@
 # Tests for the various widgets
 widgets
 
+# Suite for tests which are only trying to test the auto-logging and not replaying
+auto_logging
+
 # Tests to do with the shortcut functionality
 shortcuts
 
