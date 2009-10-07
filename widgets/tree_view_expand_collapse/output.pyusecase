@@ -1,0 +1,48 @@
+
+---------- Window 'Basic TreeView Example' ----------
+Focus widget is 'GtkButton'
+
+Showing GtkTreeView with columns: Column 0
+-> parent 0
+-> parent 1
+-> parent 2
+-> parent 3
+-----------------------------------------------------
+
+'show children for' event created with arguments 'parent 0'
+
+Expanded row in GtkTreeView with columns: Column 0
+-> parent 0
+->   child 0 of parent 0
+->   child 1 of parent 0
+->   child 2 of parent 0
+-> parent 1
+-> parent 2
+-> parent 3
+
+'show children for' event created with arguments 'parent 2'
+
+Expanded row in GtkTreeView with columns: Column 0
+-> parent 0
+->   child 0 of parent 0
+->   child 1 of parent 0
+->   child 2 of parent 0
+-> parent 1
+-> parent 2
+->   child 0 of parent 2
+->   child 1 of parent 2
+->   child 2 of parent 2
+-> parent 3
+
+'hide children for' event created with arguments 'parent 0'
+
+Collapsed row in GtkTreeView with columns: Column 0
+-> parent 0
+-> parent 1
+-> parent 2
+->   child 0 of parent 2
+->   child 1 of parent 2
+->   child 2 of parent 2
+-> parent 3
+
+'close application' event created with arguments ''

@@ -1,0 +1,70 @@
+
+---------- Window 'Basic TreeView Example' ----------
+Focus widget is 'GtkButton'
+
+Showing GtkTreeView with columns: Column 0
+-> parent 0
+-> parent 1
+-> parent 2
+-> parent 3
+-----------------------------------------------------
+
+'Auto.TreeView.row-expanded.'Type=TreeView'' event created with arguments 'parent 0'
+
+Expanded row in GtkTreeView with columns: Column 0
+-> parent 0
+->   child 0 of parent 0
+->   child 1 of parent 0
+->   child 2 of parent 0
+-> parent 1
+-> parent 2
+-> parent 3
+
+'Auto.TreeView.row-expanded.'Type=TreeView'' event created with arguments 'parent 2'
+
+Expanded row in GtkTreeView with columns: Column 0
+-> parent 0
+->   child 0 of parent 0
+->   child 1 of parent 0
+->   child 2 of parent 0
+-> parent 1
+-> parent 2
+->   child 0 of parent 2
+->   child 1 of parent 2
+->   child 2 of parent 2
+-> parent 3
+
+'Auto.TreeView.row-collapsed.'Type=TreeView'' event created with arguments 'parent 0'
+
+Collapsed row in GtkTreeView with columns: Column 0
+-> parent 0
+-> parent 1
+-> parent 2
+->   child 0 of parent 2
+->   child 1 of parent 2
+->   child 2 of parent 2
+-> parent 3
+
+'Auto.Window.delete-event.'Title=Basic TreeView Example'' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 4 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'TreeView' | 'Type=TreeView' | 'row-expanded' | Text entry
+'TreeView' | 'Type=TreeView' | 'row-collapsed' | Text entry
+'Window' | 'Title=Basic TreeView Example' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' =' event created with arguments 'show children for'
+Edited 'GtkEntry' Text entry (set to 'show children for')
+
+'enter usecase name for signal 'row-collapsed' on TreeView 'Type=TreeView' =' event created with arguments 'hide children for'
+Edited 'GtkEntry' Text entry (set to 'hide children for')
+
+'enter usecase name for signal 'delete-event' on Window 'Title=Basic TreeView Example' =' event created with arguments 'close application'
+Edited 'GtkEntry' Text entry (set to 'close application')
+
+'finish name entry editing' event created with arguments ''

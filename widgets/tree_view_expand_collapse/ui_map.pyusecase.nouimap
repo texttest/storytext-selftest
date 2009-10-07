@@ -1,0 +1,7 @@
+[Type=TreeView]
+row-collapsed = hide children for
+row-expanded = show children for
+
+[Title=Basic TreeView Example]
+delete-event = close application
+

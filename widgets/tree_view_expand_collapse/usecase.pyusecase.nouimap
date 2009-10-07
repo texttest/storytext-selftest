@@ -1,0 +1,4 @@
+Auto.TreeView.row-expanded.'Type=TreeView' parent 0
+Auto.TreeView.row-expanded.'Type=TreeView' parent 2
+Auto.TreeView.row-collapsed.'Type=TreeView' parent 0
+Auto.Window.delete-event.'Title=Basic TreeView Example'
