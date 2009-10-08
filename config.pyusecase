@@ -21,7 +21,7 @@ output:pane separator, [0-9]*{REPLACE pane separator, <pos>}
 use_case_record_mode:GUI
 
 # Want slow motion replays, as it's a GUI
-slow_motion_replay_speed:0
+slow_motion_replay_speed:3
 
 create_catalogues:true
 
