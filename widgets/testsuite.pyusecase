@@ -28,3 +28,6 @@ tree_view_activate
 
 # Check we can handle expansion and collapse in a treeview
 tree_view_expand_collapse
+
+# Check we can handle toggling cell renderers in tree_views
+cell_renderer_toggle

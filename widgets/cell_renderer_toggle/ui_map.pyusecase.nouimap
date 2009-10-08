@@ -1,0 +1,7 @@
+[Type=TreeView]
+row-expanded = show reminders for
+toggled.complete = toggle completed status for
+
+[Title=CellRenderer Example]
+delete-event = close application
+
