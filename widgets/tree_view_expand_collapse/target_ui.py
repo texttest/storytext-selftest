@@ -30,8 +30,7 @@ class BasicTreeViewExample:
         for parent in range(4):
             piter = self.treestore.append(None, ['parent %i' % parent])
             for child in range(3):
-                self.treestore.append(piter, ['child %i of parent %i' %
-                                              (child, parent)])
+                self.treestore.append(piter, ['child %i' % child ])
 
         # create the TreeView using treestore
         self.treeview = gtk.TreeView(self.treestore)
