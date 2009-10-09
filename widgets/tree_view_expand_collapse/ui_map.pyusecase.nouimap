@@ -1,6 +1,7 @@
 [Type=TreeView]
-row-collapsed = hide children for
+changed.selection = select row
 row-expanded = show children for
+row-collapsed = hide children for
 
 [Title=Basic TreeView Example]
 delete-event = close application

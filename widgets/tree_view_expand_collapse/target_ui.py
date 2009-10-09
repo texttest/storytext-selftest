@@ -53,6 +53,8 @@ class BasicTreeViewExample:
 
         # make it searchable
         self.treeview.set_search_column(0)
+        self.treeview.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
+        self.treeview.get_selection().connect("changed", self.selectionChanged)
 
         # Allow sorting on the column
         self.tvcolumn.set_sort_column_id(0)
@@ -63,6 +65,10 @@ class BasicTreeViewExample:
         self.window.add(self.treeview)
 
         self.window.show_all()
+
+    def selectionChanged(self, selection, *args):
+        print "There are now", selection.count_selected_rows(), "rows selected."
+        
 
 def main():
     gtk.main()
