@@ -28,6 +28,20 @@ Sojourner says hi. See you soon.
 =================================
 --------------------------------------------
 
+'select message' event created with arguments 'Message #1'
+
+========== GtkTextView ==========
+Now Showing:
+Message #1
+=================================
+
 'drag pane separator so message list uses' event created with arguments '50% of the space'
+
+'select message' event created with arguments 'Message #5'
+
+========== GtkTextView ==========
+Now Showing:
+Message #5
+=================================
 
 'close application' event created with arguments ''

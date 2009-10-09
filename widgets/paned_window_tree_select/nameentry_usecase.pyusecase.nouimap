@@ -1,3 +1,4 @@
 enter usecase name for signal 'notify::position' on VPaned 'Type=VPaned' = drag pane separator so message list uses
+enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' = select message
 enter usecase name for signal 'delete-event' on Window 'Title=Paned Windows' = close application
 finish name entry editing

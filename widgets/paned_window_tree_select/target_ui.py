@@ -27,9 +27,17 @@ class PanedExample:
         cell = gtk.CellRendererText()
         column = gtk.TreeViewColumn("Messages", cell, text=0)
         tree_view.append_column(column)
+        tree_view.get_selection().connect("changed", self.selection_changed)
 
         return scrolled_window
    
+    def selection_changed(self, selection, *args):
+        selection.selected_foreach(self.set_text)
+
+    def set_text(self, model, path, iter):
+        messageText = "Now Showing:\n" + model.get_value(iter, 0) + "\n"
+        self.buffer.set_text(messageText)
+
     # Add some text to our text widget - this is a callback that is invoked
     # when our window is realized. We could also force our window to be
     # realized with GtkWidget.realize, but it would have to be part of a
@@ -49,11 +57,11 @@ class PanedExample:
     # Create a scrolled text area that displays a "message"
     def create_text(self):
         view = gtk.TextView()
-        buffer = view.get_buffer()
+        self.buffer = view.get_buffer()
         scrolled_window = gtk.ScrolledWindow()
         scrolled_window.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
         scrolled_window.add(view)
-        self.insert_text(buffer)
+        self.insert_text(self.buffer)
         scrolled_window.show_all()
         return scrolled_window
    

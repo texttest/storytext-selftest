@@ -1,3 +1,6 @@
+[Type=TreeView]
+changed.selection = select message
+
 [Type=VPaned]
 notify-position = drag pane separator so message list uses
 

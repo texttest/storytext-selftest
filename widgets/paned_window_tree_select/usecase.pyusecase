@@ -1,2 +1,4 @@
+select message Message #1
 drag pane separator so message list uses 50% of the space
+select message Message #5
 close application
