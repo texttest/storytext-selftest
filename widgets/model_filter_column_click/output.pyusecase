@@ -1,0 +1,95 @@
+
+---------- Window 'TreeModelFilter Example' ----------
+Focus widget is 'GtkButton'
+
+Showing GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 121339 | RESO | dsextras.py installation directory is incorrect
+-> 122569 | NEW | gtk.Window derived class segfaults
+-> 123014 | NEW | PyGtk build problem on Win32 using the 'distutils' approach.
+-> 123037 | NEW | gtk.ListStore.set_column_types is missing
+-> 123456 | RESO | ItemFactory.create_items and <ImageItem> bug
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+-> 138619 | UNCO | codegen/definitions.py could use some refactoring
+-> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+Toggle button 'NEW' (depressed) , Toggle button 'RESO' (depressed) , Toggle button 'NEED' (depressed) , Toggle button 'VERI' (depressed) , Toggle button 'UNCO' (depressed)
+------------------------------------------------------
+
+'hide bugs with state new' event created with arguments ''
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 121339 | RESO | dsextras.py installation directory is incorrect
+-> 123456 | RESO | ItemFactory.create_items and <ImageItem> bug
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+-> 138619 | UNCO | codegen/definitions.py could use some refactoring
+-> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+Toggled Toggle button 'NEW'
+
+'sort bugs by description' event created with arguments ''
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 123456 | RESO | ItemFactory.create_items and <ImageItem> bug
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 138619 | UNCO | codegen/definitions.py could use some refactoring
+-> 121339 | RESO | dsextras.py installation directory is incorrect
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+
+'sort bugs by status' event created with arguments ''
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 123456 | RESO | ItemFactory.create_items and <ImageItem> bug
+-> 121339 | RESO | dsextras.py installation directory is incorrect
+-> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 138619 | UNCO | codegen/definitions.py could use some refactoring
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+
+'hide bugs with state reso' event created with arguments ''
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 138619 | UNCO | codegen/definitions.py could use some refactoring
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+Toggled Toggle button 'RESO'
+
+'hide bugs with state unco' event created with arguments ''
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+Toggled Toggle button 'UNCO'
+
+'show bugs with state new' event created with arguments ''
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 123014 | NEW | PyGtk build problem on Win32 using the 'distutils' approach.
+-> 123037 | NEW | gtk.ListStore.set_column_types is missing
+-> 122569 | NEW | gtk.Window derived class segfaults
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+Toggled Toggle button 'NEW' (depressed)
+
+'sort bugs by bug no.' event created with arguments ''
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 122569 | NEW | gtk.Window derived class segfaults
+-> 123014 | NEW | PyGtk build problem on Win32 using the 'distutils' approach.
+-> 123037 | NEW | gtk.ListStore.set_column_types is missing
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+
+'close application' event created with arguments ''
