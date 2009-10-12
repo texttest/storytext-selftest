@@ -9,7 +9,7 @@ Showing GtkTreeView with columns: Name , Complete
 -> Watch some tv | Check box
 ---------------------------------------------------
 
-'toggle completed status for' event created with arguments 'Buy groceries'
+'complete task' event created with arguments 'Buy groceries'
 Toggle 'Buy groceries' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -27,7 +27,7 @@ Expanded row in GtkTreeView with columns: Name , Complete
 ->   Turn on the client but leave the server | Check box
 -> Watch some tv | Check box
 
-'toggle completed status for' event created with arguments 'Turn on the client but leave the server'
+'complete task' event created with arguments 'Turn on the client but leave the server'
 Toggle 'Turn on the client but leave the server' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -37,7 +37,7 @@ Updated : GtkTreeView with columns: Name , Complete
 ->   Turn on the client but leave the server | Check box (checked)
 -> Watch some tv | Check box
 
-'toggle completed status for' event created with arguments 'Buy groceries'
+'reopen task' event created with arguments 'Buy groceries'
 Toggle 'Buy groceries' to: False
 
 Updated : GtkTreeView with columns: Name , Complete

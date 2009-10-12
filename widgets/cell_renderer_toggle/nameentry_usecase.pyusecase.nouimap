@@ -1,4 +1,5 @@
-enter usecase name for signal 'toggled.complete' on TreeView 'Type=TreeView' = toggle completed status for
+enter usecase name for signal 'toggled.complete.true' on TreeView 'Type=TreeView' = complete task
 enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' = show reminders for
+enter usecase name for signal 'toggled.complete.false' on TreeView 'Type=TreeView' = reopen task
 enter usecase name for signal 'delete-event' on Window 'Title=CellRenderer Example' = close application
 finish name entry editing

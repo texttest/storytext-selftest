@@ -9,7 +9,7 @@ Showing GtkTreeView with columns: Name , Complete
 -> Watch some tv | Check box
 ---------------------------------------------------
 
-'Auto.TreeView.toggled.complete.'Type=TreeView'' event created with arguments 'Buy groceries'
+'Auto.TreeView.toggled.complete.true.'Type=TreeView'' event created with arguments 'Buy groceries'
 Toggle 'Buy groceries' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -27,7 +27,7 @@ Expanded row in GtkTreeView with columns: Name , Complete
 ->   Turn on the client but leave the server | Check box
 -> Watch some tv | Check box
 
-'Auto.TreeView.toggled.complete.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server'
+'Auto.TreeView.toggled.complete.true.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server'
 Toggle 'Turn on the client but leave the server' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -37,7 +37,7 @@ Updated : GtkTreeView with columns: Name , Complete
 ->   Turn on the client but leave the server | Check box (checked)
 -> Watch some tv | Check box
 
-'Auto.TreeView.toggled.complete.'Type=TreeView'' event created with arguments 'Buy groceries'
+'Auto.TreeView.toggled.complete.false.'Type=TreeView'' event created with arguments 'Buy groceries'
 Toggle 'Buy groceries' to: False
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -51,20 +51,24 @@ Updated : GtkTreeView with columns: Name , Complete
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-Viewing table with 4 rows and 4 columns.
+Viewing table with 5 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
-'TreeView' | 'Type=TreeView' | 'toggled.complete' | Text entry
+'TreeView' | 'Type=TreeView' | 'toggled.complete.true' | Text entry
 'TreeView' | 'Type=TreeView' | 'row-expanded' | Text entry
+'TreeView' | 'Type=TreeView' | 'toggled.complete.false' | Text entry
 'Window' | 'Title=CellRenderer Example' | 'delete-event' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
-'enter usecase name for signal 'toggled.complete' on TreeView 'Type=TreeView' =' event created with arguments 'toggle completed status for'
-Edited 'GtkEntry' Text entry (set to 'toggle completed status for')
+'enter usecase name for signal 'toggled.complete.true' on TreeView 'Type=TreeView' =' event created with arguments 'complete task'
+Edited 'GtkEntry' Text entry (set to 'complete task')
 
 'enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' =' event created with arguments 'show reminders for'
 Edited 'GtkEntry' Text entry (set to 'show reminders for')
+
+'enter usecase name for signal 'toggled.complete.false' on TreeView 'Type=TreeView' =' event created with arguments 'reopen task'
+Edited 'GtkEntry' Text entry (set to 'reopen task')
 
 'enter usecase name for signal 'delete-event' on Window 'Title=CellRenderer Example' =' event created with arguments 'close application'
 Edited 'GtkEntry' Text entry (set to 'close application')

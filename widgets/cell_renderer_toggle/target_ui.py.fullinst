@@ -90,7 +90,7 @@ class DisplayModel:
         self.view.append_column( self.column0 )
         self.view.append_column( self.column1 )
         
-        scriptEngine.registerCellToggleButton(self.renderer1, "toggle completed status for", self.view)
+        scriptEngine.registerCellToggleButton(self.renderer1, "complete task", self.view, "reopen task")
         scriptEngine.monitorExpansion(self.view, "show reminders for", "hide reminders for")
         
         return self.view
