@@ -78,8 +78,9 @@ class TreeModelFilterExample:
             self.treeview.columns[n].set_attributes(
                 self.treeview.columns[n].cell, text=n)
             self.treeview.columns[n].set_clickable(True)
-            scriptEngine.connect("sort bugs by " + self.treeview.columns[n].get_title(), "clicked", 
-                                 self.treeview.columns[n], self.column_clicked, self.treeview)
+            self.treeview.columns[n].connect("clicked", self.column_clicked)
+            scriptEngine.monitorSignal("sort bugs by " + self.treeview.columns[n].get_title(), "clicked", 
+                                       self.treeview, self.treeview.columns[n])
 
         # make treeview searchable
         self.treeview.set_search_column(3)
