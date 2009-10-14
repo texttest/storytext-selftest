@@ -3,36 +3,36 @@
 Focus widget is 'GtkButton'
 
 Showing GtkTreeView with columns: Column 0
--> parent 0
--> parent 1
--> parent 2
--> parent 3
+-> parent 0 (bold)
+-> parent 1 (bold)
+-> parent 2 (bold)
+-> parent 3 (bold)
 -----------------------------------------------------
 
 'show children for' event created with arguments 'parent 0'
 
 Expanded row in GtkTreeView with columns: Column 0
--> parent 0
-->   child 0
-->   child 1
-->   child 2
--> parent 1
--> parent 2
--> parent 3
+-> parent 0 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 1 (bold)
+-> parent 2 (bold)
+-> parent 3 (bold)
 
 'show children for' event created with arguments 'parent 2'
 
 Expanded row in GtkTreeView with columns: Column 0
--> parent 0
-->   child 0
-->   child 1
-->   child 2
--> parent 1
--> parent 2
-->   child 0
-->   child 1
-->   child 2
--> parent 3
+-> parent 0 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 1 (bold)
+-> parent 2 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 3 (bold)
 
 'select row' event created with arguments 'child 0 under parent 2,child 2 under parent 0'
 There are now 1 rows selected.
@@ -41,33 +41,33 @@ There are now 2 rows selected.
 'show children for' event created with arguments 'parent 1'
 
 Expanded row in GtkTreeView with columns: Column 0
--> parent 0
-->   child 0
-->   child 1
-->   child 2
--> parent 1
-->   child 0
-->   child 1
-->   child 2
--> parent 2
-->   child 0
-->   child 1
-->   child 2
--> parent 3
+-> parent 0 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 1 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 2 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 3 (bold)
 
 'hide children for' event created with arguments 'parent 0'
 There are now 1 rows selected.
 
 Collapsed row in GtkTreeView with columns: Column 0
--> parent 0
--> parent 1
-->   child 0
-->   child 1
-->   child 2
--> parent 2
-->   child 0
-->   child 1
-->   child 2
--> parent 3
+-> parent 0 (bold)
+-> parent 1 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 2 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 3 (bold)
 
 'close application' event created with arguments ''

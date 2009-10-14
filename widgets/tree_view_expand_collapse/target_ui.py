@@ -24,13 +24,13 @@ class BasicTreeViewExample:
         self.window.connect("delete_event", self.delete_event)
 
         # create a TreeStore with one string column to use as the model
-        self.treestore = gtk.TreeStore(str)
+        self.treestore = gtk.TreeStore(str, str)
 
         # we'll add some data now - 4 rows with 3 child rows each
         for parent in range(4):
-            piter = self.treestore.append(None, ['parent %i' % parent])
+            piter = self.treestore.append(None, ['parent %i' % parent, "bold"])
             for child in range(3):
-                self.treestore.append(piter, ['child %i' % child ])
+                self.treestore.append(piter, ["<span foreground='red'>child %i" % child + "</span>", "" ])
 
         # create the TreeView using treestore
         self.treeview = gtk.TreeView(self.treestore)
@@ -47,9 +47,10 @@ class BasicTreeViewExample:
         # add the cell to the tvcolumn and allow it to expand
         self.tvcolumn.pack_start(self.cell, True)
 
-        # set the cell "text" attribute to column 0 - retrieve text
+        # set the cell "markup" attribute to column 0 - retrieve marked-up text
         # from that column in treestore
-        self.tvcolumn.add_attribute(self.cell, 'text', 0)
+        self.tvcolumn.add_attribute(self.cell, 'markup', 0)
+        self.tvcolumn.add_attribute(self.cell, 'font', 1)
 
         # make it searchable
         self.treeview.set_search_column(0)
