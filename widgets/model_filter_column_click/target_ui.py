@@ -36,7 +36,9 @@ class TreeModelFilterExample:
         self.window.connect("delete_event", self.delete_event)
 
         # create a liststore with one string column to use as the model
-        self.liststore = gtk.ListStore(int, str, str)
+        # Put the model in reverse order just to try and confuse PyUseCase,
+        # which once assumed the view could always be indexed via column 0...
+        self.liststore = gtk.ListStore(str, str, int)
 
         self.modelfilter = self.liststore.filter_new()
 
@@ -53,7 +55,7 @@ class TreeModelFilterExample:
         self.states = []
         for line in bugdata.split('\n'):
             l = line.split()
-            self.liststore.append([int(l[0]), l[1], ' '.join(l[2:])])
+            self.liststore.append([' '.join(l[2:]), l[1], int(l[0])])
             if not l[1] in self.states:
                 self.states.append(l[1])
 
@@ -72,7 +74,7 @@ class TreeModelFilterExample:
                                                 True)
             # set the cell attributes to the appropriate liststore column
             self.treeview.columns[n].set_attributes(
-                self.treeview.columns[n].cell, text=n)
+                self.treeview.columns[n].cell, text=2 - n)
             self.treeview.columns[n].set_clickable(True)
             self.treeview.columns[n].connect("clicked", self.column_clicked)
 
@@ -97,7 +99,10 @@ class TreeModelFilterExample:
         self.window.add(self.vbox)
 
         self.window.show_all()
-        return
+        self.treeview.get_selection().connect("changed", self.selectionChanged)
+
+    def selectionChanged(self, selection, *args):
+        print "There are now", selection.count_selected_rows(), "rows selected."
 
     def column_clicked(self, column):
         ix = self.treeview.columns.index(column)
@@ -114,7 +119,7 @@ class TreeModelFilterExample:
 
     def collect_column_data(self, model, path, iter, userdata):
         ix, column_data = userdata
-        column_data.append(model.get_value(iter, ix))
+        column_data.append(model.get_value(iter, 2 - ix))
 
     # visibility determined by state matching active toggle buttons
     def visible_cb(self, model, iter, data):

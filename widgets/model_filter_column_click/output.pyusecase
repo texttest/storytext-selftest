@@ -51,6 +51,9 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
+'select bug' event created with arguments '123458'
+There are now 1 rows selected.
+
 'hide bugs with state reso' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description

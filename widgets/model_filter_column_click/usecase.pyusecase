@@ -1,6 +1,7 @@
 hide bugs with state new
 sort bugs by description
 sort bugs by status
+select bug 123458
 hide bugs with state reso
 hide bugs with state unco
 show bugs with state new

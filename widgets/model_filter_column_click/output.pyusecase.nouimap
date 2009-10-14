@@ -51,6 +51,9 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
+'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments '123458'
+There are now 1 rows selected.
+
 'Auto.ToggleButton.toggled.false.'Label=RESO'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
@@ -96,11 +99,12 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-Viewing table with 9 rows and 4 columns.
+Viewing table with 10 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'ToggleButton' | 'Label=NEW' | 'toggled.false' | Text entry
 'TreeView' | 'Type=TreeView' | 'clicked.description' | Text entry
 'TreeView' | 'Type=TreeView' | 'clicked.status' | Text entry
+'TreeView' | 'Type=TreeView' | 'changed.selection' | Text entry
 'ToggleButton' | 'Label=RESO' | 'toggled.false' | Text entry
 'ToggleButton' | 'Label=UNCO' | 'toggled.false' | Text entry
 'ToggleButton' | 'Label=NEW' | 'toggled.true' | Text entry
@@ -133,5 +137,8 @@ Edited 'GtkEntry' Text entry (set to 'sort bugs by bug no.')
 
 'enter usecase name for signal 'delete-event' on Window 'Title=TreeModelFilter Example' =' event created with arguments 'close application'
 Edited 'GtkEntry' Text entry (set to 'close application')
+
+'enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' =' event created with arguments 'select bug'
+Edited 'GtkEntry' Text entry (set to 'select bug')
 
 'finish name entry editing' event created with arguments ''

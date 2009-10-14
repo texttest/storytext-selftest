@@ -4,6 +4,7 @@ toggled.false = hide bugs with state new
 
 [Type=TreeView]
 clicked.description = sort bugs by description
+changed.selection = select bug
 clicked.status = sort bugs by status
 clicked.bug no. = sort bugs by bug no.
 
