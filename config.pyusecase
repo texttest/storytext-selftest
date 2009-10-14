@@ -1,5 +1,5 @@
 # Path to the binary.
-executable:${TEXTTEST_CHECKOUT}/pyusecase
+executable:${TEXTTEST_CHECKOUT}/bin/pyusecase
 
 interpreter:python
 
