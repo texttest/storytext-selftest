@@ -1,0 +1,60 @@
+
+---------- Window 'TreeViewColumn Example' ----------
+Focus widget is 'GtkButton'
+
+Showing GtkTreeView with columns: Pixbuf and Text , Text Only
+-> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File (pink)
+-> Stock image 'gtk-new' (yellow) | New (cyan) | New File (pink)
+-> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File
+-----------------------------------------------------
+
+'Auto.TreeView.button-press-event.'Type=TreeView'' event created with arguments 'Open'
+
+---------- Popup Window ----------
+'Colour Last Column'
+'Clear Last Column Colour'
+----------------------------------
+
+'Auto.MenuItem.activate.'Label=Clear Last Column Colour'' event created with arguments ''
+
+Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
+-> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File
+-> Stock image 'gtk-new' (yellow) | New (cyan) | New File (pink)
+-> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File
+
+'Auto.TreeView.button-press-event.'Type=TreeView'' event created with arguments 'Print'
+
+'Auto.MenuItem.activate.'Label=Colour Last Column'' event created with arguments ''
+
+Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
+-> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File
+-> Stock image 'gtk-new' (yellow) | New (cyan) | New File (pink)
+-> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File (pink)
+
+'Auto.Window.delete-event.'Title=TreeViewColumn Example'' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 5 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'TreeView' | 'Type=TreeView' | 'button-press-event' | Text entry
+'MenuItem' | 'Label=Clear Last Column Colour' | 'activate' | Text entry
+'MenuItem' | 'Label=Colour Last Column' | 'activate' | Text entry
+'Window' | 'Title=TreeViewColumn Example' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'button-press-event' on TreeView 'Type=TreeView' =' event created with arguments 'view actions for row'
+Edited 'GtkEntry' Text entry (set to 'view actions for row')
+
+'enter usecase name for signal 'activate' on MenuItem 'Label=Clear Last Column Colour' =' event created with arguments 'disable colouring'
+Edited 'GtkEntry' Text entry (set to 'disable colouring')
+
+'enter usecase name for signal 'activate' on MenuItem 'Label=Colour Last Column' =' event created with arguments 'enable colouring'
+Edited 'GtkEntry' Text entry (set to 'enable colouring')
+
+'enter usecase name for signal 'delete-event' on Window 'Title=TreeViewColumn Example' =' event created with arguments 'close application'
+Edited 'GtkEntry' Text entry (set to 'close application')
+
+'finish name entry editing' event created with arguments ''

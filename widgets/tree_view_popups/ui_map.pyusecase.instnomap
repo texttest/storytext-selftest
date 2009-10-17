@@ -1,0 +1,12 @@
+[Title=TreeViewColumn Example]
+delete-event = close application
+
+[Label=Colour Last Column]
+activate = enable colouring
+
+[Label=Clear Last Column Colour]
+activate = disable colouring
+
+[Type=TreeView]
+button-press-event = view actions for row
+

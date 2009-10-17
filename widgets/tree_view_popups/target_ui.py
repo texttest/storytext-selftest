@@ -19,10 +19,36 @@ class TreeViewColumnExample:
         cell.set_property('pixbuf', pb)
         return
 
+    def make_popup_menu(self):
+        menu = gtk.Menu()
+        menuItem = gtk.MenuItem("Colour Last Column")
+        menu.append(menuItem)
+        menuItem.connect("activate", self.change_colours, True)
+        menuItem.show()
+        menuItem2 = gtk.MenuItem("Clear Last Column Colour")
+        menu.append(menuItem2)
+        menuItem2.connect("activate", self.change_colours, False)
+        menuItem2.show()
+        return menu
+
+    def show_popup_menu(self, treeview, event):
+        if event.button == 3:
+            pathInfo = treeview.get_path_at_pos(int(event.x), int(event.y))
+            if pathInfo is not None:
+                treeview.grab_focus()
+                self.current_path = pathInfo[0]
+                self.popup_menu.popup(None, None, None, event.button, event.time)
+                treeview.stop_emission("button_press_event") # Disable default handler which auto-selects rows
+                # Check PyUseCase can handle this...
+
+    def change_colours(self, menuItem, value):
+        iter = self.liststore.get_iter(self.current_path)
+        self.liststore.set_value(iter, 3, value)
+
     def __init__(self):
         # Create a new window
         self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
-
+        self.current_path = None
         self.window.set_title("TreeViewColumn Example")
 
         #self.window.set_size_request(200, 200)
@@ -34,6 +60,7 @@ class TreeViewColumnExample:
 
         # create the TreeView using liststore
         self.treeview = gtk.TreeView(self.liststore)
+        self.popup_menu = self.make_popup_menu()
 
         # create the TreeViewColumns to display the data
         self.tvcolumn = gtk.TreeViewColumn('Pixbuf and Text')
@@ -83,6 +110,7 @@ class TreeViewColumnExample:
 
         # Allow drag and drop reordering of rows
         self.treeview.set_reorderable(True)
+        self.treeview.connect("button_press_event", self.show_popup_menu)
 
         self.window.add(self.treeview)
 

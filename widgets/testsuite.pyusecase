@@ -34,3 +34,6 @@ cell_renderer_toggle
 
 # Test for TreeModelFilter and clicking on column headers
 model_filter_column_click
+
+# Check we can handle popup menus from right-clicking tree views
+tree_view_popups
