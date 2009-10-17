@@ -37,22 +37,6 @@ class PanedExample:
     def set_text(self, model, path, iter):
         messageText = "Now Showing:\n" + model.get_value(iter, 0) + "\n"
         self.buffer.set_text(messageText)
-
-    # Add some text to our text widget - this is a callback that is invoked
-    # when our window is realized. We could also force our window to be
-    # realized with GtkWidget.realize, but it would have to be part of a
-    # hierarchy first
-    def insert_text(self, buffer):
-        iter = buffer.get_iter_at_offset(0)
-        buffer.insert(iter,
-                      "From: pathfinder@nasa.gov\n"
-                      "To: mom@nasa.gov\n"
-                      "Subject: Made it!\n"
-                      "\n"
-                      "We just got in this morning. The weather has been\n"
-                      "great - clear but cold, and there are lots of fun sights.\n"
-                      "Sojourner says hi. See you soon.\n"
-                      " -Path\n")
    
     # Create a scrolled text area that displays a "message"
     def create_text(self):
@@ -61,10 +45,10 @@ class PanedExample:
         scrolled_window = gtk.ScrolledWindow()
         scrolled_window.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
         scrolled_window.add(view)
-        self.insert_text(self.buffer)
+        self.buffer.set_text("No message selected.\n")
         scrolled_window.show_all()
         return scrolled_window
-   
+
     def __init__(self):
         window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         window.set_title("Paned Windows")
