@@ -1,0 +1,2 @@
+select bug no_such_bug
+close application

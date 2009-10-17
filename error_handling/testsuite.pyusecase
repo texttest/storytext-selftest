@@ -20,3 +20,6 @@ use_hidden_menu
 
 # Check what happens if the tab we want isn't there
 bad_notebook_tab
+
+# Error handling for tree view stuff
+tree_views

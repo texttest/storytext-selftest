@@ -1,0 +1,8 @@
+# Try to select a row that isn't there
+select_bad_row
+
+# Try to choose a row that has been hidden
+select_invisible_row
+
+# Provide a name that could refer to several different rows
+select_ambiguous_row

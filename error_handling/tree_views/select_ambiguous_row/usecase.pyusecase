@@ -1,0 +1,3 @@
+show children for parent 0
+select row child 1
+close application
