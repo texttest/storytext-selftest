@@ -37,3 +37,6 @@ model_filter_column_click
 
 # Check we can handle popup menus from right-clicking tree views
 tree_view_popups
+
+# Check we can select a file with a filechooser
+file_chooser_open
