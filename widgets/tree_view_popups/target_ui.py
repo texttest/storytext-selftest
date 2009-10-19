@@ -60,6 +60,7 @@ class TreeViewColumnExample:
 
         # create the TreeView using liststore
         self.treeview = gtk.TreeView(self.liststore)
+        self.treeview.get_selection().set_mode(gtk.SELECTION_NONE)
         self.popup_menu = self.make_popup_menu()
 
         # create the TreeViewColumns to display the data

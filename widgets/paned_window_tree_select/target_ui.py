@@ -27,6 +27,7 @@ class PanedExample:
         cell = gtk.CellRendererText()
         column = gtk.TreeViewColumn("Messages", cell, text=0)
         tree_view.append_column(column)
+        tree_view.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
         tree_view.get_selection().connect("changed", self.selection_changed)
 
         return scrolled_window
