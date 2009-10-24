@@ -52,7 +52,7 @@ class CheckButton:
 
         # Create second button
 
-        button = gtk.CheckButton("check button 2")
+        button = gtk.CheckButton("check button 2\n(This button has an extra line...)")
         button.set_active(True)
 
         # When the button is toggled, we call the "callback" method

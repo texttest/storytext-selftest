@@ -2,7 +2,7 @@
 toggled.true = check first button
 toggled.false = uncheck first button
 
-[Label=check button 2]
+[Label=check button 2...]
 toggled.true = check second button
 toggled.false = uncheck second button
 

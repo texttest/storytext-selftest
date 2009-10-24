@@ -2,7 +2,8 @@
 ---------- Window 'Check Button' ----------
 Focus widget is 'check button 1'
 Check button 'check button 1'
-Check button 'check button 2' (checked)
+Check button 'check button 2
+(This button has an extra line...)' (checked)
 Button 'Quit'
 -------------------------------------------
 
@@ -12,6 +13,7 @@ Toggled Check button 'check button 1' (checked)
 
 'uncheck second button' event created with arguments ''
 check button 2 was toggled OFF
-Toggled Check button 'check button 2'
+Toggled Check button 'check button 2
+(This button has an extra line...)'
 
 'quit' event created with arguments ''
