@@ -1,0 +1,5 @@
+# Check we can select a file with a filechooser
+basic_open
+
+# Check we can choose a file name to save to with a filechooser
+basic_save

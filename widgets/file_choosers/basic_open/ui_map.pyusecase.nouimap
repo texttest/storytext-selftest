@@ -1,0 +1,5 @@
+[Title=Open..]
+current-folder-changed = look in folder
+selection-changed = select file
+response.ok = open selected file
+

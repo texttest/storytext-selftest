@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+
+
+import gtk, logging, sys, os
+from gtkusecase import ScriptEngine
+
+def dialogRespond(dialog, response, *args):
+    if response == gtk.RESPONSE_OK:
+        print 'Saving to', dialog.get_filename()
+    elif response == gtk.RESPONSE_CANCEL:
+        print 'Closed, nothing will be saved'
+    dialog.destroy()
+    gtk.main_quit()
+
+
+logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
+scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+dialog = gtk.FileChooserDialog("Save..",
+                               None,
+                               gtk.FILE_CHOOSER_ACTION_SAVE,
+                               (gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,
+                                gtk.STOCK_SAVE, gtk.RESPONSE_OK))
+
+dialog.set_current_folder(os.path.abspath("sampledir/subdir"))
+dialog.add_shortcut_folder(os.path.abspath("sampledir/subdir2"))
+
+scriptEngine.registerSaveFileChooser(dialog, "enter file name for save =", 
+                                     "change to folder", "save selected file", "cancel saving file", dialogRespond)
+dialog.set_modal(True)
+dialog.show()
+gtk.main()

@@ -1,0 +1,4 @@
+enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Title=Save..' = change to folder
+enter usecase name for signal 'current-name-changed' on FileChooserDialog 'Title=Save..' = enter file name for save =
+enter usecase name for signal 'response.ok' on FileChooserDialog 'Title=Save..' = save selected file
+finish name entry editing

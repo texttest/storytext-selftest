@@ -3,8 +3,8 @@ changed = set new movie name to
 activate = add movie by pressing <enter>
 
 [Label=Add]
-activate = select menu item 'add'
 clicked = add movie
+activate = select menu item 'add'
 
 [Title=The Video Store]
 delete-event = close

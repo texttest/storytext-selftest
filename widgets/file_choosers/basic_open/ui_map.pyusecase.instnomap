@@ -1,5 +1,6 @@
 [Title=Open..]
-response.ok = open selected file
 selection-changed = select file
 current-folder-changed = look in folder
+response.ok = open selected file
+response.cancel = cancel file selection
 

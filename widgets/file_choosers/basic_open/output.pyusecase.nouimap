@@ -2,22 +2,22 @@
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_chooser_open/sampledir/subdir/file.txt')
+Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir/file.txt')
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_chooser_open/sampledir/subdir2
+- /home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2
 Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
 ------------------------------------------------
 
 'Auto.FileChooserDialog.current-folder-changed.'Title=Open..'' event created with arguments 'subdir2'
 
-Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_chooser_open/sampledir/subdir2/file1.txt')
+Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file1.txt')
 
 'Auto.FileChooserDialog.selection-changed.'Title=Open..'' event created with arguments 'file2.txt'
 
-Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_chooser_open/sampledir/subdir2/file2.txt')
+Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file2.txt')
 
 'Auto.FileChooserDialog.response.ok.'Title=Open..'' event created with arguments ''
-/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_chooser_open/sampledir/subdir2/file2.txt selected
+/home/geoff/.texttest/tmp/pyusecase.19Oct233519.8657/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file2.txt selected
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'

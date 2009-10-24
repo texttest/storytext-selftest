@@ -1,0 +1,18 @@
+# Test for demonstration of paned windows (gtk.VPaned) and selecting in tree views
+paned_window_tree_select
+
+# Test for a tree view with activation by double-clicking the rows
+# uses set_cell_data_func...
+activate_rows
+
+# Check we can handle expansion and collapse in a treeview, also that we can handle HTML-style markup in the treeviews
+expand_collapse_markup
+
+# Check we can handle toggling cell renderers in tree_views
+cell_renderer_toggle
+
+# Test for TreeModelFilter and clicking on column headers
+model_filter_column_click
+
+# Check we can handle popup menus from right-clicking tree views
+popup_menus

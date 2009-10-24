@@ -1,0 +1,3 @@
+Auto.FileChooserDialog.current-folder-changed.'Title=Save..' subdir2
+Auto.FileChooserDialog.current-name-changed.'Title=Save..' file3.txt
+Auto.FileChooserDialog.response.ok.'Title=Save..'

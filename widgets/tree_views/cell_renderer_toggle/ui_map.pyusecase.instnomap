@@ -2,8 +2,8 @@
 delete-event = close application
 
 [Type=TreeView]
-row-collapsed = hide reminders for
 toggled.complete.true = complete task
-row-expanded = show reminders for
 toggled.complete.false = reopen task
+row-expanded = show reminders for
+row-collapsed = hide reminders for
 

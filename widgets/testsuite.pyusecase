@@ -19,24 +19,8 @@ check_button
 # Check we handle radio buttons correctly, i.e. don't create uncheck events
 radio_buttons
 
-# Test for demonstration of paned windows (gtk.VPaned) and selecting in tree views
-paned_window_tree_select
+# All the various things you can do with a treeview
+tree_views
 
-# Test for a tree view with activation by double-clicking the rows
-# uses set_cell_data_func which we can't handle right now...
-tree_view_activate
-
-# Check we can handle expansion and collapse in a treeview
-tree_view_expand_collapse
-
-# Check we can handle toggling cell renderers in tree_views
-cell_renderer_toggle
-
-# Test for TreeModelFilter and clicking on column headers
-model_filter_column_click
-
-# Check we can handle popup menus from right-clicking tree views
-tree_view_popups
-
-# Check we can select a file with a filechooser
-file_chooser_open
+# Tests for stuff with filechoosers
+file_choosers

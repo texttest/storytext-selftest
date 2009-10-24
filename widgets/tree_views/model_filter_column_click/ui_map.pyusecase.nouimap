@@ -1,11 +1,11 @@
 [Label=NEW]
-toggled.true = show bugs with state new
 toggled.false = hide bugs with state new
+toggled.true = show bugs with state new
 
 [Type=TreeView]
 clicked.description = sort bugs by description
-changed.selection = select bug
 clicked.status = sort bugs by status
+changed.selection = select bug
 clicked.bug no. = sort bugs by bug no.
 
 [Label=RESO]

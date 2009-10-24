@@ -1,5 +1,5 @@
 
----------- Window '/home/geoff/.texttest/tmp/pyusecase.10Oct194014.7585/pyusecase/widgets/tree_view_activate/sampledir' ----------
+---------- Window '/home/geoff/.texttest/tmp/pyusecase.10Oct194014.7585/pyusecase/widgets/tree_views/activate_rows/sampledir' ----------
 Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
@@ -11,7 +11,7 @@ Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
 
 'select file' event created with arguments 'subdir'
 
-Changing title for Window '/home/geoff/.texttest/tmp/pyusecase.10Oct194014.7585/pyusecase/widgets/tree_view_activate/sampledir/subdir'
+Changing title for Window '/home/geoff/.texttest/tmp/pyusecase.10Oct194014.7585/pyusecase/widgets/tree_views/activate_rows/sampledir/subdir'
 
 Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
 -> Image 'XPM 1' | .. | 4096 | 0755 | Mon Oct  5 22:20:45 2009
