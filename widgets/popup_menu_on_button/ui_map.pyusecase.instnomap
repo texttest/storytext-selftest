@@ -1,0 +1,15 @@
+[Title=GTK Menu Test]
+delete-event = close application
+
+[Label=Test-undermenu - 0]
+activate = choose test-undermenu - 0
+
+[Label=Test-undermenu - 1]
+activate = choose test-undermenu - 1
+
+[Label=Test-undermenu - 2]
+activate = choose test-undermenu - 2
+
+[Label=press me]
+button-press-event = bring up the button's popup menu
+

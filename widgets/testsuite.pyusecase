@@ -19,6 +19,9 @@ check_button
 # Check we handle radio buttons correctly, i.e. don't create uncheck events
 radio_buttons
 
+# Check we can get popup menus on non-standard widgets also. Note that we can't auto-record it however.
+popup_menu_on_button
+
 # All the various things you can do with a treeview
 tree_views
 

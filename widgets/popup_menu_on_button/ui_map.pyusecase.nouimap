@@ -1,0 +1,6 @@
+[Label=Test-undermenu - 2]
+activate = choose test-undermenu - 2
+
+[Title=GTK Menu Test]
+delete-event = close application
+

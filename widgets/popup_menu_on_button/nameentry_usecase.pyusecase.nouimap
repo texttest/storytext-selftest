@@ -1,0 +1,3 @@
+enter usecase name for signal 'delete-event' on Window 'Title=GTK Menu Test' = close application
+enter usecase name for signal 'activate' on MenuItem 'Label=Test-undermenu - 2' = choose test-undermenu - 2
+finish name entry editing

@@ -1,0 +1,34 @@
+
+---------- Window 'GTK Menu Test' ----------
+Focus widget is 'press me'
+
+Menu Bar :
+  'Root Menu' Menu :
+    'Test-undermenu - 0'
+    'Test-undermenu - 1'
+    'Test-undermenu - 2'
+Button 'press me'
+--------------------------------------------
+
+'Auto.MenuItem.activate.'Label=Test-undermenu - 2'' event created with arguments ''
+Test-undermenu - 2
+
+'Auto.Window.delete-event.'Title=GTK Menu Test'' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 3 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'MenuItem' | 'Label=Test-undermenu - 2' | 'activate' | Text entry
+'Window' | 'Title=GTK Menu Test' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'delete-event' on Window 'Title=GTK Menu Test' =' event created with arguments 'close application'
+Edited 'GtkEntry' Text entry (set to 'close application')
+
+'enter usecase name for signal 'activate' on MenuItem 'Label=Test-undermenu - 2' =' event created with arguments 'choose test-undermenu - 2'
+Edited 'GtkEntry' Text entry (set to 'choose test-undermenu - 2')
+
+'finish name entry editing' event created with arguments ''
