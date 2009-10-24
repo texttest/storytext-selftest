@@ -1,6 +1,6 @@
 Auto.ToggleButton.toggled.false.'Label=NEW'
 Auto.TreeView.clicked.description.'Type=TreeView'
-Auto.TreeView.clicked.status.'Type=TreeView'
+Auto.TreeView.clicked.bug status.'Type=TreeView'
 Auto.TreeView.changed.selection.'Type=TreeView' 123458
 Auto.ToggleButton.toggled.false.'Label=RESO'
 Auto.ToggleButton.toggled.false.'Label=UNCO'

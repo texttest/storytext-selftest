@@ -40,7 +40,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 121339 | RESO | dsextras.py installation directory is incorrect
 -> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
 
-'Auto.TreeView.clicked.status.'Type=TreeView'' event created with arguments ''
+'Auto.TreeView.clicked.bug status.'Type=TreeView'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
@@ -103,7 +103,7 @@ Viewing table with 10 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'ToggleButton' | 'Label=NEW' | 'toggled.false' | Text entry
 'TreeView' | 'Type=TreeView' | 'clicked.description' | Text entry
-'TreeView' | 'Type=TreeView' | 'clicked.status' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked.bug status' | Text entry
 'TreeView' | 'Type=TreeView' | 'changed.selection' | Text entry
 'ToggleButton' | 'Label=RESO' | 'toggled.false' | Text entry
 'ToggleButton' | 'Label=UNCO' | 'toggled.false' | Text entry
@@ -120,7 +120,7 @@ Edited 'GtkEntry' Text entry (set to 'hide bugs with state new')
 'enter usecase name for signal 'clicked.description' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by description'
 Edited 'GtkEntry' Text entry (set to 'sort bugs by description')
 
-'enter usecase name for signal 'clicked.status' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by status'
+'enter usecase name for signal 'clicked.bug status' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by status'
 Edited 'GtkEntry' Text entry (set to 'sort bugs by status')
 
 'enter usecase name for signal 'toggled.false' on ToggleButton 'Label=RESO' =' event created with arguments 'hide bugs with state reso'

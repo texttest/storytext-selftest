@@ -3,7 +3,7 @@ delete-event = close application
 
 [Type=TreeView]
 clicked.bug no. = sort bugs by bug no.
-clicked.status = sort bugs by status
+clicked.bug status = sort bugs by status
 clicked.description = sort bugs by description
 changed.selection = select bug
 

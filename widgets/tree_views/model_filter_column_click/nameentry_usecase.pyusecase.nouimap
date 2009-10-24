@@ -1,6 +1,6 @@
 enter usecase name for signal 'toggled.false' on ToggleButton 'Label=NEW' = hide bugs with state new
 enter usecase name for signal 'clicked.description' on TreeView 'Type=TreeView' = sort bugs by description
-enter usecase name for signal 'clicked.status' on TreeView 'Type=TreeView' = sort bugs by status
+enter usecase name for signal 'clicked.bug status' on TreeView 'Type=TreeView' = sort bugs by status
 enter usecase name for signal 'toggled.false' on ToggleButton 'Label=RESO' = hide bugs with state reso
 enter usecase name for signal 'toggled.false' on ToggleButton 'Label=UNCO' = hide bugs with state unco
 enter usecase name for signal 'toggled.true' on ToggleButton 'Label=NEW' = show bugs with state new

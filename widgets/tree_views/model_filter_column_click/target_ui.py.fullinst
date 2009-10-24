@@ -53,6 +53,8 @@ class TreeModelFilterExample:
         self.treeview.columns = [None]*3
         self.treeview.columns[0] = gtk.TreeViewColumn('Bug No.')
         self.treeview.columns[1] = gtk.TreeViewColumn('Status')
+        # Just to show we can find columns by name also...
+        self.treeview.columns[1].set_data('name', 'Bug Status')
         self.treeview.columns[2] = gtk.TreeViewColumn('Description')
 
         # add bug data
