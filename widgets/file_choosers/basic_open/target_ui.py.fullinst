@@ -24,8 +24,11 @@ dialog = gtk.FileChooserDialog("Open..",
 dialog.set_current_folder(os.path.abspath("sampledir/subdir"))
 dialog.add_shortcut_folder(os.path.abspath("sampledir/subdir2"))
 
-scriptEngine.registerOpenFileChooser(dialog, "select file", "look in folder", 
-                                     "open selected file", "cancel file selection", dialogRespond)
+scriptEngine.registerFileChooser(dialog, "select file", "look in folder") 
+                                 
+scriptEngine.connect("open selected file", "response", dialog, dialogRespond, gtk.RESPONSE_OK)
+scriptEngine.connect("cancel file selection", "response", dialog, dialogRespond, gtk.RESPONSE_CANCEL)
+        
 dialog.set_modal(True)
 dialog.show()
 gtk.main()

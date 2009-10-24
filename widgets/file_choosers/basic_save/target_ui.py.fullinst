@@ -24,8 +24,10 @@ dialog = gtk.FileChooserDialog("Save..",
 dialog.set_current_folder(os.path.abspath("sampledir/subdir"))
 dialog.add_shortcut_folder(os.path.abspath("sampledir/subdir2"))
 
-scriptEngine.registerSaveFileChooser(dialog, "enter file name for save =", 
-                                     "change to folder", "save selected file", "cancel saving file", dialogRespond)
+scriptEngine.registerFileChooser(dialog, "enter file name for save =", "change to folder")
+scriptEngine.connect("save selected file", "response", dialog, dialogRespond, gtk.RESPONSE_OK)
+scriptEngine.connect("cancel saving file", "response", dialog, dialogRespond, gtk.RESPONSE_CANCEL)
+
 dialog.set_modal(True)
 dialog.show()
 gtk.main()
