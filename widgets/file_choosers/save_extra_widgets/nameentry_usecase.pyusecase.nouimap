@@ -1,0 +1,4 @@
+enter usecase name for signal 'current-folder-changed' on FileChooserWidget 'Type=FileChooserWidget' = change to folder
+enter usecase name for signal 'current-name-changed' on FileChooserWidget 'Type=FileChooserWidget' = enter file name for save =
+enter usecase name for signal 'response.ok' on Dialog 'Title=Save..' = save selected file
+finish name entry editing

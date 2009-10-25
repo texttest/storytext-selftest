@@ -1,0 +1,7 @@
+[Type=FileChooserWidget]
+current-folder-changed = change to folder
+current-name-changed = enter file name for save =
+
+[Title=Save..]
+response.ok = save selected file
+

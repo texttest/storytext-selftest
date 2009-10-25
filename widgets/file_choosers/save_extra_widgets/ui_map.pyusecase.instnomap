@@ -1,0 +1,12 @@
+[Label=Make the file readonly]
+toggled.true = select readonly option
+toggled.false = select writeable option
+
+[Type=FileChooserWidget]
+current-name-changed = enter file name for save =
+current-folder-changed = change to folder
+
+[Title=Save..]
+response.ok = save selected file
+response.cancel = cancel saving file
+

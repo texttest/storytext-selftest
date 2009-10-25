@@ -1,0 +1,3 @@
+Auto.FileChooserWidget.current-folder-changed.'Type=FileChooserWidget' subdir2
+Auto.FileChooserWidget.current-name-changed.'Type=FileChooserWidget' file3.txt
+Auto.Dialog.response.ok.'Title=Save..'
