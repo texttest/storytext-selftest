@@ -13,12 +13,12 @@ Auto.MenuItem.activate.'Label=Actions'
 Auto.MenuItem.activate.'Label=Sort'
 Auto.MenuItem.activate.'Label=File'
 Auto.MenuItem.activate.'Label=Actions'
-Auto.CheckMenuItem.activate.'Label=Show buttons'
+Auto.CheckMenuItem.toggled.false.'Label=Show buttons'
 set new movie name to Nils
 add movie by pressing <enter>
 Auto.MenuItem.activate.'Label=File'
 Auto.MenuItem.activate.'Label=Actions'
-Auto.CheckMenuItem.activate.'Label=Show buttons'
+Auto.CheckMenuItem.toggled.true.'Label=Show buttons'
 Auto.MenuItem.activate.'Label=File'
 Auto.MenuItem.activate.'Label=Actions'
 set new movie name to Nils igen

@@ -19,5 +19,6 @@ activate = select menu item 'actions'
 activate = select menu item 'sort'
 
 [Label=Show buttons]
-activate = toggle menu item 'show buttons'
+toggled.false = hide buttons
+toggled.true = show buttons
 

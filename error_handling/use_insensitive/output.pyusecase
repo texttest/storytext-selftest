@@ -31,7 +31,7 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu 'file'' event created with arguments ''
 
-'toggle menu item 'enable buttons'' event created with arguments ''
+'disable buttons' event created with arguments ''
 
 Greyed out : Add, Clear, Delete, Sort
 

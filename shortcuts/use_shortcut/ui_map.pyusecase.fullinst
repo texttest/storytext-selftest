@@ -24,10 +24,12 @@ activate = select menu item 'clear'
 clicked = clear list
 
 [Label=Show buttons]
-activate = toggle menu item 'show buttons'
+toggled.true = show buttons
+toggled.false = hide buttons
 
 [Label=Enable buttons]
-activate = toggle menu item 'enable buttons'
+toggled.true = enable buttons
+toggled.false = disable buttons
 
 [Label=Quit]
 activate = select menu item 'quit'

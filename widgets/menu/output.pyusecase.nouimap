@@ -71,7 +71,7 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
 
-'Auto.CheckMenuItem.activate.'Label=Show buttons'' event created with arguments ''
+'Auto.CheckMenuItem.toggled.false.'Label=Show buttons'' event created with arguments ''
 Hiding the 'Add' widget
 Hiding the 'Delete' widget
 Hiding the 'Sort' widget
@@ -92,7 +92,7 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
 
-'Auto.CheckMenuItem.activate.'Label=Show buttons'' event created with arguments ''
+'Auto.CheckMenuItem.toggled.true.'Label=Show buttons'' event created with arguments ''
 Button 'Add'
 Button 'Delete'
 Button 'Sort'
@@ -135,13 +135,14 @@ Updated : Movie Tree with columns: Movie Name
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-Viewing table with 6 rows and 4 columns.
+Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'MenuItem' | 'Label=File' | 'activate' | Text entry
 'MenuItem' | 'Label=Actions' | 'activate' | Text entry
 'MenuItem' | 'Label=Add' | 'activate' | Text entry
 'MenuItem' | 'Label=Sort' | 'activate' | Text entry
-'CheckMenuItem' | 'Label=Show buttons' | 'activate' | Text entry
+'CheckMenuItem' | 'Label=Show buttons' | 'toggled.false' | Text entry
+'CheckMenuItem' | 'Label=Show buttons' | 'toggled.true' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
@@ -158,7 +159,10 @@ Edited 'GtkEntry' Text entry (set to 'select menu item 'add'')
 'enter usecase name for signal 'activate' on MenuItem 'Label=Sort' =' event created with arguments 'select menu item 'sort''
 Edited 'GtkEntry' Text entry (set to 'select menu item 'sort'')
 
-'enter usecase name for signal 'activate' on CheckMenuItem 'Label=Show buttons' =' event created with arguments 'toggle menu item 'show buttons''
-Edited 'GtkEntry' Text entry (set to 'toggle menu item 'show buttons'')
+'enter usecase name for signal 'toggled.true' on CheckMenuItem 'Label=Show buttons' =' event created with arguments 'show buttons'
+Edited 'GtkEntry' Text entry (set to 'show buttons')
+
+'enter usecase name for signal 'toggled.false' on CheckMenuItem 'Label=Show buttons' =' event created with arguments 'hide buttons'
+Edited 'GtkEntry' Text entry (set to 'hide buttons')
 
 'finish name entry editing' event created with arguments ''

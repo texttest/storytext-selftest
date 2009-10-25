@@ -1,6 +1,6 @@
 set new movie name to The Muppet Show
 add movie
 select menu 'file'
-toggle menu item 'enable buttons'
+disable buttons
 delete movie
 close

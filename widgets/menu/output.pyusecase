@@ -71,7 +71,7 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu item 'actions'' event created with arguments ''
 
-'toggle menu item 'show buttons'' event created with arguments ''
+'hide buttons' event created with arguments ''
 Hiding the 'Add' widget
 Hiding the 'Delete' widget
 Hiding the 'Sort' widget
@@ -92,7 +92,7 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu item 'actions'' event created with arguments ''
 
-'toggle menu item 'show buttons'' event created with arguments ''
+'show buttons' event created with arguments ''
 Button 'Add'
 Button 'Delete'
 Button 'Sort'

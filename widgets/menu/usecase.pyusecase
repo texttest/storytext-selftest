@@ -13,12 +13,12 @@ select menu item 'actions'
 select menu item 'sort'
 select menu 'file'
 select menu item 'actions'
-toggle menu item 'show buttons'
+hide buttons
 set new movie name to Nils
 add movie by pressing <enter>
 select menu 'file'
 select menu item 'actions'
-toggle menu item 'show buttons'
+show buttons
 select menu 'file'
 select menu item 'actions'
 set new movie name to Nils igen
