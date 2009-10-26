@@ -4,7 +4,7 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.25Oct111517.27746/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2
+- /home/geoff/.texttest/tmp/pyusecase.26Oct203742.9599/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2
 Check button 'Make the file readonly'
 ---------------
 Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
@@ -14,8 +14,8 @@ Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'g
 
 'Auto.FileChooserWidget.current-name-changed.'Type=FileChooserWidget'' event created with arguments 'file3.txt'
 
-'Auto.Dialog.response.ok.'Title=Save..'' event created with arguments ''
-Saving writeable file to /home/geoff/.texttest/tmp/pyusecase.25Oct111517.27746/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2/file3.txt
+'Auto.Dialog.response.ok.'Name=The Save Dialog'' event created with arguments ''
+Saving writeable file to /home/geoff/.texttest/tmp/pyusecase.26Oct203742.9599/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2/file3.txt
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
@@ -23,7 +23,7 @@ Viewing table with 4 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'FileChooserWidget' | 'Type=FileChooserWidget' | 'current-folder-changed' | Text entry
 'FileChooserWidget' | 'Type=FileChooserWidget' | 'current-name-changed' | Text entry
-'Dialog' | 'Title=Save..' | 'response.ok' | Text entry
+'Dialog' | 'Name=The Save Dialog' | 'response.ok' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
@@ -34,7 +34,7 @@ Edited 'GtkEntry' Text entry (set to 'change to folder')
 'enter usecase name for signal 'current-name-changed' on FileChooserWidget 'Type=FileChooserWidget' =' event created with arguments 'enter file name for save ='
 Edited 'GtkEntry' Text entry (set to 'enter file name for save =')
 
-'enter usecase name for signal 'response.ok' on Dialog 'Title=Save..' =' event created with arguments 'save selected file'
+'enter usecase name for signal 'response.ok' on Dialog 'Name=The Save Dialog' =' event created with arguments 'save selected file'
 Edited 'GtkEntry' Text entry (set to 'save selected file')
 
 'finish name entry editing' event created with arguments ''

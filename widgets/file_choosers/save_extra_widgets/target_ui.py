@@ -11,6 +11,7 @@ def status(checkBox):
 
 dialog = gtk.Dialog("Save..", buttons=(gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,
                                        gtk.STOCK_SAVE, gtk.RESPONSE_OK))
+dialog.set_name("The Save Dialog")
 fileChooser = gtk.FileChooserWidget(gtk.FILE_CHOOSER_ACTION_SAVE)
 dialog.vbox.pack_start(fileChooser, expand=True, fill=True)
 checkBox = gtk.CheckButton("Make the file readonly")

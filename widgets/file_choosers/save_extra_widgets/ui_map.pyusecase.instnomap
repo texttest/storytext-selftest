@@ -6,7 +6,7 @@ toggled.false = select writeable option
 current-name-changed = enter file name for save =
 current-folder-changed = change to folder
 
-[Title=Save..]
+[Name=The Save Dialog]
 response.ok = save selected file
 response.cancel = cancel saving file
 
