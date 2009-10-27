@@ -54,7 +54,7 @@ class PanedExample:
    
     def __init__(self):
         logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-        scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+        scriptEngine = ScriptEngine(enableShortcuts=True)
         window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         window.set_title("Paned Windows")
         window.connect("delete_event", lambda w, e: gtk.main_quit())

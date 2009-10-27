@@ -16,22 +16,18 @@ radio button 3 was toggled ON
 Toggled Radio button 'radio button2'
 Toggled Radio button 'radio button3' (checked)
 
-'Auto.Window.delete-event.'Title=radio buttons'' event created with arguments ''
+'close application' event created with arguments ''
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-Viewing table with 3 rows and 4 columns.
+Viewing table with 2 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'RadioButton' | 'Label=radio button3' | 'toggled.true' | Text entry
-'Window' | 'Title=radio buttons' | 'delete-event' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'toggled.true' on RadioButton 'Label=radio button3' =' event created with arguments 'check third button'
 Edited 'GtkEntry' Text entry (set to 'check third button')
-
-'enter usecase name for signal 'delete-event' on Window 'Title=radio buttons' =' event created with arguments 'close application'
-Edited 'GtkEntry' Text entry (set to 'close application')
 
 'finish name entry editing' event created with arguments ''

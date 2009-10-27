@@ -19,7 +19,7 @@ class GUI_Controller:
     def __init__(self):
         # setup the main window         
         logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-        scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+        scriptEngine = ScriptEngine(enableShortcuts=True)
         self.root = gtk.Window(type=gtk.WINDOW_TOPLEVEL)
         self.root.set_title("CellRenderer Example")
         self.root.connect("destroy", self.destroy_cb)

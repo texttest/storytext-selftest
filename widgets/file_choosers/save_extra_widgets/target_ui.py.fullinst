@@ -19,7 +19,7 @@ def status(checkBox):
         return "writeable file"
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+scriptEngine = ScriptEngine(enableShortcuts=True)
 
 dialog = gtk.Dialog("Save..", buttons=(gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,
                                        gtk.STOCK_SAVE, gtk.RESPONSE_OK))

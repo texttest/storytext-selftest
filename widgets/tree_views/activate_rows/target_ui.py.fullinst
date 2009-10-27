@@ -65,7 +65,7 @@ class FileListingCellDataExample:
  
     def __init__(self, dname = None):
         logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-        scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+        scriptEngine = ScriptEngine(enableShortcuts=True)
         cell_data_funcs = (None, self.file_size, self.file_mode,
                            self.file_last_changed)
  

@@ -27,7 +27,7 @@ except ImportError:
 class VideoStore:
     def __init__(self):
         logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-        self.scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+        self.scriptEngine = ScriptEngine(enableShortcuts=True)
         self.model = gtk.ListStore(gobject.TYPE_STRING)
         self.nameEntry = gtk.Entry()
         self.nameEntry.set_name("Movie Name")

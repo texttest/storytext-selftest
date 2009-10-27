@@ -51,7 +51,7 @@ class TreeViewColumnExample:
     def __init__(self):
         # Create a new window
         logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-        scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+        scriptEngine = ScriptEngine(enableShortcuts=True)
         self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         self.current_path = None
         self.window.set_title("TreeViewColumn Example")

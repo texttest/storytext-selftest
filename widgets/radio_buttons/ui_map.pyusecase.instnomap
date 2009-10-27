@@ -1,6 +1,3 @@
-[Type=Window]
-delete-event = close application
-
 [Label=radio button1]
 toggled.true = check first button
 

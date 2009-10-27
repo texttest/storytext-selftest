@@ -22,7 +22,7 @@ class CheckButton:
         # Create a new window
         self.window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-        scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+        scriptEngine = ScriptEngine(enableShortcuts=True)
 
         # Set the window title
         self.window.set_title("Check Button")

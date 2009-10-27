@@ -16,7 +16,7 @@ dialog
 # Test for gtk.CheckButtons
 check_button
 
-# Check we handle radio buttons correctly, i.e. don't create uncheck events
+# Check we handle radio buttons correctly, i.e. don't create uncheck events. Also handle multiple map files correctly
 radio_buttons
 
 # Check we can get popup menus on non-standard widgets also. Note that we can't auto-record it however.

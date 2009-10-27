@@ -14,7 +14,7 @@ def dialogRespond(dialog, response, *args):
 
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+scriptEngine = ScriptEngine(enableShortcuts=True)
 dialog = gtk.FileChooserDialog("Open..",
                                None,
                                gtk.FILE_CHOOSER_ACTION_OPEN,

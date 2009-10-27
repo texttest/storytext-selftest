@@ -11,7 +11,7 @@ class MenuExample:
     def __init__(self):
         # create a new window
         logging.basicConfig(level=logging.INFO, stream=sys.stdout, format="%(message)s")
-        scriptEngine = ScriptEngine(enableShortcuts=True, useUiMap=True)
+        scriptEngine = ScriptEngine(enableShortcuts=True)
         
         window = gtk.Window(gtk.WINDOW_TOPLEVEL)
         window.set_size_request(200, 100)
