@@ -1,0 +1,27 @@
+
+---------- Pyapp 'Toolbar' ----------
+Focus widget is 'GtkButton'
+
+Tool Bar :
+  Tool button (Stock image 'gtk-new')
+  Tool button (Stock image 'gtk-open')
+  Tool button (Stock image 'gtk-save')
+    ----
+  Tool button (Stock image 'gtk-quit')
+-------------------------------------
+
+'Auto.ToolButton.clicked.'Type=ToolButton'' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 2 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'ToolButton' | 'Type=ToolButton' | 'clicked' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'clicked' on ToolButton 'Type=ToolButton' =' event created with arguments 'quit via toolbar'
+Edited 'GtkEntry' Text entry (set to 'quit via toolbar')
+
+'finish name entry editing' event created with arguments ''

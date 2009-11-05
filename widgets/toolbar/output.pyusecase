@@ -1,0 +1,13 @@
+
+---------- Pyapp 'Toolbar' ----------
+Focus widget is 'GtkButton'
+
+Tool Bar :
+  Tool button (Stock image 'gtk-new')
+  Tool button (Stock image 'gtk-open')
+  Tool button (Stock image 'gtk-save')
+    ----
+  Tool button (Stock image 'gtk-quit')
+-------------------------------------
+
+'quit via toolbar' event created with arguments ''

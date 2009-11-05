@@ -1,0 +1,6 @@
+[Type=ToolButton]
+clicked = quit via toolbar
+
+[Title=Toolbar]
+delete-event = quit by closing window
+
