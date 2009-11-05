@@ -13,6 +13,9 @@ view_notebook
 # Tests closing a dialog window
 dialog
 
+# Testing we can make the toolbar work correctly
+toolbar
+
 # Test for gtk.CheckButtons
 check_button
 

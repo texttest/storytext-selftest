@@ -45,6 +45,14 @@ builtin:usecase
 
 [test_data_environment]
 usecases:USECASE_HOME
+[end]
+
+# Files that are internal details of Python/GTK
+# we don't care if they change but we need them in a unique
+# place to avoid clashes when running in parallel
+test_data_ignore:*pyc
+test_data_ignore:gtk_recently_used
+test_data_ignore:xdg_config_home
 
 # Things to collate
 [collate_file]
