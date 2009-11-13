@@ -84,6 +84,5 @@ Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
-Edited 'GtkEntry' Text entry (set to 'close')
 
 'finish name entry editing' event created with arguments ''
