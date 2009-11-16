@@ -27,14 +27,24 @@ Expanded row in GtkTreeView with columns: Name , Complete
 ->   Turn on the client but leave the server | Check box
 -> Watch some tv | Check box
 
-'complete task' event created with arguments 'Turn on the client but leave the server'
-Toggle 'Turn on the client but leave the server' to: True
+'change name for' event created with arguments 'Turn on the client but leave the server = Turn on the client and restart the server'
+Change 'Turn on the client but leave the server' to 'Turn on the client and restart the server'
 
 Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box (checked)
 -> Do some programming | Check box
 -> Power up systems | Check box
-->   Turn on the client but leave the server | Check box (checked)
+->   Turn on the client and restart the server | Check box
+-> Watch some tv | Check box
+
+'complete task' event created with arguments 'Turn on the client and restart the server'
+Toggle 'Turn on the client and restart the server' to: True
+
+Updated : GtkTreeView with columns: Name , Complete
+-> Buy groceries | Check box (checked)
+-> Do some programming | Check box
+-> Power up systems | Check box
+->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
 
 'reopen task' event created with arguments 'Buy groceries'
@@ -44,7 +54,7 @@ Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box
 -> Do some programming | Check box
 -> Power up systems | Check box
-->   Turn on the client but leave the server | Check box (checked)
+->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
 
 'close application' event created with arguments ''

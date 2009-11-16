@@ -8,8 +8,8 @@ activate_rows
 # Check we can handle expansion and collapse in a treeview, also that we can handle HTML-style markup in the treeviews
 expand_collapse_markup
 
-# Check we can handle toggling cell renderers in tree_views
-cell_renderer_toggle
+# Handle direct editing of treeviews, both editable text cells and toggle buttons in cells
+edit_cell_data
 
 # Test for TreeModelFilter and clicking on column headers
 model_filter_column_click

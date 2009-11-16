@@ -2,8 +2,11 @@
 delete-event = close application
 
 [Type=TreeView]
+changed.selection = 
+row-activated = 
 toggled.complete.true = complete task
 toggled.complete.false = reopen task
+edited.name = change name for
 row-expanded = show reminders for
 row-collapsed = hide reminders for
 

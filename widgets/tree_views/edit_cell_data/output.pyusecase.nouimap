@@ -18,6 +18,8 @@ Updated : GtkTreeView with columns: Name , Complete
 -> Power up systems | Check box
 -> Watch some tv | Check box
 
+'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Buy groceries'
+
 'Auto.TreeView.row-expanded.'Type=TreeView'' event created with arguments 'Power up systems'
 
 Expanded row in GtkTreeView with columns: Name , Complete
@@ -27,14 +29,26 @@ Expanded row in GtkTreeView with columns: Name , Complete
 ->   Turn on the client but leave the server | Check box
 -> Watch some tv | Check box
 
-'Auto.TreeView.toggled.complete.true.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server'
-Toggle 'Turn on the client but leave the server' to: True
+'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server'
+
+'Auto.TreeView.edited.name.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server = Turn on the client and restart the server'
+Change 'Turn on the client but leave the server' to 'Turn on the client and restart the server'
 
 Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box (checked)
 -> Do some programming | Check box
 -> Power up systems | Check box
-->   Turn on the client but leave the server | Check box (checked)
+->   Turn on the client and restart the server | Check box
+-> Watch some tv | Check box
+
+'Auto.TreeView.toggled.complete.true.'Type=TreeView'' event created with arguments 'Turn on the client and restart the server'
+Toggle 'Turn on the client and restart the server' to: True
+
+Updated : GtkTreeView with columns: Name , Complete
+-> Buy groceries | Check box (checked)
+-> Do some programming | Check box
+-> Power up systems | Check box
+->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
 
 'Auto.TreeView.toggled.complete.false.'Type=TreeView'' event created with arguments 'Buy groceries'
@@ -44,17 +58,21 @@ Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box
 -> Do some programming | Check box
 -> Power up systems | Check box
-->   Turn on the client but leave the server | Check box (checked)
+->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
+
+'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Buy groceries'
 
 'Auto.Window.delete-event.'Title=CellRenderer Example'' event created with arguments ''
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-Viewing table with 5 rows and 4 columns.
+Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
 'TreeView' | 'Type=TreeView' | 'toggled.complete.true' | Text entry
+'TreeView' | 'Type=TreeView' | 'changed.selection' | Text entry
 'TreeView' | 'Type=TreeView' | 'row-expanded' | Text entry
+'TreeView' | 'Type=TreeView' | 'edited.name' | Text entry
 'TreeView' | 'Type=TreeView' | 'toggled.complete.false' | Text entry
 'Window' | 'Title=CellRenderer Example' | 'delete-event' | Text entry
 ---------------
@@ -72,5 +90,8 @@ Edited 'GtkEntry' Text entry (set to 'reopen task')
 
 'enter usecase name for signal 'delete-event' on Window 'Title=CellRenderer Example' =' event created with arguments 'close application'
 Edited 'GtkEntry' Text entry (set to 'close application')
+
+'enter usecase name for signal 'edited.name' on TreeView 'Type=TreeView' =' event created with arguments 'change name for'
+Edited 'GtkEntry' Text entry (set to 'change name for')
 
 'finish name entry editing' event created with arguments ''

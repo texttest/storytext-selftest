@@ -1,9 +1,10 @@
+[Type=TreeView]
+toggled.complete.true = complete task
+changed.selection = 
+row-expanded = show reminders for
+edited.name = change name for
+toggled.complete.false = reopen task
+
 [Title=CellRenderer Example]
 delete-event = close application
-
-[Type=TreeView]
-row-collapsed = hide reminders for
-toggled.complete.true = complete task
-row-expanded = show reminders for
-toggled.complete.false = reopen task
 

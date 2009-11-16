@@ -1,8 +1,0 @@
-[Type=TreeView]
-toggled.complete.true = complete task
-row-expanded = show reminders for
-toggled.complete.false = reopen task
-
-[Title=CellRenderer Example]
-delete-event = close application
-
