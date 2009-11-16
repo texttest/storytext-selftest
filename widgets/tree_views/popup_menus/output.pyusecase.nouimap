@@ -24,6 +24,11 @@ Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 
 'Auto.TreeView.button-press-event.'Type=TreeView'' event created with arguments 'Print'
 
+---------- Popup Window ----------
+'Colour Last Column'
+'Clear Last Column Colour'
+----------------------------------
+
 'Auto.MenuItem.activate.'Label=Colour Last Column'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Pixbuf and Text , Text Only

@@ -24,6 +24,11 @@ Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 
 'view actions for row' event created with arguments 'Print'
 
+---------- Popup Window ----------
+'Colour Last Column'
+'Clear Last Column Colour'
+----------------------------------
+
 'enable colouring' event created with arguments ''
 
 Updated : GtkTreeView with columns: Pixbuf and Text , Text Only

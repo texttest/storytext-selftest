@@ -2,16 +2,7 @@
 ---------- Window 'The Video Store' ----------
 Focus widget is 'Movie Name'
 
-Menu Bar :
-  'File' Menu :
-    'Actions' Menu :
-      'Add'
-      'Delete'
-      'Sort'
-      'Clear'
-    'Show buttons' (checked)
-    'Enable buttons' (checked)
-    'Quit'
+Menu Bar : 'File' (+)
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
@@ -21,16 +12,26 @@ Showing Movie Tree with columns: Movie Name
 'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
-
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
-
 'set new movie name to' event created with arguments 'Nisse'
 Edited 'Movie Name' Text entry (set to 'Nisse')
 
 'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'Auto.MenuItem.activate.'Label=Add'' event created with arguments ''
 
@@ -58,7 +59,21 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'Auto.MenuItem.activate.'Label=Sort'' event created with arguments ''
 
@@ -69,7 +84,21 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'Auto.CheckMenuItem.toggled.false.'Label=Show buttons'' event created with arguments ''
 Hiding the 'Add' widget
@@ -90,17 +119,27 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons'
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'Auto.CheckMenuItem.toggled.true.'Label=Show buttons'' event created with arguments ''
 Button 'Add'
 Button 'Delete'
 Button 'Sort'
 Button 'Clear'
-
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
-
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
 
 'set new movie name to' event created with arguments 'Nils igen'
 Edited 'Movie Name' Text entry (set to 'Nils igen')
@@ -116,7 +155,21 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'Auto.MenuItem.activate.'Label=Sort'' event created with arguments ''
 
@@ -129,7 +182,21 @@ Updated : Movie Tree with columns: Movie Name
 
 'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'close' event created with arguments ''
 

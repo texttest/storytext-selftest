@@ -2,11 +2,7 @@
 ---------- Window 'GTK Menu Test' ----------
 Focus widget is 'press me'
 
-Menu Bar :
-  'Root Menu' Menu :
-    'Test-undermenu - 0'
-    'Test-undermenu - 1'
-    'Test-undermenu - 2'
+Menu Bar : 'Root Menu' (+)
 Button 'press me'
 --------------------------------------------
 

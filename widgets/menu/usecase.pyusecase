@@ -1,5 +1,3 @@
-select menu 'file'
-select menu item 'actions'
 set new movie name to Nisse
 select menu 'file'
 select menu item 'actions'
@@ -19,8 +17,6 @@ add movie by pressing <enter>
 select menu 'file'
 select menu item 'actions'
 show buttons
-select menu 'file'
-select menu item 'actions'
 set new movie name to Nils igen
 add movie
 select menu 'file'

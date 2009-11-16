@@ -2,16 +2,7 @@
 ---------- Window 'The Video Store' ----------
 Focus widget is 'Movie Name'
 
-Menu Bar :
-  'File' Menu :
-    'Actions' Menu :
-      'Add'
-      'Delete'
-      'Sort'
-      'Clear'
-    'Show buttons' (checked)
-    'Enable buttons' (checked)
-    'Quit'
+Menu Bar : 'File' (+)
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
@@ -21,16 +12,26 @@ Showing Movie Tree with columns: Movie Name
 'Shortcuts:' , Button '_New'
 ----------------------------------------------
 
-'select menu 'file'' event created with arguments ''
-
-'select menu item 'actions'' event created with arguments ''
-
 'set new movie name to' event created with arguments 'Nisse'
 Edited 'Movie Name' Text entry (set to 'Nisse')
 
 'select menu 'file'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'select menu item 'actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'select menu item 'add'' event created with arguments ''
 
@@ -58,7 +59,21 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu 'file'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'select menu item 'actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'select menu item 'sort'' event created with arguments ''
 
@@ -69,7 +84,21 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu 'file'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'select menu item 'actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'hide buttons' event created with arguments ''
 Hiding the 'Add' widget
@@ -90,17 +119,27 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu 'file'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons'
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'select menu item 'actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'show buttons' event created with arguments ''
 Button 'Add'
 Button 'Delete'
 Button 'Sort'
 Button 'Clear'
-
-'select menu 'file'' event created with arguments ''
-
-'select menu item 'actions'' event created with arguments ''
 
 'set new movie name to' event created with arguments 'Nils igen'
 Edited 'Movie Name' Text entry (set to 'Nils igen')
@@ -116,7 +155,21 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu 'file'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'select menu item 'actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'select menu item 'sort'' event created with arguments ''
 
@@ -129,6 +182,20 @@ Updated : Movie Tree with columns: Movie Name
 
 'select menu 'file'' event created with arguments ''
 
+---------- Popup Window ----------
+'Actions' (+)
+'Show buttons' (checked)
+'Enable buttons' (checked)
+'Quit'
+----------------------------------
+
 'select menu item 'actions'' event created with arguments ''
+
+---------- Popup Window ----------
+'Add'
+'Delete'
+'Sort'
+'Clear'
+----------------------------------
 
 'close' event created with arguments ''

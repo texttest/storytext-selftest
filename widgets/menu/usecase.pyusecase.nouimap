@@ -1,5 +1,3 @@
-Auto.MenuItem.activate.'Label=File'
-Auto.MenuItem.activate.'Label=Actions'
 set new movie name to Nisse
 Auto.MenuItem.activate.'Label=File'
 Auto.MenuItem.activate.'Label=Actions'
@@ -19,8 +17,6 @@ add movie by pressing <enter>
 Auto.MenuItem.activate.'Label=File'
 Auto.MenuItem.activate.'Label=Actions'
 Auto.CheckMenuItem.toggled.true.'Label=Show buttons'
-Auto.MenuItem.activate.'Label=File'
-Auto.MenuItem.activate.'Label=Actions'
 set new movie name to Nils igen
 add movie
 Auto.MenuItem.activate.'Label=File'

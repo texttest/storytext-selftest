@@ -2,16 +2,7 @@
 ---------- Window 'The Video Store' ----------
 Focus widget is 'Movie Name'
 
-Menu Bar :
-  'File' Menu :
-    'Actions' Menu :
-      'Add'
-      'Delete'
-      'Sort'
-      'Clear'
-    'Show buttons' (checked)
-    'Enable buttons' (checked)
-    'Quit'
+Menu Bar : 'File' (+)
 'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
 
 Showing Notebook with tabs: text info , video view
