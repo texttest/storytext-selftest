@@ -1,0 +1,30 @@
+I like Apple pie
+
+---------- Window 'None' ----------
+Focus widget is 'GtkEntry'
+Text entry (set to 'Apple') (drop-down list containing ['Apple', 'Cherry', 'Blueberry', 'Grape', 'Peach', 'Raisin'])
+-----------------------------------
+
+'Auto.Entry.changed.'Type=Entry'' event created with arguments 'Grape'
+I like Grape pie
+Edited 'GtkEntry' Text entry (set to 'Grape')
+
+'Auto.Window.delete-event.'Type=Window'' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 3 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'Entry' | 'Type=Entry' | 'changed' | Text entry
+'Window' | 'Type=Window' | 'delete-event' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Type=Entry' =' event created with arguments 'set pie choice to'
+Edited 'GtkEntry' Text entry (set to 'set pie choice to')
+
+'enter usecase name for signal 'delete-event' on Window 'Type=Window' =' event created with arguments 'close application'
+Edited 'GtkEntry' Text entry (set to 'close application')
+
+'finish name entry editing' event created with arguments ''

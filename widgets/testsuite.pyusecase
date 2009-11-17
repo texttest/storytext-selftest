@@ -25,6 +25,9 @@ radio_buttons
 # Check we can get popup menus on non-standard widgets also. Note that we can't auto-record it however.
 popup_menu_on_button
 
+# Tests for gtk.ComboBoxEntry
+combobox_entry
+
 # All the various things you can do with a treeview
 tree_views
 

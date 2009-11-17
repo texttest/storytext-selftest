@@ -1,0 +1,3 @@
+enter usecase name for signal 'changed' on Entry 'Type=Entry' = set pie choice to
+enter usecase name for signal 'delete-event' on Window 'Type=Window' = close application
+finish name entry editing

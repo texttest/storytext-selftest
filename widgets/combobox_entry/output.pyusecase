@@ -1,0 +1,12 @@
+I like Apple pie
+
+---------- Window 'None' ----------
+Focus widget is 'GtkEntry'
+Text entry (set to 'Apple') (drop-down list containing ['Apple', 'Cherry', 'Blueberry', 'Grape', 'Peach', 'Raisin'])
+-----------------------------------
+
+'set pie choice to' event created with arguments 'Grape'
+I like Grape pie
+Edited 'GtkEntry' Text entry (set to 'Grape')
+
+'close application' event created with arguments ''
