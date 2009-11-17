@@ -1,0 +1,6 @@
+[Type=Window]
+delete-event = close application
+
+[Type=ComboBox]
+changed = set pie choice to
+

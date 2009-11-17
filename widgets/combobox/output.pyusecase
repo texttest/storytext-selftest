@@ -1,0 +1,11 @@
+
+---------- Window 'None' ----------
+Focus widget is 'GtkToggleButton'
+Combo Box (selected 'Select a pie:') (drop-down list containing ['Select a pie:', 'Apple', 'Cherry', 'Blueberry', 'Grape', 'Peach', 'Raisin'])
+-----------------------------------
+
+'set pie choice to' event created with arguments 'Grape'
+I like Grape pie
+Changed selection in 'GtkComboBox' Combo Box (selected 'Grape')
+
+'close application' event created with arguments ''

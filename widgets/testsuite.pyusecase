@@ -26,6 +26,9 @@ radio_buttons
 popup_menu_on_button
 
 # Tests for gtk.ComboBoxEntry
+combobox
+
+# Tests for gtk.ComboBoxEntry
 combobox_entry
 
 # All the various things you can do with a treeview
