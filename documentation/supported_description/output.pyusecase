@@ -1,0 +1,53 @@
+The following lists the PyGTK widget types and the associated signals on them which 
+PyUseCase is currently capable of recording and replaying. Any type derived from the listed
+types is also supported.
+
+gtk.Button               : clicked
+gtk.CellRendererText     : edited
+gtk.CellRendererToggle   : toggled
+gtk.CheckMenuItem        : toggled
+gtk.ComboBox             : changed
+gtk.Dialog               : delete-event , response
+gtk.Entry                : activate , changed
+gtk.FileChooser          : current-folder-changed , current-name-changed , selection-changed
+gtk.MenuItem             : activate
+gtk.Notebook             : switch-page
+gtk.Paned                : notify::position
+gtk.ToggleButton         : toggled
+gtk.ToolButton           : clicked
+gtk.TreeSelection        : changed
+gtk.TreeView             : button-press-event , row-activated , row-collapsed , row-expanded
+gtk.TreeViewColumn       : clicked
+gtk.Window               : delete-event
+
+The following lists the PyGTK widget types whose status and changes PyUseCase is 
+currently capable of monitoring and logging. Any type derived from the listed types 
+is also supported but will only have features of the listed type described.
+
+gtk.Button
+gtk.CellView
+gtk.CheckMenuItem
+gtk.ComboBox
+gtk.ComboBoxEntry
+gtk.Container
+gtk.Entry
+gtk.Expander
+gtk.FileChooser
+gtk.Frame
+gtk.Image
+gtk.Label
+gtk.MenuBar
+gtk.MenuItem
+gtk.Notebook
+gtk.ProgressBar
+gtk.Separator
+gtk.SeparatorMenuItem
+gtk.SeparatorToolItem
+gtk.Table
+gtk.TextView
+gtk.ToggleButton
+gtk.ToggleToolButton
+gtk.ToolButton
+gtk.ToolItem
+gtk.Toolbar
+gtk.TreeView

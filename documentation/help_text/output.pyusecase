@@ -1,0 +1,58 @@
+Usage: pyusecase [options] <program> <program_args> ...
+
+PyUseCase is a record/replay tool for Python GUIs, currently consisting of a generic 
+interface and an implementation for PyGTK. Unlike traditional record/replay tools, 
+it does not record UI events directly but relies on its user maintaining a mapping 
+between the current UI controls and "domain language" names that express the 
+intent of the actions, allowing tests to be recorded in a very high level customer-readable format.
+
+For PyGTK, it also generates a logfile describing in a textual format the visible GUI and the changes
+that occur in it. This makes it easy to test PyGTK GUIs using a text-based test tool such as TextTest.
+It does not currently have any other means of "asserting" what is happening in the GUI.
+
+For fuller documentation refer to the online docs at http://www.texttest.org
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -d SECONDS, --delay=SECONDS
+                        amount of time to wait between each action when
+                        replaying. Also enabled via the environment variable
+                        USECASE_REPLAY_DELAY.
+  -i INTERFACE, --interface=INTERFACE
+                        type of interface used by application, should be
+                        'console' or 'gtk' ('gtk' is default)
+  -l LEVEL, --loglevel=LEVEL
+                        produce logging at level LEVEL, should be 'info',
+                        'debug', 'config' or 'off'. 'info' will point the
+                        auto-generated GUI log at standard output. 'debug'
+                        will produce a large amount of PyUseCase debug
+                        information on standard output. 'off' will disable the
+                        auto-generated log. 'config' will enabled the auto-
+                        generated log but not set any global log level: it is
+                        a way to tell PyUseCase that your application will
+                        configure its logging via its own log configuration
+                        files.
+  -m FILE1,..., --mapfiles=FILE1,...
+                        Use the UI map file(s) at FILE1,... If not set
+                        PyUseCase will read and write such a file at the
+                        location determined by $USECASE_HOME/ui_map.conf. If
+                        run standalone $USECASE_HOME defaults to ~/usecases,
+                        while TextTest will point it to a 'pyusecase_files'
+                        subdirectory of the root test suite. If multiple files
+                        are provided, the last in the list will be used for
+                        writing.
+  -p FILE, --replay=FILE
+                        replay script from FILE. Also enabled via the
+                        environment variable USECASE_REPLAY_SCRIPT.
+  -r FILE, --record=FILE
+                        record script to FILE. Also enabled via the
+                        environment variable USECASE_RECORD_SCRIPT.
+  -s, --supported       list which PyGTK widgets and signals are currently
+                        supported 'out-of-the-box'
+  -x, --disable_usecase_names
+                        Disable the entering of usecase names when
+                        unrecognised actions are recorded. Recommended only
+                        for quick-and-dirty experimenting. Will result in
+                        recorded scripts that are easy to make but hard to
+                        read and hard to maintain.

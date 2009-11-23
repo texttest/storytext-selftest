@@ -12,3 +12,6 @@ error_handling
 
 # Tests for console aspect of PyUseCase - i.e. app events and signals
 console
+
+# Tests for the various documentation output
+documentation
