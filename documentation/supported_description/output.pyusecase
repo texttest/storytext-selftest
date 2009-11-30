@@ -1,5 +1,5 @@
 The following lists the PyGTK widget types and the associated signals on them which 
-PyUseCase is currently capable of recording and replaying. Any type derived from the listed
+PyUseCase trunk is currently capable of recording and replaying. Any type derived from the listed
 types is also supported.
 
 gtk.Button               : clicked
@@ -20,7 +20,7 @@ gtk.TreeView             : button-press-event , row-activated , row-collapsed , 
 gtk.TreeViewColumn       : clicked
 gtk.Window               : delete-event
 
-The following lists the PyGTK widget types whose status and changes PyUseCase is 
+The following lists the PyGTK widget types whose status and changes PyUseCase trunk is 
 currently capable of monitoring and logging. Any type derived from the listed types 
 is also supported but will only have features of the listed type described.
 
