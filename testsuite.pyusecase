@@ -4,8 +4,8 @@ widgets
 # Tests to do with the shortcut functionality
 shortcuts
 
-# Tests for various unlikely naming sequences for tree views
-tree_view_indexing
+# Everything that needs a UI but isn't specific to particular widgets
+other_ui_features
 
 # Various actions that shouldn't be allowed...
 error_handling
