@@ -1,6 +1,9 @@
 # Check what comes out when we run -help
 help_text
 
+# If no arguments are given, PyUseCase should print the help text, not stacktrace...
+no_args
+
 # Check we can generate a description of what widget types we support
 supported_description
 
