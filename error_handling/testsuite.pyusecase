@@ -1,5 +1,8 @@
 # Give a non-existent file for replay
 replay_bad_file
+
+# See what happens if the python version is too old
+bad_python_version
 create_empty_shortcut
 
 # The menubar has a check menu item which makes the buttons invisible.
