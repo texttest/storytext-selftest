@@ -1,0 +1,7 @@
+[Title=The Video Store]
+delete-event = close
+
+[Name=Movie Name]
+activate = add movie by pressing <enter>
+changed = set new movie name to
+

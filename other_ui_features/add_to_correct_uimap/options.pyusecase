@@ -1,0 +1,1 @@
+{CLEAR} -m usecases/ui_map.conf,usecases/ui_map_2.conf -t target_ui.py

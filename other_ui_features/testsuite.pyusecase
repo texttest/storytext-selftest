@@ -1,5 +1,11 @@
 # Check we can set a delay of some sort
 slow_motion_replay
 
+# If we introduce a better way to refer to a widget, automatically update the UI map file
+improve_uimap_naming
+
+# Don't try and add to the wrong file
+add_to_correct_uimap
+
 # Tests for various unlikely naming sequences for tree views
 tree_view_indexing

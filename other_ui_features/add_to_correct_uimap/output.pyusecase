@@ -1,0 +1,37 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar : 'File' (+)
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+'Shortcuts:' , Button '_New'
+----------------------------------------------
+
+'Auto.Entry.changed.'Name=Movie Name'' event created with arguments 'Star Wars'
+Edited 'Movie Name' Text entry (set to 'Star Wars')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Star Wars
+
+'close' event created with arguments ''
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+Viewing table with 2 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
+'Entry' | 'Name=Movie Name' | 'changed' | Text entry
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set new movie name to'
+Edited 'GtkEntry' Text entry (set to 'set new movie name to')
+
+'finish name entry editing' event created with arguments ''
