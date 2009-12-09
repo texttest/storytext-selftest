@@ -1,0 +1,8 @@
+# Check we correctly do a normal insertion
+basic_insert
+
+# Don't insert the shortcut if other actions come in between
+other_actions_intervene
+
+# Check we can do multiple insertions correctly, and insertions that don't begin at the start
+multiple_insert

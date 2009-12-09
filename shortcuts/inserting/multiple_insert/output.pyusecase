@@ -1,0 +1,77 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar : 'File' (+)
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+'Shortcuts:' , Button 'Add Several' , Button '_New'
+----------------------------------------------
+
+'set new movie name to' event created with arguments 'Gone With The Wind'
+Edited 'Movie Name' Text entry (set to 'Gone With The Wind')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Gone With The Wind
+
+'set new movie name to' event created with arguments 'Star Wars'
+Edited 'Movie Name' Text entry (set to 'Star Wars')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Gone With The Wind
+-> Star Wars
+
+'set new movie name to' event created with arguments 'Die Hard'
+Edited 'Movie Name' Text entry (set to 'Die Hard')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Gone With The Wind
+-> Star Wars
+-> Die Hard
+
+'set new movie name to' event created with arguments 'Back To The Future'
+Edited 'Movie Name' Text entry (set to 'Back To The Future')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Gone With The Wind
+-> Star Wars
+-> Die Hard
+-> Back To The Future
+
+'set new movie name to' event created with arguments 'Star Wars'
+Edited 'Movie Name' Text entry (set to 'Star Wars')
+
+'add movie' event created with arguments ''
+
+---------- Dialog 'VideoStore Error!' ----------
+Focus widget is 'gtk-ok'
+'Movie 'Star Wars' has already been added'
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+------------------------------------------------
+
+'set new movie name to' event created with arguments 'Die Hard'
+Edited 'Movie Name' Text entry (set to 'Die Hard')
+
+'add movie' event created with arguments ''
+
+---------- Dialog 'VideoStore Error!' ----------
+Focus widget is 'gtk-ok'
+'Movie 'Die Hard' has already been added'
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+------------------------------------------------
+
+'close' event created with arguments ''

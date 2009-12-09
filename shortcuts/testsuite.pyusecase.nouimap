@@ -3,6 +3,3 @@ create_shortcut
 
 # Make sure a shortcut file can be used
 use_shortcut
-
-# Tests for automatic insertion of shortcuts when recording
-inserting
