@@ -1,3 +1,6 @@
+# Check we can handle a treeview with no model attached
+no_model
+
 # Try to select a row that isn't there
 select_bad_row
 

@@ -26,5 +26,11 @@ use_hidden_menu
 # Check what happens if the tab we want isn't there
 bad_notebook_tab
 
+# Check we can handle a combobox with no contents
+combobox_empty
+
+# Check we can handle a combobox with no model attached
+combobox_no_model
+
 # Error handling for tree view stuff
 tree_views
