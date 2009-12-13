@@ -4,6 +4,9 @@ wait_and_signal
 # Test for waiting at a non-initial position, i.e. suspending an ongoing replay rather than just delaying the start of it
 subsequent_wait
 
+# Handle events that have already occurred
+appevent_already_happened
+
 # Checkapplication events override each other correctly
 override_appevents
 

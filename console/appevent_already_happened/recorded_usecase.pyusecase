@@ -1,0 +1,3 @@
+wait for second sleep to complete
+receive signal SIGQUIT
+receive signal SIGINT
