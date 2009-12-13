@@ -7,6 +7,7 @@ Generating signal SIGQUIT
 Got signal 3
 
 Waiting for application event 'second sleep to complete' to occur.
+
 Expected application event 'second sleep to complete' occurred, proceeding.
 
 Generating signal SIGINT
