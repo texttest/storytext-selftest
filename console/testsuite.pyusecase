@@ -1,2 +1,11 @@
 # Check we can do a simple application event and record/replay a signal
 wait_and_signal
+
+# Checkapplication events override each other correctly
+override_appevents
+
+# Application events should both be recorded if they're in different categories
+appevent_categories
+
+# Allow renaming of application events after they occur
+appevent_rename

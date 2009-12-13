@@ -1,0 +1,9 @@
+
+Waiting for application event 'first sleep to complete' to occur.
+Waiting for application event 'something else interesting' to occur.
+
+Expected application event 'first sleep to complete' occurred, proceeding.
+Expected application event 'something else interesting' occurred, proceeding.
+
+Generating signal SIGINT
+Interrupted while sleeping for 5 seconds.

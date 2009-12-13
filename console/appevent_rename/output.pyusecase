@@ -1,0 +1,7 @@
+
+Waiting for application event 'a renamed sleep event' to occur.
+
+Expected application event 'a renamed sleep event' occurred, proceeding.
+
+Generating signal SIGINT
+Interrupted while sleeping for 5 seconds.
