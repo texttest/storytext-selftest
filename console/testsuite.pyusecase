@@ -9,3 +9,9 @@ appevent_categories
 
 # Allow renaming of application events after they occur
 appevent_rename
+
+# Test for superceding application event categories
+supercede_categories
+
+# Test for superceding application event categories, and renaming them also
+supercede_and_rename
