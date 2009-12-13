@@ -9,8 +9,10 @@ def handleSignal(signum, *args):
 signal.signal(signal.SIGQUIT, handleSignal)
 signal.signal(signal.SIGINT, handleSignal)
 
+applicationEvent("nothing to happen")
 time.sleep(0.5)
 applicationEvent("first sleep to complete")
-applicationEvent("second sleep to complete")
 time.sleep(5)
+time.sleep(0.5)
+applicationEvent("second sleep to complete")
 time.sleep(5)
