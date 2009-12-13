@@ -1,6 +1,9 @@
 # Check we can do a simple application event and record/replay a signal
 wait_and_signal
 
+# Test for waiting at a non-initial position, i.e. suspending an ongoing replay rather than just delaying the start of it
+subsequent_wait
+
 # Checkapplication events override each other correctly
 override_appevents
 
