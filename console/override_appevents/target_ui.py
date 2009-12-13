@@ -10,5 +10,6 @@ def sleep(length):
         print "Interrupted while sleeping for", length, "seconds."
 
 sleep(0.5)
+applicationEvent("a thing that should never be seen")
 applicationEvent("first sleep to complete")
 sleep(5)
