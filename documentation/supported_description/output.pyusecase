@@ -14,6 +14,7 @@ gtk.MenuItem             : activate
 gtk.Notebook             : switch-page
 gtk.Paned                : notify::position
 gtk.ToggleButton         : toggled
+gtk.ToggleToolButton     : toggled
 gtk.ToolButton           : clicked
 gtk.TreeSelection        : changed
 gtk.TreeView             : button-press-event , row-activated , row-collapsed , row-expanded

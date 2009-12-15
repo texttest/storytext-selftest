@@ -1,2 +1,5 @@
 # Test for logging the gtk.ProgressBar
 progressbar
+
+# Test for various toolitems, menuitems etc and associated accelerators and tooltips
+action_widgets

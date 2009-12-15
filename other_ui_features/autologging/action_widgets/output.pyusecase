@@ -1,0 +1,43 @@
+
+---------- Window 'None' ----------
+Focus widget is 'GtkButton'
+
+Menu Bar : 'File' (+) , 'Sound' (+) , 'Radio Band' (+)
+
+Tool Bar :
+  _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit the Program')
+    ----
+  _Mute (accelerator 'Ctrl+M', tooltip 'Mute the volume')
+    ----
+  _AM (depressed) (accelerator 'Ctrl+A', tooltip 'AM Radio')
+  _FM (accelerator 'Ctrl+F', tooltip 'FM Radio')
+  SS_B (accelerator 'Ctrl+S', tooltip 'Single Sideband Radio')
+'Sound is not muted'
+'Radio band is AM'
+Button '_Quit' (accelerator 'Ctrl+Q', tooltip 'Quit the Program')
+-----------------------------------
+
+'set mute from toolbar' event created with arguments ''
+
+Toggled Toolbar Item _Mute (depressed) (accelerator 'Ctrl+M', tooltip 'Mute the volume')
+
+Changing Sound Label to: 'Sound is muted'
+
+'show radio band menu' event created with arguments ''
+
+---------- Popup Window ----------
+'AM' (checked) (accelerator 'Ctrl+A')
+'FM' (accelerator 'Ctrl+F')
+'SSB' (accelerator 'Ctrl+S')
+----------------------------------
+
+'enable FM from menu' event created with arguments ''
+
+Toggled Toolbar Item _AM (accelerator 'Ctrl+A', tooltip 'AM Radio')
+
+Toggled Toolbar Item _FM (depressed) (accelerator 'Ctrl+F', tooltip 'FM Radio')
+
+Changing Radio Band Label to: 'Radio band is FM'
+
+'quit' event created with arguments ''
+Quitting program
