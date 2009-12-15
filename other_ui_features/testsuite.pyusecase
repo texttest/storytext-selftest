@@ -9,3 +9,6 @@ add_to_correct_uimap
 
 # Tests for various unlikely naming sequences for tree views
 tree_view_indexing
+
+# Various widgets where only logging them is relevant
+autologging

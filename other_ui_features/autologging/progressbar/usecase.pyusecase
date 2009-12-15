@@ -1,0 +1,4 @@
+wait for progress to reach 5%
+show text
+wait for progress to reach 10%
+close application
