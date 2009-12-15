@@ -3,3 +3,6 @@ progressbar
 
 # Test for various toolitems, menuitems etc and associated accelerators and tooltips
 action_widgets
+
+# Check we can describe a gtk.Frame correctly
+frame
