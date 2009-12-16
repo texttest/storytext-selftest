@@ -48,8 +48,8 @@ Hiding the 'S_top' widget
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 3 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
-'Entry' | 'Name=Movie Name' | 'changed' | Text entry
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'Entry' | 'Name=Movie Name' | 'edited text' | Text entry
 'Button' | 'Label=Add' | 'clicked' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
@@ -68,8 +68,8 @@ Edited 'GtkEntry' Text entry (set to 'add movie')
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 2 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
-'Window' | 'Title=The Video Store' | 'delete-event' | Text entry
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'Window' | 'Title=The Video Store' | 'closed' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------

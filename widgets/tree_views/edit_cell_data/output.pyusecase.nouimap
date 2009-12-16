@@ -68,13 +68,13 @@ Updated : GtkTreeView with columns: Name , Complete
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 7 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
-'TreeView' | 'Type=TreeView' | 'toggled.complete.true' | Text entry
-'TreeView' | 'Type=TreeView' | 'changed.selection' | Text entry
-'TreeView' | 'Type=TreeView' | 'row-expanded' | Text entry
-'TreeView' | 'Type=TreeView' | 'edited.name' | Text entry
-'TreeView' | 'Type=TreeView' | 'toggled.complete.false' | Text entry
-'Window' | 'Title=CellRenderer Example' | 'delete-event' | Text entry
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'TreeView' | 'Type=TreeView' | 'checked box in column 'complete'' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked on row' | Text entry
+'TreeView' | 'Type=TreeView' | 'row expanded' | Text entry
+'TreeView' | 'Type=TreeView' | 'edited cell in column 'name'' | Text entry
+'TreeView' | 'Type=TreeView' | 'unchecked box in column 'complete'' | Text entry
+'Window' | 'Title=CellRenderer Example' | 'closed' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------

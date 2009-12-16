@@ -13,9 +13,9 @@ Changed selection in 'GtkComboBox' Combo Box (selected 'Grape')
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 3 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
-'ComboBox' | 'Type=ComboBox' | 'changed' | Text entry
-'Window' | 'Type=Window' | 'delete-event' | Text entry
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'ComboBox' | 'Type=ComboBox' | 'selected item' | Text entry
+'Window' | 'Type=Window' | 'closed' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------

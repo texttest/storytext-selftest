@@ -4,7 +4,7 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.24Oct130708.8009/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/pyusecase.16Dec170654.12987/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2
 Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
 ------------------------------------------------
 
@@ -13,15 +13,15 @@ Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'g
 'Auto.FileChooserDialog.current-name-changed.'Title=Save..'' event created with arguments 'file3.txt'
 
 'Auto.FileChooserDialog.response.ok.'Title=Save..'' event created with arguments ''
-Saving to /home/geoff/.texttest/tmp/pyusecase.24Oct130708.8009/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2/file3.txt
+Saving to /nfs/vm/texttest-tmp/geoff/pyusecase.16Dec170654.12987/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2/file3.txt
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 4 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
-'FileChooserDialog' | 'Title=Save..' | 'current-folder-changed' | Text entry
-'FileChooserDialog' | 'Title=Save..' | 'current-name-changed' | Text entry
-'FileChooserDialog' | 'Title=Save..' | 'response.ok' | Text entry
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'FileChooserDialog' | 'Title=Save..' | 'current folder changed' | Text entry
+'FileChooserDialog' | 'Title=Save..' | 'filename changed' | Text entry
+'FileChooserDialog' | 'Title=Save..' | 'ok' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------

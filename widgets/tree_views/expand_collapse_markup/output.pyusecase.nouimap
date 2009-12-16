@@ -75,11 +75,11 @@ Collapsed row in GtkTreeView with columns: Column 0
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 Viewing table with 5 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'PyGTK Signal Name' | 'Usecase Name'
-'TreeView' | 'Type=TreeView' | 'row-expanded' | Text entry
-'TreeView' | 'Type=TreeView' | 'changed.selection' | Text entry
-'TreeView' | 'Type=TreeView' | 'row-collapsed' | Text entry
-'Window' | 'Title=Basic TreeView Example' | 'delete-event' | Text entry
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'TreeView' | 'Type=TreeView' | 'row expanded' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked on row' | Text entry
+'TreeView' | 'Type=TreeView' | 'row collapsed' | Text entry
+'Window' | 'Title=Basic TreeView Example' | 'closed' | Text entry
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
