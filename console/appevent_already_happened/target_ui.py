@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 from usecase import applicationEvent
-import time, signal
+import time, signal, sys
 
 def handleSignal(signum, *args):
-    print "Got signal", signum
+    sys.stderr.write("Got signal " + repr(signum) + "\n")
 
 signal.signal(signal.SIGQUIT, handleSignal)
 signal.signal(signal.SIGINT, handleSignal)

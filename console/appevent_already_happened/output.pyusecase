@@ -4,7 +4,6 @@ Waiting for application event 'first sleep to complete' to occur.
 Expected application event 'first sleep to complete' occurred, proceeding.
 
 Generating signal SIGQUIT
-Got signal 3
 
 Waiting for application event 'nothing to happen' to occur.
 Expected application event 'nothing to happen' occurred, proceeding.
@@ -13,4 +12,3 @@ Waiting for application event 'second sleep to complete' to occur.
 Expected application event 'second sleep to complete' occurred, proceeding.
 
 Generating signal SIGINT
-Got signal 2
