@@ -3,7 +3,7 @@
 Focus widget is 'Movie Name'
 
 Menu Bar : 'File' (+)
-'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear' (greyed out)
 
 Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
@@ -31,9 +31,13 @@ Updated : Movie Tree with columns: Movie Name
 
 'disable buttons' event created with arguments ''
 
-Greyed out : Add, Clear, Delete, Sort
+Greyed out : Add, Delete, Sort
 
 'delete movie' event created with arguments ''
 ERROR: widget 'GtkButton' is not sensitive to input at the moment, cannot simulate event 'delete movie'
+
+'enable buttons' event created with arguments ''
+
+No longer greyed out : Add, Clear, Delete, Sort
 
 'close' event created with arguments ''

@@ -3,4 +3,5 @@ add movie
 select menu 'file'
 select menu item 'actions'
 disable buttons
+enable buttons
 close

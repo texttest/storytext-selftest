@@ -95,6 +95,7 @@ class VideoStore:
         sortButton.connect("clicked", self.sortMovies)
         clearButton = gtk.Button()
         clearButton.set_label("Clear")
+        clearButton.set_property("sensitive", False)
         clearButton.connect("clicked", self.clearMovies)
         
         # Place buttons

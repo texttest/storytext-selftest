@@ -3,4 +3,5 @@ add movie
 select menu 'file'
 disable buttons
 delete movie
+enable buttons
 close

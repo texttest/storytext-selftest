@@ -3,7 +3,7 @@
 Focus widget is 'Movie Name'
 
 Menu Bar : 'File' (+)
-'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear'
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear' (greyed out)
 
 Showing Notebook with tabs: text info , video view
 Viewing page 'video view'

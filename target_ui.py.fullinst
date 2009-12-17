@@ -125,6 +125,7 @@ class VideoStore:
         self.scriptEngine.monitorSignal("sort movies", "clicked", sortButton)
         clearButton = gtk.Button()
         clearButton.set_label("Clear")
+        clearButton.set_property("sensitive", False)
         clearButton.connect("clicked", self.clearMovies)
         self.scriptEngine.monitorSignal("clear list", "clicked", clearButton)
 
