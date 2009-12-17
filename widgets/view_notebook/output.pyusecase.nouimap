@@ -28,14 +28,29 @@ This is the Video Store, an example program for PyUseCase
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
+.....Previously unseen actions: provide names for the interesting ones......
 Viewing table with 2 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'Notebook' | 'Type=Notebook' | 'switch page' | Text entry
+---------------
+.....Current Usecase Preview......
+
+========== GtkTextView ==========
+set new movie name to Hello
+?
+close
+=================================
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'switch-page' on Notebook 'Type=Notebook' =' event created with arguments 'show'
 Edited 'GtkEntry' Text entry (set to 'show')
+
+========== GtkTextView ==========
+set new movie name to Hello
+show text info
+close
+=================================
 
 'finish name entry editing' event created with arguments ''

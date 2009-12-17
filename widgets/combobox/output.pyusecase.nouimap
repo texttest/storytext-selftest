@@ -12,10 +12,18 @@ Changed selection in 'GtkComboBox' Combo Box (selected 'Grape')
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
+.....Previously unseen actions: provide names for the interesting ones......
 Viewing table with 3 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'ComboBox' | 'Type=ComboBox' | 'selected item' | Text entry
 'Window' | 'Type=Window' | 'closed' | Text entry
+---------------
+.....Current Usecase Preview......
+
+========== GtkTextView ==========
+?
+?
+=================================
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
@@ -23,7 +31,17 @@ Button 'gtk-ok' (Stock image 'gtk-ok')
 'enter usecase name for signal 'changed' on ComboBox 'Type=ComboBox' =' event created with arguments 'set pie choice to'
 Edited 'GtkEntry' Text entry (set to 'set pie choice to')
 
+========== GtkTextView ==========
+set pie choice to Grape
+?
+=================================
+
 'enter usecase name for signal 'delete-event' on Window 'Type=Window' =' event created with arguments 'close application'
 Edited 'GtkEntry' Text entry (set to 'close application')
+
+========== GtkTextView ==========
+set pie choice to Grape
+close application
+=================================
 
 'finish name entry editing' event created with arguments ''

@@ -2,30 +2,39 @@
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/pyusecase.16Dec152622.11798/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir/file.txt')
+Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir/file.txt')
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/pyusecase.16Dec152622.11798/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2
+- /home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2
 Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
 ------------------------------------------------
 
 'Auto.FileChooserDialog.current-folder-changed.'Title=Open..'' event created with arguments 'subdir2'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/pyusecase.16Dec152622.11798/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file1.txt')
+Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file1.txt')
 
 'Auto.FileChooserDialog.selection-changed.'Title=Open..'' event created with arguments 'file2.txt'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/pyusecase.16Dec152622.11798/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file2.txt')
+Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file2.txt')
 
 'Auto.FileChooserDialog.response.ok.'Title=Open..'' event created with arguments ''
-/nfs/vm/texttest-tmp/geoff/pyusecase.16Dec152622.11798/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file2.txt selected
+/home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/basic_open/sampledir/subdir2/file2.txt selected
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
+.....Previously unseen actions: provide names for the interesting ones......
 Viewing table with 4 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'FileChooserDialog' | 'Title=Open..' | 'current folder changed' | Text entry
 'FileChooserDialog' | 'Title=Open..' | 'selection changed' | Text entry
 'FileChooserDialog' | 'Title=Open..' | 'ok' | Text entry
+---------------
+.....Current Usecase Preview......
+
+========== GtkTextView ==========
+?
+?
+?
+=================================
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
@@ -33,10 +42,28 @@ Button 'gtk-ok' (Stock image 'gtk-ok')
 'enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Title=Open..' =' event created with arguments 'look in folder'
 Edited 'GtkEntry' Text entry (set to 'look in folder')
 
+========== GtkTextView ==========
+look in folder subdir2
+?
+?
+=================================
+
 'enter usecase name for signal 'selection-changed' on FileChooserDialog 'Title=Open..' =' event created with arguments 'select file'
 Edited 'GtkEntry' Text entry (set to 'select file')
 
+========== GtkTextView ==========
+look in folder subdir2
+select file file2.txt
+?
+=================================
+
 'enter usecase name for signal 'response.ok' on FileChooserDialog 'Title=Open..' =' event created with arguments 'open selected file'
 Edited 'GtkEntry' Text entry (set to 'open selected file')
+
+========== GtkTextView ==========
+look in folder subdir2
+select file file2.txt
+open selected file
+=================================
 
 'finish name entry editing' event created with arguments ''

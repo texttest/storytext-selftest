@@ -4,7 +4,7 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/pyusecase.16Dec170654.12987/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2
+- /home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2
 Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
 ------------------------------------------------
 
@@ -13,15 +13,24 @@ Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'g
 'Auto.FileChooserDialog.current-name-changed.'Title=Save..'' event created with arguments 'file3.txt'
 
 'Auto.FileChooserDialog.response.ok.'Title=Save..'' event created with arguments ''
-Saving to /nfs/vm/texttest-tmp/geoff/pyusecase.16Dec170654.12987/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2/file3.txt
+Saving to /home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/basic_save/sampledir/subdir2/file3.txt
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
+.....Previously unseen actions: provide names for the interesting ones......
 Viewing table with 4 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'FileChooserDialog' | 'Title=Save..' | 'current folder changed' | Text entry
 'FileChooserDialog' | 'Title=Save..' | 'filename changed' | Text entry
 'FileChooserDialog' | 'Title=Save..' | 'ok' | Text entry
+---------------
+.....Current Usecase Preview......
+
+========== GtkTextView ==========
+?
+?
+?
+=================================
 ---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
@@ -29,10 +38,28 @@ Button 'gtk-ok' (Stock image 'gtk-ok')
 'enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Title=Save..' =' event created with arguments 'change to folder'
 Edited 'GtkEntry' Text entry (set to 'change to folder')
 
+========== GtkTextView ==========
+change to folder subdir2
+?
+?
+=================================
+
 'enter usecase name for signal 'current-name-changed' on FileChooserDialog 'Title=Save..' =' event created with arguments 'enter file name for save ='
 Edited 'GtkEntry' Text entry (set to 'enter file name for save =')
 
+========== GtkTextView ==========
+change to folder subdir2
+enter file name for save = file3.txt
+?
+=================================
+
 'enter usecase name for signal 'response.ok' on FileChooserDialog 'Title=Save..' =' event created with arguments 'save selected file'
 Edited 'GtkEntry' Text entry (set to 'save selected file')
+
+========== GtkTextView ==========
+change to folder subdir2
+enter file name for save = file3.txt
+save selected file
+=================================
 
 'finish name entry editing' event created with arguments ''

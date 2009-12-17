@@ -40,6 +40,7 @@ Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
+.....Previously unseen actions: provide names for the interesting ones......
 Viewing table with 5 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'TreeView' | 'Type=TreeView' | 'right-clicked row' | Text entry
@@ -47,19 +48,61 @@ Viewing table with 5 rows and 4 columns.
 'MenuItem' | 'Label=Colour Last Column' | 'selected' | Text entry
 'Window' | 'Title=TreeViewColumn Example' | 'closed' | Text entry
 ---------------
+.....Current Usecase Preview......
+
+========== GtkTextView ==========
+?
+?
+?
+?
+?
+=================================
+---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'button-press-event' on TreeView 'Type=TreeView' =' event created with arguments 'view actions for row'
 Edited 'GtkEntry' Text entry (set to 'view actions for row')
 
+========== GtkTextView ==========
+view actions for row Open
+?
+view actions for row Print
+?
+?
+=================================
+
 'enter usecase name for signal 'activate' on MenuItem 'Label=Clear Last Column Colour' =' event created with arguments 'disable colouring'
 Edited 'GtkEntry' Text entry (set to 'disable colouring')
+
+========== GtkTextView ==========
+view actions for row Open
+disable colouring
+view actions for row Print
+?
+?
+=================================
 
 'enter usecase name for signal 'activate' on MenuItem 'Label=Colour Last Column' =' event created with arguments 'enable colouring'
 Edited 'GtkEntry' Text entry (set to 'enable colouring')
 
+========== GtkTextView ==========
+view actions for row Open
+disable colouring
+view actions for row Print
+enable colouring
+?
+=================================
+
 'enter usecase name for signal 'delete-event' on Window 'Title=TreeViewColumn Example' =' event created with arguments 'close application'
 Edited 'GtkEntry' Text entry (set to 'close application')
+
+========== GtkTextView ==========
+view actions for row Open
+disable colouring
+view actions for row Print
+enable colouring
+close application
+=================================
 
 'finish name entry editing' event created with arguments ''

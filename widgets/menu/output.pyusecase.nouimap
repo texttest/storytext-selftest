@@ -202,6 +202,7 @@ Updated : Movie Tree with columns: Movie Name
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
+.....Previously unseen actions: provide names for the interesting ones......
 Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'MenuItem' | 'Label=File' | 'selected' | Text entry
@@ -211,25 +212,237 @@ Viewing table with 7 rows and 4 columns.
 'CheckMenuItem' | 'Label=Show buttons' | 'unchecked' | Text entry
 'CheckMenuItem' | 'Label=Show buttons' | 'checked' | Text entry
 ---------------
+.....Current Usecase Preview......
+
+========== GtkTextView ==========
+set new movie name to Nisse
+?
+?
+?
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+?
+?
+?
+?
+?
+?
+set new movie name to Nils
+add movie by pressing <enter>
+?
+?
+?
+set new movie name to Nils igen
+add movie
+?
+?
+?
+?
+?
+close
+=================================
+---------------
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'activate' on MenuItem 'Label=File' =' event created with arguments 'select menu 'file''
 Edited 'GtkEntry' Text entry (set to 'select menu 'file'')
 
+========== GtkTextView ==========
+set new movie name to Nisse
+select menu 'file'
+?
+?
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+select menu 'file'
+?
+?
+select menu 'file'
+?
+?
+set new movie name to Nils
+add movie by pressing <enter>
+select menu 'file'
+?
+?
+set new movie name to Nils igen
+add movie
+select menu 'file'
+?
+?
+select menu 'file'
+?
+close
+=================================
+
 'enter usecase name for signal 'activate' on MenuItem 'Label=Actions' =' event created with arguments 'select menu item 'actions''
 Edited 'GtkEntry' Text entry (set to 'select menu item 'actions'')
+
+========== GtkTextView ==========
+set new movie name to Nisse
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+?
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Nils
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Nils igen
+add movie
+select menu 'file'
+select menu item 'actions'
+?
+select menu 'file'
+select menu item 'actions'
+close
+=================================
 
 'enter usecase name for signal 'activate' on MenuItem 'Label=Add' =' event created with arguments 'select menu item 'add''
 Edited 'GtkEntry' Text entry (set to 'select menu item 'add'')
 
+========== GtkTextView ==========
+set new movie name to Nisse
+select menu 'file'
+select menu item 'actions'
+select menu item 'add'
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+?
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Nils
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Nils igen
+add movie
+select menu 'file'
+select menu item 'actions'
+?
+select menu 'file'
+select menu item 'actions'
+close
+=================================
+
 'enter usecase name for signal 'activate' on MenuItem 'Label=Sort' =' event created with arguments 'select menu item 'sort''
 Edited 'GtkEntry' Text entry (set to 'select menu item 'sort'')
+
+========== GtkTextView ==========
+set new movie name to Nisse
+select menu 'file'
+select menu item 'actions'
+select menu item 'add'
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Nils
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Nils igen
+add movie
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+close
+=================================
 
 'enter usecase name for signal 'toggled.true' on CheckMenuItem 'Label=Show buttons' =' event created with arguments 'show buttons'
 Edited 'GtkEntry' Text entry (set to 'show buttons')
 
+========== GtkTextView ==========
+set new movie name to Nisse
+select menu 'file'
+select menu item 'actions'
+select menu item 'add'
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+?
+set new movie name to Nils
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+show buttons
+set new movie name to Nils igen
+add movie
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+close
+=================================
+
 'enter usecase name for signal 'toggled.false' on CheckMenuItem 'Label=Show buttons' =' event created with arguments 'hide buttons'
 Edited 'GtkEntry' Text entry (set to 'hide buttons')
+
+========== GtkTextView ==========
+set new movie name to Nisse
+select menu 'file'
+select menu item 'actions'
+select menu item 'add'
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+hide buttons
+set new movie name to Nils
+add movie by pressing <enter>
+select menu 'file'
+select menu item 'actions'
+show buttons
+set new movie name to Nils igen
+add movie
+select menu 'file'
+select menu item 'actions'
+select menu item 'sort'
+select menu 'file'
+select menu item 'actions'
+close
+=================================
 
 'finish name entry editing' event created with arguments ''
