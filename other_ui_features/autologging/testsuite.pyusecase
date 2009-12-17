@@ -6,3 +6,9 @@ action_widgets
 
 # Check we can describe a gtk.Frame correctly
 frame
+
+# Check we can describe a gtk.Expander correctly
+expander
+
+# Check we can describe a gtk.Expander correctly
+cellview

@@ -47,13 +47,13 @@ Hiding the 'S_top' widget
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 3 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'Entry' | 'Name=Movie Name' | 'edited text' | Text entry
 'Button' | 'Label=Add' | 'clicked' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?
@@ -91,12 +91,12 @@ add movie
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 2 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'Window' | 'Title=The Video Store' | 'closed' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 create new shortcut

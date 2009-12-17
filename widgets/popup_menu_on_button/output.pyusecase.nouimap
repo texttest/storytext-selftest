@@ -13,13 +13,13 @@ Test-undermenu - 2
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 3 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'MenuItem' | 'Label=Test-undermenu - 2' | 'selected' | Text entry
 'Window' | 'Title=GTK Menu Test' | 'closed' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?

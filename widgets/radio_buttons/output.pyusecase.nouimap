@@ -20,12 +20,12 @@ Toggled Radio button 'radio button3' (checked)
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 2 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'RadioButton' | 'Label=radio button3' | 'checked' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?

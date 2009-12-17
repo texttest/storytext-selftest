@@ -4,7 +4,7 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2
+- /home/geoff/.texttest/tmp/pyusecase.17Dec200715.8042/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2
 Check button 'Make the file readonly'
 ---------------
 Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
@@ -15,18 +15,18 @@ Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'g
 'Auto.FileChooserWidget.current-name-changed.'Type=FileChooserWidget'' event created with arguments 'file3.txt'
 
 'Auto.Dialog.response.ok.'Name=The Save Dialog'' event created with arguments ''
-Saving writeable file to /home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2/file3.txt
+Saving writeable file to /home/geoff/.texttest/tmp/pyusecase.17Dec200715.8042/pyusecase.nouimap/widgets/file_choosers/save_extra_widgets/sampledir/subdir2/file3.txt
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 4 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'FileChooserWidget' | 'Type=FileChooserWidget' | 'current folder changed' | Text entry
 'FileChooserWidget' | 'Type=FileChooserWidget' | 'filename changed' | Text entry
 'Dialog' | 'Name=The Save Dialog' | 'ok' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?

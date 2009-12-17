@@ -99,7 +99,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 10 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'ToggleButton' | 'Label=NEW' | 'unchecked' | Text entry
@@ -112,7 +112,7 @@ Viewing table with 10 rows and 4 columns.
 'TreeView' | 'Type=TreeView' | 'clicked column header 'bug no'' | Text entry
 'Window' | 'Title=TreeModelFilter Example' | 'closed' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?

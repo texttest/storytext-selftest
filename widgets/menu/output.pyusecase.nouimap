@@ -202,7 +202,7 @@ Updated : Movie Tree with columns: Movie Name
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'MenuItem' | 'Label=File' | 'selected' | Text entry
@@ -212,7 +212,7 @@ Viewing table with 7 rows and 4 columns.
 'CheckMenuItem' | 'Label=Show buttons' | 'unchecked' | Text entry
 'CheckMenuItem' | 'Label=Show buttons' | 'checked' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 set new movie name to Nisse

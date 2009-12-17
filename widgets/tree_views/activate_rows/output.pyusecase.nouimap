@@ -1,9 +1,9 @@
 
----------- Window '/home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir' ----------
+---------- Window '/home/geoff/.texttest/tmp/pyusecase.17Dec200715.8042/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir' ----------
 Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
--> Image 'XPM 1' | .. | 4096 | 0755 | Wed Dec 16 23:34:51 2009
+-> Image 'XPM 1' | .. | 4096 | 0755 | Thu Dec 17 20:08:01 2009
 -> Image 'XPM 2' | file1.txt | 6 | 0664 | Mon Oct  5 22:20:34 2009
 -> Image 'XPM 2' | file2.txt | 5 | 0664 | Mon Oct  5 22:20:41 2009
 -> Image 'XPM 1' | subdir | 4096 | 0755 | Mon Oct  5 22:20:57 2009
@@ -11,7 +11,7 @@ Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
 
 'Auto.TreeView.row-activated.'Type=TreeView'' event created with arguments 'subdir'
 
-Changing title for Window '/home/geoff/.texttest/tmp/pyusecase.16Dec233442.8513/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir/subdir'
+Changing title for Window '/home/geoff/.texttest/tmp/pyusecase.17Dec200715.8042/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir/subdir'
 
 Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
 -> Image 'XPM 1' | .. | 4096 | 0755 | Mon Oct  5 22:20:45 2009
@@ -21,13 +21,13 @@ Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 3 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'TreeView' | 'Type=TreeView' | 'double-clicked row' | Text entry
 'Window' | 'Name=File-listing Window' | 'closed' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?

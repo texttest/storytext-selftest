@@ -67,7 +67,7 @@ Updated : GtkTreeView with columns: Name , Complete
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'TreeView' | 'Type=TreeView' | 'checked box in column 'complete'' | Text entry
@@ -77,7 +77,7 @@ Viewing table with 7 rows and 4 columns.
 'TreeView' | 'Type=TreeView' | 'unchecked box in column 'complete'' | Text entry
 'Window' | 'Title=CellRenderer Example' | 'closed' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?

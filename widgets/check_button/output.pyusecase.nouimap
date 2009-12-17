@@ -20,14 +20,14 @@ Toggled Check button 'check button 2
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
-.....Previously unseen actions: provide names for the interesting ones......
+.....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 4 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'CheckButton' | 'Label=check button 1' | 'checked' | Text entry
 'CheckButton' | 'Label=check button 2...' | 'unchecked' | Text entry
 'Button' | 'Label=Quit' | 'clicked' | Text entry
 ---------------
-.....Current Usecase Preview......
+.....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
 ?
