@@ -21,7 +21,9 @@ class FrameExample:
 
         # Create a Frame
         frame = gtk.Frame()
-        window.add(frame)
+        box = gtk.VBox()
+        window.add(box)
+        box.pack_start(frame)
 
         # Set the frame's label
         frame.set_label("GTK Frame Widget")
@@ -31,10 +33,14 @@ class FrameExample:
 
         # Set the style of the frame
         frame.set_shadow_type(gtk.SHADOW_ETCHED_OUT)
-        frame.show()
-  
+        frame.add(gtk.Label("A label"))
+        
+        frame2 = gtk.Frame()
+        frame2.add(gtk.Label("Another Label"))
+        box.pack_start(frame2)
+
         # Display the window
-        window.show()
+        window.show_all()
 
 def main():
     # Enter the event loop
