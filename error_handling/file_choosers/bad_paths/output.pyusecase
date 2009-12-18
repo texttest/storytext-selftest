@@ -1,0 +1,16 @@
+
+---------- Filechooserdialog 'Open..' ----------
+Default widget is 'gtk-open'
+
+Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.18Dec232212.17065/pyusecase/error_handling/file_choosers/bad_paths/sampledir/file.txt')
+Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+------------------------------------------------
+
+'look in folder' event created with arguments 'no-such-folder'
+ERROR: Cannot find folder 'no-such-folder' to change to!
+
+'select file' event created with arguments 'no-such-file'
+ERROR: Cannot select file 'no-such-file', no such file in current folder
+
+'cancel file selection' event created with arguments ''
+Closed, no files selected

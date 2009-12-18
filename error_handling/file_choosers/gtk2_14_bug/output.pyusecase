@@ -1,0 +1,14 @@
+
+---------- Filechooserdialog 'Open..' ----------
+Default widget is 'gtk-open'
+
+Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.18Dec232212.17065/pyusecase/error_handling/file_choosers/gtk2_14_bug/sampledir/file.txt')
+Shortcut folders unknown due to bug in GTK 2.14, fixed in 2.16.3
+Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+------------------------------------------------
+
+'look in folder' event created with arguments 'subsubdir'
+ERROR: Cannot replay changes of folder in file choosers due to bug in GTK 2.14, fixed in GTK 2.16.3
+
+'cancel file selection' event created with arguments ''
+Closed, no files selected

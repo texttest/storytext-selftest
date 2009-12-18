@@ -34,3 +34,6 @@ combobox_no_model
 
 # Error handling for tree view stuff
 tree_views
+
+# Errors for file choosers
+file_choosers

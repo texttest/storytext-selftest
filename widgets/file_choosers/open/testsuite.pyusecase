@@ -1,0 +1,5 @@
+# Check we can select a file with a filechooser
+shortcut_folder
+
+# Check we can select a file in a subdirectory
+subdirectory

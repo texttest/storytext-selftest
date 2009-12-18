@@ -1,0 +1,52 @@
+
+---------- Filechooserdialog 'Open..' ----------
+Default widget is 'gtk-open'
+
+Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.18Dec224258.15026/pyusecase.nouimap/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir')
+Shortcut folders (1) :
+- /home/geoff/.texttest/tmp/pyusecase.18Dec224258.15026/pyusecase.nouimap/widgets/file_choosers/open/subdirectory/sampledir/subdir2
+Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+------------------------------------------------
+
+'Auto.FileChooserDialog.current-folder-changed.'Title=Open..'' event created with arguments 'subsubdir'
+
+Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.18Dec224258.15026/pyusecase.nouimap/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt')
+
+'Auto.FileChooserDialog.response.ok.'Title=Open..'' event created with arguments ''
+/home/geoff/.texttest/tmp/pyusecase.18Dec224258.15026/pyusecase.nouimap/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt selected
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Focus widget is 'GtkEntry'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 3 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'FileChooserDialog' | 'Title=Open..' | 'current folder changed' | Text entry
+'FileChooserDialog' | 'Title=Open..' | 'ok' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+========== GtkTextView ==========
+?
+?
+=================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Title=Open..' =' event created with arguments 'look in folder'
+Edited 'GtkEntry' Text entry (set to 'look in folder')
+
+========== GtkTextView ==========
+look in folder subsubdir
+?
+=================================
+
+'enter usecase name for signal 'response.ok' on FileChooserDialog 'Title=Open..' =' event created with arguments 'open selected file'
+Edited 'GtkEntry' Text entry (set to 'open selected file')
+
+========== GtkTextView ==========
+look in folder subsubdir
+open selected file
+=================================
+
+'finish name entry editing' event created with arguments ''
