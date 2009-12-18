@@ -12,3 +12,6 @@ expander
 
 # Check we can describe a gtk.Expander correctly
 cellview
+
+# Link buttons and adding random things (like link buttons) to toolbars
+toolitem_linkbutton

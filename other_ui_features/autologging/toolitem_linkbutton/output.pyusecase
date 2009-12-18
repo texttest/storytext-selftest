@@ -1,0 +1,11 @@
+
+---------- Pyapp 'Toolbar' ----------
+Focus widget is 'My Home Page'
+
+Tool Bar :
+  Link button 'My Home Page'
+    ----
+  Tool button (Stock image 'gtk-quit')
+-------------------------------------
+
+'close' event created with arguments ''
