@@ -1,9 +1,9 @@
 
----------- Window 'Frame Example' ----------
+---------- Window 'Example' ----------
 .....'GTK Frame Widget'......
 'A label'
 ...........
 'Another Label'
---------------------------------------------
+--------------------------------------
 
 'close' event created with arguments ''

@@ -76,7 +76,7 @@ class TreeViewColumnExample:
         # add a row with text and a stock item - color strings for
         # the background
         self.liststore.append(['Open', gtk.STOCK_OPEN, 'Open a File', True])
-        self.liststore.append(['New', gtk.STOCK_NEW, 'New File', True])
+        self.liststore.append(['New', None, 'New File', True])
         self.liststore.append(['Print', gtk.STOCK_PRINT, 'Print File', False])
 
         # add columns to treeview

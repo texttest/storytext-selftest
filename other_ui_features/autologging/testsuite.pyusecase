@@ -15,3 +15,6 @@ cellview
 
 # Link buttons and adding random things (like link buttons) to toolbars
 toolitem_linkbutton
+
+# Test the various ways to describe images
+images

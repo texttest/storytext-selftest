@@ -1,6 +1,6 @@
 
 ---------- Window 'Example' ----------
-'Cell View Text '
+Button (Animation 'soccerball.gif') , Button (Image 'chaos.jpg') , Button (Image 'important.tif')
 --------------------------------------
 
 'close' event created with arguments ''

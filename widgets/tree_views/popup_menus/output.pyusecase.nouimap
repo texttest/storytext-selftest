@@ -4,7 +4,7 @@ Focus widget is 'GtkButton'
 
 Showing GtkTreeView with columns: Pixbuf and Text , Text Only
 -> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File (pink)
--> Stock image 'gtk-new' (yellow) | New (cyan) | New File (pink)
+-> (yellow) | New (cyan) | New File (pink)
 -> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File
 -----------------------------------------------------
 
@@ -19,7 +19,7 @@ Showing GtkTreeView with columns: Pixbuf and Text , Text Only
 
 Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 -> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File
--> Stock image 'gtk-new' (yellow) | New (cyan) | New File (pink)
+-> (yellow) | New (cyan) | New File (pink)
 -> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File
 
 'Auto.TreeView.button-press-event.'Type=TreeView'' event created with arguments 'Print'
@@ -33,7 +33,7 @@ Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 
 Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 -> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File
--> Stock image 'gtk-new' (yellow) | New (cyan) | New File (pink)
+-> (yellow) | New (cyan) | New File (pink)
 -> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File (pink)
 
 'Auto.Window.delete-event.'Title=TreeViewColumn Example'' event created with arguments ''

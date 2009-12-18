@@ -8,7 +8,7 @@ import gtk
 class ExpanderExample:
     def __init__(self):
         window = gtk.Window()
-        window.set_title("Expander Example")
+        window.set_title("Example")
         window.connect('destroy', lambda w: gtk.main_quit())
         expander = gtk.Expander(None)
         window.add(expander)

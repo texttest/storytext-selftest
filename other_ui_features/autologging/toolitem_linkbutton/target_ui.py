@@ -18,7 +18,7 @@ class PyApp(gtk.Window):
     def __init__(self):
         super(PyApp, self).__init__()
 
-        self.set_title("Toolbar")
+        self.set_title("Example")
         self.set_size_request(250, 200)
         self.modify_bg(gtk.STATE_NORMAL, gtk.gdk.Color(6400, 6400, 6440))
         self.set_position(gtk.WIN_POS_CENTER)

@@ -10,7 +10,7 @@ class FrameExample:
     def __init__(self):
         # Create a new window
         window = gtk.Window(gtk.WINDOW_TOPLEVEL)
-        window.set_title("Frame Example")
+        window.set_title("Example")
 
         # Here we connect the "destroy" event to a signal handler 
         window.connect("destroy", lambda w: gtk.main_quit())

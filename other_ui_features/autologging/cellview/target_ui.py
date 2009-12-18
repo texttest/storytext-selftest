@@ -8,7 +8,7 @@ import gtk
 class Example:
     def __init__(self):
         window = gtk.Window()
-        window.set_title("Cellview Example")
+        window.set_title("Example")
         window.connect('destroy', lambda w: gtk.main_quit())
         cellview = gtk.CellView()
         model = gtk.ListStore(str)
