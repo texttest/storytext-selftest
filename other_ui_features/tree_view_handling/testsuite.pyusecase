@@ -1,3 +1,6 @@
+# Test for selecting multiple rows in several steps
+selecting_multiple
+
 # See what happens if we need to handle triple repetition at several levels
 triple_multiple_levels
 
