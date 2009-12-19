@@ -1,6 +1,9 @@
 # Test for selecting multiple rows in several steps
 selecting_multiple
 
+# We have to single-click to double-click, don't record both
+activation_implies_selection
+
 # See what happens if we need to handle triple repetition at several levels
 triple_multiple_levels
 

@@ -1,0 +1,15 @@
+
+---------- Window 'Basic TreeView Example' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Column 0
+-> leaf
+-----------------------------------------------------
+
+'select row' event created with arguments 'leaf'
+There are now 1 rows selected.
+
+'activate row' event created with arguments 'leaf'
+There are now 0 rows selected.
+
+'close application' event created with arguments ''
