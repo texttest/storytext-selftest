@@ -15,7 +15,7 @@ def progress_timeout(pbobj):
     else:
         # Calculate the value of the progress bar using the
         # value range set in the adjustment object
-        new_val = pbobj.pbar.get_fraction() + 0.01
+        new_val = pbobj.pbar.get_fraction() + 0.02
         if new_val > 1.0:
             new_val = 0.0
         # Set the new value
@@ -81,7 +81,7 @@ class ProgressBar:
         self.pbar.show()
 
         # Add a timer callback to update the value of the progress bar
-        self.timer = gobject.timeout_add (100, progress_timeout, self)
+        self.timer = gobject.timeout_add (200, progress_timeout, self)
 
         separator = gtk.HSeparator()
         vbox.pack_start(separator, False, False, 0)

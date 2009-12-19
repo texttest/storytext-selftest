@@ -1,5 +1,5 @@
 
-Waiting for application event 'progress to reach 5%' to occur.
+Waiting for application event 'progress to reach 6%' to occur.
 
 ---------- Window 'ProgressBar' ----------
 Default widget is 'close'
@@ -12,32 +12,22 @@ Check button 'Right to Left'
 Button 'close'
 ------------------------------------------
 
-Progress bar set to fraction 0.01
-
 Progress bar set to fraction 0.02
-
-Progress bar set to fraction 0.03
 
 Progress bar set to fraction 0.04
 
-Progress bar set to fraction 0.05
+Progress bar set to fraction 0.06
 
-Expected application event 'progress to reach 5%' occurred, proceeding.
+Expected application event 'progress to reach 6%' occurred, proceeding.
 
 'show text' event created with arguments ''
 
 Waiting for application event 'progress to reach 10%' to occur.
 
-Progress bar set to fraction 0.05, text 'some text'
+Progress bar set to fraction 0.06, text 'some text'
 Toggled Check button 'Show text' (checked)
 
-Progress bar set to fraction 0.06, text 'some text'
-
-Progress bar set to fraction 0.07, text 'some text'
-
 Progress bar set to fraction 0.08, text 'some text'
-
-Progress bar set to fraction 0.09, text 'some text'
 
 Progress bar set to fraction 0.1, text 'some text'
 
