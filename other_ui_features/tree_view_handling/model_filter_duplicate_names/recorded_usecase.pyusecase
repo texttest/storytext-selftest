@@ -1,0 +1,2 @@
+select bug 120595 (1)
+close application
