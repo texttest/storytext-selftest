@@ -9,9 +9,4 @@ drag pane separator so message list uses 78% of the space
 select message Message #4
 drag pane separator so message list uses 60% of the space
 select message Message #4
-drag pane separator so message list uses 40% of the space
-select message Message #4,Message #5
-drag pane separator so message list uses 20% of the space
-select message Message #5
-select message Message #1
 close application

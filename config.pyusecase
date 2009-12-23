@@ -40,6 +40,8 @@ extra_version:instnomap
 
 base_version:mapfile
 
+unsaveable_version:cover
+
 discard_file:usecase
 
 [definition_file_stems]

@@ -75,22 +75,4 @@ Now Showing:
 Message #4
 =================================
 
-'drag pane separator so message list uses' event created with arguments '40% of the space'
-
-'select message' event created with arguments 'Message #4,Message #5'
-
-========== GtkTextView ==========
-Now Showing:
-Message #5
-=================================
-
-'drag pane separator so message list uses' event created with arguments '20% of the space'
-
-'select message' event created with arguments 'Message #1'
-
-========== GtkTextView ==========
-Now Showing:
-Message #1
-=================================
-
 'close application' event created with arguments ''
