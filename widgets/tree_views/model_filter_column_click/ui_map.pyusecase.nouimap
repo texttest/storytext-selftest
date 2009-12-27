@@ -14,6 +14,9 @@ toggled.false = hide bugs with state reso
 [Label=UNCO]
 toggled.false = hide bugs with state unco
 
+[Label=NEED]
+toggled.false = hide bugs with state need
+
 [Title=TreeModelFilter Example]
 delete-event = close application
 

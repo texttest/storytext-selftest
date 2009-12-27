@@ -7,4 +7,5 @@ enter usecase name for signal 'toggled.true' on ToggleButton 'Label=NEW' = show 
 enter usecase name for signal 'clicked.bug no.' on TreeView 'Type=TreeView' = sort bugs by bug no.
 enter usecase name for signal 'delete-event' on Window 'Title=TreeModelFilter Example' = close application
 enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' = select bug
+enter usecase name for signal 'toggled.false' on ToggleButton 'Label=NEED' = hide bugs with state need
 finish name entry editing

@@ -95,12 +95,23 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
+'Auto.ToggleButton.toggled.false.'Label=NEED'' event created with arguments ''
+There are now 0 rows selected.
+
+Updated : GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 122569 | NEW | gtk.Window derived class segfaults
+-> 123014 | NEW | PyGtk build problem on Win32 using the 'distutils' approach.
+-> 123037 | NEW | gtk.ListStore.set_column_types is missing
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
+Toggled Toggle button 'NEED'
+
 'Auto.Window.delete-event.'Title=TreeModelFilter Example'' event created with arguments ''
 
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Focus widget is 'GtkEntry'
 .....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 10 rows and 4 columns.
+Viewing table with 11 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'ToggleButton' | 'Label=NEW' | 'unchecked' | Text entry
 'TreeView' | 'Type=TreeView' | 'clicked column header 'description'' | Text entry
@@ -110,11 +121,13 @@ Viewing table with 10 rows and 4 columns.
 'ToggleButton' | 'Label=UNCO' | 'unchecked' | Text entry
 'ToggleButton' | 'Label=NEW' | 'checked' | Text entry
 'TreeView' | 'Type=TreeView' | 'clicked column header 'bug no'' | Text entry
+'ToggleButton' | 'Label=NEED' | 'unchecked' | Text entry
 'Window' | 'Title=TreeModelFilter Example' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
+?
 ?
 ?
 ?
@@ -142,6 +155,7 @@ hide bugs with state new
 ?
 ?
 ?
+?
 =================================
 
 'enter usecase name for signal 'clicked.description' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by description'
@@ -150,6 +164,7 @@ Edited 'GtkEntry' Text entry (set to 'sort bugs by description')
 ========== GtkTextView ==========
 hide bugs with state new
 sort bugs by description
+?
 ?
 ?
 ?
@@ -172,6 +187,7 @@ sort bugs by status
 ?
 ?
 ?
+?
 =================================
 
 'enter usecase name for signal 'toggled.false' on ToggleButton 'Label=RESO' =' event created with arguments 'hide bugs with state reso'
@@ -183,6 +199,7 @@ sort bugs by description
 sort bugs by status
 ?
 hide bugs with state reso
+?
 ?
 ?
 ?
@@ -202,6 +219,7 @@ hide bugs with state unco
 ?
 ?
 ?
+?
 =================================
 
 'enter usecase name for signal 'toggled.true' on ToggleButton 'Label=NEW' =' event created with arguments 'show bugs with state new'
@@ -215,6 +233,7 @@ sort bugs by status
 hide bugs with state reso
 hide bugs with state unco
 show bugs with state new
+?
 ?
 ?
 =================================
@@ -232,6 +251,7 @@ hide bugs with state unco
 show bugs with state new
 sort bugs by bug no.
 ?
+?
 =================================
 
 'enter usecase name for signal 'delete-event' on Window 'Title=TreeModelFilter Example' =' event created with arguments 'close application'
@@ -246,6 +266,7 @@ hide bugs with state reso
 hide bugs with state unco
 show bugs with state new
 sort bugs by bug no.
+?
 close application
 =================================
 
@@ -261,6 +282,23 @@ hide bugs with state reso
 hide bugs with state unco
 show bugs with state new
 sort bugs by bug no.
+?
+close application
+=================================
+
+'enter usecase name for signal 'toggled.false' on ToggleButton 'Label=NEED' =' event created with arguments 'hide bugs with state need'
+Edited 'GtkEntry' Text entry (set to 'hide bugs with state need')
+
+========== GtkTextView ==========
+hide bugs with state new
+sort bugs by description
+sort bugs by status
+select bug 123458
+hide bugs with state reso
+hide bugs with state unco
+show bugs with state new
+sort bugs by bug no.
+hide bugs with state need
 close application
 =================================
 
