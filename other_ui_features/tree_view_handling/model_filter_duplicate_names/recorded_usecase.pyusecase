@@ -1,2 +1,4 @@
 select bug 120595 (1)
+select bug 120595 (2)
+select bug 
 close application
