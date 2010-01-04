@@ -14,6 +14,9 @@ create_empty_shortcut
 # weird state.
 use_hidden
 
+# Check we ignore nonsense in the usecase file
+bad_command
+
 # Same as above, buttons are disabled (not sensitive), but still visible
 use_insensitive
 

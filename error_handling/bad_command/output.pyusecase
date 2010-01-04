@@ -1,0 +1,24 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar : 'File' (+)
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear' (greyed out)
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+'Shortcuts:' , Button '_New'
+----------------------------------------------
+
+'set new movie name to' event created with arguments 'The Muppet Show'
+Edited 'Movie Name' Text entry (set to 'The Muppet Show')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> The Muppet Show
+ERROR: Could not parse script command 'unknown command'
+
+'close' event created with arguments ''
