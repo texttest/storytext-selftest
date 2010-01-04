@@ -1,6 +1,9 @@
 # Give a non-existent file for replay
 replay_bad_file
 
+# Check we ignore nonsense in the usecase file
+bad_command
+
 # See what happens if the python version is too old
 bad_python_version
 create_empty_shortcut
@@ -13,9 +16,6 @@ create_empty_shortcut
 # usage, but can make it possible to create scripts which end up in a 
 # weird state.
 use_hidden
-
-# Check we ignore nonsense in the usecase file
-bad_command
 
 # Same as above, buttons are disabled (not sensitive), but still visible
 use_insensitive

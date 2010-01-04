@@ -1,0 +1,2 @@
+wait for first sleep to complete
+receive signal SIGTERM

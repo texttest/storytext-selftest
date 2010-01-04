@@ -1,0 +1,7 @@
+
+Waiting for application event 'first sleep to complete' to occur.
+
+Expected application event 'first sleep to complete' occurred, proceeding.
+
+Generating signal SIGURG
+Killing process 9485 with signal 23

@@ -1,0 +1,7 @@
+
+Waiting for application event 'first sleep to complete' to occur.
+
+Expected application event 'first sleep to complete' occurred, proceeding.
+
+Generating signal SIGTERM
+Killing process 9359 with signal 15

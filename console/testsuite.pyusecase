@@ -1,6 +1,15 @@
 # Check we can do a simple application event and record/replay a signal
 wait_and_signal
 
+# Check we ignore signals when the application would
+ignore_signal
+
+# Check we call default signal handlers when appropriate
+default_signal_handler
+
+# Call an ignore handler via the default handler
+default_sighandler_ignore
+
 # Test for waiting at a non-initial position, i.e. suspending an ongoing replay rather than just delaying the start of it
 subsequent_wait
 
