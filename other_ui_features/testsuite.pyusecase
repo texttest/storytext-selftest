@@ -7,6 +7,9 @@ improve_uimap_naming
 # Don't try and add to the wrong file
 add_to_correct_uimap
 
+# Check we handle application events in UIs also, even if we aren't told to wait for them
+ui_appevent
+
 # Tests for more complex handling of tree views, independent of instrumenting mechanism
 tree_view_handling
 
