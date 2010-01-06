@@ -17,7 +17,7 @@ bugdata="""120595 NEW Custom GtkTreeModelFilter wrappers need
 124181 NEED Python Shell inside a gtk GUI
 138163 VERI NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 138619 UNCO codegen/definitions.py could use some refactoring
-138804 UNCO In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ..."""
+138804 UNCO"""
 
 class TreeModelFilterExample:
 

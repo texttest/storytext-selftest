@@ -13,7 +13,7 @@ Showing GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
--> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 138804 | UNCO
 Toggle button 'NEW' (depressed) , Toggle button 'RESO' (depressed) , Toggle button 'NEED' (depressed) , Toggle button 'VERI' (depressed) , Toggle button 'UNCO' (depressed)
 ------------------------------------------------------
 
@@ -26,13 +26,13 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
--> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 138804 | UNCO
 Toggled Toggle button 'NEW'
 
 'sort bugs by description' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
--> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 138804 | UNCO
 -> 123456 | RESO | ItemFactory.create_items and <ImageItem> bug
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 -> 124181 | NEED | Python Shell inside a gtk GUI
@@ -47,7 +47,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
 -> 123456 | RESO | ItemFactory.create_items and <ImageItem> bug
 -> 121339 | RESO | dsextras.py installation directory is incorrect
--> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 138804 | UNCO
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
@@ -59,7 +59,7 @@ There are now 1 rows selected.
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
 -> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
--> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
+-> 138804 | UNCO
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 Toggled Toggle button 'RESO'
