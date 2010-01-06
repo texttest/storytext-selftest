@@ -80,7 +80,7 @@ class FileListingCellDataExample:
         self.tvcolumn = [None] * len(self.column_names)
         cellpb = gtk.CellRendererPixbuf()
         self.tvcolumn[0] = gtk.TreeViewColumn(self.column_names[0], cellpb)
-        self.tvcolumn[0].set_cell_data_func(cellpb, self.file_pixbuf)
+        self.tvcolumn[0].set_cell_data_func(cellpb, self.file_pixbuf, 'pixbuf') # just to check it works to send these in
         cell = gtk.CellRendererText()
         self.tvcolumn[0].pack_start(cell, False)
         self.tvcolumn[0].set_cell_data_func(cell, self.file_name)
@@ -126,14 +126,14 @@ class FileListingCellDataExample:
             treeview.set_model(new_model)
         return
 
-    def file_pixbuf(self, column, cell, model, iter):
+    def file_pixbuf(self, column, cell, model, iter, propname):
         filename = os.path.join(self.dirname, model.get_value(iter, 0))
         filestat = os.stat(filename)
         if stat.S_ISDIR(filestat.st_mode):
             pb = folderpb
         else:
             pb = filepb
-        cell.set_property('pixbuf', pb)
+        cell.set_property(propname, pb)
         return
 
     def file_name(self, column, cell, model, iter):
