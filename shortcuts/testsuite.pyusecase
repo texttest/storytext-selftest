@@ -7,5 +7,8 @@ use_shortcut
 # check we can provide the name of the UI map file using the shortcut bar
 uimap_via_shortcut_bar
 
+# check we can provide the name of the UI map file using the shortcut bar, and that it works when we don't set one up or any logging from the start
+uimap_via_shortcut_bar_no_initial
+
 # Tests for automatic insertion of shortcuts when recording
 inserting
