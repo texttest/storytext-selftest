@@ -4,6 +4,9 @@ no_model
 # Try to select a row that isn't there
 select_bad_row
 
+# Try to select a column that isn't there
+select_bad_column
+
 # Try to choose a row that has been hidden
 select_invisible_row
 
