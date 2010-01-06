@@ -1,6 +1,9 @@
 # Give a non-existent file for replay
 replay_bad_file
 
+# Give a non-existent directory for record
+record_bad_file
+
 # Check we ignore nonsense in the usecase file
 bad_command
 
