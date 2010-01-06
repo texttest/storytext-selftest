@@ -1,8 +1,5 @@
 # Test that we can create a simple shortcut that will add 2 movies
 create_shortcut
 
-# check we can provide the name of the UI map file using the shortcut bar
-uimap_via_shortcut_bar
-
 # Make sure a shortcut file can be used
 use_shortcut
