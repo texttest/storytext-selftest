@@ -49,6 +49,10 @@ class BasicTreeViewExample:
 
         # set the cell "markup" attribute to column 0 - retrieve marked-up text
         # from that column in treestore
+        # Do it wrong first and then clear, just to check PyUseCase is on the ball with clearing...
+        self.tvcolumn.add_attribute(self.cell, 'markup', 1)
+        self.tvcolumn.add_attribute(self.cell, 'font', 0)
+        self.tvcolumn.clear_attributes(self.cell)
         self.tvcolumn.add_attribute(self.cell, 'markup', 0)
         self.tvcolumn.add_attribute(self.cell, 'font', 1)
 
