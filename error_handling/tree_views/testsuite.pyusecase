@@ -7,6 +7,9 @@ select_bad_row
 # Try to select a column that isn't there
 select_bad_column
 
+# Try to make sense of a column signal that isn't very normal
+bad_column_signal
+
 # Try to choose a row that has been hidden
 select_invisible_row
 
