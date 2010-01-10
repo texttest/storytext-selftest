@@ -9,7 +9,7 @@ Showing GtkTreeView with columns: Name , Complete
 -> Watch some tv | Check box
 ---------------------------------------------------
 
-'Auto.TreeView.toggled.complete.true.'Type=TreeView'' event created with arguments 'Buy groceries'
+'Auto.TreeView.toggled.Complete.true.'Type=TreeView'' event created with arguments 'Buy groceries'
 Toggle 'Buy groceries' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -31,7 +31,7 @@ Expanded row in GtkTreeView with columns: Name , Complete
 
 'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server'
 
-'Auto.TreeView.edited.name.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server = Turn on the client and restart the server'
+'Auto.TreeView.edited.Name.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server = Turn on the client and restart the server'
 Change 'Turn on the client but leave the server' to 'Turn on the client and restart the server'
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -41,7 +41,7 @@ Updated : GtkTreeView with columns: Name , Complete
 ->   Turn on the client and restart the server | Check box
 -> Watch some tv | Check box
 
-'Auto.TreeView.toggled.complete.true.'Type=TreeView'' event created with arguments 'Turn on the client and restart the server'
+'Auto.TreeView.toggled.Complete.true.'Type=TreeView'' event created with arguments 'Turn on the client and restart the server'
 Toggle 'Turn on the client and restart the server' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -51,7 +51,7 @@ Updated : GtkTreeView with columns: Name , Complete
 ->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
 
-'Auto.TreeView.toggled.complete.false.'Type=TreeView'' event created with arguments 'Buy groceries'
+'Auto.TreeView.toggled.Complete.false.'Type=TreeView'' event created with arguments 'Buy groceries'
 Toggle 'Buy groceries' to: False
 
 Updated : GtkTreeView with columns: Name , Complete
@@ -70,11 +70,11 @@ Focus widget is 'GtkEntry'
 .....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
-'TreeView' | 'Type=TreeView' | 'checked box in column 'complete'' | Text entry
+'TreeView' | 'Type=TreeView' | 'checked box in column 'Complete'' | Text entry
 'TreeView' | 'Type=TreeView' | 'clicked on row' | Text entry
 'TreeView' | 'Type=TreeView' | 'row expanded' | Text entry
-'TreeView' | 'Type=TreeView' | 'edited cell in column 'name'' | Text entry
-'TreeView' | 'Type=TreeView' | 'unchecked box in column 'complete'' | Text entry
+'TreeView' | 'Type=TreeView' | 'edited cell in column 'Name'' | Text entry
+'TreeView' | 'Type=TreeView' | 'unchecked box in column 'Complete'' | Text entry
 'Window' | 'Title=CellRenderer Example' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
@@ -94,7 +94,7 @@ Viewing table with 7 rows and 4 columns.
 Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
-'enter usecase name for signal 'toggled.complete.true' on TreeView 'Type=TreeView' =' event created with arguments 'complete task'
+'enter usecase name for signal 'toggled.Complete.true' on TreeView 'Type=TreeView' =' event created with arguments 'complete task'
 Edited 'GtkEntry' Text entry (set to 'complete task')
 
 ========== GtkTextView ==========
@@ -124,7 +124,7 @@ complete task Turn on the client and restart the server
 ?
 =================================
 
-'enter usecase name for signal 'toggled.complete.false' on TreeView 'Type=TreeView' =' event created with arguments 'reopen task'
+'enter usecase name for signal 'toggled.Complete.false' on TreeView 'Type=TreeView' =' event created with arguments 'reopen task'
 Edited 'GtkEntry' Text entry (set to 'reopen task')
 
 ========== GtkTextView ==========
@@ -154,7 +154,7 @@ reopen task Buy groceries
 close application
 =================================
 
-'enter usecase name for signal 'edited.name' on TreeView 'Type=TreeView' =' event created with arguments 'change name for'
+'enter usecase name for signal 'edited.Name' on TreeView 'Type=TreeView' =' event created with arguments 'change name for'
 Edited 'GtkEntry' Text entry (set to 'change name for')
 
 ========== GtkTextView ==========

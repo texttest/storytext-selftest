@@ -1,9 +1,9 @@
-Auto.TreeView.toggled.complete.true.'Type=TreeView' Buy groceries
+Auto.TreeView.toggled.Complete.true.'Type=TreeView' Buy groceries
 Auto.TreeView.changed.selection.'Type=TreeView' Buy groceries
 Auto.TreeView.row-expanded.'Type=TreeView' Power up systems
 Auto.TreeView.changed.selection.'Type=TreeView' Turn on the client but leave the server
-Auto.TreeView.edited.name.'Type=TreeView' Turn on the client but leave the server = Turn on the client and restart the server
-Auto.TreeView.toggled.complete.true.'Type=TreeView' Turn on the client and restart the server
-Auto.TreeView.toggled.complete.false.'Type=TreeView' Buy groceries
+Auto.TreeView.edited.Name.'Type=TreeView' Turn on the client but leave the server = Turn on the client and restart the server
+Auto.TreeView.toggled.Complete.true.'Type=TreeView' Turn on the client and restart the server
+Auto.TreeView.toggled.Complete.false.'Type=TreeView' Buy groceries
 Auto.TreeView.changed.selection.'Type=TreeView' Buy groceries
 Auto.Window.delete-event.'Title=CellRenderer Example'

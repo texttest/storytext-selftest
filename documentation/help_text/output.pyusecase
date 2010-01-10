@@ -21,7 +21,7 @@ Options:
                         USECASE_REPLAY_DELAY.
   -i INTERFACE, --interface=INTERFACE
                         type of interface used by application, should be
-                        'console' or 'gtk' ('gtk' is default)
+                        'console', 'gtk' or 'tkinter' ('gtk' is default)
   -l LEVEL, --loglevel=LEVEL
                         produce logging at level LEVEL, should be 'info',
                         'debug', 'config' or 'off'. 'info' will point the

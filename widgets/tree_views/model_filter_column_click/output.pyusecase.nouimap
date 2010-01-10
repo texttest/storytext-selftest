@@ -29,7 +29,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138804 | UNCO
 Toggled Toggle button 'NEW'
 
-'Auto.TreeView.clicked.description.'Type=TreeView'' event created with arguments ''
+'Auto.TreeView.clicked.Description.'Type=TreeView'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138804 | UNCO
@@ -40,7 +40,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 121339 | RESO | dsextras.py installation directory is incorrect
 -> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
 
-'Auto.TreeView.clicked.bug status.'Type=TreeView'' event created with arguments ''
+'Auto.TreeView.clicked.Bug Status.'Type=TreeView'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
@@ -84,7 +84,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 Toggled Toggle button 'NEW' (depressed)
 
-'Auto.TreeView.clicked.bug no..'Type=TreeView'' event created with arguments ''
+'Auto.TreeView.clicked.Bug No..'Type=TreeView'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
@@ -114,13 +114,13 @@ Focus widget is 'GtkEntry'
 Viewing table with 11 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'ToggleButton' | 'Label=NEW' | 'unchecked' | Text entry
-'TreeView' | 'Type=TreeView' | 'clicked column header 'description'' | Text entry
-'TreeView' | 'Type=TreeView' | 'clicked column header 'bug status'' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked column header 'Description'' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked column header 'Bug Status'' | Text entry
 'TreeView' | 'Type=TreeView' | 'clicked on row' | Text entry
 'ToggleButton' | 'Label=RESO' | 'unchecked' | Text entry
 'ToggleButton' | 'Label=UNCO' | 'unchecked' | Text entry
 'ToggleButton' | 'Label=NEW' | 'checked' | Text entry
-'TreeView' | 'Type=TreeView' | 'clicked column header 'bug no'' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked column header 'Bug No'' | Text entry
 'ToggleButton' | 'Label=NEED' | 'unchecked' | Text entry
 'Window' | 'Title=TreeModelFilter Example' | 'closed' | Text entry
 ---------------
@@ -158,7 +158,7 @@ hide bugs with state new
 ?
 =================================
 
-'enter usecase name for signal 'clicked.description' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by description'
+'enter usecase name for signal 'clicked.Description' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by description'
 Edited 'GtkEntry' Text entry (set to 'sort bugs by description')
 
 ========== GtkTextView ==========
@@ -174,7 +174,7 @@ sort bugs by description
 ?
 =================================
 
-'enter usecase name for signal 'clicked.bug status' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by status'
+'enter usecase name for signal 'clicked.Bug Status' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by status'
 Edited 'GtkEntry' Text entry (set to 'sort bugs by status')
 
 ========== GtkTextView ==========
@@ -238,7 +238,7 @@ show bugs with state new
 ?
 =================================
 
-'enter usecase name for signal 'clicked.bug no.' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by bug no.'
+'enter usecase name for signal 'clicked.Bug No.' on TreeView 'Type=TreeView' =' event created with arguments 'sort bugs by bug no.'
 Edited 'GtkEntry' Text entry (set to 'sort bugs by bug no.')
 
 ========== GtkTextView ==========

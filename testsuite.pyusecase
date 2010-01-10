@@ -15,3 +15,6 @@ console
 
 # Tests for the various documentation output
 documentation
+
+# Some tests for rather experiment tkinter support
+tkinter

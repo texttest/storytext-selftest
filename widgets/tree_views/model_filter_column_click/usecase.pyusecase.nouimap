@@ -1,10 +1,10 @@
 Auto.ToggleButton.toggled.false.'Label=NEW'
-Auto.TreeView.clicked.description.'Type=TreeView'
-Auto.TreeView.clicked.bug status.'Type=TreeView'
+Auto.TreeView.clicked.Description.'Type=TreeView'
+Auto.TreeView.clicked.Bug Status.'Type=TreeView'
 Auto.TreeView.changed.selection.'Type=TreeView' 123458
 Auto.ToggleButton.toggled.false.'Label=RESO'
 Auto.ToggleButton.toggled.false.'Label=UNCO'
 Auto.ToggleButton.toggled.true.'Label=NEW'
-Auto.TreeView.clicked.bug no..'Type=TreeView'
+Auto.TreeView.clicked.Bug No..'Type=TreeView'
 Auto.ToggleButton.toggled.false.'Label=NEED'
 Auto.Window.delete-event.'Title=TreeModelFilter Example'

@@ -3,3 +3,6 @@ widgets
 
 # Tests to do with the shortcut functionality
 shortcuts
+
+# Some tests for rather experiment tkinter support
+tkinter
