@@ -9,17 +9,20 @@ class App:
         frame = Frame(master)
         frame.pack()
 
-        label = Label(frame, text="A blue label", bg="blue")
-        label.pack(side=TOP)
-
         self.button = Button(frame, text="QUIT", fg="red", command=frame.quit)
         self.button.pack(side=LEFT)
 
         self.hi_there = Button(frame, name="hello button", text="Hello", command=self.say_hi)
         self.hi_there.pack(side=LEFT)
 
-    def say_hi(self):
-        print "hi there, everyone!"
+    def say_hi(self):	
+        win = Toplevel()
+	win.title('Hi!')
+	def destroy(*args):
+		win.event_generate("<Destroy>") # don't directly destroy the object we're listening to
+        label = Label(win, name="hello label", text="hi there, everyone!", bg="white")
+        label.bind("<Button-1>", destroy)
+	label.pack()
 
 root = Tk()
 
