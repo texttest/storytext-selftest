@@ -1,0 +1,1 @@
+{CLEAR} -t -i tkinter -l debug -x target_ui.py

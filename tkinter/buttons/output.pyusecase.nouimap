@@ -1,0 +1,11 @@
+
+---------- Window 'tk' ----------
+'A blue label' (blue)
+Button 'QUIT'
+Button 'Hello'
+---------------------------------
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Name=hello button'' event created with arguments ''
+hi there, everyone!
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=QUIT'' event created with arguments ''
