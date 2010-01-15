@@ -1,0 +1,4 @@
+Auto.TreeView.changed.selection.'Type=TreeView' Message #1
+Auto.VPaned.notify::position.'Type=VPaned' 50% of the space
+Auto.TreeView.changed.selection.'Type=TreeView' Message #5
+Auto.Window.delete-event.'Title=Paned Windows'

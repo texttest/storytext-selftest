@@ -1,9 +1,0 @@
-[Label=check button 1]
-toggled.true = check first button
-
-[Label=check button 2...]
-toggled.false = uncheck second button
-
-[Label=Quit]
-clicked = quit
-

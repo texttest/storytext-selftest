@@ -10,39 +10,3 @@ Button 'press me'
 Test-undermenu - 2
 
 'Auto.Window.delete-event.'Title=GTK Menu Test'' event created with arguments ''
-
----------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
-Focus widget is 'GtkEntry'
-.....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 3 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
-'MenuItem' | 'Label=Test-undermenu - 2' | 'selected' | Text entry
-'Window' | 'Title=GTK Menu Test' | 'closed' | Text entry
----------------
-.....'Current Usecase Preview'......
-
-========== GtkTextView ==========
-?
-?
-=================================
----------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
-----------------------------------------------------------------------------
-
-'enter usecase name for signal 'delete-event' on Window 'Title=GTK Menu Test' =' event created with arguments 'close application'
-Edited 'GtkEntry' Text entry (set to 'close application')
-
-========== GtkTextView ==========
-?
-close application
-=================================
-
-'enter usecase name for signal 'activate' on MenuItem 'Label=Test-undermenu - 2' =' event created with arguments 'choose test-undermenu - 2'
-Edited 'GtkEntry' Text entry (set to 'choose test-undermenu - 2')
-
-========== GtkTextView ==========
-choose test-undermenu - 2
-close application
-=================================
-
-'finish name entry editing' event created with arguments ''

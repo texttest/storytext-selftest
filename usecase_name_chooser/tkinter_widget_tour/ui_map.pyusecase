@@ -1,0 +1,12 @@
+[Name=hello button]
+<Enter>,<Button-1>,<ButtonRelease-1> = say hello
+
+[Name=hello label]
+<Button-1> = click on hello label
+
+[Label=something]
+<Enter>,<Button-1>,<ButtonRelease-1> = click something
+
+[Name=another label]
+<Button-3> = right-click something else
+

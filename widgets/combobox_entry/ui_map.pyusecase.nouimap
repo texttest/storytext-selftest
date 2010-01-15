@@ -1,6 +1,0 @@
-[Type=Entry]
-changed = set pie choice to
-
-[Type=Window]
-delete-event = close application
-

@@ -1,4 +1,0 @@
-enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Title=Open..' = look in folder
-enter usecase name for signal 'selection-changed' on FileChooserDialog 'Title=Open..' = select file
-enter usecase name for signal 'response.ok' on FileChooserDialog 'Title=Open..' = open selected file
-finish name entry editing

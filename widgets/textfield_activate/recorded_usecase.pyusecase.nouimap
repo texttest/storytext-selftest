@@ -1,0 +1,3 @@
+set new movie name to Star Wars
+Auto.Entry.activate.'Name=Movie Name'
+close

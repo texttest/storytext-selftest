@@ -1,0 +1,2 @@
+Auto.TreeView.row-activated.'Type=TreeView' subdir
+Auto.Window.delete-event.'Name=File-listing Window'

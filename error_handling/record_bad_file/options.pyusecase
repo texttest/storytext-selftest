@@ -1,1 +1,2 @@
-{CLEAR} -r /no/such/file target_ui.py
+-r /no/such/file
+

@@ -1,8 +1,0 @@
-[Type=TreeView]
-row-expanded = show children for
-changed.selection = select row
-row-collapsed = hide children for
-
-[Title=Basic TreeView Example]
-delete-event = close application
-

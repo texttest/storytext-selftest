@@ -1,9 +1,0 @@
-[Type=TreeView]
-changed.selection = select message
-
-[Type=VPaned]
-notify-position = drag pane separator so message list uses
-
-[Title=Paned Windows]
-delete-event = close application
-

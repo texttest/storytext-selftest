@@ -1,0 +1,28 @@
+enter usecase name for signal 'clicked' on Button 'Type=Button' = click
+enter usecase name for signal 'response.ok' on Dialog 'Type=Dialog' = press ok
+enter usecase name for signal 'response.accept' on Dialog 'Type=Dialog' = press accept
+enter usecase name for signal 'activate' on Entry 'Type=Entry' = press enter
+enter usecase name for signal 'changed' on Entry 'Type=Entry' = edit
+enter usecase name for signal 'toggled.true' on CheckMenuItem 'Type=CheckMenuItem' = tick
+enter usecase name for signal 'toggled.false' on CheckMenuItem 'Type=CheckMenuItem' = untick
+enter usecase name for signal 'toggled.false' on CheckButton 'Type=CheckButton' = uncheck
+enter usecase name for signal 'toggled.true' on CheckButton 'Type=CheckButton' = check
+enter usecase name for signal 'changed' on ComboBox 'Type=ComboBox' = choose item
+enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Type=FileChooserDialog' = choose folder
+enter usecase name for signal 'current-name-changed' on FileChooserDialog 'Type=FileChooserDialog' = set new filename
+enter usecase name for signal 'selection-changed' on FileChooserDialog 'Type=FileChooserDialog' = select file
+enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' = choose
+enter usecase name for signal 'switch-page' on Notebook 'Type=Notebook' = view tab
+enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' = select in menu
+enter usecase name for signal 'toggled.true' on RadioButton 'Type=RadioButton' = choose
+enter usecase name for signal 'toggled.false' on ToggleButton 'Type=ToggleButton' = release
+enter usecase name for signal 'toggled.true' on ToggleButton 'Type=ToggleButton' = depress
+enter usecase name for signal 'clicked' on ToolButton 'Type=ToolButton' = click tool item
+enter usecase name for signal 'button-press-event' on TreeView 'Type=TreeView' = view popup for
+enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' = select row
+enter usecase name for signal 'clicked.Column.' on TreeView 'Type=TreeView' = sort by Column
+enter usecase name for signal 'edited.Column' on TreeView 'Type=TreeView' = edit for Column
+enter usecase name for signal 'row-activated' on TreeView 'Type=TreeView' = activate row
+enter usecase name for signal 'row-collapsed' on TreeView 'Type=TreeView' = collapse row
+enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' = expand row
+finish name entry editing by pressing <enter>

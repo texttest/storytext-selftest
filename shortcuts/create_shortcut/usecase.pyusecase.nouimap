@@ -5,7 +5,4 @@ Auto.Button.clicked.'Label=Add'
 Auto.Entry.changed.'Name=Movie Name' Die Hard
 Auto.Button.clicked.'Label=Add'
 stop recording
-enter usecase name for signal 'changed' on Entry 'Name=Movie Name' = set new movie name to
-enter usecase name for signal 'clicked' on Button 'Label=Add' = add movie
-finish name entry editing
 Auto.Window.delete-event.'Title=The Video Store'

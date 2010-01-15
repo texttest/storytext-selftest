@@ -1,5 +1,0 @@
-enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' = show children for
-enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' = select row
-enter usecase name for signal 'row-collapsed' on TreeView 'Type=TreeView' = hide children for
-enter usecase name for signal 'delete-event' on Window 'Title=Basic TreeView Example' = close application
-finish name entry editing

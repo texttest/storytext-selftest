@@ -1,5 +1,0 @@
-enter usecase name for signal 'button-press-event' on TreeView 'Type=TreeView' = view actions for row
-enter usecase name for signal 'activate' on MenuItem 'Label=Clear Last Column Colour' = disable colouring
-enter usecase name for signal 'activate' on MenuItem 'Label=Colour Last Column' = enable colouring
-enter usecase name for signal 'delete-event' on Window 'Title=TreeViewColumn Example' = close application
-finish name entry editing

@@ -9,6 +9,9 @@ bad_command
 
 # See what happens if the python version is too old
 bad_python_version
+
+# Check what happens if there isn't a usecase and the target program isn't a UI
+no_usecase
 create_empty_shortcut
 
 # The menubar has a check menu item which makes the buttons invisible.

@@ -1,0 +1,60 @@
+[Type=Button]
+clicked = click
+
+[Type=Dialog]
+response.ok = press ok
+response.accept = press accept
+
+[Type=Entry]
+activate = press enter
+changed = edit
+
+[Type=CheckMenuItem]
+toggled.true = tick
+toggled.false = untick
+
+[Type=CheckButton]
+toggled.false = uncheck
+toggled.true = check
+
+[Type=ComboBox]
+changed = choose item
+
+[Type=FileChooserDialog]
+current-folder-changed = choose folder
+current-name-changed = set new filename
+selection-changed = select file
+
+[Type=MenuItem]
+activate = select in menu
+
+[Type=Notebook]
+switch-page = view tab
+
+[Type=RadioButton]
+toggled.true = choose
+
+[Type=ToggleButton]
+toggled.false = release
+toggled.true = depress
+
+[Type=ToolButton]
+clicked = click tool item
+
+[Type=TreeView]
+button-press-event = view popup for
+changed.selection = select row
+clicked.Column. = sort by Column
+edited.Column = edit for Column
+row-activated = activate row
+row-collapsed = collapse row
+row-expanded = expand row
+toggled.Column.false = 
+toggled.Column.true = 
+
+[Type=VPaned]
+notify-position = 
+
+[Type=Window]
+delete-event = 
+

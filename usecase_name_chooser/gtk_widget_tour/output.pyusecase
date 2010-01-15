@@ -1,0 +1,1048 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 31 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'Button' | 'Type=Button' | 'clicked' | Text entry
+'Dialog' | 'Type=Dialog' | 'ok' | Text entry
+'Dialog' | 'Type=Dialog' | 'accept' | Text entry
+'Entry' | 'Type=Entry' | 'pressed Enter' | Text entry
+'Entry' | 'Type=Entry' | 'edited text' | Text entry
+'CheckMenuItem' | 'Type=CheckMenuItem' | 'checked' | Text entry
+'CheckMenuItem' | 'Type=CheckMenuItem' | 'unchecked' | Text entry
+'CheckButton' | 'Type=CheckButton' | 'unchecked' | Text entry
+'CheckButton' | 'Type=CheckButton' | 'checked' | Text entry
+'ComboBox' | 'Type=ComboBox' | 'selected item' | Text entry
+'FileChooserDialog' | 'Type=FileChooserDialog' | 'current folder changed' | Text entry
+'FileChooserDialog' | 'Type=FileChooserDialog' | 'filename changed' | Text entry
+'FileChooserDialog' | 'Type=FileChooserDialog' | 'selection changed' | Text entry
+'MenuItem' | 'Type=MenuItem' | 'selected' | Text entry
+'Notebook' | 'Type=Notebook' | 'switch page' | Text entry
+'RadioButton' | 'Type=RadioButton' | 'checked' | Text entry
+'ToggleButton' | 'Type=ToggleButton' | 'unchecked' | Text entry
+'ToggleButton' | 'Type=ToggleButton' | 'checked' | Text entry
+'ToolButton' | 'Type=ToolButton' | 'clicked' | Text entry
+'TreeView' | 'Type=TreeView' | 'right-clicked row' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked on row' | Text entry
+'TreeView' | 'Type=TreeView' | 'clicked column header 'Column'' | Text entry
+'TreeView' | 'Type=TreeView' | 'edited cell in column 'Column'' | Text entry
+'TreeView' | 'Type=TreeView' | 'double-clicked row' | Text entry
+'TreeView' | 'Type=TreeView' | 'row collapsed' | Text entry
+'TreeView' | 'Type=TreeView' | 'row expanded' | Text entry
+'TreeView' | 'Type=TreeView' | 'unchecked box in column 'Column'' | Text entry
+'TreeView' | 'Type=TreeView' | 'checked box in column 'Column'' | Text entry
+'VPaned' | 'Type=VPaned' | 'dragged separator' | Text entry
+'Window' | 'Type=Window' | 'closed' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+========== GtkTextView ==========
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'clicked' on Button 'Type=Button' =' event created with arguments 'click'
+Edited 'GtkEntry' Text entry (set to 'click')
+
+========== GtkTextView ==========
+click
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'response.ok' on Dialog 'Type=Dialog' =' event created with arguments 'press ok'
+Edited 'GtkEntry' Text entry (set to 'press ok')
+
+========== GtkTextView ==========
+click
+press ok
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'response.accept' on Dialog 'Type=Dialog' =' event created with arguments 'press accept'
+Edited 'GtkEntry' Text entry (set to 'press accept')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'activate' on Entry 'Type=Entry' =' event created with arguments 'press enter'
+Edited 'GtkEntry' Text entry (set to 'press enter')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'changed' on Entry 'Type=Entry' =' event created with arguments 'edit'
+Edited 'GtkEntry' Text entry (set to 'edit')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'toggled.true' on CheckMenuItem 'Type=CheckMenuItem' =' event created with arguments 'tick'
+Edited 'GtkEntry' Text entry (set to 'tick')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'toggled.false' on CheckMenuItem 'Type=CheckMenuItem' =' event created with arguments 'untick'
+Edited 'GtkEntry' Text entry (set to 'untick')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'toggled.false' on CheckButton 'Type=CheckButton' =' event created with arguments 'uncheck'
+Edited 'GtkEntry' Text entry (set to 'uncheck')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'toggled.true' on CheckButton 'Type=CheckButton' =' event created with arguments 'check'
+Edited 'GtkEntry' Text entry (set to 'check')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'changed' on ComboBox 'Type=ComboBox' =' event created with arguments 'choose item'
+Edited 'GtkEntry' Text entry (set to 'choose item')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Type=FileChooserDialog' =' event created with arguments 'choose folder'
+Edited 'GtkEntry' Text entry (set to 'choose folder')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'current-name-changed' on FileChooserDialog 'Type=FileChooserDialog' =' event created with arguments 'set new filename'
+Edited 'GtkEntry' Text entry (set to 'set new filename')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'selection-changed' on FileChooserDialog 'Type=FileChooserDialog' =' event created with arguments 'select file'
+Edited 'GtkEntry' Text entry (set to 'select file')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' =' event created with arguments 'choose'
+Edited 'GtkEntry' Text entry (set to 'choose')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+choose
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'switch-page' on Notebook 'Type=Notebook' =' event created with arguments 'view tab'
+Edited 'GtkEntry' Text entry (set to 'view tab')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+choose
+view tab tab name
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' =' event created with arguments 'select in menu'
+Edited 'GtkEntry' Text entry (set to 'select in menu')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'toggled.true' on RadioButton 'Type=RadioButton' =' event created with arguments 'choose'
+Edited 'GtkEntry' Text entry (set to 'choose')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'toggled.false' on ToggleButton 'Type=ToggleButton' =' event created with arguments 'release'
+Edited 'GtkEntry' Text entry (set to 'release')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'toggled.true' on ToggleButton 'Type=ToggleButton' =' event created with arguments 'depress'
+Edited 'GtkEntry' Text entry (set to 'depress')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'clicked' on ToolButton 'Type=ToolButton' =' event created with arguments 'click tool item'
+Edited 'GtkEntry' Text entry (set to 'click tool item')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'button-press-event' on TreeView 'Type=TreeView' =' event created with arguments 'view popup for'
+Edited 'GtkEntry' Text entry (set to 'view popup for')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+view popup for row1
+?
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' =' event created with arguments 'select row'
+Edited 'GtkEntry' Text entry (set to 'select row')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+view popup for row1
+select row row2
+?
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'clicked.Column.' on TreeView 'Type=TreeView' =' event created with arguments 'sort by Column'
+Edited 'GtkEntry' Text entry (set to 'sort by Column')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+view popup for row1
+select row row2
+sort by Column
+?
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'edited.Column' on TreeView 'Type=TreeView' =' event created with arguments 'edit for Column'
+Edited 'GtkEntry' Text entry (set to 'edit for Column')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+view popup for row1
+select row row2
+sort by Column
+edit for Column row3
+?
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'row-activated' on TreeView 'Type=TreeView' =' event created with arguments 'activate row'
+Edited 'GtkEntry' Text entry (set to 'activate row')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+view popup for row1
+select row row2
+sort by Column
+edit for Column row3
+activate row row4
+?
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'row-collapsed' on TreeView 'Type=TreeView' =' event created with arguments 'collapse row'
+Edited 'GtkEntry' Text entry (set to 'collapse row')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+view popup for row1
+select row row2
+sort by Column
+edit for Column row3
+activate row row4
+collapse row row5
+?
+?
+?
+?
+?
+=================================
+
+'enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' =' event created with arguments 'expand row'
+Edited 'GtkEntry' Text entry (set to 'expand row')
+
+========== GtkTextView ==========
+click
+press ok
+press accept
+press enter
+edit some text
+tick
+untick
+uncheck
+check
+choose item an option
+choose folder subdir
+set new filename newfilename
+select file filename
+select in menu
+view tab tab name
+choose
+release
+depress
+click tool item
+view popup for row1
+select row row2
+sort by Column
+edit for Column row3
+activate row row4
+collapse row row5
+expand row row6
+?
+?
+?
+?
+=================================
+
+'finish name entry editing by pressing <enter>' event created with arguments ''

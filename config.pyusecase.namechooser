@@ -1,0 +1,21 @@
+# Path to the binary.
+executable:${TEXTTEST_CHECKOUT}/bin/usecase_name_chooser
+
+collect_traffic:{CLEAR LIST}
+
+base_version:{CLEAR LIST}
+
+link_test_path:auto_recorded_usecase
+
+discard_file:{CLEAR usecase}
+
+unsaveable_version:namechooser
+
+[definition_file_stems]
+builtin:{CLEAR usecase}
+regenerate:usecase
+[end]
+
+[collate_file]
+recorded_usecase:{CLEAR LIST}
+recorded_usecase:auto_recorded_usecase

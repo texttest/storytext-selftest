@@ -1,2 +1,2 @@
-choose test-undermenu - 2
-close application
+Auto.MenuItem.activate.'Label=Test-undermenu - 2'
+Auto.Window.delete-event.'Title=GTK Menu Test'

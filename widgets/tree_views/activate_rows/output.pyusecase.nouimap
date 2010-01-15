@@ -1,56 +1,20 @@
 
----------- Window '/home/geoff/.texttest/tmp/pyusecase.17Dec200715.8042/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir' ----------
+---------- Window '/home/geoff/.texttest/tmp/pyusecase.14Jan211247.8087/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir' ----------
 Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
--> Image 'XPM 1' | .. | 4096 | 0755 | Thu Dec 17 20:08:01 2009
--> Image 'XPM 2' | file1.txt | 6 | 0664 | Mon Oct  5 22:20:34 2009
--> Image 'XPM 2' | file2.txt | 5 | 0664 | Mon Oct  5 22:20:41 2009
--> Image 'XPM 1' | subdir | 4096 | 0755 | Mon Oct  5 22:20:57 2009
+-> Image 'XPM 1' | .. | 4096 | 0755 | Thu Jan 14 21:12:55 2010
+-> Image 'XPM 2' | file1.txt | 6 | 0664 | Thu Dec 17 22:08:26 2009
+-> Image 'XPM 2' | file2.txt | 5 | 0664 | Thu Dec 17 22:08:25 2009
+-> Image 'XPM 1' | subdir | 4096 | 0755 | Thu Dec 17 22:08:27 2009
 ----------------------------------------------------------------------------------------------------
 
 'Auto.TreeView.row-activated.'Type=TreeView'' event created with arguments 'subdir'
 
-Changing title for Window '/home/geoff/.texttest/tmp/pyusecase.17Dec200715.8042/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir/subdir'
+Changing title for Window '/home/geoff/.texttest/tmp/pyusecase.14Jan211247.8087/pyusecase.nouimap/widgets/tree_views/activate_rows/sampledir/subdir'
 
 Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
--> Image 'XPM 1' | .. | 4096 | 0755 | Mon Oct  5 22:20:45 2009
--> Image 'XPM 2' | file.txt | 1 | 0664 | Mon Oct  5 22:20:57 2009
+-> Image 'XPM 1' | .. | 4096 | 0755 | Thu Dec 17 22:08:27 2009
+-> Image 'XPM 2' | file.txt | 1 | 0664 | Thu Dec 17 22:08:25 2009
 
 'Auto.Window.delete-event.'Name=File-listing Window'' event created with arguments ''
-
----------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
-Focus widget is 'GtkEntry'
-.....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 3 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
-'TreeView' | 'Type=TreeView' | 'double-clicked row' | Text entry
-'Window' | 'Name=File-listing Window' | 'closed' | Text entry
----------------
-.....'Current Usecase Preview'......
-
-========== GtkTextView ==========
-?
-?
-=================================
----------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
-----------------------------------------------------------------------------
-
-'enter usecase name for signal 'row-activated' on TreeView 'Type=TreeView' =' event created with arguments 'select file'
-Edited 'GtkEntry' Text entry (set to 'select file')
-
-========== GtkTextView ==========
-select file subdir
-?
-=================================
-
-'enter usecase name for signal 'delete-event' on Window 'Name=File-listing Window' =' event created with arguments 'close application'
-Edited 'GtkEntry' Text entry (set to 'close application')
-
-========== GtkTextView ==========
-select file subdir
-close application
-=================================
-
-'finish name entry editing' event created with arguments ''

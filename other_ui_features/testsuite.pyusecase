@@ -4,9 +4,6 @@ slow_motion_replay
 # If we introduce a better way to refer to a widget, automatically update the UI map file
 improve_uimap_naming
 
-# Don't try and add to the wrong file
-add_to_correct_uimap
-
 # Check we handle application events in UIs also, even if we aren't told to wait for them
 ui_appevent
 

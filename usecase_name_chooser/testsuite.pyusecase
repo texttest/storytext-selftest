@@ -1,0 +1,20 @@
+# The script auto-recorded from textfield_button, just basic replacement needed
+basic_usage
+
+# Check we can declare ourselves satisfied by pressing <enter>
+accept_with_enter_key
+
+# Make sure nothing comes up if there's aren't any auto-generated commands
+nothing_to_do
+
+# Make sure we can cause actions to be blocked and not recorded by not providing names for them
+ignore_actions
+
+# Every type of widget for GTK
+gtk_widget_tour
+
+# Every type of widget for Tkinter
+tkinter_widget_tour
+
+# If we have several map files, we should add to the one that already contains the right section
+add_to_correct_uimap

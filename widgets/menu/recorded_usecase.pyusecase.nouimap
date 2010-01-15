@@ -1,0 +1,27 @@
+set new movie name to Nisse
+Auto.MenuItem.activate.'Label=File'
+Auto.MenuItem.activate.'Label=Actions'
+Auto.MenuItem.activate.'Label=Add'
+set new movie name to Basse
+add movie
+set new movie name to Muppe
+add movie by pressing <enter>
+Auto.MenuItem.activate.'Label=File'
+Auto.MenuItem.activate.'Label=Actions'
+Auto.MenuItem.activate.'Label=Sort'
+Auto.MenuItem.activate.'Label=File'
+Auto.MenuItem.activate.'Label=Actions'
+Auto.CheckMenuItem.toggled.false.'Label=Show buttons'
+set new movie name to Nils
+add movie by pressing <enter>
+Auto.MenuItem.activate.'Label=File'
+Auto.MenuItem.activate.'Label=Actions'
+Auto.CheckMenuItem.toggled.true.'Label=Show buttons'
+set new movie name to Nils igen
+add movie
+Auto.MenuItem.activate.'Label=File'
+Auto.MenuItem.activate.'Label=Actions'
+Auto.MenuItem.activate.'Label=Sort'
+Auto.MenuItem.activate.'Label=File'
+Auto.MenuItem.activate.'Label=Actions'
+close

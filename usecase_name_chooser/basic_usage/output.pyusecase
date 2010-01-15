@@ -1,0 +1,49 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 4 rows and 4 columns.
+'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'Entry' | 'Name=Movie Name' | 'edited text' | Text entry
+'Button' | 'Label=Add' | 'clicked' | Text entry
+'Window' | 'Title=The Video Store' | 'closed' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+========== GtkTextView ==========
+?
+?
+?
+=================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set movie name to'
+Edited 'GtkEntry' Text entry (set to 'set movie name to')
+
+========== GtkTextView ==========
+set movie name to Star Wars
+?
+?
+=================================
+
+'enter usecase name for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'add movie'
+Edited 'GtkEntry' Text entry (set to 'add movie')
+
+========== GtkTextView ==========
+set movie name to Star Wars
+add movie
+?
+=================================
+
+'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+========== GtkTextView ==========
+set movie name to Star Wars
+add movie
+close
+=================================
+
+'finish name entry editing' event created with arguments ''

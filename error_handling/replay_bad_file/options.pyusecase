@@ -1,1 +1,1 @@
-{CLEAR} -p no_such_file target_ui.py
+-p no_such_file

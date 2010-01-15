@@ -1,11 +1,8 @@
 create new shortcut
 set shortcut name to Add Several
-set new movie name to Star Wars
-add movie
-set new movie name to Die Hard
-add movie
+Auto.Entry.changed.'Name=Movie Name' Star Wars
+Auto.Button.clicked.'Label=Add'
+Auto.Entry.changed.'Name=Movie Name' Die Hard
+Auto.Button.clicked.'Label=Add'
 stop recording
-enter usecase name for signal 'changed' on Entry 'Name=Movie Name' = set new movie name to
-enter usecase name for signal 'clicked' on Button 'Label=Add' = add movie
-finish name entry editing
-close
+Auto.Window.delete-event.'Title=The Video Store'

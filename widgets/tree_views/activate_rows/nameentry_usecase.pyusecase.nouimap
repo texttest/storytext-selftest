@@ -1,3 +1,0 @@
-enter usecase name for signal 'row-activated' on TreeView 'Type=TreeView' = select file
-enter usecase name for signal 'delete-event' on Window 'Name=File-listing Window' = close application
-finish name entry editing

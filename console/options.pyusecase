@@ -1,1 +1,1 @@
-{CLEAR} -i console -t target_ui.py
+-i console

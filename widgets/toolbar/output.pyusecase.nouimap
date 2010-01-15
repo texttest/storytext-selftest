@@ -11,28 +11,3 @@ Tool Bar :
 -------------------------------------
 
 'Auto.ToolButton.clicked.'Type=ToolButton'' event created with arguments ''
-
----------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
-Focus widget is 'GtkEntry'
-.....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 2 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
-'ToolButton' | 'Type=ToolButton' | 'clicked' | Text entry
----------------
-.....'Current Usecase Preview'......
-
-========== GtkTextView ==========
-?
-=================================
----------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
-----------------------------------------------------------------------------
-
-'enter usecase name for signal 'clicked' on ToolButton 'Type=ToolButton' =' event created with arguments 'quit via toolbar'
-Edited 'GtkEntry' Text entry (set to 'quit via toolbar')
-
-========== GtkTextView ==========
-quit via toolbar
-=================================
-
-'finish name entry editing' event created with arguments ''
