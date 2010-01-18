@@ -1,0 +1,1 @@
+<-CMD:env 'PATH=$PATH:C:\TextTest\source\pyusecase\bin' usecase_name_chooser -m C:/TextTest/personal/tmp/pyusecase.18Jan152303.1368/pyusecase.nouimap/shortcuts/create_shortcut/usecases/ui_map.conf -r C:/TextTest/personal/tmp/pyusecase.18Jan152303.1368/pyusecase.nouimap/shortcuts/create_shortcut/usecases/Add_Several.shortcut -i gtk

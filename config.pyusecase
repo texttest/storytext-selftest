@@ -21,7 +21,7 @@ output:Killing process{WORD 3}{REPLACE <pid>}
 output:^options:{REPLACE Options:}
 output:^usage:{REPLACE Usage:}
 traffic:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
-traffic:PATH[:;][^ ]*/bin{REPLACE PATH:<path_to_bin_dir>/bin}
+traffic:PATH[:;][^ ]*[/\\]bin{REPLACE PATH:<path_to_bin_dir>/bin}
 [end]
 
 use_case_record_mode:GUI
