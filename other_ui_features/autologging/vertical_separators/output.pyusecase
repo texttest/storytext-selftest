@@ -1,0 +1,9 @@
+
+---------- Window 'Example' ----------
+'A label' , --------------- (vertical) , 'Left Window'
+
+------------------------------ (vertical pane separator, 43% from the left edge)
+'Right Window'
+--------------------------------------
+
+'close' event created with arguments ''
