@@ -10,3 +10,6 @@ triple_multiple_levels
 
 # If all else fails, we should use indices
 non_unique_path
+
+# Check what happens when we have a column with markup that isn't filled in
+markup_missing

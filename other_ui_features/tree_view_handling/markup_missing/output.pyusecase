@@ -1,0 +1,10 @@
+
+---------- Window 'Basic TreeView Example' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Column 0 , Column 1
+-> <b>Bold Text</b> | <i>Italic Text</i>
+-> <u>Underline Text</u>
+-----------------------------------------------------
+
+'close application' event created with arguments ''
