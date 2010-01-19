@@ -24,3 +24,6 @@ vertical_separators
 
 # Check we notice if extra options get added to a combobox
 combobox_add_options
+
+# See what happens if we change the sensitivity back and forth (shouldn't get multiple changes)
+sensitivity_changes_cancel

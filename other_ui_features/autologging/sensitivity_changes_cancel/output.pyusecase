@@ -1,0 +1,11 @@
+
+---------- Window 'Example' ----------
+Focus widget is 'Grey and Ungrey'
+Button 'Grey and Ungrey' , Button 'Ungrey and Grey' , Button 'I'm just Grey' (greyed out)
+--------------------------------------
+
+'grey and ungrey' event created with arguments ''
+
+'ungrey and grey' event created with arguments ''
+
+'close' event created with arguments ''
