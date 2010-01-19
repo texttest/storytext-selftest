@@ -1,5 +1,2 @@
 base_version:{CLEAR mapfile}
 base_version:nomapfile
-
-# mostly because we use this for two-stage recording
-slow_motion_replay_speed:0
