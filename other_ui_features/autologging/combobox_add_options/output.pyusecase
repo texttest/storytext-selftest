@@ -1,0 +1,14 @@
+
+---------- Window 'None' ----------
+Focus widget is 'Add More Pies!'
+Button 'Add More Pies!' , Combo Box (selected 'Select a pie:') (drop-down list containing ['Select a pie:', 'Apple', 'Cherry'])
+-----------------------------------
+
+'add more pies' event created with arguments ''
+Updated drop-down list in 'Pie List' Combo Box (selected 'Select a pie:') (drop-down list containing ['Select a pie:', 'Apple', 'Cherry', 'Blueberry', 'Grape', 'Peach', 'Raisin'])
+
+'choose pie' event created with arguments 'Blueberry'
+I like Blueberry pie
+Changed selection in 'Pie List' Combo Box (selected 'Blueberry')
+
+'close' event created with arguments ''

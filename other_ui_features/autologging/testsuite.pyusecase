@@ -21,3 +21,6 @@ images
 
 # Check we log vertical separators correctly
 vertical_separators
+
+# Check we notice if extra options get added to a combobox
+combobox_add_options

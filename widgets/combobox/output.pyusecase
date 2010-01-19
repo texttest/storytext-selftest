@@ -6,6 +6,6 @@ Combo Box (selected 'Select a pie:') (drop-down list containing ['Select a pie:'
 
 'set pie choice to' event created with arguments 'Grape'
 I like Grape pie
-Changed selection in 'GtkComboBox' Combo Box (selected 'Grape')
+Changed selection in Combo Box (selected 'Grape')
 
 'close application' event created with arguments ''
