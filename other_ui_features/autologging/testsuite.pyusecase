@@ -27,3 +27,6 @@ combobox_add_options
 
 # See what happens if we change the sensitivity back and forth (shouldn't get multiple changes)
 sensitivity_changes_cancel
+
+# Several changes to the same widget structure shouldn't cause duplicate descriptions
+single_update_description

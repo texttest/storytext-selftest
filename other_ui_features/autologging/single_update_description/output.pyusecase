@@ -1,0 +1,22 @@
+
+---------- Window 'Example' ----------
+Focus widget is 'GtkNotebook'
+
+Showing Notebook with tabs: Tab 1 , Tab 2
+Viewing page 'Tab 1'
+'Original text'
+--------------------------------------
+
+'view' event created with arguments 'Tab 2'
+
+Current page changed in Notebook with tabs: Tab 1 , Tab 2
+Viewing page 'Tab 2'
+Button 'Change the text!'
+
+'change text' event created with arguments ''
+
+Current page changed in Notebook with tabs: Tab 1 , Tab 2
+Viewing page 'Tab 1'
+'New text'
+
+'close' event created with arguments ''
