@@ -8,7 +8,7 @@ import gtk, gobject
 
 class PanedExample:
     # Create the list of "messages"
-    def create_list(self):
+    def create_list(self, paned):
         # Create a new scrolled window, with scrollbars only if needed
         scrolled_window = gtk.ScrolledWindow()
         scrolled_window.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
@@ -28,12 +28,13 @@ class PanedExample:
         column = gtk.TreeViewColumn("Messages", cell, text=0)
         tree_view.append_column(column)
         tree_view.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
-        tree_view.get_selection().connect("changed", self.selection_changed)
-
+        tree_view.get_selection().connect("changed", self.selection_changed, paned)
+        
         return scrolled_window
    
-    def selection_changed(self, selection, *args):
+    def selection_changed(self, selection, paned):
         selection.selected_foreach(self.set_text)
+        self.adjustSeparator(paned)    
 
     def set_text(self, model, path, iter):
         messageText = "Now Showing:\n" + model.get_value(iter, 0) + "\n"
@@ -59,11 +60,12 @@ class PanedExample:
 
         # create a vpaned widget and add it to our toplevel window
         vpaned = gtk.VPaned()
+
         window.add(vpaned)
         vpaned.show()
 
         # Now create the contents of the two halves of the window
-        list = self.create_list()
+        list = self.create_list(vpaned)
         vpaned.add1(list)
         list.show()
 
@@ -71,6 +73,12 @@ class PanedExample:
         vpaned.add2(text)
         text.show()
         window.show()
+
+    def adjustSeparator(self, paned, *args):
+        initialMaxSize = paned.get_property("max-position")
+        position = int(initialMaxSize * 0.7)
+        paned.set_position(position)
+        
 
 def main():
     gtk.main()
