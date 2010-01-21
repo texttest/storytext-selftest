@@ -2,19 +2,19 @@
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.14Jan212225.8395/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
+Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.14Jan212225.8395/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
+- /home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
 Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
 ------------------------------------------------
 
 'Auto.FileChooserDialog.current-folder-changed.'Title=Open..'' event created with arguments 'subdir2'
 
-Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.14Jan212225.8395/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
+Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
 
-'Auto.FileChooserDialog.selection-changed.'Title=Open..'' event created with arguments 'file2.txt'
+'Auto.FileChooserDialog.selection-changed.'Title=Open..'' event created with arguments 'file1.txt'
 
-Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.14Jan212225.8395/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
+Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
 
 'Auto.FileChooserDialog.response.ok.'Title=Open..'' event created with arguments ''
-/home/geoff/.texttest/tmp/pyusecase.14Jan212225.8395/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt selected
+/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt selected

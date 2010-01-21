@@ -3,6 +3,12 @@
 
 import gtk, os
 
+def folderChanged(dialog, *args):
+    folder = dialog.get_current_folder()
+    files = os.listdir(folder)
+    files.sort()
+    dialog.select_filename(os.path.join(folder, files[-1]))
+
 dialog = gtk.FileChooserDialog("Open..",
                                None,
                                gtk.FILE_CHOOSER_ACTION_OPEN,
@@ -11,6 +17,7 @@ dialog = gtk.FileChooserDialog("Open..",
 dialog.set_default_response(gtk.RESPONSE_OK)
 dialog.add_shortcut_folder(os.path.abspath("sampledir/subdir2"))
 dialog.set_current_folder(os.path.abspath("sampledir/subdir"))
+dialog.connect("current-folder-changed", folderChanged)
 
 response = dialog.run()
 if response == gtk.RESPONSE_OK:

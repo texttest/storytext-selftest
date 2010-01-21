@@ -4,6 +4,12 @@
 import gtk, logging, sys, os
 from gtkusecase import ScriptEngine
 
+def folderChanged(dialog, *args):
+    folder = dialog.get_current_folder()
+    files = os.listdir(folder)
+    files.sort()
+    dialog.select_filename(os.path.join(folder, files[-1]))
+
 def dialogRespond(dialog, response, *args):
     if response == gtk.RESPONSE_OK:
         print dialog.get_filename(), 'selected'
@@ -23,7 +29,7 @@ dialog = gtk.FileChooserDialog("Open..",
 
 dialog.set_current_folder(os.path.abspath("sampledir/subdir"))
 dialog.add_shortcut_folder(os.path.abspath("sampledir/subdir2"))
-
+dialog.connect("current-folder-changed", folderChanged)
 scriptEngine.registerFileChooser(dialog, "select file", "look in folder") 
                                  
 scriptEngine.connect("open selected file", "response", dialog, dialogRespond, gtk.RESPONSE_OK)
