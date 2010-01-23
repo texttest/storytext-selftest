@@ -1,0 +1,3 @@
+Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Name=hello button'
+Auto.Toplevel.<Destroy>.'Title=Hi!'
+Auto.Tk.<Destroy>.'Title=tk'

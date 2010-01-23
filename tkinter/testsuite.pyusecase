@@ -1,7 +1,7 @@
 buttons
 
-# Check we can monitor events and describe secondary windows
-multiple_windows
-
 # Check slow motion replay works for tkinter also
 slow_motion
+
+# Suite of tests for checking scenarios with several windows
+toplevel_windows

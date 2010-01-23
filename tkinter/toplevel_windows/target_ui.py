@@ -19,7 +19,7 @@ class App:
         win = Toplevel()
 	win.title('Hi!')
 	def destroy(*args):
-		win.event_generate("<Destroy>") # don't directly destroy the object we're listening to
+            win.destroy()
         label = Label(win, name="hello label", text="hi there, everyone!", bg="white")
         label.bind("<Button-1>", destroy)
 	label.pack()

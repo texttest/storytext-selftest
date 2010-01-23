@@ -1,0 +1,15 @@
+
+---------- Window 'tk' ----------
+Button 'QUIT'
+Button 'Hello'
+---------------------------------
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Name=hello button'' event created with arguments ''
+
+---------- Window 'Hi!' ----------
+'hi there, everyone!' (white)
+----------------------------------
+
+'Auto.Toplevel.<Destroy>.'Title=Hi!'' event created with arguments ''
+
+'Auto.Tk.<Destroy>.'Title=tk'' event created with arguments ''
