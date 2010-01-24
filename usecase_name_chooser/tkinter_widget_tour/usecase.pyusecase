@@ -2,4 +2,6 @@ enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button '
 enter usecase name for signal '<Button-1>' on Label 'Name=hello label' = click on hello label
 enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button 'Label=something' = click something
 enter usecase name for signal '<Button-3>' on Label 'Name=another label' = right-click something else
+enter usecase name for signal '<KeyPress>,<KeyRelease>' on Entry 'Type=Entry' = set text to
+enter usecase name for signal '<Destroy>' on Tk 'Title=tk' = close
 finish name entry editing

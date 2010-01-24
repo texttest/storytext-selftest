@@ -1,4 +1,6 @@
 say hello
 click on hello label
+set text to hello
 click something
 right-click something else
+close

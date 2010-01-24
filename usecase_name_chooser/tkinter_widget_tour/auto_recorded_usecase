@@ -1,4 +1,6 @@
 Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Name=hello button'
 Auto.Label.<Button-1>.'Name=hello label'
+Auto.Entry.<KeyPress>,<KeyRelease>.'Type=Entry' hello
 Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=something'
 Auto.Label.<Button-3>.'Name=another label'
+Auto.Tk.<Destroy>.'Title=tk'

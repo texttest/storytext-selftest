@@ -2,16 +2,20 @@
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Default widget is 'gtk-ok'
 .....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 5 rows and 4 columns.
+Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'Button' | 'Name=hello button' | 'clicked' | Text entry
 'Label' | 'Name=hello label' | 'left-clicked' | Text entry
+'Entry' | 'Type=Entry' | 'edited text' | Text entry
 'Button' | 'Label=something' | 'clicked' | Text entry
 'Label' | 'Name=another label' | 'right-clicked' | Text entry
+'Tk' | 'Title=tk' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
+?
+?
 ?
 ?
 ?
@@ -29,6 +33,8 @@ say hello
 ?
 ?
 ?
+?
+?
 =================================
 
 'enter usecase name for signal '<Button-1>' on Label 'Name=hello label' =' event created with arguments 'click on hello label'
@@ -39,6 +45,8 @@ say hello
 click on hello label
 ?
 ?
+?
+?
 =================================
 
 'enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button 'Label=something' =' event created with arguments 'click something'
@@ -47,7 +55,9 @@ Edited 'GtkEntry' Text entry (set to 'click something')
 ========== GtkTextView ==========
 say hello
 click on hello label
+?
 click something
+?
 ?
 =================================
 
@@ -57,8 +67,34 @@ Edited 'GtkEntry' Text entry (set to 'right-click something else')
 ========== GtkTextView ==========
 say hello
 click on hello label
+?
 click something
 right-click something else
+?
+=================================
+
+'enter usecase name for signal '<KeyPress>,<KeyRelease>' on Entry 'Type=Entry' =' event created with arguments 'set text to'
+Edited 'GtkEntry' Text entry (set to 'set text to')
+
+========== GtkTextView ==========
+say hello
+click on hello label
+set text to hello
+click something
+right-click something else
+?
+=================================
+
+'enter usecase name for signal '<Destroy>' on Tk 'Title=tk' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+========== GtkTextView ==========
+say hello
+click on hello label
+set text to hello
+click something
+right-click something else
+close
 =================================
 
 'finish name entry editing' event created with arguments ''

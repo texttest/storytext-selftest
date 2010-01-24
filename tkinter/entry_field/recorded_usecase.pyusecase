@@ -1,0 +1,3 @@
+set choice to hello
+print choice
+exit

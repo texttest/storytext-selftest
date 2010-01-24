@@ -1,0 +1,13 @@
+
+---------- Window 'Tkwidgets application' ----------
+Text entry (set to 'your choice')
+Button 'print'
+Button 'exit'
+----------------------------------------------------
+
+'Auto.Entry.<KeyPress>,<KeyRelease>.'Type=Entry'' event created with arguments 'hello'
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=print'' event created with arguments ''
+this is to be printed hello
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=exit'' event created with arguments ''

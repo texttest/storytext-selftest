@@ -1,5 +1,8 @@
 buttons
 
+# Test we can handle entry fields for tkinter
+entry_field
+
 # Check slow motion replay works for tkinter also
 slow_motion
 

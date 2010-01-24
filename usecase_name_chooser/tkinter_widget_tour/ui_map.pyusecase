@@ -4,9 +4,15 @@
 [Name=hello label]
 <Button-1> = click on hello label
 
+[Type=Entry]
+<KeyPress>,<KeyRelease> = set text to
+
 [Label=something]
 <Enter>,<Button-1>,<ButtonRelease-1> = click something
 
 [Name=another label]
 <Button-3> = right-click something else
+
+[Title=tk]
+<Destroy> = close
 

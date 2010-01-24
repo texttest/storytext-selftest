@@ -1,0 +1,13 @@
+
+---------- Window 'Tkwidgets application' ----------
+Text entry (set to 'your choice')
+Button 'print'
+Button 'exit'
+----------------------------------------------------
+
+'set choice to' event created with arguments 'hello'
+
+'print choice' event created with arguments ''
+this is to be printed hello
+
+'exit' event created with arguments ''
