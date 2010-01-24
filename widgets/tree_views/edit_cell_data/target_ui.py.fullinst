@@ -94,8 +94,8 @@ class DisplayModel:
         scriptEngine.monitorSignal("", "row-activated", self.view)
 
         # and connect stuff we do want
-        scriptEngine.registerCellToggleButton(self.renderer1, "complete task", self.view, "reopen task")
-        scriptEngine.registerCellEdit(self.renderer, "change name for", self.view)
+        scriptEngine.registerCellToggleButton(self.renderer1, "complete task", self.column1, self.view, "reopen task")
+        scriptEngine.registerCellEdit(self.renderer, "change name for", self.column0, self.view)
         self.renderer.connect( 'edited', self.col0_edited_cb, model )
         scriptEngine.monitorExpansion(self.view, "show reminders for", "hide reminders for")
         

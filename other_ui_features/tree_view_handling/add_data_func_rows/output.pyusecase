@@ -1,0 +1,14 @@
+
+---------- Window 'Basic TreeView Example' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Name
+Button 'Add File'
+-----------------------------------------------------
+
+'add a file' event created with arguments ''
+
+Updated : GtkTreeView with columns: Name
+-> The File (bold)
+
+'close application' event created with arguments ''

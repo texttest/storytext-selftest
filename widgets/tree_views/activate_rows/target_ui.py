@@ -86,7 +86,6 @@ class FileListingCellDataExample:
         self.tvcolumn[0].set_cell_data_func(cell, self.file_name)
         self.treeview.append_column(self.tvcolumn[0])
         for n in range(1, len(self.column_names)):
-            cell = gtk.CellRendererText()
             self.tvcolumn[n] = gtk.TreeViewColumn(self.column_names[n], cell)
             if n == 1:
                 cell.set_property('xalign', 1.0)
