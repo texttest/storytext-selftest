@@ -32,7 +32,9 @@ class PyApp(gtk.Window):
         opentb = gtk.ToolButton(gtk.STOCK_OPEN)
         savetb = gtk.ToolButton(gtk.STOCK_SAVE)
         sep = gtk.SeparatorToolItem()
-        quittb = gtk.ToolButton(gtk.STOCK_QUIT)
+        image = gtk.Image()
+        image.set_from_file("readdir/important.tif")
+        quittb = gtk.ToolButton(image)
 
         toolbar.insert(newtb, 0)
         toolbar.insert(opentb, 1)

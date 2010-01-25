@@ -7,7 +7,7 @@ Tool Bar :
   Tool button (Stock image 'gtk-open')
   Tool button (Stock image 'gtk-save')
     ----
-  Tool button (Stock image 'gtk-quit')
+  Tool button (Image 'important.tif')
 -------------------------------------
 
 'quit via toolbar' event created with arguments ''
