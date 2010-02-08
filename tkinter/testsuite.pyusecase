@@ -3,6 +3,9 @@ buttons
 # Test we can handle entry fields for tkinter
 entry_field
 
+# Test we can log and replay menus
+menus
+
 # Check slow motion replay works for tkinter also
 slow_motion
 

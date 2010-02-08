@@ -1,0 +1,30 @@
+
+---------- Window 'tk' ----------
+Menu:
+  >>>
+  File
+  Edit
+  Help
+
+Menu:
+  Open
+  Save
+  ---
+  Exit
+
+Menu:
+  Cut
+  Copy
+  Paste
+
+Menu:
+  About
+---------------------------------
+
+'choose help option' event created with arguments 'About'
+hello!
+
+'choose file option' event created with arguments 'foobar'
+ERROR: Could not find item 'foobar' in menu.
+
+'choose file option' event created with arguments 'Exit'

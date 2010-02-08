@@ -1,0 +1,27 @@
+
+---------- Window 'tk' ----------
+Menu:
+  >>>
+  File
+  Edit
+  Help
+
+Menu:
+  Open
+  Save
+  ---
+  Exit
+
+Menu:
+  Cut
+  Copy
+  Paste
+
+Menu:
+  About
+---------------------------------
+
+'Auto.Menu.select item.'Label=Help'' event created with arguments 'About'
+hello!
+
+'Auto.Menu.select item.'Label=File'' event created with arguments 'Exit'
