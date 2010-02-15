@@ -1,11 +1,13 @@
 # menu-example-3.py
 
 from Tkinter import *
+from ScrolledText import ScrolledText
 
 root = Tk()
 
 def hello():
-    print "hello!"
+    print "hello"
+    text.insert(END, "Did something from a menu!\n")
 
 menubar = Menu(root)
 
@@ -30,5 +32,9 @@ menubar.add_cascade(label="Help", menu=helpmenu)
 
 # display the menu
 root.config(menu=menubar)
+
+Label(root, text="Some text:").grid(row=0, column=0)
+text = ScrolledText(root)
+text.grid(row=0, column=1)
 
 mainloop()

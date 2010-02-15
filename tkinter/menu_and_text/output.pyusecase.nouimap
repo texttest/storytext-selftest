@@ -19,9 +19,13 @@ Menu:
 
 Menu:
   About
+
+'Some text:' | ========== Text ==========
+
+==========================
 ---------------------------------
 
 'Auto.Menu.select item.'Label=Help'' event created with arguments 'About'
-hello!
+hello
 
 'Auto.Menu.select item.'Label=File'' event created with arguments 'Exit'

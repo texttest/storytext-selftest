@@ -19,10 +19,14 @@ Menu:
 
 Menu:
   About
+
+'Some text:' | ========== Text ==========
+
+==========================
 ---------------------------------
 
 'choose help option' event created with arguments 'About'
-hello!
+hello
 
 'choose file option' event created with arguments 'foobar'
 ERROR: Could not find item 'foobar' in menu.
