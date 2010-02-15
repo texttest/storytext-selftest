@@ -1,23 +1,23 @@
 
 ---------- Window 'tk' ----------
-Menu:
+Root menu:
   >>>
-  File
-  Edit
-  Help
+  File (+)
+  Edit (+)
+  Help (+)
 
-Menu:
+File menu:
   Open
   Save
   ---
   Exit
 
-Menu:
+Edit menu:
   Cut
   Copy
   Paste
 
-Menu:
+Help menu:
   About
 
 'Some text:' | ========== Text ==========
@@ -27,6 +27,10 @@ Menu:
 
 'choose help option' event created with arguments 'About'
 hello
+
+========== Text ==========
+Did something from a menu!
+==========================
 
 'choose file option' event created with arguments 'foobar'
 ERROR: Could not find item 'foobar' in menu.

@@ -1,23 +1,23 @@
 
 ---------- Window 'tk' ----------
-Menu:
+Root menu:
   >>>
-  File
-  Edit
-  Help
+  File (+)
+  Edit (+)
+  Help (+)
 
-Menu:
+File menu:
   Open
   Save
   ---
   Exit
 
-Menu:
+Edit menu:
   Cut
   Copy
   Paste
 
-Menu:
+Help menu:
   About
 
 'Some text:' | ========== Text ==========
@@ -27,5 +27,9 @@ Menu:
 
 'Auto.Menu.select item.'Label=Help'' event created with arguments 'About'
 hello
+
+========== Text ==========
+Did something from a menu!
+==========================
 
 'Auto.Menu.select item.'Label=File'' event created with arguments 'Exit'
