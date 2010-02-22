@@ -6,6 +6,7 @@ Button 'print'
 ----------------------------------------------------
 
 'Auto.Entry.<KeyPress>,<KeyRelease>.'Type=Entry'' event created with arguments 'hello'
+Updated Text entry (set to 'hello')
 
 'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=print'' event created with arguments ''
 this is to be printed hello

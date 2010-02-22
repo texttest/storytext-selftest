@@ -6,6 +6,7 @@ Button 'print'
 ----------------------------------------------------
 
 'set choice to' event created with arguments 'hello'
+Updated Text entry (set to 'hello')
 
 'print choice' event created with arguments ''
 this is to be printed hello

@@ -1,0 +1,17 @@
+
+---------- Window 'Login screen' ----------
+'User Name' | Text entry
+'Password' | Text entry
+Button 'Login' | Button 'Quit'
+-------------------------------------------
+
+'Auto.Entry.<KeyPress>,<KeyRelease>.'Name=username'' event created with arguments 'geoff'
+Updated Text entry (set to 'geoff')
+
+'Auto.Entry.<KeyPress>,<KeyRelease>.'Name=password'' event created with arguments 'password'
+Updated Text entry (set to '********')
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=Login'' event created with arguments ''
+Logging in with username geoff and password password
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=Quit'' event created with arguments ''

@@ -6,5 +6,8 @@ toplevel_windows
 # Test we can handle entry fields for tkinter
 entry_field
 
+# Check we show what is actually shown in an entry
+password_entry
+
 # Test we can log and replay menus, and log changes to Text widgets
 menu_and_text
