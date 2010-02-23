@@ -85,7 +85,7 @@ right-click something else
 ?
 =================================
 
-'enter usecase name for signal '<Destroy>' on Tk 'Title=tk' =' event created with arguments 'close'
+'enter usecase name for signal 'WM_DELETE_WINDOW' on Tk 'Title=tk' =' event created with arguments 'close'
 Edited 'GtkEntry' Text entry (set to 'close')
 
 ========== GtkTextView ==========

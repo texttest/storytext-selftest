@@ -1,6 +1,0 @@
-# Check we can monitor events and describe secondary windows
-multiple_windows
-
-# Disabled for now, get Python crashes on Windows
-# Check we can record the user closing windows
-#close_windows

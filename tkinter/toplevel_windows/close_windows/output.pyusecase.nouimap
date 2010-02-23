@@ -9,6 +9,6 @@ Button 'QUIT' , Button 'Hello'
 'hi there, everyone!' (white)
 ----------------------------------
 
-'Auto.Toplevel.<Destroy>.'Title=Hi!'' event created with arguments ''
+'Auto.Toplevel.WM_DELETE_WINDOW.'Title=Hi!'' event created with arguments ''
 
-'Auto.Tk.<Destroy>.'Title=tk'' event created with arguments ''
+'Auto.Tk.WM_DELETE_WINDOW.'Title=tk'' event created with arguments ''

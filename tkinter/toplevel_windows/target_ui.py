@@ -1,11 +1,12 @@
 # File: hello2.py
 
 from Tkinter import *
+import tkMessageBox
 
 class App:
 
     def __init__(self, master):
-
+        self.master = master
         frame = Frame(master)
         frame.pack()
 
@@ -14,7 +15,13 @@ class App:
 
         self.hi_there = Button(frame, name="hello button", text="Hello", command=self.say_hi)
         self.hi_there.pack(side=LEFT)
-
+        
+        master.protocol("WM_DELETE_WINDOW", self.ask)
+    
+    def ask(self):
+        if tkMessageBox.askyesno("Quit", "Are you sure you want to terminate this fantastic program?"):
+            self.master.destroy()
+        
     def say_hi(self):	
         win = Toplevel()
 	win.title('Hi!')

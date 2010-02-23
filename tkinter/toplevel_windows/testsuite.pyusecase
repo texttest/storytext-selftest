@@ -1,5 +1,5 @@
 # Check we can monitor events and describe secondary windows
 multiple_windows
 
-# Check we can record the user closing windows
+# Check we can record the user closing windows. Also show off our interception trick for tkMessageBoxes
 close_windows

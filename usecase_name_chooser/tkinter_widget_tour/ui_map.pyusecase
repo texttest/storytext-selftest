@@ -14,5 +14,5 @@
 <Button-3> = right-click something else
 
 [Title=tk]
-<Destroy> = close
+WM_DELETE_WINDOW = close
 
