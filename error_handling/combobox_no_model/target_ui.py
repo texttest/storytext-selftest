@@ -18,6 +18,7 @@ class MyApp(object):
        bt_quit.connect('clicked', self.on_bt_quit_clicked)
        vbox.pack_start(bt_quit)
 
+       win.set_focus(bt_quit)
        win.show_all()
 
    def run(self):
