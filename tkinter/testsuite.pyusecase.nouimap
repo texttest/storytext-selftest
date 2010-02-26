@@ -1,5 +1,8 @@
 buttons
 
+# Check that we still start the usecase name chooser if we explicitly do a system exit. Note that the exit code is not propagated currently on UNIX
+system_exit
+
 # Suite of tests for checking scenarios with several windows
 toplevel_windows
 
