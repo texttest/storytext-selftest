@@ -5,10 +5,10 @@ Button 'exit'
 Button 'print'
 ----------------------------------------------------
 
-'set choice to' event created with arguments 'hello'
-Updated Text entry (set to 'hello')
+'set choice to' event created with arguments 'hello world!'
+Updated Text entry (set to 'hello world!')
 
 'print choice' event created with arguments ''
-this is to be printed hello
+this is to be printed hello world!
 
 'exit' event created with arguments ''
