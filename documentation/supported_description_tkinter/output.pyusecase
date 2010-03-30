@@ -3,6 +3,7 @@ PyUseCase trunk is currently capable of recording and replaying. Any type derive
 types is also supported.
 
 Tkinter.Button           : clicked
+Tkinter.Checkbutton      : checked , unchecked
 Tkinter.Entry            : edited text
 Tkinter.Label            : left-clicked , middle-clicked , right-clicked
 Tkinter.Menu             : select item
@@ -14,9 +15,11 @@ currently capable of monitoring and logging. Any type derived from the listed ty
 is also supported but will only have features of the listed type described.
 
 Tkinter.Button
+Tkinter.Checkbutton
 Tkinter.Entry
 Tkinter.Frame
 Tkinter.Label
+Tkinter.LabelFrame
 Tkinter.Menu
 Tkinter.Scrollbar
 Tkinter.Text

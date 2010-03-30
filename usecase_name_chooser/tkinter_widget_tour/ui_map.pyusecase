@@ -4,6 +4,9 @@
 [Name=hello label]
 <Button-1> = click on hello label
 
+[Label=Music]
+<Button-1>.true = 
+
 [Type=Entry]
 <KeyPress>,<KeyRelease> = set text to
 
@@ -12,6 +15,9 @@
 
 [Name=another label]
 <Button-3> = right-click something else
+
+[Label=Video]
+<Button-1>.false = 
 
 [Title=tk]
 WM_DELETE_WINDOW = close
