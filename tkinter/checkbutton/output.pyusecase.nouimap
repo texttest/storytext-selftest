@@ -1,0 +1,11 @@
+
+---------- Window 'tk' ----------
+Check Button 'Music'
+Check Button 'Video' (checked)
+---------------------------------
+
+'Auto.Checkbutton.<Button-1>.true.'Label=Music'' event created with arguments ''
+
+'Auto.Checkbutton.<Button-1>.false.'Label=Video'' event created with arguments ''
+
+'Auto.Tk.WM_DELETE_WINDOW.'Title=tk'' event created with arguments ''

@@ -14,3 +14,6 @@ password_entry
 
 # Test we can log and replay menus, and log changes to Text widgets
 menu_and_text
+
+# Check we can log and replay changes to checkbuttons
+checkbutton
