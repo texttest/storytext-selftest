@@ -1,0 +1,1 @@
+<-CMD:env 'PATH=$PATH:/home/geoff/code/texttest/pyusecase/bin' usecase_name_chooser -m /home/geoff/.texttest/tmp/pyusecase.26Apr203853.11298/pyusecase.nouimap/tkinter/buttons_at_bottom/usecases/ui_map.conf -r /home/geoff/.texttest/tmp/pyusecase.26Apr203853.11298/pyusecase.nouimap/tkinter/buttons_at_bottom/usecase.pyusecase -i tkinter

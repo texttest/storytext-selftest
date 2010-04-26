@@ -1,5 +1,8 @@
 buttons
 
+# Produce a logical description if the buttons are positioned elsewhere
+buttons_at_bottom
+
 # Check that we still start the usecase name chooser if we explicitly do a system exit. Note that the exit code is not propagated currently on UNIX
 system_exit
 

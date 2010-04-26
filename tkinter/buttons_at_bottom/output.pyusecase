@@ -1,0 +1,11 @@
+
+---------- Window 'tk' ----------
+Button 'QUIT' , Button 'Hello'
+
+'A blue label' (blue)
+---------------------------------
+
+'say hello' event created with arguments ''
+hi there, everyone!
+
+'quit' event created with arguments ''

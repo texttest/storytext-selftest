@@ -1,5 +1,8 @@
 buttons
 
+# Produce a logical description if the buttons are positioned elsewhere
+buttons_at_bottom
+
 # Test we can handle entry fields for tkinter
 entry_field
 
