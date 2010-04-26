@@ -15,12 +15,14 @@ currently capable of monitoring and logging. Any type derived from the listed ty
 is also supported but will only have features of the listed type described.
 
 Tkinter.Button
+Tkinter.Canvas
 Tkinter.Checkbutton
 Tkinter.Entry
 Tkinter.Frame
 Tkinter.Label
 Tkinter.LabelFrame
 Tkinter.Menu
+Tkinter.Menubutton
 Tkinter.Scrollbar
 Tkinter.Text
 Tkinter.Tk

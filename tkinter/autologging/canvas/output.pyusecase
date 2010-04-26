@@ -1,0 +1,12 @@
+
+---------- Window 'tk' ----------
+========== Canvas ==========
+Rectangle (green)
+  'Green rectangle'
+Oval (blue)
+Polygon (red)
+  'Tkinter canvas'
+============================
+---------------------------------
+
+'close window' event created with arguments ''
