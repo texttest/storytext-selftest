@@ -1,0 +1,17 @@
+
+---------- Window 'tk' ----------
+'Right-click to display menu'
+Button 'Quit'
+---------------------------------
+
+'Auto.Label.<Button-3>.'Label=Right-click to display menu'' event created with arguments ''
+Posting popup menu:
+  Next
+  Previous
+  ---
+  Home
+
+'Auto.Menu.select item.'Type=Menu'' event created with arguments 'Next'
+Next
+
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=Quit'' event created with arguments ''

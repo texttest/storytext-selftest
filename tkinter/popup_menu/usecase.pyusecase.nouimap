@@ -1,0 +1,3 @@
+Auto.Label.<Button-3>.'Label=Right-click to display menu'
+Auto.Menu.select item.'Type=Menu' Next
+Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=Quit'

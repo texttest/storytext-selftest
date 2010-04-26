@@ -1,0 +1,17 @@
+
+---------- Window 'tk' ----------
+'Right-click to display menu'
+Button 'Quit'
+---------------------------------
+
+'show popup' event created with arguments ''
+Posting popup menu:
+  Next
+  Previous
+  ---
+  Home
+
+'select' event created with arguments 'Next'
+Next
+
+'quit' event created with arguments ''
