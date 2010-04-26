@@ -1,0 +1,8 @@
+# Produce a logical description if the buttons are positioned elsewhere
+buttons_at_bottom
+
+# The other way to do menus in Tkinter
+menubutton
+
+# Make sure we can handle popup menus also
+popup_menu

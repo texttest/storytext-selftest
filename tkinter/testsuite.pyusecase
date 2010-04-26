@@ -1,8 +1,5 @@
 buttons
 
-# Produce a logical description if the buttons are positioned elsewhere
-buttons_at_bottom
-
 # Test we can handle entry fields for tkinter
 entry_field
 
@@ -12,12 +9,6 @@ password_entry
 # Test we can log and replay menus, and log changes to Text widgets
 menu_and_text
 
-# The other way to do menus in Tkinter
-menubutton
-
-# Make sure we can handle popup menus also
-popup_menu
-
 # Check we can log and replay changes to checkbuttons
 checkbutton
 
@@ -26,3 +17,6 @@ slow_motion
 
 # Suite of tests for checking scenarios with several windows
 toplevel_windows
+
+# Tests which just are concerned with how things are logged
+autologging

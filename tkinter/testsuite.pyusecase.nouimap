@@ -1,8 +1,5 @@
 buttons
 
-# Produce a logical description if the buttons are positioned elsewhere
-buttons_at_bottom
-
 # Check that we still start the usecase name chooser if we explicitly do a system exit. Note that the exit code is not propagated currently on UNIX
 system_exit
 
@@ -17,12 +14,6 @@ password_entry
 
 # Test we can log and replay menus, and log changes to Text widgets
 menu_and_text
-
-# The other way to do menus in Tkinter
-menubutton
-
-# Make sure we can handle popup menus also
-popup_menu
 
 # Check we can log and replay changes to checkbuttons
 checkbutton
