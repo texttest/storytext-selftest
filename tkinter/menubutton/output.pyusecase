@@ -1,0 +1,16 @@
+
+---------- Window 'menu bar' ----------
+file menu:
+  >>>
+  open
+  close
+
+edit menu:
+  >>>
+  copy
+  paste
+
+help menu (empty)
+---------------------------------------
+
+'close window' event created with arguments ''

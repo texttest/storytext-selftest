@@ -1,0 +1,16 @@
+
+---------- Window 'menu bar' ----------
+file menu:
+  >>>
+  open
+  close
+
+edit menu:
+  >>>
+  copy
+  paste
+
+help menu (empty)
+---------------------------------------
+
+'Auto.Tk.WM_DELETE_WINDOW.'Title=menu bar'' event created with arguments ''
