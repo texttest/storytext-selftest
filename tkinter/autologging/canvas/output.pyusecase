@@ -1,11 +1,10 @@
 
 ---------- Window 'tk' ----------
 ========== Canvas ==========
-Rectangle (green)
+Rectangle (green)   , Polygon (red)
   'Green rectangle'
-Oval (blue)
-Polygon (red)
-  'Tkinter canvas'
+Oval (blue)        
+'Tkinter canvas'
 ============================
 ---------------------------------
 
