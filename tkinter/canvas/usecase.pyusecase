@@ -1,0 +1,6 @@
+select shape rectangle
+select shape 10000
+select shape stupid
+select shape 4
+select shape rectangle
+close window

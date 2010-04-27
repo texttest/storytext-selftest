@@ -6,6 +6,3 @@ menubutton
 
 # Make sure we can handle popup menus also
 popup_menu
-
-# Make sure we can log a canvas nicely
-canvas

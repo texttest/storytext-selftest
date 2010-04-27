@@ -12,6 +12,9 @@ menu_and_text
 # Check we can log and replay changes to checkbuttons
 checkbutton
 
+# Make sure we interact nicely with a canvas
+canvas
+
 # Check slow motion replay works for tkinter also
 slow_motion
 

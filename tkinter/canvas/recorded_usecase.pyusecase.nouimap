@@ -1,0 +1,5 @@
+Auto.Canvas.<Button-1>.'Type=Canvas' rectangle
+Auto.Canvas.<Button-1>.'Type=Canvas' 10000
+Auto.Canvas.<Button-1>.'Type=Canvas' 4
+Auto.Canvas.<Button-1>.'Type=Canvas' rectangle
+Auto.Tk.WM_DELETE_WINDOW.'Title=tk'

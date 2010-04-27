@@ -1,0 +1,26 @@
+
+---------- Window 'tk' ----------
+========== Canvas ==========
+Rectangle (green)   , Polygon (red)
+  'Green rectangle'
+Oval (blue)        
+'Tkinter canvas'
+============================
+---------------------------------
+
+'select shape' event created with arguments 'rectangle'
+Clicked item (5,)
+
+'select shape' event created with arguments '10000'
+Clicked item (3,)
+
+'select shape' event created with arguments 'stupid'
+ERROR: Could not find canvas item 'stupid'
+
+'select shape' event created with arguments '4'
+Clicked item (4,)
+
+'select shape' event created with arguments 'rectangle'
+Clicked item (5,)
+
+'close window' event created with arguments ''
