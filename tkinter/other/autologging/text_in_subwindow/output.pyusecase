@@ -1,0 +1,16 @@
+
+---------- Window 'tk' ----------
+Button 'QUIT' , Button 'Hello'
+---------------------------------
+
+'show hello window' event created with arguments ''
+
+---------- Window 'Hi!' ----------
+========== Text ==========
+Hello there!
+==========================
+----------------------------------
+
+'close hello window' event created with arguments ''
+
+'quit' event created with arguments ''

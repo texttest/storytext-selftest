@@ -1,4 +1,0 @@
-<-PYT:import tkMessageBox
-<-PYT:tkMessageBox.askyesno('Quit', 'Are you sure you want to terminate this fantastic program?')
-->RET:True
-<-CMD:env 'PATH=$PATH:/home/geoff/code/texttest/pyusecase/bin' usecase_name_chooser -m /home/geoff/.texttest/tmp/pyusecase.23Feb205848.11700/pyusecase.nouimap/tkinter/toplevel_windows/close_windows/usecases/ui_map.conf -r /home/geoff/.texttest/tmp/pyusecase.23Feb205848.11700/pyusecase.nouimap/tkinter/toplevel_windows/close_windows/usecase.pyusecase -i tkinter

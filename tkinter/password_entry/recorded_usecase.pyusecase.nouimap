@@ -1,4 +1,0 @@
-Auto.Entry.<KeyPress>,<KeyRelease>.'Name=username' geoff
-Auto.Entry.<KeyPress>,<KeyRelease>.'Name=password' password
-Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=Login'
-Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=Quit'

@@ -1,1 +1,0 @@
-<-CMD:env 'PATH=$PATH:/nfs/vm/texttest/geoff/Testing/TextTest/pyusecase/bin' usecase_name_chooser -m /opt/geoff/tmp/pyusecase.nouimap.nomapfile.30Mar161117.12619/pyusecase.nouimap.nomapfile/tkinter/checkbutton/usecases/ui_map.conf -r /opt/geoff/tmp/pyusecase.nouimap.nomapfile.30Mar161117.12619/pyusecase.nouimap.nomapfile/tkinter/checkbutton/usecase.pyusecase -i tkinter

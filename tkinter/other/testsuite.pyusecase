@@ -1,0 +1,5 @@
+# Check slow motion replay works for tkinter also
+slow_motion
+
+# Tests which just are concerned with how things are logged
+autologging

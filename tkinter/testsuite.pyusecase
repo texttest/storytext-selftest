@@ -1,25 +1,5 @@
-buttons
+# Basic widget usage
+widgets
 
-# Test we can handle entry fields for tkinter
-entry_field
-
-# Check we show what is actually shown in an entry
-password_entry
-
-# Test we can log and replay menus, and log changes to Text widgets
-menu_and_text
-
-# Check we can log and replay changes to checkbuttons
-checkbutton
-
-# Make sure we interact nicely with a canvas
-canvas
-
-# Check slow motion replay works for tkinter also
-slow_motion
-
-# Suite of tests for checking scenarios with several windows
-toplevel_windows
-
-# Tests which just are concerned with how things are logged
-autologging
+# Stuff that isn't just introducing new widgets
+other
