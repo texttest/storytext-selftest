@@ -1,7 +1,10 @@
 from Tkinter import *
 
 def describe(event):
-    item = event.widget.find_closest(event.widget.canvasx(event.x), event.widget.canvasy(event.y))
+    widget = event.widget
+    item = widget.find_closest(widget.canvasx(event.x), widget.canvasy(event.y))
+    if widget.type(item) == "polygon":
+        widget.itemconfigure(item, fill="yellow")
     print "Clicked item", item
 
 root = Tk()

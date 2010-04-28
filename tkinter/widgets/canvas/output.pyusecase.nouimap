@@ -14,6 +14,13 @@ Clicked item (5,)
 'Auto.Canvas.<Button-1>.'Type=Canvas'' event created with arguments '10000'
 Clicked item (3,)
 
+========== Canvas ==========
+Rectangle (green)   , Polygon (yellow)
+  'Green rectangle'
+Oval (blue)        
+'Tkinter canvas'
+============================
+
 'Auto.Canvas.<Button-1>.'Type=Canvas'' event created with arguments 'stupid'
 ERROR: Could not find canvas item 'stupid'
 
