@@ -1,0 +1,6 @@
+
+[Reported by geoff at 05May10:32:08]
+search_string:< Posting popup
+search_file:free_text
+full_description:Using Tkinter method Menu.unpost that doesn't work on Windows. Action here awaiting advice from tkinter-discuss list.
+brief_description:Menu.unpost on Windows
