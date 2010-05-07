@@ -13,4 +13,7 @@ edit menu:
 help menu (empty)
 ---------------------------------------
 
-'close window' event created with arguments ''
+'Auto.Menu.select item.'Label=file'' event created with arguments 'open'
+Open!
+
+'Auto.Tk.WM_DELETE_WINDOW.'Title=menu bar'' event created with arguments ''

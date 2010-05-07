@@ -6,6 +6,9 @@ entry_field
 # Test we can log and replay menus, and log changes to Text widgets
 menu_and_text
 
+# The other way to do menus in Tkinter
+menubutton
+
 # Check we can log and replay changes to checkbuttons
 checkbutton
 

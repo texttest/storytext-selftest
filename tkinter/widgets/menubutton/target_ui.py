@@ -15,6 +15,8 @@ class mywidgets:
 		frame.pack()
 		return
 
+        def open(self):
+                print "Open!"
 
 	def makeMenuBar(self,frame):
 		menubar = Frame(frame,relief=RAISED,borderwidth=1)
@@ -30,7 +32,7 @@ class mywidgets:
 		#Once we've specified the menubutton and the menu, we can add
         #different commands to the menu
 		
-		mb_file.menu.add_command(label='open')
+		mb_file.menu.add_command(label='open', command=self.open)
 		mb_file.menu.add_command(label='close')
 		
 		mb_edit = Menubutton(menubar,text='edit')
