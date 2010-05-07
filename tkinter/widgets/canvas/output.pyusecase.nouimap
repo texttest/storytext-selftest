@@ -4,7 +4,8 @@
 Rectangle (green)   , Polygon (red)
   'Green rectangle'
 Oval (blue)        
-'Tkinter canvas'
+'Tkinter canvas'   
+Button 'A button'
 ============================
 ---------------------------------
 
@@ -18,7 +19,8 @@ Clicked item (3,)
 Rectangle (green)   , Polygon (yellow)
   'Green rectangle'
 Oval (blue)        
-'Tkinter canvas'
+'Tkinter canvas'   
+Button 'A button'
 ============================
 
 'Auto.Canvas.<Button-1>.'Type=Canvas'' event created with arguments 'stupid'
