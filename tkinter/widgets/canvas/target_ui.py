@@ -5,6 +5,8 @@ def describe(event):
     item = widget.find_closest(widget.canvasx(event.x), widget.canvasy(event.y))
     if widget.type(item) == "polygon":
         widget.itemconfigure(item, fill="yellow")
+    elif widget.type(item) == "text":
+        checkbutton.select()
     print "Clicked item", item
 
 root = Tk()
@@ -16,8 +18,8 @@ diamond = canvas.create_polygon(150,75,225,0,300,75,225,150, fill="red", tags="1
 text = canvas.create_text(230,230, text="Tkinter canvas", fill="purple", 
                           font=("Helvetica", "16"))
 label = canvas.create_text(0,75, text="Green rectangle", anchor=W, tags="rectangle")
-button = Button(root, text="A button")
-canvas.create_window(0, 300, window=button, anchor=NW)
+checkbutton = Checkbutton(root, text="A Checkbutton", variable=IntVar())
+canvas.create_window(0, 300, window=checkbutton, anchor=NW)
 canvas.bind('<Button-1>', describe)
 
 root.mainloop()
