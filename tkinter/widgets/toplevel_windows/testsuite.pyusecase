@@ -3,3 +3,6 @@ multiple_windows
 
 # Check we can record the user closing windows. Also show off our interception trick for tkMessageBoxes
 close_windows
+
+# Make sure we can handle dialogs that call wait_window
+modal_dialogs

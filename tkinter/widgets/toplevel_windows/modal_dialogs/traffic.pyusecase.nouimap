@@ -1,0 +1,2 @@
+<-PYT:import tkMessageBox
+<-CMD:env 'PATH=$PATH:/nfs/vm/texttest/geoff/Testing/TextTest/pyusecase/bin' usecase_name_chooser -m /carm/proj/texttest-tmp/geoff/pyusecase.10May110936.14014/pyusecase.nouimap/tkinter/widgets/toplevel_windows/modal_dialogs/usecases/ui_map.conf -r /carm/proj/texttest-tmp/geoff/pyusecase.10May110936.14014/pyusecase.nouimap/tkinter/widgets/toplevel_windows/modal_dialogs/usecase.pyusecase -i tkinter
