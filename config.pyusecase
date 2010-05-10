@@ -39,6 +39,7 @@ copy_test_path:sampledir
 link_test_path:target_ui.py
 link_test_path:sitecustomize.py
 link_test_path:readdir
+link_test_path:logconfig_file
 
 collect_traffic:usecase_name_chooser
 # There is no way to do our normal stuff with this, so we at least record interactions with it.

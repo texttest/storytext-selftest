@@ -1,6 +1,9 @@
 # Check we can do a simple application event and record/replay a signal
 wait_and_signal
 
+# Check we can steer the log configuration directly by providing a file
+log_config_file
+
 # Check we ignore signals when the application would
 ignore_signal
 
