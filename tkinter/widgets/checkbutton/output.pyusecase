@@ -7,7 +7,9 @@ Check Button 'Video' (checked)
 ---------------------------------
 
 'turn the music on' event created with arguments ''
+Toggled Check Button 'Music' (checked)
 
 'turn the video off' event created with arguments ''
+Toggled Check Button 'Video'
 
 'close' event created with arguments ''
