@@ -8,8 +8,12 @@ Button 'Quit'
 Posting popup menu:
   Next
   Previous
+  Submenu (+)
   ---
   Home
+
+Submenu menu:
+  Next again
 
 'select' event created with arguments 'Next'
 Next
