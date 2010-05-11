@@ -2,22 +2,18 @@
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Default widget is 'gtk-ok'
 .....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 9 rows and 4 columns.
+Viewing table with 7 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'Button' | 'Name=hello button' | 'clicked' | Text entry
 'Label' | 'Name=hello label' | 'left-clicked' | Text entry
-'Checkbutton' | 'Label=Music' | 'checked' | Text entry
 'Entry' | 'Type=Entry' | 'edited text' | Text entry
 'Button' | 'Label=something' | 'clicked' | Text entry
 'Label' | 'Name=another label' | 'right-clicked' | Text entry
-'Checkbutton' | 'Label=Video' | 'unchecked' | Text entry
 'Tk' | 'Title=tk' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
-?
-?
 ?
 ?
 ?
@@ -39,8 +35,6 @@ say hello
 ?
 ?
 ?
-?
-?
 =================================
 
 'enter usecase name for signal '<Button-1>' on Label 'Name=hello label' =' event created with arguments 'click on hello label'
@@ -49,8 +43,6 @@ Edited 'GtkEntry' Text entry (set to 'click on hello label')
 ========== GtkTextView ==========
 say hello
 click on hello label
-?
-?
 ?
 ?
 ?
@@ -64,9 +56,7 @@ Edited 'GtkEntry' Text entry (set to 'click something')
 say hello
 click on hello label
 ?
-?
 click something
-?
 ?
 ?
 =================================
@@ -78,10 +68,8 @@ Edited 'GtkEntry' Text entry (set to 'right-click something else')
 say hello
 click on hello label
 ?
-?
 click something
 right-click something else
-?
 ?
 =================================
 
@@ -91,11 +79,9 @@ Edited 'GtkEntry' Text entry (set to 'set text to')
 ========== GtkTextView ==========
 say hello
 click on hello label
-?
 set text to hello
 click something
 right-click something else
-?
 ?
 =================================
 
@@ -105,11 +91,9 @@ Edited 'GtkEntry' Text entry (set to 'close')
 ========== GtkTextView ==========
 say hello
 click on hello label
-?
 set text to hello
 click something
 right-click something else
-?
 close
 =================================
 

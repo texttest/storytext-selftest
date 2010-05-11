@@ -1,8 +1,6 @@
 Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Name=hello button'
 Auto.Label.<Button-1>.'Name=hello label'
-Auto.Checkbutton.<Button-1>,<ButtonRelease-1>,<Leave>.true.'Label=Music'
 Auto.Entry.<KeyPress>,<KeyRelease>.'Type=Entry' hello
 Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=something'
 Auto.Label.<Button-3>.'Name=another label'
-Auto.Checkbutton.<Button-1>,<ButtonRelease-1>,<Leave>.false.'Label=Video'
 Auto.Tk.WM_DELETE_WINDOW.'Title=tk'

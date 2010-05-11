@@ -1,3 +1,3 @@
-Auto.Checkbutton.<Button-1>,<ButtonRelease-1>,<Leave>.true.'Label=Music'
-Auto.Checkbutton.<Button-1>,<ButtonRelease-1>,<Leave>.false.'Label=Video'
+Auto.Checkbutton.checked.'Label=Music'
+Auto.Checkbutton.unchecked.'Label=Video'
 Auto.Tk.WM_DELETE_WINDOW.'Title=tk'
