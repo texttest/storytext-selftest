@@ -5,7 +5,7 @@
 <Button-1> = click on hello label
 
 [Label=Music]
-<Enter>,<Button-1>,<ButtonRelease-1>.true = 
+<Enter>,<Button-1>,<ButtonRelease-1>,<Leave>.true = 
 
 [Type=Entry]
 <KeyPress>,<KeyRelease> = set text to
@@ -17,7 +17,7 @@
 <Button-3> = right-click something else
 
 [Label=Video]
-<Enter>,<Button-1>,<ButtonRelease-1>.false = 
+<Enter>,<Button-1>,<ButtonRelease-1>,<Leave>.false = 
 
 [Title=tk]
 WM_DELETE_WINDOW = close

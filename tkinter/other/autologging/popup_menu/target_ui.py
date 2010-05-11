@@ -24,6 +24,7 @@ popup.add_command(label="Home", command=home)
 def do_popup(event):
     # display the popup menu
     popup.post(event.x_root, event.y_root)
+    popup.unpost()
     
 w.bind("<Button-3>", do_popup)
 

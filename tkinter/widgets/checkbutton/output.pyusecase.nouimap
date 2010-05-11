@@ -6,10 +6,10 @@ Check Button 'Music'
 Check Button 'Video' (checked)
 ---------------------------------
 
-'Auto.Checkbutton.<Enter>,<Button-1>,<ButtonRelease-1>.true.'Label=Music'' event created with arguments ''
+'Auto.Checkbutton.<Enter>,<Button-1>,<ButtonRelease-1>,<Leave>.true.'Label=Music'' event created with arguments ''
 Toggled Check Button 'Music' (checked)
 
-'Auto.Checkbutton.<Enter>,<Button-1>,<ButtonRelease-1>.false.'Label=Video'' event created with arguments ''
+'Auto.Checkbutton.<Enter>,<Button-1>,<ButtonRelease-1>,<Leave>.false.'Label=Video'' event created with arguments ''
 Toggled Check Button 'Video'
 
 'Auto.Tk.WM_DELETE_WINDOW.'Title=tk'' event created with arguments ''
