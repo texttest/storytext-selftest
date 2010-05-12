@@ -29,7 +29,7 @@ class PyApp(gtk.Window):
         quittb = gtk.ToolButton(gtk.STOCK_QUIT)
         sep = gtk.SeparatorToolItem()
 
-        linkButton = gtk.LinkButton("My Home Page")
+        linkButton = gtk.LinkButton("My Home Page", "My Home Page")
         alignment = gtk.Alignment()
         alignment.set(1.0, 1.0, 1.0, 1.0)
         width=7
