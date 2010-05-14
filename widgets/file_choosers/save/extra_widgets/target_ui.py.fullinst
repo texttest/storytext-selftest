@@ -32,8 +32,11 @@ dialog.vbox.pack_start(checkBox, expand=False, fill=False)
 dialog.set_default_response(gtk.RESPONSE_OK)
 fileChooser.add_shortcut_folder(os.path.abspath("sampledir/subdir2"))
 fileChooser.set_current_folder(os.path.abspath("sampledir/subdir"))
-tooltips = gtk.Tooltips()
-tooltips.set_tip(fileChooser, "The FileChooser")
+try:
+    fileChooser.set_tooltip_text("The FileChooser")
+except:
+    tooltips = gtk.Tooltips()
+    tooltips.set_tip(fileChooser, "The FileChooser")
 dialog.show_all()
 
 scriptEngine.registerToggleButton(checkBox, "select readonly option", "select writeable option")

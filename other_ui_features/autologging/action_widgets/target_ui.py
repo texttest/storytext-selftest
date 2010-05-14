@@ -152,8 +152,11 @@ class ActionExample:
         # Have to set tooltip after toolitems are added to toolbar
         for action in actiongroup.list_actions():
             action.set_property('tooltip', action.get_property('tooltip'))
-        self.tooltips = gtk.Tooltips()
-        self.tooltips.set_tip(quitbutton, quitaction.get_property('tooltip'))
+        try:
+            quitbutton.set_tooltip_text(quitaction.get_property('tooltip'))
+        except:
+            self.tooltips = gtk.Tooltips()
+            self.tooltips.set_tip(quitbutton, quitaction.get_property('tooltip'))
 
         window.show_all()
         return
