@@ -1,0 +1,21 @@
+
+---------- Window 'tk' ----------
+.................
+-> a list entry
+-> one
+-> two
+-> three
+-> four
+.................
+---------------------------------
+
+'choose item' event created with arguments 'one'
+Selected ('1',)
+
+'choose item' event created with arguments 'four'
+Selected ('4',)
+
+'choose item' event created with arguments 'nonsense'
+ERROR: Could not find item 'nonsense' in Listbox.
+
+'close window' event created with arguments ''

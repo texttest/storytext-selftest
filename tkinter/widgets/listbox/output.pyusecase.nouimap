@@ -1,0 +1,21 @@
+
+---------- Window 'tk' ----------
+.................
+-> a list entry
+-> one
+-> two
+-> three
+-> four
+.................
+---------------------------------
+
+'Auto.Listbox.<<ListboxSelect>>.'Type=Listbox'' event created with arguments 'one'
+Selected ('1',)
+
+'Auto.Listbox.<<ListboxSelect>>.'Type=Listbox'' event created with arguments 'four'
+Selected ('4',)
+
+'Auto.Listbox.<<ListboxSelect>>.'Type=Listbox'' event created with arguments 'nonsense'
+ERROR: Could not find item 'nonsense' in Listbox.
+
+'Auto.Tk.WM_DELETE_WINDOW.'Title=tk'' event created with arguments ''
