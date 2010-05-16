@@ -2,18 +2,20 @@
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Default widget is 'gtk-ok'
 .....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 7 rows and 4 columns.
+Viewing table with 8 rows and 4 columns.
 'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
 'Button' | 'Name=hello button' | 'clicked' | Text entry
 'Label' | 'Name=hello label' | 'left-clicked' | Text entry
 'Entry' | 'Type=Entry' | 'edited text' | Text entry
 'Button' | 'Label=something' | 'clicked' | Text entry
 'Label' | 'Name=another label' | 'right-clicked' | Text entry
+'Listbox' | 'Name=the list box' | 'select item' | Text entry
 'Tk' | 'Title=tk' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
+?
 ?
 ?
 ?
@@ -35,6 +37,7 @@ say hello
 ?
 ?
 ?
+?
 =================================
 
 'enter usecase name for signal '<Button-1>' on Label 'Name=hello label' =' event created with arguments 'click on hello label'
@@ -43,6 +46,7 @@ Edited 'GtkEntry' Text entry (set to 'click on hello label')
 ========== GtkTextView ==========
 say hello
 click on hello label
+?
 ?
 ?
 ?
@@ -59,6 +63,7 @@ click on hello label
 click something
 ?
 ?
+?
 =================================
 
 'enter usecase name for signal '<Button-3>' on Label 'Name=another label' =' event created with arguments 'right-click something else'
@@ -70,6 +75,7 @@ click on hello label
 ?
 click something
 right-click something else
+?
 ?
 =================================
 
@@ -83,6 +89,20 @@ set text to hello
 click something
 right-click something else
 ?
+?
+=================================
+
+'enter usecase name for signal '<<ListboxSelect>>' on Listbox 'Name=the list box' =' event created with arguments 'select list item'
+Edited 'GtkEntry' Text entry (set to 'select list item')
+
+========== GtkTextView ==========
+say hello
+click on hello label
+set text to hello
+click something
+right-click something else
+select list item fourth row
+?
 =================================
 
 'enter usecase name for signal 'WM_DELETE_WINDOW' on Tk 'Title=tk' =' event created with arguments 'close'
@@ -94,6 +114,7 @@ click on hello label
 set text to hello
 click something
 right-click something else
+select list item fourth row
 close
 =================================
 

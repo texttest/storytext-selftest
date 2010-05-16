@@ -13,6 +13,9 @@
 [Name=another label]
 <Button-3> = right-click something else
 
+[Name=the list box]
+<<ListboxSelect>> = select list item
+
 [Title=tk]
 WM_DELETE_WINDOW = close
 

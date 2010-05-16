@@ -3,4 +3,5 @@ click on hello label
 set text to hello
 click something
 right-click something else
+select list item fourth row
 close

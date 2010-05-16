@@ -7,6 +7,7 @@ Tkinter.Canvas           : left-clicked , middle-clicked , right-clicked
 Tkinter.Checkbutton      : checked , unchecked
 Tkinter.Entry            : edited text
 Tkinter.Label            : left-clicked , middle-clicked , right-clicked
+Tkinter.Listbox          : select item
 Tkinter.Menu             : select item
 Tkinter.Tk               : closed
 Tkinter.Toplevel         : closed
@@ -22,6 +23,7 @@ Tkinter.Entry
 Tkinter.Frame
 Tkinter.Label
 Tkinter.LabelFrame
+Tkinter.Listbox
 Tkinter.Menu
 Tkinter.Menubutton
 Tkinter.Scrollbar
