@@ -34,7 +34,9 @@ class App:
 		#specifies a function, or (as in this
         #case) a bound method, which will be called when the button is clicked.
 		
-		self.button = Button(f, text="print",command=self.print_this)
+		self.button = Button(f)
+                self.button["text"] = "print"
+                self.button["command"] = self.print_this
 		self.button.pack(side=BOTTOM,padx=10,pady=10)
 
 		self.exit = Button(f, text="exit", command=f.quit)

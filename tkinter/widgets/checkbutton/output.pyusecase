@@ -4,12 +4,17 @@
 
 Check Button 'Music'
 Check Button 'Video' (checked)
+Check Button 'Subtitles'
 ---------------------------------
 
 'turn the music on' event created with arguments ''
+Let the music play...
 Toggled Check Button 'Music' (checked)
 
 'turn the video off' event created with arguments ''
 Toggled Check Button 'Video'
+
+'turn the subtitles on' event created with arguments ''
+Toggled Check Button 'Subtitles' (checked)
 
 'close' event created with arguments ''

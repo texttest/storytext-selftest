@@ -15,7 +15,9 @@ class App:
         self.button = Button(frame, text="QUIT", fg="red", command=frame.quit)
         self.button.pack(side=LEFT)
 
-        self.hi_there = Button(frame, name="hello button", text="Hello", command=self.say_hi)
+        self.hi_there = Button(frame, name="hello button", text="Hello")
+        # Different form, make sure it works...
+        self.hi_there.configure(command=self.say_hi)
         self.hi_there.pack(side=LEFT)
 
     def say_hi(self):

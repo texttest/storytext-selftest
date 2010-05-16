@@ -4,12 +4,17 @@
 
 Check Button 'Music'
 Check Button 'Video' (checked)
+Check Button 'Subtitles'
 ---------------------------------
 
 'Auto.Checkbutton.checked.'Label=Music'' event created with arguments ''
+Let the music play...
 Toggled Check Button 'Music' (checked)
 
 'Auto.Checkbutton.unchecked.'Label=Video'' event created with arguments ''
 Toggled Check Button 'Video'
+
+'Auto.Checkbutton.checked.'Label=Subtitles'' event created with arguments ''
+Toggled Check Button 'Subtitles' (checked)
 
 'Auto.Tk.WM_DELETE_WINDOW.'Title=tk'' event created with arguments ''
