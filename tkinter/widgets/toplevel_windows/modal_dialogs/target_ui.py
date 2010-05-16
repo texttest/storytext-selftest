@@ -22,7 +22,8 @@ class App:
         if tkMessageBox.askyesno("Quit", "Are you sure you want to terminate this fantastic program?"):
             self.master.destroy()
         
-    def say_hi(self):	
+    def say_hi(self):
+	self.master.title("There's a modal dialog!")
         win = Toplevel()
 	win.title('Hi!')
         win.grab_set()

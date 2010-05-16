@@ -4,6 +4,7 @@ Button 'QUIT' , Button 'Hello'
 ---------------------------------
 
 'say hello' event created with arguments ''
+Changing title for window 'There's a modal dialog!'
 
 ---------- Window 'Hi!' ----------
 'hi there, everyone!' (white)
