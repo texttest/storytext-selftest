@@ -169,6 +169,7 @@ class VideoStore:
         return scrolled
     def getTextView(self):
         textview = gtk.TextView()
+        self.scriptEngine.registerTextView(textview, "change help text to")
         textbuffer = textview.get_buffer()
         textbuffer.set_text("This is the Video Store, an example program for PyUseCase")
         textview.show()

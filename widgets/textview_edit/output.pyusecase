@@ -1,0 +1,30 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar : 'File' (+)
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear' (greyed out)
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+'Shortcuts:' , Button '_New'
+----------------------------------------------
+
+'show' event created with arguments 'text info'
+
+Current page changed in Notebook with tabs: text info , video view
+Viewing page 'text info'
+
+========== GtkTextView ==========
+This is the Video Store, an example program for PyUseCase
+=================================
+
+'change help text to' event created with arguments 'This is the Video Store, an example program for PyUseCase - really!'
+
+========== GtkTextView ==========
+This is the Video Store, an example program for PyUseCase - really!
+=================================
+
+'close' event created with arguments ''

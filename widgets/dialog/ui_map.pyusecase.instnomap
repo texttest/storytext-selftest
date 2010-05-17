@@ -42,6 +42,9 @@ toggled.false = disable buttons
 [Label=Quit]
 activate = select menu item 'quit'
 
+[Type=TextView]
+changed = change help text to
+
 [Title=VideoStore Error!]
 response.accept = accept videostore error
 

@@ -38,6 +38,9 @@ toggled.false = disable buttons
 [Label=Quit]
 activate = select menu item 'quit'
 
+[Type=TextView]
+changed = change help text to
+
 [Type=Notebook]
 switch-page = show
 

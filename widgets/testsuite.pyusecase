@@ -10,6 +10,9 @@ menu
 # Check we can view the notebook pages
 view_notebook
 
+# Check we can edit text in a TextView
+textview_edit
+
 # Tests closing a dialog window
 dialog
 

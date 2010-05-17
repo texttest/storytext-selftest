@@ -38,6 +38,9 @@ activate = select menu item 'quit'
 changed = set new movie name to
 activate = add movie by pressing <enter>
 
+[Type=TextView]
+changed = change help text to
+
 [Type=Notebook]
 switch-page = show
 
