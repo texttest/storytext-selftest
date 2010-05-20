@@ -2,7 +2,7 @@
 ---------- Window 'Basic TreeView Example' ----------
 Focus widget is 'GtkButton'
 
-Showing GtkTreeView with columns: Column 0
+Showing GtkTreeView with columns: 
 -> parent 0 (bold)
 -> parent 1 (bold)
 -> parent 2 (bold)
@@ -11,7 +11,7 @@ Showing GtkTreeView with columns: Column 0
 
 'show children for' event created with arguments 'parent 0'
 
-Expanded row in GtkTreeView with columns: Column 0
+Expanded row in GtkTreeView with columns: 
 -> parent 0 (bold)
 ->   <span foreground='red'>child 0</span>
 ->   <span foreground='red'>child 1</span>
@@ -22,7 +22,7 @@ Expanded row in GtkTreeView with columns: Column 0
 
 'show children for' event created with arguments 'parent 2'
 
-Expanded row in GtkTreeView with columns: Column 0
+Expanded row in GtkTreeView with columns: 
 -> parent 0 (bold)
 ->   <span foreground='red'>child 0</span>
 ->   <span foreground='red'>child 1</span>
@@ -40,7 +40,7 @@ There are now 2 rows selected.
 
 'show children for' event created with arguments 'parent 1'
 
-Expanded row in GtkTreeView with columns: Column 0
+Expanded row in GtkTreeView with columns: 
 -> parent 0 (bold)
 ->   <span foreground='red'>child 0</span>
 ->   <span foreground='red'>child 1</span>
@@ -58,7 +58,7 @@ Expanded row in GtkTreeView with columns: Column 0
 'hide children for' event created with arguments 'parent 0'
 There are now 1 rows selected.
 
-Collapsed row in GtkTreeView with columns: Column 0
+Collapsed row in GtkTreeView with columns: 
 -> parent 0 (bold)
 -> parent 1 (bold)
 ->   <span foreground='red'>child 0</span>
@@ -75,7 +75,7 @@ There are now 0 rows selected.
 
 'hide children for' event created with arguments 'parent 1'
 
-Collapsed row in GtkTreeView with columns: Column 0
+Collapsed row in GtkTreeView with columns: 
 -> parent 0 (bold)
 -> parent 1 (bold)
 -> parent 2 (bold)
