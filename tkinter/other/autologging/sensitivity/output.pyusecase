@@ -1,0 +1,14 @@
+
+---------- Window 'tk' ----------
+Check Button 'Quit Allowed'
+Button 'QUIT' (greyed out) , Button 'Disable Check'
+---------------------------------
+
+'allow quitting' event created with arguments ''
+Toggled Check Button 'Quit Allowed' (checked)
+Changed state of Button 'QUIT'
+
+'disable check button' event created with arguments ''
+Changed state of Check Button 'Quit Allowed' (checked) (greyed out)
+
+'quit' event created with arguments ''

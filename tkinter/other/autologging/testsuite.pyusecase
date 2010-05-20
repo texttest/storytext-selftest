@@ -9,3 +9,6 @@ popup_menu
 
 # If text appears in a subwindow, make sure we aren't monitoring it for updates after the subwindow has been closed
 text_in_subwindow
+
+# Various widgets that get greyed out and come back again
+sensitivity
