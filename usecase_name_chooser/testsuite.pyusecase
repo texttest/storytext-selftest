@@ -18,3 +18,6 @@ tkinter_widget_tour
 
 # If we have several map files, we should add to the one that already contains the right section
 add_to_correct_uimap
+
+# Check we don't fall over with a relative path to the mapfile
+local_uimap

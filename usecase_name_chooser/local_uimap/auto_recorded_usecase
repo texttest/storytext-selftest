@@ -1,0 +1,3 @@
+Auto.Entry.changed.'Name=Movie Name' Star Wars
+Auto.Button.clicked.'Label=Add'
+Auto.Window.delete-event.'Title=The Video Store'
