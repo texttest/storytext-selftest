@@ -6,13 +6,12 @@ pygtk.require("2.0")
 import gtk, gobject, logging, sys
 from gtkusecase import ScriptEngine
 
-
-tasks =  {
-    "Buy groceries": "Go to Asda after work",
-    "Do some programming": "Remember to update your software",
-    "Power up systems": "Turn on the client but leave the server",
-    "Watch some tv": "Remember to catch ER"
-    } 
+tasks =  [
+    ("Buy groceries", "Go to Asda after work"),
+    ("Do some programming", "Remember to update your software"),
+    ("Power up systems\n(Linux)", "Turn on the client but leave the server"),
+    ("Watch some tv", "Remember to catch ER")
+    ]
 
 class GUI_Controller:
     """ The GUI class is the controller for our application """
@@ -48,9 +47,9 @@ class InfoModel:
                                          gobject.TYPE_BOOLEAN )
         # places the global people data into the list
         # we form a simple tree.
-        for item in tasks.keys():
+        for item, subtask in tasks:
             parent = self.tree_store.append( None, (item, None) )
-            self.tree_store.append( parent, (tasks[item],None) )
+            self.tree_store.append( parent, (subtask, None) )
         return
     def get_model(self):
         """ Returns the model """

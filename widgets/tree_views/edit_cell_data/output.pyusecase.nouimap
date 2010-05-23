@@ -5,7 +5,8 @@ Focus widget is 'GtkTreeView'
 Showing GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box
 -> Do some programming | Check box
--> Power up systems | Check box
+-> Power up systems
+(Linux) | Check box
 -> Watch some tv | Check box
 ---------------------------------------------------
 
@@ -15,17 +16,19 @@ Toggle 'Buy groceries' to: True
 Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box (checked)
 -> Do some programming | Check box
--> Power up systems | Check box
+-> Power up systems
+(Linux) | Check box
 -> Watch some tv | Check box
 
 'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Buy groceries'
 
-'Auto.TreeView.row-expanded.'Type=TreeView'' event created with arguments 'Power up systems'
+'Auto.TreeView.row-expanded.'Type=TreeView'' event created with arguments 'Power up systems / (Linux)'
 
 Expanded row in GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box (checked)
 -> Do some programming | Check box
--> Power up systems | Check box
+-> Power up systems
+(Linux) | Check box
 ->   Turn on the client but leave the server | Check box
 -> Watch some tv | Check box
 
@@ -37,7 +40,8 @@ Change 'Turn on the client but leave the server' to 'Turn on the client and rest
 Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box (checked)
 -> Do some programming | Check box
--> Power up systems | Check box
+-> Power up systems
+(Linux) | Check box
 ->   Turn on the client and restart the server | Check box
 -> Watch some tv | Check box
 
@@ -47,7 +51,8 @@ Toggle 'Turn on the client and restart the server' to: True
 Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box (checked)
 -> Do some programming | Check box
--> Power up systems | Check box
+-> Power up systems
+(Linux) | Check box
 ->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
 
@@ -57,7 +62,8 @@ Toggle 'Buy groceries' to: False
 Updated : GtkTreeView with columns: Name , Complete
 -> Buy groceries | Check box
 -> Do some programming | Check box
--> Power up systems | Check box
+-> Power up systems
+(Linux) | Check box
 ->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
 
