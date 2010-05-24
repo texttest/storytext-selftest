@@ -45,6 +45,7 @@ gtk.ProgressBar
 gtk.Separator
 gtk.SeparatorMenuItem
 gtk.SeparatorToolItem
+gtk.SpinButton
 gtk.Table
 gtk.TextView
 gtk.ToggleButton

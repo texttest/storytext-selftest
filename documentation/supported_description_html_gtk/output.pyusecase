@@ -50,6 +50,7 @@ is also supported but will only have features of the listed type described.
 <li><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtkseparator.html>gtk.Separator</a>
 <li><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtkseparatormenuitem.html>gtk.SeparatorMenuItem</a>
 <li><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtkseparatortoolitem.html>gtk.SeparatorToolItem</a>
+<li><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtkspinbutton.html>gtk.SpinButton</a>
 <li><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtktable.html>gtk.Table</a>
 <li><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtktextview.html>gtk.TextView</a>
 <li><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtktogglebutton.html>gtk.ToggleButton</a>

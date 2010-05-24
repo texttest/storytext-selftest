@@ -19,6 +19,9 @@ toolitem_linkbutton
 # Test the various ways to describe images
 images
 
+# Test using a gtk.SpinButton example
+spinbutton
+
 # Check we log vertical separators correctly
 vertical_separators
 

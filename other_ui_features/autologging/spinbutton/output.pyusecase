@@ -1,0 +1,33 @@
+
+---------- Window 'Spin Button' ----------
+Focus widget is 'Day'
+.....'Not accelerated'......
+'Day :'
+Spin button entry (set to '1') (min=1.0, max=31.0, step=1.0) , 'Month :'
+Spin button entry (set to '1') (min=1.0, max=12.0, step=1.0) , 'Year :'
+Spin button entry (set to '1998') (min=0.0, max=2100.0, step=1.0)
+.....'Accelerated'......
+'Value :'
+Spin button entry (set to '0.00') (min=-10000.0, max=10000.0, step=0.5) , 'Digits :'
+Spin button entry (set to '2') (min=1.0, max=5.0, step=1.0)
+
+Check button 'Snap to 0.5-ticks' (checked)
+Check button 'Numeric only input mode' (checked)
+Button 'Value as Int' , Button 'Value as Float'
+'0'
+Button 'Close'
+------------------------------------------
+
+'set day =' event created with arguments '24'
+Edited 'Day' Spin button entry (set to '24')
+
+'set month =' event created with arguments '5'
+Edited 'Month' Spin button entry (set to '5')
+
+'set year =' event created with arguments '2010'
+Edited 'Year' Spin button entry (set to '2010')
+
+'set value =' event created with arguments '14.00'
+Edited 'Value' Spin button entry (set to '14.00')
+
+'close' event created with arguments ''
