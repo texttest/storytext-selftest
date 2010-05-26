@@ -7,6 +7,9 @@ improve_uimap_naming
 # Check we handle application events in UIs also, even if we aren't told to wait for them
 ui_appevent
 
+# Check we still record window deletion even if the window is hidden first
+window_hidden
+
 # Tests for more complex handling of tree views, independent of instrumenting mechanism
 tree_view_handling
 
