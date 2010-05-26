@@ -62,6 +62,7 @@ class TreeViewColumnExample:
         self.cell.set_property('foreground-gdk', colour)
         self.cell.set_property('weight', 800)
         self.cell1.set_property('foreground-gdk', colour1)
+        self.cell1.set_property('background', 'blue')
 
         # add the cells to the columns - 2 in the first
         self.tvcolumn.pack_start(self.cellpb, False)

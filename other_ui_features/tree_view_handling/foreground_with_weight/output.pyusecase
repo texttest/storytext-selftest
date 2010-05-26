@@ -3,9 +3,9 @@
 Focus widget is 'GtkButton'
 
 Showing GtkTreeView with columns: Pixbuf and Text , Text Only
--> Stock image 'gtk-open' (yellow) | Open (cyan,800) | Open a File (pink)
--> (yellow) | New (cyan,800) | New File (pink)
--> Stock image 'gtk-print' (yellow) | Print (cyan,800) | Print File
+-> Stock image 'gtk-open' (yellow) | Open (cyan,800) | Open a File (pink/blue)
+-> (yellow) | New (cyan,800) | New File (pink/blue)
+-> Stock image 'gtk-print' (yellow) | Print (cyan,800) | Print File (blue)
 -----------------------------------------------------
 
 'close application' event created with arguments ''
