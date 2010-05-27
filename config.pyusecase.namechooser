@@ -3,7 +3,7 @@ executable:${TEXTTEST_CHECKOUT}/bin/usecase_name_chooser
 
 collect_traffic:{CLEAR LIST}
 
-base_version:{CLEAR LIST}
+base_version:{CLEAR mapfile}
 
 link_test_path:auto_recorded_usecase
 
