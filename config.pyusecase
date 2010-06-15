@@ -1,8 +1,6 @@
 # Path to the binary.
 executable:${TEXTTEST_CHECKOUT}/bin/pyusecase
 
-interpreter:python
-
 # Mechanism for keeping site-specific setup separate
 extra_search_directory:site
 extra_search_directory:default_site
