@@ -51,10 +51,6 @@ usecase_name_chooser:USECASE_REPLAY_SCRIPT
 
 extra_version:nouimap
 extra_version:namechooser
-extra_version:fullinst
-extra_version:instnomap
-
-base_version:mapfile
 
 unsaveable_version:cover
 

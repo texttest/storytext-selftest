@@ -1,8 +1,5 @@
-# Tests for the various widgets
-widgets
-
-# Tests to do with the shortcut functionality
-shortcuts
+# Tests for PyGTK GUIs
+pygtk
 
 # Some tests for rather experiment tkinter support
 tkinter

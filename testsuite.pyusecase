@@ -1,20 +1,11 @@
-# Tests for the various widgets
-widgets
+# Tests for PyGTK GUIs
+pygtk
 
-# Tests to do with the shortcut functionality
-shortcuts
-
-# Everything that needs a UI but isn't specific to particular widgets
-other_ui_features
-
-# Various actions that shouldn't be allowed...
-error_handling
+# Some tests for rather experiment tkinter support
+tkinter
 
 # Tests for console aspect of PyUseCase - i.e. app events and signals
 console
 
 # Tests for the various documentation output
 documentation
-
-# Some tests for rather experiment tkinter support
-tkinter

@@ -1,5 +1,0 @@
-# Test that we can create a simple shortcut that will add 2 movies
-create_shortcut
-
-# Make sure a shortcut file can be used
-use_shortcut

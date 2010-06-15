@@ -1,0 +1,16 @@
+
+---------- Filechooserdialog 'Save..' ----------
+Default widget is 'gtk-save'
+
+Showing FileChooserWidget
+Shortcut folders (1) :
+- /home/geoff/.texttest/tmp/pyusecase.14Jan212225.8395/pyusecase.nouimap/pygtk/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2
+Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+------------------------------------------------
+
+'Auto.FileChooserDialog.current-folder-changed.'Title=Save..'' event created with arguments 'subdir2'
+
+'Auto.FileChooserDialog.current-name-changed.'Title=Save..'' event created with arguments 'file3.txt'
+
+'Auto.FileChooserDialog.response.ok.'Title=Save..'' event created with arguments ''
+Saving to /home/geoff/.texttest/tmp/pyusecase.14Jan212225.8395/pyusecase.nouimap/pygtk/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2/file3.txt

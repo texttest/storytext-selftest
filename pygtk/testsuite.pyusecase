@@ -1,0 +1,11 @@
+# Tests for the various widgets
+widgets
+
+# Everything that needs a UI but isn't specific to particular widgets
+other_ui_features
+
+# Tests to do with the shortcut functionality
+shortcuts
+
+# Various actions that shouldn't be allowed...
+error_handling

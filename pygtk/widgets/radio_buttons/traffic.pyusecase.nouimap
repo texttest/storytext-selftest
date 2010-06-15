@@ -1,0 +1,1 @@
+<-CMD:env 'PATH=$PATH:/home/geoff/code/texttest/pyusecase/bin' usecase_name_chooser -m usecases/ui_map_2.conf,usecases/ui_map.conf -r /home/geoff/.texttest/tmp/pyusecase.cover.15Jan225335.9863/pyusecase.cover.nouimap/pygtk/pygtk/widgets/radio_buttons/usecase.pyusecase -i gtk

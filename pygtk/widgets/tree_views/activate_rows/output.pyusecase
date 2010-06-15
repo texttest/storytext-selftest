@@ -1,0 +1,20 @@
+
+---------- Window '/nfs/vm/texttest-tmp/geoff/pyusecase.15Jun170946.16272/pyusecase/pygtk/pygtk/widgets/tree_views/activate_rows/sampledir' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
+-> Image 'Folder' | .. | 4096 | 0775 | Tue Jun 15 17:09:52 2010
+-> Image 'File' | file1.txt | 6 | 0664 | Wed Oct  7 10:33:22 2009
+-> Image 'File' | file2.txt | 5 | 0664 | Wed Oct  7 10:33:22 2009
+-> Image 'Folder' | subdir | 4096 | 0775 | Wed Oct  7 10:33:22 2009
+----------------------------------------------------------------------------------------------------
+
+'select file' event created with arguments 'subdir'
+
+Changing title for Window '/nfs/vm/texttest-tmp/geoff/pyusecase.15Jun170946.16272/pyusecase/pygtk/pygtk/widgets/tree_views/activate_rows/sampledir/subdir'
+
+Showing GtkTreeView with columns: Name , Size , Mode , Last Changed
+-> Image 'Folder' | .. | 4096 | 0775 | Wed Oct  7 10:33:22 2009
+-> Image 'File' | file.txt | 1 | 0664 | Wed Oct  7 10:33:22 2009
+
+'close application' event created with arguments ''
