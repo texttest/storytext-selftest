@@ -1,3 +1,5 @@
+interpreter:python
+
 [run_dependent_text]
 # Various tests print path separators, fix for windows
 output:\\{REPLACE /}
