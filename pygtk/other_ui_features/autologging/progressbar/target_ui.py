@@ -80,9 +80,6 @@ class ProgressBar:
         align.add(self.pbar)
         self.pbar.show()
 
-        # Add a timer callback to update the value of the progress bar
-        self.timer = gobject.timeout_add (200, progress_timeout, self)
-
         separator = gtk.HSeparator()
         vbox.pack_start(separator, False, False, 0)
         separator.show()
@@ -130,6 +127,8 @@ class ProgressBar:
         button.show()
 
         self.window.show()
+        # Add a timer callback to update the value of the progress bar
+        self.timer = gobject.timeout_add (200, progress_timeout, self)
 
 def main():
     gtk.main()
