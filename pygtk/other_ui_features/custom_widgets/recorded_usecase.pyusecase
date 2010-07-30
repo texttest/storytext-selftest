@@ -1,0 +1,3 @@
+set new movie name to Star Wars
+Auto.TreeView.row-inserted.'Name=Movie Tree'
+close
