@@ -1,3 +1,8 @@
 
 discard_file:{CLEAR LIST}
 discard_file:recorded_usecase
+
+[definition_file_stems]
+regenerate:usecase
+builtin:{CLEAR usecase}
+[end]
