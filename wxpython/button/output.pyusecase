@@ -1,0 +1,11 @@
+
+---------- Window 'wxPython GUI' ----------
+Button 'Hello'
+
+Button 'Close'
+-------------------------------------------
+
+'say hello' event created with arguments ''
+Hello World!
+
+'close' event created with arguments ''

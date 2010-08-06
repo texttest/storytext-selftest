@@ -10,8 +10,14 @@ supported_description_gtk
 # Check we can generate a description of what widget types we support (for Tkinter)
 supported_description_tkinter
 
+# Check we can generate a description of what widget types we support (for WxPython)
+supported_description_wx
+
 # Check we can generate a description of what widget types we support in HTML for the website (for PyGTK)
 supported_description_html_gtk
 
 # Check we can generate a description of what widget types we support in HTML for the website (for Tkinter)
 supported_description_html_tkinter
+
+# Check we can generate a description of what widget types we support in HTML for the website (for wxPython)
+supported_description_html_wx

@@ -1,0 +1,11 @@
+The following lists the wxPython widget types and the associated actions on them which 
+PyUseCase trunk is currently capable of recording and replaying. Any type derived from the listed
+types is also supported.
+
+wx.Button                : Press
+
+The following lists the wxPython widget types whose status and changes PyUseCase trunk is 
+currently capable of monitoring and logging. Any type derived from the listed types 
+is also supported but will only have features of the listed type described.
+
+wx.Button

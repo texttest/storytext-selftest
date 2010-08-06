@@ -3,3 +3,6 @@ pygtk
 
 # Some tests for rather experiment tkinter support
 tkinter
+
+# Suite of tests for wxPython support
+wxpython
