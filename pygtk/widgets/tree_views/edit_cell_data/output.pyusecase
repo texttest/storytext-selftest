@@ -3,7 +3,7 @@
 Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box
+-> Buy groceries | Check box   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -14,7 +14,7 @@ Showing GtkTreeView with columns: Name , Complete
 Toggle 'Buy groceries' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box (checked)
+-> Buy groceries | Check box (checked)   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -23,7 +23,7 @@ Updated : GtkTreeView with columns: Name , Complete
 'show reminders for' event created with arguments 'Power up systems / (Linux)'
 
 Expanded row in GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box (checked)
+-> Buy groceries | Check box (checked)   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -34,7 +34,7 @@ Expanded row in GtkTreeView with columns: Name , Complete
 Change 'Turn on the client but leave the server' to 'Turn on the client and restart the server'
 
 Updated : GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box (checked)
+-> Buy groceries | Check box (checked)   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -45,7 +45,7 @@ Updated : GtkTreeView with columns: Name , Complete
 Toggle 'Turn on the client and restart the server' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box (checked)
+-> Buy groceries | Check box (checked)   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -56,7 +56,7 @@ Updated : GtkTreeView with columns: Name , Complete
 Toggle 'Buy groceries' to: False
 
 Updated : GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box
+-> Buy groceries | Check box   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box

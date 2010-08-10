@@ -1,0 +1,29 @@
+
+---------- Window 'Basic TreeView Example' ----------
+Focus widget is 'GtkButton'
+
+Showing GtkTreeView with columns:
+Button 'Add Rows'
+-----------------------------------------------------
+
+'add rows' event created with arguments ''
+
+Updated : GtkTreeView with columns: 
+-> parent 0 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 1 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 2 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 3 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+
+'close application' event created with arguments ''

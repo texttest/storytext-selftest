@@ -8,7 +8,9 @@ Showing GtkTreeView with columns: Column 0
 -----------------------------------------------------
 
 'select row' event created with arguments 'leaf (2),leaf (1)'
-There are now 1 rows selected.
-There are now 2 rows selected.
+
+Changed selection in GtkTreeView with columns: Column 0
+-> leaf   ***
+-> leaf   ***
 
 'close application' event created with arguments ''

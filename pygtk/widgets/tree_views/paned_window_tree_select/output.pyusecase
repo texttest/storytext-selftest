@@ -14,7 +14,7 @@ Showing GtkTreeView with columns: Messages
 -> Message #8
 -> Message #9
 
------------------------------- (horizontal pane separator, 19% from the top)
+------------------------------ (horizontal pane separator, 21% from the top)
 
 ========== GtkTextView ==========
 No message selected.
@@ -22,6 +22,18 @@ No message selected.
 --------------------------------------------
 
 'select message' event created with arguments 'Message #1'
+
+Changed selection in GtkTreeView with columns: Messages
+-> Message #0
+-> Message #1   ***
+-> Message #2
+-> Message #3
+-> Message #4
+-> Message #5
+-> Message #6
+-> Message #7
+-> Message #8
+-> Message #9
 
 ========== GtkTextView ==========
 Now Showing:
@@ -31,6 +43,18 @@ Message #1
 'drag pane separator so message list uses' event created with arguments '50% of the space'
 
 'select message' event created with arguments 'Message #5'
+
+Changed selection in GtkTreeView with columns: Messages
+-> Message #0
+-> Message #1
+-> Message #2
+-> Message #3
+-> Message #4
+-> Message #5   ***
+-> Message #6
+-> Message #7
+-> Message #8
+-> Message #9
 
 ========== GtkTextView ==========
 Now Showing:

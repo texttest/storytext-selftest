@@ -9,13 +9,21 @@ Toggle button 'NEW' (depressed)
 ------------------------------------------------------
 
 'select bug' event created with arguments '120595 (1)'
-There are now 1 rows selected.
+
+Changed selection in GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need   ***
+-> 120595 | NEW | Duplicated bug number
 
 'select bug' event created with arguments '120595 (2)'
-There are now 0 rows selected.
-There are now 1 rows selected.
+
+Changed selection in GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 120595 | NEW | Duplicated bug number   ***
 
 'select bug' event created with arguments ''
-There are now 0 rows selected.
+
+Changed selection in GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 120595 | NEW | Duplicated bug number
 
 'close application' event created with arguments ''

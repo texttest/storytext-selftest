@@ -3,7 +3,7 @@
 Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box
+-> Buy groceries | Check box   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -14,7 +14,7 @@ Showing GtkTreeView with columns: Name , Complete
 Toggle 'Buy groceries' to: True
 
 Updated : GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box (checked)
+-> Buy groceries | Check box (checked)   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -22,10 +22,17 @@ Updated : GtkTreeView with columns: Name , Complete
 
 'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Buy groceries'
 
+Changed selection in GtkTreeView with columns: Name , Complete
+-> Buy groceries | Check box (checked)   ***
+-> Do some programming | Check box
+-> Power up systems
+(Linux) | Check box
+-> Watch some tv | Check box
+
 'Auto.TreeView.row-expanded.'Type=TreeView'' event created with arguments 'Power up systems / (Linux)'
 
 Expanded row in GtkTreeView with columns: Name , Complete
--> Buy groceries | Check box (checked)
+-> Buy groceries | Check box (checked)   ***
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
@@ -33,6 +40,14 @@ Expanded row in GtkTreeView with columns: Name , Complete
 -> Watch some tv | Check box
 
 'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server'
+
+Changed selection in GtkTreeView with columns: Name , Complete
+-> Buy groceries | Check box (checked)
+-> Do some programming | Check box
+-> Power up systems
+(Linux) | Check box
+->   Turn on the client but leave the server | Check box   ***
+-> Watch some tv | Check box
 
 'Auto.TreeView.edited.Name.'Type=TreeView'' event created with arguments 'Turn on the client but leave the server = Turn on the client and restart the server'
 Change 'Turn on the client but leave the server' to 'Turn on the client and restart the server'
@@ -42,7 +57,7 @@ Updated : GtkTreeView with columns: Name , Complete
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
-->   Turn on the client and restart the server | Check box
+->   Turn on the client and restart the server | Check box   ***
 -> Watch some tv | Check box
 
 'Auto.TreeView.toggled.Complete.true.'Type=TreeView'' event created with arguments 'Turn on the client and restart the server'
@@ -53,7 +68,7 @@ Updated : GtkTreeView with columns: Name , Complete
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
-->   Turn on the client and restart the server | Check box (checked)
+->   Turn on the client and restart the server | Check box (checked)   ***
 -> Watch some tv | Check box
 
 'Auto.TreeView.toggled.Complete.false.'Type=TreeView'' event created with arguments 'Buy groceries'
@@ -64,9 +79,17 @@ Updated : GtkTreeView with columns: Name , Complete
 -> Do some programming | Check box
 -> Power up systems
 (Linux) | Check box
-->   Turn on the client and restart the server | Check box (checked)
+->   Turn on the client and restart the server | Check box (checked)   ***
 -> Watch some tv | Check box
 
 'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Buy groceries'
+
+Changed selection in GtkTreeView with columns: Name , Complete
+-> Buy groceries | Check box   ***
+-> Do some programming | Check box
+-> Power up systems
+(Linux) | Check box
+->   Turn on the client and restart the server | Check box (checked)
+-> Watch some tv | Check box
 
 'Auto.Window.delete-event.'Title=CellRenderer Example'' event created with arguments ''
