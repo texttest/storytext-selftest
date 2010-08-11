@@ -2,7 +2,7 @@
 ---------- Window 'None' ----------
 Focus widget is 'GtkButton'
 
-Menu Bar : 'File' (+) , 'Sound' (+) , 'Radio Band' (+)
+Menu Bar : '_File' (+) , '_Sound' (+) , '_Radio Band' (+)
 
 Tool Bar :
   _Quit (Stock image 'gtk-quit', accelerator 'Ctrl+Q', tooltip 'Quit the Program')
@@ -26,9 +26,9 @@ Changing Sound Label to: 'Sound is muted'
 'show radio band menu' event created with arguments ''
 
 ---------- Popup Window ----------
-'AM' (checked) (accelerator 'Ctrl+A')
-'FM' (accelerator 'Ctrl+F')
-'SSB' (accelerator 'Ctrl+S')
+'_AM' (checked) (accelerator 'Ctrl+A')
+'_FM' (accelerator 'Ctrl+F')
+'SS_B' (accelerator 'Ctrl+S')
 ----------------------------------
 
 'enable FM from menu' event created with arguments ''
