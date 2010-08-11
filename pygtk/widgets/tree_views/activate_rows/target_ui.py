@@ -99,6 +99,7 @@ class FileListingCellDataExample:
         self.scrolledwindow.add(self.treeview)
         self.window.add(self.scrolledwindow)
         self.treeview.set_model(listmodel)
+        self.treeview.get_selection().select_path(0)
  
         self.window.show_all()
         return

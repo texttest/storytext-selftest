@@ -3,7 +3,7 @@
 Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Column 0 , Column 1
--> <b>Bold Text</b> | <i>Italic Text</i>   ***
+-> <b>Bold Text</b> | <i>Italic Text</i>
 -> <u>Underline Text</u>
 -----------------------------------------------------
 
