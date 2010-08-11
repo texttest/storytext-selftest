@@ -3,7 +3,7 @@
 Default widget is 'gtk-ok'
 .....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 31 rows and 4 columns.
-'Widget Type' | 'Identified By' | 'Action Performed' | 'Usecase Name'
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
 'Button' | 'Type=Button' | 'clicked' | Text entry
 'Dialog' | 'Type=Dialog' | 'ok' | Text entry
 'Dialog' | 'Type=Dialog' | 'accept' | Text entry
