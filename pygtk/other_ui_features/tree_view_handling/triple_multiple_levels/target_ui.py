@@ -55,15 +55,11 @@ class BasicTreeViewExample:
 
         # make it searchable
         self.treeview.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
-        self.treeview.get_selection().connect("changed", self.selectionChanged)
         self.treeview.expand_all()
 
         self.window.add(self.treeview)
 
         self.window.show_all()
-
-    def selectionChanged(self, selection, *args):
-        print "There are now", selection.count_selected_rows(), "rows selected."
         
 
 def main():

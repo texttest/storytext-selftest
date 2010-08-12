@@ -26,12 +26,6 @@ class BasicTreeViewExample:
         # create a TreeStore with one string column to use as the model
         self.treestore = gtk.TreeStore(str, str)
 
-        # we'll add some data now - 4 rows with 3 child rows each
-        for parent in range(4):
-            piter = self.treestore.append(None, ['parent %i' % parent, "bold"])
-            for child in range(3):
-                self.treestore.append(piter, ["<span foreground='red'>child %i" % child + "</span>", "" ])
-
         # create the TreeView using treestore
         self.treeview = gtk.TreeView(self.treestore)
 
@@ -66,9 +60,22 @@ class BasicTreeViewExample:
         # Allow drag and drop reordering of rows
         self.treeview.set_reorderable(True)
 
-        self.window.add(self.treeview)
+        box = gtk.VBox()
+        box.pack_start(self.treeview)
+        button = gtk.Button("Add Rows")
+        button.connect("clicked", self.add_rows)
+        box.pack_start(button)
+        self.window.add(box)
 
         self.window.show_all()
+
+    def add_rows(self, *args):
+        # we'll add some data now - 4 rows with 3 child rows each
+        for parent in range(4):
+            piter = self.treestore.append(None, ['parent %i' % parent, "bold"])
+            for child in range(3):
+                self.treestore.append(piter, ["<span foreground='red'>child %i" % child + "</span>", "" ])
+            self.treeview.expand_row(self.treestore.get_path(piter), open_all=True)
         
 
 def main():

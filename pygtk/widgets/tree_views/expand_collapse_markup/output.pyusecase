@@ -35,8 +35,18 @@ Expanded row in GtkTreeView with columns:
 -> parent 3 (bold)
 
 'select row' event created with arguments 'child 0 under parent 2,child 2 under parent 0'
-There are now 1 rows selected.
-There are now 2 rows selected.
+
+Changed selection in GtkTreeView with columns: 
+-> parent 0 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>   ***
+-> parent 1 (bold)
+-> parent 2 (bold)
+->   <span foreground='red'>child 0</span>   ***
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 3 (bold)
 
 'show children for' event created with arguments 'parent 1'
 
@@ -44,19 +54,18 @@ Expanded row in GtkTreeView with columns:
 -> parent 0 (bold)
 ->   <span foreground='red'>child 0</span>
 ->   <span foreground='red'>child 1</span>
-->   <span foreground='red'>child 2</span>
+->   <span foreground='red'>child 2</span>   ***
 -> parent 1 (bold)
 ->   <span foreground='red'>child 0</span>
 ->   <span foreground='red'>child 1</span>
 ->   <span foreground='red'>child 2</span>
 -> parent 2 (bold)
-->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 0</span>   ***
 ->   <span foreground='red'>child 1</span>
 ->   <span foreground='red'>child 2</span>
 -> parent 3 (bold)
 
 'hide children for' event created with arguments 'parent 0'
-There are now 1 rows selected.
 
 Collapsed row in GtkTreeView with columns: 
 -> parent 0 (bold)
@@ -65,13 +74,24 @@ Collapsed row in GtkTreeView with columns:
 ->   <span foreground='red'>child 1</span>
 ->   <span foreground='red'>child 2</span>
 -> parent 2 (bold)
-->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 0</span>   ***
 ->   <span foreground='red'>child 1</span>
 ->   <span foreground='red'>child 2</span>
 -> parent 3 (bold)
 
 'select row' event created with arguments ''
-There are now 0 rows selected.
+
+Changed selection in GtkTreeView with columns: 
+-> parent 0 (bold)
+-> parent 1 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 2 (bold)
+->   <span foreground='red'>child 0</span>
+->   <span foreground='red'>child 1</span>
+->   <span foreground='red'>child 2</span>
+-> parent 3 (bold)
 
 'hide children for' event created with arguments 'parent 1'
 

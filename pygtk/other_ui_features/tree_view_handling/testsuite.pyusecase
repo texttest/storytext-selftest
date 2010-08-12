@@ -22,3 +22,6 @@ add_rows_from_empty
 
 # Change foreground colour and text weight, check it's logged
 foreground_with_weight
+
+# If we insert a row and expand it, describe the insertion rather than the expansion
+insert_and_expand

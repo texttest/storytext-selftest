@@ -101,10 +101,6 @@ class TreeModelFilterExample:
         self.window.add(self.vbox)
 
         self.window.show_all()
-        self.treeview.get_selection().connect("changed", self.selectionChanged)
-
-    def selectionChanged(self, selection, *args):
-        print "There are now", selection.count_selected_rows(), "rows selected."
 
     def column_clicked(self, column):
         ix = self.treeview.columns.index(column)

@@ -13,14 +13,36 @@ Showing GtkTreeView with columns: Column 0
 -----------------------------------------------------
 
 'select row' event created with arguments 'leaf under sub_branch1 under branch1'
-There are now 1 rows selected.
+
+Changed selection in GtkTreeView with columns: Column 0
+-> sub_branch1
+->   leaf
+-> branch1
+->   sub_branch1
+->     leaf   ***
+->   sub_branch2
+->     leaf
 
 'select row' event created with arguments 'leaf under sub_branch2'
-There are now 0 rows selected.
-There are now 1 rows selected.
+
+Changed selection in GtkTreeView with columns: Column 0
+-> sub_branch1
+->   leaf
+-> branch1
+->   sub_branch1
+->     leaf
+->   sub_branch2
+->     leaf   ***
 
 'select row' event created with arguments 'leaf under sub_branch1 at top level'
-There are now 0 rows selected.
-There are now 1 rows selected.
+
+Changed selection in GtkTreeView with columns: Column 0
+-> sub_branch1
+->   leaf   ***
+-> branch1
+->   sub_branch1
+->     leaf
+->   sub_branch2
+->     leaf
 
 'close application' event created with arguments ''

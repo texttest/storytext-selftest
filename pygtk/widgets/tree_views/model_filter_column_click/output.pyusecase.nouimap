@@ -52,13 +52,21 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
 'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments '123458'
-There are now 1 rows selected.
+
+Changed selection in GtkTreeView with columns: Bug No. , Status , Description
+-> 124181 | NEED | Python Shell inside a gtk GUI
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf   ***
+-> 123456 | RESO | ItemFactory.create_items and <ImageItem> bug
+-> 121339 | RESO | dsextras.py installation directory is incorrect
+-> 138804 | UNCO
+-> 138619 | UNCO | codegen/definitions.py could use some refactoring
+-> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
 'Auto.ToggleButton.toggled.false.'Label=RESO'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
--> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf   ***
 -> 138804 | UNCO
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
@@ -68,7 +76,7 @@ Toggled Toggle button 'RESO'
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
--> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf   ***
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 Toggled Toggle button 'UNCO'
 
@@ -76,7 +84,7 @@ Toggled Toggle button 'UNCO'
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
--> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf   ***
 -> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
 -> 123014 | NEW | PyGtk build problem on Win32 using the 'distutils' approach.
 -> 123037 | NEW | gtk.ListStore.set_column_types is missing
@@ -91,12 +99,11 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 122569 | NEW | gtk.Window derived class segfaults
 -> 123014 | NEW | PyGtk build problem on Win32 using the 'distutils' approach.
 -> 123037 | NEW | gtk.ListStore.set_column_types is missing
--> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf
+-> 123458 | NEED | pygtk does not wrap all of gdk-pixbuf   ***
 -> 124181 | NEED | Python Shell inside a gtk GUI
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
 'Auto.ToggleButton.toggled.false.'Label=NEED'' event created with arguments ''
-There are now 0 rows selected.
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 120595 | NEW | Custom GtkTreeModelFilter wrappers need

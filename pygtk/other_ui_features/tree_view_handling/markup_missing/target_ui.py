@@ -39,6 +39,7 @@ class BasicTreeViewExample:
 
         self.tvcolumn2 = gtk.TreeViewColumn('Column 1')
         self.treeview.append_column(self.tvcolumn2)
+        self.treeview.get_selection().set_mode(gtk.SELECTION_NONE)
         self.cell2 = gtk.CellRendererText()
         self.tvcolumn2.pack_start(self.cell2, True)
         self.tvcolumn2.add_attribute(self.cell2, 'markup', 1)

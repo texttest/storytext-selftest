@@ -1,5 +1,2 @@
 # Error-handling, try to select things that don't exist
 bad_paths
-
-# GTK 2.14 has various nasty bugs around folders in file choosers
-gtk2_14_bug

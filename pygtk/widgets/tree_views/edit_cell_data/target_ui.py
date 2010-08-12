@@ -83,6 +83,7 @@ class DisplayModel:
         self.column1.add_attribute( self.renderer1, "active", 1)
         self.view.append_column( self.column0 )
         self.view.append_column( self.column1 )
+        self.view.get_selection().select_path(0)
         return self.view
     def col0_edited_cb( self, cell, path, new_text, model ):
         """
