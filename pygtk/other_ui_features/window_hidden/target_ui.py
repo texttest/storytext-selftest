@@ -1,6 +1,7 @@
 import gtk
 
 win = gtk.Window()
+win.maximize()
 but = gtk.Button("Hellooo")
 
 win.add(but)
