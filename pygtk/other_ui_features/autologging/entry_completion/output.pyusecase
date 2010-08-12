@@ -1,0 +1,23 @@
+
+---------- Window 'Entry Completion' ----------
+Focus widget is 'GtkEntry'
+'Type a, b, c or d
+for completion'
+Text entry
+Button 'Hello'
+-----------------------------------------------
+
+'set text to' event created with arguments 'o'
+Edited 'GtkEntry' Text entry (set to 'o') (completions ['comb', 'color', 'dog', 'doghouse'])
+
+'press button' event created with arguments ''
+
+'set text to' event created with arguments 'z'
+Edited 'GtkEntry' Text entry (set to 'z')
+
+'press button' event created with arguments ''
+
+'set text to' event created with arguments ''
+Edited 'GtkEntry' Text entry
+
+'close' event created with arguments ''

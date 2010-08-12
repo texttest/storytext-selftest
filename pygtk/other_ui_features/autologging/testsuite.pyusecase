@@ -33,3 +33,9 @@ sensitivity_changes_cancel
 
 # Several changes to the same widget structure shouldn't cause duplicate descriptions
 single_update_description
+
+# Check we list entry completion descriptions, where appropriate
+entry_completion
+
+# Check we list entry completion descriptions, where appropriate
+inline_entry_completion
