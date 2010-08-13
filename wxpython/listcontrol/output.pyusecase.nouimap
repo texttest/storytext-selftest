@@ -1,6 +1,10 @@
 
 ---------- Window 'wx.ListCtrl' ----------
 A widget of type 'ListCtrl'
+
+A widget of type 'ScrolledWindow'
+
+A widget of type 'Window'
 ------------------------------------------
 
 'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'zero'

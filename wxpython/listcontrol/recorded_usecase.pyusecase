@@ -1,4 +1,6 @@
 select zero
 select two
 select four
+select four
+select four,three
 close frame
