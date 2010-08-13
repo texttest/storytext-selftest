@@ -12,4 +12,8 @@ Selected two
 'select' event created with arguments 'four'
 Selected four
 
+'select' event created with arguments 'four,three'
+Selected four
+Selected three
+
 'close frame' event created with arguments ''

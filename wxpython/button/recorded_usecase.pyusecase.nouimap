@@ -1,3 +1,2 @@
 Auto.Button.Press.'Label=Hello'
 Auto.Button.Press.'Label=Close'
-Auto.MainFrame.Close.'Name=frame'
