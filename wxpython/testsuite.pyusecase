@@ -1,2 +1,5 @@
 # Basic GUI with just buttons
 button
+
+# simplest gui with just an empty frame
+frame
