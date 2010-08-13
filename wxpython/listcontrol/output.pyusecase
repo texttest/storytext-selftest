@@ -1,0 +1,15 @@
+
+---------- Window 'wx.ListCtrl' ----------
+A widget of type 'ListCtrl'
+------------------------------------------
+
+'select' event created with arguments 'zero'
+Selected zero
+
+'select' event created with arguments 'two'
+Selected two
+
+'select' event created with arguments 'four'
+Selected four
+
+'close frame' event created with arguments ''

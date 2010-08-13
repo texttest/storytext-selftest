@@ -1,0 +1,15 @@
+
+---------- Window 'wx.ListCtrl' ----------
+A widget of type 'ListCtrl'
+------------------------------------------
+
+'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'zero'
+Selected zero
+
+'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'two'
+Selected two
+
+'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'four'
+Selected four
+
+'Auto.MainFrame.Close.'Name=frame'' event created with arguments ''
