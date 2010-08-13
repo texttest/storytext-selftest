@@ -1,6 +1,3 @@
-#!/usr/bin/python
-
-# capitals.py
 
 import wx
 
