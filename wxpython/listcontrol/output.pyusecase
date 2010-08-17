@@ -1,10 +1,6 @@
 
 ---------- Window 'wx.ListCtrl' ----------
 A widget of type 'ListCtrl'
-
-A widget of type 'ScrolledWindow'
-
-A widget of type 'Window'
 ------------------------------------------
 
 'select' event created with arguments 'zero'
@@ -12,9 +8,6 @@ Selected zero
 
 'select' event created with arguments 'two'
 Selected two
-
-'select' event created with arguments 'four'
-Selected four
 
 'select' event created with arguments 'four,three'
 Selected four
