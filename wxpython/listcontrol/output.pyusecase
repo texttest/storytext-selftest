@@ -1,6 +1,12 @@
 
 ---------- Window 'wx.ListCtrl' ----------
-A widget of type 'ListCtrl'
+.................
+-> four
+-> three
+-> two
+-> one
+-> zero
+.................
 ------------------------------------------
 
 'select' event created with arguments 'zero'
