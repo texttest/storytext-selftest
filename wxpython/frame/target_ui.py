@@ -7,7 +7,7 @@ APP_SIZE_Y = 150
 class MainApp(wx.App):
     """Class Main App."""
     def OnInit(self):
-        self.frame = wx.Frame(None, -1)
+        self.frame = wx.Frame(None, -1, 'wxPython Frame')
         self.frame.Show()
         return True
 

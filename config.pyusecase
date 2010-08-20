@@ -55,7 +55,7 @@ extra_version:namechooser
 
 unsaveable_version:cover
 
-home_operating_system:posix
+home_operating_system:none
 
 discard_file:usecase
 

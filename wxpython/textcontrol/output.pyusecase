@@ -1,0 +1,45 @@
+
+---------- Window 'wx.TextCtrl' ----------
+Text Contrl (preset to 'PyUseCase')
+------------------------------------------
+
+'set text' event created with arguments ''
+Text: 
+
+'set text' event created with arguments 'H'
+Text: H
+
+'set text' event created with arguments 'He'
+Text: He
+
+'set text' event created with arguments 'Hel'
+Text: Hel
+
+'set text' event created with arguments 'Hell'
+Text: Hell
+
+'set text' event created with arguments 'Hello'
+Text: Hello
+
+'set text' event created with arguments 'Hello'
+Text: Hello
+
+'set text' event created with arguments 'Hello W'
+Text: Hello W
+
+'set text' event created with arguments 'Hello Wo'
+Text: Hello Wo
+
+'set text' event created with arguments 'Hello Wor'
+Text: Hello Wor
+
+'set text' event created with arguments 'Hello Worl'
+Text: Hello Worl
+
+'set text' event created with arguments 'Hello World'
+Text: Hello World
+
+'set text' event created with arguments 'Hello World!'
+Text: Hello World!
+
+'close frame' event created with arguments ''

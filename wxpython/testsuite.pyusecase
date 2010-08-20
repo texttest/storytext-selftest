@@ -6,3 +6,6 @@ frame
 
 # a simple app with listcontrol widget
 listcontrol
+
+# test of a simple app featuring text control widget
+textcontrol
