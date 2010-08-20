@@ -1,7 +1,7 @@
 
----------- Window 'wx.TextCtrl' ----------
-Text Contrl (preset to 'PyUseCase')
-------------------------------------------
+---------- Frame 'wx.TextCtrl' ----------
+Text Control (preset to 'PyUseCase')
+-----------------------------------------
 
 'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello World!'
 Text: Hello World!
