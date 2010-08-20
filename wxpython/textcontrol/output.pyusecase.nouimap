@@ -3,42 +3,6 @@
 Text Contrl (preset to 'PyUseCase')
 ------------------------------------------
 
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments ''
-Text: 
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'H'
-Text: H
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'He'
-Text: He
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hel'
-Text: Hel
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hell'
-Text: Hell
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello'
-Text: Hello
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello'
-Text: Hello
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello W'
-Text: Hello W
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello Wo'
-Text: Hello Wo
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello Wor'
-Text: Hello Wor
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello Worl'
-Text: Hello Worl
-
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello World'
-Text: Hello World
-
 'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello World!'
 Text: Hello World!
 
