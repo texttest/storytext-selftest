@@ -1,3 +1,5 @@
 
-# Default version provided in default_site directory
-import_config_file:coverage_settings
+link_test_path:coveragerc
+
+[test_data_environment]
+coveragerc:COVERAGE_PROCESS_START
