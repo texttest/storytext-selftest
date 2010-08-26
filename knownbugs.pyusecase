@@ -1,9 +1,0 @@
-
-[Reported by geoff at 23Aug08:55:47]
-search_string:ImportError: libwx_gtk2u_richtext-2.8.so.0: cannot open shared object file
-search_file:errors
-ignore_other_errors:1
-full_description:Sporadic problem importing wx on hand-built wxPython installation
-brief_description:wxPython import problem
-internal_error:1
-rerun_count:2
