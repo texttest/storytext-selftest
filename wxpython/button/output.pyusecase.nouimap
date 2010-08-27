@@ -1,9 +1,9 @@
 
----------- Window 'wxPython GUI' ----------
+---------- Frame 'wxPython GUI' ----------
 Button 'Hello'
 
 Button 'Close'
--------------------------------------------
+------------------------------------------
 
 'Auto.Button.Press.'Label=Hello'' event created with arguments ''
 Hello World!

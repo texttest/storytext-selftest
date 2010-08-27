@@ -1,9 +1,9 @@
 
----------- Window 'wxPython GUI' ----------
+---------- Frame 'wxPython GUI' ----------
 Button 'Hello'
 
 Button 'Close'
--------------------------------------------
+------------------------------------------
 
 'say hello' event created with arguments ''
 Hello World!

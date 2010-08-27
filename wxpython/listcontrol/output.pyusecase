@@ -1,5 +1,5 @@
 
----------- Window 'wx.ListCtrl' ----------
+---------- Frame 'wx.ListCtrl' ----------
 .................
 -> four
 -> three
@@ -7,13 +7,16 @@
 -> one
 -> zero
 .................
-------------------------------------------
+-----------------------------------------
 
 'select' event created with arguments 'zero'
 Selected zero
 
 'select' event created with arguments 'two'
 Selected two
+
+'select' event created with arguments 'nosuchline'
+ERROR: Could not find item 'nosuchline' in ListCtrl.
 
 'select' event created with arguments 'four,three'
 Selected four

@@ -1,0 +1,8 @@
+
+[Reported by geoff at 26Aug11:47:50]
+search_string:close frame
+search_file:recorded_usecase
+trigger_on_absence:1
+ignore_other_errors:1
+full_description:The wx.Listctrl replay functionality seems flaky on Windows, currently failing if a non-existent line and multiple entries are selected in the same usecase
+brief_description:Listctrl replay hangs
