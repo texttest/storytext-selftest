@@ -1,5 +1,4 @@
 Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl' zero
 Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl' two
-Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl' nosuchline
 Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl' four,three
 Auto.MainFrame.Close.'Name=frame'
