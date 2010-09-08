@@ -1,1 +1,1 @@
-collect_traffic_py_attributes:{CLEAR LIST}
+collect_traffic_py_attributes:{CLEAR sys.version_info}
