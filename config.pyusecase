@@ -20,6 +20,11 @@ output:^options:{REPLACE Options:}
 output:^usage:{REPLACE Usage:}
 traffic:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
 traffic:PATH[:;][^ ]*[/\\]bin{REPLACE PATH:<path_to_bin_dir>/bin}
+
+# Various tests print path separators, fix for windows
+output:\\{REPLACE /}
+traffic:\\{REPLACE /}
+traffic:"<texttest tmp dir>([^"]*)"{REPLACE <texttest tmp dir>\1}
 [end]
 
 use_case_record_mode:GUI
