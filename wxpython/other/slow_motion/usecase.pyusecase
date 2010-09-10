@@ -1,5 +1,3 @@
 select zero
 select two
-select nosuchline
-select four,three
 close frame

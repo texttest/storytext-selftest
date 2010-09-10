@@ -1,0 +1,22 @@
+
+---------- Frame 'wx.ListCtrl' ----------
+.................
+-> four
+-> three
+-> two
+-> one
+-> zero
+.................
+-----------------------------------------
+
+'select' event created with arguments 'zero'
+Selected zero
+
+'select' event created with arguments 'two'
+Selected two
+
+'select' event created with arguments 'four,three'
+Selected four
+Selected three
+
+'close frame' event created with arguments ''

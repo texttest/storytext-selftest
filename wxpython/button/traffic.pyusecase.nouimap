@@ -1,1 +1,0 @@
-<-CMD:env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT 'PATH=$PATH;F:\cygwin\home\xuan\dev\pyusecase\PyUseCase\bin' usecase_name_chooser -m F:/temp/dynamic_gui.27Aug152314.5512/pyusecase.nouimap/wxpython/button/usecases/ui_map.conf -r F:/temp/dynamic_gui.27Aug152314.5512/pyusecase.nouimap/wxpython/button/usecase.pyusecase -i wx
