@@ -11,8 +11,24 @@
 
 'select' event created with arguments 'zero'
 Selected zero
+updated with new state:
+.................
+-> four
+-> three
+-> two
+-> one
+-> zero***
+.................
 
 'select' event created with arguments 'two'
 Selected two
+updated with new state:
+.................
+-> four
+-> three
+-> two***
+-> one
+-> zero
+.................
 
 'close frame' event created with arguments ''
