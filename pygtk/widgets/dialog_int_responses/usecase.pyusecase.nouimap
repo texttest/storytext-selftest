@@ -1,0 +1,3 @@
+Auto.Button.clicked.'Label=hi - this button opens the about dialog'
+Auto.Button.clicked.'Label=Close'
+Auto.Window.delete-event.'Type=Window'
