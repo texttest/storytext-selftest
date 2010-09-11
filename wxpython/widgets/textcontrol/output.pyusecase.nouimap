@@ -5,5 +5,7 @@ Text Control (preset to 'PyUseCase')
 
 'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello World!'
 Text: Hello World!
+updated with new state:
+Hello World!
 
 'Auto.MainFrame.Close.'Name=frame'' event created with arguments ''
