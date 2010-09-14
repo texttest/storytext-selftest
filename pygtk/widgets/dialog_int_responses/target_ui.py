@@ -5,7 +5,7 @@ class AboutDialog():
     
     BUG_BUTTON = 1
     DONATE_BUTTON = 2
-    CLOSE_BUTTON = 3
+    CLOSE_BUTTON = gtk.RESPONSE_NONE
     
     def __init__(self, parent_window):
         self._parent_window = parent_window

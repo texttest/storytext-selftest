@@ -14,6 +14,6 @@ Button 'Close' , Button 'Donate' , Button 'File a bug'
 -----------------------------------------------
 
 'close dialog' event created with arguments ''
-Result was 3
+Result was -1
 
 'quit' event created with arguments ''
