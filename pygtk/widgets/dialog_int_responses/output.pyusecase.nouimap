@@ -12,6 +12,14 @@ Focus widget is 'File a bug'
 ---------------
 Button 'Close' , Button 'Donate' , Button 'File a bug'
 -----------------------------------------------
-ERROR: Could not parse script command 'Auto.Button.clicked.'Label=Close''
+
+'Auto.Dialog.response.Label--File a bug.'Title=The Dialog Title'' event created with arguments ''
+Result was 42
+
+'Auto.Button.clicked.'Label=Donate'' event created with arguments ''
+Result was -1
+
+'Auto.Dialog.response.close.'Title=The Dialog Title'' event created with arguments ''
+Result was -7
 
 'Auto.Window.delete-event.'Type=Window'' event created with arguments ''

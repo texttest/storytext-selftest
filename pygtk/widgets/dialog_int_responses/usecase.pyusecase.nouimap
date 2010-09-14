@@ -1,3 +1,5 @@
 Auto.Button.clicked.'Label=hi - this button opens the about dialog'
-Auto.Button.clicked.'Label=Close'
+Auto.Dialog.response.Label--File a bug.'Title=The Dialog Title'
+Auto.Button.clicked.'Label=Donate'
+Auto.Dialog.response.close.'Title=The Dialog Title'
 Auto.Window.delete-event.'Type=Window'

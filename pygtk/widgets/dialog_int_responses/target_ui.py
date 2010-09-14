@@ -3,9 +3,9 @@ import gtk
 
 class AboutDialog():
     
-    BUG_BUTTON = 1
-    DONATE_BUTTON = 2
-    CLOSE_BUTTON = gtk.RESPONSE_NONE
+    BUG_BUTTON = 42 # something else...
+    DONATE_BUTTON = gtk.RESPONSE_NONE
+    CLOSE_BUTTON = gtk.RESPONSE_CLOSE
     
     def __init__(self, parent_window):
         self._parent_window = parent_window
@@ -23,7 +23,8 @@ class AboutDialog():
         self._runDialog(dialog)
         
     def _responseCallback(self, dialog, result):
-        dialog.hide()
+        if result == self.CLOSE_BUTTON:
+            dialog.hide()
         print "Result was", result    
 
     def _runDialog(self, dialog):

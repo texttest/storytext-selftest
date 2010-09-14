@@ -4,7 +4,7 @@ Focus widget is 'hi - this button opens the about dialog'
 Button 'hi - this button opens the about dialog'
 -----------------------------------
 
-'open about' event created with arguments ''
+'open the about dialog' event created with arguments ''
 
 ---------- Dialog 'The Dialog Title' ----------
 Focus widget is 'File a bug'
@@ -13,7 +13,13 @@ Focus widget is 'File a bug'
 Button 'Close' , Button 'Donate' , Button 'File a bug'
 -----------------------------------------------
 
-'close dialog' event created with arguments ''
+'file a bug' event created with arguments ''
+Result was 42
+
+'donate some money' event created with arguments ''
 Result was -1
+
+'close the about dialog' event created with arguments ''
+Result was -7
 
 'quit' event created with arguments ''
