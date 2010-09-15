@@ -1,2 +1,5 @@
 # Error-handling, try to select things that don't exist
 bad_paths
+
+# Check that filechooser dialogs and widgets don't get their events confused if they both appear in the same run
+dialog_and_widget

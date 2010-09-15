@@ -1,0 +1,22 @@
+
+---------- Filechooserdialog 'Save Dialog' ----------
+Default widget is 'gtk-save'
+
+Showing FileChooserWidget
+Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+-----------------------------------------------------
+
+'cancel original save' event created with arguments ''
+Closed, nothing will be saved
+
+---------- Dialog 'Save Dialog with Widget' ----------
+Default widget is 'gtk-save'
+
+Showing FileChooserWidget
+Check button 'Make the file readonly'
+---------------
+Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+------------------------------------------------------
+
+'perform widget save' event created with arguments ''
+Saving to None
