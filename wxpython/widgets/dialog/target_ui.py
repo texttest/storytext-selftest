@@ -7,18 +7,12 @@ APP_SIZE_Y = 200
 class MyDialog(wx.Dialog):
     def __init__(self, parent, id):
         wx.Dialog.__init__(self, parent, id, 'wx.Dialog')
-        self.button = wx.Button(self, 2, 'Close Dialog', (25, 0))
+        self.textctrl = wx.TextCtrl(self, 1, 'wx.Dialog', (25, 0))
+        self.button = wx.Button(self, 2, 'Close Dialog', (25, 30))
         self.button.Bind(wx.EVT_BUTTON, self.OnButton)
-        #self.Bind (wx.EVT_CLOSE, self.OnClose)
 
     def OnButton(self, event):
-        print 'hihihi'
         self.Close(True)
-
-    '''
-    def OnClose(self, event):
-        self.EndModal(1)
-    '''
 
 class MainFrame(wx.Frame):
     def __init__(self, parent, id):
@@ -33,6 +27,7 @@ class MainFrame(wx.Frame):
     def OnOpen(self, event):
         self.my_dialog = MyDialog(self, -1)
         self.my_dialog.ShowModal()
+        #self.my_dialog.Destroy()
 
     def OnClose(self, event):
         self.Close(True)
