@@ -1,6 +1,7 @@
 Auto.Button.clicked.'Type=Button'
 Auto.Dialog.response.ok.'Type=Dialog'
 Auto.Dialog.response.accept.'Type=Dialog'
+Auto.Dialog.response.Label--Some Text.'Type=Dialog'
 Auto.Entry.activate.'Type=Entry'
 Auto.Entry.changed.'Type=Entry' some text
 Auto.CheckMenuItem.toggled.true.'Type=CheckMenuItem'

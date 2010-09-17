@@ -1,5 +1,3 @@
-<-PYT:sys.version_info
-->RET:(2, 6, 5, 'final', 0)
 <-PYT:import tkMessageBox
 <-PYT:tkMessageBox.askyesno('Quit', 'Are you sure you want to terminate this fantastic program?')
 ->RET:True

@@ -16,6 +16,9 @@ textview_edit
 # Tests closing a dialog window
 dialog
 
+# Tests for a dialog which doesn't use gtk.RESPONSE* for its response IDs
+dialog_int_responses
+
 # Testing we can make the toolbar work correctly
 toolbar
 

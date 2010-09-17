@@ -2,11 +2,12 @@
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Default widget is 'gtk-ok'
 .....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 31 rows and 4 columns.
+Viewing table with 32 rows and 4 columns.
 '<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
 'Button' | 'Type=Button' | 'clicked' | Text entry
 'Dialog' | 'Type=Dialog' | 'ok' | Text entry
 'Dialog' | 'Type=Dialog' | 'accept' | Text entry
+'Dialog' | 'Type=Dialog' | 'Label='Some Text'' | Text entry
 'Entry' | 'Type=Entry' | 'pressed Enter' | Text entry
 'Entry' | 'Type=Entry' | 'edited text' | Text entry
 'CheckMenuItem' | 'Type=CheckMenuItem' | 'checked' | Text entry
@@ -38,6 +39,7 @@ Viewing table with 31 rows and 4 columns.
 .....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
+?
 ?
 ?
 ?
@@ -107,6 +109,7 @@ click
 ?
 ?
 ?
+?
 =================================
 
 'enter usecase name for signal 'response.ok' on Dialog 'Type=Dialog' =' event created with arguments 'press ok'
@@ -115,6 +118,7 @@ Edited 'GtkEntry' Text entry (set to 'press ok')
 ========== GtkTextView ==========
 click
 press ok
+?
 ?
 ?
 ?
@@ -179,6 +183,7 @@ press accept
 ?
 ?
 ?
+?
 =================================
 
 'enter usecase name for signal 'activate' on Entry 'Type=Entry' =' event created with arguments 'press enter'
@@ -188,6 +193,7 @@ Edited 'GtkEntry' Text entry (set to 'press enter')
 click
 press ok
 press accept
+?
 press enter
 ?
 ?
@@ -224,6 +230,7 @@ Edited 'GtkEntry' Text entry (set to 'edit')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 ?
@@ -260,6 +267,7 @@ Edited 'GtkEntry' Text entry (set to 'tick')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -296,6 +304,7 @@ Edited 'GtkEntry' Text entry (set to 'untick')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -332,6 +341,7 @@ Edited 'GtkEntry' Text entry (set to 'uncheck')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -368,6 +378,7 @@ Edited 'GtkEntry' Text entry (set to 'check')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -404,6 +415,7 @@ Edited 'GtkEntry' Text entry (set to 'choose item')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -440,6 +452,7 @@ Edited 'GtkEntry' Text entry (set to 'choose folder')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -476,6 +489,7 @@ Edited 'GtkEntry' Text entry (set to 'set new filename')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -512,6 +526,7 @@ Edited 'GtkEntry' Text entry (set to 'select file')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -548,6 +563,7 @@ Edited 'GtkEntry' Text entry (set to 'choose')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -584,6 +600,7 @@ Edited 'GtkEntry' Text entry (set to 'view tab')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -620,6 +637,7 @@ Edited 'GtkEntry' Text entry (set to 'select in menu')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -656,6 +674,7 @@ Edited 'GtkEntry' Text entry (set to 'choose')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -692,6 +711,7 @@ Edited 'GtkEntry' Text entry (set to 'release')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -728,6 +748,7 @@ Edited 'GtkEntry' Text entry (set to 'depress')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -764,6 +785,7 @@ Edited 'GtkEntry' Text entry (set to 'click tool item')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -800,6 +822,7 @@ Edited 'GtkEntry' Text entry (set to 'view popup for')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -836,6 +859,7 @@ Edited 'GtkEntry' Text entry (set to 'select row')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -872,6 +896,7 @@ Edited 'GtkEntry' Text entry (set to 'sort by Column')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -908,6 +933,7 @@ Edited 'GtkEntry' Text entry (set to 'edit for Column')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -944,6 +970,7 @@ Edited 'GtkEntry' Text entry (set to 'activate row')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -980,6 +1007,7 @@ Edited 'GtkEntry' Text entry (set to 'collapse row')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick
@@ -1016,6 +1044,7 @@ Edited 'GtkEntry' Text entry (set to 'expand row')
 click
 press ok
 press accept
+?
 press enter
 edit some text
 tick

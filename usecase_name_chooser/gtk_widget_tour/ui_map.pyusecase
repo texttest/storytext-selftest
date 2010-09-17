@@ -4,6 +4,7 @@ clicked = click
 [Type=Dialog]
 response.ok = press ok
 response.accept = press accept
+response.Label--Some Text = 
 
 [Type=Entry]
 activate = press enter

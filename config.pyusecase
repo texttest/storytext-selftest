@@ -20,6 +20,11 @@ output:^options:{REPLACE Options:}
 output:^usage:{REPLACE Usage:}
 traffic:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
 traffic:PATH[:;][^ ]*[/\\]bin{REPLACE PATH:<path_to_bin_dir>/bin}
+
+# Various tests print path separators, fix for windows
+output:\\{REPLACE /}
+traffic:\\{REPLACE /}
+traffic:"<texttest tmp dir>([^"]*)"{REPLACE <texttest tmp dir>\1}
 [end]
 
 use_case_record_mode:GUI
@@ -41,9 +46,7 @@ link_test_path:logconfig_file
 
 collect_traffic:usecase_name_chooser
 # There is no way to do our normal stuff with this, so we at least record interactions with it.
-collect_traffic_py_module:tkMessageBox
-
-collect_traffic_py_attributes:sys.version_info
+collect_traffic_python:tkMessageBox
 
 [collect_traffic_environment]
 usecase_name_chooser:PATH
