@@ -1,0 +1,3 @@
+Auto.TextCtrl.TextEnter.'Name=text' PyUseCase
+Auto.Button.Press.'Label=Change Title'
+Auto.MainFrame.Close.'Name=frame'

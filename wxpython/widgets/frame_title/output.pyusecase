@@ -1,0 +1,15 @@
+(100, 21)
+
+---------- Frame 'wx.Frame' ----------
+Text Control (preset to 'wx.Frame')
+
+Button 'Change Title'
+--------------------------------------
+
+'enter text' event created with arguments 'PyUseCase'
+updated with new state:
+PyUseCase
+
+'press button' event created with arguments ''
+
+'close frame' event created with arguments ''

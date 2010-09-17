@@ -4,6 +4,9 @@ button
 # simplest gui with just an empty frame
 frame
 
+# change the title of the frame
+frame_title
+
 # a simple app with listcontrol widget
 listcontrol
 
