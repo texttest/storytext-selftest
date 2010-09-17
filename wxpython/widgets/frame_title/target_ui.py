@@ -22,7 +22,6 @@ class MainApp(wx.App):
         self.frame = MainFrame(None, -1)
         self.frame.Show(True)
         self.SetTopWindow(self.frame)
-        print self.frame.tc.GetSize()
         return True
 
 if __name__ == '__main__':
