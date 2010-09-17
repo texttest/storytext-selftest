@@ -17,7 +17,7 @@ updated with new state:
 -> three
 -> two
 -> one
--> zero***
+-> zero   ***
 .................
 
 'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'two'
@@ -26,7 +26,7 @@ updated with new state:
 .................
 -> four
 -> three
--> two***
+-> two   ***
 -> one
 -> zero
 .................
@@ -36,8 +36,8 @@ Selected four
 Selected three
 updated with new state:
 .................
--> four***
--> three***
+-> four   ***
+-> three   ***
 -> two
 -> one
 -> zero

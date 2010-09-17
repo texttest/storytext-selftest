@@ -9,8 +9,8 @@ class MainFrame(wx.Frame):
         wx.Frame.__init__(self, parent, id, 'wx.Frame', size=(APP_SIZE_X, APP_SIZE_Y)) 
 
         self.tc = wx.TextCtrl(self, 1, 'wx.Frame', (25, 0))
-        wx.Button(self, 2, 'Change Title', (25, 25))
-        self.Bind (wx.EVT_BUTTON, self.OnButton, id=2)
+        self.button = wx.Button(self, 2, 'Change Title', (25, 25))
+        self.button.Bind(wx.EVT_BUTTON, self.OnButton)
 
     def OnButton(self, event):
         new_title = self.tc.GetValue()
