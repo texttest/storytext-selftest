@@ -1,7 +1,7 @@
 
 import wx
 APP_SIZE_X = 175
-APP_SIZE_Y = 35
+APP_SIZE_Y = 75
 
 class MainFrame(wx.Frame):
     def __init__(self, parent, id):
