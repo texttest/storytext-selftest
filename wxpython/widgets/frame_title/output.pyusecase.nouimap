@@ -10,5 +10,7 @@ updated with new state:
 PyUseCase
 
 'Auto.Button.Press.'Label=Change Title'' event created with arguments ''
+updated with new state:
+PyUseCase
 
 'Auto.MainFrame.Close.'Name=frame'' event created with arguments ''
