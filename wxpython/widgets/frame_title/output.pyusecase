@@ -10,5 +10,7 @@ updated with new state:
 PyUseCase
 
 'press button' event created with arguments ''
+updated with new state:
+PyUseCase
 
 'close frame' event created with arguments ''
