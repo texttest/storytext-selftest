@@ -14,12 +14,13 @@ Button 'Close' , Button 'Donate' , Button 'File a bug'
 -----------------------------------------------
 
 'file a bug' event created with arguments ''
-Result was 42
+
+Changing GtkLabel to: 'Latest result was 42'
 
 'donate some money' event created with arguments ''
-Result was -1
+
+Changing GtkLabel to: 'Latest result was -1'
 
 'close the about dialog' event created with arguments ''
-Result was -7
 
 'quit' event created with arguments ''

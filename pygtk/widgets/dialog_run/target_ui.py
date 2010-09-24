@@ -13,8 +13,8 @@ class AboutDialog():
     def show(self):
         dialog = gtk.Dialog('The Dialog Title', self._parent_window)
         text = "Some text"
-        about_label = gtk.Label(text)
-        dialog.vbox.add(about_label)
+        self.about_label = gtk.Label(text)
+        dialog.vbox.add(self.about_label)
         
         dialog.add_button('File a bug', AboutDialog.BUG_BUTTON)
         dialog.add_button('Donate', AboutDialog.DONATE_BUTTON)
@@ -24,7 +24,7 @@ class AboutDialog():
                 
     def _runDialog(self, dialog):
         result = dialog.run()
-        print "Result was", result    
+        self.about_label.set_text("Latest result was " + repr(result))    
         if result == self.CLOSE_BUTTON:
             dialog.hide()
         else:
