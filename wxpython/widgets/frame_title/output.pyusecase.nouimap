@@ -1,16 +1,14 @@
 
 ---------- Frame 'wx.Frame' ----------
-Text Control (preset to 'wx.Frame')
+TextCtrl value 'wx.Frame'
 
 Button 'Change Title'
 --------------------------------------
 
 'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'PyUseCase'
-updated with new state:
-PyUseCase
+Updated TextCtrl value 'PyUseCase'
 
 'Auto.Button.Press.'Label=Change Title'' event created with arguments ''
-updated with new state:
-PyUseCase
+Changed title of frame to 'PyUseCase'
 
 'Auto.MainFrame.Close.'Name=frame'' event created with arguments ''

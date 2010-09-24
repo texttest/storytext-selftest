@@ -19,6 +19,11 @@ dialog
 # Tests for a dialog which doesn't use gtk.RESPONSE* for its response IDs
 dialog_int_responses
 
+# gtk.Dialog.run blocks idle handlers and has long been a sore point. Check our amazing
+# monkey-patch solution...
+# 
+dialog_run
+
 # Testing we can make the toolbar work correctly
 toolbar
 

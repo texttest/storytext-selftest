@@ -11,7 +11,7 @@
 
 'select' event created with arguments 'two'
 Selected two
-updated with new state:
+Updated state
 .................
 -> four
 -> three
@@ -22,7 +22,7 @@ updated with new state:
 
 'select' event created with arguments 'nosuchline'
 ERROR: Could not find item 'nosuchline' in ListCtrl.
-updated with new state:
+Updated state
 .................
 -> four
 -> three

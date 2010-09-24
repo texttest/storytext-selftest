@@ -8,14 +8,13 @@ Button 'Close Frame'
 'Click Show Dialog Button' event created with arguments ''
 
 ---------- Frame 'wx.Dialog' ----------
-Text Control (preset to 'wx.Dialog')
+TextCtrl value 'wx.Dialog'
 
 Button 'Close Dialog'
 ---------------------------------------
 
 'Enter Text' event created with arguments 'PyUseCase'
-updated with new state:
-PyUseCase
+Updated TextCtrl value 'PyUseCase'
 
 'Click Close Dialog Button' event created with arguments ''
 
