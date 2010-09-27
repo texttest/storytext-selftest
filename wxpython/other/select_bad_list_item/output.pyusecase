@@ -22,13 +22,5 @@ Updated state
 
 'select' event created with arguments 'nosuchline'
 ERROR: Could not find item 'nosuchline' in ListCtrl.
-Updated state
-.................
--> four
--> three
--> two
--> one
--> zero
-.................
 
 'close frame' event created with arguments ''
