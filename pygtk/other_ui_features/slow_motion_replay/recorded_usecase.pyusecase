@@ -1,3 +1,4 @@
-set new movie name to Star Wars
-add movie
-close
+open the about dialog
+file a bug
+close the about dialog
+quit

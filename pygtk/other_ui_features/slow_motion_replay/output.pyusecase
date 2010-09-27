@@ -1,23 +1,22 @@
 
----------- Window 'The Video Store' ----------
-Focus widget is 'Movie Name'
+---------- Window 'None' ----------
+Focus widget is 'hi - this button opens the about dialog'
+Button 'hi - this button opens the about dialog'
+-----------------------------------
 
-Menu Bar : 'File' (+)
-'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear' (greyed out)
+'open the about dialog' event created with arguments ''
 
-Showing Notebook with tabs: text info , video view
-Viewing page 'video view'
+---------- Dialog 'The Dialog Title' ----------
+Focus widget is 'File a bug'
+'Some text'
+---------------
+Button 'Close' , Button 'Donate' , Button 'File a bug'
+-----------------------------------------------
 
-Showing Movie Tree with columns: Movie Name
-'Shortcuts:' , Button '_New'
-----------------------------------------------
+'file a bug' event created with arguments ''
 
-'set new movie name to' event created with arguments 'Star Wars'
-Edited 'Movie Name' Text entry (set to 'Star Wars')
+Changing GtkLabel to: 'Latest result was 42'
 
-'add movie' event created with arguments ''
+'close the about dialog' event created with arguments ''
 
-Updated : Movie Tree with columns: Movie Name
--> Star Wars
-
-'close' event created with arguments ''
+'quit' event created with arguments ''
