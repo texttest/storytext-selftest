@@ -1,11 +1,10 @@
 
 ---------- Frame 'wx.TextCtrl' ----------
-Text Control (preset to 'PyUseCase')
+TextCtrl value 'PyUseCase'
 -----------------------------------------
 
 'enter text' event created with arguments 'Hello World!'
 Text: Hello World!
-updated with new state:
-Hello World!
+Updated TextCtrl value 'Hello World!'
 
 'close frame' event created with arguments ''

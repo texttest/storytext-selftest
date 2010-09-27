@@ -1,0 +1,21 @@
+
+---------- Frame 'Test wx.Dialog' ----------
+Button 'Show Dialog'
+
+Button 'Close Frame'
+--------------------------------------------
+
+'Auto.Button.Press.'Label=Show Dialog'' event created with arguments ''
+
+---------- Frame 'wx.Dialog' ----------
+TextCtrl value 'wx.Dialog'
+
+Button 'Close Dialog'
+---------------------------------------
+
+'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'PyUseCase'
+Updated TextCtrl value 'PyUseCase'
+
+'Auto.Button.Press.'Label=Close Dialog'' event created with arguments ''
+
+'Auto.Button.Press.'Label=Close Frame'' event created with arguments ''
