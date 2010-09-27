@@ -3,7 +3,6 @@ PyUseCase trunk is currently capable of recording and replaying. Any type derive
 types is also supported.
 
 wx.Button                : Press
-wx.Dialog                : DialogClose
 wx.Frame                 : Close
 wx.ListCtrl              : ListCtrlSelect
 wx.TextCtrl              : TextEnter
