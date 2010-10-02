@@ -1,0 +1,3 @@
+<-CMD:env --unset=USECASE_RECORD_SCRIPT 'PATH=$PATH:/home/cxuan/dev/python/src/pyusecase/PyUseCase/bin' usecase_name_chooser -m /home/cxuan/.texttest/tmp/pyusecase.nouimap.02Oct141734.4169/pyusecase.nouimap/wxpython/widgets/dialog_no_mainloop/usecases/ui_map.conf -r /home/cxuan/.texttest/tmp/pyusecase.nouimap.02Oct141734.4169/pyusecase.nouimap/wxpython/widgets/dialog_no_mainloop/usecase.pyusecase -i wx
+->FIL:usecase.pyusecase
+->FIL:ui_map.conf

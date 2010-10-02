@@ -1,0 +1,18 @@
+
+---------- Frame 'wxPython GUI' ----------
+Button 'Hello'
+
+Button 'Close'
+------------------------------------------
+
+'click hello' event created with arguments ''
+hello
+Hello World!
+Changed title of frame to 'Hello World!'
+
+'click hello' event created with arguments ''
+hello
+Hello World!
+
+'click close' event created with arguments ''
+close
