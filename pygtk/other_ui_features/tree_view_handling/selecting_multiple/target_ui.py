@@ -36,7 +36,7 @@ class PanedExample:
         selection.selected_foreach(self.set_text)
 
     def set_text(self, model, path, iter):
-        messageText = "Now Showing:\n" + model.get_value(iter, 0) + "\n"
+        messageText = "Now Showing: " + model.get_value(iter, 0)
         self.buffer.set_text(messageText)
    
     # Create a scrolled text area that displays a "message"
@@ -46,7 +46,7 @@ class PanedExample:
         scrolled_window = gtk.ScrolledWindow()
         scrolled_window.set_policy(gtk.POLICY_AUTOMATIC, gtk.POLICY_AUTOMATIC)
         scrolled_window.add(view)
-        self.buffer.set_text("No message selected.\n")
+        self.buffer.set_text("No message selected.")
         scrolled_window.show_all()
         return scrolled_window
 

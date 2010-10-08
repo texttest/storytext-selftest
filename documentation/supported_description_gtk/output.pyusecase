@@ -12,7 +12,6 @@ gtk.Entry                : activate , changed
 gtk.FileChooser          : current-folder-changed , current-name-changed , selection-changed
 gtk.MenuItem             : activate
 gtk.Notebook             : switch-page
-gtk.Paned                : notify::position
 gtk.TextView             : changed
 gtk.ToggleButton         : toggled
 gtk.ToggleToolButton     : toggled

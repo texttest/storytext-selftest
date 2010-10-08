@@ -1,12 +1,12 @@
 select message Message #1
-drag pane separator so message list uses 38% of the space
+change text to Now Showing: Message #1 alone
 select message Message #1,Message #0,Message #4
-drag pane separator so message list uses 67% of the space
+change text to Now Showing: Message #4 and some others?
 select message Message #0
-drag pane separator so message list uses 41% of the space
+change text to Now Showing: Message #0 alone
 select message 
-drag pane separator so message list uses 78% of the space
+change text to Now Showing: nothing!
 select message Message #4
-drag pane separator so message list uses 60% of the space
+change text to Now Showing: Message #4 alone
 select message Message #4
 close application

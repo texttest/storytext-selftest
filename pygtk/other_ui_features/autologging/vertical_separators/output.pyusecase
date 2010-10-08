@@ -2,7 +2,7 @@
 ---------- Window 'Example' ----------
 'A label' , --------------- (vertical) , 'Left Window'
 
------------------------------- (vertical pane separator, 43% from the left edge)
+------------------------------ (vertical pane separator)
 'Right Window'
 --------------------------------------
 

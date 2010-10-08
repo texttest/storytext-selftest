@@ -14,7 +14,7 @@ Showing GtkTreeView with columns: Messages
 -> Message #8
 -> Message #9
 
------------------------------- (horizontal pane separator, 21% from the top)
+------------------------------ (horizontal pane separator)
 
 ========== GtkTextView ==========
 No message selected.
@@ -36,11 +36,14 @@ Changed selection in GtkTreeView with columns: Messages
 -> Message #9
 
 ========== GtkTextView ==========
-Now Showing:
-Message #1
+Now Showing: Message #1
 =================================
 
-'drag pane separator so message list uses' event created with arguments '38% of the space'
+'change text to' event created with arguments 'Now Showing: Message #1 alone'
+
+========== GtkTextView ==========
+Now Showing: Message #1 alone
+=================================
 
 'select message' event created with arguments 'Message #1,Message #0,Message #4'
 
@@ -57,11 +60,14 @@ Changed selection in GtkTreeView with columns: Messages
 -> Message #9
 
 ========== GtkTextView ==========
-Now Showing:
-Message #4
+Now Showing: Message #4
 =================================
 
-'drag pane separator so message list uses' event created with arguments '67% of the space'
+'change text to' event created with arguments 'Now Showing: Message #4 and some others?'
+
+========== GtkTextView ==========
+Now Showing: Message #4 and some others?
+=================================
 
 'select message' event created with arguments 'Message #0,Message #4'
 
@@ -78,8 +84,7 @@ Changed selection in GtkTreeView with columns: Messages
 -> Message #9
 
 ========== GtkTextView ==========
-Now Showing:
-Message #4
+Now Showing: Message #4
 =================================
 
 'select message' event created with arguments 'Message #0'
@@ -97,11 +102,14 @@ Changed selection in GtkTreeView with columns: Messages
 -> Message #9
 
 ========== GtkTextView ==========
-Now Showing:
-Message #0
+Now Showing: Message #0
 =================================
 
-'drag pane separator so message list uses' event created with arguments '41% of the space'
+'change text to' event created with arguments 'Now Showing: Message #0 alone'
+
+========== GtkTextView ==========
+Now Showing: Message #0 alone
+=================================
 
 'select message' event created with arguments ''
 
@@ -117,28 +125,35 @@ Changed selection in GtkTreeView with columns: Messages
 -> Message #8
 -> Message #9
 
-'drag pane separator so message list uses' event created with arguments '78% of the space'
-
-'select message' event created with arguments 'Message #4'
-
-Changed selection in GtkTreeView with columns: Messages
--> Message #0
--> Message #1
--> Message #2
--> Message #3
--> Message #4   ***
--> Message #5
--> Message #6
--> Message #7
--> Message #8
--> Message #9
+'change text to' event created with arguments 'Now Showing: nothing!'
 
 ========== GtkTextView ==========
-Now Showing:
-Message #4
+Now Showing: nothing!
 =================================
 
-'drag pane separator so message list uses' event created with arguments '60% of the space'
+'select message' event created with arguments 'Message #4'
+
+Changed selection in GtkTreeView with columns: Messages
+-> Message #0
+-> Message #1
+-> Message #2
+-> Message #3
+-> Message #4   ***
+-> Message #5
+-> Message #6
+-> Message #7
+-> Message #8
+-> Message #9
+
+========== GtkTextView ==========
+Now Showing: Message #4
+=================================
+
+'change text to' event created with arguments 'Now Showing: Message #4 alone'
+
+========== GtkTextView ==========
+Now Showing: Message #4 alone
+=================================
 
 'select message' event created with arguments 'Message #4'
 
@@ -155,8 +170,7 @@ Changed selection in GtkTreeView with columns: Messages
 -> Message #9
 
 ========== GtkTextView ==========
-Now Showing:
-Message #4
+Now Showing: Message #4
 =================================
 
 'close application' event created with arguments ''

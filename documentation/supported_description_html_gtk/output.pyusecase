@@ -14,7 +14,6 @@ types is also supported.
 <tr><td><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtkfilechooser.html>gtk.FileChooser</a></td><td><div class="Table_Text_Normal">current-folder-changed , current-name-changed , selection-changed</div></td></tr>
 <tr><td><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtkmenuitem.html>gtk.MenuItem</a></td><td><div class="Table_Text_Normal">activate</div></td></tr>
 <tr><td><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtknotebook.html>gtk.Notebook</a></td><td><div class="Table_Text_Normal">switch-page</div></td></tr>
-<tr><td><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtkpaned.html>gtk.Paned</a></td><td><div class="Table_Text_Normal">notify::position</div></td></tr>
 <tr><td><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtktextview.html>gtk.TextView</a></td><td><div class="Table_Text_Normal">changed</div></td></tr>
 <tr><td><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtktogglebutton.html>gtk.ToggleButton</a></td><td><div class="Table_Text_Normal">toggled</div></td></tr>
 <tr><td><a class="Text_Link" href=http://library.gnome.org/devel/pygtk/stable/class-gtktoggletoolbutton.html>gtk.ToggleToolButton</a></td><td><div class="Table_Text_Normal">toggled</div></td></tr>

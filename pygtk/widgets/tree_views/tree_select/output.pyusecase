@@ -14,14 +14,14 @@ Showing GtkTreeView with columns: Messages
 -> Message #8
 -> Message #9
 
------------------------------- (horizontal pane separator, 21% from the top)
+------------------------------ (horizontal pane separator)
 
 ========== GtkTextView ==========
 No message selected.
 =================================
 --------------------------------------------
 
-'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Message #1'
+'select message' event created with arguments 'Message #1'
 
 Changed selection in GtkTreeView with columns: Messages
 -> Message #0
@@ -40,9 +40,7 @@ Now Showing:
 Message #1
 =================================
 
-'Auto.VPaned.notify::position.'Type=VPaned'' event created with arguments '50% of the space'
-
-'Auto.TreeView.changed.selection.'Type=TreeView'' event created with arguments 'Message #5'
+'select message' event created with arguments 'Message #5'
 
 Changed selection in GtkTreeView with columns: Messages
 -> Message #0
@@ -61,4 +59,4 @@ Now Showing:
 Message #5
 =================================
 
-'Auto.Window.delete-event.'Title=Paned Windows'' event created with arguments ''
+'close application' event created with arguments ''

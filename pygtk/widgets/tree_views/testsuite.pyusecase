@@ -1,5 +1,5 @@
-# Test for demonstration of paned windows (gtk.VPaned) and selecting in tree views
-paned_window_tree_select
+# Test for selecting in tree views
+tree_select
 
 # Test for a tree view with activation by double-clicking the rows
 # uses set_cell_data_func...
