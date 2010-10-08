@@ -2,9 +2,9 @@
 ---------- Window 'Basic TreeView Example' ----------
 Focus widget is 'GtkTreeView'
 
-Showing GtkTreeView with columns: Launch
--> Stock image 'gtk-no'
--> Stock image 'gtk-yes'
+Showing GtkTreeView with columns: Result , Symbol
+-> Right | Stock image 'gtk-yes'
+-> Wrong | Stock image 'gtk-no'
 -----------------------------------------------------
 
 'close application' event created with arguments ''

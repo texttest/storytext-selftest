@@ -4,8 +4,8 @@ import gtk,gobject
 
 store = gtk.ListStore(str, gobject.TYPE_BOOLEAN)
         
-store.append(["Hello", False])
-store.append(["Hello1", True])
+store.append(["Wrong", False])
+store.append(["Right", True])
 
 # sorting
 store.set_sort_column_id(0, gtk.SORT_ASCENDING)
@@ -22,7 +22,9 @@ def boolean_func(column, cell, model, iter):
 
 launch_cell = gtk.CellRendererPixbuf()
 launch_cell.set_fixed_size(100, 50)
-view.insert_column_with_data_func(1, 'Launch', launch_cell, boolean_func)
+text_cell = gtk.CellRendererText()
+view.insert_column_with_attributes(0, 'Result', text_cell, text=0)
+view.insert_column_with_data_func(1, 'Symbol', launch_cell, boolean_func)
  
 #view.connect('row-activated', self._rowActivatedCallback)
 view.set_search_column(0)
