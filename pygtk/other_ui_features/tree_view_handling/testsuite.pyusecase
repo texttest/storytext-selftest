@@ -25,3 +25,6 @@ foreground_with_weight
 
 # If we insert a row and expand it, describe the insertion rather than the expansion
 insert_and_expand
+
+# Make sure we can handle gtk.TreeViewColumns created implicitly via gtk.TreeView methods
+insert_column_methods
