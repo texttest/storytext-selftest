@@ -1,0 +1,5 @@
+set new movie name to Star Wars
+Auto.TreeView.row-inserted.'Name=Movie Tree'
+set new movie name to Die Hard
+Auto.TreeView.row-inserted.'Name=Movie Tree'
+close
