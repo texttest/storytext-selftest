@@ -21,10 +21,12 @@ Viewing page 'text info'
 This is the Video Store, an example program for PyUseCase
 =================================
 
-'change help text to' event created with arguments 'This is the Video Store, an example program for PyUseCase - really!'
+'change help text to' event created with arguments 'This is the Video Store, an example program for PyUseCase\nIt's very ugly\nBut we don't mind'
 
 ========== GtkTextView ==========
-This is the Video Store, an example program for PyUseCase - really!
+This is the Video Store, an example program for PyUseCase
+It's very ugly
+But we don't mind
 =================================
 
 'close' event created with arguments ''
