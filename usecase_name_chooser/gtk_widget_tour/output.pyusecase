@@ -2,7 +2,7 @@
 ---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
 Default widget is 'gtk-ok'
 .....'Previously unseen actions: provide names for the interesting ones'......
-Viewing table with 32 rows and 4 columns.
+Viewing table with 31 rows and 4 columns.
 '<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
 'Button' | 'Type=Button' | 'clicked' | Text entry
 'Dialog' | 'Type=Dialog' | 'ok' | Text entry
@@ -33,13 +33,11 @@ Viewing table with 32 rows and 4 columns.
 'TreeView' | 'Type=TreeView' | 'row expanded' | Text entry
 'TreeView' | 'Type=TreeView' | 'unchecked box in column 'Column'' | Text entry
 'TreeView' | 'Type=TreeView' | 'checked box in column 'Column'' | Text entry
-'VPaned' | 'Type=VPaned' | 'dragged separator' | Text entry
 'Window' | 'Type=Window' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
-?
 ?
 ?
 ?
@@ -109,7 +107,6 @@ click
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'response.ok' on Dialog 'Type=Dialog' =' event created with arguments 'press ok'
@@ -118,7 +115,6 @@ Edited 'GtkEntry' Text entry (set to 'press ok')
 ========== GtkTextView ==========
 click
 press ok
-?
 ?
 ?
 ?
@@ -183,7 +179,6 @@ press accept
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'activate' on Entry 'Type=Entry' =' event created with arguments 'press enter'
@@ -195,7 +190,6 @@ press ok
 press accept
 ?
 press enter
-?
 ?
 ?
 ?
@@ -257,7 +251,6 @@ edit some text
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'toggled.true' on CheckMenuItem 'Type=CheckMenuItem' =' event created with arguments 'tick'
@@ -271,7 +264,6 @@ press accept
 press enter
 edit some text
 tick
-?
 ?
 ?
 ?
@@ -331,7 +323,6 @@ untick
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'toggled.false' on CheckButton 'Type=CheckButton' =' event created with arguments 'uncheck'
@@ -347,7 +338,6 @@ edit some text
 tick
 untick
 uncheck
-?
 ?
 ?
 ?
@@ -405,7 +395,6 @@ check
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'changed' on ComboBox 'Type=ComboBox' =' event created with arguments 'choose item'
@@ -423,7 +412,6 @@ untick
 uncheck
 check
 choose item an option
-?
 ?
 ?
 ?
@@ -479,7 +467,6 @@ choose folder subdir
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'current-name-changed' on FileChooserDialog 'Type=FileChooserDialog' =' event created with arguments 'set new filename'
@@ -499,7 +486,6 @@ check
 choose item an option
 choose folder subdir
 set new filename newfilename
-?
 ?
 ?
 ?
@@ -553,7 +539,6 @@ select file filename
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' =' event created with arguments 'choose'
@@ -575,7 +560,6 @@ choose folder subdir
 set new filename newfilename
 select file filename
 choose
-?
 ?
 ?
 ?
@@ -627,7 +611,6 @@ view tab tab name
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' =' event created with arguments 'select in menu'
@@ -650,7 +633,6 @@ set new filename newfilename
 select file filename
 select in menu
 view tab tab name
-?
 ?
 ?
 ?
@@ -701,7 +683,6 @@ choose
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'toggled.false' on ToggleButton 'Type=ToggleButton' =' event created with arguments 'release'
@@ -726,7 +707,6 @@ select in menu
 view tab tab name
 choose
 release
-?
 ?
 ?
 ?
@@ -775,7 +755,6 @@ depress
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'clicked' on ToolButton 'Type=ToolButton' =' event created with arguments 'click tool item'
@@ -802,7 +781,6 @@ choose
 release
 depress
 click tool item
-?
 ?
 ?
 ?
@@ -849,7 +827,6 @@ view popup for row1
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' =' event created with arguments 'select row'
@@ -878,7 +855,6 @@ depress
 click tool item
 view popup for row1
 select row row2
-?
 ?
 ?
 ?
@@ -923,7 +899,6 @@ sort by Column
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'edited.Column' on TreeView 'Type=TreeView' =' event created with arguments 'edit for Column'
@@ -954,7 +929,6 @@ view popup for row1
 select row row2
 sort by Column
 edit for Column row3
-?
 ?
 ?
 ?
@@ -997,7 +971,6 @@ activate row row4
 ?
 ?
 ?
-?
 =================================
 
 'enter usecase name for signal 'row-collapsed' on TreeView 'Type=TreeView' =' event created with arguments 'collapse row'
@@ -1030,7 +1003,6 @@ sort by Column
 edit for Column row3
 activate row row4
 collapse row row5
-?
 ?
 ?
 ?
@@ -1068,7 +1040,6 @@ edit for Column row3
 activate row row4
 collapse row row5
 expand row row6
-?
 ?
 ?
 ?

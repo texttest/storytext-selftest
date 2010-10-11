@@ -53,9 +53,6 @@ row-expanded = expand row
 toggled.Column.false = 
 toggled.Column.true = 
 
-[Type=VPaned]
-notify-position = 
-
 [Type=Window]
 delete-event = 
 

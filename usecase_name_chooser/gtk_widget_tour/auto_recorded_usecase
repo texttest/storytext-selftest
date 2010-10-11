@@ -27,5 +27,4 @@ Auto.TreeView.row-collapsed.'Type=TreeView' row5
 Auto.TreeView.row-expanded.'Type=TreeView' row6
 Auto.TreeView.toggled.Column.false.'Type=TreeView' row7
 Auto.TreeView.toggled.Column.true.'Type=TreeView' row8
-Auto.VPaned.notify::position.'Type=VPaned' 50% of the space
 Auto.Window.delete-event.'Type=Window'
