@@ -4,9 +4,15 @@ Button 'Hello'
 
 Button 'Close'
 ------------------------------------------
+
+'Auto.Button.Press.'Label=Hello'' event created with arguments ''
 hello
 Hello World!
 Changed title of frame to 'Hello World!'
+
+'Auto.Button.Press.'Label=Hello'' event created with arguments ''
 hello
 Hello World!
+
+'Auto.Button.Press.'Label=Close'' event created with arguments ''
 close
