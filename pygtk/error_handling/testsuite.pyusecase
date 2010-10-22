@@ -41,6 +41,10 @@ combobox_empty
 # Check we can handle a combobox with no model attached
 combobox_no_model
 
+# The user can call set_image on anything at all. Don't bail out if we get an unexpected type there.
+# 
+unexpected_image
+
 # Error handling for tree view stuff
 tree_views
 
