@@ -1,20 +1,11 @@
-# Check we can set a delay of some sort
-slow_motion_replay
-
-# If we introduce a better way to refer to a widget, automatically update the UI map file
-improve_uimap_naming
-
-# Check we handle application events in UIs also, even if we aren't told to wait for them
-ui_appevent
-
-# Check we still record window deletion even if the window is hidden first
-window_hidden
-
-# Check we can plug in a module to define support for custom widgets
-custom_widgets
-
 # Tests for more complex handling of tree views, independent of instrumenting mechanism
 tree_view_handling
 
+# Suite for record/playback stuff that isn't basic enough for the widgets suite
+widgets_complex
+
 # Various widgets where only logging them is relevant
 autologging
+
+# Other stuff
+miscellaneous

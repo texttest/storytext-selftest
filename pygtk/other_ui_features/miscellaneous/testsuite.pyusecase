@@ -1,0 +1,11 @@
+# Check we can set a delay of some sort
+slow_motion_replay
+
+# If we introduce a better way to refer to a widget, automatically update the UI map file
+improve_uimap_naming
+
+# Check we handle application events in UIs also, even if we aren't told to wait for them
+ui_appevent
+
+# Check we can plug in a module to define support for custom widgets
+custom_widgets
