@@ -9,3 +9,7 @@ autologging
 
 # Other stuff
 miscellaneous
+
+# Tests for Hildon widget set, for Maemo phones. Don't really use hildon, which would be too
+# difficult to set up a test environment for, but a faked version of it
+hildon
