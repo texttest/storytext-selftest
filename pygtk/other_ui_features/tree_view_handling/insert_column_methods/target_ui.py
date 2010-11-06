@@ -20,16 +20,20 @@ def boolean_func(column, cell, model, iter):
 	stock_id = 'gtk-no'
     cell.set_property('stock-id', stock_id)
 
+def rowActivatedCallback(view, path, column):
+    model = view.get_model()
+    iter = model.get_iter(path)
+    currValue = model.get_value(iter, 1)
+    model.set_value(iter, 1, not currValue)
+        
 launch_cell = gtk.CellRendererPixbuf()
 launch_cell.set_fixed_size(100, 50)
 text_cell = gtk.CellRendererText()
 view.insert_column_with_attributes(0, 'Result', text_cell, text=0)
 view.insert_column_with_data_func(1, 'Symbol', launch_cell, boolean_func)
 view.get_selection().set_mode(gtk.SELECTION_NONE)
- 
-#view.connect('row-activated', self._rowActivatedCallback)
+view.connect('row-activated', rowActivatedCallback)
 view.set_search_column(0)
-#tvcolumn.set_sort_column_id(0)
 
 window = gtk.Window()
 window.set_title("Basic TreeView Example")

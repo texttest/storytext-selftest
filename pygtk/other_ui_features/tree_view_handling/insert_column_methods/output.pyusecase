@@ -7,4 +7,10 @@ Showing GtkTreeView with columns: Result , Symbol
 -> Wrong | Stock image 'gtk-no'
 -----------------------------------------------------
 
+'activate row' event created with arguments 'Wrong'
+
+Updated : GtkTreeView with columns: Result , Symbol
+-> Right | Stock image 'gtk-yes'
+-> Wrong | Stock image 'gtk-yes'
+
 'close application' event created with arguments ''
