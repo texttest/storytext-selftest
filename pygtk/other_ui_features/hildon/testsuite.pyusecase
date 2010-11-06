@@ -1,2 +1,5 @@
 # Test for hildon.CheckButton
 check_button
+
+# Test for app menu, which magically appears...
+app_menu
