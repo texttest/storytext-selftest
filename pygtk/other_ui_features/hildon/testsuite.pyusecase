@@ -3,3 +3,9 @@ check_button
 
 # Test for app menu, which magically appears...
 app_menu
+
+# Test for EditToolbar, which doesn't follow the usual get_children conventions
+edit_toolbar
+
+# hildon.GtkTreeView has its complications, because of the need to intercept gtk.TreeView
+hildon_tree_view
