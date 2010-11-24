@@ -31,7 +31,7 @@ class VideoStore:
         vbox.pack_start(self.getTaskBar(), expand=False, fill=False)
         vbox.pack_start(self.getNotebook(), expand=True, fill=True)
         try:
-            from gtkusecase import createShortcutBar
+            from usecase import createShortcutBar
             uiMapFile = os.path.join(os.getenv("USECASE_HOME"), "explicit_ui_map.conf")
             shortcutBar = createShortcutBar([ uiMapFile ])
             if shortcutBar:

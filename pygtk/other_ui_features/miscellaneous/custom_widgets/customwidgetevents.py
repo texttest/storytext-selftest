@@ -1,5 +1,5 @@
 
-from gtkusecase.simulator.baseevents import SignalEvent
+from usecase.gtktoolkit.simulator.baseevents import SignalEvent
 import gtk
 
 class MyButtonEvent(SignalEvent):
