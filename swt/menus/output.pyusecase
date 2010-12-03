@@ -1,0 +1,12 @@
+
+---------- Shell '' ----------
+&File Menu :
+  Select &All	Ctrl+A
+  E&xit
+
+------------------------------
+
+'select all' event created with arguments ''
+Select All
+
+'exit' event created with arguments ''

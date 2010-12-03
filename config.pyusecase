@@ -55,9 +55,11 @@ usecase_name_chooser:USECASE_REPLAY_SCRIPT
 [end]
 
 extra_version:nouimap
+extra_version:jython
 extra_version:namechooser
 
 unsaveable_version:cover
+unsaveable_version:jython
 
 home_operating_system:none
 
