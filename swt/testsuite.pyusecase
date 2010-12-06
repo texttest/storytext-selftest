@@ -1,2 +1,8 @@
 # Test we can make use of the menus
 menus
+
+# Check we can record window closure
+close_window
+
+# Test we can handle a toolbar
+toolbar

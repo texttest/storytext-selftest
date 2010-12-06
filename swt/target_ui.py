@@ -18,8 +18,14 @@ from org.eclipse.swt.widgets import *
 
 display = Display()
 shell = Shell(display)
+
+class MyShellListener(Listener):
+    def handleEvent(self, e):
+        print "Closed!"
+
 bar = Menu(shell, SWT.BAR)
 shell.setMenuBar(bar)
+shell.addListener(SWT.Close, MyShellListener())
 fileItem = MenuItem(bar, SWT.CASCADE)
 fileItem.setText("&File")
 submenu = Menu(shell, SWT.DROP_DOWN)

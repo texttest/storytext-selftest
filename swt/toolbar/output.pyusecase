@@ -1,0 +1,21 @@
+
+---------- Shell '' ----------
+Tool Bar:
+  Item 0
+  Item 1
+  Item 2
+  Item 3
+  Item 4
+  Item 5
+  Item 6
+  Item 7
+
+------------------------------
+
+'select first item' event created with arguments ''
+Selected item 1
+
+'select fourth item' event created with arguments ''
+Selected item 4
+
+'close window' event created with arguments ''

@@ -9,5 +9,6 @@
 'select all' event created with arguments ''
 Select All
 
-'exit' event created with arguments ''
+'close window' event created with arguments ''
+Closed!
 Closed!
