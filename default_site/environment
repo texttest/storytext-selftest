@@ -1,0 +1,3 @@
+# Default to not setting it, will only be able to test one
+# of CPython/Jython
+PLATFORM_DIR:

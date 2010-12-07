@@ -1,5 +1,5 @@
 # Path to the binary.
-executable:${TEXTTEST_CHECKOUT}/bin/usecase_name_chooser
+executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/usecase_name_chooser
 
 collect_traffic:{CLEAR LIST}
 

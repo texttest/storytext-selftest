@@ -1,5 +1,6 @@
-# Path to the binary.
-executable:${TEXTTEST_CHECKOUT}/bin/pyusecase
+# Provide an extra environment variable to be able to point out
+# a different tree for the Jython-based testing
+executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/pyusecase
 
 # Mechanism for keeping site-specific setup separate
 extra_search_directory:site
