@@ -3,3 +3,6 @@
 interpreter:
 
 executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/pyusecase.bat
+
+[run_dependent_text]
+output:Ctrl\+Shift{REPLACE Shift+Ctrl}
