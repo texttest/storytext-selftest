@@ -1,4 +1,4 @@
 
 [run_dependent_text]
 errors:log4j:WARN
-errors:*sys-package-mgr*: processing new jar
+errors:\*sys-package-mgr\*: processing.*jar
