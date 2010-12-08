@@ -1,0 +1,5 @@
+# Sadly Jython has no native Windows launcher, so we have to resort to bat files
+
+interpreter:
+
+executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/pyusecase.bat
