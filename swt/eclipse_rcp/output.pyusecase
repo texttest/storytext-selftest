@@ -1,0 +1,152 @@
+
+---------- Shell 'RCP Product' ----------
+&File (cascade) :
+  Open in &New Window
+  ---
+  Open Message (undefined image)
+  Open Another Message View	Ctrl+2 (undefined image)
+  ---
+  E&xit	Ctrl+X
+  ---
+  Con&vert Line Delimiters To (cascade) :
+    &Windows
+    &Unix
+    &MacOS 9
+  ---
+  Open File&...
+&Help (cascade) :
+  &About RCP Product
+  ---
+  &Key Assist...	Shift+Ctrl+L
+
+A widget of type 'CBanner'
+
+  A widget of type 'Composite'
+
+    A widget of type 'CoolBar'
+
+      Tool Bar:
+  Tooltip u'Open Another Message View (Ctrl+2)' (undefined image)
+  Tooltip u'Open Message' (undefined image)
+
+      Tool Bar:
+  undefined image
+
+      Tool Bar:
+  Tooltip u'Next Annotation (Ctrl+.)' (drop down, undefined image)
+  Tooltip u'Previous Annotation (Ctrl+,)' (drop down, undefined image)
+
+      Tool Bar:
+  Tooltip u'Last Edit Location (Ctrl+Q)' (undefined image)
+
+A widget of type 'StatusLine'
+
+  A widget of type 'CLabel'
+
+  Tool Bar:
+  Tooltip u'Cancel Current Operation' (undefined image)
+
+  A widget of type 'Composite'
+
+    A widget of type 'ProgressIndicator'
+
+      A widget of type 'ProgressBar'
+
+      A widget of type 'ProgressBar'
+
+A widget of type 'FastViewBar$4'
+
+  Tool Bar:
+  Tooltip u'Show View as a fast view' (undefined image)
+
+  Tool Bar:
+
+A widget of type 'Composite'
+
+  A widget of type 'Composite'
+
+    Tool Bar:
+
+    A widget of type 'Composite'
+
+      A widget of type 'Composite'
+
+        A widget of type 'Composite'
+
+          A widget of type 'Composite'
+
+            'Subject:'
+
+            'This is a message about the cool Eclipse RCP!'
+
+            'From:'
+
+            A widget of type 'Link'
+
+            'Date:'
+
+            '10:34 am'
+
+          A widget of type 'Text'
+
+    Tool Bar:
+
+    A widget of type 'Composite'
+
+      A widget of type 'Composite'
+
+        A widget of type 'Tree'
+
+    A widget of type 'Composite'
+
+      A widget of type 'CTabFolder'
+
+        Tool Bar:
+  Tooltip u'View Menu' (undefined image)
+
+        ''
+
+        A widget of type 'Composite'
+
+        A widget of type 'ViewForm'
+
+          A widget of type 'Composite'
+
+          A widget of type 'Composite'
+
+          A widget of type 'Composite'
+
+          A widget of type 'Composite'
+
+          A widget of type 'Composite'
+
+    A widget of type 'Composite'
+
+      A widget of type 'Composite'
+
+    A widget of type 'CTabFolder'
+
+      Tool Bar:
+  Tooltip u'View Menu' (undefined image)
+
+      ''
+
+      A widget of type 'Composite'
+
+      A widget of type 'ViewForm'
+
+        A widget of type 'Composite'
+
+        A widget of type 'Composite'
+
+        A widget of type 'Composite'
+
+        A widget of type 'Composite'
+
+        A widget of type 'Composite'
+
+    A widget of type 'Sash'
+
+-----------------------------------------
+
+'close window' event created with arguments ''

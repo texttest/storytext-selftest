@@ -1,0 +1,8 @@
+The following new files/directories were created:
+<Test Directory>
+----workspace
+--------.metadata
+------------.log
+------------.plugins
+----------------org.eclipse.ui.workbench
+--------------------dialog_settings.xml
