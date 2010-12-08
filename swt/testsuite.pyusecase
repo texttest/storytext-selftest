@@ -6,3 +6,6 @@ close_window
 
 # Test we can handle a toolbar
 toolbar
+
+# Check descriptions when toolbar buttons have images on them
+toolbar_images
