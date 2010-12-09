@@ -3,8 +3,8 @@
 &File (cascade) :
   Open in &New Window
   ---
-  Open Message (undefined image)
-  Open Another Message View	Ctrl+2 (undefined image)
+  Open Message (Image 1)
+  Open Another Message View	Ctrl+2 (Image 2)
   ---
   E&xit	Ctrl+X
   ---
@@ -26,15 +26,15 @@ A widget of type 'CBanner'
     A widget of type 'CoolBar'
 
       Tool Bar:
-  Tooltip u'Open Another Message View (Ctrl+2)' (undefined image)
-  Tooltip u'Open Message' (undefined image)
+  Tooltip u'Open Another Message View (Ctrl+2)' (Image 2)
+  Tooltip u'Open Message' (Image 1)
 
       Tool Bar:
-  Tooltip u'Next Annotation (Ctrl+.)' (drop down, undefined image)
-  Tooltip u'Previous Annotation (Ctrl+,)' (drop down, undefined image)
+  Tooltip u'Next Annotation (Ctrl+.)' (drop down, Image 3)
+  Tooltip u'Previous Annotation (Ctrl+,)' (drop down, Image 4)
 
       Tool Bar:
-  Tooltip u'Last Edit Location (Ctrl+Q)' (undefined image)
+  Tooltip u'Last Edit Location (Ctrl+Q)' (Image 5)
 
 A widget of type 'Composite'
 
