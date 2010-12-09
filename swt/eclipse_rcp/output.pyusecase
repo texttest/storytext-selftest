@@ -19,62 +19,50 @@
   ---
   &Key Assist...	Shift+Ctrl+L
 
-A widget of type 'CBanner'
+Tool Bar:
+  Tooltip 'Open Another Message View (Ctrl+2)' (Image 2)
+  Tooltip 'Open Message' (Image 1)
 
-  A widget of type 'Composite'
+Tool Bar:
+  Tooltip 'Next Annotation (Ctrl+.)' (drop down, Image 3)
+  Tooltip 'Previous Annotation (Ctrl+,)' (drop down, Image 4)
 
-    A widget of type 'CoolBar'
+Tool Bar:
+  Tooltip 'Last Edit Location (Ctrl+Q)' (Image 5)
 
-      Tool Bar:
-  Tooltip u'Open Another Message View (Ctrl+2)' (Image 2)
-  Tooltip u'Open Message' (Image 1)
+Tree with 0 columns : 
+-> me@this.com (Image 6)
+->
+-> other@aol.com (Image 6)
+->
 
-      Tool Bar:
-  Tooltip u'Next Annotation (Ctrl+.)' (drop down, Image 3)
-  Tooltip u'Previous Annotation (Ctrl+,)' (drop down, Image 4)
+A widget of type 'Sash'
 
-      Tool Bar:
-  Tooltip u'Last Edit Location (Ctrl+Q)' (Image 5)
+TabFolder with tabs Message (cascade, Image 2) ,
 
-A widget of type 'Composite'
+'Subject:'
 
-  A widget of type 'Composite'
+'This is a message about the cool Eclipse RCP!'
 
-    A widget of type 'Composite'
+'From:'
 
-      A widget of type 'Composite'
+A widget of type 'Link'
 
-        A widget of type 'Composite'
+'Date:'
 
-          A widget of type 'Composite'
+'10:34 am'
 
-            'Subject:'
 
-            'This is a message about the cool Eclipse RCP!'
-
-            'From:'
-
-            A widget of type 'Link'
-
-            'Date:'
-
-            '10:34 am'
-
-          A widget of type 'Text'
-
-    A widget of type 'Composite'
-
-      A widget of type 'Composite'
-
-        A widget of type 'Tree'
-
-    A widget of type 'Composite'
-
-    A widget of type 'CTabFolder'
-
-      A widget of type 'ViewForm'
-
-    A widget of type 'Sash'
+========== Text ==========
+This RCP Application was generated from the PDE Plug-in Project wizard. This sample shows how to:
+- add a top-level menu and toolbar with actions
+- add keybindings to actions
+- create views that can't be closed and
+  multiple instances of the same view
+- perspectives with placeholders for new views
+- use the default about dialog
+- create a product definition
+==========================
 
 -----------------------------------------
 
