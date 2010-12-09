@@ -30,42 +30,15 @@ A widget of type 'CBanner'
   Tooltip u'Open Message' (undefined image)
 
       Tool Bar:
-  undefined image
-
-      Tool Bar:
   Tooltip u'Next Annotation (Ctrl+.)' (drop down, undefined image)
   Tooltip u'Previous Annotation (Ctrl+,)' (drop down, undefined image)
 
       Tool Bar:
   Tooltip u'Last Edit Location (Ctrl+Q)' (undefined image)
 
-A widget of type 'StatusLine'
-
-  A widget of type 'CLabel'
-
-  Tool Bar:
-  Tooltip u'Cancel Current Operation' (undefined image)
-
-  A widget of type 'Composite'
-
-    A widget of type 'ProgressIndicator'
-
-      A widget of type 'ProgressBar'
-
-      A widget of type 'ProgressBar'
-
-A widget of type 'FastViewBar$4'
-
-  Tool Bar:
-  Tooltip u'Show View as a fast view' (undefined image)
-
-  Tool Bar:
-
 A widget of type 'Composite'
 
   A widget of type 'Composite'
-
-    Tool Bar:
 
     A widget of type 'Composite'
 
@@ -89,8 +62,6 @@ A widget of type 'Composite'
 
           A widget of type 'Text'
 
-    Tool Bar:
-
     A widget of type 'Composite'
 
       A widget of type 'Composite'
@@ -99,51 +70,9 @@ A widget of type 'Composite'
 
     A widget of type 'Composite'
 
-      A widget of type 'CTabFolder'
-
-        Tool Bar:
-  Tooltip u'View Menu' (undefined image)
-
-        ''
-
-        A widget of type 'Composite'
-
-        A widget of type 'ViewForm'
-
-          A widget of type 'Composite'
-
-          A widget of type 'Composite'
-
-          A widget of type 'Composite'
-
-          A widget of type 'Composite'
-
-          A widget of type 'Composite'
-
-    A widget of type 'Composite'
-
-      A widget of type 'Composite'
-
     A widget of type 'CTabFolder'
 
-      Tool Bar:
-  Tooltip u'View Menu' (undefined image)
-
-      ''
-
-      A widget of type 'Composite'
-
       A widget of type 'ViewForm'
-
-        A widget of type 'Composite'
-
-        A widget of type 'Composite'
-
-        A widget of type 'Composite'
-
-        A widget of type 'Composite'
-
-        A widget of type 'Composite'
 
     A widget of type 'Sash'
 
