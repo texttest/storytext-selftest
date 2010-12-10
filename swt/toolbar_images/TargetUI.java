@@ -34,6 +34,7 @@ public static void main (String [] args) {
 		int style = i % 3 == 2 ? SWT.DROP_DOWN : SWT.PUSH;
 		ToolItem item = new ToolItem (toolBar, style);
 		item.setImage (image);
+                item.setToolTipText("Item Number " + i);
 	}
 	toolBar.pack ();
 	shell.open ();
