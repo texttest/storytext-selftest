@@ -1,6 +1,6 @@
 buttons
 
-# Test we can handle entry fields for tkinter
+# Test we can handle entry fields for tkinter. Also check apostrophes in labels
 entry_field
 
 # Test we can log and replay menus, and log changes to Text widgets

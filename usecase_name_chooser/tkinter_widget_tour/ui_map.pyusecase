@@ -7,7 +7,7 @@
 [Type=Entry]
 <KeyPress>,<KeyRelease> = set text to
 
-[Label=something]
+[Label=Planner's Workspace]
 <Enter>,<Button-1>,<ButtonRelease-1> = click something
 
 [Name=another label]

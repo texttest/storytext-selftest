@@ -7,7 +7,7 @@ Viewing table with 8 rows and 4 columns.
 'Button' | 'Name=hello button' | 'clicked' | Text entry
 'Label' | 'Name=hello label' | 'left-clicked' | Text entry
 'Entry' | 'Type=Entry' | 'edited text' | Text entry
-'Button' | 'Label=something' | 'clicked' | Text entry
+'Button' | 'Label=Planner's Workspace' | 'clicked' | Text entry
 'Label' | 'Name=another label' | 'right-clicked' | Text entry
 'Listbox' | 'Name=the list box' | 'select item' | Text entry
 'Tk' | 'Title=tk' | 'closed' | Text entry
@@ -53,7 +53,7 @@ click on hello label
 ?
 =================================
 
-'enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button 'Label=something' =' event created with arguments 'click something'
+'enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button 'Label=Planner's Workspace' =' event created with arguments 'click something'
 Edited 'GtkEntry' Text entry (set to 'click something')
 
 ========== GtkTextView ==========

@@ -35,7 +35,7 @@ class App:
         #case) a bound method, which will be called when the button is clicked.
 		
 		self.button = Button(f)
-                self.button["text"] = "print"
+                self.button["text"] = "application's print" # Just make sure apostrophes don't screw things up :)
                 self.button["command"] = self.print_this
 		self.button.pack(side=BOTTOM,padx=10,pady=10)
 

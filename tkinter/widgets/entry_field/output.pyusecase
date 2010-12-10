@@ -2,7 +2,7 @@
 ---------- Window 'Tkwidgets application' ----------
 Text entry (set to 'your choice')
 Button 'exit'
-Button 'print'
+Button 'application's print'
 ----------------------------------------------------
 
 'set choice to' event created with arguments 'hello world!'

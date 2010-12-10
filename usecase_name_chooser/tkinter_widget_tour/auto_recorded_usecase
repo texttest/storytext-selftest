@@ -1,7 +1,7 @@
 Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Name=hello button'
 Auto.Label.<Button-1>.'Name=hello label'
 Auto.Entry.<KeyPress>,<KeyRelease>.'Type=Entry' hello
-Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=something'
+Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=Planner<APOSTROPHE>s Workspace'
 Auto.Label.<Button-3>.'Name=another label'
 Auto.Listbox.<<ListboxSelect>>.'Name=the list box' fourth row
 Auto.Tk.WM_DELETE_WINDOW.'Title=tk'
