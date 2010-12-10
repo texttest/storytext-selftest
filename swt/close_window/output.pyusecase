@@ -1,8 +1,9 @@
 
 ---------- Shell '' ----------
-&File (cascade) :
-  Select &All	Ctrl+A
-  E&xit
+Menu Bar:
+  &File (cascade) :
+    Select &All	Ctrl+A
+    E&xit
 
 ------------------------------
 

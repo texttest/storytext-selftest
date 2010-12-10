@@ -1,23 +1,24 @@
 
 ---------- Shell 'RCP Product' ----------
-&File (cascade) :
-  Open in &New Window
-  ---
-  Open Message (Image 1)
-  Open Another Message View	Ctrl+2 (Image 2)
-  ---
-  E&xit	Ctrl+X
-  ---
-  Con&vert Line Delimiters To (cascade) :
-    &Windows
-    &Unix
-    &MacOS 9
-  ---
-  Open File&...
-&Help (cascade) :
-  &About RCP Product
-  ---
-  &Key Assist...	Shift+Ctrl+L
+Menu Bar:
+  &File (cascade) :
+    Open in &New Window
+    ---
+    Open Message (Image 1)
+    Open Another Message View	Ctrl+2 (Image 2)
+    ---
+    E&xit	Ctrl+X
+    ---
+    Con&vert Line Delimiters To (cascade) :
+      &Windows
+      &Unix
+      &MacOS 9
+    ---
+    Open File&...
+  &Help (cascade) :
+    &About RCP Product
+    ---
+    &Key Assist...	Shift+Ctrl+L
 
 Tool Bar:
   Tooltip 'Open Another Message View (Ctrl+2)' (Image 2)
@@ -36,7 +37,7 @@ Tree with 0 columns :
 -> other@aol.com (Image 6)
 ->
 
-A widget of type 'Sash'
+--------------- Vertical sash ---------------
 
 TabFolder with tabs Message (cascade, Image 2) ,
 
@@ -46,7 +47,7 @@ TabFolder with tabs Message (cascade, Image 2) ,
 
 'From:'
 
-A widget of type 'Link'
+Link '<a>nicole@mail.org</a>'
 
 'Date:'
 
