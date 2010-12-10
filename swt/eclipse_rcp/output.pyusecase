@@ -20,16 +20,17 @@ Menu Bar:
     ---
     &Key Assist...	Shift+Ctrl+L
 
-Tool Bar:
-  Tooltip 'Open Another Message View (Ctrl+2)' (Image 2)
-  Tooltip 'Open Message' (Image 1)
+Cool Bar:
+  drop down Tool Bar:
+    Tooltip 'Open Another Message View (Ctrl+2)' (Image 2)
+    Tooltip 'Open Message' (Image 1)
 
-Tool Bar:
-  Tooltip 'Next Annotation (Ctrl+.)' (drop down, Image 3)
-  Tooltip 'Previous Annotation (Ctrl+,)' (drop down, Image 4)
+  drop down Tool Bar:
+    Tooltip 'Next Annotation (Ctrl+.)' (drop down, Image 3)
+    Tooltip 'Previous Annotation (Ctrl+,)' (drop down, Image 4)
 
-Tool Bar:
-  Tooltip 'Last Edit Location (Ctrl+Q)' (Image 5)
+  drop down Tool Bar:
+    Tooltip 'Last Edit Location (Ctrl+Q)' (Image 5)
 
 Tree with 0 columns : 
 -> me@this.com (Image 6)
