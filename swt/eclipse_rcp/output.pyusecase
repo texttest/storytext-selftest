@@ -26,8 +26,8 @@ Cool Bar:
     Tooltip 'Open Message' (Image 1)
 
   drop down Tool Bar:
-    Tooltip 'Next Annotation (Ctrl+.)' (drop down, Image 3)
-    Tooltip 'Previous Annotation (Ctrl+,)' (drop down, Image 4)
+    Tooltip 'Next Annotation (Ctrl+.)' (drop down, Image 3, greyed out)
+    Tooltip 'Previous Annotation (Ctrl+,)' (drop down, Image 4, greyed out)
 
   drop down Tool Bar:
     Tooltip 'Last Edit Location (Ctrl+Q)' (Image 5)
