@@ -20,20 +20,24 @@ import org.eclipse.swt.widgets.*;
 
 public class TargetUI {
 
-public static void main (String [] args) {
-	Display display = new Display();
-	Image image = new Image (display, 16, 16);
+    private static Image makeImage(Display display) {
+        Image image = new Image (display, 16, 16);
 	Color color = display.getSystemColor (SWT.COLOR_RED);
 	GC gc = new GC (image);
 	gc.setBackground (color);
 	gc.fillRectangle (image.getBounds ());
 	gc.dispose ();
+        return image;
+    }
+
+    public static void main (String [] args) {
+	Display display = new Display();
 	Shell shell = new Shell (display);
 	ToolBar toolBar = new ToolBar (shell, SWT.FLAT | SWT.BORDER);
 	for (int i=0; i<12; i++) {
 		int style = i % 3 == 2 ? SWT.DROP_DOWN : SWT.PUSH;
 		ToolItem item = new ToolItem (toolBar, style);
-		item.setImage (image);
+		item.setImage (makeImage(display));
                 item.setToolTipText("Item Number " + i);
 	}
 	toolBar.pack ();
@@ -41,8 +45,7 @@ public static void main (String [] args) {
 	while (!shell.isDisposed()) {
 		if (!display.readAndDispatch ()) display.sleep ();
 	}
-	image.dispose ();
 	display.dispose ();
-}
+    }
 
 } 
