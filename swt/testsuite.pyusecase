@@ -10,5 +10,8 @@ toolbar
 # Check descriptions when toolbar buttons have images on them
 toolbar_images
 
+# Make sure we can describe a tree, including changes to it
+tree
+
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp

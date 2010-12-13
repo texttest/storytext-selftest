@@ -1,0 +1,24 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade) :
+    New TreeItem
+
+Tree with 0 columns : 
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+
+------------------------------
+
+'add to tree' event created with arguments ''
+
+Tree with 0 columns : 
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+
+'close window' event created with arguments ''
