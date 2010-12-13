@@ -39,9 +39,6 @@ label = Label(composite, SWT.NONE | SWT.BORDER)
 label.setText("Name")
 label.setVisible(False)
 text = Text(composite, SWT.NONE)
-label2 = Label(composite, SWT.NONE | SWT.BORDER)
-label2.setText("Address")
-text2 = Text(composite, SWT.NONE)
 composite.setVisible(False)
 
 class ShowListener(Listener):

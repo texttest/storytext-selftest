@@ -9,11 +9,14 @@ Menu Bar:
 'show all' event created with arguments ''
 New widgets have become visible: describing common parent :
 
-'Name'     ========== Text ==========
-           
-           ==========================
-'Address'  ========== Text ==========
-           
-           ==========================
+'Name'  ========== Text ==========
+        
+        ==========================
+
+'set name to' event created with arguments 'John'
+Updated Text Field
+========== Text ==========
+John
+==========================
 
 'close window' event created with arguments ''
