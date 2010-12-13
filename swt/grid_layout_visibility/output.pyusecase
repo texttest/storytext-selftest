@@ -1,0 +1,19 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade) :
+    Show All
+
+------------------------------
+
+'show all' event created with arguments ''
+New widgets have become visible: describing common parent :
+
+'Name'     ========== Text ==========
+           
+           ==========================
+'Address'  ========== Text ==========
+           
+           ==========================
+
+'close window' event created with arguments ''

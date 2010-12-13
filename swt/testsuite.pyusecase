@@ -13,5 +13,8 @@ toolbar_images
 # Make sure we can describe a tree, including changes to it
 tree
 
+# Test for things appearing, and also grid layout description
+grid_layout_visibility
+
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp
