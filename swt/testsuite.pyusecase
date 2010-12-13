@@ -14,7 +14,10 @@ toolbar_images
 tree
 
 # Test for things appearing, and also grid layout description
-grid_layout_visibility
+enter_text
+
+# Test for things appearing during the run
+visibility
 
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp

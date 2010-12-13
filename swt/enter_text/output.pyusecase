@@ -1,0 +1,31 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade) :
+    Describe
+
+'Name'  ========== Text ==========
+        
+        ==========================
+'City'  ========== Text ==========
+        
+        ==========================
+
+------------------------------
+
+'set name to' event created with arguments 'John'
+Updated text1
+========== Text ==========
+John
+==========================
+
+'set city to' event created with arguments 'London'
+Updated text2
+========== Text ==========
+London
+==========================
+
+'describe choices' event created with arguments ''
+You are John and you live in London
+
+'close window' event created with arguments ''
