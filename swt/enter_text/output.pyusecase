@@ -14,13 +14,13 @@ Menu Bar:
 ------------------------------
 
 'set name to' event created with arguments 'John'
-Updated text1
+Updated Name Field
 ========== Text ==========
 John
 ==========================
 
 'set city to' event created with arguments 'London'
-Updated text2
+Updated City Field
 ========== Text ==========
 London
 ==========================
