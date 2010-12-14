@@ -1,0 +1,4 @@
+select Item 2
+activate Item 4
+activate Item 6
+close window
