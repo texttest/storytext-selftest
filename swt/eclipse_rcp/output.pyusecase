@@ -46,7 +46,6 @@ TabFolder with tabs Message (cascade, Image 2) ,
 'From:' (bold)     Link '<a>nicole@mail.org</a>'                    
 'Date:' (bold)     '10:34 am'
 
-
 ========== Text ==========
 This RCP Application was generated from the PDE Plug-in Project wizard. This sample shows how to:
 - add a top-level menu and toolbar with actions

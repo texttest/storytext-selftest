@@ -19,5 +19,8 @@ enter_text
 # Test for things appearing during the run
 visibility
 
+# Test for CTabFolder widgets
+tabfolder
+
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp
