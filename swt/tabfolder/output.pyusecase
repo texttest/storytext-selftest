@@ -20,4 +20,12 @@ Updated TabFolder with tabs Item 0 (cascade) , New (cascade) ,
 Content for Item 0
 ==========================
 
+'close first tab' event created with arguments ''
+
+Updated TabFolder with tabs New (cascade) ,
+
+========== Text ==========
+Content for Item 1
+==========================
+
 'close window' event created with arguments ''
