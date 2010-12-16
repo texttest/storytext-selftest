@@ -1,0 +1,11 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade) :
+    Show All
+
+------------------------------
+
+'show all' event created with arguments ''
+
+'close window' event created with arguments ''

@@ -22,6 +22,10 @@ enter_text
 # Test for things appearing during the run
 visibility
 
+# It's possible for things to be shown and then immediately hidden and disposed.
+# Don't be fooled!
+show_and_dispose
+
 # Test for CTabFolder widgets
 tabfolder
 
