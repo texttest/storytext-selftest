@@ -32,13 +32,15 @@ item = MenuItem(submenu, SWT.PUSH)
 item.setText("Show All")
 
 composite = Composite(shell, SWT.NO_RADIO_GROUP)
-layout = GridLayout(2, False)
-composite.setLayout(layout)
 
-label = Label(composite, SWT.NONE | SWT.BORDER)
+# Extra level, just to make sure we can handle parent-of-parent checks
+subComp = Composite(composite, SWT.NONE)
+layout = GridLayout(2, False)
+subComp.setLayout(layout)
+label = Label(subComp, SWT.NONE | SWT.BORDER)
 label.setText("Name")
 label.setVisible(False)
-text = Text(composite, SWT.NONE)
+text = Text(subComp, SWT.NONE)
 composite.setVisible(False)
 
 class ShowListener(Listener):
