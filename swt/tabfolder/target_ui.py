@@ -18,6 +18,16 @@ from org.eclipse.swt import *
 from org.eclipse.swt.widgets import *
 from org.eclipse.swt.layout import *
 from org.eclipse.swt.custom import *
+from org.eclipse.swt.graphics import *
+
+def makeImage(display, size):
+    image = Image(display, size, size)
+    color = display.getSystemColor(SWT.COLOR_RED)
+    gc = GC(image)
+    gc.setBackground(color)
+    gc.fillRectangle(image.getBounds())
+    gc.dispose()
+    return image
 
 display = Display()
 shell = Shell(display)
@@ -38,13 +48,20 @@ for i in range(2):
     item.setText("Item " + str(i))
     text = Text(folder, SWT.MULTI)
     text.setText("Content for Item " + str(i))
+    item.setImage(makeImage(display, (i + 1) * 8))
     item.setControl(text)
 	
 class RenameListener(Listener):
     def handleEvent(self, e):
         item.setText("New")
+
+class DisposeListener(Listener):
+    def handleEvent(self, e):
+        if isinstance(e.widget, CTabItem):
+            e.widget.getImage().dispose()
         
 menuItem.addListener(SWT.Selection, RenameListener())
+display.addFilter(SWT.Dispose, DisposeListener())
 
 shell.pack()
 shell.open()
