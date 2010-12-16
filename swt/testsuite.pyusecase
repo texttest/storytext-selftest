@@ -25,5 +25,8 @@ visibility
 # Test for CTabFolder widgets
 tabfolder
 
+# Test for browser widgets
+browser
+
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp
