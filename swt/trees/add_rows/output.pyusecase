@@ -5,7 +5,7 @@ Menu Bar:
     New TreeItem
 
 Tree with 0 columns : 
--> Initial - 0
+-> Initial - 0 (selected)
 -> Initial - 1
 -> Initial - 2
 -> Initial - 3
@@ -15,7 +15,7 @@ Tree with 0 columns :
 'add to tree' event created with arguments ''
 
 Updated Tree with 0 columns : 
--> Initial - 0
+-> Initial - 0 (selected)
 -> Initial - 1
 -> Initial - 2
 -> Initial - 3

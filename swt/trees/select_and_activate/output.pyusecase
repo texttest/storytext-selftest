@@ -2,7 +2,7 @@ False TreeItem {Item 0}
 
 ---------- Shell '' ----------
 Tree with 0 columns : 
--> Item 0
+-> Item 0 (selected)
 -> Item 1
 -> Item 2
 -> Item 3
@@ -20,12 +20,54 @@ Tree with 0 columns :
 'select' event created with arguments 'Item 2'
 False TreeItem {Item 2}
 
+Updated Tree with 0 columns : 
+-> Item 0
+-> Item 1
+-> Item 2 (selected)
+-> Item 3
+-> Item 4
+-> Item 5
+-> Item 6
+-> Item 7
+-> Item 8
+-> Item 9
+-> Item 10
+-> Item 11
+
 'activate' event created with arguments 'Item 4'
 False TreeItem {Item 4}
 True TreeItem {Item 4}
 
+Updated Tree with 0 columns : 
+-> Item 0
+-> Item 1
+-> Item 2
+-> Item 3
+-> Item 4 (selected)
+-> Item 5
+-> Item 6
+-> Item 7
+-> Item 8
+-> Item 9
+-> Item 10
+-> Item 11
+
 'activate' event created with arguments 'Item 6'
 False TreeItem {Item 6}
 True TreeItem {Item 6}
+
+Updated Tree with 0 columns : 
+-> Item 0
+-> Item 1
+-> Item 2
+-> Item 3
+-> Item 4
+-> Item 5
+-> Item 6 (selected)
+-> Item 7
+-> Item 8
+-> Item 9
+-> Item 10
+-> Item 11
 
 'close window' event created with arguments ''
