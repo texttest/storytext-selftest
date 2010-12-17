@@ -1,5 +1,6 @@
 expand Root 0
 expand Branch 0.1
+select Leaf 0.1.0
 expand Root 1
 collapse Root 0
 close window
