@@ -19,13 +19,6 @@ tree_select
 # Test for things appearing, and also grid layout description
 enter_text
 
-# Test for things appearing during the run
-visibility
-
-# It's possible for things to be shown and then immediately hidden and disposed.
-# Don't be fooled!
-show_and_dispose
-
 # Test for CTabFolder widgets
 tabfolder
 
@@ -34,3 +27,6 @@ browser
 
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp
+
+# Test for widgets that become visible during the run
+visibility
