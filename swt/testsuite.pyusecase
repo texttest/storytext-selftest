@@ -10,12 +10,6 @@ toolbar
 # Check descriptions when toolbar buttons have images on them
 toolbar_images
 
-# Make sure we can describe a tree, including changes to it
-tree
-
-# Test for CTabFolder widgets
-tree_select
-
 # Test for things appearing, and also grid layout description
 enter_text
 
@@ -27,6 +21,9 @@ browser
 
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp
+
+# Stuff to do with trees...
+trees
 
 # Test for widgets that become visible during the run
 visibility

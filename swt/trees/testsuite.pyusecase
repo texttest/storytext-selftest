@@ -1,0 +1,8 @@
+# Make sure we can describe a tree, including changes to it
+add_rows
+
+# Expand the rows and show the hierarchy
+expand_rows
+
+# Single clicking and double-clicking on TreeItems
+select_and_activate

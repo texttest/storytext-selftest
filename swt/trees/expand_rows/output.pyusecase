@@ -1,0 +1,30 @@
+
+---------- Shell '' ----------
+Tree with 0 columns : 
+-> Root 0
+-> Root 1
+
+------------------------------
+
+'expand' event created with arguments 'Root 0'
+
+Updated Tree with 0 columns : 
+-> Root 0
+->   Branch 0.0
+->   Branch 0.1
+-> Root 1
+
+'expand' event created with arguments 'No Such Node'
+ERROR: Could not find item labelled 'No Such Node' in tree.
+
+'expand' event created with arguments 'Branch 0.1'
+
+Updated Tree with 0 columns : 
+-> Root 0
+->   Branch 0.0
+->   Branch 0.1
+->     Leaf 0.1.0
+->     Leaf 0.1.1
+-> Root 1
+
+'close window' event created with arguments ''
