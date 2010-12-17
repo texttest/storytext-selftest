@@ -1,4 +1,6 @@
 expand Root 0
 expand No Such Node
 expand Branch 0.1
+expand Root 1
+collapse Root 0
 close window

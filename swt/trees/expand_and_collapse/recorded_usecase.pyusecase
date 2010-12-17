@@ -1,3 +1,5 @@
 expand Root 0
 expand Branch 0.1
+expand Root 1
+collapse Root 0
 close window
