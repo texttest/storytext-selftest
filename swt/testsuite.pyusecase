@@ -22,6 +22,9 @@ expandbar
 # Test for things appearing, and also grid layout description
 enter_text
 
+# Test for descriptions of various layouts
+layouts
+
 # Test for CTabFolder widgets
 tabfolder
 

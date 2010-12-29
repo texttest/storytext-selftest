@@ -40,8 +40,8 @@ Tree with 0 columns :
 
 TabFolder with tabs Message (cascade, Image 2, selected) ,
 
-'Subject:' (bold)  'This is a message about the cool Eclipse RCP!'  
-'From:' (bold)     Link '<a>nicole@mail.org</a>'                    
+'Subject:' (bold)  'This is a message about the cool Eclipse RCP!'
+'From:' (bold)     Link '<a>nicole@mail.org</a>'
 'Date:' (bold)     '10:34 am'
 
 ========== Text ==========
