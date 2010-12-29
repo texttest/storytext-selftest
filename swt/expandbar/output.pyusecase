@@ -1,0 +1,13 @@
+
+---------- Shell 'ExpandBar Example' ----------
+Expand Bar:
+  What is your favorite icon (Image 1)
+    '' (Image 2)  'SWT.ICON_ERROR'        
+    '' (Image 3)  'SWT.ICON_INFORMATION'  
+    '' (Image 1)  'SWT.ICON_QUESTION'
+
+  What is your favorite button (Image 1)
+
+-----------------------------------------------
+
+'close window' event created with arguments ''
