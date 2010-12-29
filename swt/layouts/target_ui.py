@@ -54,11 +54,11 @@ layout.topControl = page0
 # create the second page's content	
 page1 = Composite(contentPanel, SWT.NONE)
 page1.setLayout(RowLayout())
-button = Button(page1, SWT.NONE)
-button.setText("Button on page 2")
-button.pack()
+text = Text(page1, SWT.NONE)
+text.setText("Text on page 2")
+text.pack()
 contentPanel.layout()
-button.setVisible(True)
+text.setVisible(True)
 page1.setVisible(True)
 
 # create the button that will switch between the pages
@@ -79,6 +79,7 @@ pageButton.addListener(SWT.Selection, FlipListener())
 shell.open()
 while not shell.isDisposed():
     if not display.readAndDispatch():
+        text.setText("Something else")
         display.sleep()
 
 display.dispose()
