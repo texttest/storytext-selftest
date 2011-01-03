@@ -1,0 +1,22 @@
+
+---------- Window 'None' ----------
+Focus widget is 'hi - this button opens the dialog'
+Button 'hi - this button opens the dialog'
+-----------------------------------
+
+'open dialog' event created with arguments ''
+
+---------- Dialog 'The Dialog Title' ----------
+Focus widget is 'GtkEntry'
+'Enter some text'
+Text entry
+---------------
+Button 'Close'
+-----------------------------------------------
+
+'enter text' event created with arguments 'Hello World'
+Edited 'GtkEntry' Text entry (set to 'Hello World')
+
+'close the dialog' event created with arguments ''
+
+'quit' event created with arguments ''

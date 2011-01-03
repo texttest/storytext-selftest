@@ -3,3 +3,6 @@ window_hidden
 
 # gtk.Dialog.run on a dialog with checkbuttons has been known to cause problems...
 dialog_run_checkbutton
+
+# gtk.Dialog.run on a dialog with entries has been known to cause problems...
+dialog_run_entry

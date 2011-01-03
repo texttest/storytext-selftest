@@ -1,0 +1,4 @@
+open dialog
+enter text Hello World
+close the dialog
+quit
