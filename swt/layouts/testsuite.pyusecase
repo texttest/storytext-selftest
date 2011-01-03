@@ -1,0 +1,9 @@
+# Test for things appearing, and also grid layout description
+text_in_grid
+
+# Test for StackLayout (notably that changes to widgets that are not the top of the stack
+# don't get recorded) and also for a grid done with RowLayout
+rows_in_stack
+
+# Test for FormLayout and also monitoring of widgets added lower down a stack
+stack_in_form

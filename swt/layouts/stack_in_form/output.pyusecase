@@ -1,0 +1,23 @@
+
+---------- Shell '' ----------
+'First Page'
+
+Button Push
+
+------------------------------
+
+'change page' event created with arguments ''
+New widgets have become visible: describing common parent :
+
+========== Text ==========
+Text on page 2
+==========================
+
+'set text to' event created with arguments 'New Text'
+
+Updated Text Field
+========== Text ==========
+New Text
+==========================
+
+'close window' event created with arguments ''

@@ -19,12 +19,6 @@ toolbar_images
 # Test we can handle an expandbar
 expandbar
 
-# Test for things appearing, and also grid layout description
-enter_text
-
-# Test for descriptions of various layouts
-layouts
-
 # Test for CTabFolder widgets
 tabfolder
 
@@ -39,3 +33,6 @@ trees
 
 # Test for widgets that become visible during the run
 visibility
+
+# Tests for various layouts
+layouts
