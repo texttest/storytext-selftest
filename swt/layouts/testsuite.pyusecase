@@ -10,3 +10,6 @@ stack_in_form
 
 # Test for grid layouts spanning several columns
 span_columns
+
+# Test for grid output when it's too wide to be easily read horizontally
+wide_grid
