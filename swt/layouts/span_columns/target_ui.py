@@ -31,7 +31,12 @@ header.setText("Your details")
 gridData = GridData()
 gridData.horizontalSpan = 2
 header.setLayoutData(gridData)
- 
+separator =  Label(composite, SWT.SEPARATOR)
+gridData = GridData()
+gridData.horizontalSpan = 2
+separator.setLayoutData(gridData)
+
+header.setText("Your details")
 label = Label(composite, SWT.NONE)
 label.setText("Name")
 text = Text(composite, SWT.NONE)
