@@ -1,5 +1,9 @@
 
 ---------- Shell 'ExpandBar Example' ----------
+Menu Bar:
+  &File (cascade) :
+    New ExpandItem
+
 Expand Bar:
   What is your favorite icon (Image 1)
     '' (Image 2)  'SWT.ICON_ERROR'
@@ -9,5 +13,17 @@ Expand Bar:
   What is your favorite button (Image 1)
 
 -----------------------------------------------
+
+'add row' event created with arguments ''
+
+Updated Expand Bar:
+  What is your favorite icon (Image 1)
+    '' (Image 2)  'SWT.ICON_ERROR'
+    '' (Image 3)  'SWT.ICON_INFORMATION'
+    '' (Image 1)  'SWT.ICON_QUESTION'
+
+  What is your favorite button (Image 1)
+  New Question (Image 1)
+    Button Button New
 
 'close window' event created with arguments ''

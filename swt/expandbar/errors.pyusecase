@@ -1,0 +1,4 @@
+log4j:WARN No appenders could be found for logger (org.eclipse.swtbot.swt.finder.widgets.SWTBotMenu).
+log4j:WARN Please initialize the log4j system properly.
+
+(SWT:5716): Gtk-CRITICAL **: gtk_widget_map: assertion `GTK_WIDGET_VISIBLE (widget)' failed

@@ -6,6 +6,16 @@ shell = Shell()
 display = shell.getDisplay()
 shell.setLayout(FillLayout())
 shell.setText("ExpandBar Example")
+
+menubar = Menu(shell, SWT.BAR)
+shell.setMenuBar(menubar)
+fileItem = MenuItem(menubar, SWT.CASCADE)
+fileItem.setText("&File")
+submenu = Menu(shell, SWT.DROP_DOWN)
+fileItem.setMenu(submenu)
+item = MenuItem(submenu, SWT.PUSH)
+item.setText("New ExpandItem")
+
 bar = ExpandBar(shell, SWT.V_SCROLL)
 image = display.getSystemImage(SWT.ICON_QUESTION)
 
@@ -27,7 +37,7 @@ label = Label(composite, SWT.NONE)
 label.setImage(display.getSystemImage(SWT.ICON_QUESTION))
 label = Label(composite, SWT.NONE)
 label.setText("SWT.ICON_QUESTION")
-item1 = ExpandItem(bar, SWT.NONE, 0)
+item1 = ExpandItem(bar, SWT.NONE)
 item1.setText("What is your favorite icon")
 item1.setHeight(composite.computeSize(SWT.DEFAULT, SWT.DEFAULT).y)
 item1.setControl(composite)
@@ -44,14 +54,29 @@ button = Button(composite, SWT.PUSH)
 button.setText("Button1")
 button = Button(composite, SWT.PUSH)
 button.setText("Button2")
-item0 = ExpandItem(bar, SWT.NONE, 1)
+item0 = ExpandItem(bar, SWT.NONE)
 item0.setText("What is your favorite button")
 item0.setHeight(composite.computeSize(SWT.DEFAULT, SWT.DEFAULT).y)
 item0.setControl(composite)
 item0.setImage(image)
 
+        
+class AddListener(Listener):
+    def handleEvent(self, e):
+        item2 = ExpandItem(bar, SWT.NONE)
+        button = Button(bar, SWT.PUSH)
+        button.setText("Button New")
+        item2.setText("New Question")
+        size = button.computeSize(SWT.DEFAULT, SWT.DEFAULT)
+        item2.setHeight(size.y)
+        item2.setControl(button)
+        item2.setImage(image)
+        item2.setExpanded(True)
+        
+item.addListener(SWT.Selection, AddListener())
+
 bar.setSpacing(8)
-shell.setSize(400, 350)
+shell.setSize(400, 550)
 shell.open()
 while not shell.isDisposed():
     if not display.readAndDispatch():
