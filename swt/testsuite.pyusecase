@@ -7,9 +7,6 @@ menus
 # Check we can record window closure
 close_window
 
-# Test we can handle a confirmation dialog when closing a window
-closure_confirm
-
 # Test we can handle a toolbar
 toolbar
 
@@ -36,3 +33,6 @@ visibility
 
 # Tests for various layouts
 layouts
+
+# Tests for various dialogs, or shells as they're known in SWT
+dialogs

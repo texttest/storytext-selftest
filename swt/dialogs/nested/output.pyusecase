@@ -1,0 +1,36 @@
+
+---------- Shell 'Main Window' ----------
+Button 'Open a dialog'
+
+-----------------------------------------
+
+'open first dialog' event created with arguments ''
+
+---------- Shell 'First Dialog' ----------
+========== Text ==========
+
+==========================
+
+Button 'Open another dialog'
+
+------------------------------------------
+
+'enter text' event created with arguments 'Hello'
+
+Updated Text Field
+========== Text ==========
+Hello
+==========================
+
+'open second dialog' event created with arguments ''
+
+---------- Shell 'Second Dialog' ----------
+Button 'Close'
+
+-------------------------------------------
+
+'close second dialog' event created with arguments ''
+
+'close first dialog' event created with arguments ''
+
+'close window' event created with arguments ''

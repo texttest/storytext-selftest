@@ -1,0 +1,6 @@
+open first dialog
+enter text Hello
+open second dialog
+close second dialog
+close first dialog
+close window
