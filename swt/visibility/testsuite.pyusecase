@@ -4,6 +4,9 @@ parent_and_child
 # Two children of the same parent become visible at the same time : describe the parent once
 siblings
 
+# Describe a Canvas and its repainting
+canvas
+
 # It's possible for things to be shown and then immediately hidden and disposed.
 # Don't be fooled!
 show_and_dispose

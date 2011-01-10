@@ -1,0 +1,16 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade) :
+    Change Colour
+
+Canvas 1
+
+------------------------------
+
+'change colour' event created with arguments ''
+Widgets have been repainted: describing common parent :
+
+Canvas 1
+
+'close window' event created with arguments ''
