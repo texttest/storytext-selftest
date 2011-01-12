@@ -1,0 +1,22 @@
+
+---------- Shell '' ----------
+Tree with 0 columns : 
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+
+------------------------------
+
+Waiting for application event 'row to be added' to occur.
+
+Updated Tree with 0 columns : 
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+
+Expected application event 'row to be added' occurred, proceeding.
+
+'close window' event created with arguments ''

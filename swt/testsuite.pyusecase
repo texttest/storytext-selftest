@@ -22,6 +22,9 @@ tabfolder
 # Test for browser widgets
 browser
 
+# Make sure we can describe a tree, including changes to it
+appevent
+
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp
 
