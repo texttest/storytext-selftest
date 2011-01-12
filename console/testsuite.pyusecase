@@ -19,6 +19,9 @@ subsequent_wait
 # Handle events that have already occurred
 appevent_already_happened
 
+# Handle events that have occur several times
+appevent_repeats
+
 # Checkapplication events override each other correctly
 override_appevents
 
