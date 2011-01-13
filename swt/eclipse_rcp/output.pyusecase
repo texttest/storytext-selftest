@@ -59,4 +59,13 @@ This RCP Application was generated from the PDE Plug-in Project wizard. This sam
 
 'close message tab' event created with arguments ''
 
+'expand account' event created with arguments 'me@this.com'
+
+Updated Tree with 0 columns : 
+-> me@this.com (Image 6)
+->   Inbox (Image 7)
+->   Drafts (Image 7)
+->   Sent (Image 7)
+-> other@aol.com (Image 6)
+
 'close window' event created with arguments ''
