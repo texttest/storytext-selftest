@@ -1,0 +1,30 @@
+The following lists the SWT widget types and the associated event types on them which 
+PyUseCase trunk is currently capable of recording and replaying. Any type derived from the listed
+types is also supported.
+
+org.eclipse.swt.custom.CTabItem         : Dispose
+org.eclipse.swt.widgets.Button          : Selection
+org.eclipse.swt.widgets.MenuItem        : Selection
+org.eclipse.swt.widgets.Shell           : Close
+org.eclipse.swt.widgets.Text            : Modify
+org.eclipse.swt.widgets.ToolItem        : Selection
+org.eclipse.swt.widgets.Tree            : Collapse , DefaultSelection , Expand , Selection
+
+The following lists the SWT widget types whose status and changes PyUseCase trunk is 
+currently capable of monitoring and logging. Any type derived from the listed types 
+is also supported but will only have features of the listed type described.
+
+org.eclipse.swt.browser.Browser
+org.eclipse.swt.custom.CTabFolder
+org.eclipse.swt.widgets.Button
+org.eclipse.swt.widgets.Canvas
+org.eclipse.swt.widgets.Composite
+org.eclipse.swt.widgets.CoolBar
+org.eclipse.swt.widgets.ExpandBar
+org.eclipse.swt.widgets.Label
+org.eclipse.swt.widgets.Link
+org.eclipse.swt.widgets.Sash
+org.eclipse.swt.widgets.Shell
+org.eclipse.swt.widgets.Text
+org.eclipse.swt.widgets.ToolBar
+org.eclipse.swt.widgets.Tree

@@ -39,3 +39,6 @@ layouts
 
 # Tests for various dialogs, or shells as they're known in SWT
 dialogs
+
+# Documentation output for SWT
+documentation

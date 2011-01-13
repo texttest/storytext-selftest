@@ -1,0 +1,5 @@
+# Command line output for which widget types are supported
+supported_description
+
+# HTML output for which widget types are supported
+supported_description_html
