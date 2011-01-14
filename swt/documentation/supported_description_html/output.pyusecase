@@ -28,6 +28,7 @@ is also supported but will only have features of the listed type described.
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/ExpandBar.html>org.eclipse.swt.widgets.ExpandBar</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Label.html>org.eclipse.swt.widgets.Label</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Link.html>org.eclipse.swt.widgets.Link</a>
+<li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Menu.html>org.eclipse.swt.widgets.Menu</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Sash.html>org.eclipse.swt.widgets.Sash</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Shell.html>org.eclipse.swt.widgets.Shell</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Text.html>org.eclipse.swt.widgets.Text</a>

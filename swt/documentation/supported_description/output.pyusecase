@@ -23,6 +23,7 @@ org.eclipse.swt.widgets.CoolBar
 org.eclipse.swt.widgets.ExpandBar
 org.eclipse.swt.widgets.Label
 org.eclipse.swt.widgets.Link
+org.eclipse.swt.widgets.Menu
 org.eclipse.swt.widgets.Sash
 org.eclipse.swt.widgets.Shell
 org.eclipse.swt.widgets.Text
