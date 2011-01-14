@@ -22,7 +22,7 @@ display = Display()
 shell = Shell(display)
 shell.setLayout(FillLayout())
 
-tree = Tree(shell, SWT.BORDER)
+tree = Tree(shell, SWT.BORDER | SWT.MULTI)
 for i in range(2):
     iItem = TreeItem(tree, 0)
     iItem.setText("Root " + str(i))

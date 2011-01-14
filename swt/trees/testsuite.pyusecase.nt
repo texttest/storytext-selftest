@@ -6,6 +6,3 @@ select_and_activate
 
 # Expand the rows and show the hierarchy
 expand_and_collapse
-
-# Select a row and then collapse its parent. No select should be recorded. Doesn't work on Windows currently
-collapse_deselects
