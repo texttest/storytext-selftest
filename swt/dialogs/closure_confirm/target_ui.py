@@ -14,7 +14,7 @@ class ConfirmListener(Listener):
         label = Label(messageBox, SWT.NONE)
         label.setText("You're exiting!")
         button = Button(messageBox, SWT.PUSH)
-        button.setText("Sure")
+        button.setText("OK")
         class CloseListener(Listener):
             def handleEvent(self, e):
                 messageBox.close()
