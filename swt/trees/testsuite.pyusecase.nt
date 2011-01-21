@@ -6,3 +6,6 @@ select_and_activate
 
 # Expand the rows and show the hierarchy
 expand_and_collapse
+
+# Make sure we can describe multi-column trees properly
+multiple_columns

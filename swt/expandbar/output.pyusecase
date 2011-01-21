@@ -1,7 +1,7 @@
 
 ---------- Shell 'ExpandBar Example' ----------
 Menu Bar:
-  &File (cascade) :
+  &File (cascade)
     New ExpandItem
 
 Expand Bar:

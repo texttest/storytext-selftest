@@ -1,7 +1,7 @@
 
 ---------- Shell 'RCP Product' ----------
 Menu Bar:
-  &File (cascade) :
+  &File (cascade)
     Open in &New Window
     ---
     Open Message (Image 1)
@@ -9,27 +9,27 @@ Menu Bar:
     ---
     E&xit	Ctrl+X
     ---
-    Con&vert Line Delimiters To (cascade) :
+    Con&vert Line Delimiters To (cascade)
       &Windows
       &Unix
       &MacOS 9
     ---
     Open File&...
-  &Help (cascade) :
+  &Help (cascade)
     &About RCP Product
     ---
     &Key Assist...	Shift+Ctrl+L
 
 Cool Bar:
-  drop down Tool Bar:
+  Tool Bar:
     Tooltip 'Open Another Message View (Ctrl+2)' (Image 2)
     Tooltip 'Open Message' (Image 1)
 
-  drop down Tool Bar:
+  Tool Bar:
     Tooltip 'Next Annotation (Ctrl+.)' (drop down, Image 3, greyed out)
     Tooltip 'Previous Annotation (Ctrl+,)' (drop down, Image 4, greyed out)
 
-  drop down Tool Bar:
+  Tool Bar:
     Tooltip 'Last Edit Location (Ctrl+Q)' (Image 5)
 
 Tree with 0 columns : 
@@ -38,7 +38,7 @@ Tree with 0 columns :
 
 --------------- Vertical sash ---------------
 
-TabFolder with tabs Message (cascade, Image 2, selected) ,
+TabFolder with tabs Message (cascade, Image 2, selected)
 
 'Subject:' (bold)  'This is a message about the cool Eclipse RCP!'
 'From:' (bold)     Link '<a>nicole@mail.org</a>'

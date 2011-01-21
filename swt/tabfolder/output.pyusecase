@@ -1,10 +1,10 @@
 
 ---------- Shell '' ----------
 Menu Bar:
-  &File (cascade) :
+  &File (cascade)
     Rename
 
-TabFolder with tabs Item 0 (cascade, Image 1, selected) , Item 1 (cascade, Image 2) ,
+TabFolder with tabs Item 0 (cascade, Image 1, selected) , Item 1 (cascade, Image 2)
 
 ========== Text ==========
 Content for Item 0
@@ -14,7 +14,7 @@ Content for Item 0
 
 'close first tab' event created with arguments ''
 
-Updated TabFolder with tabs Item 1 (cascade, Image 2, selected) ,
+Updated TabFolder with tabs Item 1 (cascade, Image 2, selected)
 
 ========== Text ==========
 Content for Item 1
@@ -22,7 +22,7 @@ Content for Item 1
 
 'rename tab' event created with arguments ''
 
-Updated TabFolder with tabs New (cascade, Image 2, selected) ,
+Updated TabFolder with tabs New (cascade, Image 2, selected)
 
 ========== Text ==========
 Content for Item 1
