@@ -1,6 +1,6 @@
 
 ---------- Shell '' ----------
-Tree with 0 columns : 
+Tree :
 -> Initial - 0 (selected)
 -> Initial - 1
 -> Initial - 2
@@ -10,7 +10,7 @@ Tree with 0 columns :
 
 Waiting for application event 'row to be added' to occur.
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Initial - 0 (selected)
 -> Initial - 1
 -> Initial - 2

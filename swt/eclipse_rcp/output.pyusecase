@@ -32,7 +32,7 @@ Cool Bar:
   Tool Bar:
     Tooltip 'Last Edit Location (Ctrl+Q)' (Image 5)
 
-Tree with 0 columns : 
+Tree :
 -> me@this.com (Image 6)
 -> other@aol.com (Image 6)
 
@@ -61,7 +61,7 @@ This RCP Application was generated from the PDE Plug-in Project wizard. This sam
 
 'expand account' event created with arguments 'me@this.com'
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> me@this.com (Image 6)
 ->   Inbox (Image 7)
 ->   Drafts (Image 7)

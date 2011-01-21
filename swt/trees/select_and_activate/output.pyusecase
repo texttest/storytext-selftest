@@ -1,7 +1,7 @@
 False TreeItem {Item 0}
 
 ---------- Shell '' ----------
-Tree with 0 columns : 
+Tree :
 -> Item 0 (selected)
 -> Item 1
 -> Item 2
@@ -20,7 +20,7 @@ Tree with 0 columns :
 'select' event created with arguments 'Item 2'
 False TreeItem {Item 2}
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Item 0
 -> Item 1
 -> Item 2 (selected)
@@ -38,7 +38,7 @@ Updated Tree with 0 columns :
 False TreeItem {Item 4}
 True TreeItem {Item 4}
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Item 0
 -> Item 1
 -> Item 2
@@ -56,7 +56,7 @@ Updated Tree with 0 columns :
 False TreeItem {Item 6}
 True TreeItem {Item 6}
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Item 0
 -> Item 1
 -> Item 2

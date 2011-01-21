@@ -1,6 +1,6 @@
 
 ---------- Shell '' ----------
-Tree with 0 columns : 
+Tree :
 -> Root 0
 -> Root 1
 
@@ -8,7 +8,7 @@ Tree with 0 columns :
 
 'expand' event created with arguments 'Root 0'
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Root 0
 ->   Branch 0.0
 ->   Branch 0.1
@@ -19,7 +19,7 @@ ERROR: Could not find item labelled 'No Such Node' in tree.
 
 'expand' event created with arguments 'Branch 0.1'
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Root 0
 ->   Branch 0.0
 ->   Branch 0.1
@@ -29,7 +29,7 @@ Updated Tree with 0 columns :
 
 'expand' event created with arguments 'Root 1'
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Root 0
 ->   Branch 0.0
 ->   Branch 0.1
@@ -41,7 +41,7 @@ Updated Tree with 0 columns :
 
 'select' event created with arguments 'Branch 1.1'
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Root 0
 ->   Branch 0.0
 ->   Branch 0.1
@@ -53,7 +53,7 @@ Updated Tree with 0 columns :
 
 'collapse' event created with arguments 'Root 0'
 
-Updated Tree with 0 columns : 
+Updated Tree :
 -> Root 0
 -> Root 1
 ->   Branch 1.0

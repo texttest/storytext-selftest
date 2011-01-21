@@ -1,0 +1,25 @@
+
+---------- Shell '' ----------
+Tree :
+Column 1              Column 2  Column 3
+-> item 0 (selected)  abc       defghi
+-> item 1             abc       defghi
+-> item 2             abc       defghi
+-> item 3             abc       defghi
+
+------------------------------
+
+'expand' event created with arguments 'item 0'
+
+Updated Tree :
+Column 1              Column 2  Column 3
+-> item 0 (selected)  abc       defghi
+->   subitem 0        jklmnop   qrs
+->   subitem 1        jklmnop   qrs
+->   subitem 2        jklmnop   qrs
+->   subitem 3        jklmnop   qrs
+-> item 1             abc       defghi
+-> item 2             abc       defghi
+-> item 3             abc       defghi
+
+'close window' event created with arguments ''
