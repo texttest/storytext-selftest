@@ -1,8 +1,6 @@
 # Path to the binary.
 executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/usecase_name_chooser
 
-collect_traffic:{CLEAR LIST}
-
 link_test_path:auto_recorded_usecase
 
 discard_file:{CLEAR usecase}

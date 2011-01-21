@@ -7,6 +7,7 @@ extra_search_directory:site
 extra_search_directory:default_site
 
 import_config_file:site_configfile
+import_config_file:capturemock_config
 
 # Might as well have nice printouts
 full_name:PyUseCase
@@ -44,16 +45,6 @@ link_test_path:customwidgetevents.py
 link_test_path:hildon.py
 link_test_path:readdir
 link_test_path:logconfig_file
-
-collect_traffic:usecase_name_chooser
-# There is no way to do our normal stuff with this, so we at least record interactions with it.
-collect_traffic_python:tkMessageBox
-
-[collect_traffic_environment]
-usecase_name_chooser:PATH
-usecase_name_chooser:USECASE_RECORD_SCRIPT
-usecase_name_chooser:USECASE_REPLAY_SCRIPT
-[end]
 
 extra_version:nouimap
 extra_version:jython
