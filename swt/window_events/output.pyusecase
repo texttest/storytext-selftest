@@ -10,5 +10,7 @@ Menu Bar:
 'select all' event created with arguments ''
 Select All
 
+'resize window to' event created with arguments 'width 430 and height 320'
+
 'close window' event created with arguments ''
 Closed!

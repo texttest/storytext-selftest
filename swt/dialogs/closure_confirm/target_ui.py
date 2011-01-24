@@ -19,8 +19,8 @@ class ConfirmListener(Listener):
             def handleEvent(self, e):
                 messageBox.close()
         button.addListener(SWT.Selection, CloseListener())
-        messageBox.open()
         messageBox.pack()
+        messageBox.open()
         display = messageBox.getDisplay()
         while not messageBox.isDisposed():
             if not display.readAndDispatch():

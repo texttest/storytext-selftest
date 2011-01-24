@@ -16,8 +16,8 @@ class SubDialogListener(Listener):
                 messageBox.close()
         button.addListener(SWT.Selection, CloseListener())
         button.pack()
-        messageBox.open()
         messageBox.pack()
+        messageBox.open()
         display = messageBox.getDisplay()
         while not messageBox.isDisposed():
             if not display.readAndDispatch():
@@ -34,8 +34,8 @@ class DialogListener(Listener):
         button.setText("Open another dialog")
         button.addListener(SWT.Selection, SubDialogListener())
         button.pack()
-        messageBox.open()
         messageBox.pack()
+        messageBox.open()
         display = messageBox.getDisplay()
         while not messageBox.isDisposed():
             if not display.readAndDispatch():

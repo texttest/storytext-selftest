@@ -5,7 +5,7 @@ types is also supported.
 org.eclipse.swt.custom.CTabItem         : Dispose
 org.eclipse.swt.widgets.Button          : Selection
 org.eclipse.swt.widgets.MenuItem        : Selection
-org.eclipse.swt.widgets.Shell           : Close
+org.eclipse.swt.widgets.Shell           : Close , Resize
 org.eclipse.swt.widgets.Text            : Modify
 org.eclipse.swt.widgets.ToolItem        : Selection
 org.eclipse.swt.widgets.Tree            : Collapse , DefaultSelection , Expand , Selection
