@@ -1,0 +1,19 @@
+
+---------- Shell '' ----------
+'Name'    ========== Text ==========
+
+          ==========================
+'City'    ========== Text ==========
+
+          ==========================
+
+------------------------------
+
+'set name to' event created with arguments 'John'
+
+Updated Name Field
+========== Text ==========
+John
+==========================
+
+'close window' event created with arguments ''
