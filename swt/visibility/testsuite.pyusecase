@@ -7,6 +7,10 @@ siblings
 # Describe a Canvas and its repainting
 canvas
 
+# If we just add more widgets, e.g. to a grid, we should notice
+# 
+add_new_widgets
+
 # It's possible for things to be shown and then immediately hidden and disposed.
 # Don't be fooled!
 show_and_dispose
