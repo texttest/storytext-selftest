@@ -39,7 +39,7 @@ class TreeAddRunnable(Runnable):
         x.text = "row to be added"
         tree.notifyListeners(1234, x)
 
-display.timerExec(2000, TreeAddRunnable())        
+display.timerExec(3000, TreeAddRunnable())        
 
 shell.setSize(200, 200)
 shell.open()
