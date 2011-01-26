@@ -19,6 +19,9 @@ expandbar
 # Test for CTabFolder widgets
 tabfolder
 
+# Test we can handle lists
+list
+
 # Test for browser widgets
 browser
 

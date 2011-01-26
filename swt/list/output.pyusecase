@@ -1,0 +1,51 @@
+Selection = [0]
+
+---------- Shell '' ----------
+List :
+-> Item 0 (selected)
+-> Item 1
+-> Item 2
+-> Item 3
+-> Item 4
+-> Item 5
+-> Item 6
+-> Item 7
+-> Item 8
+-> Item 9
+
+------------------------------
+
+'select' event created with arguments 'Item 1'
+Selection = [1]
+
+Updated List :
+-> Item 0
+-> Item 1 (selected)
+-> Item 2
+-> Item 3
+-> Item 4
+-> Item 5
+-> Item 6
+-> Item 7
+-> Item 8
+-> Item 9
+
+'select' event created with arguments 'nonsense'
+ERROR: Could not find item labelled 'nonsense' in list.
+
+'select' event created with arguments 'Item 3'
+Selection = [3]
+
+Updated List :
+-> Item 0
+-> Item 1
+-> Item 2
+-> Item 3 (selected)
+-> Item 4
+-> Item 5
+-> Item 6
+-> Item 7
+-> Item 8
+-> Item 9
+
+'close' event created with arguments ''

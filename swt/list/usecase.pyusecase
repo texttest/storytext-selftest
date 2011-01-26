@@ -1,0 +1,4 @@
+select Item 1
+select nonsense
+select Item 3
+close
