@@ -1,0 +1,20 @@
+
+---------- Shell '' ----------
+========== Combo ==========
+Alpha
+===========================
+
+------------------------------
+
+'choose item' event created with arguments 'Charlie'
+Selection = 2
+
+Updated  Combo Box
+========== Combo ==========
+Charlie
+===========================
+
+'choose item' event created with arguments 'nonsense'
+ERROR: Item `nonsense' not found in combo box.
+
+'close' event created with arguments ''

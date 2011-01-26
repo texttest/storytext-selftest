@@ -22,6 +22,9 @@ tabfolder
 # Test we can handle lists
 list
 
+# Test we can handle comboboxes
+combo
+
 # Test for browser widgets
 browser
 
