@@ -1,8 +1,7 @@
-Selection = [0]
 
 ---------- Shell '' ----------
 List :
--> Item 0 (selected)
+-> Item 0
 -> Item 1
 -> Item 2
 -> Item 3

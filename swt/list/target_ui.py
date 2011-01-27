@@ -3,7 +3,7 @@ from org.eclipse.swt.widgets import *
 from org.eclipse.swt.layout import *
 
 shell = Shell()
-swtlist = List(shell, SWT.BORDER | SWT.V_SCROLL)
+swtlist = List(shell, SWT.BORDER | SWT.MULTI | SWT.V_SCROLL)
 for i in range(10):
     swtlist.add("Item " + str(i))
 
