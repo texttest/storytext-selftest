@@ -1,0 +1,12 @@
+
+---------- Window 'tk' ----------
+Button 'QUIT'
+---------------------------------
+
+---------- Window 'Hi!' ----------
+'hi there, everyone!' (white)
+----------------------------------
+
+'close hello window' event created with arguments ''
+
+'quit' event created with arguments ''

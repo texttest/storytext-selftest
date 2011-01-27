@@ -6,3 +6,6 @@ close_windows
 
 # Make sure we can handle dialogs that call wait_window. Also set window title and make sure we notice...
 modal_dialogs
+
+# Make sure we can handle dialogs being produced immediately
+modal_dialog_at_startup
