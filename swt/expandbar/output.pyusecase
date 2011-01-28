@@ -6,11 +6,16 @@ Menu Bar:
 
 Expand Bar:
   What is your favorite icon (Image 1)
+    Context Menu 1
+    
     Image 2  'SWT.ICON_ERROR'
     Image 3  'SWT.ICON_INFORMATION'
     Image 1  'SWT.ICON_QUESTION'
 
   What is your favorite button (Image 1)
+
+Context Menu 1:
+  Popup
 
 -----------------------------------------------
 
@@ -18,12 +23,23 @@ Expand Bar:
 
 Updated Expand Bar:
   What is your favorite icon (Image 1)
+    Context Menu 1
+    
     Image 2  'SWT.ICON_ERROR'
     Image 3  'SWT.ICON_INFORMATION'
     Image 1  'SWT.ICON_QUESTION'
 
   What is your favorite button (Image 1)
   New Question (Image 1)
-    Button 'Button New'
+    'What is your name?'  ========== Text ==========
+    
+                          ==========================
+
+'set name to' event created with arguments 'Geoff'
+
+Updated What is your name? Field
+========== Text ==========
+Geoff
+==========================
 
 'close window' event created with arguments ''

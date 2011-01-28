@@ -1,0 +1,31 @@
+
+---------- Shell '' ----------
+Tree (Context Menu 1) :    Context Menu 2
+-> Initial - 0 (selected)
+-> Initial - 1             'Right Panel' (Context Menu 2)
+-> Initial - 2
+-> Initial - 3
+
+Context Menu 1:
+  Where am I?
+
+Context Menu 2:
+  Popup
+
+------------------------------
+
+'select row' event created with arguments 'Initial - 2'
+
+Updated Tree (Context Menu 1) :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2 (selected)
+-> Initial - 3
+
+'ask question' event created with arguments ''
+In a tree!
+
+'cause other popup' event created with arguments ''
+Clicked menu
+
+'close window' event created with arguments ''

@@ -4,6 +4,9 @@ buttons
 # Test we can make use of the menus
 menus
 
+# Test we can make use of popup menus
+popup_menu
+
 # Check we can record window resize and closure
 window_events
 
@@ -13,7 +16,9 @@ toolbar
 # Check descriptions when toolbar buttons have images on them
 toolbar_images
 
-# Test we can handle an expandbar
+# Test we can handle expandbar descriptions and state changes. Note we cannot currently
+# expand and collapse them, because SWTBot does not support that.
+# 
 expandbar
 
 # Test for CTabFolder widgets

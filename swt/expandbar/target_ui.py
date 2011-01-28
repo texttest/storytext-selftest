@@ -21,6 +21,11 @@ image = display.getSystemImage(SWT.ICON_QUESTION)
 
 # First item
 composite = Composite(bar, SWT.NONE)
+# Add a context menu, check we describe it properly
+popupmenu = Menu(shell, SWT.POP_UP)
+popupitem = MenuItem(popupmenu, SWT.PUSH)
+popupitem.setText("Popup")
+composite.setMenu(popupmenu)
 layout = GridLayout(2, False)
 layout.marginLeft = layout.marginTop = layout.marginRight = layout.marginBottom = 10
 layout.verticalSpacing = 10
@@ -64,12 +69,18 @@ item0.setImage(image)
 class AddListener(Listener):
     def handleEvent(self, e):
         item2 = ExpandItem(bar, SWT.NONE)
-        button = Button(bar, SWT.PUSH)
-        button.setText("Button New")
+        composite = Composite(bar, SWT.NONE)
+        layout = GridLayout(2, False)
+        composite.setLayout(layout)
+
+        label = Label(composite, SWT.NONE)
+        label.setText("What is your name?")
+        text = Text(composite, SWT.NONE)
         item2.setText("New Question")
-        size = button.computeSize(SWT.DEFAULT, SWT.DEFAULT)
+        composite.pack()
+        size = composite.computeSize(SWT.DEFAULT, SWT.DEFAULT)
         item2.setHeight(size.y)
-        item2.setControl(button)
+        item2.setControl(composite)
         item2.setImage(image)
         item2.setExpanded(True)
         
