@@ -1,6 +1,9 @@
 # Produce a logical description if the buttons are positioned elsewhere
 buttons_at_bottom
 
+# Check we can handle buttons with non-ASCII text on them
+buttons_unicode
+
 # Check we show what is actually shown in an entry
 password_entry
 
