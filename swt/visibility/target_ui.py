@@ -41,6 +41,7 @@ label = Label(subComp, SWT.NONE | SWT.BORDER)
 label.setText("Name")
 label.setVisible(False)
 text = Text(subComp, SWT.NONE)
+subComp.pack()
 composite.setVisible(False)
 
 class ShowListener(Listener):

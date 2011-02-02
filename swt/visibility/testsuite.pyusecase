@@ -1,6 +1,9 @@
 # Test for things appearing during the run, a parent and child widget becoming visible at the same time
 parent_and_child
 
+# Make sure resizing the window doesn't cache away all hidden widgets
+resize_and_show
+
 # Two children of the same parent become visible at the same time : describe the parent once
 siblings
 
@@ -8,7 +11,6 @@ siblings
 canvas
 
 # If we just add more widgets, e.g. to a grid, we should notice
-# 
 add_new_widgets
 
 # It's possible for things to be shown and then immediately hidden and disposed.
