@@ -18,7 +18,6 @@ toolbar_images
 
 # Test we can handle expandbar descriptions and state changes. Note we cannot currently
 # expand and collapse them, because SWTBot does not support that.
-# 
 expandbar
 
 # Test for CTabFolder widgets
@@ -35,6 +34,9 @@ browser
 
 # Make sure we can describe a tree, including changes to it
 appevent
+
+# Test we notice copying things to the clipboard
+clipboard
 
 # Test an eclipse RCP application (rcpmail demo)
 eclipse_rcp

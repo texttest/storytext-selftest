@@ -1,0 +1,31 @@
+
+---------- Shell '' ----------
+========== Text ==========
+
+==========================
+
+Button 'Copy'
+
+Button 'Paste'
+
+------------------------------
+
+'set text contents to' event created with arguments 'Hello'
+
+Updated Text Field
+========== Text ==========
+Hello
+==========================
+
+'copy contents' event created with arguments ''
+Copied following to clipboard :
+Hello
+
+'paste contents' event created with arguments ''
+
+Updated Text Field
+========== Text ==========
+HelloHello
+==========================
+
+'close' event created with arguments ''

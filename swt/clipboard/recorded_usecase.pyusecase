@@ -1,0 +1,4 @@
+set text contents to Hello
+copy contents
+paste contents
+close
