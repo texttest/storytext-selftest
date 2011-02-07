@@ -1,0 +1,14 @@
+
+---------- Shell '' ----------
+Button 'first' (radio, selected)  Button 'second' (radio)
+
+------------------------------
+
+'select second button' event created with arguments ''
+Selected the second button.
+
+Updated Button 'first' (radio)
+
+Updated Button 'second' (radio, selected)
+
+'close' event created with arguments ''

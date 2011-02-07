@@ -1,6 +1,9 @@
 # Test we can handle buttons
 buttons
 
+# Test we can handle radio buttons
+radio_buttons
+
 # Test we can make use of the menus
 menus
 
