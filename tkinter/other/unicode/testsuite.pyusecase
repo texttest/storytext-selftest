@@ -1,0 +1,5 @@
+# Check we can handle buttons with non-ASCII text on them
+buttons
+
+# Test we can log and replay menus, and log changes to Text widgets
+menu_and_text

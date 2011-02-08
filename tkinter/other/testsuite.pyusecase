@@ -3,3 +3,6 @@ slow_motion
 
 # Tests which just are concerned with how things are logged
 autologging
+
+# Check we handle non-ASCII GUIs OK
+unicode

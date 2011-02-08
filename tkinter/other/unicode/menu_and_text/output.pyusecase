@@ -1,0 +1,38 @@
+
+---------- Window 'tk' ----------
+Root menu:
+  >>>
+  Fil (+)
+  Ändra (+)
+  Hjälp (+)
+
+Fil menu:
+  Öppna
+  Spara
+  ---
+  Avsluta
+
+Ändra menu:
+  Klippa
+  Kopiera
+  Klistra
+
+Hjälp menu:
+  Om
+
+'En textfält:' | ========== Text ==========
+
+==========================
+---------------------------------
+
+'Välj filoption' event created with arguments 'Öppna'
+hejsan
+
+========== Text ==========
+Gjorde någonting från en meny!
+==========================
+
+'Välj hjälpoption' event created with arguments 'Skräp'
+ERROR: Could not find item 'Skräp' in menu.
+
+'Välj filoption' event created with arguments 'Avsluta'
