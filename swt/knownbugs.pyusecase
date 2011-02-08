@@ -1,0 +1,7 @@
+
+[Reported by geoff at 08Feb08:31:11]
+search_string:java.lang.NullPointerException
+search_file:errors
+ignore_other_errors:1
+bug_system:jira
+bug_id:TTT-2186
