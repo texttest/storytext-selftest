@@ -13,11 +13,13 @@ button.setText("Why?")
 class PrintListener(Listener):
     def handleEvent(self, e):
         print "Because."
+        button2.setEnabled(True)
 
 button.addListener(SWT.Selection, PrintListener())
 
 button2 = Button(shell, SWT.PUSH)
 button2.setText("Exit")
+button2.setEnabled(False)
 
 class CloseListener(Listener):
     def handleEvent(self, e):

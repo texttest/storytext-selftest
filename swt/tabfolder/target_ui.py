@@ -48,11 +48,13 @@ for i in range(2):
     item.setText("Item " + str(i))
     text = Text(folder, SWT.MULTI)
     text.setText("Content for Item " + str(i))
+    text.setEnabled(False)
     item.setImage(makeImage(display, (i + 1) * 8))
     item.setControl(text)
 	
 class RenameListener(Listener):
     def handleEvent(self, e):
+        text.setEnabled(True)
         item.setText("New")
 
 class DisposeListener(Listener):

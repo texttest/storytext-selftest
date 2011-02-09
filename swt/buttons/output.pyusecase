@@ -1,10 +1,12 @@
 
 ---------- Shell '' ----------
-Button 'Why?' (Image 1)  Button 'Exit'
+Button 'Why?' (Image 1)  Button 'Exit' (greyed out)
 
 ------------------------------
 
 'ask why' event created with arguments ''
 Because.
+
+Updated Button 'Exit'
 
 'exit' event created with arguments ''
