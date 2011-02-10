@@ -1,0 +1,9 @@
+[Name=Textfältet]
+changed = set movie name to
+
+[Label=Lägg till]
+clicked = add movie
+
+[Title=Videoaffären]
+delete-event = close
+

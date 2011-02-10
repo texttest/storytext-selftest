@@ -1,0 +1,49 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 4 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'Entry' | 'Name=Textf√§ltet' | 'edited text' | Text entry
+'Button' | 'Label=L√§gg till' | 'clicked' | Text entry
+'Window' | 'Title=Videoaff√§ren' | 'closed' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+========== GtkTextView ==========
+?
+?
+?
+=================================
+---------------
+Button 'gtk-ok' (Stock image 'gtk-ok')
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Name=Textf‰ltet' =' event created with arguments 'set movie name to'
+Edited 'GtkEntry' Text entry (set to 'set movie name to')
+
+========== GtkTextView ==========
+set movie name to Stj‰rnornas Krig
+?
+?
+=================================
+
+'enter usecase name for signal 'clicked' on Button 'Label=L‰gg till' =' event created with arguments 'add movie'
+Edited 'GtkEntry' Text entry (set to 'add movie')
+
+========== GtkTextView ==========
+set movie name to Stj‰rnornas Krig
+add movie
+?
+=================================
+
+'enter usecase name for signal 'delete-event' on Window 'Title=Videoaff‰ren' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+========== GtkTextView ==========
+set movie name to Stj‰rnornas Krig
+add movie
+close
+=================================
+
+'finish name entry editing' event created with arguments ''

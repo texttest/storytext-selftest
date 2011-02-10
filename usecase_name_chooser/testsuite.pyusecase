@@ -21,3 +21,6 @@ add_to_correct_uimap
 
 # Check we don't fall over with a relative path to the mapfile
 local_uimap
+
+# GTK requires UTF8 text, see what happens if it gets some other encoding
+text_not_utf8
