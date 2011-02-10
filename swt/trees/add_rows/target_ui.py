@@ -35,6 +35,7 @@ tree = Tree(shell, SWT.BORDER)
 for i in range(4):
     iItem = TreeItem(tree, 0)
     iItem.setText("Initial - " + str(i))
+tree.setEnabled(False)
 
 class TreeAddListener(Listener):
     def handleEvent(self, e):

@@ -4,8 +4,8 @@ Menu Bar:
   &File (cascade)
     New TreeItem
 
-Tree :
--> Initial - 0 (selected)
+Tree (greyed out) :
+-> Initial - 0
 -> Initial - 1
 -> Initial - 2
 -> Initial - 3
@@ -14,8 +14,8 @@ Tree :
 
 'add to tree' event created with arguments ''
 
-Updated Tree :
--> Initial - 0 (selected)
+Updated Tree (greyed out) :
+-> Initial - 0
 -> Initial - 1
 -> Initial - 2
 -> Initial - 3
