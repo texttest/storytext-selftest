@@ -1,3 +1,4 @@
-set calendar to 1975-03-26
-set time to 05:00:00
+set calendar to 3/4/1975
+set date to 3/4/1976
+set time to 15:00:00
 close window
