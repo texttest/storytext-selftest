@@ -1,0 +1,23 @@
+
+---------- Shell '' ----------
+DateTime (calendar, showing 1975-02-18)  DateTime (time, showing 04:00:00)
+
+------------------------------
+
+'set calendar to' event created with arguments 'nonsense'
+ERROR: Could not parse date/time argument 'nonsense', not of format 'yyyy-MM-dd'.
+
+'set time to' event created with arguments 'nonsense'
+ERROR: Could not parse date/time argument 'nonsense', not of format 'hh:mm:ss'.
+
+'set calendar to' event created with arguments '1975-03-26'
+Calendar changed
+
+Updated DateTime (calendar, showing 1975-03-26)
+
+'set time to' event created with arguments '05:00:00'
+TimeChanged
+
+Updated DateTime (time, showing 05:00:00)
+
+'close window' event created with arguments ''
