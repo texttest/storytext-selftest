@@ -1,0 +1,7 @@
+Shell 1 (FormLayout)
+--Button 3
+--Button 4
+--Composite 5 (StackLayout)
+----Composite 6 (RowLayout)
+------Label 7
+----Composite 8 (RowLayout)
