@@ -4,37 +4,21 @@ Menu Bar:
   &File (cascade)
     Open in &New Window
     ---
-    Open Message (Image 1)
+    Open Message	Ctrl+3 (Image 1)
     Open Another Message View	Ctrl+2 (Image 2)
     ---
     E&xit	Ctrl+X
-    ---
-    Con&vert Line Delimiters To (cascade)
-      &Windows
-      &Unix
-      &MacOS 9
-    ---
-    Open File&...
   &Help (cascade)
     &About RCP Product
-    ---
-    &Key Assist...	Shift+Ctrl+L
 
 Cool Bar:
   Tool Bar:
     Tooltip 'Open Another Message View (Ctrl+2)' (Image 2)
-    Tooltip 'Open Message' (Image 1)
-
-  Tool Bar:
-    Tooltip 'Next Annotation (Ctrl+.)' (drop down, Image 3, greyed out)
-    Tooltip 'Previous Annotation (Ctrl+,)' (drop down, Image 4, greyed out)
-
-  Tool Bar:
-    Tooltip 'Last Edit Location (Ctrl+Q)' (Image 5)
+    Tooltip 'Open Message (Ctrl+3)' (Image 1)
 
 Tree :
--> me@this.com (Image 6)
--> other@aol.com (Image 6)
+-> me@this.com (Image 3)
+-> other@aol.com (Image 3)
 
 --------------- Vertical sash ---------------
 
@@ -62,10 +46,10 @@ This RCP Application was generated from the PDE Plug-in Project wizard. This sam
 'expand account' event created with arguments 'me@this.com'
 
 Updated Tree :
--> me@this.com (Image 6)
-->   Inbox (Image 7)
-->   Drafts (Image 7)
-->   Sent (Image 7)
--> other@aol.com (Image 6)
+-> me@this.com (Image 3)
+->   Inbox (Image 4)
+->   Drafts (Image 4)
+->   Sent (Image 4)
+-> other@aol.com (Image 3)
 
 'close window' event created with arguments ''
