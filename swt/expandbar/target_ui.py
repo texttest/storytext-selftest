@@ -75,7 +75,9 @@ class AddListener(Listener):
 
         label = Label(composite, SWT.NONE)
         label.setText("What is your name?")
-        text = Text(composite, SWT.NONE)
+        # Just to see if this fools the text-finding algorithm
+        pointlessComposite = Composite(composite, SWT.NONE)
+        text = Text(pointlessComposite, SWT.NONE)
         item2.setText("New Question")
         composite.pack()
         size = composite.computeSize(SWT.DEFAULT, SWT.DEFAULT)
