@@ -1,0 +1,15 @@
+
+---------- Shell '' ----------
+Link '<a>Here is a link</a>'
+
+Link '<a>Another link</a>'
+
+------------------------------
+
+'click first link' event created with arguments ''
+Selection: Here is a link
+
+'click second link' event created with arguments ''
+Second Selection: Another link
+
+'close' event created with arguments ''

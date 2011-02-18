@@ -32,6 +32,9 @@ list
 # Test we can handle comboboxes
 combo
 
+# Test we can handle links
+link
+
 # Test we can handle datetimes of various sorts...
 datetime
 
