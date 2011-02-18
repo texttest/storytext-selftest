@@ -8,11 +8,13 @@ Tree :
 
 ------------------------------
 
+'select node' event created with arguments 'Initial - 1'
+
 Waiting for application event 'row to be added' to occur.
 
 Updated Tree :
--> Initial - 0 (selected)
--> Initial - 1
+-> Initial - 0
+-> Initial - 1 (selected)
 -> Initial - 2
 -> Initial - 3
 -> Added - 0

@@ -39,7 +39,11 @@ class TreeAddRunnable(Runnable):
         x.text = "row to be added"
         tree.notifyListeners(1234, x)
 
-display.timerExec(3000, TreeAddRunnable())        
+class AddListener(Listener):
+    def handleEvent(self, e):
+        display.timerExec(1000, TreeAddRunnable())
+
+tree.addListener(SWT.DefaultSelection, AddListener())
 
 shell.setSize(200, 200)
 shell.open()
