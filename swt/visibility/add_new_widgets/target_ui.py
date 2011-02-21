@@ -44,7 +44,7 @@ class AddListener(Listener):
         label2 = Label(composite, SWT.NONE)
         label2.setText("City")
         text2 = Text(composite, SWT.NONE)
-        shell.pack()
+        composite.pack()
                 
 item.addListener(SWT.Selection, AddListener())
 
