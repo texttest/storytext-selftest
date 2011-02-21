@@ -3,3 +3,6 @@ closure_confirm
 
 # Test we can handle several dialogs nested inside one another
 nested
+
+# Don't describe a canvas repaint just because we've closed a dialog that was hiding it
+main_window_canvas

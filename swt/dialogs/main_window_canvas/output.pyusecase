@@ -1,0 +1,16 @@
+
+---------- Shell 'Main Window' ----------
+Button 'Show Dialog'  Canvas 1
+
+-----------------------------------------
+
+'show dialog' event created with arguments ''
+
+---------- Shell 'The Dialog' ----------
+Button 'Close'
+
+----------------------------------------
+
+'close dialog' event created with arguments ''
+
+'close window' event created with arguments ''
