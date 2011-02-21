@@ -6,6 +6,7 @@ org.eclipse.swt.custom.CTabItem         : Dispose
 org.eclipse.swt.widgets.Button          : Selection
 org.eclipse.swt.widgets.Combo           : Modify
 org.eclipse.swt.widgets.DateTime        : Selection
+org.eclipse.swt.widgets.ExpandBar       : Collapse , Expand
 org.eclipse.swt.widgets.Link            : Selection
 org.eclipse.swt.widgets.List            : Selection
 org.eclipse.swt.widgets.MenuItem        : Selection

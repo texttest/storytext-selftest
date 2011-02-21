@@ -42,4 +42,31 @@ Updated What is your name? Field
 Geoff
 ==========================
 
+'collapse item' event created with arguments 'What is your favorite icon'
+
+Updated Expand Bar:
+  What is your favorite icon (Image 1)
+  What is your favorite button (Image 1)
+  New Question (Image 1)
+    'What is your name?'  ========== Text ==========
+                          Geoff
+                          ==========================
+
+'expand item' event created with arguments 'What is your favorite button'
+
+Updated Expand Bar:
+  What is your favorite icon (Image 1)
+  What is your favorite button (Image 1)
+    Button 'Button1'
+    
+    Button 'Button2'
+
+  New Question (Image 1)
+    'What is your name?'  ========== Text ==========
+                          Geoff
+                          ==========================
+
+'expand item' event created with arguments 'nonsense'
+ERROR: Could not find item labelled 'nonsense' in expandbar.
+
 'close window' event created with arguments ''

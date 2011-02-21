@@ -19,8 +19,7 @@ toolbar
 # Check descriptions when toolbar buttons have images on them
 toolbar_images
 
-# Test we can handle expandbar descriptions and state changes. Note we cannot currently
-# expand and collapse them, because SWTBot does not support that.
+# Test we can handle expandbar descriptions and state changes. 
 expandbar
 
 # Test for CTabFolder widgets
