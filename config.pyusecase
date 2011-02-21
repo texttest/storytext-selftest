@@ -31,7 +31,7 @@ traffic:"<texttest tmp dir>([^"]*)"{REPLACE <texttest tmp dir>\1}
 use_case_record_mode:GUI
 
 # Want slow motion replays, as it's a GUI
-slow_motion_replay_speed:3
+slow_motion_replay_speed:2
 
 # Don't hang the nightjob if tests hang
 kill_timeout:300
