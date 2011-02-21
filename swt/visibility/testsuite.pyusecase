@@ -16,3 +16,6 @@ add_new_widgets
 # It's possible for things to be shown and then immediately hidden and disposed.
 # Don't be fooled!
 show_and_dispose
+
+# Same test as parent_and_child except it all occurs in a dialog
+show_in_dialog
