@@ -79,6 +79,7 @@ class AddListener(Listener):
         pointlessComposite = Composite(composite, SWT.NONE)
         text = Text(pointlessComposite, SWT.NONE)
         item2.setText("New Question")
+        text.pack()
         composite.pack()
         size = composite.computeSize(SWT.DEFAULT, SWT.DEFAULT)
         item2.setHeight(size.y)
