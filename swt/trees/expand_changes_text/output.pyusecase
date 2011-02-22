@@ -1,0 +1,17 @@
+
+---------- Shell '' ----------
+Tree :
+-> Root 0
+-> Root 1
+
+------------------------------
+
+'expand' event created with arguments 'Root 0'
+
+Updated Tree :
+-> Root 0 - expanded!
+->   Branch 0.0
+->   Branch 0.1
+-> Root 1
+
+'close window' event created with arguments ''

@@ -7,6 +7,9 @@ select_and_activate
 # Expand the rows and show the hierarchy
 expand_and_collapse
 
+# If expanding something changes its text, should record the right thing
+expand_changes_text
+
 # Make sure we can describe multi-column trees properly
 multiple_columns
 
