@@ -49,16 +49,24 @@ item1.setControl(composite)
 item1.setImage(image)
 item1.setExpanded(True)
 
+def createButton(composite, text):
+    # Add a context menu, check we describe it properly
+    button = Button(composite, SWT.PUSH)
+    button.setText(text)
+    popupmenu = Menu(shell, SWT.POP_UP)
+    popupitem = MenuItem(popupmenu, SWT.PUSH)
+    popupitem.setText("Button Popup")
+    button.setMenu(popupmenu)
+
+
 # Second item
 composite = Composite(bar, SWT.NONE)
 layout = GridLayout()
 layout.marginLeft = layout.marginTop = layout.marginRight = layout.marginBottom = 10
 layout.verticalSpacing = 10
 composite.setLayout(layout)
-button = Button(composite, SWT.PUSH)
-button.setText("Button1")
-button = Button(composite, SWT.PUSH)
-button.setText("Button2")
+button = createButton(composite, "Button1")
+button = createButton(composite, "Button2")
 item0 = ExpandItem(bar, SWT.NONE)
 item0.setText("What is your favorite button")
 item0.setHeight(composite.computeSize(SWT.DEFAULT, SWT.DEFAULT).y)

@@ -57,14 +57,17 @@ Updated Expand Bar:
 Updated Expand Bar:
   What is your favorite icon (Image 1)
   What is your favorite button (Image 1)
-    Button 'Button1'
+    Button 'Button1' (Context Menu 2)
     
-    Button 'Button2'
+    Button 'Button2' (Context Menu 2)
 
   New Question (Image 1)
     'What is your name?'  ========== Text ==========
                           Geoff
                           ==========================
+
+Context Menu 2:
+  Button Popup
 
 'expand item' event created with arguments 'nonsense'
 ERROR: Could not find item labelled 'nonsense' in expandbar.
