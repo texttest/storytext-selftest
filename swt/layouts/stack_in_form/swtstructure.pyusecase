@@ -1,7 +1,7 @@
-Shell 1 (FormLayout)
---Button 3
---Button 4
---Composite 5 (StackLayout)
-----Composite 6 (RowLayout)
-------Label 7
-----Composite 8 (RowLayout)
+org.eclipse.swt.widgets.Shell 1 (FormLayout)
+--org.eclipse.swt.widgets.Button 3
+--org.eclipse.swt.widgets.Button 4
+--org.eclipse.swt.widgets.Composite 5 (StackLayout)
+----org.eclipse.swt.widgets.Composite 6 (RowLayout)
+------org.eclipse.swt.widgets.Label 7
+----org.eclipse.swt.widgets.Composite 8 (RowLayout) (invisible)
