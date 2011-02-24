@@ -19,11 +19,14 @@ toolbar
 # Check descriptions when toolbar buttons have images on them
 toolbar_images
 
-# Test we can handle expandbar descriptions and state changes. 
+# Test we can handle expandbar descriptions and state changes.
 expandbar
 
 # Test for CTabFolder widgets
 tabfolder
+
+# Check output when there are no tabs
+tabfolder_no_tabs
 
 # Test we can handle lists
 list
