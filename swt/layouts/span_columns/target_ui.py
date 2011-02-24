@@ -17,6 +17,7 @@
 from org.eclipse.swt import *
 from org.eclipse.swt.widgets import *
 from org.eclipse.swt.layout import *
+from org.eclipse.swt.custom import *
 
 display = Display()
 shell = Shell(display)
@@ -26,7 +27,7 @@ composite = Composite(shell, SWT.NONE)
 layout = GridLayout(2, False)
 composite.setLayout(layout)
 
-header =  Label(composite, SWT.NONE)
+header =  CLabel(composite, SWT.NONE)
 header.setText("Your details")
 gridData = GridData()
 gridData.horizontalSpan = 2
@@ -36,10 +37,10 @@ gridData = GridData()
 gridData.horizontalSpan = 2
 separator.setLayoutData(gridData)
 
-label = Label(composite, SWT.NONE)
+label = CLabel(composite, SWT.NONE)
 label.setText("Name")
 text = Text(composite, SWT.NONE)
-label2 = Label(composite, SWT.NONE)
+label2 = CLabel(composite, SWT.NONE)
 label2.setText("City")
 text2 = Text(composite, SWT.NONE)
 

@@ -20,6 +20,7 @@ currently capable of monitoring and logging. Any type derived from the listed ty
 is also supported but will only have features of the listed type described.
 
 org.eclipse.swt.browser.Browser
+org.eclipse.swt.custom.CLabel
 org.eclipse.swt.custom.CTabFolder
 org.eclipse.swt.widgets.Button
 org.eclipse.swt.widgets.Canvas

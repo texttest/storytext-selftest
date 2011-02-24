@@ -52,6 +52,7 @@ label.setMenu(menu2)
 
 class PrintListener(Listener):
     def handleEvent(self, e):
+        label.setText("Right Panel Clicked!")
         print "Clicked menu"
 
 class TreePrintListener(Listener):

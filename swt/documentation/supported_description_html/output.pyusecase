@@ -25,6 +25,7 @@ is also supported but will only have features of the listed type described.
 </div>
 <div class="Text_Normal">
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/browser/Browser.html>org.eclipse.swt.browser.Browser</a>
+<li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/custom/CLabel.html>org.eclipse.swt.custom.CLabel</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/custom/CTabFolder.html>org.eclipse.swt.custom.CTabFolder</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Button.html>org.eclipse.swt.widgets.Button</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Canvas.html>org.eclipse.swt.widgets.Canvas</a>

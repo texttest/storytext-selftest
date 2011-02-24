@@ -8,7 +8,7 @@ rows_in_stack
 # Test for FormLayout and also monitoring of widgets added lower down a stack
 stack_in_form
 
-# Test for grid layouts spanning several columns
+# Test for grid layouts spanning several columns. Also throw in some CLabels instead of Labels
 span_columns
 
 # Test for grid output when it's too wide to be easily read horizontally
