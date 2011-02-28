@@ -9,6 +9,7 @@ Showing Notebook with tabs: text info , video view
 Viewing page 'video view'
 
 Showing Movie Tree with columns: Movie Name
+'Shortcuts:' , Button 'add several' , Button '_New'
 ----------------------------------------------
 
 'set new movie name to' event created with arguments 'Star Wars'
@@ -18,5 +19,14 @@ Edited 'Movie Name' Text entry (set to 'Star Wars')
 
 Updated : Movie Tree with columns: Movie Name
 -> Star Wars
+
+'set new movie name to' event created with arguments 'Die Hard'
+Edited 'Movie Name' Text entry (set to 'Die Hard')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Star Wars
+-> Die Hard
 
 'close' event created with arguments ''

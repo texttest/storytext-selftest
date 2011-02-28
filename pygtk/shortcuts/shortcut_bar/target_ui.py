@@ -30,6 +30,14 @@ class VideoStore:
         vbox.pack_start(self.getMenuBar(), expand=False, fill=False)
         vbox.pack_start(self.getTaskBar(), expand=False, fill=False)
         vbox.pack_start(self.getNotebook(), expand=True, fill=True)
+        try:
+            from usecase import createShortcutBar
+            shortcutBar = createShortcutBar()
+            if shortcutBar:
+                vbox.pack_start(shortcutBar, expand=False, fill=False)
+                shortcutBar.show()
+        except ImportError:
+            pass
         vbox.show()
         return vbox
     def getMenuBar(self):

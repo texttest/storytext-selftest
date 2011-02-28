@@ -1,17 +1,8 @@
-# Test that we can create a simple shortcut that will add 2 movies
-create_shortcut
-
 # Make sure a shortcut file can be used
 use_shortcut
 
-# check we can provide the name of the UI map file using the shortcut bar
-uimap_via_shortcut_bar
-
-# check we can provide the name of the UI map file using the shortcut bar, and that it works when we don't set one up or any logging from the start
-uimap_via_shortcut_bar_no_initial
-
-# check we can provide the custom widget details using the shortcut bar
-custom_widgets_via_shortcut_bar
-
 # Tests for automatic insertion of shortcuts when recording
 inserting
+
+# Tests for using the PyGTK shortcut bar
+shortcut_bar

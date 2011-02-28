@@ -12,7 +12,6 @@ bad_python_version
 
 # Check what happens if there isn't a usecase and the target program isn't a UI
 no_usecase
-create_empty_shortcut
 
 # The menubar has a check menu item which makes the buttons invisible.
 # This test demonstrates the PyUseCase 'bug'/feature that invisible 
@@ -42,7 +41,6 @@ combobox_empty
 combobox_no_model
 
 # The user can call set_image on anything at all. Don't bail out if we get an unexpected type there.
-# 
 unexpected_image
 
 # Error handling for tree view stuff
