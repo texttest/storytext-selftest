@@ -32,13 +32,13 @@ Updated List :
 'select' event created with arguments 'nonsense'
 ERROR: Could not find item labelled 'nonsense' in list.
 
-'select' event created with arguments 'Item 3'
-Selection = [3]
+'select' event created with arguments 'Item 2,Item 3'
+Selection = [2, 3]
 
 Updated List :
 -> Item 0
 -> Item 1
--> Item 2
+-> Item 2 (selected)
 -> Item 3 (selected)
 -> Item 4
 -> Item 5
