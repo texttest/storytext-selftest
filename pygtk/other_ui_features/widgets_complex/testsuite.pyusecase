@@ -6,3 +6,6 @@ dialog_run_checkbutton
 
 # gtk.Dialog.run on a dialog with entries has been known to cause problems...
 dialog_run_entry
+
+# If widgets can't be distinguished except by one being clickable and the other not, choose the right one
+find_sensitive_widget
