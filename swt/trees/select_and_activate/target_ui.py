@@ -21,7 +21,7 @@ from org.eclipse.swt.layout import *
 display = Display()
 shell = Shell(display)
 shell.setLayout(FillLayout())
-tree = Tree(shell, SWT.BORDER | SWT.V_SCROLL | SWT.H_SCROLL)
+tree = Tree(shell, SWT.MULTI | SWT.BORDER | SWT.V_SCROLL | SWT.H_SCROLL)
 for i in range(12):
     item = TreeItem(tree, SWT.NONE)
     item.setText("Item " + str(i))
