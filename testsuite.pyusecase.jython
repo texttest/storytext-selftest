@@ -1,3 +1,6 @@
+# Test signal behaviour under Jython
+console
+
 # Tests for SWT GUIs using Jython
 swt
 

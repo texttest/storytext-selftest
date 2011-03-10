@@ -1,0 +1,2 @@
+# Check we call default signal handlers when appropriate
+default_signal_handler
