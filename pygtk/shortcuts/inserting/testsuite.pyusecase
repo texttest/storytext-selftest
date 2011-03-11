@@ -9,3 +9,7 @@ other_actions_intervene
 
 # Check we can do multiple insertions correctly, and insertions that don't begin at the start
 multiple_insert
+
+# Do some of the shortcut, stop, and then do all of it. Don't lose the actions in the first "partial" attempt.
+# 
+insert_after_partial_shortcut
