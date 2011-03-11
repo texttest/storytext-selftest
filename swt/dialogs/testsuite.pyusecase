@@ -4,5 +4,8 @@ closure_confirm
 # Test we can handle several dialogs nested inside one another
 nested
 
+# Try to use a widget in a dialog after the dialog is closed
+click_disposed_widget
+
 # Don't describe a canvas repaint just because we've closed a dialog that was hiding it
 main_window_canvas

@@ -1,0 +1,30 @@
+
+---------- Shell 'Main Window' ----------
+Button 'Open a dialog'
+
+-----------------------------------------
+
+'open first dialog' event created with arguments ''
+
+---------- Shell 'First Dialog' ----------
+========== Text ==========
+
+==========================
+
+Button 'Open another dialog'
+
+------------------------------------------
+
+'enter text' event created with arguments 'Hello'
+
+Updated Text Field
+========== Text ==========
+Hello
+==========================
+
+'close first dialog' event created with arguments ''
+
+'enter text' event created with arguments 'Something'
+ERROR: widget  of type Text has already been disposed, cannot simulate event 'enter text'
+
+'close window' event created with arguments ''

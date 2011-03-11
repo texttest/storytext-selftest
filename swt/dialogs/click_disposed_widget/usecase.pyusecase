@@ -1,0 +1,5 @@
+open first dialog
+enter text Hello
+close first dialog
+enter text Something
+close window
