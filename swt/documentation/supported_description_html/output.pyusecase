@@ -4,6 +4,7 @@ PyUseCase trunk is currently capable of recording and replaying. Any type derive
 types is also supported.
 </div>
 <div class="Text_Normal"><table border=1 cellpadding=1 cellspacing=1>
+<tr><td><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/custom/CTabFolder.html>org.eclipse.swt.custom.CTabFolder</a></td><td><div class="Table_Text_Normal">Selection</div></td></tr>
 <tr><td><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/custom/CTabItem.html>org.eclipse.swt.custom.CTabItem</a></td><td><div class="Table_Text_Normal">Dispose</div></td></tr>
 <tr><td><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Button.html>org.eclipse.swt.widgets.Button</a></td><td><div class="Table_Text_Normal">Selection</div></td></tr>
 <tr><td><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Combo.html>org.eclipse.swt.widgets.Combo</a></td><td><div class="Table_Text_Normal">Modify</div></td></tr>

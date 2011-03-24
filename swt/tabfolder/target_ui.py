@@ -54,8 +54,8 @@ for i in range(2):
 	
 class RenameListener(Listener):
     def handleEvent(self, e):
-        text.setEnabled(True)
-        item.setText("New")
+        folder.getSelection().getControl().setEnabled(True)
+        folder.getSelection().setText("New")
 
 class DisposeListener(Listener):
     def handleEvent(self, e):

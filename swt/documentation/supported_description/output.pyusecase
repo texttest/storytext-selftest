@@ -2,6 +2,7 @@ The following lists the SWT widget types and the associated event types on them 
 PyUseCase trunk is currently capable of recording and replaying. Any type derived from the listed
 types is also supported.
 
+org.eclipse.swt.custom.CTabFolder       : Selection
 org.eclipse.swt.custom.CTabItem         : Dispose
 org.eclipse.swt.widgets.Button          : Selection
 org.eclipse.swt.widgets.Combo           : Modify
