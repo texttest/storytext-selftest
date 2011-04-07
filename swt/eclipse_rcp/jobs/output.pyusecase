@@ -1,0 +1,38 @@
+
+---------- Shell 'Jobs RCP' ----------
+Menu Bar:
+  &File (cascade)
+    E&xit	Ctrl+X
+  &Jobs (cascade)
+    Job1
+
+TabFolder with no tabs
+
+Tool Bar:
+  Tooltip 'View Menu' (Image 1)
+
+Cool Bar:
+
+Canvas 1
+
+--------------------------------------
+
+'start job 1' event created with arguments ''
+
+Waiting for application event 'completion of job 1' to occur.
+Executing the first task
+Executing the second task
+Executing the third task
+
+---------- Shell 'Info' ----------
+Image 2  'The job is done'
+
+Button 'OK'
+
+----------------------------------
+
+Expected application event 'completion of job 1' occurred, proceeding.
+
+'accept job completion dialog' event created with arguments ''
+
+'close window' event created with arguments ''

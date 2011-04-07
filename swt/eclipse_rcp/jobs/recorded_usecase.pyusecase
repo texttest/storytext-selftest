@@ -1,0 +1,4 @@
+start job 1
+wait for completion of job 1
+accept job completion dialog
+close window

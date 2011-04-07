@@ -1,0 +1,5 @@
+# Test a basic eclipse RCP application (rcpmail demo)
+rcpmail_demo
+
+# Test creation of application events from job termination
+jobs

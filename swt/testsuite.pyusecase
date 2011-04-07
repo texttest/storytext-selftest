@@ -49,9 +49,6 @@ appevent
 # Test we notice copying things to the clipboard
 clipboard
 
-# Test an eclipse RCP application (rcpmail demo)
-eclipse_rcp
-
 # Stuff to do with trees...
 trees
 
@@ -63,6 +60,9 @@ layouts
 
 # Tests for various dialogs, or shells as they're known in SWT
 dialogs
+
+# New suite for Eclipse RCP tests
+eclipse_rcp
 
 # Documentation output for SWT
 documentation
