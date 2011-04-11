@@ -8,6 +8,12 @@ Menu Bar:
     Open Another Message View	Ctrl+2 (Image 2)
     ---
     E&xit	Ctrl+X
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1 (greyed out)
+    Show in View 2 (greyed out)
+    Show Info View
   &Help (cascade)
     &About RCP Product
 

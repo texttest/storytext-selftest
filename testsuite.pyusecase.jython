@@ -4,3 +4,5 @@ console
 # Tests for SWT GUIs using Jython
 swt
 
+# Tests for Java Swing
+swing

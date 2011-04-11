@@ -5,6 +5,12 @@ Menu Bar:
     E&xit	Ctrl+X
   &Jobs (cascade)
     Job1
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1 (greyed out)
+    Show in View 2 (greyed out)
+    Show Info View
 
 TabFolder with no tabs
 

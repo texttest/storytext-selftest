@@ -1,0 +1,34 @@
+
+---------- Shell 'Tab (View) Selection Application' ----------
+Menu Bar:
+  &File (cascade)
+    E&xit	Ctrl+X
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1
+    Show in View 2 (greyed out)
+    Show Info View
+
+TabFolder with tabs FirstView (cascade, Image 1, selected)
+
+--------------- Horizontal sash ---------------
+
+TabFolder with tabs SecondView (cascade, Image 1, selected)
+
+--------------------------------------------------------------
+
+'activate second view' event created with arguments ''
+
+'create new first view' event created with arguments ''
+New widgets have appeared: describing common parent :
+
+TabFolder with tabs FirstView (cascade, Image 1) , FirstView (cascade, Image 1, selected)
+
+--------------- Horizontal sash ---------------
+
+TabFolder with tabs SecondView (cascade, Image 1, selected)
+
+Updated TabFolder with tabs FirstView (cascade, Image 1) , FirstView (cascade, Image 1, selected)
+
+'close window' event created with arguments ''
