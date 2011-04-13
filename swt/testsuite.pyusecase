@@ -49,6 +49,9 @@ appevent
 # Test we notice copying things to the clipboard
 clipboard
 
+# Make sure we get a sensible message if a label becomes empty
+label_text_becomes_empty
+
 # Stuff to do with trees...
 trees
 

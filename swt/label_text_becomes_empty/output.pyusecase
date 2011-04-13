@@ -1,0 +1,17 @@
+
+---------- Shell '' ----------
+Context Menu 1
+
+'Right Panel'
+
+
+Context Menu 1:
+  Popup
+------------------------------
+
+'cause other popup' event created with arguments ''
+Label emptied
+
+Label now empty, previously 'Right Panel'
+
+'close window' event created with arguments ''
