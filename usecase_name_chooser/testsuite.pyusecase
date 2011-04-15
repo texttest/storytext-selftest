@@ -24,3 +24,6 @@ local_uimap
 
 # GTK requires UTF8 text, see what happens if it gets some other encoding
 text_not_utf8
+
+# Don't crash if we don't recognise the interface
+unknown_interface
