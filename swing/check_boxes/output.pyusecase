@@ -1,0 +1,28 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Check box demo' ----------
+A widget of type 'JRootPane'
+
+A widget of type 'JPanel'
+
+A widget of type 'JLayeredPane'
+
+A widget of type 'JPanel'
+
+A widget of type 'JPanel'
+
+JCheckBox 'First'
+
+JCheckBox 'Second'
+---------------------------------------------
+
+'select first box' event created with arguments ''
+Selected the First check box
+
+'select second box' event created with arguments ''
+Selected the Second check box
+
+'select first box' event created with arguments ''
+Deselected the First check box
+
+'close window' event created with arguments ''

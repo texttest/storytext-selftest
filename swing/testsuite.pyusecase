@@ -1,0 +1,17 @@
+# Test for JButton widgets
+buttons
+
+# Test for JRadioButton widgets
+radio_buttons
+
+# Test for JCheckBox widgets
+check_boxes
+
+# Test for JMenu widgets
+menus
+
+# Test for JToolbar widgets
+toolbars
+
+# Test for JTabbedPane widget
+tabs

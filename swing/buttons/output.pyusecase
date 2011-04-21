@@ -1,0 +1,18 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'ButtonDemo' ----------
+A widget of type 'JRootPane'
+
+A widget of type 'JPanel'
+
+A widget of type 'JLayeredPane'
+
+A widget of type 'JPanel'
+
+JButton 'Hello!'
+-----------------------------------------
+
+'say hello' event created with arguments ''
+Hello World!
+
+'close window' event created with arguments ''
