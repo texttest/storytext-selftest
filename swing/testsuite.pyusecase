@@ -15,3 +15,6 @@ toolbars
 
 # Test for JTabbedPane widget
 tabs
+
+# Tests for different kinds of dialogs
+dialogs

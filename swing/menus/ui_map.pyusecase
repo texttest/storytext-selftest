@@ -1,9 +1,0 @@
-[Label=Select All]
-Click = Select All
-
-[Label=Item]
-Click = Item
-
-[Type=JFrame]
-Close = Close window
-
