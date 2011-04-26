@@ -1,0 +1,10 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'ButtonDemo' ----------
+JButton 'Hello!'
+-----------------------------------------
+
+'say hello' event created with arguments ''
+Hello World!
+
+'close window' event created with arguments ''

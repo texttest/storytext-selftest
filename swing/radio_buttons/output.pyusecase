@@ -1,0 +1,15 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Radio button demo' ----------
+JRadioButton 'First'
+
+JRadioButton 'Second'
+------------------------------------------------
+
+'select first button' event created with arguments ''
+Selected the First button
+
+'select second button' event created with arguments ''
+Selected the Second button
+
+'close window' event created with arguments ''

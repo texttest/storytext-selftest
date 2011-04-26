@@ -1,0 +1,18 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Menu demo' ----------
+Menu Bar:
+  File
+    Select All
+    Sub menu
+      Item
+    Quit
+----------------------------------------
+
+'Select All' event created with arguments ''
+
+'Item' event created with arguments ''
+Selected the Select All menu
+
+'Close window' event created with arguments ''
+Selected the Item menu
