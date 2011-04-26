@@ -10,9 +10,9 @@ Menu Bar:
 ----------------------------------------
 
 'Select All' event created with arguments ''
-
-'Item' event created with arguments ''
 Selected the Select All menu
 
-'Close window' event created with arguments ''
+'Item' event created with arguments ''
 Selected the Item menu
+
+'Close window' event created with arguments ''
