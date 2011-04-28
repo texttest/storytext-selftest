@@ -16,6 +16,9 @@ gtk_widget_tour
 # Every type of widget for Tkinter
 tkinter_widget_tour
 
+# Some type of widget for swing
+swing_widget_tour
+
 # If we have several map files, we should add to the one that already contains the right section
 add_to_correct_uimap
 

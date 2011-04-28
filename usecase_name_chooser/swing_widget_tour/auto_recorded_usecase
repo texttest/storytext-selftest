@@ -1,0 +1,4 @@
+Auto.JButton.Click.'Label=Hello!'
+Auto.JRadioButton.Click.'Label=First'
+Auto.JRadioButton.Click.'Label=Second'
+Auto.JFrame.Close.'Type=JFrame'

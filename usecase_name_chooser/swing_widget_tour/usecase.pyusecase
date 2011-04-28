@@ -1,0 +1,5 @@
+enter usecase name for signal 'Click' on JButton 'Label=Hello!' = click hello
+enter usecase name for signal 'Click' on JRadioButton 'Label=First' = select first
+enter usecase name for signal 'Click' on JRadioButton 'Label=Second' = select second
+enter usecase name for signal 'Close' on JFrame 'Type=JFrame' = close window
+finish name entry editing

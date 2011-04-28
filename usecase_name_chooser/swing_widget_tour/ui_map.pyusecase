@@ -1,0 +1,12 @@
+[Label=Hello!]
+Click = click hello
+
+[Label=First]
+Click = select first
+
+[Label=Second]
+Click = select second
+
+[Type=JFrame]
+Close = close window
+
