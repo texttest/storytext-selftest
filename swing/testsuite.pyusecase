@@ -1,6 +1,9 @@
 # Test for JButton widgets
 buttons
 
+# Test for handling buttons 
+close_buttons
+
 # Test for JRadioButton widgets
 radio_buttons
 

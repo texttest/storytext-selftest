@@ -1,0 +1,19 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Confirm Dialog Demo' ----------
+JButton 'Exit'
+--------------------------------------------------
+
+'click exit' event created with arguments ''
+
+---------- Window 'User Confirmation' ----------
+JLabel 'Are you sure you want to exit?'
+
+JLabel (Image)
+
+JButton 'Yes'
+
+JButton 'No'
+------------------------------------------------
+
+'answer yes' event created with arguments ''
