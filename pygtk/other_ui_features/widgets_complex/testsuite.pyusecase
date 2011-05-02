@@ -10,5 +10,8 @@ dialog_run_entry
 # Check we can disconnect without getting into trouble...
 dialog_disconnect
 
+# If we destroy a dialog in a handler for response, make sure it actually happens
+dialog_destroy_from_response
+
 # If widgets can't be distinguished except by one being clickable and the other not, choose the right one
 find_sensitive_widget
