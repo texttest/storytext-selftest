@@ -12,10 +12,13 @@ class MyDialog():
         dialog.vbox.add(button)
         
         dialog.add_button('Close', gtk.RESPONSE_CLOSE)
-        
+        dialog.connect('destroy', self.destroyed)
         result = dialog.run()
         dialog.destroy()
 
+    def destroyed(self, dialog):
+        print "The dialog was actually destroyed!"
+        
 if __name__ == "__main__":
     win = gtk.Window()
     dialog = MyDialog(win)
