@@ -46,6 +46,10 @@ browser
 # Make sure we can describe a tree, including changes to it
 appevent
 
+# Handle initial appevents correctly
+# 
+appevent_at_start
+
 # Test we notice copying things to the clipboard
 clipboard
 

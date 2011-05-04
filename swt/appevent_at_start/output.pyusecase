@@ -1,0 +1,15 @@
+
+Waiting for application event 'row 3 to be added' to occur.
+
+---------- Shell '' ----------
+Tree :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+
+------------------------------
+
+Expected application event 'row 3 to be added' occurred, proceeding.
+
+'close window' event created with arguments ''
