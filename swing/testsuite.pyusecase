@@ -1,7 +1,7 @@
 # Test for JButton widgets
 buttons
 
-# Test for handling buttons 
+# Test for handling buttons
 close_buttons
 
 # Test for JRadioButton widgets
@@ -18,6 +18,8 @@ toolbars
 
 # Test for JTabbedPane widget
 tabs
+lists
 
 # Tests for different kinds of dialogs
 dialogs
+

@@ -1,0 +1,30 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'List box Demo' ----------
+List :
+-> Item 1
+-> Item 2
+-> Item 3
+-> Item 4
+--------------------------------------------
+
+'select' event created with arguments 'Item 1'
+
+Updated List :
+-> Item 1 (selected)
+-> Item 2
+-> Item 3
+-> Item 4
+
+'select' event created with arguments 'Item 2, Item 3'
+
+Updated List :
+-> Item 1
+-> Item 2 (selected)
+-> Item 3 (selected)
+-> Item 4
+
+'select' event created with arguments 'Nothing'
+ERROR: Could not find item labeled 'Nothing' in list.
+
+'close window' event created with arguments ''

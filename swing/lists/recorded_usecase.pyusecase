@@ -1,0 +1,3 @@
+select Item 1
+select Item 2, Item 3
+close window
