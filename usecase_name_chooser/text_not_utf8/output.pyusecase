@@ -11,7 +11,9 @@ Viewing table with 4 rows and 4 columns.
 .....'Current Usecase Preview'......
 
 ========== GtkTextView ==========
+Någonting på svenska
 ?
+Något annat på svenska
 ?
 ?
 =================================
@@ -23,7 +25,9 @@ Button 'gtk-ok' (Stock image 'gtk-ok')
 Edited 'GtkEntry' Text entry (set to 'set movie name to')
 
 ========== GtkTextView ==========
+Någonting på svenska
 set movie name to Stjärnornas Krig
+Något annat på svenska
 ?
 ?
 =================================
@@ -32,7 +36,9 @@ set movie name to Stjärnornas Krig
 Edited 'GtkEntry' Text entry (set to 'add movie')
 
 ========== GtkTextView ==========
+Någonting på svenska
 set movie name to Stjärnornas Krig
+Något annat på svenska
 add movie
 ?
 =================================
@@ -41,7 +47,9 @@ add movie
 Edited 'GtkEntry' Text entry (set to 'close')
 
 ========== GtkTextView ==========
+Någonting på svenska
 set movie name to Stjärnornas Krig
+Något annat på svenska
 add movie
 close
 =================================
