@@ -17,10 +17,10 @@ Viewing table with 8 rows and 4 columns.
 ========== GtkTextView ==========
 ?
 ?
+? hello
 ?
 ?
-?
-?
+? fourth row
 ?
 =================================
 ---------------
@@ -33,10 +33,10 @@ Edited 'GtkEntry' Text entry (set to 'say hello')
 ========== GtkTextView ==========
 say hello
 ?
+? hello
 ?
 ?
-?
-?
+? fourth row
 ?
 =================================
 
@@ -46,10 +46,10 @@ Edited 'GtkEntry' Text entry (set to 'click on hello label')
 ========== GtkTextView ==========
 say hello
 click on hello label
+? hello
 ?
 ?
-?
-?
+? fourth row
 ?
 =================================
 
@@ -59,10 +59,10 @@ Edited 'GtkEntry' Text entry (set to 'click something')
 ========== GtkTextView ==========
 say hello
 click on hello label
-?
+? hello
 click something
 ?
-?
+? fourth row
 ?
 =================================
 
@@ -72,10 +72,10 @@ Edited 'GtkEntry' Text entry (set to 'right-click something else')
 ========== GtkTextView ==========
 say hello
 click on hello label
-?
+? hello
 click something
 right-click something else
-?
+? fourth row
 ?
 =================================
 
@@ -88,7 +88,7 @@ click on hello label
 set text to hello
 click something
 right-click something else
-?
+? fourth row
 ?
 =================================
 
