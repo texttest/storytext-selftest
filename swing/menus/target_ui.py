@@ -39,11 +39,11 @@ class MenuApp:
     def quit(self, event):
         self.printMenu(event)
         System.exit(0);
-            
+
+    @staticmethod            
     def main():
         app = MenuApp()
         app.make_ui()
-    main = staticmethod(main)
 
 MenuApp.main()
 

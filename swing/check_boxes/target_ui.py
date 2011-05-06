@@ -22,11 +22,11 @@ class CheckBoxApp:
             print "Selected the", widget.getText(), "check box"
         else:
             print "Deselected the", widget.getText(), "check box"
-            
+
+    @staticmethod            
     def main():
         app = CheckBoxApp()
         app.make_ui()
-    main = staticmethod(main)
 
 CheckBoxApp.main()
 

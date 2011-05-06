@@ -23,10 +23,10 @@ class ConfirmDialogApp:
                                                     JOptionPane.YES_NO_OPTION)
         if confirmed == JOptionPane.YES_OPTION:
             self.frame.dispose()
-                    
+
+    @staticmethod                    
     def main():
         app = ConfirmDialogApp()
         app.make_ui()
-    main = staticmethod(main)
 
 ConfirmDialogApp.main()

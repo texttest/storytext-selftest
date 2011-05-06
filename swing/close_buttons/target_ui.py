@@ -24,10 +24,10 @@ class CloseButtonsApp:
     def printMessage(self, event):
         print "Because"
         self.button2.setEnabled(True)
-
+    
+    @staticmethod
     def main():
         app = CloseButtonsApp()
         app.make_ui()
-    main = staticmethod(main)
 
 CloseButtonsApp.main()

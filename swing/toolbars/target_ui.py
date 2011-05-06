@@ -32,10 +32,10 @@ class ToolBarApp:
     def quit(self, event):
         self.printMenu(event)
         System.exit(0);
-            
+
+    @staticmethod        
     def main():
         app = ToolBarApp()
         app.make_ui()
-    main = staticmethod(main)
 
 ToolBarApp.main()

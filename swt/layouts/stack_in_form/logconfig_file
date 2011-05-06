@@ -33,17 +33,17 @@ qualname=usecase replay log
 level=INFO
 
 # ====== The following are disabled by default ======
-# ======= Section for SWT structure ======
-[logger_SWT structure]
-handlers=SWT structure
-qualname=SWT structure
+# ======= Section for widget structure ======
+[logger_widget structure]
+handlers=widget structure
+qualname=widget structure
 level=DEBUG
 
-[handler_SWT structure]
+[handler_widget structure]
 class=FileHandler
 #formatter=debug
 args=(os.devnull, 'a')
-args=('swtstructure.pyusecase', 'a')
+args=('widgetstructure.pyusecase', 'a')
 
 # ======= Section for TreeModelIndexer ======
 [logger_TreeModelIndexer]
@@ -95,10 +95,10 @@ args=(os.devnull, 'a')
 
 # ====== Cruft that python logging module needs ======
 [loggers]
-keys=root,gui log,usecase replay log,SWT structure,TreeModelIndexer,TreeViewDescriber,gui map,usecase record
+keys=root,gui log,usecase replay log,widget structure,TreeModelIndexer,TreeViewDescriber,gui map,usecase record
 
 [handlers]
-keys=root,SWT structure,TreeModelIndexer,TreeViewDescriber,gui map,stdout,usecase record
+keys=root,widget structure,TreeModelIndexer,TreeViewDescriber,gui map,stdout,usecase record
 
 [formatters]
 keys=timed,debug

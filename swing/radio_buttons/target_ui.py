@@ -24,10 +24,10 @@ class RadioButtonApp:
         if widget.isSelected():
             print "Selected the", widget.getText(), "button"
 
+    @staticmethod
     def main():
         app = RadioButtonApp()
         app.make_ui()
-    main = staticmethod(main)
 
 RadioButtonApp.main()
 

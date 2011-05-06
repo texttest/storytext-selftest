@@ -27,10 +27,10 @@ class TabsApp:
     def addTabs(self, tabbedPane):
         for i in range(1, 6):
             tabbedPane.add("Tab " + str(i), swing.JPanel())
-            
+
+    @staticmethod            
     def main():
         app = TabsApp()
         app.make_ui()
-    main = staticmethod(main)
 
 TabsApp.main()
