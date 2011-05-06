@@ -46,6 +46,9 @@ datetime
 # Test for browser widgets
 browser
 
+# Just describe it for now
+table
+
 # Make sure we can describe a tree, including changes to it
 appevent
 

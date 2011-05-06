@@ -43,6 +43,7 @@ is also supported but will only have features of the listed type described.
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Sash.html>org.eclipse.swt.widgets.Sash</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Shell.html>org.eclipse.swt.widgets.Shell</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/TabFolder.html>org.eclipse.swt.widgets.TabFolder</a>
+<li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Table.html>org.eclipse.swt.widgets.Table</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Text.html>org.eclipse.swt.widgets.Text</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/ToolBar.html>org.eclipse.swt.widgets.ToolBar</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Tree.html>org.eclipse.swt.widgets.Tree</a>
