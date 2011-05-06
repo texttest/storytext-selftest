@@ -20,20 +20,25 @@ Updated TabFolder with tabs Item 0 (cascade, Image 1) , Item 1 (cascade, Image 2
 Content for Item 1
 ==========================
 
+'close second tab' event created with arguments ''
+
+Updated TabFolder with tabs Item 0 (cascade, Image 1, selected)
+
+========== Text ========== (greyed out)
+Content for Item 0
+==========================
+
 'rename tab' event created with arguments ''
 
-Updated TabFolder with tabs Item 0 (cascade, Image 1) , New (cascade, Image 2, selected)
+Updated TabFolder with tabs New (cascade, Image 1, selected)
 
 ========== Text ==========
-Content for Item 1
+Content for Item 0
 ==========================
 
 Updated Text Field
 ========== Text ==========
-Content for Item 1
+Content for Item 0
 ==========================
-
-'select tab' event created with arguments 'no such tab'
-ERROR: Could not find tab labelled 'no such tab' in TabFolder.
 
 'close window' event created with arguments ''

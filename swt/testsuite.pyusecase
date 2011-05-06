@@ -22,11 +22,14 @@ toolbar_images
 # Test we can handle expandbar descriptions and state changes.
 expandbar
 
-# Test for CTabFolder widgets
+# Test for ordinary TabFolder widgets
 tabfolder
 
+# Test for CTabFolder widgets
+ctabfolder
+
 # Check output when there are no tabs
-tabfolder_no_tabs
+ctabfolder_no_tabs
 
 # Test we can handle lists
 list
@@ -47,7 +50,6 @@ browser
 appevent
 
 # Handle initial appevents correctly
-# 
 appevent_at_start
 
 # Test we notice copying things to the clipboard

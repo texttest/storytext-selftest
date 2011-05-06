@@ -12,6 +12,7 @@ org.eclipse.swt.widgets.Link            : Selection
 org.eclipse.swt.widgets.List            : Selection
 org.eclipse.swt.widgets.MenuItem        : Selection
 org.eclipse.swt.widgets.Shell           : Close , Resize
+org.eclipse.swt.widgets.TabFolder       : Selection
 org.eclipse.swt.widgets.Text            : Modify
 org.eclipse.swt.widgets.ToolItem        : Selection
 org.eclipse.swt.widgets.Tree            : Collapse , DefaultSelection , Expand , Selection
@@ -36,6 +37,7 @@ org.eclipse.swt.widgets.List
 org.eclipse.swt.widgets.Menu
 org.eclipse.swt.widgets.Sash
 org.eclipse.swt.widgets.Shell
+org.eclipse.swt.widgets.TabFolder
 org.eclipse.swt.widgets.Text
 org.eclipse.swt.widgets.ToolBar
 org.eclipse.swt.widgets.Tree

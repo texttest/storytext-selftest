@@ -42,9 +42,9 @@ fileItem.setMenu(submenu)
 menuItem = MenuItem(submenu, SWT.PUSH)
 menuItem.setText("Rename")
 
-folder = TabFolder(shell, SWT.BORDER)
+folder = CTabFolder(shell, SWT.BORDER)
 for i in range(2):
-    item = TabItem(folder, SWT.CLOSE)
+    item = CTabItem(folder, SWT.CLOSE)
     item.setText("Item " + str(i))
     text = Text(folder, SWT.MULTI)
     text.setText("Content for Item " + str(i))
@@ -54,13 +54,12 @@ for i in range(2):
 	
 class RenameListener(Listener):
     def handleEvent(self, e):
-        for item in folder.getSelection():
-            item.getControl().setEnabled(True)
-            item.setText("New")
+        folder.getSelection().getControl().setEnabled(True)
+        folder.getSelection().setText("New")
 
 class DisposeListener(Listener):
     def handleEvent(self, e):
-        if isinstance(e.widget, TabItem):
+        if isinstance(e.widget, CTabItem):
             e.widget.getImage().dispose()
         
 menuItem.addListener(SWT.Selection, RenameListener())
