@@ -4,8 +4,6 @@ Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 JButton 'Why?'
 
 JButton 'Exit' (greyed out)
-
-JButton 'ApplicationEvent Exit button to be enabled'
 --------------------------------------------
 
 'ask why' event created with arguments ''

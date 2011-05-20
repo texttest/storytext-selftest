@@ -10,6 +10,21 @@ _________________________
 
 'select name' event created with arguments 'Anders'
 
+Updated Table :
+| Name              | Age | Gender |
+____________________________________
+| Anders (selected) | 21  | male   |
+| Eva               | 22  | female |
+
 'select name' event created with arguments 'Eva'
+
+Updated Table :
+| Name           | Age | Gender |
+_________________________________
+| Anders         | 21  | male   |
+| Eva (selected) | 22  | female |
+
+'select name' event created with arguments 'No Name'
+ERROR: Could not find value labeled 'No Name' in table.
 
 'close window' event created with arguments ''
