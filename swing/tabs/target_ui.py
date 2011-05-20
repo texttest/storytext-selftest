@@ -26,7 +26,9 @@ class TabsApp:
     
     def addTabs(self, tabbedPane):
         for i in range(1, 6):
-            tabbedPane.add("Tab " + str(i), swing.JPanel())
+            panel = swing.JPanel()
+            panel.add(swing.JLabel("content " + str(i)))
+            tabbedPane.add("Tab " + str(i), panel)
 
     @staticmethod            
     def main():

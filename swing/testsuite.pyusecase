@@ -20,6 +20,11 @@ toolbars
 tabs
 lists
 
+# Test to handle an application event
+appevent
+
 # Tests for different kinds of dialogs
 dialogs
 
+# various tests for JTable widget
+tables
