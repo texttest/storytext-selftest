@@ -1,36 +1,30 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Tabs demo' ----------
-Tabbed Pane:
- 'Tab 1' 'Tab 2' 'Tab 3' 'Tab 4' 'Tab 5'
+TabFolder with tabs Tab 1 (selected), Tab 2, Tab 3, Tab 4, Tab 5
 
 'content 1'
-
-'content 2'
-
-'content 3'
-
-'content 4'
-
-'content 5'
 ----------------------------------------
 
 'click' event created with arguments 'Tab 2'
 Tab 2 selected
-New widgets have appeared: describing common parent :
 
+Updated TabFolder with tabs Tab 1, Tab 2 (selected), Tab 3, Tab 4, Tab 5
 
+'content 2'
 
 'click' event created with arguments 'Tab 3'
 Tab 3 selected
-New widgets have appeared: describing common parent :
 
+Updated TabFolder with tabs Tab 1, Tab 2, Tab 3 (selected), Tab 4, Tab 5
 
+'content 3'
 
 'click' event created with arguments 'Tab 4'
 Tab 4 selected
-New widgets have appeared: describing common parent :
 
+Updated TabFolder with tabs Tab 1, Tab 2, Tab 3, Tab 4 (selected), Tab 5
 
+'content 4'
 
 'close window' event created with arguments ''
