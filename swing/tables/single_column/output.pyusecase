@@ -2,29 +2,35 @@ Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Table demo' ----------
 Table :
-| Name  |
-_________
-| Tom   |
-| Dick  |
-| Harry |
+_____
+Name
+_____
+Tom
+Dick
+Harry
+_____
 -----------------------------------------
 
 'select name' event created with arguments 'Tom'
 
 Updated Table :
-| Name           |
-__________________
-| Tom (selected) |
-| Dick           |
-| Harry          |
+______________
+Name
+______________
+Tom (selected)
+Dick
+Harry
+______________
 
 'select name' event created with arguments 'Dick'
 
 Updated Table :
-| Name            |
-___________________
-| Tom             |
-| Dick (selected) |
-| Harry           |
+_______________
+Name
+_______________
+Tom
+Dick (selected)
+Harry
+_______________
 
 'close window' event created with arguments ''
