@@ -1,6 +1,8 @@
-select Eva
+select Name for Eva
 select Age for Eva
 select Gender for Anders
 double click Gender for Anders
-select No Name
+select Nonsense
+select Name for Nobody
+select Bad Attribute for Eva
 close window

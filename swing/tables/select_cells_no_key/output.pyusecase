@@ -11,7 +11,7 @@ Eva    22   female
 __________________
 -----------------------------------------
 
-'select' event created with arguments 'Maria'
+'select' event created with arguments 'Name for Maria'
 
 Updated Table :
 _____________________________
@@ -22,7 +22,7 @@ Eva               20   female
 Eva               22   female
 _____________________________
 
-'select' event created with arguments 'Age for 20 (0,1)'
+'select' event created with arguments 'Age for Maria'
 
 Updated Table :
 ____________________________
@@ -33,7 +33,7 @@ Eva    20             female
 Eva    22             female
 ____________________________
 
-'select' event created with arguments 'Gender for 20 (0,1)'
+'select' event created with arguments 'Gender for Maria'
 
 Updated Table :
 _____________________________
@@ -44,7 +44,7 @@ Eva    20   female
 Eva    22   female
 _____________________________
 
-'select' event created with arguments 'Name for Eva (1,0)'
+'select' event created with arguments 'Name for Eva (1)'
 
 Updated Table :
 ___________________________
@@ -55,7 +55,7 @@ Eva (selected)  20   female
 Eva             22   female
 ___________________________
 
-'select' event created with arguments 'Age for Eva (1,0)'
+'select' event created with arguments 'Age for Eva (1)'
 
 Updated Table :
 ____________________________
@@ -66,7 +66,7 @@ Eva    20 (selected)  female
 Eva    22             female
 ____________________________
 
-'select' event created with arguments 'Gender for Eva (1,0)'
+'select' event created with arguments 'Gender for Eva (1)'
 
 Updated Table :
 _____________________________
@@ -77,7 +77,7 @@ Eva    20   female (selected)
 Eva    22   female
 _____________________________
 
-'select' event created with arguments 'Name for female (2,2)'
+'select' event created with arguments 'Name for Eva (2)'
 
 Updated Table :
 ___________________________
@@ -88,7 +88,7 @@ Eva             20   female
 Eva (selected)  22   female
 ___________________________
 
-'select' event created with arguments '22'
+'select' event created with arguments 'Age for Eva (2)'
 
 Updated Table :
 ____________________________
@@ -99,7 +99,7 @@ Eva    20             female
 Eva    22 (selected)  female
 ____________________________
 
-'select' event created with arguments 'Gender for female (2,2)'
+'select' event created with arguments 'Gender for Eva (2)'
 
 Updated Table :
 _____________________________

@@ -10,7 +10,7 @@ Eva     22   female
 ___________________
 -----------------------------------------
 
-'select' event created with arguments 'Eva'
+'select' event created with arguments 'Name for Eva'
 
 Updated Table :
 ___________________________
@@ -42,7 +42,13 @@ ____________________________
 
 'double click' event created with arguments 'Gender for Anders'
 
-'select' event created with arguments 'No Name'
-ERROR: Could not find value labeled 'No Name' in table.
+'select' event created with arguments 'Nonsense'
+ERROR: Could not find row identified by 'Nonsense' in table.
+
+'select' event created with arguments 'Name for Nobody'
+ERROR: Could not find row identified by 'Nobody' in table.
+
+'select' event created with arguments 'Bad Attribute for Eva'
+ERROR: Could not find column labelled 'Bad Attribute' in table.
 
 'close window' event created with arguments ''
