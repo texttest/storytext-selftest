@@ -1,3 +1,5 @@
-select name Anders
-select name Eva
+select Eva
+select Age for Eva
+select Gender for Anders
+double click Gender for Anders
 close window

@@ -10,17 +10,7 @@ Eva     22   female
 ___________________
 -----------------------------------------
 
-'select name' event created with arguments 'Anders'
-
-Updated Table :
-______________________________
-Name               Age  Gender
-______________________________
-Anders (selected)  21   male
-Eva                22   female
-______________________________
-
-'select name' event created with arguments 'Eva'
+'select' event created with arguments 'Eva'
 
 Updated Table :
 ___________________________
@@ -30,7 +20,29 @@ Anders          21   male
 Eva (selected)  22   female
 ___________________________
 
-'select name' event created with arguments 'No Name'
+'select' event created with arguments 'Age for Eva'
+
+Updated Table :
+_____________________________
+Name    Age            Gender
+_____________________________
+Anders  21             male
+Eva     22 (selected)  female
+_____________________________
+
+'select' event created with arguments 'Gender for Anders'
+
+Updated Table :
+____________________________
+Name    Age  Gender
+____________________________
+Anders  21   male (selected)
+Eva     22   female
+____________________________
+
+'double click' event created with arguments 'Gender for Anders'
+
+'select' event created with arguments 'No Name'
 ERROR: Could not find value labeled 'No Name' in table.
 
 'close window' event created with arguments ''

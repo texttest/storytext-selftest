@@ -1,0 +1,113 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Table demo' ----------
+Table :
+__________________
+Name   Age  Gender
+__________________
+Maria  20   female
+Eva    20   female
+Eva    22   female
+__________________
+-----------------------------------------
+
+'select' event created with arguments 'Maria'
+
+Updated Table :
+_____________________________
+Name              Age  Gender
+_____________________________
+Maria (selected)  20   female
+Eva               20   female
+Eva               22   female
+_____________________________
+
+'select' event created with arguments 'Age for 20 (0,1)'
+
+Updated Table :
+____________________________
+Name   Age            Gender
+____________________________
+Maria  20 (selected)  female
+Eva    20             female
+Eva    22             female
+____________________________
+
+'select' event created with arguments 'Gender for 20 (0,1)'
+
+Updated Table :
+_____________________________
+Name   Age  Gender
+_____________________________
+Maria  20   female (selected)
+Eva    20   female
+Eva    22   female
+_____________________________
+
+'select' event created with arguments 'Name for Eva (1,0)'
+
+Updated Table :
+___________________________
+Name            Age  Gender
+___________________________
+Maria           20   female
+Eva (selected)  20   female
+Eva             22   female
+___________________________
+
+'select' event created with arguments 'Age for Eva (1,0)'
+
+Updated Table :
+____________________________
+Name   Age            Gender
+____________________________
+Maria  20             female
+Eva    20 (selected)  female
+Eva    22             female
+____________________________
+
+'select' event created with arguments 'Gender for Eva (1,0)'
+
+Updated Table :
+_____________________________
+Name   Age  Gender
+_____________________________
+Maria  20   female
+Eva    20   female (selected)
+Eva    22   female
+_____________________________
+
+'select' event created with arguments 'Name for female (2,2)'
+
+Updated Table :
+___________________________
+Name            Age  Gender
+___________________________
+Maria           20   female
+Eva             20   female
+Eva (selected)  22   female
+___________________________
+
+'select' event created with arguments '22'
+
+Updated Table :
+____________________________
+Name   Age            Gender
+____________________________
+Maria  20             female
+Eva    20             female
+Eva    22 (selected)  female
+____________________________
+
+'select' event created with arguments 'Gender for female (2,2)'
+
+Updated Table :
+_____________________________
+Name   Age  Gender
+_____________________________
+Maria  20   female
+Eva    20   female
+Eva    22   female (selected)
+_____________________________
+
+'close window' event created with arguments ''

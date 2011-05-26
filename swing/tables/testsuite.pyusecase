@@ -1,4 +1,9 @@
+# Test an empty table widget
+empty_table
 select_cells
 
 # Copy of select_cells
 single_column
+
+# Selecting cells in a table without key columns
+select_cells_no_key

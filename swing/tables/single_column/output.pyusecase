@@ -11,7 +11,7 @@ Harry
 _____
 -----------------------------------------
 
-'select name' event created with arguments 'Tom'
+'select' event created with arguments 'Tom'
 
 Updated Table :
 ______________
@@ -22,7 +22,7 @@ Dick
 Harry
 ______________
 
-'select name' event created with arguments 'Dick'
+'select' event created with arguments 'Dick'
 
 Updated Table :
 _______________

@@ -1,3 +1,3 @@
-select name Tom
-select name Dick
+select Tom
+select Dick
 close window

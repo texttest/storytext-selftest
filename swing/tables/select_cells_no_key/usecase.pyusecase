@@ -1,0 +1,10 @@
+select Maria
+select Age for 20 (0,1)
+select Gender for 20 (0,1)
+select Name for Eva (1,0)
+select Age for Eva (1,0)
+select Gender for Eva (1,0)
+select Name for female (2,2)
+select 22
+select Gender for female (2,2)
+close window
