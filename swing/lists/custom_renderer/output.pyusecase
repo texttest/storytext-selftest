@@ -1,0 +1,19 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'List box Demo' ----------
+List :
+-> Rendered Item 1
+-> Rendered Item 2
+-> Rendered Item 3
+-> Rendered Item 4
+--------------------------------------------
+
+'select' event created with arguments 'Rendered Item 2'
+
+Updated List :
+-> Rendered Item 1
+-> Rendered Item 2 (selected)
+-> Rendered Item 3
+-> Rendered Item 4
+
+'close window' event created with arguments ''

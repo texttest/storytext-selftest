@@ -18,13 +18,15 @@ toolbars
 
 # Test for JTabbedPane widget
 tabs
-lists
 
 # Test to handle an application event
 appevent
 
 # Tests for different kinds of dialogs
 dialogs
+
+# Tests for Jlists
+lists
 
 # various tests for JTable widget
 tables
