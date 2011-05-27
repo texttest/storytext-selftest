@@ -17,6 +17,8 @@ class TabsApp:
             def stateChanged(listenerSelf, event):
                 pane = event.getSource()
                 index = pane.getSelectedIndex()
+                # Shouldn't be visible, unless we're actually there
+                pane.getComponentAt(0).getComponents()[0].setText("Edited")
                 print pane.getTitleAt(index), "selected"
                 
         tPane = swing.JTabbedPane(swing.JTabbedPane.TOP)

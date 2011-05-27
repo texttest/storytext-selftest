@@ -20,11 +20,11 @@ Updated TabFolder with tabs Tab 1, Tab 2, Tab 3 (selected), Tab 4, Tab 5
 
 'content 3'
 
-'click' event created with arguments 'Tab 4'
-Tab 4 selected
+'click' event created with arguments 'Tab 1'
+Tab 1 selected
 
-Updated TabFolder with tabs Tab 1, Tab 2, Tab 3, Tab 4 (selected), Tab 5
+Updated TabFolder with tabs Tab 1 (selected), Tab 2, Tab 3, Tab 4, Tab 5
 
-'content 4'
+Updated 'Edited'
 
 'close window' event created with arguments ''
