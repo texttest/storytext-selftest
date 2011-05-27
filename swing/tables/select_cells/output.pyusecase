@@ -30,7 +30,7 @@ Anders  21             male
 Eva     22 (selected)  female
 _____________________________
 
-'select' event created with arguments 'Gender for Anders'
+'double click' event created with arguments 'Gender for Anders'
 
 Updated Table :
 ____________________________
@@ -40,7 +40,7 @@ Anders  21   male (selected)
 Eva     22   female
 ____________________________
 
-'double click' event created with arguments 'Gender for Anders'
+A widget of type 'JTextField'
 
 'select' event created with arguments 'Nonsense'
 ERROR: Could not find row identified by 'Nonsense' in table.

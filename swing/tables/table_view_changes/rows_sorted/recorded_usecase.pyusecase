@@ -1,0 +1,7 @@
+sort by Name
+select Name for Eva
+sort by Age
+select Age for Eva
+sort by Gender
+select Gender for Eva
+close window

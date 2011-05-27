@@ -1,0 +1,93 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Table demo' ----------
+JButton 'Remove Name'
+
+JButton 'Remove Age'
+
+JButton 'Remove Gender'
+
+Table :
+___________________
+Name    Age  Gender
+___________________
+Eva     22   female
+Anika   31   female
+Anna    25   female
+Anders  21   male
+___________________
+-----------------------------------------
+
+'sort by' event created with arguments 'Name'
+
+Updated Table :
+___________________
+Name    Age  Gender
+___________________
+Anders  21   male
+Anika   31   female
+Anna    25   female
+Eva     22   female
+___________________
+
+'select' event created with arguments 'Name for Eva'
+
+Updated Table :
+___________________________
+Name            Age  Gender
+___________________________
+Anders          21   male
+Anika           31   female
+Anna            25   female
+Eva (selected)  22   female
+___________________________
+
+'sort by' event created with arguments 'Age'
+
+Updated Table :
+___________________________
+Name            Age  Gender
+___________________________
+Anders          21   male
+Eva (selected)  22   female
+Anna            25   female
+Anika           31   female
+___________________________
+
+'select' event created with arguments 'Age for Eva'
+
+Updated Table :
+_____________________________
+Name    Age            Gender
+_____________________________
+Anders  21             male
+Eva     22 (selected)  female
+Anna    25             female
+Anika   31             female
+_____________________________
+
+'sort by' event created with arguments 'Gender'
+
+Updated Table :
+_____________________________
+Name    Age            Gender
+_____________________________
+Eva     22 (selected)  female
+Anna    25             female
+Anika   31             female
+Anders  21             male
+_____________________________
+
+'select' event created with arguments 'Gender for Eva'
+
+Updated Table :
+______________________________
+Name    Age  Gender
+______________________________
+Eva     22   female (selected)
+Anna    25   female
+Anika   31   female
+Anders  21   male
+______________________________
+
+'close window' event created with arguments ''

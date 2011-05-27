@@ -1,0 +1,25 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Table demo' ----------
+Table :
+_____
+Name
+_____
+Tom
+Dick
+Harry
+_____
+-----------------------------------------
+
+'double click' event created with arguments 'Tom'
+
+Updated Table :
+______________
+Name
+______________
+Tom (selected)
+Dick
+Harry
+______________
+
+'close window' event created with arguments ''

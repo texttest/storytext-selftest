@@ -1,9 +1,11 @@
 # Test an empty table widget
 empty_table
 select_cells
+select_no_editable_cells
 
 # Copy of select_cells
 single_column
 
 # Selecting cells in a table without key columns
 select_cells_no_key
+table_view_changes

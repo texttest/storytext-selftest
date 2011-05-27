@@ -1,0 +1,47 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Table demo' ----------
+JButton 'Remove Name'
+
+JButton 'Remove Age'
+
+JButton 'Remove Gender'
+
+Table :
+___________________
+Name    Age  Gender
+___________________
+Eva     22   female
+Anika   31   female
+Anna    25   female
+Anders  21   male
+___________________
+-----------------------------------------
+
+'remove column' event created with arguments 'name'
+
+Updated JButton 'Remove Name' (greyed out)
+
+Updated Table :
+___________
+Age  Gender
+___________
+22   female
+31   female
+25   female
+21   male
+___________
+
+'select' event created with arguments 'Age for Eva'
+
+Updated Table :
+_____________________
+Age            Gender
+_____________________
+22 (selected)  female
+31             female
+25             female
+21             male
+_____________________
+
+'close window' event created with arguments ''
