@@ -1,9 +1,7 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Close Buttons' ----------
-JButton 'Why?'
-
-JButton 'Exit' (greyed out)
+JButton 'Why?'  JButton 'Exit' (greyed out)
 --------------------------------------------
 
 'ask why' event created with arguments ''
