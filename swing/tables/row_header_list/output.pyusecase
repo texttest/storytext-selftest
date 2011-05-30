@@ -1,0 +1,15 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Table demo' ----------
+
+List :  Table :
+        _____
+        Name
+        _____
+-> 1    Tom
+-> 2    Dick
+-> 3    Harry
+        _____
+-----------------------------------------
+
+'close window' event created with arguments ''
