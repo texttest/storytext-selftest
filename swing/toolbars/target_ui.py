@@ -38,6 +38,11 @@ class RedCrossIcon(swing.Icon):
         
         g2d.dispose()
 
+# Just to check that we look for image equality...
+class RedCrossIconWithImage(RedCrossIcon):
+    def getImage(self):
+        return 0
+
 
 class ToolBarApp:
         
@@ -59,27 +64,37 @@ class ToolBarApp:
     
     def addButtons(self, toolBar):
         icon = RedCrossIcon(32)
-        button = swing.JButton("Item1", icon, actionPerformed=self.printButton)
+        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button.setToolTipText("Item1")
         toolBar.add(button)
 
-        button = swing.JButton("Item2", icon, actionPerformed=self.printButton)
+        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button.setToolTipText("Item2")
         toolBar.add(button)
 
-        icon = RedCrossIcon(32)
-        button = swing.JButton("Item3", icon, actionPerformed=self.printButton)
+        icon = RedCrossIconWithImage(32)
+        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button.setToolTipText("Item3")
+        toolBar.add(button)
+
+        icon = RedCrossIconWithImage(32)
+        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button.setToolTipText("Item4")
         toolBar.add(button)
 
         icon = RedCrossIcon(32, "Has description")
-        button = swing.JButton("Item4", icon, actionPerformed=self.printButton)
+        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button.setToolTipText("Item5")
         toolBar.add(button)
 
         icon = RedCrossIcon(32, "Came from file:/some/path/image.gif")
-        button = swing.JButton("Item5", icon, actionPerformed=self.printButton)
+        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button.setToolTipText("Item6")
         toolBar.add(button)
 
     def printButton(self, event):
         widget = event.getSource()
-        print "Selected Tool bar's",widget.getText()
+        print "Selected Tool bar's", widget.getToolTipText()
         
     def quit(self, event):
         self.printMenu(event)
