@@ -2,11 +2,11 @@ Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Tool bar demo' ----------
 Tool Bar:
-  Item1
-  Item2
-  Item3
-  Item4
-  Item5
+  Item1 (Image 1)
+  Item2 (Image 1)
+  Item3 (Image 2)
+  Item4 (Icon 'Has description')
+  Item5 (Icon 'image.gif')
 --------------------------------------------
 
 'select second item' event created with arguments ''

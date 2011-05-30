@@ -9,7 +9,7 @@ JButton 'Exit'
 ---------- Window 'User Confirmation' ----------
 'Are you sure you want to exit?'
 
-JLabel (Image)
+JLabel (Image 1)
 
 JButton 'Yes'
 
