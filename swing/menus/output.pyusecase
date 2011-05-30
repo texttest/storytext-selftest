@@ -4,8 +4,10 @@ Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 Menu Bar:
   File
     Select All
+    ---
     Sub menu
       Item
+    ---
     Quit
 
 JButton 'Hello!'
