@@ -7,6 +7,8 @@ Menu Bar:
     Sub menu
       Item
     Quit
+
+JButton 'Hello!'
 ----------------------------------------
 
 'Select All' event created with arguments ''

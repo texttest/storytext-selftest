@@ -8,6 +8,12 @@ class MenuApp:
         frame = swing.JFrame("Menu demo")
         frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
+        b1 = swing.JButton("Hello!")
+        
+        newContentPane = swing.JPanel()
+        newContentPane.add(b1)
+        newContentPane.setOpaque(True) #content panes must be opaque
+        frame.setContentPane(newContentPane)
         frame.setJMenuBar(self.createMenuBar())
         frame.setPreferredSize(Dimension(150, 100))
         frame.pack()
