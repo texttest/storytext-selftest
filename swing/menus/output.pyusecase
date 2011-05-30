@@ -8,7 +8,7 @@ Menu Bar:
     Sub menu
       Item
     ---
-    Quit
+    Quit (Accelerator 'ctrl+Q')
 
 JButton 'Hello!'
 ----------------------------------------
