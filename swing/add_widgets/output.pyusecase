@@ -1,0 +1,37 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Tool bar demo' ----------
+Tool Bar:
+  Item1
+  Item2
+  Item3
+  Item4
+  Item5
+--------------------------------------------
+
+'select second item' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Tool Bar:
+  Item1
+  Item2
+  Item3
+  Item4
+  Item5
+  Extra Item2
+
+'select extra item' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Tool Bar:
+  Item1
+  Item2
+  Item3
+  Item4
+  Item5
+  Extra Item2
+  Extra Extra Item2
+
+'close window' event created with arguments ''

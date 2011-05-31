@@ -16,6 +16,9 @@ menus
 # Test for JToolbar widgets
 toolbars
 
+# Check we can add additional widgets to our toolbar
+add_widgets
+
 # Test for JTabbedPane widget
 tabs
 
