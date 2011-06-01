@@ -6,9 +6,7 @@ select_no_editable_cells
 # Copy of select_cells
 single_column
 
-# If the row header is a list, make sure it gets output in the correct alignment
-row_header_list
-
 # Selecting cells in a table without key columns
 select_cells_no_key
+edit_cells
 table_view_changes

@@ -1,0 +1,33 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Table demo' ----------
+Table :
+___________________
+Name    Age  Gender
+___________________
+Anders  21   male
+Eva     22   female
+___________________
+-----------------------------------------
+
+'change' event created with arguments 'Age for Anders=25'
+
+Updated Table :
+_____________________________
+Name    Age            Gender
+_____________________________
+Anders  25 (selected)  male
+Eva     22             female
+_____________________________
+
+'change' event created with arguments 'Gender for Eva=femme'
+
+Updated Table :
+_____________________________
+Name    Age  Gender
+_____________________________
+Anders  25   male
+Eva     22   femme (selected)
+_____________________________
+
+'close window' event created with arguments ''
