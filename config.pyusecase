@@ -83,3 +83,6 @@ recorded_usecase:usecase.pyusecase
 [version_priority]
 # Coverage settings should override others
 cover:1
+
+[gui_entry_options]
+run_this_version:debug
