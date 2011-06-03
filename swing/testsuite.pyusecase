@@ -31,8 +31,8 @@ text_field
 # Test  for JTextPane widget with html content
 text_pane
 
-# Test description for border layout
-border_layout
+# Tests for describer using various layouts
+layouts
 
 # Tests for different kinds of dialogs
 dialogs
