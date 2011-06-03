@@ -7,7 +7,7 @@ JButton 'Exit'
 'click exit' event created with arguments ''
 
 ---------- Window 'User Confirmation' ----------
-JLabel (Image 1)  'Are you sure you want to exit?'
+Image 1  'Are you sure you want to exit?'
 
 JButton 'Yes'
 
