@@ -66,30 +66,36 @@ class ToolBarApp:
         icon = RedCrossIcon(32)
         button = swing.JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item1")
+        button.setName("Item1")
         toolBar.add(button)
 
         button = swing.JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item2")
+        button.setName("Item2")
         toolBar.add(button)
 
         icon = RedCrossIconWithImage(32)
         button = swing.JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item3")
+        button.setName("Item3")
         toolBar.add(button)
 
         icon = RedCrossIconWithImage(32)
         button = swing.JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item4")
+        button.setName("Item4")
         toolBar.add(button)
 
         icon = RedCrossIcon(32, "Has description")
         button = swing.JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item5")
+        button.setName("Item5")
         toolBar.add(button)
 
         icon = RedCrossIcon(32, "Came from file:/some/path/image.gif")
         button = swing.JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item6")
+        button.setName("Item6")
         toolBar.add(button)
 
     def printButton(self, event):

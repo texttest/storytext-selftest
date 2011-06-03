@@ -1,0 +1,23 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Text field demo' ----------
+JButton 'Do nothing'
+
+'Text: '
+
+========== JTextField ==========
+
+================================
+----------------------------------------------
+
+'click do nothing' event created with arguments ''
+
+'type' event created with arguments 'Hello'
+
+Updated ========== JTextField ==========
+Hello
+================================
+
+'click do nothing' event created with arguments ''
+
+'close window' event created with arguments ''

@@ -25,6 +25,9 @@ tabs
 # Test to handle an application event
 appevent
 
+# Test  for JTextField widget
+text_field
+
 # Tests for different kinds of dialogs
 dialogs
 
