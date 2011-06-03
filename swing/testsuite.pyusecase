@@ -28,6 +28,9 @@ appevent
 # Test  for JTextField widget
 text_field
 
+# Test  for JTextPane widget with html content
+text_pane
+
 # Tests for different kinds of dialogs
 dialogs
 
