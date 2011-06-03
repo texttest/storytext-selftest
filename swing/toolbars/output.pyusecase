@@ -1,0 +1,19 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'Tool bar demo' ----------
+Tool Bar:
+  Tooltip 'Item1' (Image 1)
+  Tooltip 'Item2' (Image 1)
+  Tooltip 'Item3' (Image 2)
+  Tooltip 'Item4' (Image 2)
+  Tooltip 'Item5' (Icon 'Has description')
+  Tooltip 'Item6' (Icon 'image.gif')
+--------------------------------------------
+
+'select second item' event created with arguments ''
+Selected Tool bar's Item2
+
+'select third item' event created with arguments ''
+Selected Tool bar's Item3
+
+'close window' event created with arguments ''
