@@ -10,7 +10,7 @@ class TextFieldApp:
         frame.setSize(300, 200)
         button = swing.JButton("Do nothing")
         panel2 = swing.JPanel(BorderLayout())
-        textLabel = swing.JLabel("Text: ")
+        textLabel = swing.JLabel("Some Text: ")
         textField = swing.JTextField()
         panel2.add(textLabel, BorderLayout.WEST)
         panel2.add(textField, BorderLayout.CENTER)

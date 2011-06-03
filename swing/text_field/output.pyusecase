@@ -3,7 +3,7 @@ Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 ---------- Window 'Text field demo' ----------
 JButton 'Do nothing'
 
-'Text: '
+'Some Text: '
 
 ========== JTextField ==========
 
@@ -14,7 +14,8 @@ JButton 'Do nothing'
 
 'type' event created with arguments 'Hello'
 
-Updated ========== JTextField ==========
+Updated Some Text:  Field
+========== JTextField ==========
 Hello
 ================================
 
