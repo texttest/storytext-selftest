@@ -3,11 +3,9 @@ Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 ---------- Window 'Text field demo' ----------
 JButton 'Do nothing'
 
-'Some Text: '
-
-========== JTextPane ==========
-Big
-===============================
+'Some Text: '  ========== JTextPane ==========
+               Big
+               ===============================
 ----------------------------------------------
 
 'click do nothing' event created with arguments ''

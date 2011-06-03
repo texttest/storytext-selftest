@@ -1,0 +1,9 @@
+Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
+
+---------- Window 'ButtonDemo' ----------
+JButton 'North'
+JButton 'West'  JButton 'Center'  JButton 'East'
+JButton 'South'
+-----------------------------------------
+
+'close window' event created with arguments ''
