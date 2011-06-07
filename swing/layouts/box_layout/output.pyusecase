@@ -1,11 +1,11 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'ButtonDemo' ----------
-JButton 'We'
+Button 'We'
 
-JButton 'Go'
+Button 'Go'
 
-JButton 'Down'  JButton 'Then'  JButton 'Across'
+Button 'Down'  Button 'Then'  Button 'Across'
 -----------------------------------------
 
 'close window' event created with arguments ''

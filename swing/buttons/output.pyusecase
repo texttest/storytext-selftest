@@ -1,7 +1,7 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'ButtonDemo' ----------
-JButton 'Hello!'
+Button 'Hello!'
 -----------------------------------------
 
 'say hello' event created with arguments ''

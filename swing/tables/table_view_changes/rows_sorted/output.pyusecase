@@ -1,11 +1,11 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Table demo' ----------
-JButton 'Remove Name'
+Button 'Remove Name'
 
-JButton 'Remove Age'
+Button 'Remove Age'
 
-JButton 'Remove Gender'
+Button 'Remove Gender'
 
 Table :
 ___________________

@@ -1,7 +1,7 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Check box demo' ----------
-JCheckBox 'First'  JCheckBox 'Second'
+CheckBox 'First'  CheckBox 'Second'
 ---------------------------------------------
 
 'select first box' event created with arguments ''

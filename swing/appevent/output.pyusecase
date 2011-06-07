@@ -1,7 +1,7 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Close Buttons' ----------
-JButton 'Why?'  JButton 'Exit' (greyed out)
+Button 'Why?'  Button 'Exit' (greyed out)
 --------------------------------------------
 
 'ask why' event created with arguments ''
@@ -9,7 +9,7 @@ JButton 'Why?'  JButton 'Exit' (greyed out)
 Waiting for application event 'Exit button to be enabled' to occur.
 Because
 
-Updated JButton 'Exit'
+Updated Button 'Exit'
 
 Expected application event 'Exit button to be enabled' occurred, proceeding.
 

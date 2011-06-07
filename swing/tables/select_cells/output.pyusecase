@@ -40,9 +40,9 @@ Anders  21   male (selected)
 Eva     22   female
 ____________________________
 
-========== JTextField ==========
+========== TextField ==========
 male
-================================
+===============================
 
 'select' event created with arguments 'Nonsense'
 ERROR: Could not find row identified by 'Nonsense' in table.

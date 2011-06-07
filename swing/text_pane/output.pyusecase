@@ -1,11 +1,11 @@
 Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Text field demo' ----------
-JButton 'Do nothing'
+Button 'Do nothing'
 
-'Some Text: '  ========== JTextPane ==========
+'Some Text: '  ========== TextPane ==========
                Big
-               ===============================
+               ==============================
 ----------------------------------------------
 
 'click do nothing' event created with arguments ''
@@ -13,9 +13,9 @@ JButton 'Do nothing'
 'type' event created with arguments 'Hello'
 
 Updated Some Text:  Field
-========== JTextPane ==========
+========== TextPane ==========
 Hello
-===============================
+==============================
 
 'click do nothing' event created with arguments ''
 

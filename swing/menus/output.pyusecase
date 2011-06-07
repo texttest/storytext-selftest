@@ -10,7 +10,7 @@ Menu Bar:
     ---
     Quit (Accelerator 'ctrl+Q')
 
-JButton 'Hello!'
+Button 'Hello!'
 ----------------------------------------
 
 'Select All' event created with arguments ''
