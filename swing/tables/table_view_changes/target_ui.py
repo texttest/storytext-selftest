@@ -54,10 +54,6 @@ class TableApp:
         table.setName("Persons")
         return table
             
-    def printCells(self, event):
-        widget = event.getSource()
-        print "Selected Tool bar's",widget.getText(), "button"
-
     @staticmethod            
     def main():
         app = TableApp()

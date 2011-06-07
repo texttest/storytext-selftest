@@ -30,10 +30,6 @@ class TableApp:
     def createList(self):
         return swing.JList(range(1, 4))
             
-    def printCells(self, event):
-        widget = event.getSource()
-        print "Selected Tool bar's",widget.getText(), "button"
-
     @staticmethod            
     def main():
         app = TableApp()
