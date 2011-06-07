@@ -13,13 +13,14 @@ List :  Table :
 -----------------------------------------
 
 'select list item' event created with arguments '2'
-
-Updated List :
-
-
-
--> 1
--> 2 (selected)
--> 3
+Updated...
+List :           Table :
+                 _______________
+                 Name
+                 _______________
+-> 1             Tom
+-> 2 (selected)  Dick (selected)
+-> 3             Harry
+                 _______________
 
 'close window' event created with arguments ''

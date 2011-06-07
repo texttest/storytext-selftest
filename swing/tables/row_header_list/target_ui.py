@@ -10,8 +10,16 @@ class TableApp:
         frame.setLayout(BorderLayout())
         scrollPane = swing.JScrollPane()
         scrollPane.setPreferredSize(Dimension(300,100))
-        scrollPane.getViewport().setView(self.createTable())
-        scrollPane.setRowHeaderView(self.createList())
+        self.table = self.createTable()
+        scrollPane.getViewport().setView(self.table)
+        jlist = swing.JList(range(1, 4))
+
+        class ListSelectionListener(swing.event.ListSelectionListener):
+            def valueChanged(listenerSelf, event):
+                self.table.changeSelection(event.getFirstIndex(), 0, False, False)
+                
+        jlist.addListSelectionListener(ListSelectionListener())
+        scrollPane.setRowHeaderView(jlist)
         panel = swing.JPanel()
         panel.add(scrollPane)
         frame.add(panel)
