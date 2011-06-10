@@ -31,7 +31,6 @@ is also supported but will only have features of the listed type described.
 <li><a class="Text_Link" href=http://infohost.nmt.edu/tcc/help/pubs/tkinter/listbox.html>Tkinter.Listbox</a>
 <li><a class="Text_Link" href=http://infohost.nmt.edu/tcc/help/pubs/tkinter/menu.html>Tkinter.Menu</a>
 <li><a class="Text_Link" href=http://infohost.nmt.edu/tcc/help/pubs/tkinter/menubutton.html>Tkinter.Menubutton</a>
-<li><a class="Text_Link" href=http://infohost.nmt.edu/tcc/help/pubs/tkinter/scrollbar.html>Tkinter.Scrollbar</a>
 <li><a class="Text_Link" href=http://infohost.nmt.edu/tcc/help/pubs/tkinter/text.html>Tkinter.Text</a>
 <li><a class="Text_Link" href=http://infohost.nmt.edu/tcc/help/pubs/tkinter/tk.html>Tkinter.Tk</a>
 <li><a class="Text_Link" href=http://infohost.nmt.edu/tcc/help/pubs/tkinter/toplevel.html>Tkinter.Toplevel</a>

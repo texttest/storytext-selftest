@@ -15,6 +15,4 @@ wx.Button
 wx.Dialog
 wx.Frame
 wx.ListCtrl
-wx.ScrolledWindow
 wx.TextCtrl
-wx.Window

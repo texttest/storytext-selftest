@@ -26,7 +26,6 @@ Tkinter.LabelFrame
 Tkinter.Listbox
 Tkinter.Menu
 Tkinter.Menubutton
-Tkinter.Scrollbar
 Tkinter.Text
 Tkinter.Tk
 Tkinter.Toplevel
