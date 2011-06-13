@@ -1,0 +1,37 @@
+The following lists the Swing widget types and the associated event types on them which 
+PyUseCase trunk is currently capable of recording and replaying. Any type derived from the listed
+types is also supported.
+
+javax.swing.JButton                     : Click
+javax.swing.JCheckBox                   : Click
+javax.swing.JDialog                     : Close
+javax.swing.JFrame                      : Close
+javax.swing.JList                       : Select
+javax.swing.JMenuItem                   : Click
+javax.swing.JRadioButton                : Click
+javax.swing.JTabbedPane                 : Click
+javax.swing.JTable                      : DoubleClick , Edited , Select
+javax.swing.table.JTableHeader          : Click , DoubleClick
+javax.swing.text.JTextComponent         : Modify
+
+The following lists the Swing widget types whose status and changes PyUseCase trunk is 
+currently capable of monitoring and logging. Any type derived from the listed types 
+is also supported but will only have features of the listed type described.
+
+javax.swing.JButton
+javax.swing.JCheckBox
+javax.swing.JDialog
+javax.swing.JFrame
+javax.swing.JLabel
+javax.swing.JList
+javax.swing.JMenu
+javax.swing.JMenuBar
+javax.swing.JMenuItem
+javax.swing.JPopupMenu
+javax.swing.JRadioButton
+javax.swing.JScrollPane
+javax.swing.JSplitPane
+javax.swing.JTabbedPane
+javax.swing.JTable
+javax.swing.JToolBar
+javax.swing.text.JTextComponent

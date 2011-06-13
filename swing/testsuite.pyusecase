@@ -42,3 +42,6 @@ lists
 
 # various tests for JTable widget
 tables
+
+# Documentation output for SWT
+documentation
