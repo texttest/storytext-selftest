@@ -1,4 +1,3 @@
-Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Check box demo' ----------
 CheckBox 'First'  CheckBox 'Second'

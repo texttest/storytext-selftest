@@ -1,4 +1,3 @@
-Using org.netbeans.jemmy.drivers.DefaultDriverInstaller driver installer
 
 ---------- Window 'Radio button demo' ----------
 RadioButton 'First'  RadioButton 'Second'
