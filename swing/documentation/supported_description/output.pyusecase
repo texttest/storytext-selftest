@@ -11,7 +11,8 @@ javax.swing.JMenuItem                   : Click
 javax.swing.JRadioButton                : Click
 javax.swing.JTabbedPane                 : Click
 javax.swing.JTable                      : DoubleClick , Edited , Select
-javax.swing.table.JTableHeader          : Click , DoubleClick
+javax.swing.JTextField                  : Activate , Modify
+javax.swing.table.JTableHeader          : Click
 javax.swing.text.JTextComponent         : Modify
 
 The following lists the Swing widget types whose status and changes PyUseCase trunk is 
