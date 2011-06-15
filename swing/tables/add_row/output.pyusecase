@@ -1,0 +1,31 @@
+
+---------- Window 'Table demo' ----------
+Button 'Add Rows'  Table :
+                   _______________________
+                   Type  Name  Age  Gender
+                   _______________________
+
+                   _______________________
+-----------------------------------------
+
+'add rows' event created with arguments ''
+
+Updated Table :
+___________________________
+Type    Name    Age  Gender
+___________________________
+Person  Anders  21   male
+Person  Eva     22   female
+___________________________
+
+'change' event created with arguments 'Age for Anders=25'
+
+Updated Table :
+_____________________________________
+Type    Name    Age            Gender
+_____________________________________
+Person  Anders  25 (selected)  male
+Person  Eva     22             female
+_____________________________________
+
+'close window' event created with arguments ''

@@ -22,9 +22,6 @@ add_widgets
 # Test for JTabbedPane widget
 tabs
 
-# Test to handle an application event
-appevent
-
 # Test  for JTextField widget
 text_field
 
@@ -42,6 +39,10 @@ lists
 
 # various tests for JTable widget
 tables
+
+# Tests for application events in Swing
+# 
+appevents
 
 # Documentation output for SWT
 documentation
