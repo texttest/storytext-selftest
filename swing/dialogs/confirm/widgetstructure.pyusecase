@@ -1,0 +1,22 @@
+javax.swing.JFrame 2 (BorderLayout, Center)
+--javax.swing.JRootPane 4 (JRootPane$RootLayout)
+----javax.swing.JPanel 5 (FlowLayout) (invisible)
+----javax.swing.JLayeredPane 6
+------javax.swing.JPanel 7 (BorderLayout, Center)
+--------javax.swing.JPanel 8 (FlowLayout)
+----------javax.swing.JButton 9
+javax.swing.JDialog 12 (BorderLayout, Center)
+--javax.swing.JRootPane 14 (JRootPane$RootLayout)
+----javax.swing.JPanel 15 (FlowLayout) (invisible)
+----javax.swing.JLayeredPane 16
+------javax.swing.JPanel 17 (BorderLayout, Center)
+--------javax.swing.JOptionPane 18 (BoxLayout)
+----------javax.swing.JPanel 19 (BorderLayout, Center, Before)
+------------javax.swing.JPanel 20 (BorderLayout, Before, Center)
+--------------javax.swing.JPanel 21 (FlowLayout)
+--------------javax.swing.JPanel 22 (GridBagLayout, java.awt.GridBagConstraints@1559ba8)
+----------------javax.swing.JLabel 23
+------------javax.swing.JLabel 24
+----------javax.swing.JPanel 25 (BasicOptionPaneUI$ButtonAreaLayout)
+------------javax.swing.JButton 26
+------------javax.swing.JButton 27

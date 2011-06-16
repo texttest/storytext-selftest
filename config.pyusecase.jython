@@ -8,3 +8,4 @@ errors:log4j:WARN
 errors:\*sys-package-mgr\*: processing.*jar
 errors:GTK_WIDGET_VISIBLE
 errors:^$
+widgetstructure:@[0-9a-f]*{REPLACE @<pointer>}

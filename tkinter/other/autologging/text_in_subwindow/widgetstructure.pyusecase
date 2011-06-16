@@ -1,0 +1,6 @@
+usecase.tkintertoolkit.Tk 165902476
+--Tkinter.Frame 165903756
+----usecase.tkintertoolkit.Button 165903788
+----usecase.tkintertoolkit.Button 165904108
+usecase.tkintertoolkit.Toplevel 165904332
+--Tkinter.Text 165917804
