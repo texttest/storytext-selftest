@@ -13,6 +13,13 @@ row_header_list
 select_cells_no_key
 edit_cells
 
+# Change the key column value, expect future references to be renamed
+edit_key_cell
+
+# Don't use empty strings as keys
+# 
+blank_key_cell
+
 # Start with an empty table and then add some rows
 add_row
 
