@@ -27,8 +27,8 @@ class TableApp:
         frame.setVisible(True)
 
     def createTable(self):
-        data = [ ['Tom'], ['Dick'], ['Harry'] ]
-        columns = ("Name",)
+        data = [ ['Tom'] * 20, ['Dick'] * 20, ['Harry'] * 20 ]
+        columns = tuple([ "Name" + str(i) for i in range(1, 21) ])
         model = swing.table.DefaultTableModel(data, columns)
         table = swing.JTable(model)
         table.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)

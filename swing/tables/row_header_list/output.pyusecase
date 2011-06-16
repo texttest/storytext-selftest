@@ -2,24 +2,24 @@
 ---------- Window 'Table demo' ----------
 
 List :  Table :
-        _____
-        Name
-        _____
--> 1    Tom
--> 2    Dick
--> 3    Harry
-        _____
+        _____________________________________________________________________________________________________________________________________________________
+        Name1  Name2  Name3  Name4  Name5  Name6  Name7  Name8  Name9  Name10  Name11  Name12  Name13  Name14  Name15  Name16  Name17  Name18  Name19  Name20
+        _____________________________________________________________________________________________________________________________________________________
+-> 1    Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom
+-> 2    Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick
+-> 3    Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry
+        _____________________________________________________________________________________________________________________________________________________
 -----------------------------------------
 
 'select list item' event created with arguments '2'
 Updated...
 List :           Table :
-                 _______________
-                 Name
-                 _______________
--> 1             Tom
--> 2 (selected)  Dick (selected)
--> 3             Harry
-                 _______________
+                 _______________________________________________________________________________________________________________________________________________________________
+                 Name1            Name2  Name3  Name4  Name5  Name6  Name7  Name8  Name9  Name10  Name11  Name12  Name13  Name14  Name15  Name16  Name17  Name18  Name19  Name20
+                 _______________________________________________________________________________________________________________________________________________________________
+-> 1             Tom              Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom
+-> 2 (selected)  Dick (selected)  Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick
+-> 3             Harry            Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry
+                 _______________________________________________________________________________________________________________________________________________________________
 
 'close window' event created with arguments ''
