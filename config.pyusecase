@@ -26,7 +26,8 @@ traffic:PATH[:;][^ ]*[/\\]bin{REPLACE PATH:<path_to_bin_dir>/bin}
 output:\\{REPLACE /}
 traffic:\\{REPLACE /}
 traffic:"<texttest tmp dir>([^"]*)"{REPLACE <texttest tmp dir>\1}
-widgetstructure:[0-9]+${REPLACE <id>}
+# id() returns different things each time
+widgetstructure:.*{WORD 2}{REPLACE <id>}
 [end]
 
 use_case_record_mode:GUI
