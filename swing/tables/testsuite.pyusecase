@@ -17,7 +17,6 @@ edit_cells
 edit_key_cell
 
 # Don't use empty strings as keys
-# 
 blank_key_cell
 
 # Start with an empty table and then add some rows
@@ -25,4 +24,7 @@ add_row
 
 # Delete a row and make sure we don't suddenly use a different primary key column
 delete_row
+
+# Add a header renderer, make sure it gets described
+custom_header
 table_view_changes
