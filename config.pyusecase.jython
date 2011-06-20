@@ -2,6 +2,7 @@
 link_test_path:TargetUI.class
 link_test_path:TargetUI$1.class
 link_test_path:TargetUI$2.class
+link_test_path:TargetUI$MyTableModel.class
 
 [run_dependent_text]
 errors:log4j:WARN

@@ -1,0 +1,13 @@
+
+---------- Window 'Table demo' ----------
+Table :
+_________________________________________________
+Name         Sport         # of Years  Vegetarian
+_________________________________________________
+Kathy Smith  Snowboarding  5           [ ]
+John Doe     Rowing        3           [x]
+Sue Black    Knitting      2           [ ]
+_________________________________________________
+-----------------------------------------
+
+'close window' event created with arguments ''

@@ -28,3 +28,4 @@ delete_row
 # Add a header renderer, make sure it gets described
 custom_header
 table_view_changes
+table_cell_editors
