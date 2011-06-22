@@ -10,4 +10,26 @@ Sue Black    Knitting      2           [ ]
 _________________________________________________
 -----------------------------------------
 
+'change' event created with arguments 'Vegetarian for Kathy Smith=True'
+
+Updated Table :
+_____________________________________________________
+Name         Sport         # of Years  Vegetarian
+_____________________________________________________
+Kathy Smith  Snowboarding  5           [x] (selected)
+John Doe     Rowing        3           [x]
+Sue Black    Knitting      2           [ ]
+_____________________________________________________
+
+'change' event created with arguments 'Vegetarian for John Doe=False'
+
+Updated Table :
+_____________________________________________________
+Name         Sport         # of Years  Vegetarian
+_____________________________________________________
+Kathy Smith  Snowboarding  5           [x]
+John Doe     Rowing        3           [ ] (selected)
+Sue Black    Knitting      2           [ ]
+_____________________________________________________
+
 'close window' event created with arguments ''
