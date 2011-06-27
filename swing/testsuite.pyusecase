@@ -28,6 +28,9 @@ text_field
 # Test  for JTextPane widget with html content
 text_pane
 
+# Test for widget visibility when one is showing and the other is hidden.
+check_widget_visibility
+
 # Tests for describer using various layouts
 layouts
 
@@ -41,7 +44,6 @@ lists
 tables
 
 # Tests for application events in Swing
-# 
 appevents
 
 # Documentation output for SWT

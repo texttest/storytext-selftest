@@ -1,0 +1,13 @@
+
+---------- Window 'Tabs demo' ----------
+TabFolder with tabs Tab 1 (selected), Tab 2
+
+Button 'Press 1'
+----------------------------------------
+
+'press button 1' event created with arguments ''
+
+'press button 2' event created with arguments ''
+ERROR: widget  of type JButton is not visible at the moment, cannot simulate event 'press button 2'
+
+'close window' event created with arguments ''
