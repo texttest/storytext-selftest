@@ -30,6 +30,7 @@ text_pane
 
 # Test for widget visibility when one is showing and the other is hidden.
 check_widget_visibility
+application_exit_on_close
 
 # Tests for describer using various layouts
 layouts
