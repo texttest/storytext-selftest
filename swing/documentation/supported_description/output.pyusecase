@@ -31,7 +31,6 @@ javax.swing.JMenuItem
 javax.swing.JPopupMenu
 javax.swing.JRadioButton
 javax.swing.JScrollPane
-javax.swing.JSplitPane
 javax.swing.JTabbedPane
 javax.swing.JTable
 javax.swing.JToolBar
