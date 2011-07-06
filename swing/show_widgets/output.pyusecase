@@ -1,0 +1,18 @@
+
+---------- Window 'Tool bar demo' ----------
+Button 'Show Toolbar'
+--------------------------------------------
+
+'show toolbar' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Tool Bar:
+  Value
+
+'set value to' event created with arguments 'Hello'
+
+'activate value' event created with arguments ''
+Activated Hello
+
+'close window' event created with arguments ''

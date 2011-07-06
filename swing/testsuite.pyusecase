@@ -19,6 +19,9 @@ toolbars
 # Check we can add additional widgets to our toolbar
 add_widgets
 
+# Check we can use widgets that were initially invisible
+show_widgets
+
 # Test for JTabbedPane widget
 tabs
 
