@@ -28,6 +28,9 @@ tabs
 # Test  for JTextField widget
 text_field
 
+# Test  for button that sets text programmatically
+set_text_in_field
+
 # Test  for JTextPane widget with html content
 text_pane
 

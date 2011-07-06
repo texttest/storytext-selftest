@@ -1,0 +1,17 @@
+
+---------- Window 'Text field demo' ----------
+Button 'Change text'
+
+'Some Text: '  ========== TextField ==========
+
+               ===============================
+----------------------------------------------
+
+'change text' event created with arguments ''
+
+Updated Some Text:  Field
+========== TextField ==========
+Changed!
+===============================
+
+'close window' event created with arguments ''
