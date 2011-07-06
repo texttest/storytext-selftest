@@ -7,10 +7,18 @@ Button 'Show Toolbar'
 
 New widgets have appeared: describing common parent :
 
-Tool Bar:
-  Value
+'Value'  ========== TextField ==========
+
+         ===============================
+
+Button 'Show Toolbar'
 
 'set value to' event created with arguments 'Hello'
+
+Updated Value Field
+========== TextField ==========
+Hello
+===============================
 
 'activate value' event created with arguments ''
 Activated Hello
