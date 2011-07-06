@@ -31,6 +31,9 @@ public class TargetUI {
     }
 
     public static void main (String [] args) {
+        for (int i=0; i<args.length; i++) {
+            System.out.println("Got command line argument '" + args[i] + "'");
+        }
 	Display display = new Display();
 	Shell shell = new Shell (display);
 	ToolBar toolBar = new ToolBar (shell, SWT.FLAT | SWT.BORDER);

@@ -1,1 +1,1 @@
-{CLEAR target_ui.py} TargetUI
+{CLEAR target_ui.py} TargetUI arg1 arg2 arg3
