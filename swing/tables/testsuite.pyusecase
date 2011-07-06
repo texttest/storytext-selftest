@@ -6,6 +6,9 @@ no_columns
 select_cells
 select_no_editable_cells
 
+# If cell selection is disabled, don't try to record it
+select_by_row
+
 # Copy of select_cells
 single_column
 
