@@ -15,6 +15,9 @@ single_column
 # If the row header is a list, make sure it gets output in the correct alignment
 row_header_list
 
+# If the row header is a list, make sure that we can replay the selection.
+row_header_list_select_all_cells
+
 # Selecting cells in a table without key columns
 select_cells_no_key
 edit_cells

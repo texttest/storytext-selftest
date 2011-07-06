@@ -1,2 +1,5 @@
 rows_sorted
+
+# Test for sorting a table widget when it does not have a name
+rows_sorted_unnamed_table
 columns_filtered

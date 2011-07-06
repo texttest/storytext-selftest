@@ -1,0 +1,37 @@
+
+---------- Window 'Table demo' ----------
+...... 2-Column Layout ......
+
+List :
+-> 1
+-> 2
+-> 3
+
+Table :
+_____________________________________________________________________________________________________________________________________________________
+Name1  Name2  Name3  Name4  Name5  Name6  Name7  Name8  Name9  Name10  Name11  Name12  Name13  Name14  Name15  Name16  Name17  Name18  Name19  Name20
+_____________________________________________________________________________________________________________________________________________________
+Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom    Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom     Tom
+Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick   Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick    Dick
+Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry  Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry   Harry
+_____________________________________________________________________________________________________________________________________________________
+.............................
+-----------------------------------------
+
+'select list item' event created with arguments '2'
+
+Updated List :
+-> 1
+-> 2 (selected)
+-> 3
+
+Updated Table :
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Name1            Name2            Name3            Name4            Name5            Name6            Name7            Name8            Name9            Name10           Name11           Name12           Name13           Name14           Name15           Name16           Name17           Name18           Name19           Name20
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom              Tom
+Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)  Dick (selected)
+Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry            Harry
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+'close window' event created with arguments ''
