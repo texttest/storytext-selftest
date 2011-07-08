@@ -69,8 +69,9 @@ public class TargetUI extends JPanel {
         //Set up column sizes.
         initColumnSizes(table);
 
-        //Fiddle with the Sport column's cell editors/renderers.
+        //Fiddle with the Sport and Pet column's cell editors/renderers.
         setUpSportColumn(table, table.getColumnModel().getColumn(1));
+        setUpPetColumn(table, table.getColumnModel().getColumn(2));
 
         //Add the scroll pane to this panel.
         add(scrollPane);
@@ -91,7 +92,7 @@ public class TargetUI extends JPanel {
         TableCellRenderer headerRenderer =
             table.getTableHeader().getDefaultRenderer();
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 5; i++) {
             column = table.getColumnModel().getColumn(i);
 
             comp = headerRenderer.getTableCellRendererComponent(
@@ -135,22 +136,41 @@ public class TargetUI extends JPanel {
         sportColumn.setCellRenderer(renderer);
     }
 
+    public void setUpPetColumn(JTable table,
+                                 TableColumn sportColumn) {
+        //Set up the editor for the sport cells.
+        JComboBox comboBox = new JComboBox();
+        comboBox.addItem("Dog");
+        comboBox.addItem("Cat");
+        comboBox.addItem("Other");
+        comboBox.setEditable(true);
+        sportColumn.setCellEditor(new DefaultCellEditor(comboBox));
+
+        //Set up tool tips for the sport cells.
+        DefaultTableCellRenderer renderer =
+                new DefaultTableCellRenderer();
+        renderer.setToolTipText("Click for editable combo box");
+        sportColumn.setCellRenderer(renderer);
+    }
+
     class MyTableModel extends AbstractTableModel {
         private String[] columnNames = {"Name",
                                         "Sport",
+                                        "Pet",
                                         "# of Years",
                                         "Vegetarian"};
         private Object[][] data = {
 	    {"Kathy Smith",
-	     "Snowboarding", new Integer(5), new Boolean(false)},
+	     "Snowboarding", "Dog", new Integer(5), new Boolean(false)},
 	    {"John Doe",
-	     "Rowing", new Integer(3), new Boolean(true)},
+	     "Rowing", "Cat", new Integer(3), new Boolean(true)},
 	    {"Sue Black",
-	     "Knitting", new Integer(2), new Boolean(false)}
+	     "Knitting", "Other", new Integer(2), new Boolean(false)}
         };
 
         public final Object[] longValues = {"Jane Kathy",
                                             "None of the above",
+                                            "Other",
                                             new Integer(20), Boolean.TRUE};
 
         public int getColumnCount() {

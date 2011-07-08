@@ -1,35 +1,68 @@
 
 ---------- Window 'Table demo' ----------
 Table :
-_________________________________________________
-Name         Sport         # of Years  Vegetarian
-_________________________________________________
-Kathy Smith  Snowboarding  5           [ ]
-John Doe     Rowing        3           [x]
-Sue Black    Knitting      2           [ ]
-_________________________________________________
+________________________________________________________
+Name         Sport         Pet    # of Years  Vegetarian
+________________________________________________________
+Kathy Smith  Snowboarding  Dog    5           [ ]
+John Doe     Rowing        Cat    3           [x]
+Sue Black    Knitting      Other  2           [ ]
+________________________________________________________
 -----------------------------------------
 
 'change' event created with arguments 'Vegetarian for Kathy Smith=True'
 
 Updated Table :
-_____________________________________________________
-Name         Sport         # of Years  Vegetarian
-_____________________________________________________
-Kathy Smith  Snowboarding  5           [x] (selected)
-John Doe     Rowing        3           [x]
-Sue Black    Knitting      2           [ ]
-_____________________________________________________
+____________________________________________________________
+Name         Sport         Pet    # of Years  Vegetarian
+____________________________________________________________
+Kathy Smith  Snowboarding  Dog    5           [x] (selected)
+John Doe     Rowing        Cat    3           [x]
+Sue Black    Knitting      Other  2           [ ]
+____________________________________________________________
 
 'change' event created with arguments 'Vegetarian for John Doe=False'
 
 Updated Table :
-_____________________________________________________
-Name         Sport         # of Years  Vegetarian
-_____________________________________________________
-Kathy Smith  Snowboarding  5           [x]
-John Doe     Rowing        3           [ ] (selected)
-Sue Black    Knitting      2           [ ]
-_____________________________________________________
+____________________________________________________________
+Name         Sport         Pet    # of Years  Vegetarian
+____________________________________________________________
+Kathy Smith  Snowboarding  Dog    5           [x]
+John Doe     Rowing        Cat    3           [ ] (selected)
+Sue Black    Knitting      Other  2           [ ]
+____________________________________________________________
+
+'change' event created with arguments 'Sport for Sue Black=Pool'
+
+Updated Table :
+___________________________________________________________
+Name         Sport            Pet    # of Years  Vegetarian
+___________________________________________________________
+Kathy Smith  Snowboarding     Dog    5           [x]
+John Doe     Rowing           Cat    3           [ ]
+Sue Black    Pool (selected)  Other  2           [ ]
+___________________________________________________________
+
+'change' event created with arguments 'Pet for Sue Black=Cat'
+
+Updated Table :
+_________________________________________________________________
+Name         Sport         Pet             # of Years  Vegetarian
+_________________________________________________________________
+Kathy Smith  Snowboarding  Dog             5           [x]
+John Doe     Rowing        Cat             3           [ ]
+Sue Black    Pool          Cat (selected)  2           [ ]
+_________________________________________________________________
+
+'change' event created with arguments 'Pet for John Doe=Nothing'
+
+Updated Table :
+_____________________________________________________________________
+Name         Sport         Pet                 # of Years  Vegetarian
+_____________________________________________________________________
+Kathy Smith  Snowboarding  Dog                 5           [x]
+John Doe     Rowing        Nothing (selected)  3           [ ]
+Sue Black    Pool          Cat                 2           [ ]
+_____________________________________________________________________
 
 'close window' event created with arguments ''

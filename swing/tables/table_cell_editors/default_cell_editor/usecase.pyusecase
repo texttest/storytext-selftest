@@ -1,3 +1,6 @@
 change Vegetarian for Kathy Smith=True
 change Vegetarian for John Doe=False
+change Sport for Sue Black=Pool
+change Pet for Sue Black=Cat
+change Pet for John Doe=Nothing
 close window
