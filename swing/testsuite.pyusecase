@@ -12,6 +12,7 @@ check_boxes
 
 # Test for JMenu widgets
 menus
+popup_menu
 
 # Test for JToolbar widgets
 toolbars

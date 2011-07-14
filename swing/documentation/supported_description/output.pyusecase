@@ -9,8 +9,8 @@ javax.swing.JFrame                      : Close
 javax.swing.JList                       : Select
 javax.swing.JMenuItem                   : Click
 javax.swing.JRadioButton                : Click
-javax.swing.JTabbedPane                 : Click
-javax.swing.JTable                      : DoubleClick , Edited , Select
+javax.swing.JTabbedPane                 : Click , PopupActivate
+javax.swing.JTable                      : DoubleClick , Edited , PopupActivate , Select
 javax.swing.JTextField                  : Activate , Modify
 javax.swing.table.JTableHeader          : Click
 javax.swing.text.JTextComponent         : Modify
