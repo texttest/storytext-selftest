@@ -1,0 +1,45 @@
+
+---------- Window 'Popup demo' ----------
+TabFolder with tabs Persons (selected), Nothing
+
+Table :
+___________________
+Name    Age  Gender
+___________________
+Anders  21   male
+Eva     22   female
+___________________
+-----------------------------------------
+
+'show popup on' event created with arguments 'Name for Eva'
+
+New widgets have appeared: describing common parent :
+
+Popup menu:
+  Insert row
+
+'insert row' event created with arguments ''
+
+Updated Table :
+___________________
+Name    Age  Gender
+___________________
+Anders  21   male
+Eva     22   female
+
+___________________
+
+'show popup on tab' event created with arguments 'Nothing'
+
+New widgets have appeared: describing common parent :
+
+Popup menu:
+  Close
+
+Updated TabFolder with tabs Persons, Nothing (selected)
+
+'close' event created with arguments ''
+
+Updated TabFolder with tabs Persons (selected)
+
+'close window' event created with arguments ''
