@@ -1,0 +1,20 @@
+
+---------- Window 'Table demo' ----------
+Button 'Remove Name'
+
+Button 'Remove Age'
+
+Button 'Remove Gender'
+
+Table :
+___________________
+Name    Age  Gender
+___________________
+Eva     22   female
+Anika   31   female
+Anna    25   female
+Anders  21   male
+___________________
+-----------------------------------------
+
+'close window' event created with arguments ''

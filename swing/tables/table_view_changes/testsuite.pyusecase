@@ -3,3 +3,6 @@ rows_sorted
 # Test for sorting a table widget when it does not have a name
 rows_sorted_unnamed_table
 columns_filtered
+
+# Don't assume the column name from the model can just be used
+column_names_in_view
