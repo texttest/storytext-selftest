@@ -26,6 +26,7 @@ ApplicationEventManager.instance = ApplicationEventManager()
 
 class ApplicationEventApp:
     def make_ui(self):
+        self.stupidFrame = swing.JFrame("Not Really")
         self.frame = swing.JFrame("Close Buttons")
         self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
         self.frame.setLayout(BorderLayout())
@@ -39,9 +40,11 @@ class ApplicationEventApp:
         panel.add(self.button2)
         self.frame.add(panel)
         self.frame.pack()
+        self.stupidFrame.setVisible(False)
         self.frame.setVisible(True)
     
     def close(self, event):
+        self.stupidFrame.dispose()
         self.frame.dispose()
     
     def handleButton(self, event):
