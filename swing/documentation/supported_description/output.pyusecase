@@ -33,4 +33,5 @@ javax.swing.JScrollPane
 javax.swing.JTabbedPane
 javax.swing.JTable
 javax.swing.JToolBar
+javax.swing.JTree
 javax.swing.text.JTextComponent

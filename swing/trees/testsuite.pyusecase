@@ -1,0 +1,4 @@
+default_renderer
+
+# If we make our own renderer, must get the items from the view not the model
+custom_renderer

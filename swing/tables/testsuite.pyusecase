@@ -39,5 +39,8 @@ edit_triggers_sort
 
 # Add a header renderer, make sure it gets described
 custom_header
+
+# Add a cell renderer, make sure it gets described and used for row names
+custom_cells
 table_view_changes
 table_cell_editors

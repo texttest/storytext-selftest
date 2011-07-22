@@ -48,6 +48,9 @@ dialogs
 # Tests for Jlists
 lists
 
+# Tests for Jlists
+trees
+
 # various tests for JTable widget
 tables
 
