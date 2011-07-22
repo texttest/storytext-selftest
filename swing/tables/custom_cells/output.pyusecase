@@ -9,14 +9,24 @@ Rendered Eva     22   female
 ____________________________
 -----------------------------------------
 
-'select' event created with arguments 'Age for Rendered Eva'
+'select' event created with arguments 'Age for Rendered Anders'
 
 Updated Table :
 ______________________________________
 Name             Age            Gender
 ______________________________________
-Rendered Anders  21             male
-Rendered Eva     22 (selected)  female
+Rendered Anders  21 (selected)  male
+Rendered Eva     22             female
 ______________________________________
+
+'change' event created with arguments 'Name for Rendered Eva=Evelyn'
+
+Updated Table :
+_______________________________________
+Name                        Age  Gender
+_______________________________________
+Rendered Anders             21   male
+Rendered Evelyn (selected)  22   female
+_______________________________________
 
 'close window' event created with arguments ''
