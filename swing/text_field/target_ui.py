@@ -2,6 +2,9 @@ from javax import swing
 from java.awt import BorderLayout
 from java.awt.event import ActionListener
 
+class MyTextFieldSubClass(swing.JTextField):
+    pass
+
 class TextFieldApp: 
     def make_ui(self):
         frame = swing.JFrame("Text field demo")
@@ -11,7 +14,7 @@ class TextFieldApp:
         button = swing.JButton("Do nothing")
         panel2 = swing.JPanel(BorderLayout())
         textLabel = swing.JLabel("Some Text: ")
-        textField = swing.JTextField()
+        textField = MyTextFieldSubClass()
         panel2.add(textLabel, BorderLayout.WEST)
         panel2.add(textField, BorderLayout.CENTER)
         panel = swing.JPanel(BorderLayout())
