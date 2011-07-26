@@ -1,7 +1,7 @@
-org.eclipse.swt.widgets.Shell 2 (FormLayout)
+org.eclipse.swt.widgets.Shell 1 (org.eclipse.swt.layout.FormLayout)
+--org.eclipse.swt.widgets.Button 3
 --org.eclipse.swt.widgets.Button 4
---org.eclipse.swt.widgets.Button 5
---org.eclipse.swt.widgets.Composite 6 (StackLayout)
-----org.eclipse.swt.widgets.Composite 7 (RowLayout)
-------org.eclipse.swt.widgets.Label 8
-----org.eclipse.swt.widgets.Composite 9 (RowLayout) (invisible)
+--org.eclipse.swt.widgets.Composite 5 (org.eclipse.swt.custom.StackLayout)
+----org.eclipse.swt.widgets.Composite 6 (org.eclipse.swt.layout.RowLayout)
+------org.eclipse.swt.widgets.Label 7
+----org.eclipse.swt.widgets.Composite 8 (org.eclipse.swt.layout.RowLayout) (invisible)

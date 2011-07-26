@@ -1,22 +1,22 @@
-javax.swing.JFrame 2 (BorderLayout, Center)
---javax.swing.JRootPane 4 (JRootPane$RootLayout)
-----javax.swing.JPanel 5 (FlowLayout) (invisible)
-----javax.swing.JLayeredPane 6
-------javax.swing.JPanel 7 (BorderLayout, Center)
---------javax.swing.JPanel 8 (FlowLayout)
-----------javax.swing.JButton 9
-javax.swing.JDialog 12 (BorderLayout, Center)
---javax.swing.JRootPane 14 (JRootPane$RootLayout)
-----javax.swing.JPanel 15 (FlowLayout) (invisible)
-----javax.swing.JLayeredPane 16
-------javax.swing.JPanel 17 (BorderLayout, Center)
---------javax.swing.JOptionPane 18 (BoxLayout)
-----------javax.swing.JPanel 19 (BorderLayout, Center, Before)
-------------javax.swing.JPanel 20 (BorderLayout, Before, Center)
---------------javax.swing.JPanel 21 (FlowLayout)
---------------javax.swing.JPanel 22 (GridBagLayout, java.awt.GridBagConstraints@1559ba8)
-----------------javax.swing.JLabel 23
-------------javax.swing.JLabel 24
-----------javax.swing.JPanel 25 (BasicOptionPaneUI$ButtonAreaLayout)
+javax.swing.JFrame 1 (java.awt.BorderLayout, Center)
+--javax.swing.JRootPane 3 (javax.swing.JRootPane$RootLayout)
+----javax.swing.JPanel 4 (java.awt.FlowLayout) (invisible)
+----javax.swing.JLayeredPane 5
+------javax.swing.JPanel 6 (java.awt.BorderLayout, Center)
+--------javax.swing.JPanel 7 (java.awt.FlowLayout)
+----------javax.swing.JButton 8
+javax.swing.JDialog 11 (java.awt.BorderLayout, Center)
+--javax.swing.JRootPane 13 (javax.swing.JRootPane$RootLayout)
+----javax.swing.JPanel 14 (java.awt.FlowLayout) (invisible)
+----javax.swing.JLayeredPane 15
+------javax.swing.JPanel 16 (java.awt.BorderLayout, Center)
+--------javax.swing.JOptionPane 17 (javax.swing.BoxLayout)
+----------javax.swing.JPanel 18 (java.awt.BorderLayout, Center, Before)
+------------javax.swing.JPanel 19 (java.awt.BorderLayout, Before, Center)
+--------------javax.swing.JPanel 20 (java.awt.FlowLayout)
+--------------javax.swing.JPanel 21 (java.awt.GridBagLayout, java.awt.GridBagConstraints@5eb10190)
+----------------javax.swing.JLabel 22
+------------javax.swing.JLabel 23
+----------javax.swing.JPanel 24 (javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout)
+------------javax.swing.JButton 25
 ------------javax.swing.JButton 26
-------------javax.swing.JButton 27
