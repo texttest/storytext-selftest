@@ -1,5 +1,11 @@
 # Test description for border layout
 border_layout
 
+# Check that empty labels don't screw up our layout
+border_layout_empty_label
+
+# Check that empty labels don't screw up our layout
+border_layout_no_centre
+
 # Test description for border layout
 box_layout

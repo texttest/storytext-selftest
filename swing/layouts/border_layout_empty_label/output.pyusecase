@@ -1,0 +1,8 @@
+
+---------- Window 'ButtonDemo' ----------
+Button 'North'
+Button 'Center'  Button 'East'
+Button 'South'
+-----------------------------------------
+
+'close window' event created with arguments ''

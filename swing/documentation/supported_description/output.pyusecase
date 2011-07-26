@@ -28,6 +28,7 @@ javax.swing.JMenu
 javax.swing.JMenuBar
 javax.swing.JMenuItem
 javax.swing.JPopupMenu
+javax.swing.JProgressBar
 javax.swing.JRadioButton
 javax.swing.JScrollPane
 javax.swing.JTabbedPane
