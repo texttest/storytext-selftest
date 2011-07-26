@@ -34,4 +34,5 @@ javax.swing.JTabbedPane
 javax.swing.JTable
 javax.swing.JToolBar
 javax.swing.JTree
+javax.swing.plaf.basic.BasicSplitPaneDivider
 javax.swing.text.JTextComponent
