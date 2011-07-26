@@ -31,6 +31,7 @@ class TabsApp:
             panel = swing.JPanel()
             panel.add(swing.JLabel("content " + str(i)))
             tabbedPane.add("Tab " + str(i), panel)
+        tabbedPane.setEnabledAt(4, False)
 
     @staticmethod            
     def main():
