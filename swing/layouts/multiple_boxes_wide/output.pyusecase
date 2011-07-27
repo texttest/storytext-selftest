@@ -1,0 +1,18 @@
+
+---------- Window 'ButtonDemo' ----------
+...... 4-Column Layout ......
+'Box 1 with a load of extra text to make it really wide'
+
+========== TextField ==========
+
+===============================
+
+'Box 2 with a load of extra text to make it really wide'
+
+========== TextField ==========
+
+===============================
+.............................
+-----------------------------------------
+
+'close window' event created with arguments ''
