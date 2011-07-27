@@ -1,0 +1,16 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Describe
+
+'Name'          ========== Text ==========
+
+                ==========================
+'Home'  'City'  ========== Text ==========
+
+                ==========================
+
+------------------------------
+
+'close window' event created with arguments ''
