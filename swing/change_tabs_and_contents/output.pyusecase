@@ -1,0 +1,14 @@
+
+---------- Window 'Tabs demo' ----------
+Button 'Enable!'
+
+TabFolder with tabs Tab 1 (greyed out, selected), Tab 2 (greyed out), Tab 3 (greyed out), Tab 4 (greyed out), Tab 5 (greyed out)
+----------------------------------------
+
+'enable tab' event created with arguments ''
+
+Updated TabFolder with tabs Tab 1 (selected), Tab 2 (greyed out), Tab 3 (greyed out), Tab 4 (greyed out), Tab 5 (greyed out)
+
+'content 1'
+
+'close window' event created with arguments ''

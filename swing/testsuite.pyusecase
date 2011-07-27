@@ -41,6 +41,9 @@ split_pane
 # Test for widget visibility when one is showing and the other is hidden.
 check_widget_visibility
 
+# Check for visibility and enabling changes on a JTabbedPane simultaneously
+change_tabs_and_contents
+
 # Test for JProgressBar widgets
 progressbar
 application_exit_on_close
