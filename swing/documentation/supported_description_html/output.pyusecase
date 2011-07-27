@@ -35,7 +35,7 @@ is also supported but will only have features of the listed type described.
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JPopupMenu.html>javax.swing.JPopupMenu</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JProgressBar.html>javax.swing.JProgressBar</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JRadioButton.html>javax.swing.JRadioButton</a>
-<li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JScrollPane.html>javax.swing.JScrollPane</a>
+<li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JScrollBar.html>javax.swing.JScrollBar</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTabbedPane.html>javax.swing.JTabbedPane</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTable.html>javax.swing.JTable</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JToolBar.html>javax.swing.JToolBar</a>
