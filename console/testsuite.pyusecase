@@ -17,8 +17,10 @@ default_sighandler_ignore
 subsequent_wait
 
 # If we get the same event twice, record it as 'event name * 2'
-# 
 appevent_happens_twice
+
+# If we get the same event three times, record it as 'event name * 3'
+appevent_happens_thrice
 
 # Handle events that have already occurred
 appevent_already_happened

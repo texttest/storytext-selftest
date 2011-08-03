@@ -1,0 +1,2 @@
+wait for the event * 3
+receive signal SIGINT
