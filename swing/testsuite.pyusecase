@@ -46,7 +46,6 @@ change_tabs_and_contents
 
 # Test for JProgressBar widgets
 progressbar
-application_exit_on_close
 
 # Tests for describer using various layouts
 layouts
@@ -65,6 +64,10 @@ tables
 
 # Tests for application events in Swing
 appevents
+
+# Check what happens on closing an application
+# 
+cleanup
 
 # Documentation output for SWT
 documentation
