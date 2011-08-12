@@ -1,0 +1,36 @@
+
+---------- Window 'Menu demo' ----------
+Menu Bar:
+  File
+    Add Text (Accelerator 'ctrl+T')
+    Quit (Accelerator 'ctrl+Q')
+
+'Some Text: '  ========== TextField ==========
+
+               ===============================
+----------------------------------------
+
+'press key' event created with arguments 'q'
+
+Updated Some Text:  Field
+========== TextField ==========
+q
+===============================
+
+'add text' event created with arguments ''
+
+Updated Some Text:  Field
+========== TextField ==========
+Addedq
+===============================
+
+'press key' event created with arguments 'ctrl+t'
+
+Updated Some Text:  Field
+========== TextField ==========
+AddedAddedq
+===============================
+
+'press key' event created with arguments 'ctrl+e'
+
+'press key' event created with arguments 'ctrl+q'

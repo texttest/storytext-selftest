@@ -7,7 +7,7 @@ types is also supported.
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JButton.html>javax.swing.JButton</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JCheckBox.html>javax.swing.JCheckBox</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JDialog.html>javax.swing.JDialog</a></td><td><div class="Table_Text_Normal">Close</div></td></tr>
-<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JFrame.html>javax.swing.JFrame</a></td><td><div class="Table_Text_Normal">Close</div></td></tr>
+<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JFrame.html>javax.swing.JFrame</a></td><td><div class="Table_Text_Normal">Close , KeyPress</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JList.html>javax.swing.JList</a></td><td><div class="Table_Text_Normal">Select</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JMenuItem.html>javax.swing.JMenuItem</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JRadioButton.html>javax.swing.JRadioButton</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
