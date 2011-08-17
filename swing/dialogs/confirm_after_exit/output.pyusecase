@@ -1,0 +1,17 @@
+
+---------- Window 'Confirm Dialog Demo' ----------
+Button 'Do nothing'
+--------------------------------------------------
+
+'close window' event created with arguments ''
+
+---------- Window 'User Confirmation' ----------
+Image 1  'Are you sure you want to exit?'
+
+Button 'Yes'
+
+Button 'No'
+------------------------------------------------
+
+'answer yes' event created with arguments ''
+Yes option clicked

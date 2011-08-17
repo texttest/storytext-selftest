@@ -1,2 +1,5 @@
 # Test for handling a confirmation dialog when pushing a button
 confirm
+
+# Test for handling a confirmation dialog when exiting the application.
+confirm_after_exit
