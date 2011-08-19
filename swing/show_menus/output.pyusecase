@@ -1,0 +1,23 @@
+
+---------- Window 'Menu demo' ----------
+Menu Bar:
+  File
+    Quit (Accelerator 'ctrl+Q')
+
+Button 'Add Stuff'
+----------------------------------------
+
+'add stuff' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Menu Bar:
+  File
+    Quit (Accelerator 'ctrl+Q')
+  New
+    Select All
+
+'Select All' event created with arguments ''
+Selected the Select All menu
+
+'Close window' event created with arguments ''

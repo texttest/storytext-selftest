@@ -30,7 +30,6 @@ javax.swing.JMenuItem
 javax.swing.JPopupMenu
 javax.swing.JProgressBar
 javax.swing.JRadioButton
-javax.swing.JScrollBar
 javax.swing.JTabbedPane
 javax.swing.JTable
 javax.swing.JToolBar

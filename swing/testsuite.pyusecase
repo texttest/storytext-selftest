@@ -13,6 +13,9 @@ check_boxes
 # Test for JMenu widgets
 menus
 
+# Check we can hide menus and then show them later
+show_menus
+
 # Test for JMenu widgets
 menu_accelerators
 popup_menu
@@ -50,6 +53,9 @@ change_tabs_and_contents
 # Test for JProgressBar widgets
 progressbar
 
+# Test for JInternalFrame
+internal_frames
+
 # Tests for describer using various layouts
 layouts
 
@@ -69,7 +75,6 @@ tables
 appevents
 
 # Check what happens on closing an application
-# 
 cleanup
 
 # Documentation output for SWT
