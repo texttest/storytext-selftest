@@ -1,0 +1,35 @@
+
+---------- Window 'Table demo' ----------
+Table :
+__________
+Name   Age
+__________
+Tom    22
+Dick   23
+Harry  24
+__________
+-----------------------------------------
+
+'change' event created with arguments 'Age for Tom=25'
+
+Updated Table :
+____________________
+Name   Age
+____________________
+Tom    25 (selected)
+Dick   23
+Harry  24
+____________________
+
+'select' event created with arguments 'Name for Harry'
+
+Updated Table :
+_____________________
+Name              Age
+_____________________
+Tom               25
+Dick              23
+Harry (selected)  24
+_____________________
+
+'close window' event created with arguments ''
