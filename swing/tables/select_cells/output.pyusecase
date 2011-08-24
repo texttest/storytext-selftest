@@ -30,6 +30,7 @@ Eva     22 (selected)  female
 _____________________________
 
 'double click' event created with arguments 'Gender for Anders'
+Got double-click!
 
 Updated Table :
 ____________________________
@@ -38,10 +39,6 @@ ____________________________
 Anders  21   male (selected)
 Eva     22   female
 ____________________________
-
-========== TextField ==========
-male
-===============================
 
 'select' event created with arguments 'Nonsense'
 ERROR: Could not find row identified by 'Nonsense' in table.
