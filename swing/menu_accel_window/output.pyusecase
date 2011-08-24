@@ -1,0 +1,13 @@
+
+---------- Window 'Keyboard Demo' ----------
+Menu Bar:
+  File
+    New (Accelerator 'ctrl+N')
+    Quit (Accelerator 'ctrl+Q')
+--------------------------------------------
+
+'press key' event created with arguments 'ctrl+n'
+Here's a new file!
+
+'press key' event created with arguments 'ctrl+q'
+Quitting

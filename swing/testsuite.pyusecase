@@ -18,6 +18,9 @@ show_menus
 
 # Test for JMenu widgets
 menu_accelerators
+
+# When the accelerators are on the window, sometimes get weird results (TTT-2378)
+menu_accel_window
 popup_menu
 
 # Test for JToolbar widgets
