@@ -12,11 +12,11 @@ ___________________
 'change' event created with arguments 'Name for Anders=HAnders'
 
 Updated Table :
-___________________________
-Name            Age  Gender
-___________________________
-Eva (selected)  22   female
-HAnders         21   male
-___________________________
+_______________________________
+Name                Age  Gender
+_______________________________
+Eva                 22   female
+HAnders (selected)  21   male
+_______________________________
 
 'close window' event created with arguments ''
