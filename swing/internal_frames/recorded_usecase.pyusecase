@@ -1,0 +1,10 @@
+show new frame
+toggle maximized status of Document #2
+iconify Document #2
+toggle maximized status of Document #1
+toggle maximized status of Document #1
+deiconify Document #2
+toggle maximized status of Document #2
+close Document #1
+close Document #2
+close window

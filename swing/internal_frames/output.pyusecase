@@ -1,0 +1,59 @@
+
+---------- Window 'Internal Frame Demo' ----------
+Menu Bar:
+  Document
+    New (Accelerator 'alt+N')
+    Quit (Accelerator 'alt+Q')
+
+----- Internal Frame 'Document #1' -----
+
+----------------------------------------
+--------------------------------------------------
+
+'show new frame' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+----- Internal Frame 'Document #1' -----
+
+----------------------------------------
+
+----- Internal Frame 'Document #2' -----
+
+----------------------------------------
+
+'toggle maximized status of' event created with arguments 'Document #2'
+
+'iconify' event created with arguments 'Document #2'
+
+New widgets have appeared: describing common parent :
+
+----- Internal Frame 'Document #1' -----
+
+----------------------------------------
+
+Image 1  Button 'Document #2' (Image 2)
+
+'toggle maximized status of' event created with arguments 'Document #1'
+
+'toggle maximized status of' event created with arguments 'Document #1'
+
+'deiconify' event created with arguments 'Document #2'
+
+New widgets have appeared: describing common parent :
+
+----- Internal Frame 'Document #2' -----
+
+----------------------------------------
+
+----- Internal Frame 'Document #1' -----
+
+----------------------------------------
+
+'toggle maximized status of' event created with arguments 'Document #2'
+
+'close' event created with arguments 'Document #1'
+
+'close' event created with arguments 'Document #2'
+
+'close window' event created with arguments ''

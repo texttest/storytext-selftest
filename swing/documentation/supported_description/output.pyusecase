@@ -22,6 +22,7 @@ javax.swing.JButton
 javax.swing.JCheckBox
 javax.swing.JDialog
 javax.swing.JFrame
+javax.swing.JInternalFrame
 javax.swing.JLabel
 javax.swing.JList
 javax.swing.JMenu
