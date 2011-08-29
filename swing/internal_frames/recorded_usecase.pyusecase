@@ -1,7 +1,7 @@
 show new frame
 toggle maximized status of Document #2
 iconify Document #2
-toggle maximized status of Document #1
+maximize via double click Document #1
 toggle maximized status of Document #1
 deiconify Document #2
 toggle maximized status of Document #2

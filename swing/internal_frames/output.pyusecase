@@ -34,7 +34,7 @@ New widgets have appeared: describing common parent :
 
 Image 1  Button 'Document #2' (Image 2)
 
-'toggle maximized status of' event created with arguments 'Document #1'
+'maximize via double click' event created with arguments 'Document #1'
 
 'toggle maximized status of' event created with arguments 'Document #1'
 
@@ -51,6 +51,12 @@ New widgets have appeared: describing common parent :
 ----------------------------------------
 
 'toggle maximized status of' event created with arguments 'Document #2'
+
+'maximize via double click' event created with arguments 'Non-Existant Document'
+ERROR: Could not find internal frame 'Non-Existant Document', found 'Document #1'
+
+'toggle maximized status of' event created with arguments 'Non-Existant Document'
+ERROR: Could not find internal frame 'Non-Existant Document', found 'Document #1'
 
 'close' event created with arguments 'Document #1'
 

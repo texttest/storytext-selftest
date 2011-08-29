@@ -14,6 +14,7 @@ types is also supported.
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTabbedPane.html>javax.swing.JTabbedPane</a></td><td><div class="Table_Text_Normal">Click , PopupActivate</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTable.html>javax.swing.JTable</a></td><td><div class="Table_Text_Normal">ClickHeader , DoubleClick , Edited , PopupActivate , Select</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTextField.html>javax.swing.JTextField</a></td><td><div class="Table_Text_Normal">Activate , Modify</div></td></tr>
+<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/plaf/basic/BasicInternalFrameTitlePane.html>javax.swing.plaf.basic.BasicInternalFrameTitlePane</a></td><td><div class="Table_Text_Normal">DoubleClick</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/text/JTextComponent.html>javax.swing.text.JTextComponent</a></td><td><div class="Table_Text_Normal">Modify</div></td></tr>
 </table></div>
 <div class="Text_Header">Swing Widgets supported for automatic logging</div>
