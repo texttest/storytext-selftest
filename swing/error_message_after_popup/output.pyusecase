@@ -1,0 +1,32 @@
+
+---------- Window 'Popup demo' ----------
+TabFolder with tabs Persons (selected), Nothing
+
+Table :
+___________________
+Name    Age  Gender
+___________________
+Anders  21   male
+Eva     22   female
+___________________
+-----------------------------------------
+
+'righ click on' event created with arguments 'Age for Anders'
+
+New widgets have appeared: describing common parent :
+
+Popup menu:
+  Paste
+
+'paste' event created with arguments ''
+Transfering
+
+---------- Window 'Message' ----------
+Image 1  'Error: Operation not supported exception'
+
+Button 'OK'
+--------------------------------------
+
+'ok' event created with arguments ''
+
+'close window' event created with arguments ''
