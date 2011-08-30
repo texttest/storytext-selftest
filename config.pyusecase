@@ -28,8 +28,7 @@ traffic:\\{REPLACE /}
 traffic:"<texttest tmp dir>([^"]*)"{REPLACE <texttest tmp dir>\1}
 # id() returns different things each time
 widgetstructure:.*{WORD 2}{REPLACE <id>}
-errors: *\.py:[0-9]+{REPLACE .py:<lineNr>}
-errors: *\.java:[0-9]+{REPLACE .java:<lineNr>}
+errors:[\s]+at[\s]
 [end]
 
 use_case_record_mode:GUI
