@@ -12,3 +12,6 @@ box_layout
 
 # Test description for border layout
 multiple_boxes_wide
+
+# Test we can describe things laid out in a grid
+gridbag_layout
