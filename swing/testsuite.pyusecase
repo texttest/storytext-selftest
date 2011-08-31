@@ -43,6 +43,9 @@ set_text_in_field
 # Test  for JTextPane widget with html content
 text_pane
 
+# Test  for JSpinner widget
+spinner
+
 # Test  for JSplitPane
 split_pane
 
@@ -56,8 +59,7 @@ change_tabs_and_contents
 progressbar
 
 # Test for JInternalFrame
-# internal_frames (automatically commented due to no test directory being found)
-
+internal_frames
 
 # Tests for describer using various layouts
 layouts

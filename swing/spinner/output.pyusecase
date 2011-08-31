@@ -1,0 +1,19 @@
+
+---------- Window 'Text field demo' ----------
+Button 'Do nothing'
+
+---------------
+
+'The Year: '  ========== Spinner ========== (min=1911, max=2111)
+              2011
+              =============================
+----------------------------------------------
+
+'set the year to' event created with arguments '2009'
+
+Updated The Year:  Spinner
+========== Spinner ========== (min=1911, max=2111)
+2009
+=============================
+
+'close window' event created with arguments ''

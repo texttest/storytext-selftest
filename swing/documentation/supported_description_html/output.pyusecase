@@ -12,6 +12,7 @@ types is also supported.
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JList.html>javax.swing.JList</a></td><td><div class="Table_Text_Normal">Select</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JMenuItem.html>javax.swing.JMenuItem</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JRadioButton.html>javax.swing.JRadioButton</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
+<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JSpinner.html>javax.swing.JSpinner</a></td><td><div class="Table_Text_Normal">Edited</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTabbedPane.html>javax.swing.JTabbedPane</a></td><td><div class="Table_Text_Normal">Click , PopupActivate</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTable.html>javax.swing.JTable</a></td><td><div class="Table_Text_Normal">ClickHeader , DoubleClick , Edited , PopupActivate , Select</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTextField.html>javax.swing.JTextField</a></td><td><div class="Table_Text_Normal">Activate , Modify , PopupActivate</div></td></tr>
@@ -39,6 +40,7 @@ is also supported but will only have features of the listed type described.
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JProgressBar.html>javax.swing.JProgressBar</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JRadioButton.html>javax.swing.JRadioButton</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JSeparator.html>javax.swing.JSeparator</a>
+<li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JSpinner.html>javax.swing.JSpinner</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTabbedPane.html>javax.swing.JTabbedPane</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTable.html>javax.swing.JTable</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JToolBar.html>javax.swing.JToolBar</a>

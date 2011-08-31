@@ -10,6 +10,7 @@ javax.swing.JFrame                      : Close , KeyPress
 javax.swing.JList                       : Select
 javax.swing.JMenuItem                   : Click
 javax.swing.JRadioButton                : Click
+javax.swing.JSpinner                    : Edited
 javax.swing.JTabbedPane                 : Click , PopupActivate
 javax.swing.JTable                      : ClickHeader , DoubleClick , Edited , PopupActivate , Select
 javax.swing.JTextField                  : Activate , Modify , PopupActivate
@@ -34,6 +35,7 @@ javax.swing.JPopupMenu
 javax.swing.JProgressBar
 javax.swing.JRadioButton
 javax.swing.JSeparator
+javax.swing.JSpinner
 javax.swing.JTabbedPane
 javax.swing.JTable
 javax.swing.JToolBar
