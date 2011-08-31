@@ -1,0 +1,43 @@
+
+---------- Window 'Popup demo' ----------
+'Some Text'
+
+========== TextField ==========
+
+===============================
+-----------------------------------------
+
+'right click panel 1' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Popup menu:
+  Item 1
+  Item 2
+
+'item1' event created with arguments ''
+Item 1 performed
+
+'right click panel 2' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Popup menu:
+  Item 3
+  Item 4
+
+'item 3' event created with arguments ''
+Item 3 performed
+
+'right click on text box' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Popup menu:
+  Copy
+  Paste
+
+'copy' event created with arguments ''
+Copy performed
+
+'close window' event created with arguments ''

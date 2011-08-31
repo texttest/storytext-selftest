@@ -4,6 +4,7 @@ types is also supported.
 
 javax.swing.JButton                     : Click
 javax.swing.JCheckBox                   : Click
+javax.swing.JComponent                  : PopupActivate
 javax.swing.JDialog                     : Close
 javax.swing.JFrame                      : Close , KeyPress
 javax.swing.JList                       : Select
@@ -11,7 +12,7 @@ javax.swing.JMenuItem                   : Click
 javax.swing.JRadioButton                : Click
 javax.swing.JTabbedPane                 : Click , PopupActivate
 javax.swing.JTable                      : ClickHeader , DoubleClick , Edited , PopupActivate , Select
-javax.swing.JTextField                  : Activate , Modify
+javax.swing.JTextField                  : Activate , Modify , PopupActivate
 javax.swing.plaf.basic.BasicInternalFrameTitlePane: DoubleClick
 javax.swing.text.JTextComponent         : Modify
 

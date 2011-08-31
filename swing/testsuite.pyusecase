@@ -19,6 +19,7 @@ show_menus
 # Test for JMenu widgets
 menu_accelerators
 popup_menu
+popup_on_component
 error_message_after_popup
 
 # Test for JToolbar widgets

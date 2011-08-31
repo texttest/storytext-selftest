@@ -6,6 +6,7 @@ types is also supported.
 <div class="Text_Normal"><table border=1 cellpadding=1 cellspacing=1>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JButton.html>javax.swing.JButton</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JCheckBox.html>javax.swing.JCheckBox</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
+<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JComponent.html>javax.swing.JComponent</a></td><td><div class="Table_Text_Normal">PopupActivate</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JDialog.html>javax.swing.JDialog</a></td><td><div class="Table_Text_Normal">Close</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JFrame.html>javax.swing.JFrame</a></td><td><div class="Table_Text_Normal">Close , KeyPress</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JList.html>javax.swing.JList</a></td><td><div class="Table_Text_Normal">Select</div></td></tr>
@@ -13,7 +14,7 @@ types is also supported.
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JRadioButton.html>javax.swing.JRadioButton</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTabbedPane.html>javax.swing.JTabbedPane</a></td><td><div class="Table_Text_Normal">Click , PopupActivate</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTable.html>javax.swing.JTable</a></td><td><div class="Table_Text_Normal">ClickHeader , DoubleClick , Edited , PopupActivate , Select</div></td></tr>
-<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTextField.html>javax.swing.JTextField</a></td><td><div class="Table_Text_Normal">Activate , Modify</div></td></tr>
+<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JTextField.html>javax.swing.JTextField</a></td><td><div class="Table_Text_Normal">Activate , Modify , PopupActivate</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/plaf/basic/BasicInternalFrameTitlePane.html>javax.swing.plaf.basic.BasicInternalFrameTitlePane</a></td><td><div class="Table_Text_Normal">DoubleClick</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/text/JTextComponent.html>javax.swing.text.JTextComponent</a></td><td><div class="Table_Text_Normal">Modify</div></td></tr>
 </table></div>
