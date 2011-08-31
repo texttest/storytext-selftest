@@ -19,10 +19,9 @@ class TextFieldApp:
         panel2.add(textField, BorderLayout.CENTER)
         panel = swing.JPanel(BorderLayout())
         panel.add(button)
-        panel3 = swing.JPanel()
         frame.getContentPane().add(panel, BorderLayout.NORTH)
-        frame.getContentPane().add(panel2, BorderLayout.CENTER)
-        frame.getContentPane().add(panel3, BorderLayout.SOUTH)
+        frame.getContentPane().add(swing.JSeparator(), BorderLayout.CENTER)
+        frame.getContentPane().add(panel2, BorderLayout.SOUTH)
         #frame.pack()
         frame.setVisible(True)
 
