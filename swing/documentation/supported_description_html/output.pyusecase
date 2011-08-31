@@ -28,6 +28,7 @@ is also supported but will only have features of the listed type described.
 <div class="Text_Normal">
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JButton.html>javax.swing.JButton</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JCheckBox.html>javax.swing.JCheckBox</a>
+<li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JComboBox.html>javax.swing.JComboBox</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JDialog.html>javax.swing.JDialog</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JFrame.html>javax.swing.JFrame</a>
 <li><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JInternalFrame.html>javax.swing.JInternalFrame</a>

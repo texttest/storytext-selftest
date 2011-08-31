@@ -23,6 +23,7 @@ is also supported but will only have features of the listed type described.
 
 javax.swing.JButton
 javax.swing.JCheckBox
+javax.swing.JComboBox
 javax.swing.JDialog
 javax.swing.JFrame
 javax.swing.JInternalFrame
