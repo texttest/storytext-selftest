@@ -8,9 +8,7 @@ Button 'Exit'
 ---------- Window 'User Confirmation' ----------
 Image 1  'Are you sure you want to exit?'
 
-Button 'Yes'
-
-Button 'No'
+Button 'Yes'  Button 'No'
 ------------------------------------------------
 
 'answer yes' event created with arguments ''
