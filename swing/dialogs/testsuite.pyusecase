@@ -2,7 +2,7 @@
 confirm
 
 # Test for handling a confirmation dialog when exiting the application.
-#confirm_after_exit
+confirm_after_exit
 
 # Test for handling a confirmation dialog when pushing a button
 nested_dialogs

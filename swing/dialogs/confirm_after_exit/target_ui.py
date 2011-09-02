@@ -28,6 +28,7 @@ class ConfirmDialogApp:
         panel.add(swing.JButton("Do nothing"))
         self.frame.add(panel)
         self.frame.pack()
+        self.frame.setSize(300, 300)
         self.frame.setVisible(True)
 
     @staticmethod                    
