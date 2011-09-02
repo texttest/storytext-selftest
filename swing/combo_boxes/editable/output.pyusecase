@@ -1,0 +1,38 @@
+
+---------- Window 'Combo box demo' ----------
+========== ComboBox ==========
+One
+==============================
+---------------------------------------------
+
+'select' event created with arguments 'abcdOne'
+
+Updated  ComboBox
+========== ComboBox ==========
+abcdOne
+==============================
+
+'select' event created with arguments 'Two'
+Two selected
+
+Updated  ComboBox
+========== ComboBox ==========
+Two
+==============================
+
+'select' event created with arguments 'Three'
+Three selected
+
+Updated  ComboBox
+========== ComboBox ==========
+Three
+==============================
+
+'select' event created with arguments 'Threeefgh'
+
+Updated  ComboBox
+========== ComboBox ==========
+Threeefgh
+==============================
+
+'close window' event created with arguments ''

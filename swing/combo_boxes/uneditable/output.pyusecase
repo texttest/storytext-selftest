@@ -1,0 +1,31 @@
+
+---------- Window 'Combo box demo' ----------
+========== ComboBox ========== (read only)
+One
+==============================
+---------------------------------------------
+
+'select' event created with arguments 'Nothing'
+ERROR: Could not find item named 'Nothing' to select.
+
+New widgets have appeared: describing common parent :
+
+'One'
+
+'select' event created with arguments 'Two'
+Two selected
+
+Updated  ComboBox
+========== ComboBox ========== (read only)
+Two
+==============================
+
+'select' event created with arguments 'Three'
+Three selected
+
+Updated  ComboBox
+========== ComboBox ========== (read only)
+Three
+==============================
+
+'close window' event created with arguments ''

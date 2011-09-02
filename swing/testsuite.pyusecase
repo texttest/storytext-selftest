@@ -69,6 +69,7 @@ dialogs
 
 # Tests for Jlists
 lists
+combo_boxes
 
 # Tests for Jlists
 trees
