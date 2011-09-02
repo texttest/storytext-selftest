@@ -4,6 +4,7 @@ types is also supported.
 
 javax.swing.JButton                     : Click
 javax.swing.JCheckBox                   : Click
+javax.swing.JComboBox                   : Click
 javax.swing.JComponent                  : PopupActivate
 javax.swing.JDialog                     : Close
 javax.swing.JFrame                      : Close , KeyPress

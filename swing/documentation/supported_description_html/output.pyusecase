@@ -6,6 +6,7 @@ types is also supported.
 <div class="Text_Normal"><table border=1 cellpadding=1 cellspacing=1>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JButton.html>javax.swing.JButton</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JCheckBox.html>javax.swing.JCheckBox</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
+<tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JComboBox.html>javax.swing.JComboBox</a></td><td><div class="Table_Text_Normal">Click</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JComponent.html>javax.swing.JComponent</a></td><td><div class="Table_Text_Normal">PopupActivate</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JDialog.html>javax.swing.JDialog</a></td><td><div class="Table_Text_Normal">Close</div></td></tr>
 <tr><td><a class="Text_Link" href=http://download.oracle.com/javase/6/docs/api/javax/swing/JFrame.html>javax.swing.JFrame</a></td><td><div class="Table_Text_Normal">Close , KeyPress</div></td></tr>
