@@ -31,6 +31,9 @@ add_widgets
 # Check we can use widgets that were initially invisible
 show_widgets
 
+# Check changing window title doesn't stop everything working
+show_widgets_change_title
+
 # Test for JTabbedPane widget
 tabs
 

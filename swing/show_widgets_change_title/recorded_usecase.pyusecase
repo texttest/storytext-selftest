@@ -1,0 +1,4 @@
+show toolbar
+set value to Hello
+activate value
+close window
