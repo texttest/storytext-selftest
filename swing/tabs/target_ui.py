@@ -2,6 +2,7 @@ from javax import swing
 from java.awt import BorderLayout, Dimension
 from java.awt.event import KeyEvent
 from java.lang import System
+
 class TabsApp:            
     def make_ui(self):
         frame = swing.JFrame("Tabs demo")
@@ -30,7 +31,7 @@ class TabsApp:
         for i in range(1, 6):
             panel = swing.JPanel()
             panel.add(swing.JLabel("content " + str(i)))
-            tabbedPane.add("Tab " + str(i), panel)
+            tabbedPane.addTab("Tab " + str(i), None, panel, "Tooltip " + str(i))
         tabbedPane.setEnabledAt(4, False)
 
     @staticmethod            

@@ -1,6 +1,6 @@
 
 ---------- Window 'Tabs demo' ----------
-TabFolder with tabs Tab 1 (selected), Tab 2, Tab 3, Tab 4, Tab 5 (greyed out)
+TabFolder with tabs Tab 1 (Tooltip 1, selected), Tab 2 (Tooltip 2), Tab 3 (Tooltip 3), Tab 4 (Tooltip 4), Tab 5 (Tooltip 5, greyed out)
 
 'content 1'
 ----------------------------------------
@@ -8,21 +8,21 @@ TabFolder with tabs Tab 1 (selected), Tab 2, Tab 3, Tab 4, Tab 5 (greyed out)
 'click' event created with arguments 'Tab 2'
 Tab 2 selected
 
-Updated TabFolder with tabs Tab 1, Tab 2 (selected), Tab 3, Tab 4, Tab 5 (greyed out)
+Updated TabFolder with tabs Tab 1 (Tooltip 1), Tab 2 (Tooltip 2, selected), Tab 3 (Tooltip 3), Tab 4 (Tooltip 4), Tab 5 (Tooltip 5, greyed out)
 
 'content 2'
 
 'click' event created with arguments 'Tab 3'
 Tab 3 selected
 
-Updated TabFolder with tabs Tab 1, Tab 2, Tab 3 (selected), Tab 4, Tab 5 (greyed out)
+Updated TabFolder with tabs Tab 1 (Tooltip 1), Tab 2 (Tooltip 2), Tab 3 (Tooltip 3, selected), Tab 4 (Tooltip 4), Tab 5 (Tooltip 5, greyed out)
 
 'content 3'
 
 'click' event created with arguments 'Tab 1'
 Tab 1 selected
 
-Updated TabFolder with tabs Tab 1 (selected), Tab 2, Tab 3, Tab 4, Tab 5 (greyed out)
+Updated TabFolder with tabs Tab 1 (Tooltip 1, selected), Tab 2 (Tooltip 2), Tab 3 (Tooltip 3), Tab 4 (Tooltip 4), Tab 5 (Tooltip 5, greyed out)
 
 Updated 'Edited'
 
