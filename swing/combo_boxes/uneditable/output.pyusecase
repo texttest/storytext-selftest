@@ -8,10 +8,6 @@ One
 'select' event created with arguments 'Nothing'
 ERROR: Could not find item named 'Nothing' to select.
 
-New widgets have appeared: describing common parent :
-
-'One'
-
 'select' event created with arguments 'Two'
 Two selected
 
