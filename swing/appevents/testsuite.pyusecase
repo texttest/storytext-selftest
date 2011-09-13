@@ -1,5 +1,11 @@
 # Test to handle an application event that happens via a timer
 background
 
+# Test to handle an application event that happens via a timer
+background_new_way
+
 # If application events are caused in listeners, they need to be recorded after the thing that caused them
 delayed
+
+# If application events are caused in listeners, they need to be recorded after the thing that caused them
+delayed_new_way
