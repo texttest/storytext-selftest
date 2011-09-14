@@ -1,0 +1,32 @@
+
+---------- Window 'Text field demo' ----------
+Button 'Do nothing'
+
+'Some Text: '  ========== TextField ==========
+
+               ===============================
+
+'Other Text: '  ========== TextField ==========
+
+                ===============================
+----------------------------------------------
+
+'click do nothing' event created with arguments ''
+
+'set text =' event created with arguments 'Hello'
+
+Updated Some Text:  Field
+========== TextField ==========
+Hello
+===============================
+
+'set other text =' event created with arguments 'World'
+
+Updated Other Text:  Field
+========== TextField ==========
+World
+===============================
+
+'click do nothing' event created with arguments ''
+
+'close window' event created with arguments ''

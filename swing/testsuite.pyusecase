@@ -40,6 +40,9 @@ tabs
 # Test  for JTextField widget
 text_field
 
+# Have several text fields
+several_text_fields
+
 # Test  for button that sets text programmatically
 set_text_in_field
 

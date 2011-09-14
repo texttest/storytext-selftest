@@ -1,0 +1,5 @@
+click do nothing
+set text = Hello
+set other text = World
+click do nothing
+close window
