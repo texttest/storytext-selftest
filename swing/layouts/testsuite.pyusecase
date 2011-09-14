@@ -10,6 +10,9 @@ border_layout_no_centre
 # Test description for border layout
 box_layout
 
+# Test description for nested flow layouts
+flow_layout
+
 # Test description for border layout
 multiple_boxes_wide
 
