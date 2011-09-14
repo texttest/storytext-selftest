@@ -6,3 +6,6 @@ confirm_after_exit
 
 # Test for handling a confirmation dialog when pushing a button
 nested_dialogs
+
+# Don't be fooled by the wrong case in the dialog labels
+label_case
