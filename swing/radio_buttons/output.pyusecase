@@ -1,12 +1,18 @@
 
 ---------- Window 'Radio button demo' ----------
-RadioButton 'First'  RadioButton 'Second'
+Radio button: ( ) First  Radio button: ( ) Second
 ------------------------------------------------
 
 'select first button' event created with arguments ''
 Selected the First button
 
+Updated Radio button: (*) First
+
 'select second button' event created with arguments ''
 Selected the Second button
+
+Updated Radio button: ( ) First
+
+Updated Radio button: (*) Second
 
 'close window' event created with arguments ''

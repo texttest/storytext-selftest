@@ -1,15 +1,21 @@
 
 ---------- Window 'Check box demo' ----------
-CheckBox 'First'  CheckBox 'Second'
+Check box: [ ] First  Check box: [ ] Second
 ---------------------------------------------
 
 'select first box' event created with arguments ''
 Selected the First check box
 
+Updated Check box: [x] First
+
 'select second box' event created with arguments ''
 Selected the Second check box
 
+Updated Check box: [x] Second
+
 'select first box' event created with arguments ''
 Deselected the First check box
+
+Updated Check box: [ ] First
 
 'close window' event created with arguments ''
