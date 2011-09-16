@@ -1,0 +1,20 @@
+
+---------- Window 'Dialog Demo' ----------
+Button 'Dialog'  Button 'Message'
+------------------------------------------
+
+'show dialog' event created with arguments ''
+
+---------- Window 'User Confirmation' ----------
+Image 1  'Is the Pope a Catholic?'
+
+Button 'Yes'  Button 'No'
+------------------------------------------------
+
+'answer yes' event created with arguments ''
+Dialog answered 0
+
+'show message' event created with arguments ''
+Hello World!
+
+'close window' event created with arguments ''

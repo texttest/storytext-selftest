@@ -9,3 +9,4 @@ nested_dialogs
 
 # Don't be fooled by the wrong case in the dialog labels
 label_case
+actions_after_dialog

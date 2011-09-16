@@ -1,0 +1,4 @@
+show dialog
+answer yes
+show message
+close window
