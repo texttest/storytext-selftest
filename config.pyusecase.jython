@@ -6,6 +6,7 @@ link_test_path:TargetUI$MyTableModel.class
 
 [run_dependent_text]
 errors:log4j:WARN
+errors:log4j:ERROR
 errors:\*sys-package-mgr\*: processing.*jar
 errors:GTK_WIDGET_VISIBLE
 errors:^$
