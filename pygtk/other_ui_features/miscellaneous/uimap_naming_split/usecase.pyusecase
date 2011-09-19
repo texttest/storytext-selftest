@@ -1,0 +1,4 @@
+set entry contents to John
+activate entry
+set entry contents to Smith
+close

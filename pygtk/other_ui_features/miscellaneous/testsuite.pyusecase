@@ -4,6 +4,10 @@ slow_motion_replay
 # If we introduce a better way to refer to a widget, automatically update the UI map file
 improve_uimap_naming
 
+# Check what happens if we have two widgets referred in the same way, and we introduce a better way to refer to only one of them.
+# 
+uimap_naming_split
+
 # Check we handle application events in UIs also, even if we aren't told to wait for them
 ui_appevent
 
