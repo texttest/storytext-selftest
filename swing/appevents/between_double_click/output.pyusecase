@@ -1,0 +1,28 @@
+
+---------- Window 'Table demo' ----------
+Table :
+_____
+Name
+_____
+Tom
+Dick
+Harry
+_____
+-----------------------------------------
+
+'double click' event created with arguments 'Tom'
+
+Waiting for application event 'single click to be received' to occur.
+
+Updated Table :
+______________
+Name
+______________
+Tom (selected)
+Dick
+Harry
+______________
+
+Expected application event 'single click to be received' occurred, proceeding.
+
+'close window' event created with arguments ''

@@ -9,3 +9,6 @@ delayed
 
 # If application events are caused in listeners, they need to be recorded after the thing that caused them
 delayed_new_way
+
+# If application events occurs between a single and double click, they need to be delayed also
+between_double_click
