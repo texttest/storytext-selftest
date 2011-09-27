@@ -15,15 +15,15 @@ class TextFieldApp:
         panel = swing.JPanel(BorderLayout())
         panel.add(button)
         frame.getContentPane().add(panel, BorderLayout.NORTH)
-        frame.getContentPane().add(self.makeTextFieldPanel("Some Text: "), BorderLayout.CENTER)
-        frame.getContentPane().add(self.makeTextFieldPanel("Other Text: "), BorderLayout.SOUTH)
+        frame.getContentPane().add(self.makeTextFieldPanel("User Name: ", MyTextFieldSubClass), BorderLayout.CENTER)
+        frame.getContentPane().add(self.makeTextFieldPanel("Password: ", swing.JPasswordField), BorderLayout.SOUTH)
         #frame.pack()
         frame.setVisible(True)
 
-    def makeTextFieldPanel(self, label):
+    def makeTextFieldPanel(self, label, fieldClass):
         panel = swing.JPanel(BorderLayout())
         textLabel = swing.JLabel(label)
-        textField = MyTextFieldSubClass()
+        textField = fieldClass()
         panel.add(textLabel, BorderLayout.WEST)
         panel.add(textField, BorderLayout.CENTER)
         return panel

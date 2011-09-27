@@ -1,5 +1,5 @@
 click do nothing
-set text = Hello
-set other text = World
+set user name = user
+set password = password
 click do nothing
 close window

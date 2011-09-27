@@ -2,30 +2,30 @@
 ---------- Window 'Text field demo' ----------
 Button 'Do nothing'
 
-'Some Text: '  ========== TextField ==========
+'User Name: '  ========== TextField ==========
 
                ===============================
 
-'Other Text: '  ========== TextField ==========
+'Password: '  ========== PasswordField ==========
 
-                ===============================
+              ===================================
 ----------------------------------------------
 
 'click do nothing' event created with arguments ''
 
-'set text =' event created with arguments 'Hello'
+'set user name =' event created with arguments 'user'
 
-Updated Some Text:  Field
+Updated User Name:  Field
 ========== TextField ==========
-Hello
+user
 ===============================
 
-'set other text =' event created with arguments 'World'
+'set password =' event created with arguments 'password'
 
-Updated Other Text:  Field
-========== TextField ==========
-World
-===============================
+Updated Password:  Field
+========== PasswordField ==========
+********
+===================================
 
 'click do nothing' event created with arguments ''
 
