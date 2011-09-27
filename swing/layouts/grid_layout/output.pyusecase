@@ -1,0 +1,8 @@
+
+---------- Window 'ButtonDemo' ----------
+Button 'Button One'   Button 'Button Two'                    Button 'Button Three'
+Button 'Button Four'  Button 'Button Five With A Long Name'  Button 'Button Six'
+Button 'Button Seven'
+-----------------------------------------
+
+'close window' event created with arguments ''
