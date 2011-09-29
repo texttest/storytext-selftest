@@ -1,0 +1,4 @@
+show dialog
+click item 1
+close dialog
+close window

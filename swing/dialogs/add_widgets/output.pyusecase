@@ -1,0 +1,31 @@
+
+---------- Window 'Confirm Dialog Demo' ----------
+Button 'Dialog'
+--------------------------------------------------
+
+'show dialog' event created with arguments ''
+
+---------- Window 'The Dialog' ----------
+Tool Bar:
+  Item1
+  Item2
+  Item3
+  Item4
+  Item5
+-----------------------------------------
+
+'click item 1' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Tool Bar:
+  Item1
+  Item2
+  Item3
+  Item4
+  Item5
+  Extra Item1
+
+'close dialog' event created with arguments ''
+
+'close window' event created with arguments ''
