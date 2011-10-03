@@ -21,3 +21,6 @@ grid_layout
 
 # Test we can describe things laid out in a grid
 gridbag_layout
+
+# GridBagLayout allows specific allocation of positions also
+gridbag_layout_xy
