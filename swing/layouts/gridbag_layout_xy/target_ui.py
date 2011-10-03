@@ -27,9 +27,9 @@ if __name__ == "__main__":
     makeButton("Button Three", gridbag, constraints, panel, 2, 0)
     makeButton("Button Four", gridbag, constraints, panel, 3, 0)
                 
-    makeButton("Button Six", gridbag, constraints, panel, 2, 2)
+    makeButton("Button Six", gridbag, constraints, panel, 2, 3)
     
-    makeButton("Button Seven", gridbag, constraints, panel, 3, 2)
+    makeButton("Button Seven", gridbag, constraints, panel, 3, 3)
 
     makeButton("Button Five", gridbag, constraints, panel, 0, 1) #another row
 
