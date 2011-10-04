@@ -24,3 +24,6 @@ gridbag_layout
 
 # GridBagLayout allows specific allocation of positions also
 gridbag_layout_xy
+
+# Check for nesting, for empty GridBags and for default GridLayouts
+nested_grids_horizontal

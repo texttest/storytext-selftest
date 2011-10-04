@@ -10,3 +10,6 @@ nested_dialogs
 # Don't be fooled by the wrong case in the dialog labels
 label_case
 actions_after_dialog
+
+# Check we can add widgets to a dialog
+add_widgets

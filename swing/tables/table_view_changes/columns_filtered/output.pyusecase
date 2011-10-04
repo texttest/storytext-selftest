@@ -1,10 +1,6 @@
 
 ---------- Window 'Table demo' ----------
-Button 'Remove Name'
-
-Button 'Remove Age'
-
-Button 'Remove Gender'
+Button 'Remove Name'  Button 'Remove Age'  Button 'Remove Gender'
 
 Table :
 ___________________
