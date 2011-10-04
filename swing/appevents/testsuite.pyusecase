@@ -4,6 +4,9 @@ background
 # Test to handle an application event that happens via a timer
 background_new_way
 
+# Test to handle an application event that happens via a timer
+background_after_shortcut
+
 # If application events are caused in listeners, they need to be recorded after the thing that caused them
 delayed
 

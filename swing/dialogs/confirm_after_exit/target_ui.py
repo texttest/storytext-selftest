@@ -16,9 +16,11 @@ class ConfirmDialogApp:
                     self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
                     print "Yes option clicked"
                     self.frame.dispose()
-                else:
+                elif confirmed == JOptionPane.NO_OPTION:
                     self.frame.setDefaultCloseOperation(swing.JFrame.DO_NOTHING_ON_CLOSE)
                     print "No option clicked", confirmed
+                else:
+                    print "Other action has occurred", confirmed
 
         self.frame = swing.JFrame("Confirm Dialog Demo")
         self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)

@@ -1,0 +1,17 @@
+
+---------- Window 'Close Buttons' ----------
+Button 'Why?'  Button 'Exit' (greyed out)  Button 'Do nothing'
+--------------------------------------------
+
+'do nothing' event created with arguments ''
+
+'ask why' event created with arguments ''
+
+Waiting for application event 'Exit button to be enabled' to occur.
+Because
+
+Updated Button 'Exit'
+
+Expected application event 'Exit button to be enabled' occurred, proceeding.
+
+'close window' event created with arguments ''
