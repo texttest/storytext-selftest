@@ -1,0 +1,44 @@
+#!/usr/bin/python
+import gtk
+
+class MyDialog():
+        
+    def __init__(self, parent_window):
+        self._parent_window = parent_window
+
+    def show(self):
+        dialog = gtk.Dialog('The Dialog Title', self._parent_window)
+        label = gtk.Label("Some message")
+        dialog.vbox.add(label)        
+        dialog.add_button('Close', gtk.RESPONSE_CLOSE)
+        
+        result = dialog.run()
+        dialog.destroy()
+
+if __name__ == "__main__":
+    win = gtk.Window()
+    dialog = MyDialog(win)
+
+    def clicked(*args):
+        global dialog
+        dialog.show()
+    box = gtk.VBox()
+
+    model = gtk.ListStore(str)
+    model.append([ "A Row" ])
+    list = gtk.TreeView(model)
+    list.set_name("The List")
+    cell_renderer = gtk.CellRendererText()
+    list.append_column(gtk.TreeViewColumn("Name", cell_renderer, text=0))
+                             
+    list.get_selection().connect("changed", clicked)
+    box.add(list)
+
+    win.set_deletable(True)
+
+    win.connect("destroy", gtk.main_quit, None)
+
+    win.add(box)
+
+    win.show_all()
+    gtk.main()

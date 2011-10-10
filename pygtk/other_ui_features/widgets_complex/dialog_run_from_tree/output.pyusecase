@@ -1,0 +1,23 @@
+
+---------- Window 'None' ----------
+Focus widget is 'The List'
+
+Showing The List with columns: Name
+-> A Row
+-----------------------------------
+
+'select' event created with arguments 'A Row'
+
+---------- Dialog 'The Dialog Title' ----------
+Focus widget is 'Close'
+'Some message'
+---------------
+Button 'Close'
+-----------------------------------------------
+
+'close the dialog' event created with arguments ''
+
+Changed selection in The List with columns: Name
+-> A Row   ***
+
+'quit' event created with arguments ''
