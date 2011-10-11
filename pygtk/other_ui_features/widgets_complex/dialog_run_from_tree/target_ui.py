@@ -30,6 +30,8 @@ if __name__ == "__main__":
     list.set_name("The List")
     cell_renderer = gtk.CellRendererText()
     list.append_column(gtk.TreeViewColumn("Name", cell_renderer, text=0))
+
+    list.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
                              
     list.get_selection().connect("changed", clicked)
     box.add(list)
