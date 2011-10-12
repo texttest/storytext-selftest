@@ -1,26 +1,24 @@
+# If widgets can't be distinguished except by one being clickable and the other not, choose the right one
+find_sensitive_widget
+
 # Check we still record window deletion even if the window is hidden first
 window_hidden
+
+# If we destroy a window from a handler from one of its children, we should still record this
+window_destroy_from_child
+
+# If we destroy a dialog from a handler from one of its children, we should still record this
+dialog_destroy_from_child
+
+# If we destroy a dialog in a handler for response, make sure it actually happens
+dialog_destroy_from_response
+
+# Check we can disconnect without getting into trouble...
+dialog_disconnect
 
 # gtk.Dialog.run on a dialog with checkbuttons has been known to cause problems...
 dialog_run_checkbutton
 
 # gtk.Dialog.run on a dialog with entries has been known to cause problems...
 dialog_run_entry
-
-# gtk.Dialog.run from tree selection, make sure delay properties are right
 dialog_run_from_tree
-
-# Check we can disconnect without getting into trouble...
-dialog_disconnect
-
-# If we destroy a dialog in a handler for response, make sure it actually happens
-dialog_destroy_from_response
-
-# If we destroy a dialog from a handler from one of its children, we should still record this
-dialog_destroy_from_child
-
-# If we destroy a window from a handler from one of its children, we should still record this
-window_destroy_from_child
-
-# If widgets can't be distinguished except by one being clickable and the other not, choose the right one
-find_sensitive_widget

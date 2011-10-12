@@ -1,0 +1,8 @@
+# gtk.Dialog.run from tree selection, make sure delay properties are right
+allow_select
+
+# gtk.Dialog.run from tree selection, with the additional twist that the selection is rejected
+disallow_select
+
+# gtk.Dialog.run from tree selection, with the additional twist that the selection is rejected
+disallow_select_full
