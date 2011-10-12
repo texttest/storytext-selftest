@@ -32,6 +32,8 @@ if __name__ == "__main__":
         global dialog
         dialog.show()
         return False
+    list.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
+
     list.get_selection().set_select_function(can_select)
     box.add(list)
 
