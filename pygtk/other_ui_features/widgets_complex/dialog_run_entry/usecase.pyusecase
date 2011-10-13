@@ -1,4 +1,6 @@
 open dialog
-enter text Hello World
+enter first text Hello
+enter second text Hello
+enter second text Hello World
 close the dialog
 quit

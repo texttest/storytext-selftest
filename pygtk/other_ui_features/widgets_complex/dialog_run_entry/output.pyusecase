@@ -7,15 +7,23 @@ Button 'hi - this button opens the dialog'
 'open dialog' event created with arguments ''
 
 ---------- Dialog 'The Dialog Title' ----------
-Focus widget is 'GtkEntry'
+Focus widget is 'First'
 'Enter some text'
+Text entry
+'Enter some other text'
 Text entry
 ---------------
 Button 'Close'
 -----------------------------------------------
 
-'enter text' event created with arguments 'Hello World'
-Edited 'GtkEntry' Text entry (set to 'Hello World')
+'enter first text' event created with arguments 'Hello'
+Edited 'First' Text entry (set to 'Hello')
+
+'enter second text' event created with arguments 'Hello'
+Edited 'Second' Text entry (set to 'Hello')
+
+'enter second text' event created with arguments 'Hello World'
+Edited 'Second' Text entry (set to 'Hello World')
 
 'close the dialog' event created with arguments ''
 

@@ -11,7 +11,13 @@ class MyDialog():
         label = gtk.Label("Enter some text")
         dialog.vbox.add(label)
         entry = gtk.Entry()
+        entry.set_name("First")
         dialog.vbox.add(entry)
+        label2 = gtk.Label("Enter some other text")
+        dialog.vbox.add(label2)
+        entry2 = gtk.Entry()
+        entry2.set_name("Second")
+        dialog.vbox.add(entry2)
         
         dialog.add_button('Close', gtk.RESPONSE_CLOSE)
         
