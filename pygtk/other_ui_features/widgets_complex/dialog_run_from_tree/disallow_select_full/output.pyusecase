@@ -3,10 +3,21 @@
 Focus widget is 'The List'
 
 Showing The List with columns: Name
--> A Row
+-> Row 1
+-> Row 2
 -----------------------------------
 
-'select' event created with arguments 'A Row'
+'select' event created with arguments 'Row 1'
+
+Changed selection in The List with columns: Name
+-> Row 1   ***
+-> Row 2
+
+'select' event created with arguments 'Row 2'
+
+Changed selection in The List with columns: Name
+-> Row 1
+-> Row 2
 
 ---------- Dialog 'The Dialog Title' ----------
 Focus widget is 'Close'

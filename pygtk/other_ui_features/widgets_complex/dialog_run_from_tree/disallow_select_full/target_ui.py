@@ -22,15 +22,19 @@ if __name__ == "__main__":
     box = gtk.VBox()
 
     model = gtk.ListStore(str)
-    model.append([ "A Row" ])
+    model.append([ "Row 1" ])
+    model.append([ "Row 2" ])
     list = gtk.TreeView(model)
     list.set_name("The List")
     cell_renderer = gtk.CellRendererText()
     list.append_column(gtk.TreeViewColumn("Name", cell_renderer, text=0))
 
     def can_select(selection, model, path, is_selected, dialog):
-        dialog.show()
-        return False
+        if "2" in model.get_value(model.get_iter(path), 0):
+            dialog.show()
+            return False
+        else:
+            return True
     list.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
     list.get_selection().set_select_function(can_select, data=dialog, full=True)
     box.add(list)

@@ -1,3 +1,4 @@
-select A Row
+select Row 1
+select Row 2
 close the dialog
 quit
