@@ -1,0 +1,15 @@
+javax.swing.JFrame 1 (java.awt.BorderLayout, Center)
+--javax.swing.JRootPane 3 (javax.swing.JRootPane$RootLayout)
+----javax.swing.JPanel 4 (java.awt.FlowLayout) (invisible)
+----javax.swing.JLayeredPane 5
+------javax.swing.JPanel 6 (java.awt.BorderLayout, Center)
+--------javax.swing.JPanel 7 (java.awt.BorderLayout, North, Center)
+----------javax.swing.JToolBar 8 (javax.swing.JToolBar$DefaultToolBarLayout) (invisible)
+------------javax.swing.JLabel 9
+------------javax.swing.JTextField 10 (javax.swing.plaf.basic.BasicTextUI$UpdateHandler)
+----------javax.swing.JButton 11
+javax.swing.JPanel 7 (java.awt.BorderLayout, North, Center)
+--javax.swing.JToolBar 8 (javax.swing.JToolBar$DefaultToolBarLayout)
+----javax.swing.JLabel 9
+----javax.swing.JTextField 10 (javax.swing.plaf.basic.BasicTextUI$UpdateHandler)
+--javax.swing.JButton 11
