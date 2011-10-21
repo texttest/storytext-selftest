@@ -5,6 +5,15 @@ from org.eclipse.swt.layout import *
 shell = Shell()
 shell.setLayout(GridLayout(2, False))
 
+menubar = Menu(shell, SWT.BAR)
+shell.setMenuBar(menubar)
+fileItem = MenuItem(menubar, SWT.CASCADE)
+fileItem.setText("&File")
+submenu = Menu(shell, SWT.DROP_DOWN)
+fileItem.setMenu(submenu)
+itemRedraw = MenuItem(submenu, SWT.PUSH)
+itemRedraw.setText("Redraw!")
+
 calendar = DateTime(shell, SWT.CALENDAR)
 calendar.setData("org.eclipse.swtbot.widget.key", "The Calendar")
 # Month starts from 0, oh yes!
@@ -32,7 +41,14 @@ class PrintListener2(Listener):
 class PrintListener3(Listener):
     def handleEvent(self, e):
         print "Date changed"
-
+        
+class RedrawListener(Listener):
+    def handleEvent(self, e):
+        text = date.getChildren()[0]
+        text.redraw()
+        text.update()
+        
+itemRedraw.addListener(SWT.Selection, RedrawListener())
 
 calendar.addListener(SWT.Selection, PrintListener())
 time.addListener(SWT.Selection, PrintListener2())

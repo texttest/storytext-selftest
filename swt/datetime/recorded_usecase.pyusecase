@@ -1,4 +1,5 @@
 set calendar to 3/4/1975
 set date to 3/4/1976
 set time to 15:00:00
+redraw
 close window

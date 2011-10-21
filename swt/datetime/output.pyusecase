@@ -1,5 +1,9 @@
 
 ---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Redraw!
+
 DateTime (calendar, showing 2/18/1975)
 DateTime (date, showing 2/3/1976)  DateTime (time, short, showing 14:00:00)
 
@@ -25,5 +29,7 @@ Updated DateTime (date, showing 3/4/1976)
 Time changed
 
 Updated DateTime (time, short, showing 15:00:00)
+
+'redraw' event created with arguments ''
 
 'close window' event created with arguments ''

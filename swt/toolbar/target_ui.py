@@ -7,6 +7,9 @@ def addItem(i, bar):
     class PrintListener(Listener):
         def handleEvent(self, e):
             print "Selected item", i
+            newItem = ToolItem(bar, SWT.PUSH)
+            newItem.setText("Extra Item " + str(i))
+            bar.pack()
 
     item.addListener(SWT.Selection, PrintListener())
 

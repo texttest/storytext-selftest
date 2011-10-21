@@ -28,6 +28,7 @@ Updated Views Menu:
   Show Info View
 
 'create new first view' event created with arguments ''
+
 New widgets have appeared: describing common parent :
 
 TabFolder with tabs FirstView (cascade, Image 1) , FirstView (cascade, Image 1, selected)

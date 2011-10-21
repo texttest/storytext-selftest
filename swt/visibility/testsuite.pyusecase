@@ -1,6 +1,9 @@
 # Test for things appearing during the run, a parent and child widget becoming visible at the same time
 parent_and_child
 
+# Test for things appearing during the run, a child and grandchild widget of the same parent becoming visible at the same time
+child_and_grandchild
+
 # Make sure resizing the window doesn't cache away all hidden widgets
 resize_and_show
 

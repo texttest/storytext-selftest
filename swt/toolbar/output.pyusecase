@@ -15,7 +15,30 @@ Tool Bar:
 'select first item' event created with arguments ''
 Selected item 1
 
+Updated Tool Bar:
+  Item 0
+  Item 1
+  Item 2
+  Item 3
+  Item 4
+  Item 5
+  Item 6
+  Item 7
+  Extra Item 1
+
 'select fourth item' event created with arguments ''
 Selected item 4
+
+Updated Tool Bar:
+  Item 0
+  Item 1
+  Item 2
+  Item 3
+  Item 4
+  Item 5
+  Item 6
+  Item 7
+  Extra Item 1
+  Extra Item 4
 
 'close window' event created with arguments ''

@@ -2,23 +2,29 @@
 ---------- Shell '' ----------
 Menu Bar:
   &File (cascade)
-    Add new row
+    Show All
 
-'Name'  ========== Text ==========
+========== Text ==========
 
-        ==========================
+==========================
 
 ------------------------------
 
-'add new row' event created with arguments ''
+'show all' event created with arguments ''
 
 New widgets have appeared: describing common parent :
 
 'Name'  ========== Text ==========
 
         ==========================
-'City'  ========== Text ==========
 
-        ==========================
+'Name2'
+
+'set name to' event created with arguments 'John'
+
+Updated Name Field
+========== Text ==========
+John
+==========================
 
 'close window' event created with arguments ''
