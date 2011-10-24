@@ -44,9 +44,11 @@ class PrintListener3(Listener):
         
 class RedrawListener(Listener):
     def handleEvent(self, e):
-        text = date.getChildren()[0]
-        text.redraw()
-        text.update()
+        children = date.getChildren()
+        if len(children):
+            text = date.getChildren()[0]
+            text.redraw()
+            text.update()
         
 itemRedraw.addListener(SWT.Selection, RedrawListener())
 
