@@ -75,6 +75,7 @@ dialogs
 
 # New suite for Eclipse RCP tests
 eclipse_rcp
+draw2d
 
 # Documentation output for SWT
 documentation

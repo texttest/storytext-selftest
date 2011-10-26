@@ -4,6 +4,12 @@ link_test_path:TargetUI$1.class
 link_test_path:TargetUI$2.class
 link_test_path:TargetUI$MyTableModel.class
 
+
+# Xvfb runs with 12-bit color depth by default
+# This causes all the GanttEditor colours to be black
+# Use 16-bit color depth instead
+virtual_display_extra_args:-screen 0 1290x1040x16
+
 [run_dependent_text]
 errors:log4j:WARN
 errors:log4j:ERROR

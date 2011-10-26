@@ -1,0 +1,16 @@
+The following new files/directories were created:
+<Test Directory>
+----workspace
+--------.metadata
+------------.log
+------------.plugins
+----------------org.eclipse.core.resources
+--------------------.root
+------------------------.indexes
+----------------------------properties.version
+--------------------.safetable
+----------------org.eclipse.core.runtime
+--------------------.settings
+------------------------org.eclipse.core.resources.prefs
+----------------org.eclipse.ui.workbench
+--------------------dialog_settings.xml
