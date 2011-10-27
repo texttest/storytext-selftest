@@ -33,15 +33,21 @@ class Dragger(draw2d.MouseMotionListener, draw2d.MouseListener):
         self.lastPoint = p
         f = e.getSource()
         f.setBounds(f.getBounds().getTranslated(delta.width(), delta.height()))
+
+def createNode(x, y, color, border=True):
+    node1 = draw2d.RectangleFigure()
+    node1.setBackgroundColor(color)
+    node1.setBounds(draw2d.geometry.Rectangle(x, y, 50, 30))
+    if border:
+        node1.setBorder(draw2d.LineBorder())
+    Dragger(node1)
+    return node1
     
 def getContents():
     panel = draw2d.Figure()
     panel.setBounds(draw2d.geometry.Rectangle(0,0,500,440))
-    node1 = draw2d.RectangleFigure()
-    node1.setBackgroundColor(draw2d.ColorConstants.lightBlue)
-    node1.setBounds(draw2d.geometry.Rectangle(40,40, 50, 30))
-    panel.add(node1)
-    Dragger(node1)
+    panel.add(createNode(40, 40, draw2d.ColorConstants.lightBlue))
+    panel.add(createNode(100, 40, draw2d.ColorConstants.lightGreen))
     return panel
 
 d = Display.getDefault();
