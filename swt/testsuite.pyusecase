@@ -73,6 +73,9 @@ layouts
 # Tests for various dialogs, or shells as they're known in SWT
 dialogs
 
+# Suite of tests for jface features
+jface
+
 # New suite for Eclipse RCP tests
 eclipse_rcp
 draw2d
