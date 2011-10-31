@@ -1,7 +1,10 @@
 
 ---------- Shell 'Draw2d Application' ----------
 A longish label
-[ (-blue) ]  [ (-green) ]
+[ (-blue) ]  [ hello(-green) ]
+topleft  topmid
+         centre
+bottomleft
 
 ------------------------------------------------
 

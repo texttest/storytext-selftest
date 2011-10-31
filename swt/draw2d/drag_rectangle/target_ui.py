@@ -34,14 +34,29 @@ class Dragger(draw2d.MouseMotionListener, draw2d.MouseListener):
         f = e.getSource()
         f.setBounds(f.getBounds().getTranslated(delta.width(), delta.height()))
 
-def createNode(x, y, color=None, border=True, cls=None, text=None):
+class TextRectangle(draw2d.RectangleFigure):
+    def __init__(self):
+        draw2d.RectangleFigure.__init__(self)
+        self.texts = []
+
+    def setText(self, text, x=2, y=2):
+        self.texts.append((text, x, y))
+    addText = setText
+
+    def paintFigure(self, graphics):
+        draw2d.RectangleFigure.paintFigure(self, graphics)
+        loc = self.getLocation()
+        for text, x, y in self.texts:
+            graphics.drawString(text, loc.x() + x, loc.y() + y) 
+
+def createNode(x, y, color=None, border=True, cls=None, text=None, width=50, height=30):
     actualCls = cls or draw2d.RectangleFigure
     node1 = actualCls()
     if color:
         node1.setBackgroundColor(color)
     if text:
         node1.setText(text)
-    node1.setBounds(draw2d.geometry.Rectangle(x, y, 50, 30))
+    node1.setBounds(draw2d.geometry.Rectangle(x, y, width, height))
     if border:
         node1.setBorder(draw2d.LineBorder())
     Dragger(node1)
@@ -50,9 +65,14 @@ def createNode(x, y, color=None, border=True, cls=None, text=None):
 def getContents():
     panel = draw2d.Figure()
     panel.setBounds(draw2d.geometry.Rectangle(0,0,500,440))
-    panel.add(createNode(40, 40, border=False, cls=draw2d.Label, text="A longish label"))
+    panel.add(createNode(40, 40, border=False, cls=draw2d.Label, text="A longish label", width=100))
     panel.add(createNode(40, 100, draw2d.ColorConstants.lightBlue))
-    panel.add(createNode(100, 100, draw2d.ColorConstants.lightGreen))
+    panel.add(createNode(100, 100, draw2d.ColorConstants.lightGreen, cls=TextRectangle, text="hello"))
+    rect = createNode(40, 160, border=False, cls=TextRectangle, text="topleft", width=100, height=100)
+    rect.addText("topmid", x=50)
+    rect.addText("centre", x=50, y=40)
+    rect.addText("bottomleft", y=80)
+    panel.add(rect)
     return panel
 
 d = Display.getDefault();
