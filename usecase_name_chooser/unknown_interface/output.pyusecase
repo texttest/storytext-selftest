@@ -16,7 +16,7 @@ Viewing table with 4 rows and 4 columns.
 ?
 =================================
 ---------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
+Button 'gtk-cancel' (Stock image 'gtk-cancel') , Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set movie name to'

@@ -19,31 +19,13 @@ Viewing table with 4 rows and 4 columns.
 Button 'gtk-cancel' (Stock image 'gtk-cancel') , Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
-'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set new movie name to'
-Edited 'GtkEntry' Text entry (set to 'set new movie name to')
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set movie name to'
+Edited 'GtkEntry' Text entry (set to 'set movie name to')
 
 ========== GtkTextView ==========
-set new movie name to Star Wars
+set movie name to Star Wars
 ?
 ?
 =================================
 
-'enter usecase name for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'add movie'
-Edited 'GtkEntry' Text entry (set to 'add movie')
-
-========== GtkTextView ==========
-set new movie name to Star Wars
-add movie
-?
-=================================
-
-'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
-Edited 'GtkEntry' Text entry (set to 'close')
-
-========== GtkTextView ==========
-set new movie name to Star Wars
-add movie
-close
-=================================
-
-'finish name entry editing by pressing <enter>' event created with arguments ''
+'cancel name entry editing' event created with arguments ''

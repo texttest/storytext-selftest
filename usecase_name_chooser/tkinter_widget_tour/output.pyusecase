@@ -24,7 +24,7 @@ Viewing table with 8 rows and 4 columns.
 ?
 =================================
 ---------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
+Button 'gtk-cancel' (Stock image 'gtk-cancel') , Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button 'Name=hello button' =' event created with arguments 'say hello'

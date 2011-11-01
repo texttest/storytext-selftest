@@ -18,7 +18,7 @@ Viewing table with 5 rows and 4 columns.
 ?
 =================================
 ---------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
+Button 'gtk-cancel' (Stock image 'gtk-cancel') , Button 'gtk-ok' (Stock image 'gtk-ok')
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'Click' on JButton 'Label=Hello!' =' event created with arguments 'click hello'

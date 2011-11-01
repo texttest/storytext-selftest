@@ -1,6 +1,9 @@
 # The script auto-recorded from textfield_button, just basic replacement needed
 basic_usage
 
+# Press cancel, shouldn't edit the UI map and should remove the usecase.
+cancel_editing
+
 # Check we can declare ourselves satisfied by pressing <enter>
 accept_with_enter_key
 
