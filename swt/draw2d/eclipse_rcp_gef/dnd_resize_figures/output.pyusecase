@@ -11,4 +11,8 @@ TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Image 1
 
 --------------------------------------------------------
 
+'first node' event created with arguments ''
+
+'second node' event created with arguments ''
+
 'close window' event created with arguments ''
