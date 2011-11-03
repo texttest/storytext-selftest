@@ -40,5 +40,6 @@ Button 'OK'
 Expected application event 'completion of job 1' occurred, proceeding.
 
 'accept job completion dialog' event created with arguments ''
+We faked a button click!
 
 'close window' event created with arguments ''
