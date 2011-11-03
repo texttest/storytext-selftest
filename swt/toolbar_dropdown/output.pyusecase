@@ -1,0 +1,18 @@
+
+---------- Shell '' ----------
+Tool Bar:
+  Drop Down (drop down)
+
+------------------------------
+
+'show drop down' event created with arguments ''
+
+'select item 2' event created with arguments ''
+Selected item 2
+
+'show drop down' event created with arguments ''
+
+'select item 0' event created with arguments ''
+Selected item 0
+
+'close window' event created with arguments ''
