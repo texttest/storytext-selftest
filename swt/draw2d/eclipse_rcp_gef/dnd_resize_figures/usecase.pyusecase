@@ -1,3 +1,4 @@
-first node
-second node
+select Node01
+select Node11
+select Node01,Node11
 close window
