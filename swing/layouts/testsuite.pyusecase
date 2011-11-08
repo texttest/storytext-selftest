@@ -19,6 +19,9 @@ multiple_boxes_wide
 # Test we can describe things laid out in a grid
 grid_layout
 
+# Check print when a single-element row is longer than a multi-element row
+grid_layout_overlap
+
 # Test we can describe things laid out in a grid
 gridbag_layout
 

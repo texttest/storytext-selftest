@@ -1,0 +1,13 @@
+
+---------- Shell 'Draw2d Application' ----------
+topleft  topmid
+         centre
+bottomleft
+
+00       10
+         11
+02
+
+------------------------------------------------
+
+'close window' event created with arguments ''

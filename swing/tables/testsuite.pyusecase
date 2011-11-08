@@ -3,6 +3,9 @@ empty_table
 
 # Test an empty table widget
 no_columns
+
+# Don't allow columns to overlap in tables
+no_overlap
 select_cells
 select_no_editable_cells
 

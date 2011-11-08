@@ -1,2 +1,8 @@
 drag_rectangle
+
+# Several grids beneath each other should be lined up
+line_up_grids
+
+# Use fillRectangle to draw areas inside a figure
+coloured_regions
 eclipse_rcp_gef

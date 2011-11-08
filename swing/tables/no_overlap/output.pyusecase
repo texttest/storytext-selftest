@@ -1,0 +1,12 @@
+
+---------- Window 'Table demo' ----------
+Table :
+___________________________________
+Name    Middle Initial  Age  Gender
+___________________________________
+Anders                  21   male
+Eva     S               22   female
+___________________________________
+-----------------------------------------
+
+'close window' event created with arguments ''
