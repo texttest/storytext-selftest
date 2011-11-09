@@ -1,0 +1,90 @@
+# Provide an extra environment variable to be able to point out
+# a different tree for the Jython-based testing
+executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/storytext
+
+# Mechanism for keeping site-specific setup separate
+extra_search_directory:site
+extra_search_directory:default_site
+
+import_config_file:site_configfile
+import_config_file:capturemock_config
+
+# Might as well have nice printouts
+full_name:StoryText
+
+[run_dependent_text]
+output:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
+output:[0-9]* \| 0[0-9]{3} \| [A-z]{3} *[A-z]{3} *[0-9]* *[0-9]{2}:[0-9]{2}:[0-9]{2} *[0-9]{4}{REPLACE <file size> | <permissions> | <date/time>}
+output:Killing process{WORD 3}{REPLACE <pid>}
+# Python 2.4 help output
+output:^options:{REPLACE Options:}
+output:^usage:{REPLACE Usage:}
+traffic:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
+traffic:PATH[:;][^ ]*[/\\]bin{REPLACE PATH:<path_to_bin_dir>/bin}
+
+# Various tests print path separators, fix for windows
+output:\\{REPLACE /}
+traffic:\\{REPLACE /}
+traffic:"<texttest tmp dir>([^"]*)"{REPLACE <texttest tmp dir>\1}
+# id() returns different things each time
+widgetstructure:.*{WORD 2}{REPLACE <id>}
+[end]
+
+use_case_record_mode:GUI
+
+# Want slow motion replays, as it's a GUI
+slow_motion_replay_speed:2
+
+# Don't hang the nightjob if tests hang
+kill_timeout:300
+
+create_catalogues:true
+
+copy_test_path:usecases
+copy_test_path:sampledir
+link_test_path:target_ui.py
+link_test_path:customwidgetevents.py
+link_test_path:hildon.py
+link_test_path:readdir
+link_test_path:logconfig_file
+
+extra_version:nouimap
+extra_version:jython
+extra_version:namechooser
+
+unsaveable_version:cover
+unsaveable_version:jython
+
+home_operating_system:none
+
+discard_file:usecase
+
+[definition_file_stems]
+regenerate:{CLEAR usecase}
+regenerate:nameentry_usecase
+builtin:usecase
+[end]
+
+[test_data_environment]
+usecases:USECASE_HOME
+[end]
+
+# Files that are internal details of Python/GTK
+# we don't care if they change but we need them in a unique
+# place to avoid clashes when running in parallel
+test_data_ignore:*pyc
+test_data_ignore:gtk_recently_used
+test_data_ignore:xdg_config_home
+
+# Things to collate
+[collate_file]
+shortcut:*usecases/*.shortcut
+ui_map:usecases/ui_map.conf
+recorded_usecase:usecase.pyusecase
+
+[version_priority]
+# Coverage settings should override others
+cover:1
+
+[gui_entry_options]
+run_this_version:debug

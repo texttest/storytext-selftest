@@ -1,6 +1,9 @@
 # File: hello2.py
 
-from Tkinter import *
+try:
+    from tkinter import *
+except ImportError:
+    from Tkinter import *
 
 class App:
 
@@ -21,7 +24,7 @@ class App:
         self.hi_there.pack(side=LEFT)
 
     def say_hi(self):
-        print "hi there, everyone!"
+        print("hi there, everyone!")
 
 root = Tk()
 
