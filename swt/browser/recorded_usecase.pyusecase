@@ -1,1 +1,3 @@
+select all
+wait for browser to finish loading
 close window
