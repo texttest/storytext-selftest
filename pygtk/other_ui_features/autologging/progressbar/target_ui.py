@@ -5,7 +5,7 @@
 import pygtk
 pygtk.require('2.0')
 import gtk, gobject
-from usecase import applicationEvent
+from storytext import applicationEvent
 
 # Update the value of the progress bar so that we get
 # some movement

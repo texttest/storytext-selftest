@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from usecase import applicationEvent, applicationEventRename
+from storytext import applicationEvent, applicationEventRename
 import time
 
 def sleep(length):

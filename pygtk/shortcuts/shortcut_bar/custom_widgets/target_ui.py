@@ -10,7 +10,7 @@
 import gtk, gobject, os
 
 # custom event stuff, copied from basic custom widgets test
-from usecase.gtktoolkit.simulator.baseevents import SignalEvent
+from storytext.gtktoolkit.simulator.baseevents import SignalEvent
 
 class MyButtonEvent(SignalEvent):
     def generate(self, *args):
@@ -53,7 +53,7 @@ class VideoStore:
         vbox.pack_start(self.getTaskBar(), expand=False, fill=False)
         vbox.pack_start(self.getNotebook(), expand=True, fill=True)
         try:
-            from usecase import createShortcutBar
+            from storytext import createShortcutBar
             uiMapFile = os.path.join(os.getenv("USECASE_HOME"), "explicit_ui_map.conf")
             shortcutBar = createShortcutBar([ uiMapFile ], customEventTypes)
             if shortcutBar:

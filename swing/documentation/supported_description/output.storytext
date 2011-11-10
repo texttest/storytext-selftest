@@ -1,5 +1,5 @@
 The following lists the Swing widget types and the associated event types on them which 
-PyUseCase trunk is currently capable of recording and replaying. Any type derived from the listed
+StoryText trunk is currently capable of recording and replaying. Any type derived from the listed
 types is also supported.
 
 javax.swing.JButton                     : Click
@@ -18,7 +18,7 @@ javax.swing.JTextField                  : Activate , Modify , PopupActivate
 javax.swing.plaf.basic.BasicInternalFrameTitlePane: DoubleClick
 javax.swing.text.JTextComponent         : Modify
 
-The following lists the Swing widget types whose status and changes PyUseCase trunk is 
+The following lists the Swing widget types whose status and changes StoryText trunk is 
 currently capable of monitoring and logging. Any type derived from the listed types 
 is also supported but will only have features of the listed type described.
 

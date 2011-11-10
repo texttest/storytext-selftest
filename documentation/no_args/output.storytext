@@ -1,6 +1,6 @@
-usage: pyusecase [options] <program> <program_args> ...
+Usage: storytext [options] <program> <program_args> ...
 
-PyUseCase is a record/replay tool for Python GUIs, currently consisting of a generic 
+StoryText is a record/replay tool for Python GUIs, currently consisting of a generic 
 interface and an implementation for PyGTK. Unlike traditional record/replay tools, 
 it does not record UI events directly but relies on its user maintaining a mapping 
 between the current UI controls and "domain language" names that express the 
@@ -12,7 +12,7 @@ It does not currently have any other means of "asserting" what is happening in t
 
 For fuller documentation refer to the online docs at http://www.texttest.org
 
-options:
+Options:
   --version             show program's version number and exit
   -h, --help            show this help message and exit
   -d SECONDS, --delay=SECONDS
@@ -26,26 +26,26 @@ options:
                         produce logging at level LEVEL, should be 'info',
                         'debug', 'config' or 'off'. 'info' will point the
                         auto-generated GUI log at standard output. 'debug'
-                        will produce a large amount of PyUseCase debug
+                        will produce a large amount of StoryText debug
                         information on standard output. 'off' will disable the
                         auto-generated log. 'config' will enabled the auto-
                         generated log but not set any global log level: it is
-                        a way to tell PyUseCase that your application will
+                        a way to tell StoryText that your application will
                         configure its logging via its own log configuration
                         files.
   -L FILE, --logconfigfile=FILE
-                        Configure PyUseCase logging via the log configuration
+                        Configure StoryText logging via the log configuration
                         file at FILE. A suitable sample file can be find with
                         the source tree under the 'log' directory.
   -m FILE1,..., --mapfiles=FILE1,...
                         Use the UI map file(s) at FILE1,... If not set
-                        PyUseCase will read and write such a file at the
-                        location determined by $USECASE_HOME/ui_map.conf. If
-                        run standalone $USECASE_HOME defaults to ~/usecases,
-                        while TextTest will point it to a 'pyusecase_files'
-                        subdirectory of the root test suite. If multiple files
-                        are provided, the last in the list will be used for
-                        writing.
+                        StoryText will read and write such a file at the
+                        location determined by $STORYTEXT_HOME/ui_map.conf. If
+                        run standalone $STORYTEXT_HOME defaults to
+                        ~/.storytext, while TextTest will point it to a
+                        'storytext_files' subdirectory of the root test suite.
+                        If multiple files are provided, the last in the list
+                        will be used for writing.
   -p FILE, --replay=FILE
                         replay script from FILE. Also enabled via the
                         environment variable USECASE_REPLAY_SCRIPT.

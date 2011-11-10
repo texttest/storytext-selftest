@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from usecase import applicationEvent
+from storytext import applicationEvent
 import time, signal
 signal.signal(signal.SIGURG, signal.SIG_DFL)
 

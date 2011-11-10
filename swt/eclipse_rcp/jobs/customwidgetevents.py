@@ -1,5 +1,5 @@
 
-from usecase.javaswttoolkit import simulator as swtsimulator
+from storytext.javaswttoolkit import simulator as swtsimulator
 import org.eclipse.swtbot.swt.finder as swtbot
 
 class ButtonSelectEvent(swtsimulator.SelectEvent):

@@ -11,7 +11,7 @@
 
 
 import gtk
-from usecase import applicationEvent
+from storytext import applicationEvent
 
 class PyApp(gtk.Window):
 

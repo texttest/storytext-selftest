@@ -30,19 +30,19 @@ level=INFO
 class=FileHandler
 #formatter=timed
 args=(os.devnull, 'a')
-#args=('gui_log.pyusecase', 'a')
+#args=('gui_log.storytext', 'a')
 
-# ======= Section for usecase replay log ======
-[logger_usecase replay log]
-handlers=usecase replay log
-qualname=usecase replay log
+# ======= Section for storytext replay log ======
+[logger_storytext replay log]
+handlers=storytext replay log
+qualname=storytext replay log
 level=INFO
 
-[handler_usecase replay log]
+[handler_storytext replay log]
 class=FileHandler
 #formatter=timed
 #args=(os.devnull, 'a')
-args=('usecase_replay_log.pyusecase', 'a')
+args=('storytext_replay_log.storytext', 'a')
 
 # ====== The following are disabled by default ======
 # ======= Section for TreeModelIndexer ======
@@ -55,7 +55,7 @@ qualname=TreeModelIndexer
 class=FileHandler
 formatter=debug
 args=(os.devnull, 'a')
-#args=('treemodelindexer.pyusecase', 'a')
+#args=('treemodelindexer.storytext', 'a')
 
 # ======= Section for TreeViewDescriber ======
 [logger_TreeViewDescriber]
@@ -67,7 +67,7 @@ qualname=TreeViewDescriber
 class=FileHandler
 formatter=debug
 args=(os.devnull, 'a')
-#args=('treeviewdescriber.pyusecase', 'a')
+#args=('treeviewdescriber.storytext', 'a')
 
 # ======= Section for gui map ======
 [logger_gui map]
@@ -79,26 +79,26 @@ qualname=gui map
 class=FileHandler
 formatter=debug
 args=(os.devnull, 'a')
-#args=('guimap.pyusecase', 'a')
+#args=('guimap.storytext', 'a')
 
-# ======= Section for usecase record ======
-[logger_usecase record]
-handlers=usecase record
-qualname=usecase record
+# ======= Section for storytext record ======
+[logger_storytext record]
+handlers=storytext record
+qualname=storytext record
 #level=INFO
 
-[handler_usecase record]
+[handler_storytext record]
 class=FileHandler
 formatter=debug
 args=(os.devnull, 'a')
-#args=('usecaserecord.pyusecase', 'a')
+#args=('storytextrecord.storytext', 'a')
 
 # ====== Cruft that python logging module needs ======
 [loggers]
-keys=root,gui log,usecase replay log,TreeModelIndexer,TreeViewDescriber,gui map,usecase record
+keys=root,gui log,storytext replay log,TreeModelIndexer,TreeViewDescriber,gui map,storytext record
 
 [handlers]
-keys=root,TreeModelIndexer,TreeViewDescriber,gui log,gui map,stdout,usecase record,usecase replay log
+keys=root,TreeModelIndexer,TreeViewDescriber,gui log,gui map,stdout,storytext record,storytext replay log
 
 [formatters]
 keys=timed,debug

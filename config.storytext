@@ -80,7 +80,7 @@ test_data_ignore:xdg_config_home
 [collate_file]
 shortcut:*usecases/*.shortcut
 ui_map:usecases/ui_map.conf
-recorded_usecase:usecase.pyusecase
+recorded_usecase:usecase.storytext
 
 [version_priority]
 # Coverage settings should override others

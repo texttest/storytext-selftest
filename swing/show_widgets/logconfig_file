@@ -26,10 +26,10 @@ handlers=stdout
 qualname=gui log
 level=INFO
 
-# ======= Section for usecase replay log ======
-[logger_usecase replay log]
+# ======= Section for storytext replay log ======
+[logger_storytext replay log]
 handlers=stdout
-qualname=usecase replay log
+qualname=storytext replay log
 level=INFO
 
 # ====== The following are disabled by default ======
@@ -43,7 +43,7 @@ level=DEBUG
 class=FileHandler
 #formatter=debug
 args=(os.devnull, 'a')
-args=('widgetstructure.pyusecase', 'a')
+args=('widgetstructure.storytext', 'a')
 
 # ======= Section for TreeModelIndexer ======
 [logger_TreeModelIndexer]
@@ -81,24 +81,24 @@ formatter=debug
 args=(os.devnull, 'a')
 #args=('guimap.sample', 'a')
 
-# ======= Section for usecase record ======
-[logger_usecase record]
-handlers=usecase record
-qualname=usecase record
+# ======= Section for storytext record ======
+[logger_storytext record]
+handlers=storytext record
+qualname=storytext record
 #level=INFO
 
-[handler_usecase record]
+[handler_storytext record]
 class=FileHandler
 formatter=debug
 args=(os.devnull, 'a')
-#args=('usecaserecord.sample', 'a')
+#args=('storytextrecord.sample', 'a')
 
 # ====== Cruft that python logging module needs ======
 [loggers]
-keys=root,gui log,usecase replay log,widget structure,TreeModelIndexer,TreeViewDescriber,gui map,usecase record
+keys=root,gui log,storytext replay log,widget structure,TreeModelIndexer,TreeViewDescriber,gui map,storytext record
 
 [handlers]
-keys=root,widget structure,TreeModelIndexer,TreeViewDescriber,gui map,stdout,usecase record
+keys=root,widget structure,TreeModelIndexer,TreeViewDescriber,gui map,stdout,storytext record
 
 [formatters]
 keys=timed,debug

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from usecase import applicationEvent
+from storytext import applicationEvent
 import time, signal, sys
 
 def handleSignal(signum, *args):
