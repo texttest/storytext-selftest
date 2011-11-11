@@ -54,7 +54,7 @@ class VideoStore:
         vbox.pack_start(self.getNotebook(), expand=True, fill=True)
         try:
             from storytext import createShortcutBar
-            uiMapFile = os.path.join(os.getenv("USECASE_HOME"), "explicit_ui_map.conf")
+            uiMapFile = os.path.join(os.getenv("STORYTEXT_HOME"), "explicit_ui_map.conf")
             shortcutBar = createShortcutBar([ uiMapFile ], customEventTypes)
             if shortcutBar:
                 vbox.pack_start(shortcutBar, expand=False, fill=False)
