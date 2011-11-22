@@ -80,7 +80,7 @@ def getContents():
     rect.addRectangle(draw2d.ColorConstants.lightBlue, 0, 0, 50, 40)
     rect.addRectangle(draw2d.ColorConstants.lightGreen, 50, 40, 50, 40)
     rect.addRectangle(draw2d.ColorConstants.yellow, 0, 40, 50, 40)
-    rect.addRectangle(draw2d.ColorConstants.red, 50, 80, 50, 40)
+    rect.addRectangle(draw2d.ColorConstants.red, 50, 78, 50, 40)
     panel.add(rect)
     return panel
 
