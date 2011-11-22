@@ -74,6 +74,10 @@ def getContents():
     rect.addText("11", x=50, y=40)
     rect.addText("02", y=80)
     panel.add(rect)
+    label = draw2d.Label()
+    label.setText("An extra label")
+    label.setBounds(draw2d.geometry.Rectangle(40,400,500,40))
+    panel.add(label)
     return panel
 
 d = Display.getDefault();
