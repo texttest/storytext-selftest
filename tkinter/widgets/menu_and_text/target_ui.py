@@ -1,12 +1,16 @@
 # menu-example-3.py
 
-import Tkinter
-from ScrolledText import ScrolledText
+try:
+    import tkinter as Tkinter
+    from tkinter.scrolledtext import ScrolledText
+except:
+    import Tkinter
+    from ScrolledText import ScrolledText
 
 root = Tkinter.Tk()
 
 def hello():
-    print "hello"
+    print("hello")
     text.insert(Tkinter.END, "Did something from a menu!\n")
 
 menubar = Tkinter.Menu(root)

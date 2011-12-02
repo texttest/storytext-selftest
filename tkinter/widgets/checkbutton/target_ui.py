@@ -1,9 +1,12 @@
 # menu-example-3.py
 
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 
 def printMusic():
-    print "Let the music play..."
+    print("Let the music play...")
 
 top = Tk()
 lf1 = LabelFrame(top, text="Settings", padx=6, pady=6)

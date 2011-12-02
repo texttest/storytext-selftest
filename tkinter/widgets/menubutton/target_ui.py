@@ -6,51 +6,52 @@
 #A menu in Tk is a combination of a Menubutton (the title of the menu) and
 #the Menu (what drops down when the Menubutton is pressed)
 
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 
 class mywidgets:
-	def __init__(self,root):
-		frame = Frame(root)
-		self.makeMenuBar(frame)
-		frame.pack()
-		return
+    def __init__(self,root):
+        frame = Frame(root)
+        self.makeMenuBar(frame)
+        frame.pack()
+	
+    def open(self):
+        print("Open!")
 
-        def open(self):
-                print "Open!"
-
-	def makeMenuBar(self,frame):
-		menubar = Frame(frame,relief=RAISED,borderwidth=1)
-		menubar.pack()
+    def makeMenuBar(self,frame):
+        menubar = Frame(frame,relief=RAISED,borderwidth=1)
+        menubar.pack()
 		
-		#A menu in Tk is a combination of a Menubutton (the title of the
+        #A menu in Tk is a combination of a Menubutton (the title of the
         #menu) and the Menu (what drops down when the Menubutton is pressed)
        		
-		mb_file = Menubutton(menubar,text='file')
-		mb_file.pack(side=LEFT)
-		mb_file.menu = Menu(mb_file)
+        mb_file = Menubutton(menubar,text='file')
+        mb_file.pack(side=LEFT)
+        mb_file.menu = Menu(mb_file)
 		
-		#Once we've specified the menubutton and the menu, we can add
+        #Once we've specified the menubutton and the menu, we can add
         #different commands to the menu
 		
-		mb_file.menu.add_command(label='open', command=self.open)
-		mb_file.menu.add_command(label='close')
+        mb_file.menu.add_command(label='open', command=self.open)
+        mb_file.menu.add_command(label='close')
+        
+        mb_edit = Menubutton(menubar,text='edit')
+        mb_edit.pack(side=LEFT)
+        mb_edit.menu = Menu(mb_edit)
+        mb_edit.menu.add_command(label='copy')
+        mb_edit.menu.add_command(label='paste')
+        
+        mb_help = Menubutton(menubar,text='help')
+        mb_help.pack(padx=25,side=RIGHT)
 		
-		mb_edit = Menubutton(menubar,text='edit')
-		mb_edit.pack(side=LEFT)
-		mb_edit.menu = Menu(mb_edit)
-		mb_edit.menu.add_command(label='copy')
-		mb_edit.menu.add_command(label='paste')
-		
-		mb_help = Menubutton(menubar,text='help')
-		mb_help.pack(padx=25,side=RIGHT)
-		
-		mb_file['menu'] = mb_file.menu
-		mb_edit['menu'] = mb_edit.menu
-		return 
-
+        mb_file['menu'] = mb_file.menu
+        mb_edit['menu'] = mb_edit.menu
+        
 def main():
-	root = Tk()
-	k=mywidgets(root)
-	root.title('menu bar')
-	root.mainloop()
+    root = Tk()
+    k=mywidgets(root)
+    root.title('menu bar')
+    root.mainloop()
 main()

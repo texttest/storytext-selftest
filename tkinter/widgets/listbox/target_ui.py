@@ -1,7 +1,10 @@
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 
 def select(event):
-    print "Selected", listbox.curselection()
+    print("Selected " + repr(listbox.curselection()))
 
 master = Tk()
 

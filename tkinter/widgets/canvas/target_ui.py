@@ -1,4 +1,7 @@
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 
 def describe(event):
     widget = event.widget
@@ -7,7 +10,7 @@ def describe(event):
         widget.itemconfigure(item, fill="yellow")
     elif widget.type(item) == "text":
         checkbutton.select()
-    print "Clicked item", item
+    print("Clicked item " + repr(item))
 
 root = Tk()
 canvas = Canvas(root, width=300, height=320)
