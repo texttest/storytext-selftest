@@ -46,6 +46,9 @@ Options:
                         'storytext_files' subdirectory of the root test suite.
                         If multiple files are provided, the last in the list
                         will be used for writing.
+  -M MAXOUTPUTWIDTH, --maxoutputwidth=MAXOUTPUTWIDTH
+                        maximum output width for side-by-side output in the
+                        auto-generated output
   -p FILE, --replay=FILE
                         replay script from FILE. Also enabled via the
                         environment variable USECASE_REPLAY_SCRIPT.

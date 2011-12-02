@@ -17,5 +17,8 @@ span_columns
 # Test for grid output when it's too wide to be easily read horizontally
 wide_grid
 
+# Test for wide grid output controlled by -M option
+wide_grid_max_output_width
+
 # Don't be fooled by additional labels with no text
 empty_labels
