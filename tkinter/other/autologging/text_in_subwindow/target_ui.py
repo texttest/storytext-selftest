@@ -1,6 +1,9 @@
 # File: hello2.py
 
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 
 class App:
 
@@ -17,8 +20,8 @@ class App:
         
     def say_hi(self):	
         win = Toplevel()
-	win.title('Hi!')
-	def destroy(*args):
+        win.title('Hi!')
+        def destroy(*args):
             win.destroy()
         text = Text(win)
         text.insert(END, "Hello there!\n")

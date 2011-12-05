@@ -1,5 +1,9 @@
 
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
+
 
 class App:
     def __init__(self,parent):
@@ -18,7 +22,7 @@ class App:
         Button(f, text="Quit", command=f.quit).grid(row=2, column=1)
         
     def login(self):
-        print "Logging in with username", self.userEntry.get(), "and password", self.passwordEntry.get()
+        print("Logging in with username " + self.userEntry.get() + " and password " + self.passwordEntry.get())
 
 
 root = Tk()

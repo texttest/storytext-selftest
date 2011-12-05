@@ -1,6 +1,8 @@
 # File: hello2.py
-
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 import sys
 
 class App:

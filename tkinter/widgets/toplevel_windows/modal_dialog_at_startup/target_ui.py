@@ -1,7 +1,11 @@
 # File: hello2.py
 
-from Tkinter import *
-import tkMessageBox
+try:
+    from tkinter import *
+    import tkinter.messagebox as tkMessageBox
+except:
+    from Tkinter import *
+    import tkMessageBox
 
 class App:
 
@@ -14,13 +18,13 @@ class App:
         self.button.pack(side=LEFT)
 
         win = Toplevel(self.master)
-	win.title('Hi!')
+        win.title('Hi!')
         win.grab_set()
-	def destroy(*args):
+        def destroy(*args):
             win.destroy()
         label = Label(win, name="hello label", text="hi there, everyone!", bg="white")
         label.bind("<Button-1>", destroy)
-	label.pack()
+        label.pack()
         win.wait_window(win)
 
 root = Tk()

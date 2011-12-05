@@ -1,4 +1,7 @@
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 
 root = Tk()
 
@@ -6,13 +9,13 @@ w = Label(root, text="Right-click to display menu", width=40, height=20)
 w.pack()
 
 def next(*args):
-    print "Next"
+    print("Next")
 
 def previous(*args):
-    print "Prev"
+    print("Prev")
 
 def home(*args):
-    print "Home"
+    print("Home")
 
 # create a menu
 popup = Menu(root, name="popup menu", tearoff=0)

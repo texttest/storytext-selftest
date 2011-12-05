@@ -1,13 +1,17 @@
 # menu-example-3.py
 # -*- coding: utf-8 -*-
 
-import Tkinter
-from ScrolledText import ScrolledText
+try:
+    import tkinter as Tkinter
+    from tkinter.scrolledtext import ScrolledText
+except:
+    import Tkinter
+    from ScrolledText import ScrolledText
 
 root = Tkinter.Tk()
 
 def hello():
-    print "hejsan"
+    print("hejsan")
     text.insert(Tkinter.END, "Gjorde någonting från en meny!\n")
 
 menubar = Tkinter.Menu(root)

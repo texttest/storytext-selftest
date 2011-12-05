@@ -1,7 +1,10 @@
 # File: hello2.py
 # -*- coding: utf-8 -*-
 
-from Tkinter import *
+try:
+    from tkinter import *
+except:
+    from Tkinter import *
 
 class App:
 
@@ -21,7 +24,7 @@ class App:
         self.hi_there.pack(side=LEFT)
 
     def say_hi(self):
-        print "hejsan, allihopa!"
+        print("hejsan, allihopa!")
 
 root = Tk()
 
