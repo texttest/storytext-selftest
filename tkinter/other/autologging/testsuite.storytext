@@ -1,6 +1,9 @@
 # Produce a logical description if the buttons are positioned elsewhere
 buttons_at_bottom
 
+# When rowspan is set, widgets can appear in more than one row
+grid_layout
+
 # Check we show what is actually shown in an entry
 password_entry
 
