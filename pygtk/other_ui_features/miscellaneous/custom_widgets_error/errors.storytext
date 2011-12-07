@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/users/geoff/.local/python2.6.current/bin/storytext", line 7, in <module>
+    execfile(__file__)
+  File "/nfs/vm/texttest/geoff/Testing/TextTest/storytext/bin/storytext", line 17, in <module>
+    main(install_root)
+  File "/nfs/vm/texttest/geoff/Testing/TextTest/storytext/lib/storytext/cmdline.py", line 95, in main
+    storytext.scriptEngine = create_script_engine(options, install_root)
+  File "/nfs/vm/texttest/geoff/Testing/TextTest/storytext/lib/storytext/cmdline.py", line 64, in create_script_engine
+    return ScriptEngine(uiMapFiles=mapFiles, universalLogging=logEnabled, binDir=os.path.join(install_root, "bin"))
+  File "/nfs/vm/texttest/geoff/Testing/TextTest/storytext/lib/storytext/gtktoolkit/__init__.py", line 45, in __init__
+    storytext.guishared.ScriptEngine.__init__(self, universalLogging=universalLogging, **kw)
+  File "/nfs/vm/texttest/geoff/Testing/TextTest/storytext/lib/storytext/guishared.py", line 192, in __init__
+    self.importCustomEventTypes()
+  File "/nfs/vm/texttest/geoff/Testing/TextTest/storytext/lib/storytext/guishared.py", line 200, in importCustomEventTypes
+    from customwidgetevents import customEventTypes
+  File "/carm/proj/texttest-tmp/geoff/storytext.06Dec145712.7801/storytext/pygtk/other_ui_features/miscellaneous/custom_widgets_error/customwidgetevents.py", line 2, in <module>
+    import nosuchmodule
+ImportError: No module named nosuchmodule
