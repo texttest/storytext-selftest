@@ -34,6 +34,9 @@ override_appevents
 # Application events should both be recorded if they're in different categories
 appevent_categories
 
+# If we get the same event twice, record it as 'event name * 2', also if it is in a category
+repeated_appevents_categories
+
 # Allow renaming of application events after they occur
 appevent_rename
 
