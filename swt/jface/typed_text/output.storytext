@@ -1,0 +1,33 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Describe
+
+'Name'  ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
+                                    'Most be a real name')
+        ==========================
+'City'  ========== Text ==========
+
+        ==========================
+
+------------------------------
+
+'set name to' event created with arguments '123'
+
+Updated Name Field
+========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
+123                         'Most be a real name')
+==========================
+
+'set city to' event created with arguments 'London'
+
+Updated City Field
+========== Text ========== (Decoration Image 2
+London                      'London is in England!')
+==========================
+
+'describe choices' event created with arguments ''
+You are 123 and you live in London
+
+'close window' event created with arguments ''

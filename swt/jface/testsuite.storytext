@@ -1,2 +1,5 @@
 # Test for decorations showing whether a field is valid
 text_decoration
+
+# Simulates typing instead for setting text in text fields
+typed_text
