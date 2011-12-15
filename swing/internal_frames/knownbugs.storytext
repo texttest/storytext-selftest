@@ -1,0 +1,7 @@
+
+[Reported by dgalda at 15Dec16:39:11]
+search_string:waitForIdle
+search_file:errors
+ignore_other_errors:1
+bug_system:jira
+bug_id:TTT-2401
