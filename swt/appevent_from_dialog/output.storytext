@@ -1,0 +1,24 @@
+
+---------- Shell 'Main Window' ----------
+Button 'Open a dialog'
+
+-----------------------------------------
+
+'open dialog' event created with arguments ''
+
+---------- Shell 'Dialog' ----------
+Button 'Disable me!'  Button 'OK'
+
+------------------------------------
+
+'press disable button' event created with arguments ''
+
+Waiting for application event 'button to be disabled' to occur.
+
+Updated Button 'Disable me!' (greyed out)
+
+Expected application event 'button to be disabled' occurred, proceeding.
+
+'ok dialog' event created with arguments ''
+
+'close window' event created with arguments ''

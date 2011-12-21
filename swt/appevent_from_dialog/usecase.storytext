@@ -1,0 +1,5 @@
+open dialog
+press disable button
+wait for button to be disabled
+ok dialog
+close window
