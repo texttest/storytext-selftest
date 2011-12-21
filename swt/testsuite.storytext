@@ -4,6 +4,9 @@ buttons
 # Test we can handle radio buttons
 radio_buttons
 
+# Test we can handle checkboxes
+checkbox
+
 # Test we can make use of the menus
 menus
 
