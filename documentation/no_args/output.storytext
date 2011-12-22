@@ -22,6 +22,9 @@ Options:
   -i INTERFACE, --interface=INTERFACE
                         type of interface used by application, should be
                         'console', 'gtk' or 'tkinter' ('gtk' is default)
+  -I IMAGEDESCRIPTION, --imagedescription=IMAGEDESCRIPTION
+                        determines how images are described by the auto-
+                        generated output, should be 'name' or 'number'
   -l LEVEL, --loglevel=LEVEL
                         produce logging at level LEVEL, should be 'info',
                         'debug', 'config' or 'off'. 'info' will point the
@@ -52,6 +55,8 @@ Options:
   -p FILE, --replay=FILE
                         replay script from FILE. Also enabled via the
                         environment variable USECASE_REPLAY_SCRIPT.
+  -P PATHSTOIMAGES, --pathstoimages=PATHSTOIMAGES
+                        Comma separated absolute paths to image files
   -r FILE, --record=FILE
                         record script to FILE. Also enabled via the
                         environment variable USECASE_RECORD_SCRIPT.

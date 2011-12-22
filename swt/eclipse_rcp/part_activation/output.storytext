@@ -10,11 +10,11 @@ Menu Bar:
     Show in View 2 (greyed out)
     Show Info View
 
-TabFolder with tabs FirstView (cascade, Image 1, selected)
+TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif', selected)
 
 --------------- Horizontal sash ---------------
 
-TabFolder with tabs SecondView (cascade, Image 1, selected)
+TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
 
 --------------------------------------------------------------
 
@@ -31,11 +31,11 @@ Updated Views Menu:
 
 New widgets have appeared: describing common parent :
 
-TabFolder with tabs FirstView (cascade, Image 1) , FirstView (cascade, Image 1, selected)
+TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif') , FirstView (cascade, Icon 'defaultview_misc.gif', selected)
 
 --------------- Horizontal sash ---------------
 
-TabFolder with tabs SecondView (cascade, Image 1, selected)
+TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
 
 Updated Views Menu:
   Open View 1
@@ -44,6 +44,6 @@ Updated Views Menu:
   Show in View 2 (greyed out)
   Show Info View
 
-Updated TabFolder with tabs FirstView (cascade, Image 1) , FirstView (cascade, Image 1, selected)
+Updated TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif') , FirstView (cascade, Icon 'defaultview_misc.gif', selected)
 
 'close window' event created with arguments ''
