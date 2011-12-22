@@ -1,0 +1,3 @@
+# Check we can handle buttons with non-ASCII text on them
+# Unicode is less complex in Python 3, and the code handling it is disabled, stick to one test
+buttons

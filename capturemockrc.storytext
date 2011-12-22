@@ -5,5 +5,4 @@ intercepts = usecase_name_chooser
 environment = PATH,USECASE_RECORD_SCRIPT,USECASE_REPLAY_SCRIPT
 
 [python]
-intercepts = tkMessageBox
-
+intercepts = tkMessageBox,tkinter.messagebox

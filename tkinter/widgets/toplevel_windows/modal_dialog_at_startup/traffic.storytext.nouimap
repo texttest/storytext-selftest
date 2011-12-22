@@ -1,2 +1,0 @@
-<-PYT:import tkMessageBox
-<-CMD:env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT 'PATH=$PATH:/users/geoff/.local/python2.6/bin' usecase_name_chooser -m /carm/proj/texttest-tmp/geoff/dynamic_gui.10Nov203433.3378/storytext.nouimap/tkinter/widgets/toplevel_windows/modal_dialog_at_startup/usecases/ui_map.conf -r /carm/proj/texttest-tmp/geoff/dynamic_gui.10Nov203433.3378/storytext.nouimap/tkinter/widgets/toplevel_windows/modal_dialog_at_startup/usecase.storytext -i tkinter

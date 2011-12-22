@@ -1,0 +1,3 @@
+<-PYT:import tkinter.messagebox
+<-PYT:tkinter.messagebox.askyesno('Quit', 'Are you sure you want to terminate this fantastic program?')
+->RET:True

@@ -7,7 +7,7 @@ def sleep(length):
     try:
         time.sleep(length)
     except KeyboardInterrupt:
-        print "Interrupted while sleeping for", length, "seconds."
+        print("Interrupted while sleeping for " + str(length) + " seconds.")
 
 sleep(0.5)
 try:
@@ -16,4 +16,4 @@ try:
                            "old category", "new category")
     sleep(5)
 except KeyboardInterrupt:
-    print "Interrupted while sleeping for 5 seconds."
+    print("Interrupted while sleeping for 5 seconds.")
