@@ -1,8 +1,8 @@
 
 ---------- Window 'Login screen' ----------
-'User Name' | Text entry
-'Password' | Text entry
-Button 'Login' | Button 'Quit'
+'User Name'     Text entry
+'Password'      Text entry
+Button 'Login'  Button 'Quit'
 -------------------------------------------
 
 'set user name to' event created with arguments 'geoff'

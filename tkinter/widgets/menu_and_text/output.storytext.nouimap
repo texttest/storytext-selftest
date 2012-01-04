@@ -20,9 +20,9 @@ Edit menu:
 Help menu:
   About
 
-'Some text:' | ========== Text ==========
+'Some text:'  ========== Text ==========
 
-==========================
+              ==========================
 ---------------------------------
 
 'Auto.Menu.select item.'Label=Help'' event created with arguments 'About'

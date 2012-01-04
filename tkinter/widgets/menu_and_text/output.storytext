@@ -20,9 +20,9 @@ Edit menu:
 Help menu:
   About
 
-'Some text:' | ========== Text ==========
+'Some text:'  ========== Text ==========
 
-==========================
+              ==========================
 ---------------------------------
 
 'choose help option' event created with arguments 'About'
