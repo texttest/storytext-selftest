@@ -25,6 +25,9 @@ appevent_happens_thrice
 # Handle events that have already occurred
 appevent_already_happened
 
+# Check there is a timeout on things that never happen
+appevent_never_happens
+
 # Handle events that have occur several times
 appevent_repeats
 

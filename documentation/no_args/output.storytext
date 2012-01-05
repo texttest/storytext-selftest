@@ -63,6 +63,9 @@ Options:
                         environment variable USECASE_RECORD_SCRIPT.
   -s, --supported       list which PyGTK widgets and signals are currently
                         supported 'out-of-the-box'
+  -t SECONDS, --timeout=SECONDS
+                        amount of time to wait for application events before
+                        giving up and trying to proceed.
   -x, --disable_usecase_names
                         Disable the entering of usecase names when
                         unrecognised actions are recorded. Recommended only
