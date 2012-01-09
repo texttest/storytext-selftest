@@ -1,0 +1,16 @@
+
+---------- Shell '' ----------
+Tool Bar:
+  Copy (Icon 'copy_edit.gif')
+  Paste (Icon 'paste_edit.gif')
+  Save (Icon 'save_edit.gif')
+
+------------------------------
+
+'copy' event created with arguments ''
+
+'paste' event created with arguments ''
+
+'save' event created with arguments ''
+
+'close window' event created with arguments ''

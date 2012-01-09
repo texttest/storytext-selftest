@@ -1,0 +1,5 @@
+log4j:ERROR A "org.robotframework.org.apache.log4j.varia.NullAppender" object is not assignable to a "org.apache.log4j.Appender" variable.
+log4j:ERROR The class "org.apache.log4j.Appender" was loaded by 
+log4j:ERROR [sun.misc.Launcher$AppClassLoader@3182f0db] whereas object of type 
+log4j:ERROR "org.robotframework.org.apache.log4j.varia.NullAppender" was loaded by [sun.misc.Launcher$AppClassLoader@3182f0db].
+log4j:ERROR Could not instantiate appender named "A".

@@ -70,6 +70,9 @@ clipboard
 # Make sure we get a sensible message if a label becomes empty
 label_text_becomes_empty
 
+# Test for the -P option
+paths_to_images
+
 # Stuff to do with trees...
 trees
 

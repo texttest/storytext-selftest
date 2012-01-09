@@ -1,0 +1,1 @@
+-i javaswt -I name -P ${TEXTTEST_SANDBOX}/icons1,${TEXTTEST_SANDBOX}/icons2
