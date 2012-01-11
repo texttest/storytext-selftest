@@ -1,11 +1,34 @@
 
 ---------- Shell '' ----------
 Table :
-_______________________________________________________________________________________________
+________________________________________________________________________________________________
    C  !  Description                          Resource           In Folder    Location
-_______________________________________________________________________________________________
-x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 0 in nowhere
+________________________________________________________________________________________________
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 10 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 9 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 8 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 7 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 6 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 5 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 4 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 3 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 2 in nowhere
 x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 1 in nowhere
+________________________________________________________________________________________________
+
+------------------------------
+
+'sort rows by' event created with arguments 'Something Nonexistent'
+ERROR: Could not find column labelled 'Something Nonexistent' in table.
+
+'sort rows by' event created with arguments 'Location'
+
+Updated Table :
+________________________________________________________________________________________________
+   C  !  Description                          Resource           In Folder    Location
+________________________________________________________________________________________________
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 1 in nowhere
+x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 10 in nowhere
 x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 2 in nowhere
 x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 3 in nowhere
 x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 4 in nowhere
@@ -14,8 +37,6 @@ x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  li
 x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 7 in nowhere
 x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 8 in nowhere
 x  y  !  this stuff behaves the way I expect  almost everywhere  some.folder  line 9 in nowhere
-_______________________________________________________________________________________________
-
-------------------------------
+________________________________________________________________________________________________
 
 'close window' event created with arguments ''

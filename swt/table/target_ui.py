@@ -24,6 +24,7 @@ shell.setLayout(GridLayout())
 table = Table(shell, SWT.MULTI | SWT.BORDER | SWT.FULL_SELECTION)
 table.setLinesVisible(True)
 table.setHeaderVisible(True)
+table.setSortDirection(SWT.DOWN)
 data = GridData(SWT.FILL, SWT.FILL, True, True)
 data.heightHint = 200
 table.setLayoutData(data)
@@ -31,6 +32,7 @@ titles = [ " ", "C", "!", "Description", "Resource", "In Folder", "Location" ]
 for title in titles:
     column = TableColumn(table, SWT.NONE)
     column.setText(title)
+    table.setSortColumn(column)
 
 for i in range(10):
     item = TableItem(table, SWT.NONE)
@@ -40,10 +42,23 @@ for i in range(10):
     item.setText(3, "this stuff behaves the way I expect")
     item.setText(4, "almost everywhere")
     item.setText(5, "some.folder")
-    item.setText(6, "line " + str(i) + " in nowhere")
+    item.setText(6, "line " + str(10 - i) + " in nowhere")
     
 for i in range(len(titles)):
     table.getColumn(i).pack()
+
+class SortListener(Listener):
+    def handleEvent(self, e):
+        items = table.getItems()
+        column = e.widget
+        index = table.getColumns().index(column)
+        texts = [ item.getText(index) for item in items ]
+        texts.sort()
+        for i, item in enumerate(items):
+            item.setText(index, texts[i])
+        table.setSortColumn(column)
+
+column.addListener(SWT.Selection, SortListener())
 
 shell.pack()
 shell.setSize(800, 500)
