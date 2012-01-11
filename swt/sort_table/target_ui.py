@@ -21,6 +21,17 @@ from org.eclipse.swt.layout import *
 display = Display()
 shell = Shell(display)
 shell.setLayout(GridLayout())
+
+bar = Menu(shell, SWT.BAR)
+shell.setMenuBar(bar)
+fileItem = MenuItem(bar, SWT.CASCADE)
+fileItem.setText("&File")
+submenu = Menu(shell, SWT.DROP_DOWN)
+fileItem.setMenu(submenu)
+menuItem = MenuItem(submenu, SWT.PUSH)
+menuItem.setText("Add Column")
+
+
 table = Table(shell, SWT.MULTI | SWT.BORDER | SWT.FULL_SELECTION)
 table.setLinesVisible(True)
 table.setHeaderVisible(True)
@@ -47,6 +58,7 @@ for i in range(10):
 for i in range(len(titles)):
     table.getColumn(i).pack()
 
+
 class SortListener(Listener):
     def handleEvent(self, e):
         items = table.getItems()
@@ -58,7 +70,22 @@ class SortListener(Listener):
             item.setText(index, texts[i])
         table.setSortColumn(column)
 
-column.addListener(SWT.Selection, SortListener())
+class AddColumnListener(Listener):
+    def handleEvent(self, e):
+        column = TableColumn(table, SWT.NONE)
+        column.setText("Extra")
+        for i, item in enumerate(table.getItems()):
+            item.setText(7, "extra in line " + str(10 - i))
+        column.pack()
+        column.addListener(SWT.Selection, SortListener())
+        table.setSortColumn(column)
+
+
+for column in table.getColumns():
+    column.addListener(SWT.Selection, SortListener())
+
+menuItem.addListener(SWT.Selection, AddColumnListener())
+
 
 shell.pack()
 shell.setSize(800, 500)

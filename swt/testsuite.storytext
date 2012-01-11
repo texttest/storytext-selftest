@@ -52,8 +52,8 @@ datetime
 # Test for browser widgets
 browser
 
-# Just describe it for now
-table
+# Sort by column headers, including those added later
+sort_table
 
 # Make sure we can describe a tree, including changes to it
 appevent
@@ -69,9 +69,6 @@ clipboard
 
 # Make sure we get a sensible message if a label becomes empty
 label_text_becomes_empty
-
-# Test for the -P option
-paths_to_images
 
 # Stuff to do with trees...
 trees
