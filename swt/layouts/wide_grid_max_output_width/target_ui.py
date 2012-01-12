@@ -26,22 +26,9 @@ composite = Composite(shell, SWT.NONE)
 layout = GridLayout(2, False)
 composite.setLayout(layout)
 
-header =  Label(composite, SWT.NONE)
-header.setText("Your details")
-gridData = GridData()
-gridData.horizontalSpan = 2
-header.setLayoutData(gridData)
-separator =  Label(composite, SWT.SEPARATOR)
-gridData = GridData()
-gridData.horizontalSpan = 2
-separator.setLayoutData(gridData)
-
 label = Label(composite, SWT.NONE)
 label.setText("An enormously long name to make the grid output disgustingly wide and difficult to read so that we have no choice but to describe it in columns")
 text = Text(composite, SWT.NONE)
-label2 = Label(composite, SWT.NONE)
-label2.setText("City")
-text2 = Text(composite, SWT.NONE)
 
 shell.pack()
 shell.setSize(500, 500)
