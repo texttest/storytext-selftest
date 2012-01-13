@@ -1,5 +1,5 @@
 open dialog
 press disable button
-ok dialog
 wait for button to be disabled
+ok dialog
 close window
