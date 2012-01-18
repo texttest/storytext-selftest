@@ -1,4 +1,5 @@
 select Node01
 select Node11
 select Node01,Node11
+select NoSuchNode
 close window
