@@ -18,7 +18,7 @@ TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
 
 --------------------------------------------------------------
 
-'activate second view' event created with arguments ''
+'activate second view' event created with arguments 'SecondView'
 
 Updated Views Menu:
   Open View 1
@@ -45,5 +45,8 @@ Updated Views Menu:
   Show Info View
 
 Updated TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif') , FirstView (cascade, Icon 'defaultview_misc.gif', selected)
+
+'activate second view' event created with arguments 'NoSuchView'
+ERROR: Could not find View named 'NoSuchView' to activate.
 
 'close window' event created with arguments ''
