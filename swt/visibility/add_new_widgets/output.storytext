@@ -4,7 +4,7 @@ Menu Bar:
   &File (cascade)
     Add new row
 
-'Name'  ========== Text ==========
+'Name'  ========== Text ========== (read only)
 
         ==========================
 
@@ -14,8 +14,8 @@ Menu Bar:
 
 New widgets have appeared: describing common parent :
 
-'Name'  ========== Text ==========
-
+'Name'  ========== Text ========== (read only)
+        John
         ==========================
 'City'  ========== Text ==========
 

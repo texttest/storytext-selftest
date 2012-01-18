@@ -1,9 +1,10 @@
-org.eclipse.swt.widgets.Shell 1 (org.eclipse.swt.layout.FillLayout)
---org.eclipse.swt.widgets.Composite 3 (org.eclipse.swt.layout.GridLayout, 2 columns)
-----org.eclipse.swt.widgets.Label 4
-----org.eclipse.swt.widgets.Text 5
-org.eclipse.swt.widgets.Composite 3 (org.eclipse.swt.layout.GridLayout, 2 columns)
---org.eclipse.swt.widgets.Label 4
---org.eclipse.swt.widgets.Text 5
---org.eclipse.swt.widgets.Label 7
---org.eclipse.swt.widgets.Text 8
+org.eclipse.swt.widgets.Shell 3 (org.eclipse.swt.layout.FillLayout)
+--org.eclipse.swt.widgets.Composite 5 (org.eclipse.swt.layout.GridLayout, 2 columns)
+----org.eclipse.swt.widgets.Label 6
+----org.eclipse.swt.widgets.Text 7
+org.eclipse.swt.widgets.Text 7
+org.eclipse.swt.widgets.Composite 5 (org.eclipse.swt.layout.GridLayout, 2 columns)
+--org.eclipse.swt.widgets.Label 6
+--org.eclipse.swt.widgets.Text 7
+--org.eclipse.swt.widgets.Label 10
+--org.eclipse.swt.widgets.Text 11

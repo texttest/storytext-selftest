@@ -37,13 +37,14 @@ composite.setLayout(layout)
 
 label = Label(composite, SWT.NONE)
 label.setText("Name")
-text = Text(composite, SWT.NONE)
+text = Text(composite, SWT.READ_ONLY)
 
 class AddListener(Listener):
     def handleEvent(self, e):
         label2 = Label(composite, SWT.NONE)
         label2.setText("City")
         text2 = Text(composite, SWT.NONE)
+        text.setText("John")
         composite.pack()
                 
 item.addListener(SWT.Selection, AddListener())
