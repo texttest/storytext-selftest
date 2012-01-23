@@ -66,6 +66,9 @@ Options:
   -t SECONDS, --timeout=SECONDS
                         amount of time to wait for application events before
                         giving up and trying to proceed.
+  -T TESTSCRIPTPLUGINID, --testscriptpluginid=TESTSCRIPTPLUGINID
+                        determines the testscript plugin id for an eclipse RCP
+                        application, i.e. 'org.eclipse.swtbot.gef.testscript'
   -x, --disable_usecase_names
                         Disable the entering of usecase names when
                         unrecognised actions are recorded. Recommended only
