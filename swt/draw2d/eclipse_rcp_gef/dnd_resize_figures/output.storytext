@@ -7,15 +7,15 @@ Menu Bar:
 TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Unknown Image, selected)
 
 (-green)
-        (-green)
+        (-green)  (-green)  (-green)
 
 --------------------------------------------------------
 
-'select' event created with arguments 'Node01'
+'select' event created with arguments 'Node2'
 
-'select' event created with arguments 'Node11'
+'select' event created with arguments 'Node2 (2)'
 
-'select' event created with arguments 'Node01,Node11'
+'select' event created with arguments 'Node1,Node2 (3)'
 
 'select' event created with arguments 'NoSuchNode'
 ERROR: Could not find any objects in viewer matching description 'NoSuchNode'

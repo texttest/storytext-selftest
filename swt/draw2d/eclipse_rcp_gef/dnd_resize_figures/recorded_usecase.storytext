@@ -1,4 +1,4 @@
-select Node01
-select Node11
-select Node01,Node11
+select Node2
+select Node2 (2)
+select Node1,Node2 (3)
 close window
