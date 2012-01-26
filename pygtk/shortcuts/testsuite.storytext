@@ -1,6 +1,9 @@
 # Make sure a shortcut file can be used
 use_shortcut
 
+# Make sure a shortcut file can be used, and that arguments can be provided
+use_shortcut_arguments
+
 # Tests for automatic insertion of shortcuts when recording
 inserting
 
