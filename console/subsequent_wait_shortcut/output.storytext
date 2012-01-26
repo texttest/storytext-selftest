@@ -1,0 +1,24 @@
+Initial 'wait for first sleep to complete', not starting replayer
+
+Waiting for application event 'first sleep to complete' to occur.
+Replayer got application event 'first sleep to complete'
+Waiting completed, proceeding...
+
+Expected application event 'first sleep to complete' occurred, proceeding.
+Sleeping for 0.001 seconds...
+About to perform 'receive signal' with arguments 'SIGQUIT'
+
+Generating signal SIGQUIT
+Signal SIGQUIT has been sent
+About to perform 'wait for' with arguments 'second sleep to complete'
+
+Waiting for application event 'second sleep to complete' to occur.
+Replayer got application event 'second sleep to complete'
+Waiting completed, proceeding...
+
+Expected application event 'second sleep to complete' occurred, proceeding.
+Sleeping for 0.001 seconds...
+About to perform 'receive signal' with arguments 'SIGINT'
+
+Generating signal SIGINT
+Signal SIGINT has been sent

@@ -16,6 +16,9 @@ default_sighandler_ignore
 # Test for waiting at a non-initial position, i.e. suspending an ongoing replay rather than just delaying the start of it
 subsequent_wait
 
+# If our first wait is in a shortcut, don't start the replayer
+subsequent_wait_shortcut
+
 # If we get the same event twice, record it as 'event name * 2'
 appevent_happens_twice
 
