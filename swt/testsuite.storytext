@@ -55,6 +55,9 @@ browser
 # Sort by column headers, including those added later
 sort_table
 
+# Edit cells in a table
+edit_table
+
 # Make sure we can describe a tree, including changes to it
 appevent
 

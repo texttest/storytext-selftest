@@ -1,0 +1,124 @@
+
+---------- Shell '' ----------
+Table :
+__________________________________
+id                 info
+__________________________________
+item 0 (selected)  edit this value
+item 1             edit this value
+item 2             edit this value
+item 3             edit this value
+item 4             edit this value
+item 5             edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+item 9             edit this value
+__________________________________
+
+------------------------------
+
+'select cell' event created with arguments 'info for item 4'
+
+Updated Table :
+__________________________________
+id                 info
+__________________________________
+item 0             edit this value
+item 1             edit this value
+item 2             edit this value
+item 3             edit this value
+item 4 (selected)  edit this value
+item 5             edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+item 9             edit this value
+__________________________________
+
+========== Text ==========
+edit this value
+==========================
+
+'set cell contents to' event created with arguments 'Real Value'
+
+Updated Text Field
+========== Text ==========
+Real Value
+==========================
+
+'perform cell edit' event created with arguments ''
+
+Updated Table :
+__________________________________
+id                 info
+__________________________________
+item 0             edit this value
+item 1             edit this value
+item 2             edit this value
+item 3             edit this value
+item 4 (selected)  Real Value
+item 5             edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+item 9             edit this value
+__________________________________
+
+'select cell' event created with arguments 'id for item 2'
+
+Updated Table :
+__________________________________
+id                 info
+__________________________________
+item 0             edit this value
+item 1             edit this value
+item 2 (selected)  edit this value
+item 3             edit this value
+item 4             Real Value
+item 5             edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+item 9             edit this value
+__________________________________
+
+========== Text ==========
+item 2
+==========================
+
+'set cell contents to' event created with arguments 'edited item 2'
+
+Updated Text Field
+========== Text ==========
+edited item 2
+==========================
+
+'perform cell edit' event created with arguments ''
+
+Updated Table :
+_________________________________________
+id                        info
+_________________________________________
+item 0                    edit this value
+item 1                    edit this value
+edited item 2 (selected)  edit this value
+item 3                    edit this value
+item 4                    Real Value
+item 5                    edit this value
+item 6                    edit this value
+item 7                    edit this value
+item 8                    edit this value
+item 9                    edit this value
+_________________________________________
+
+'select cell' event created with arguments 'Nonsense'
+ERROR: Could not find row identified by 'Nonsense' in table.
+
+'select cell' event created with arguments 'info for Nonsense'
+ERROR: Could not find row identified by 'Nonsense' in table.
+
+'select cell' event created with arguments 'Nonsense for item 4'
+ERROR: Could not find column labelled 'Nonsense' in table.
+
+'close window' event created with arguments ''

@@ -1,0 +1,7 @@
+select cell info for item 4
+set cell contents to Real Value
+perform cell edit
+select cell id for item 2
+set cell contents to edited item 2
+perform cell edit
+close window
