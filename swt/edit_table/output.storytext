@@ -1,6 +1,6 @@
 
 ---------- Shell '' ----------
-Table :
+Table (Context Menu 1) :
 __________________________________
 id                 info
 __________________________________
@@ -16,11 +16,14 @@ item 8             edit this value
 item 9             edit this value
 __________________________________
 
+
+Context Menu 1:
+  Add Row
 ------------------------------
 
 'select cell' event created with arguments 'info for item 4'
 
-Updated Table :
+Updated Table (Context Menu 1) :
 __________________________________
 id                 info
 __________________________________
@@ -49,7 +52,7 @@ Real Value
 
 'perform cell edit' event created with arguments ''
 
-Updated Table :
+Updated Table (Context Menu 1) :
 __________________________________
 id                 info
 __________________________________
@@ -67,7 +70,7 @@ __________________________________
 
 'select cell' event created with arguments 'id for item 2'
 
-Updated Table :
+Updated Table (Context Menu 1) :
 __________________________________
 id                 info
 __________________________________
@@ -87,30 +90,85 @@ __________________________________
 item 2
 ==========================
 
-'set cell contents to' event created with arguments 'edited item 2'
+'select cell' event created with arguments 'id for item 2'
+
+New widgets have appeared: describing common parent :
+
+========== Text ==========
+item 2
+==========================
+
+'add row' event created with arguments ''
+
+Updated Table (Context Menu 1) :
+__________________________________
+id                 info
+__________________________________
+item 0             edit this value
+item 1             edit this value
+item 2 (selected)  edit this value
+item 3             edit this value
+item 4             Real Value
+item 5             edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+item 9             edit this value
+extra item         edit this value
+__________________________________
+
+========== Text ==========
+item 2
+==========================
+
+'select cell' event created with arguments 'id for extra item'
+
+Updated Table (Context Menu 1) :
+______________________________________
+id                     info
+______________________________________
+item 0                 edit this value
+item 1                 edit this value
+item 2                 edit this value
+item 3                 edit this value
+item 4                 Real Value
+item 5                 edit this value
+item 6                 edit this value
+item 7                 edit this value
+item 8                 edit this value
+item 9                 edit this value
+extra item (selected)  edit this value
+______________________________________
+
+========== Text ==========
+extra item
+==========================
+
+'set cell contents to' event created with arguments 'new item'
 
 Updated Text Field
 ========== Text ==========
-edited item 2
+new item
 ==========================
 
 'perform cell edit' event created with arguments ''
 
-Updated Table :
-_________________________________________
-id                        info
-_________________________________________
-item 0                    edit this value
-item 1                    edit this value
-edited item 2 (selected)  edit this value
-item 3                    edit this value
-item 4                    Real Value
-item 5                    edit this value
-item 6                    edit this value
-item 7                    edit this value
-item 8                    edit this value
-item 9                    edit this value
-_________________________________________
+Updated Table (Context Menu 1) :
+____________________________________
+id                   info
+____________________________________
+item 0               edit this value
+item 1               edit this value
+item 2               edit this value
+item 3               edit this value
+item 4               Real Value
+item 5               edit this value
+item 6               edit this value
+item 7               edit this value
+item 8               edit this value
+item 9               edit this value
+new item (selected)  edit this value
+____________________________________
 
 'select cell' event created with arguments 'Nonsense'
 ERROR: Could not find row identified by 'Nonsense' in table.

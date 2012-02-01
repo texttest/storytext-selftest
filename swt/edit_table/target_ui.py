@@ -49,6 +49,13 @@ editor.grabHorizontal = True
 editor.minimumWidth = 50
 
 
+tablemenu = Menu(shell, SWT.POP_UP)
+tablemenuitem = MenuItem(tablemenu, SWT.PUSH)
+tablemenuitem.setText("Add Row")
+table.setMenu(tablemenu)
+table.pack()
+
+
 class TableListener(Listener):
     def handleEvent(self, event):
         # Clean up any previous editor control
@@ -84,9 +91,14 @@ class TableListener(Listener):
                 if rect.contains(pt):
                     return item, col
         return None, None
-	
-table.addListener(SWT.MouseDown, TableListener())
 
+class AddRowListener(Listener):
+    def handleEvent(self, event):
+        item = TableItem(table, SWT.NONE)
+        item.setText([ "extra item", "edit this value" ])
+        
+table.addListener(SWT.MouseDown, TableListener())
+tablemenuitem.addListener(SWT.Selection, AddRowListener())
 
 shell.pack()
 shell.setSize(500, 500)
