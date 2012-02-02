@@ -1,7 +1,0 @@
-
-[Reported by dgalda at 15Dec16:22:56]
-search_string:ExceptionInInit
-search_file:errors
-ignore_other_errors:1
-bug_system:jira
-bug_id:TTT-2570
