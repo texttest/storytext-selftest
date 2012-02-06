@@ -1,4 +1,6 @@
+drag Node1 to 54:133
 select Node2
 select Node2 (2)
 select Node1,Node2 (3)
 close window
+no

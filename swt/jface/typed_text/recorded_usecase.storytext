@@ -1,4 +1,5 @@
 set name to 123
+set name to 456
 set city to London
 describe choices
 close window

@@ -11,6 +11,8 @@ TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Unknown
 
 --------------------------------------------------------
 
+'drag' event created with arguments 'Node1 to 54:133'
+
 'select' event created with arguments 'Node2'
 
 'select' event created with arguments 'Node2 (2)'
@@ -21,3 +23,5 @@ TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Unknown
 ERROR: Could not find any objects in viewer matching description 'NoSuchNode'
 
 'close window' event created with arguments ''
+
+'no' event created with arguments ''
