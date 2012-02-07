@@ -1,8 +1,8 @@
 # Sadly Jython has no native Windows launcher, so we have to resort to bat files
 
-interpreter:
+interpreter:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/jython.bat
 
-executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/storytext.bat
+executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/storytext
 
 [run_dependent_text]
 output:Ctrl\+Shift{REPLACE Shift+Ctrl}
