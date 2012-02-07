@@ -27,7 +27,7 @@ display = Display()
 shell = Shell(display)
 
 shell.setLayout(FillLayout())
-table = Table(shell, SWT.FULL_SELECTION)
+table = Table(shell, SWT.FULL_SELECTION | SWT.MULTI)
 table.setLinesVisible(True)
 table.setHeaderVisible(True)
 column1 = TableColumn(table, SWT.NONE)
