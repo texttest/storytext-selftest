@@ -28,4 +28,11 @@ ERROR: Could not find any objects in viewer matching description 'NoSuchNode'
 
 'close window' event created with arguments ''
 
+---------- Shell 'Save Resource' ----------
+Unknown Image  ''file.graph1' has been modified. Save changes?'
+
+Button '&No'  Button 'Cancel'  Button '&Yes'
+
+-------------------------------------------
+
 'no' event created with arguments ''
