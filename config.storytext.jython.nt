@@ -6,3 +6,6 @@ executable:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/storytext
 
 [run_dependent_text]
 output:Ctrl\+Shift{REPLACE Shift+Ctrl}
+# Button ordering may change on Windows
+output:Button '&No'  Button 'Cancel'  Button '&Yes'{REPLACE Button '&Yes'  Button '&No'  Button 'Cancel'}
+
