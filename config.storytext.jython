@@ -1,4 +1,6 @@
 
+interpreter:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/bin/jython
+
 link_test_path:TargetUI.class
 link_test_path:TargetUI$1.class
 link_test_path:TargetUI$2.class
