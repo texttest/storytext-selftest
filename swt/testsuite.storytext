@@ -52,6 +52,9 @@ datetime
 # Test for browser widgets
 browser
 
+# Test for browser widgets containing nested tables
+browser_nested_tables
+
 # Sort by column headers, including those added later
 sort_table
 

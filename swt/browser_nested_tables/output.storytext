@@ -1,0 +1,27 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Select &All	Ctrl+A
+
+========== Browser ==========
+about:config
+=============================
+
+------------------------------
+
+'select all' event created with arguments ''
+
+Waiting for application event 'browser to finish loading' to occur.
+
+Updated Text Field
+========== Browser ==========
+Table-0
+Table-1
+Table-2
+Non-ascii characters:   Â
+=============================
+
+Expected application event 'browser to finish loading' occurred, proceeding.
+
+'close window' event created with arguments ''
