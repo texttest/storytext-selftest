@@ -22,3 +22,6 @@ wide_grid_max_output_width
 
 # Don't be fooled by additional labels with no text
 empty_labels
+
+# Test we can provide configuration to ignore certain labels
+ignore_labels
