@@ -15,3 +15,6 @@ delayed_new_way
 
 # If application events occurs between a single and double click, they need to be delayed also
 between_double_click
+
+# Have a timeout that waits for widgets to appear before giving up
+wait_for_appearance

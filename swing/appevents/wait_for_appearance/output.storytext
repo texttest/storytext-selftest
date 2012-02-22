@@ -1,0 +1,12 @@
+
+---------- Window 'Close Buttons' ----------
+Button 'Get Exit!'
+--------------------------------------------
+
+'get exit button' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Button 'Get Exit!'  Button 'Exit'
+
+'exit' event created with arguments ''
