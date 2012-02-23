@@ -2,6 +2,8 @@ from org.eclipse import draw2d
 from org.eclipse.swt import SWT
 from org.eclipse.swt.widgets import Display, Shell
 from org.eclipse.swt.layout import GridLayout, GridData
+from org.eclipse import swt
+from java.awt import Color
 
 class Dragger(draw2d.MouseMotionListener, draw2d.MouseListener):
     def __init__(self, figure):
@@ -58,6 +60,9 @@ class TextRectangle(draw2d.RectangleFigure):
             graphics.drawString(text, loc.x() + x, loc.y() + y)
         
 
+def awtToSwtColor(awtColor):
+    return swt.graphics.Color(Display.getDefault(), awtColor.getRed(), awtColor.getGreen(), awtColor.getBlue())
+
 def createNode(x, y, color=None, border=True, cls=None, text=None, width=50, height=30):
     node1 = TextRectangle()
     if color:
@@ -79,7 +84,9 @@ def getContents():
     rect.addText("bottomleft", y=80)
     rect.addRectangle(draw2d.ColorConstants.lightBlue, 0, 0, 50, 40)
     rect.addRectangle(draw2d.ColorConstants.lightGreen, 50, 40, 50, 40)
-    rect.addRectangle(draw2d.ColorConstants.yellow, 0, 40, 50, 40)
+    #rect.addRectangle(draw2d.ColorConstants.yellow, 0, 40, 50, 40)
+    rect.addRectangle(awtToSwtColor(Color.orange), 0, 40, 50, 40)
+    rect.addRectangle(draw2d.ColorConstants.orange, 0, 78, 50, 40)
     rect.addRectangle(draw2d.ColorConstants.red, 50, 78, 50, 40)
     panel.add(rect)
     return panel

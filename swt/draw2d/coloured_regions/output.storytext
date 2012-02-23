@@ -1,8 +1,8 @@
 
 ---------- Shell 'Draw2d Application' ----------
-topleft(-blue)  topmid
-                centre(-green)
-bottomleft      (red)
+topleft(-blue)      topmid
+(orange&)           centre(-green)
+bottomleft(orange)  (red)
 
 ------------------------------------------------
 
