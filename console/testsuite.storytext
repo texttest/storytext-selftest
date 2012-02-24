@@ -43,6 +43,9 @@ appevent_categories
 # If we get the same event twice, record it as 'event name * 2', also if it is in a category
 repeated_appevents_categories
 
+# Test setting the delayLevel of an application event - should record later and combine correctly with any other events that come in
+appevent_delayed
+
 # Allow renaming of application events after they occur
 appevent_rename
 
