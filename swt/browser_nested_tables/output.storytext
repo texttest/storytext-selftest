@@ -1,35 +1,3 @@
-Showing/painting widget of type Menu 1, monitoring found widgets
-Looking up section name 'Name='
-Looking up section name 'Title='
-Looking up section name 'Label=Select All'
-Reading map file section 'Label=Select All' for widget of type MenuItem
-Monitor select all, Selection, MenuItem, None
-Done Monitoring all widgets after showing/painting Menu 1.
-Showing/painting widget of type Menu 3, monitoring found widgets
-Done Monitoring all widgets after showing/painting Menu 3.
-Monitoring all widgets in active shell...
-Looking up section name 'Name='
-Looking up section name 'Title='
-Looking up section name 'Label=<?xml-stylesheet href="chrome://global/skin/config.css" type="text/css"?>\n<window id="config" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="about:config" windowtype="Preferences:ConfigManager" width="750" height="500" onunload="onConfigUnload();" onload="onConfigLoad();"><script src="chrome://global/content/config.js"/><stringbundle id="configBundle" src="chrome://global/locale/config.properties"/><popup id="configContext" onpopupshowing="if (event.target == this) updateContextMenu();"><menuitem id="toggleSelected" default="true" label="Toggle" accesskey="T" oncommand="ModifySelected();"/><menuitem id="modifySelected" default="true" label="Modify" accesskey="M" oncommand="ModifySelected();"/><menuseparator/><menuitem id="copyPref" label="Copy" accesskey="C" oncommand="copyPref();"/><menuitem id="copyName" label="Copy Name" accesskey="N" oncommand="copyName();"/><menuitem id="copyValue" label="Copy Value" accesskey="V" oncommand="copyValue();"/><menu label="New" accesskey="w"><menupopup><menuitem label="String" accesskey="S" oncommand="NewPref(nsIPrefBranch.PREF_STRING);"/><menuitem label="Integer" accesskey="I" oncommand="NewPref(nsIPrefBranch.PREF_INT);"/><menuitem label="Boolean" accesskey="B" oncommand="NewPref(nsIPrefBranch.PREF_BOOL);"/></menupopup></menu><menuitem id="resetSelected" label="Reset" accesskey="R" oncommand="ResetSelected();"/></popup><keyset id="configTreeKeyset" disabled="true"><key keycode="VK_ENTER" oncommand="ModifySelected();"/><key keycode="VK_RETURN" oncommand="ModifySelected();"/><key key="f" modifiers="accel" oncommand="document.getElementById(\'textbox\').focus();"/></keyset><deck id="configDeck" flex="1"><vbox id="warningScreen" flex="1" align="center" style="overflow: auto;"><spacer flex="1"/><hbox id="warningBox" align="top"><image id="exclam"/><vbox id="warningInnerBox" flex="1"><label id="warningTitle">This might void your warranty!</label><label id="warningText">Changing these advanced settings can be harmful to the stability, security, and performance of this application. You should only continue if you are sure of what you are doing.</label><checkbox id="showWarningNextTime" label="Show this warning next time" checked="true"/><hbox pack="center"><button id="warningButton" oncommand="ShowPrefs();" label="I\'ll be careful, I promise!"/></hbox></vbox></hbox><spacer flex="2"/></vbox><vbox flex="1"><hbox id="filterRow" align="center"><label value="Filter:" accesskey="F" control="textbox"/><textbox id="textbox" flex="1" type="search" class="compact" aria-controls="configTree" oncommand="FilterPrefs();" aria-autocomplete="list"/></hbox><tree id="configTree" flex="1" seltype="single" onselect="updateCommands(\'select\');" enableColumnDrag="true" context="configContext" hidevscroll="true" hidehscroll="true"><treecols orient="horizontal"><treecol id="prefCol" label="Preference Name" flex="7" class="sortDirectionIndicator" ignoreincolumnpicker="true" persist="hidden width ordinal sortDirection" ordinal="1"/><splitter class="tree-splitter" ordinal="2"/><treecol id="lockCol" label="Status" flex="1" class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" ordinal="3"/><splitter class="tree-splitter" ordinal="4"/><treecol id="typeCol" label="Type" flex="1" class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" ordinal="5"/><splitter class="tree-splitter" ordinal="6"/><treecol id="valueCol" label="Value" flex="10" class="sortDirectionIndicator" persist="hidden width ordinal sortDirection" ordinal="7"/></treecols><treechildren id="configTreeBody" ondblclick="if (event.button == 0) ModifySelected();"/></tree></vbox></deck></window>'
-Looking up section name u'Tooltip='
-Looking up section name 'Type=Browser'
-Looking up section name 'Name='
-Looking up section name 'Title='
-Looking up section name 'Label='
-Looking up section name u'Tooltip='
-Looking up section name 'Type=Shell'
-Reading map file section 'Type=Shell' for widget of type Shell
-Monitor resize window to, Resize, Shell, None
-Monitor close window, Close, Shell, None
-Looking up section name 'Name='
-Looking up section name 'Title='
-Looking up section name 'Label=File'
-Looking up section name u'Tooltip='
-Looking up section name 'Type=MenuItem'
-Monitor Auto.MenuItem.Selection.'Label=File', Selection, MenuItem, None
-Done Monitoring all widgets in active shell.
-org.eclipse.swt.widgets.Shell 5 (org.eclipse.swt.layout.FillLayout)
---org.eclipse.swt.browser.Browser 6
 
 ---------- Shell '' ----------
 Menu Bar:
@@ -41,20 +9,10 @@ about:config
 =============================
 
 ------------------------------
-About to perform 'select all' with arguments ''
 
 'select all' event created with arguments ''
-Filter for event Event {type=13 MenuItem {Select &All	Ctrl+A} time=-1430962040 data=null x=0 y=0 width=0 height=0 detail=0}
-Event of type SelectEvent for recording
-Recording 'select all'
-Filter removed for event Event {type=13 MenuItem {Select &All	Ctrl+A} time=-1430962040 data=null x=0 y=0 width=0 height=0 detail=0}
-Got application event 'browser to finish loading' in global category with delay level 0
-Replayer got application event 'browser to finish loading'
 
 Waiting for application event 'browser to finish loading' to occur.
-Event 'browser to finish loading' has already happened, no waiting to do
-Sleeping for 0.001 seconds...
-org.eclipse.swt.browser.Browser 6
 
 Updated Text Field
 ========== Browser ==========
@@ -65,11 +23,5 @@ Non-ascii characters:   Â
 =============================
 
 Expected application event 'browser to finish loading' occurred, proceeding.
-About to perform 'close window' with arguments ''
 
 'close window' event created with arguments ''
-Filter for event Event {type=21 Shell {} time=-1430962097 data=null x=0 y=0 width=0 height=0 detail=0}
-Event of type ShellCloseEvent for recording
-Recording 'wait for browser to finish loading'
-Recording 'close window'
-Filter removed for event Event {type=21 Shell {} time=-1430962097 data=null x=0 y=0 width=0 height=0 detail=0}
