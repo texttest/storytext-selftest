@@ -21,7 +21,7 @@ if os.pathsep == ";": # Windows. Quoting gets destroyed by Browser there, don't 
 </head><body><table><tbody>
 <tr><td>Table-0</td></tr>
 <tr><td><table><tbody><tr><td>Table-1</td></tr><tr><td><table><tbody><tr><td>Table-2</td></tr>
-<tr><td>Non-ascii characters:</td><td>\xa0\xc2</td></tr>
+<tr><td>Non-ascii characters:</td><td>\xc2</td></tr>
 </tbody></table></td>
 </tr></tbody></table></td></tr>
 </td></tr></tbody></table></body>"""
