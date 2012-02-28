@@ -1,0 +1,6 @@
+set name to 123
+set name to 456
+set city to London
+set city to 
+describe choices
+close window

@@ -1,0 +1,54 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Describe
+
+'Name'  ========== Combo ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
+                                     'Most be a real name')
+        ===========================
+'City'  ========== Combo ==========
+
+        ===========================
+
+------------------------------
+
+'set name to' event created with arguments '123'
+Name is now u'1'
+Name is now u'12'
+Name is now u'123'
+
+Updated Name Combo Box
+========== Combo ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
+123                          'Most be a real name')
+===========================
+
+'set name to' event created with arguments '456'
+Name is now u'4'
+Name is now u'4'
+Name is now u'45'
+Name is now u'456'
+
+Updated Name Combo Box
+========== Combo ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
+456                          'Most be a real name')
+===========================
+
+'set city to' event created with arguments 'London'
+
+Updated City Combo Box
+========== Combo ========== (Decoration Image 2
+London                       'London is in England!')
+===========================
+
+'set city to' event created with arguments ''
+
+Updated City Combo Box
+========== Combo ==========
+
+===========================
+
+'describe choices' event created with arguments ''
+You are 456 and you live in 
+
+'close window' event created with arguments ''

@@ -3,3 +3,6 @@ text_decoration
 
 # Simulates typing instead for setting text in text fields
 typed_text
+
+# Simulates typing instead for setting text in text fields
+typed_text_combo
