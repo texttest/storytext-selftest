@@ -30,7 +30,9 @@ composite.setLayout(layout)
 header =  CLabel(composite, SWT.NONE)
 header.setText("Your details")
 gridData = GridData()
-gridData.horizontalSpan = 2
+# Eclipse thinks it's just fine to have spans greater than the number of columns
+# Make sure we don't die as a result...
+gridData.horizontalSpan = 3
 header.setLayoutData(gridData)
 separator =  Label(composite, SWT.SEPARATOR)
 gridData = GridData()
