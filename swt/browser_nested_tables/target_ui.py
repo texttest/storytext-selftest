@@ -34,7 +34,7 @@ body {background-color:#FFFFFF;font:12px arial,sans-serif} table {font:12px aria
 <tr><td>Table-1</td></tr>
 <tr><td><table cellspacing="0" cellpadding="1" border="0" align="left"><tbody>
 <tr><td>Table-2</td></tr>
-<tr><td>Non-ascii characters:</td><td>\xa0\xc2</td></tr>
+<tr><td>Non-ascii characters:</td><td>\xc2</td></tr>
 </tbody></table></td>
 </tr></tbody></table></td></tr>
 </td></tr></tbody></table></body>'''
