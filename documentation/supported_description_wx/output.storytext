@@ -15,4 +15,5 @@ wx.Button
 wx.Dialog
 wx.Frame
 wx.ListCtrl
+wx.StaticText
 wx.TextCtrl
