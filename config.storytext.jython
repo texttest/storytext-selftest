@@ -19,3 +19,4 @@ errors:\*sys-package-mgr\*: processing.*jar
 errors:GTK_WIDGET_VISIBLE
 errors:^$
 widgetstructure:@[0-9a-f]*{REPLACE @<pointer>}
+output:Button '&Yes'  Button '&No'  Button 'Cancel'{REPLACE Button '&No'  Button 'Cancel'  Button '&Yes'}
