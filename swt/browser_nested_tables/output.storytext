@@ -19,7 +19,7 @@ Updated Text Field
 Table-0
 Table-1
 Table-2
-Non-ascii characters:   Â
+Non-breaking spaces:  Hello   world
 =============================
 
 Expected application event 'browser to finish loading' occurred, proceeding.
