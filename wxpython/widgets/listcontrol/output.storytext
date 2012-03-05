@@ -1,46 +1,42 @@
 
 ---------- Frame 'wx.ListCtrl' ----------
-.................
+List :
 -> four
 -> three
 -> two
 -> one
 -> zero
-.................
 -----------------------------------------
 
 'select' event created with arguments 'zero'
 Selected zero
-Updated state
-.................
+
+Updated List :
 -> four
 -> three
 -> two
 -> one
 -> zero   ***
-.................
 
 'select' event created with arguments 'two'
 Selected two
-Updated state
-.................
+
+Updated List :
 -> four
 -> three
 -> two   ***
 -> one
 -> zero
-.................
 
 'select' event created with arguments 'four,three'
 Selected four
 Selected three
-Updated state
-.................
+
+Updated List :
 -> four   ***
 -> three   ***
 -> two
 -> one
 -> zero
-.................
 
 'close frame' event created with arguments ''

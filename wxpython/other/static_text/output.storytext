@@ -1,0 +1,30 @@
+
+---------- Frame 'TextCtrls' ----------
+''
+---------------------------------------
+
+---------- Frame 'Login' ----------
+TextCtrl
+
+TextCtrl
+
+'Username:'
+
+'Password:'
+
+Button '&OK'
+-----------------------------------
+
+'set name to' event created with arguments 'Foo'
+
+Updated TextCtrl value 'Foo'
+
+'set password to' event created with arguments 'Bar'
+
+Updated TextCtrl value 'Bar'
+
+'press ok' event created with arguments ''
+
+Updated 'Login Succeeded (or not)'
+
+'close frame' event created with arguments ''

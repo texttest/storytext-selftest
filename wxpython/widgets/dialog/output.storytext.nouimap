@@ -14,6 +14,7 @@ Button 'Close Dialog'
 ---------------------------------------
 
 'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'PyUseCase'
+
 Updated TextCtrl value 'PyUseCase'
 
 'Auto.Button.Press.'Label=Close Dialog'' event created with arguments ''

@@ -1,24 +1,22 @@
 
 ---------- Frame 'wx.ListCtrl' ----------
-.................
+List :
 -> four
 -> three
 -> two
 -> one
 -> zero
-.................
 -----------------------------------------
 
 'select' event created with arguments 'two'
 Selected two
-Updated state
-.................
+
+Updated List :
 -> four
 -> three
 -> two   ***
 -> one
 -> zero
-.................
 
 'select' event created with arguments 'nosuchline'
 ERROR: Could not find item 'nosuchline' in ListCtrl.

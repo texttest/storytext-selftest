@@ -6,3 +6,6 @@ frame_title
 
 # See what happens if we try to select list items that aren't there
 select_bad_list_item
+
+# textctrls example from Roger House
+static_text

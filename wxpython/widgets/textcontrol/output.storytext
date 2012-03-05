@@ -5,6 +5,7 @@ TextCtrl value 'PyUseCase'
 
 'enter text' event created with arguments 'Hello World!'
 Text: Hello World!
+
 Updated TextCtrl value 'Hello World!'
 
 'close frame' event created with arguments ''

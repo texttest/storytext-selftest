@@ -1,0 +1,4 @@
+set name to Foo
+set password to Bar
+press ok
+close frame
