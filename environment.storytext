@@ -5,3 +5,4 @@ XDG_CONFIG_HOME:$TEXTTEST_SANDBOX/xdg_config_home
 # Only has any effect if you patch GTK2.12 currently. See http://bugzilla.gnome.org/show_bug.cgi?id=568526
 # Without it tests will fail intermittently if run in parallel
 GTK_RECENTLY_USED_FILE:$TEXTTEST_SANDBOX/gtk_recently_used
+UBUNTU_MENUPROXY:{CLEAR}
