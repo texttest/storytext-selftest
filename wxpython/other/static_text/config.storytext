@@ -1,0 +1,3 @@
+# Differs between UNIX and Windows
+[run_dependent_text]
+output:&OK{REPLACE OK}
