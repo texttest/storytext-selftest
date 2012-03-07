@@ -1,13 +1,18 @@
 
 ---------- Frame 'wx.Frame' ----------
-TextCtrl value 'wx.Frame'
+========== TextCtrl ==========
+wx.Frame
+==============================
 
 Button 'Change Title'
 --------------------------------------
 
 'enter text' event created with arguments 'PyUseCase'
 
-Updated TextCtrl value 'PyUseCase'
+Updated Text Field
+========== TextCtrl ==========
+PyUseCase
+==============================
 
 'press button' event created with arguments ''
 Changed title of frame to 'PyUseCase'

@@ -1,11 +1,16 @@
 
 ---------- Frame 'wx.TextCtrl' ----------
-TextCtrl value 'PyUseCase'
+========== TextCtrl ==========
+PyUseCase
+==============================
 -----------------------------------------
 
 'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello World!'
 Text: Hello World!
 
-Updated TextCtrl value 'Hello World!'
+Updated Text Field
+========== TextCtrl ==========
+Hello World!
+==============================
 
 'Auto.MainFrame.Close.'Name=frame'' event created with arguments ''

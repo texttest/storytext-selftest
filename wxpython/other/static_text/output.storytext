@@ -4,24 +4,29 @@
 ---------------------------------------
 
 ---------- Frame 'Login' ----------
-TextCtrl
+'Username:'  ========== TextCtrl ==========
 
-TextCtrl
+             ==============================
+'Password:'  ========== TextCtrl ==========
 
-'Username:'
-
-'Password:'
+             ==============================
 
 Button '&OK'
 -----------------------------------
 
 'set name to' event created with arguments 'Foo'
 
-Updated TextCtrl value 'Foo'
+Updated Text Field
+========== TextCtrl ==========
+Foo
+==============================
 
 'set password to' event created with arguments 'Bar'
 
-Updated TextCtrl value 'Bar'
+Updated Text Field
+========== TextCtrl ==========
+Bar
+==============================
 
 'press ok' event created with arguments ''
 
