@@ -15,7 +15,7 @@ wx.Dialog
 Button 'Close Dialog'
 ---------------------------------------
 
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'PyUseCase'
+'Auto.TextCtrl.TextEnter.'Type=TextCtrl'' event created with arguments 'PyUseCase'
 
 Updated Text Field
 ========== TextCtrl ==========

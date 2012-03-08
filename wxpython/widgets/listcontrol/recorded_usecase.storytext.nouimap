@@ -1,4 +1,4 @@
-Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl' zero
-Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl' two
-Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl' four,three
-Auto.MainFrame.Close.'Name=frame'
+Auto.ListCtrl.ListCtrlSelect.'Type=ListCtrl' zero
+Auto.ListCtrl.ListCtrlSelect.'Type=ListCtrl' two
+Auto.ListCtrl.ListCtrlSelect.'Type=ListCtrl' four,three
+Auto.MainFrame.Close.'Title=wx.ListCtrl'

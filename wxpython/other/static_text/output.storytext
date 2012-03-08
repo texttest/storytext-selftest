@@ -16,16 +16,16 @@ Button '&OK'
 
 'set name to' event created with arguments 'Foo'
 
-Updated Text Field
+Updated Username: Field
 ========== TextCtrl ==========
 Foo
 ==============================
 
 'set password to' event created with arguments 'Bar'
 
-Updated Text Field
+Updated Password: Field
 ========== TextCtrl ==========
-Bar
+***
 ==============================
 
 'press ok' event created with arguments ''

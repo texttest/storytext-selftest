@@ -8,7 +8,7 @@ List :
 -> zero
 -----------------------------------------
 
-'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'zero'
+'Auto.ListCtrl.ListCtrlSelect.'Type=ListCtrl'' event created with arguments 'zero'
 Selected zero
 
 Updated List :
@@ -18,7 +18,7 @@ Updated List :
 -> one
 -> zero   ***
 
-'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'two'
+'Auto.ListCtrl.ListCtrlSelect.'Type=ListCtrl'' event created with arguments 'two'
 Selected two
 
 Updated List :
@@ -28,7 +28,7 @@ Updated List :
 -> one
 -> zero
 
-'Auto.ListCtrl.ListCtrlSelect.'Name=listCtrl'' event created with arguments 'four,three'
+'Auto.ListCtrl.ListCtrlSelect.'Type=ListCtrl'' event created with arguments 'four,three'
 Selected four
 Selected three
 
@@ -39,4 +39,4 @@ Updated List :
 -> one
 -> zero
 
-'Auto.MainFrame.Close.'Name=frame'' event created with arguments ''
+'Auto.MainFrame.Close.'Title=wx.ListCtrl'' event created with arguments ''

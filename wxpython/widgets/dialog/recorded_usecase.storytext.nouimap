@@ -1,4 +1,4 @@
 Auto.Button.Press.'Label=Show Dialog'
-Auto.TextCtrl.TextEnter.'Name=text' PyUseCase
+Auto.TextCtrl.TextEnter.'Type=TextCtrl' PyUseCase
 Auto.Button.Press.'Label=Close Dialog'
 Auto.Button.Press.'Label=Close Frame'

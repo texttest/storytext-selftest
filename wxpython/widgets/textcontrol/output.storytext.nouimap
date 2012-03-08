@@ -5,7 +5,7 @@ PyUseCase
 ==============================
 -----------------------------------------
 
-'Auto.TextCtrl.TextEnter.'Name=text'' event created with arguments 'Hello World!'
+'Auto.TextCtrl.TextEnter.'Type=TextCtrl'' event created with arguments 'Hello World!'
 Text: Hello World!
 
 Updated Text Field
@@ -13,4 +13,4 @@ Updated Text Field
 Hello World!
 ==============================
 
-'Auto.MainFrame.Close.'Name=frame'' event created with arguments ''
+'Auto.MainFrame.Close.'Title=wx.TextCtrl'' event created with arguments ''

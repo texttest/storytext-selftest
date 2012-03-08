@@ -84,10 +84,8 @@ class LoginPanel(wx.Panel):
 
         # Attributes
         self._username = wx.TextCtrl(self)
-        self._username.SetName('username');
         self._passwd = wx.TextCtrl(self, style=wx.TE_PASSWORD)
-        self._passwd.SetName('password');
- 
+        
         # Layout
         sizer = wx.FlexGridSizer(2, 2, 8, 8)
         sizer.Add(wx.StaticText(self, label="Username:"),

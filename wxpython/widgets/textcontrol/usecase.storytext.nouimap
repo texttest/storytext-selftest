@@ -1,2 +1,2 @@
-Auto.TextCtrl.TextEnter.'Name=text' Hello World!
-Auto.MainFrame.Close.'Name=frame'
+Auto.TextCtrl.TextEnter.'Type=TextCtrl' Hello World!
+Auto.MainFrame.Close.'Title=wx.TextCtrl'
