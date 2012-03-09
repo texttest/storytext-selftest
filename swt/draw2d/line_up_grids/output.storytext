@@ -4,9 +4,9 @@ topleft  topmid
          centre
 bottomleft
 
-00       10
-         11
-02
+[ 00     10 ]
+[        11 ]
+[ 02        ]
 
 An extra label
 

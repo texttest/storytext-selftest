@@ -69,7 +69,7 @@ def getContents():
     rect.addText("centre", x=50, y=40)
     rect.addText("bottomleft", y=80)
     panel.add(rect)
-    rect = createNode(40, 160, border=False, text="00", width=100, height=100)
+    rect = createNode(40, 160, border=True, text="00", width=100, height=100)
     rect.addText("10", x=50)
     rect.addText("11", x=50, y=40)
     rect.addText("02", y=80)

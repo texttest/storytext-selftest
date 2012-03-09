@@ -49,7 +49,7 @@ class TextRectangle(draw2d.RectangleFigure):
         for text, x, y in self.texts:
             graphics.drawString(text, loc.x() + x, loc.y() + y) 
 
-def createNode(x, y, color=None, border=True, cls=None, text=None, width=50, height=30):
+def createNode(x, y, color=None, border=None, cls=None, text=None, width=50, height=30):
     actualCls = cls or draw2d.RectangleFigure
     node1 = actualCls()
     if color:
@@ -58,17 +58,17 @@ def createNode(x, y, color=None, border=True, cls=None, text=None, width=50, hei
         node1.setText(text)
     node1.setBounds(draw2d.geometry.Rectangle(x, y, width, height))
     if border:
-        node1.setBorder(draw2d.LineBorder())
+        node1.setBorder(border)
     Dragger(node1)
     return node1
     
 def getContents():
     panel = draw2d.Figure()
     panel.setBounds(draw2d.geometry.Rectangle(0,0,500,440))
-    panel.add(createNode(40, 42, border=False, cls=draw2d.Label, text="A longish label", width=100))
-    panel.add(createNode(38, 98, draw2d.ColorConstants.lightBlue))
-    panel.add(createNode(100, 100, draw2d.ColorConstants.lightGreen, cls=TextRectangle, text="hello"))
-    rect = createNode(41, 160, border=False, cls=TextRectangle, text="topleft", width=100, height=100)
+    panel.add(createNode(40, 42, cls=draw2d.Label, text="A longish label", width=100))
+    panel.add(createNode(38, 98, draw2d.ColorConstants.lightBlue, border=draw2d.LineBorder()))
+    panel.add(createNode(100, 100, draw2d.ColorConstants.lightGreen, border=draw2d.MarginBorder(1), cls=TextRectangle, text="hello"))
+    rect = createNode(41, 160, cls=TextRectangle, text="topleft", width=100, height=100)
     rect.addText("topmid", x=50)
     rect.addText("centre", x=50, y=40)
     rect.addText("bottomleft", y=80)
