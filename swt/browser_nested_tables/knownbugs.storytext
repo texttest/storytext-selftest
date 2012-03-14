@@ -1,0 +1,7 @@
+
+[Reported by dgalda at 14Mar09:22:37]
+search_string:SAXParseException
+search_file:errors
+ignore_other_errors:1
+bug_system:jira
+bug_id:TTT-2671
