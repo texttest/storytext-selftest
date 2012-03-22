@@ -1,0 +1,78 @@
+
+---------- Frame 'wxPython Menus' ----------
+
+Menubar:
+    >>>
+    Menu A (+)
+    Menu B (+)
+    Complex (+)
+    Change (+)
+    Real Stuff (+)
+
+    Menu A menu
+        Item 1
+        Item 2
+
+    Menu B menu
+        Item 3
+        Item 4
+
+    Complex menu
+        Item 6.5
+    .   Item 7
+    o   Item 8
+    o   Item 9
+    --------------------
+            Submenu menu
+                Item 5
+                Item 6
+    --------------------
+        Item 10.5
+    -   Item 11
+    -   Item 12
+    -   Item 13
+        Item 13.5
+
+    Change menu
+        Check radio item 7
+        Check radio item 8
+        Check radio item 9
+    --------------------
+        Toggle check item 11
+        Toggle check item 12
+        Toggle check item 13
+    --------------------
+        Toggle enable item 10
+        Toggle enable item 11
+
+    Real Stuff menu
+        Children of window
+
+========== TextCtrl ==========
+Note:  The Change menu changes settings in the Complex menu
+==============================
+
+--------------------------------------------
+
+'Click on' event created with arguments 'Menu _A~~~Item 1'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=135 (ID_MENU_A_ITEM_1)'
+
+'Click on' event created with arguments 'Menu _B~~~Item 4'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=138 (ID_MENU_B_ITEM_4)'
+
+'Click on' event created with arguments '_Complex~~~Item 9'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=144 (ID_MENU_C_RADIO_ITEM_9)'
+
+'Click on' event created with arguments '_Complex~~~Item 11'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=147 (ID_MENU_C_CHECKED_ITEM_11)'
+
+'Click on' event created with arguments '_Change~~~Check radio item 8'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=152 (ID_MENU_D_ITEM_15)'
+
+'Click on' event created with arguments '_Change~~~Toggle check item 13'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=156 (ID_MENU_D_ITEM_19)'
+
+'Click on' event created with arguments '_Change~~~Toggle enable item 10'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=157 (ID_MENU_D_ITEM_19_3)'
+
+'Click on X to exit' event created with arguments ''
