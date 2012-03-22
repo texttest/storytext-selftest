@@ -3,7 +3,7 @@ StoryText trunk is currently capable of recording and replaying. Any type derive
 types is also supported.
 
 wx.Button                : Press
-wx.Frame                 : Close
+wx.Frame                 : Close , Menu
 wx.ListCtrl              : ListCtrlSelect
 wx.TextCtrl              : TextEnter
 
@@ -15,5 +15,8 @@ wx.Button
 wx.Dialog
 wx.Frame
 wx.ListCtrl
+wx.Menu
+wx.MenuBar
+wx.MenuItem
 wx.StaticText
 wx.TextCtrl
