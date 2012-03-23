@@ -63,11 +63,17 @@ Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=138 (ID_MENU_B_ITEM
 'Click on' event created with arguments '_Complex~~~Item 9'
 Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=144 (ID_MENU_C_RADIO_ITEM_9)'
 
+'Click on' event created with arguments '_Complex~~~Submenu~~~Item 5'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=139 (ID_SUBMENU_S_ITEM_5)'
+
+'Click on' event created with arguments '_Complex~~~Submenu~~~Item 6'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=140 (ID_SUBMENU_S_ITEM_6)'
+
 'Click on' event created with arguments '_Complex~~~Item 11'
 Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=147 (ID_MENU_C_CHECKED_ITEM_11)'
 
-'Click on' event created with arguments '_Change~~~Check radio item 8'
-Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=152 (ID_MENU_D_ITEM_15)'
+'Click on' event created with arguments '_Change~~~Check radio item 7'
+Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=151 (ID_MENU_D_ITEM_14)'
 
 'Click on' event created with arguments '_Change~~~Toggle check item 13'
 Changed title of frame to 'OnMenu:  type=10010 (EVT_MENU) id=156 (ID_MENU_D_ITEM_19)'
