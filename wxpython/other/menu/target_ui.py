@@ -216,9 +216,8 @@ class MenuFrame(wx.Frame):
             self.toggleEnableMenuItem(self.CheckItem11)
         elif evt_id == ID_MENU_E_ITEM_20:
             self.findChildrenOfWindow(self)
-        tag  = "OnMenu:  type=" + str(evt_type)
-        tag += " (" + evt_type_name[evt_type] + ")"
-        tag += " id=" + str(evt_id) + " (" + id_name[evt_id] + ")"
+        tag  = "OnMenu:  type=" + evt_type_name[evt_type]
+        tag += " id=" + id_name[evt_id]
 #        self.SetStatusText(tag)
         self.SetTitle(tag)
         if TRACE:
