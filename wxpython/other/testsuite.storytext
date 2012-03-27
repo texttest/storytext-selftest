@@ -12,3 +12,6 @@ static_text
 
 # Basic test of wxPython Menu and associated objects
 menu
+
+# Test 2-state and 3-state checkboxes
+checkbox
