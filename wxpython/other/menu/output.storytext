@@ -54,31 +54,31 @@ Note:  The Change menu changes settings in the Complex menu
 
 --------------------------------------------
 
-'Click on' event created with arguments 'Menu _A~~~Item 1'
+'Click on' event created with arguments 'Menu A~~~Item 1'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_MENU_A_ITEM_1'
 
-'Click on' event created with arguments 'Menu _B~~~Item 4'
+'Click on' event created with arguments 'Menu B~~~Item 4'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_MENU_B_ITEM_4'
 
-'Click on' event created with arguments '_Complex~~~Item 9'
+'Click on' event created with arguments 'Complex~~~Item 9'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_MENU_C_RADIO_ITEM_9'
 
-'Click on' event created with arguments '_Complex~~~Submenu~~~Item 5'
+'Click on' event created with arguments 'Complex~~~Submenu~~~Item 5'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_SUBMENU_S_ITEM_5'
 
-'Click on' event created with arguments '_Complex~~~Submenu~~~Item 6'
+'Click on' event created with arguments 'Complex~~~Submenu~~~Item 6'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_SUBMENU_S_ITEM_6'
 
-'Click on' event created with arguments '_Complex~~~Item 11'
+'Click on' event created with arguments 'Complex~~~Item 11'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_MENU_C_CHECKED_ITEM_11'
 
-'Click on' event created with arguments '_Change~~~Check radio item 7'
+'Click on' event created with arguments 'Change~~~Check radio item 7'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_MENU_D_ITEM_14'
 
-'Click on' event created with arguments '_Change~~~Toggle check item 13'
+'Click on' event created with arguments 'Change~~~Toggle check item 13'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_MENU_D_ITEM_19'
 
-'Click on' event created with arguments '_Change~~~Toggle enable item 10'
+'Click on' event created with arguments 'Change~~~Toggle enable item 10'
 Changed title of frame to 'OnMenu:  type=EVT_MENU id=ID_MENU_D_ITEM_19_3'
 
 'Click on X to exit' event created with arguments ''
