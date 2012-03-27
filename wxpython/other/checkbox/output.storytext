@@ -1,0 +1,36 @@
+
+---------- Frame 'CheckBoxes' ----------
+CheckBox 'My 2 State CheckBox' (unchecked)
+
+CheckBox 'My 3 State CheckBox' 0
+----------------------------------------
+
+'Click on 2-state checkbox' event created with arguments 'checked'
+
+Updated CheckBox 'My 2 State CheckBox' (checked)
+
+'Click on 2-state checkbox' event created with arguments 'unchecked'
+
+Updated CheckBox 'My 2 State CheckBox' (unchecked)
+
+'Click on 2-state checkbox' event created with arguments 'checked'
+
+Updated CheckBox 'My 2 State CheckBox' (checked)
+
+'Click on 3-state checkbox' event created with arguments '1'
+
+Updated CheckBox 'My 3 State CheckBox' 1
+
+'Click on 3-state checkbox' event created with arguments '2'
+
+Updated CheckBox 'My 3 State CheckBox' 2
+
+'Click on 3-state checkbox' event created with arguments '0'
+
+Updated CheckBox 'My 3 State CheckBox' 0
+
+'Click on 3-state checkbox' event created with arguments '1'
+
+Updated CheckBox 'My 3 State CheckBox' 1
+
+'Exit' event created with arguments ''
