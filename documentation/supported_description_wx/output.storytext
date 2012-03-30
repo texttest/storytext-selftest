@@ -3,6 +3,7 @@ StoryText trunk is currently capable of recording and replaying. Any type derive
 types is also supported.
 
 wx.Button                : Press
+wx.CheckBox              : Check
 wx.Frame                 : Close , Menu
 wx.ListCtrl              : ListCtrlSelect
 wx.TextCtrl              : TextEnter
@@ -12,6 +13,7 @@ currently capable of monitoring and logging. Any type derived from the listed ty
 is also supported but will only have features of the listed type described.
 
 wx.Button
+wx.CheckBox
 wx.Dialog
 wx.Frame
 wx.ListCtrl

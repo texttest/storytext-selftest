@@ -1,8 +1,8 @@
-Click on 2-state checkbox checked
-Click on 2-state checkbox unchecked
-Click on 2-state checkbox checked
-Click on 3-state checkbox 1
-Click on 3-state checkbox 2
-Click on 3-state checkbox 0
-Click on 3-state checkbox 1
+Click on 2-state checkbox
+Uncheck 2-state checkbox
+Click on 2-state checkbox
+Click on 3-state checkbox
+Set third state on 3-state checkbox
+Uncheck 3-state checkbox
+Click on 3-state checkbox
 Exit
