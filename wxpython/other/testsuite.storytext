@@ -15,3 +15,6 @@ menu
 
 # Test 2-state and 3-state checkboxes
 checkbox
+
+# Test for opening a file with a (native) file dialog
+filedialog

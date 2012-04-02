@@ -1,0 +1,31 @@
+
+---------- Frame 'FileDialog Exercise' ----------
+
+Menubar:
+    >>>
+    File (+)
+
+    File menu
+        Open
+    --------------------
+        Save As
+    --------------------
+        Exit
+
+========== TextCtrl ==========
+
+==============================
+
+-------------------------------------------------
+
+'choose menu' event created with arguments 'File~~~Open'
+Changed title of frame to 'Open /home/geoff/.texttest/tmp/storytext.02Apr222614.6033/storytext/wxpython/other/filedialog/target_ui.py'
+
+'select file' event created with arguments 'target_ui.py'
+
+'choose menu' event created with arguments 'File~~~Save As'
+Changed title of frame to 'Save as /home/geoff/.texttest/tmp/storytext.02Apr222614.6033/storytext/wxpython/other/filedialog/somefile'
+
+'save as' event created with arguments 'somefile'
+
+'close' event created with arguments ''

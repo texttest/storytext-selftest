@@ -1,0 +1,5 @@
+choose menu File~~~Open
+select file target_ui.py
+choose menu File~~~Save As
+save as somefile
+close

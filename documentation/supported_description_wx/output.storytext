@@ -4,6 +4,7 @@ types is also supported.
 
 wx.Button                : Press
 wx.CheckBox              : Check , CheckThirdState , Uncheck
+wx.FileDialog            : SelectFile
 wx.Frame                 : Close , Menu
 wx.ListCtrl              : ListCtrlSelect
 wx.TextCtrl              : TextEnter
