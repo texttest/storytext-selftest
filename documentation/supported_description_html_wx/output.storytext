@@ -5,7 +5,7 @@ types is also supported.
 </div>
 <div class="Text_Normal"><table border=1 cellpadding=1 cellspacing=1>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.Button-class.html>wx.Button</a></td><td><div class="Table_Text_Normal">Press</div></td></tr>
-<tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.CheckBox-class.html>wx.CheckBox</a></td><td><div class="Table_Text_Normal">Check</div></td></tr>
+<tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.CheckBox-class.html>wx.CheckBox</a></td><td><div class="Table_Text_Normal">Check , CheckThirdState , Uncheck</div></td></tr>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.Frame-class.html>wx.Frame</a></td><td><div class="Table_Text_Normal">Close , Menu</div></td></tr>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.ListCtrl-class.html>wx.ListCtrl</a></td><td><div class="Table_Text_Normal">ListCtrlSelect</div></td></tr>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.TextCtrl-class.html>wx.TextCtrl</a></td><td><div class="Table_Text_Normal">TextEnter</div></td></tr>
