@@ -1,0 +1,31 @@
+
+---------- Frame 'FileDialog Exercise' ----------
+
+Menubar:
+    >>>
+    File (+)
+
+    File menu
+        Open
+    --------------------
+        Save As
+    --------------------
+        Exit
+
+========== TextCtrl ==========
+
+==============================
+
+-------------------------------------------------
+
+'Auto.MyFrame.Menu.'Title=FileDialog Exercise'' event created with arguments 'File~~~Open'
+Changed title of frame to 'Open /home/geoff/.texttest/tmp/dynamic_gui.03Apr214904.3964/storytext.nouimap/wxpython/widgets/filedialog/target_ui.py'
+
+'Auto.FileDialog.SelectFile.'Title=Open a File'' event created with arguments 'target_ui.py'
+
+'Auto.MyFrame.Menu.'Title=FileDialog Exercise'' event created with arguments 'File~~~Save As'
+Changed title of frame to 'Save as /home/geoff/.texttest/tmp/dynamic_gui.03Apr214904.3964/storytext.nouimap/wxpython/widgets/filedialog/somefile'
+
+'Auto.FileDialog.SelectFile.'Title=Save As'' event created with arguments 'somefile'
+
+'Auto.MyFrame.Close.'Title=FileDialog Exercise'' event created with arguments ''
