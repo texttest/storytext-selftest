@@ -78,7 +78,7 @@ def createNode(x, y, color=None, border=True, cls=None, text=None, width=50, hei
 def getContents():
     panel = draw2d.Figure()
     panel.setBounds(draw2d.geometry.Rectangle(0,0,500,440))
-    rect = createNode(40, 40, border=False, color=draw2d.ColorConstants.yellow, text="topleft", width=100, height=120)
+    rect = createNode(40, 40, border=False, color=draw2d.ColorConstants.yellow, text="topleft", width=100, height=160)
     rect.addText("topmid", x=50)
     rect.addText("centre", x=50, y=40)
     rect.addText("bottomleft", y=80)
@@ -88,6 +88,8 @@ def getContents():
     rect.addRectangle(awtToSwtColor(Color.orange), 0, 40, 50, 40)
     rect.addRectangle(draw2d.ColorConstants.orange, 0, 78, 50, 40)
     rect.addRectangle(draw2d.ColorConstants.red, 50, 78, 50, 40)
+    rect.addRectangle(draw2d.FigureUtilities.lighter(draw2d.ColorConstants.red), 0, 120, 50, 40)
+    rect.addRectangle(draw2d.FigureUtilities.darker(draw2d.ColorConstants.orange), 50, 120, 50, 40)
     panel.add(rect)
     return panel
 
