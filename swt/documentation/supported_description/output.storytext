@@ -15,7 +15,7 @@ org.eclipse.swt.widgets.Shell           : Close , Resize
 org.eclipse.swt.widgets.TabFolder       : Selection
 org.eclipse.swt.widgets.Table           : MouseDown , Selection
 org.eclipse.swt.widgets.TableColumn     : Selection
-org.eclipse.swt.widgets.Text            : DefaultSelection , Modify
+org.eclipse.swt.widgets.Text            : Activate , Modify
 org.eclipse.swt.widgets.ToolItem        : Selection
 org.eclipse.swt.widgets.Tree            : Collapse , DefaultSelection , Expand , Selection
 

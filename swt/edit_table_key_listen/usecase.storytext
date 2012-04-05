@@ -1,0 +1,13 @@
+select cell info for item 4
+set cell contents to Real Value
+perform cell edit
+select cell id for item 2
+select cell id for item 2
+add row
+select cell id for extra item
+set cell contents to new item
+perform cell edit
+select cell Nonsense
+select cell info for Nonsense
+select cell Nonsense for item 4
+close window
