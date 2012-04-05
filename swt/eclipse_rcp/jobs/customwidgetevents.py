@@ -1,6 +1,9 @@
 
 from storytext.javaswttoolkit import simulator as swtsimulator
+from storytext.javarcptoolkit import jobsynchroniser
 import org.eclipse.swtbot.swt.finder as swtbot
+# Test we can request this
+jobsynchroniser.JobListener.systemJobNames.append("close dialog")
 
 class ButtonSelectEvent(swtsimulator.SelectEvent):
     def _generate(self, *args):

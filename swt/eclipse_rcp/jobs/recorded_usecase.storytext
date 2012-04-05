@@ -1,4 +1,5 @@
 start job 1
 wait for completion of job 1
 accept job completion dialog
+wait for completion of close dialog
 close window

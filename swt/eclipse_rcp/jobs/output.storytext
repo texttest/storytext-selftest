@@ -42,4 +42,8 @@ Expected application event 'completion of job 1' occurred, proceeding.
 'accept job completion dialog' event created with arguments ''
 We faked a button click!
 
+Waiting for application event 'completion of close dialog' to occur.
+
+Expected application event 'completion of close dialog' occurred, proceeding.
+
 'close window' event created with arguments ''
