@@ -1,3 +1,4 @@
+wait for nothing to happen
 receive signal SIGQUIT
 wait for first sleep to complete, second sleep to complete
 receive signal SIGINT

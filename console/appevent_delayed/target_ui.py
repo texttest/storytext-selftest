@@ -10,6 +10,7 @@ signal.signal(signal.SIGQUIT, handleSignal)
 signal.signal(signal.SIGINT, handleSignal)
 
 time.sleep(0.5)
+applicationEvent("nothing to happen")
 applicationEvent("first sleep to complete", "first", delayLevel=1)
 time.sleep(5)
 time.sleep(0.5)
