@@ -4,6 +4,7 @@ types is also supported.
 
 wx.Button                : Press
 wx.CheckBox              : Check , CheckThirdState , Uncheck
+wx.Choice                : Choose
 wx.FileDialog            : SelectFile
 wx.Frame                 : Close , Menu
 wx.ListCtrl              : ListCtrlSelect
@@ -15,6 +16,7 @@ is also supported but will only have features of the listed type described.
 
 wx.Button
 wx.CheckBox
+wx.Choice
 wx.Dialog
 wx.Frame
 wx.ListCtrl
