@@ -15,3 +15,6 @@ menu
 
 # Test 2-state and 3-state checkboxes
 checkbox
+
+# Test StoryText implementation of wx.Choice, choosing from a list of strings.
+choice
