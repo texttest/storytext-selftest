@@ -1,0 +1,26 @@
+
+---------- Frame 'Choice Exercise' ----------
+Choice 'My Choice': item A, item B, item C, item D (NO SELECTION)
+---------------------------------------------
+
+'Choose' event created with arguments 'item D'
+Changed title of frame to 'Selected Item: 'item D' at index 3'
+
+Updated Choice 'My Choice': item A, item B, item C, item D (item D)
+
+'Choose' event created with arguments 'item C'
+Changed title of frame to 'Selected Item: 'item C' at index 2'
+
+Updated Choice 'My Choice': item A, item B, item C, item D (item C)
+
+'Choose' event created with arguments 'item B'
+Changed title of frame to 'Selected Item: 'item B' at index 1'
+
+Updated Choice 'My Choice': item A, item B, item C, item D (item B)
+
+'Choose' event created with arguments 'item A'
+Changed title of frame to 'Selected Item: 'item A' at index 0'
+
+Updated Choice 'My Choice': item A, item B, item C, item D (item A)
+
+'Exit app' event created with arguments ''
