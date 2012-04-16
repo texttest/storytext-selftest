@@ -44,7 +44,10 @@ class TextRectangle(draw2d.RectangleFigure):
     addText = setText
 
     def paintFigure(self, graphics):
+        alpha = graphics.getAlpha()
+        graphics.setAlpha(50)
         draw2d.RectangleFigure.paintFigure(self, graphics)
+        graphics.setAlpha(alpha)
         loc = self.getLocation()
         for text, x, y in self.texts:
             graphics.drawString(text, loc.x() + x, loc.y() + y) 
