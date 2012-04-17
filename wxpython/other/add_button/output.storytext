@@ -1,0 +1,14 @@
+
+---------- Frame 'Dynamic Button' ----------
+'Press the OK button'
+
+Button '&OK'
+--------------------------------------------
+
+'press ok' event created with arguments ''
+Changed title of frame to 'OK clicked: Now click on Continue'
+
+'press continue' event created with arguments ''
+Changed title of frame to 'Continue Button Was Pressed'
+
+'close' event created with arguments ''

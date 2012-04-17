@@ -18,3 +18,6 @@ checkbox
 
 # Test StoryText implementation of wx.Choice, choosing from a list of strings.
 choice
+
+# Handle button that gets added dynamically
+add_button
