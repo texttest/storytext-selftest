@@ -2,7 +2,7 @@
 ---------- Frame 'Dynamic Button' ----------
 'Press the OK button'
 
-Button '&OK'
+Button 'OK'
 --------------------------------------------
 
 'press ok' event created with arguments ''

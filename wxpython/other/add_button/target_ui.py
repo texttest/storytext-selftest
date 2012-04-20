@@ -24,7 +24,7 @@ class MyFrame(wx.Frame):
         m_text.SetSize(m_text.GetBestSize())
         box.Add(m_text, 0, wx.ALL, 10)
 
-        buttonOK = wx.Button(self.panel, wx.ID_OK)
+        buttonOK = wx.Button(self.panel, wx.ID_OK, "OK")
         buttonOK.Bind(wx.EVT_BUTTON, self.OnOK)
         box.Add(buttonOK, 0, wx.ALL, 10)
         
