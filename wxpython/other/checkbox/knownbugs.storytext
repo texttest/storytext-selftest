@@ -1,0 +1,8 @@
+
+[Reported by Windows at 20Apr13:57:58]
+search_string:Click on
+trigger_on_absence:1
+search_file:recorded_usecase
+ignore_other_errors:1
+bug_system:jira
+bug_id:TTT-2708
