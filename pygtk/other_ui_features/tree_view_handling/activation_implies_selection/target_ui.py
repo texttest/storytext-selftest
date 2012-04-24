@@ -5,6 +5,7 @@
 import pygtk
 pygtk.require('2.0')
 import gtk
+from storytext import applicationEvent
 
 class BasicTreeViewExample:
 
@@ -49,11 +50,16 @@ class BasicTreeViewExample:
 
         # make it searchable
         self.treeview.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
+        self.treeview.get_selection().connect("changed", self.selection_changed)
         self.treeview.expand_all()
 
         self.window.add(self.treeview)
 
         self.window.show_all()
+   
+    def selection_changed(self, selection, *args):
+        applicationEvent("selection to be changed")
+
 
         
 
@@ -62,4 +68,5 @@ def main():
 
 if __name__ == "__main__":
     tvexample = BasicTreeViewExample()
+    applicationEvent("application to start")
     main()

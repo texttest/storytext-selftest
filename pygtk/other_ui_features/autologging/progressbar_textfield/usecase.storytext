@@ -1,0 +1,10 @@
+wait for progress bar to be updated, progress to reach 2%, unreliable progress to reach 2%
+set text1 to a
+wait for progress bar to be updated, progress to reach 4%
+set text1 to abc
+wait for progress bar to be updated, progress to reach 6%
+set text2 to a
+wait for progress bar to be updated, progress to reach 8%, unreliable progress to reach 8%
+set text2 to abc
+wait for progress bar to be updated, progress to reach 10%
+close application

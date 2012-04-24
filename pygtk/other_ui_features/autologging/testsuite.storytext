@@ -1,6 +1,9 @@
 # Test for logging the gtk.ProgressBar
 progressbar
 
+# Test for updating a textfield repeatedly from a progress bar: don't record too much!
+progressbar_textfield
+
 # Test for various toolitems, menuitems etc and associated accelerators and tooltips
 action_widgets
 

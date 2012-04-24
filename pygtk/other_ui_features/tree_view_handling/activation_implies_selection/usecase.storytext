@@ -1,3 +1,5 @@
+wait for application to start
 select row leaf
+wait for selection to be changed
 activate row leaf
 close application

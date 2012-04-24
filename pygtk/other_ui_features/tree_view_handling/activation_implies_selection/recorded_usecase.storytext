@@ -1,2 +1,4 @@
+wait for selection to be changed
 activate row leaf
+wait for selection to be changed
 close application

@@ -1,0 +1,67 @@
+
+Waiting for application event 'progress bar to be updated' to occur.
+Waiting for application event 'progress to reach 2%' to occur.
+Waiting for application event 'unreliable progress to reach 2%' to occur.
+
+---------- Window 'ProgressBar' ----------
+Default widget is 'close'
+Progress bar set to fraction 0.0
+---------------
+Text entry
+Text entry
+Button 'close'
+------------------------------------------
+
+Progress bar set to fraction 0.02
+
+Expected application event 'progress bar to be updated' occurred, proceeding.
+Expected application event 'progress to reach 2%' occurred, proceeding.
+Expected application event 'unreliable progress to reach 2%' occurred, proceeding.
+
+'set text1 to' event created with arguments 'a'
+
+Waiting for application event 'progress bar to be updated' to occur.
+Waiting for application event 'progress to reach 4%' to occur.
+Edited 'Entry1' Text entry (set to 'a')
+
+Progress bar set to fraction 0.04
+
+Expected application event 'progress bar to be updated' occurred, proceeding.
+Expected application event 'progress to reach 4%' occurred, proceeding.
+
+'set text1 to' event created with arguments 'abc'
+
+Waiting for application event 'progress bar to be updated' to occur.
+Waiting for application event 'progress to reach 6%' to occur.
+Edited 'Entry1' Text entry (set to 'abc')
+
+Progress bar set to fraction 0.06
+
+Expected application event 'progress bar to be updated' occurred, proceeding.
+Expected application event 'progress to reach 6%' occurred, proceeding.
+
+'set text2 to' event created with arguments 'a'
+
+Waiting for application event 'progress bar to be updated' to occur.
+Waiting for application event 'progress to reach 8%' to occur.
+Waiting for application event 'unreliable progress to reach 8%' to occur.
+Edited 'Entry2' Text entry (set to 'a')
+
+Progress bar set to fraction 0.08
+
+Expected application event 'progress bar to be updated' occurred, proceeding.
+Expected application event 'progress to reach 8%' occurred, proceeding.
+Expected application event 'unreliable progress to reach 8%' occurred, proceeding.
+
+'set text2 to' event created with arguments 'abc'
+
+Waiting for application event 'progress bar to be updated' to occur.
+Waiting for application event 'progress to reach 10%' to occur.
+Edited 'Entry2' Text entry (set to 'abc')
+
+Progress bar set to fraction 0.1
+
+Expected application event 'progress bar to be updated' occurred, proceeding.
+Expected application event 'progress to reach 10%' occurred, proceeding.
+
+'close application' event created with arguments ''
