@@ -1,0 +1,5 @@
+# Test for browser widgets
+basic
+
+# Test for browser widgets containing nested tables
+nested_tables

@@ -49,12 +49,6 @@ link
 # Test we can handle datetimes of various sorts...
 datetime
 
-# Test for browser widgets
-browser
-
-# Test for browser widgets containing nested tables
-browser_nested_tables
-
 # Sort by column headers, including those added later
 sort_table
 
@@ -78,6 +72,9 @@ clipboard
 
 # Make sure we get a sensible message if a label becomes empty
 label_text_becomes_empty
+
+# Tests for Browser widgets
+browsers
 
 # Stuff to do with trees...
 trees

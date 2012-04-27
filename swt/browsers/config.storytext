@@ -1,0 +1,3 @@
+# Browsers can need special configuration as they rely on e.g. the correct 
+# version of Firefox etc being installed 
+import_config_file:site_swt_browser_config
