@@ -13,6 +13,9 @@ bad_python_version
 # Check what happens if there isn't a usecase and the target program isn't a UI
 no_usecase
 
+# Fail gracefully if parsing the UI map file fails
+bad_ui_map_file
+
 # The menubar has a check menu item which makes the buttons invisible.
 # This test demonstrates the PyUseCase 'bug'/feature that invisible 
 # buttons can be pressed via usecase scripts. (the buttons are hidden,
