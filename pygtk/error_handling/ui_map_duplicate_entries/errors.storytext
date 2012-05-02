@@ -1,0 +1,1 @@
+WARNING: UI map file(s) at /carm/proj/texttest-tmp/geoff/storytext.02May164757.15343/storytext/pygtk/error_handling/ui_map_duplicate_entries/usecases/ui_map.conf has duplicated sections for widgets identified by 'Label=Add', the earlier ones will be ignored.
