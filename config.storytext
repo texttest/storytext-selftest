@@ -26,6 +26,7 @@ externalmocks:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
 externalmocks:PATH[:;][^ ]*[/\\]bin{REPLACE PATH:<path_to_bin_dir>/bin}
 
 # Various tests print path separators, fix for windows
+errors:\\{REPLACE /}
 output:\\{REPLACE /}
 externalmocks:\\{REPLACE /}
 externalmocks:"<texttest tmp dir>([^"]*)"{REPLACE <texttest tmp dir>\1}
