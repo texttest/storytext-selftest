@@ -11,7 +11,7 @@ Context Menu 1:
 
 
 Context Menu 2:
-  Popup
+  Popup (greyed out)
 ------------------------------
 
 'select row' event created with arguments 'Initial - 2'
@@ -24,6 +24,9 @@ Updated Tree (Context Menu 1) :
 
 'ask question' event created with arguments ''
 In a tree!
+
+Updated Context Menu:
+  Popup
 
 'cause other popup' event created with arguments ''
 Clicked menu

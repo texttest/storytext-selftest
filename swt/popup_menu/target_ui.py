@@ -44,10 +44,12 @@ label.pack()
 menu = Menu(shell, SWT.POP_UP)
 item = MenuItem(menu, SWT.PUSH)
 item.setText("Popup")
+item.setEnabled(False)
 c2.setMenu(menu)
 menu2 = Menu(shell, SWT.POP_UP)
 item2 = MenuItem(menu2, SWT.PUSH)
 item2.setText("Popup")
+item2.setEnabled(False)
 label.setMenu(menu2)
 
 class PrintListener(Listener):
@@ -58,6 +60,8 @@ class PrintListener(Listener):
 class TreePrintListener(Listener):
     def handleEvent(self, e):
         print "In a tree!"
+        item.setEnabled(True)
+        item2.setEnabled(True)
 
 item.addListener(SWT.Selection, PrintListener())
 item2.addListener(SWT.Selection, PrintListener())
