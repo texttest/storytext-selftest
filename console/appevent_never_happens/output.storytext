@@ -1,7 +1,9 @@
 
 Waiting for application event 'something impossible' to occur.
+Waiting for application event 'first sleep to complete' to occur.
 
 ERROR: Expected application event 'something impossible' timed out after 3 seconds! Trying to proceed.
+Expected application event 'first sleep to complete' occurred, proceeding.
 
 Generating signal SIGINT
 Interrupted while sleeping for 5 seconds.
