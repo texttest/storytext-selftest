@@ -1,4 +1,6 @@
 set name to John
 set city to London
+# Test we don't pick up changes to the same value
+set name to John
 describe choices
 close window
