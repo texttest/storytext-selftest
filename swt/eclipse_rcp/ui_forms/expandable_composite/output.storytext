@@ -1,0 +1,43 @@
+
+---------- Shell 'UI Forms RCP Application' ----------
+Menu Bar:
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1 (greyed out)
+    Show in View 2 (greyed out)
+    Show Info View
+
+TabFolder with tabs View (Icon 'defaultview_misc.gif', selected)
+
+Canvas 1
+
+Canvas 2
+
+Expandable 'ExpandableComposite - TWISTIE style' (collapsed)
+
+Expandable 'ExpandableComposite - TREE_NODE style' (collapsed)
+
+------------------------------------------------------
+
+'activate' event created with arguments 'View'
+
+'click on Twistie style' event created with arguments ''
+
+Updated Expandable 'ExpandableComposite - TWISTIE style' (expanded)
+  'Content'
+
+'click on Tree node style' event created with arguments ''
+
+Updated Expandable 'ExpandableComposite - TREE_NODE style' (expanded)
+  'Content, Content,'
+
+'click on Twistie style' event created with arguments ''
+
+Updated Expandable 'ExpandableComposite - TWISTIE style' (collapsed)
+
+'click on Tree node style' event created with arguments ''
+
+Updated Expandable 'ExpandableComposite - TREE_NODE style' (collapsed)
+
+'close window' event created with arguments ''

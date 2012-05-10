@@ -6,3 +6,4 @@ jobs
 
 # Test for activating different parts
 part_activation
+ui_forms
