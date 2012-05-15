@@ -1,0 +1,21 @@
+
+---------- Frame 'Popup Menu Example' ----------
+
+Menubar:
+    >>>
+    Menu (+)
+
+    Menu menu
+        Exit
+
+'Right-click on the panel to show a popup menu'
+
+------------------------------------------------
+
+'choose context menu item' event created with arguments 'Three'
+Changed title of frame to 'Popup three'
+
+'choose context menu item' event created with arguments 'Submenu~~~Subsubmenu~~~subsubmenu - Eight'
+Changed title of frame to 'Popup eight'
+
+'close' event created with arguments ''
