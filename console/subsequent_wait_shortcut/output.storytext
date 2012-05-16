@@ -3,6 +3,7 @@ Initial 'wait for first sleep to complete', not starting replayer
 Waiting for application event 'first sleep to complete' to occur.
 Replayer got application event 'first sleep to complete'
 Waiting completed, proceeding...
+Spawning replay thread...
 Sleeping for 0.001 seconds...
 
 Expected application event 'first sleep to complete' occurred, proceeding.
@@ -10,11 +11,13 @@ About to perform 'receive signal' with arguments 'SIGQUIT'
 
 Generating signal SIGQUIT
 Signal SIGQUIT has been sent
+Script 'first wait and receive' has terminated when checked, removing from list
 
 Waiting for application event 'second sleep to complete' to occur.
 Suspending replay waiting for event 'second sleep to complete'
 Replayer got application event 'second sleep to complete'
 Waiting completed, proceeding...
+Spawning replay thread...
 Sleeping for 0.001 seconds...
 
 Expected application event 'second sleep to complete' occurred, proceeding.
@@ -22,3 +25,4 @@ About to perform 'receive signal' with arguments 'SIGINT'
 
 Generating signal SIGINT
 Signal SIGINT has been sent
+Script 'usecase' has terminated when checked, removing from list
