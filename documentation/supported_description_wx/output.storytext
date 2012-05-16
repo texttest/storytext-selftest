@@ -9,6 +9,7 @@ wx.FileDialog            : SelectFile
 wx.Frame                 : Close , Menu
 wx.ListCtrl              : ListCtrlSelect
 wx.TextCtrl              : TextEnter
+wx.Window                : ContextMenu
 
 The following lists the wxPython widget types whose status and changes StoryText trunk is 
 currently capable of monitoring and logging. Any type derived from the listed types 
