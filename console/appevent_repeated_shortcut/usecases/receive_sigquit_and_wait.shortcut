@@ -1,0 +1,2 @@
+receive signal SIGQUIT
+wait for normal sleep to complete

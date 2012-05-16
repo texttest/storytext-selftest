@@ -28,6 +28,9 @@ appevent_happens_thrice
 # Handle events that have already occurred
 appevent_already_happened
 
+# Handle a shortcut ending in an application event that gets used several times
+appevent_repeated_shortcut
+
 # Check there is a timeout on things that never happen
 appevent_never_happens
 
