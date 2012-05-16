@@ -22,8 +22,8 @@ toolbar
 # Check descriptions when toolbar buttons have images on them
 toolbar_images
 
-# Toolbar with a dropdown item in it
-toolbar_dropdown
+# Toolbar with a dropdown item in it. Also non-initial shortcut
+toolbar_dropdown_shortcut
 
 # Test we can handle expandbar descriptions and state changes.
 expandbar
