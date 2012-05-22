@@ -1,6 +1,9 @@
 # Test we can handle a confirmation dialog when closing a window
 closure_confirm
 
+# Test we can handle a confirmation dialog when closing a window
+closure_confirm_appevents
+
 # Test we can handle several dialogs nested inside one another
 nested
 

@@ -1,0 +1,43 @@
+
+---------- Shell 'Main Window' ----------
+'Name'  ========== Text ==========
+
+        ==========================
+'City'  ========== Text ==========
+
+        ==========================
+
+-----------------------------------------
+
+'set name to' event created with arguments 'xxx'
+
+Waiting for application event 'text update to complete' to occur.
+
+Updated Name Field
+========== Text ==========
+xxx
+==========================
+
+Expected application event 'text update to complete' occurred, proceeding.
+
+'set city to' event created with arguments 'xxx'
+
+Waiting for application event 'text update to complete' to occur.
+
+Updated City Field
+========== Text ==========
+xxx
+==========================
+
+Expected application event 'text update to complete' occurred, proceeding.
+
+'close window' event created with arguments ''
+
+---------- Shell 'Information' ----------
+'You're exiting!'
+
+Button 'OK'
+
+-----------------------------------------
+
+'agree with message' event created with arguments ''

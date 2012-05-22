@@ -1,0 +1,6 @@
+set name to xxx
+wait for text update to complete
+set city to xxx
+wait for text update to complete
+close window
+agree with message
