@@ -60,7 +60,13 @@ class DialogListener(Listener):
             if not dialogDisplay.readAndDispatch():
                 dialogDisplay.sleep()
         
+class AppEventRunnable(Runnable):
+    def run(self):
+        x = Event()
+        x.text = "shell to be created"
+        shell.notifyListeners(1234, x)
 
+display.timerExec(1000, AppEventRunnable())
 shell.setText("Main Window")
 button = Button(shell, SWT.NONE)
 button.setText("Open a dialog")

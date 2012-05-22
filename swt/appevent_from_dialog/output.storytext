@@ -1,8 +1,12 @@
 
+Waiting for application event 'shell to be created' to occur.
+
 ---------- Shell 'Main Window' ----------
 Button 'Open a dialog'
 
 -----------------------------------------
+
+Expected application event 'shell to be created' occurred, proceeding.
 
 'open dialog' event created with arguments ''
 

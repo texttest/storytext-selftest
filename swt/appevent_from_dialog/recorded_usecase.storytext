@@ -1,3 +1,4 @@
+wait for shell to be created
 open dialog
 press disable button
 wait for button to be disabled
