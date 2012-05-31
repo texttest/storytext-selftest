@@ -2,19 +2,19 @@
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/pygtk/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/pygtk/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
-Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
+Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
 'Auto.FileChooserDialog.current-folder-changed.'Title=Open..'' event created with arguments 'subdir2'
 
-Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/pygtk/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
 
 'Auto.FileChooserDialog.selection-changed.'Title=Open..'' event created with arguments 'file1.txt'
 
-Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/pygtk/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
 
 'Auto.FileChooserDialog.response.ok.'Title=Open..'' event created with arguments ''
-/home/geoff/.texttest/tmp/pyusecase.21Jan223032.8207/pyusecase.nouimap/pygtk/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt selected
+/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt selected

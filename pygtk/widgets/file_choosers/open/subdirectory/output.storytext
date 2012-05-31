@@ -2,15 +2,15 @@
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.18Dec223239.14946/pyusecase/pygtk/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir')
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.18Dec223239.14946/pyusecase/pygtk/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir2
-Button 'gtk-open' (Stock image 'gtk-open') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir2
+Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
 'look in folder' event created with arguments 'subsubdir'
 
-Updated : FileChooserWidget (selected '/home/geoff/.texttest/tmp/pyusecase.18Dec223239.14946/pyusecase/pygtk/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt')
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt')
 
 'open selected file' event created with arguments ''
-/home/geoff/.texttest/tmp/pyusecase.18Dec223239.14946/pyusecase/pygtk/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt selected
+/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt selected

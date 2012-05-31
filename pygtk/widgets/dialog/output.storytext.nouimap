@@ -25,7 +25,7 @@ Updated : Movie Tree with columns: Movie Name
 Focus widget is 'gtk-ok'
 'Movie 'Star Wars' has already been added'
 ---------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
+Stock Button 'gtk-ok'
 ------------------------------------------------
 
 'Auto.Dialog.response.accept.'Title=VideoStore Error!'' event created with arguments ''

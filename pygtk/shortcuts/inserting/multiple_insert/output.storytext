@@ -58,7 +58,7 @@ Edited 'Movie Name' Text entry (set to 'Star Wars')
 Focus widget is 'gtk-ok'
 'Movie 'Star Wars' has already been added'
 ---------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
+Stock Button 'gtk-ok'
 ------------------------------------------------
 
 'set new movie name to' event created with arguments 'Die Hard'
@@ -70,7 +70,7 @@ Edited 'Movie Name' Text entry (set to 'Die Hard')
 Focus widget is 'gtk-ok'
 'Movie 'Die Hard' has already been added'
 ---------------
-Button 'gtk-ok' (Stock image 'gtk-ok')
+Stock Button 'gtk-ok'
 ------------------------------------------------
 
 'close' event created with arguments ''

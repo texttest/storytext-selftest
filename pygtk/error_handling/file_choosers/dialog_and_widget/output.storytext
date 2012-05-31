@@ -3,7 +3,7 @@
 Default widget is 'gtk-save'
 
 Showing FileChooserWidget
-Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 -----------------------------------------------------
 
 'cancel original save' event created with arguments ''
@@ -15,7 +15,7 @@ Default widget is 'gtk-save'
 Showing FileChooserWidget
 Check button 'Make the file readonly'
 ---------------
-Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 ------------------------------------------------------
 
 'perform widget save' event created with arguments ''

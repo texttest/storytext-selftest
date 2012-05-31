@@ -4,8 +4,8 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Shortcut folders (1) :
-- /home/geoff/.texttest/tmp/pyusecase.22Oct220729.8679/pyusecase.instnomap/pygtk/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2
-Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'gtk-cancel')
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2
+Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
 'change to folder' event created with arguments 'subdir2'
@@ -13,4 +13,4 @@ Button 'gtk-save' (Stock image 'gtk-save') , Button 'gtk-cancel' (Stock image 'g
 'enter file name for save =' event created with arguments 'file3.txt'
 
 'save selected file' event created with arguments ''
-Saving to /home/geoff/.texttest/tmp/pyusecase.22Oct220729.8679/pyusecase.instnomap/pygtk/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2/file3.txt
+Saving to /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2/file3.txt
