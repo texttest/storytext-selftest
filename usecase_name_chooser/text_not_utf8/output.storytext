@@ -18,7 +18,7 @@ Något annat på svenska
 ?
 =================================
 ---------------
-Button 'gtk-cancel' (Stock image 'gtk-cancel') , Button 'gtk-ok' (Stock image 'gtk-ok')
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'changed' on Entry 'Name=Textfältet' =' event created with arguments 'set movie name to'

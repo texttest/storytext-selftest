@@ -70,7 +70,7 @@ Viewing table with 31 rows and 4 columns.
 ?
 =================================
 ---------------
-Button 'gtk-cancel' (Stock image 'gtk-cancel') , Button 'gtk-ok' (Stock image 'gtk-ok')
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 ----------------------------------------------------------------------------
 
 'enter usecase name for signal 'clicked' on Button 'Type=Button' =' event created with arguments 'click'
