@@ -24,7 +24,7 @@ if os.pathsep == ";": # Windows. Quoting gets destroyed by Browser there, don't 
 <tr><td>Non-breaking spaces:</td><td>Hello &nbsp; world</td></tr>
 </table></td>
 </tr></table></td></tr>
-</td></tr></table></body>"""
+</table></body>"""
 else:
     html = '''<head><style type="text/css">
 body {background-color:#FFFFFF;font:12px arial,sans-serif} table {font:12px arial,sans-serif}</style>
@@ -37,7 +37,7 @@ body {background-color:#FFFFFF;font:12px arial,sans-serif} table {font:12px aria
 <tr><td>Non-breaking spaces:</td><td>Hello &nbsp; world</td></tr>
 </tbody></table></td>
 </tr></tbody></table></td></tr>
-</td></tr></tbody></table></body>'''
+</tbody></table></body>'''
 
 from org.eclipse.swt import *
 from org.eclipse.swt.widgets import *
