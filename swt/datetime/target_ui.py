@@ -18,6 +18,7 @@ calendar = DateTime(shell, SWT.CALENDAR)
 calendar.setData("org.eclipse.swtbot.widget.key", "The Calendar")
 # Month starts from 0, oh yes!
 calendar.setDate(1975, 1, 18)
+calendarDay = 18
 gridData = GridData()
 gridData.horizontalSpan = 2
 calendar.setLayoutData(gridData)
@@ -32,7 +33,10 @@ time.setTime(14, 0, 0)
     
 class PrintListener(Listener):
     def handleEvent(self, e):
-        print "Calendar changed"
+        global calendarDay
+        if e.widget.getDay() != calendarDay:
+            print "Calendar changed"
+            calendarDay = e.widget.getDay()
 
 class PrintListener2(Listener):
     def handleEvent(self, e):

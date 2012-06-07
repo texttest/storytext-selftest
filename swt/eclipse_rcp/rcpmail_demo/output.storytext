@@ -1,5 +1,5 @@
 
----------- Shell 'RCP Product' ----------
+---------- Shell '' ----------
 Menu Bar:
   &File (cascade)
     Open in &New Window
@@ -15,7 +15,7 @@ Menu Bar:
     Show in View 2 (greyed out)
     Show Info View
   &Help (cascade)
-    &About RCP Product
+    &About
 
 Cool Bar:
   Tool Bar:
@@ -45,7 +45,7 @@ This RCP Application was generated from the PDE Plug-in Project wizard. This sam
 - create a product definition
 ==========================
 
------------------------------------------
+------------------------------
 
 'close message tab' event created with arguments ''
 

@@ -2,7 +2,7 @@
 ---------- Shell 'RCP GEF Draw2d Application' ----------
 Menu Bar:
   File (cascade)
-    Exit	Ctrl+X
+    Exit
 
 TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Unknown Image, selected)
 
@@ -31,7 +31,7 @@ ERROR: Could not find any objects in viewer matching description 'NoSuchNode'
 ---------- Shell 'Save Resource' ----------
 Unknown Image  ''file.graph1' has been modified. Save changes?'
 
-Button '&No'  Button 'Cancel'  Button '&Yes'
+Button '&Yes'  Button '&No'  Button 'Cancel'
 
 -------------------------------------------
 
