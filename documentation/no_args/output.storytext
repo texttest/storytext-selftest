@@ -75,3 +75,6 @@ Options:
                         for quick-and-dirty experimenting. Will result in
                         recorded scripts that are easy to make but hard to
                         read and hard to maintain.
+  -X EXCLUDE_DESCRIBE, --exclude-describe=EXCLUDE_DESCRIBE
+                        Exclude the listed widget class names from being
+                        described in the describer
