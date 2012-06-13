@@ -1,0 +1,27 @@
+
+---------- Shell '' ----------
+Tree :                     'Right Panel'
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+
+------------------------------
+
+'select row' event created with arguments 'Initial - 2'
+
+Updated Tree :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2 (selected)
+-> Initial - 3
+
+'ask question' event created with arguments ''
+In a tree!
+
+'cause other popup' event created with arguments ''
+Clicked menu
+
+Updated 'Right Panel Clicked!'
+
+'close window' event created with arguments ''

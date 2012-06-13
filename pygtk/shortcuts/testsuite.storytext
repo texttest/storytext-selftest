@@ -4,6 +4,10 @@ use_shortcut
 # Make sure a shortcut file can be used, and that arguments can be provided
 use_shortcut_arguments
 
+# Make sure a shortcut file can be used, and that arguments can be provided.
+# Use $1, $2 etc to indicate position
+use_shortcut_numbered_arguments
+
 # Use several different shortcuts in the same usecase
 use_multiple_shortcuts
 

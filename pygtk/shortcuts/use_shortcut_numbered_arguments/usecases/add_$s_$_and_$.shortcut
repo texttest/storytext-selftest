@@ -1,0 +1,4 @@
+set new $1 name to $2
+add movie
+set new $1 name to $3
+add movie

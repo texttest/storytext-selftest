@@ -1,0 +1,5 @@
+# Test we can make use of popup menus
+basic
+
+# Disable menu description
+disable_menu_describer

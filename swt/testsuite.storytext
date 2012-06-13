@@ -10,9 +10,6 @@ checkbox
 # Test we can make use of the menus
 menus
 
-# Test we can make use of popup menus
-popup_menu
-
 # Check we can record window resize and closure
 window_events
 
@@ -72,6 +69,7 @@ clipboard
 
 # Make sure we get a sensible message if a label becomes empty
 label_text_becomes_empty
+popup_menus
 
 # Tests for Browser widgets
 browsers
