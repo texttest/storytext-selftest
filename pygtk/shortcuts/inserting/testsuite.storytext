@@ -4,6 +4,9 @@ basic_insert
 # Check we insert the longest of the two choices, when there is a choice
 insert_longest_shortcut
 
+# Make sure we cope if the command name contains brackets
+handle_brackets
+
 # Don't insert the shortcut if other actions come in between
 other_actions_intervene
 
@@ -11,5 +14,4 @@ other_actions_intervene
 multiple_insert
 
 # Do some of the shortcut, stop, and then do all of it. Don't lose the actions in the first "partial" attempt.
-# 
 insert_after_partial_shortcut
