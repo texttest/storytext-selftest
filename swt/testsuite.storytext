@@ -40,6 +40,9 @@ list
 # Test we can handle comboboxes
 combo
 
+# Test we can handle custom ccomboboxes
+ccombo
+
 # Test we can handle links
 link
 

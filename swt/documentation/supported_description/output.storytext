@@ -2,6 +2,7 @@ The following lists the SWT widget types and the associated event types on them 
 StoryText trunk is currently capable of recording and replaying. Any type derived from the listed
 types is also supported.
 
+org.eclipse.swt.custom.CCombo           : Activate , Modify , Selection
 org.eclipse.swt.custom.CTabFolder       : Selection
 org.eclipse.swt.custom.CTabItem         : Dispose
 org.eclipse.swt.widgets.Button          : Selection
@@ -24,6 +25,7 @@ currently capable of monitoring and logging. Any type derived from the listed ty
 is also supported but will only have features of the listed type described.
 
 org.eclipse.swt.browser.Browser
+org.eclipse.swt.custom.CCombo
 org.eclipse.swt.custom.CLabel
 org.eclipse.swt.custom.CTabFolder
 org.eclipse.swt.widgets.Button

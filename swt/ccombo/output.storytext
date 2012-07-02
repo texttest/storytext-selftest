@@ -1,0 +1,46 @@
+
+---------- Shell '' ----------
+========== CCombo ========== (border)
+
+============================
+
+------------------------------
+
+'select' event created with arguments 'Alpha'
+Selection = 1
+
+Updated ========== CCombo ========== (border)
+Alpha
+============================
+
+'select' event created with arguments 'Bravo'
+Selection = 2
+
+Updated ========== CCombo ========== (border)
+Bravo
+============================
+
+'set text' event created with arguments 'Charlie'
+
+Updated ========== CCombo ========== (border)
+Charlie
+============================
+
+'perform edit' event created with arguments ''
+
+'set text' event created with arguments 'Nonsense'
+
+Updated ========== CCombo ========== (border)
+Nonsense
+============================
+
+'perform edit' event created with arguments ''
+
+'select' event created with arguments 'Charlie'
+Selection = 3
+
+Updated ========== CCombo ========== (border)
+Charlie
+============================
+
+'close' event created with arguments ''

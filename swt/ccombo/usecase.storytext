@@ -1,0 +1,8 @@
+select Alpha
+select Bravo
+set text Charlie
+perform edit
+set text Nonsense
+perform edit
+select Charlie
+close
