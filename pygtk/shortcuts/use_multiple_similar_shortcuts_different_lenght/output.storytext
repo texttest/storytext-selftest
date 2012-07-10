@@ -1,0 +1,45 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar : 'File' (+)
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear' (greyed out)
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+----------------------------------------------
+
+'sort' event created with arguments ''
+
+'set new movie name to' event created with arguments 'Titanic'
+Edited 'Movie Name' Text entry (set to 'Titanic')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Titanic
+
+'set new movie name to' event created with arguments 'Die Hard'
+Edited 'Movie Name' Text entry (set to 'Die Hard')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> Titanic
+-> Die Hard
+
+'set new movie name to' event created with arguments 'Titanic'
+Edited 'Movie Name' Text entry (set to 'Titanic')
+
+'add movie' event created with arguments ''
+
+---------- Dialog 'VideoStore Error!' ----------
+Focus widget is 'gtk-ok'
+'Movie 'Titanic' has already been added'
+---------------
+Stock Button 'gtk-ok'
+------------------------------------------------
+
+'close' event created with arguments ''

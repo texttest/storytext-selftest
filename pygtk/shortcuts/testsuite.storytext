@@ -8,11 +8,9 @@ use_shortcut_arguments
 shortcut_arguments_match_partial
 
 # Handle what happens when we think a shortcut has started and it hasn't :)
-# 
 complex_overlap
 
 # Another case of handling what happens when we think a shortcut has started and it hasn't :)
-# 
 complex_overlap_2
 
 # Make sure a shortcut file can be used, and that arguments can be provided.
@@ -21,6 +19,9 @@ use_shortcut_numbered_arguments
 
 # Use several different shortcuts in the same usecase
 use_multiple_shortcuts
+
+# Use several similar shortcuts, having different length, in the same usecase.
+use_multiple_similar_shortcuts_different_lenght
 
 # Tests for automatic insertion of shortcuts when recording
 inserting
