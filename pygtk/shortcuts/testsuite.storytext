@@ -21,7 +21,10 @@ use_shortcut_numbered_arguments
 use_multiple_shortcuts
 
 # Use several similar shortcuts, having different length, in the same usecase.
-use_multiple_similar_shortcuts_different_lenght
+use_multiple_similar_shortcuts_different_length
+
+# Use several similar shortcuts, having different length, in the same usecase.
+use_multiple_similar_shortcuts_arguments
 
 # Tests for automatic insertion of shortcuts when recording
 inserting
