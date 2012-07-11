@@ -26,6 +26,14 @@ use_multiple_similar_shortcuts_different_length
 # Use several similar shortcuts, having different length, in the same usecase.
 use_multiple_similar_shortcuts_arguments
 
+# If several shortcuts match, use the one with less text in arguments
+# 
+choose_shortcut_shorter_arguments
+
+# Don't get confused if other shortcuts with names that are substrings of this one exist
+# 
+shortcut_name_substring
+
 # Tests for automatic insertion of shortcuts when recording
 inserting
 
