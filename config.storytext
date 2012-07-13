@@ -47,6 +47,7 @@ create_catalogues:true
 copy_test_path:usecases
 copy_test_path:sampledir
 link_test_path:target_ui.py
+link_test_path:target_ui.ui
 link_test_path:customwidgetevents.py
 link_test_path:hildon.py
 link_test_path:readdir

@@ -1,0 +1,11 @@
+
+---------- Dialog 'None' ----------
+Focus widget is 'Say Hello'
+'Hello'
+Button 'Say Hello' , Button 'OK'
+-----------------------------------
+
+'say hello' event created with arguments ''
+Hello!
+
+'press ok' event created with arguments ''
