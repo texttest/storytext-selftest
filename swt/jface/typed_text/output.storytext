@@ -20,11 +20,18 @@ Updated Name Field
 123                         'Most be a real name')
 ==========================
 
-'set name to' event created with arguments '456'
+'set name to' event created with arguments '234'
 
 Updated Name Field
 ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
-456                         'Most be a real name')
+234                         'Most be a real name')
+==========================
+
+'set name to' event created with arguments '567'
+
+Updated Name Field
+========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
+567                         'Most be a real name')
 ==========================
 
 'set city to' event created with arguments 'London'
@@ -35,6 +42,6 @@ London                      'London is in England!')
 ==========================
 
 'describe choices' event created with arguments ''
-You are 456 and you live in London
+You are 567 and you live in London
 
 'close window' event created with arguments ''
