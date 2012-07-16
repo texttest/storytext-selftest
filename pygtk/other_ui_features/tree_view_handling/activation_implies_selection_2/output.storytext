@@ -1,0 +1,23 @@
+
+---------- Window 'Basic TreeView Example' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Column 0
+-> leaf
+-----------------------------------------------------
+
+'select row' event created with arguments 'leaf'
+
+Waiting for application event 'selection to be changed' to occur.
+
+Changed selection in GtkTreeView with columns: Column 0
+-> leaf   ***
+
+Expected application event 'selection to be changed' occurred, proceeding.
+
+'activate row' event created with arguments 'leaf'
+
+Changed selection in GtkTreeView with columns: Column 0
+-> leaf
+
+'close application' event created with arguments ''

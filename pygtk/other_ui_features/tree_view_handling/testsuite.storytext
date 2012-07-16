@@ -3,6 +3,9 @@ selecting_multiple
 
 # We have to single-click to double-click, don't record both
 activation_implies_selection
+
+# A single app event this time...
+activation_implies_selection_2
 model_filter_duplicate_names
 
 # See what happens if we need to handle triple repetition at several levels
