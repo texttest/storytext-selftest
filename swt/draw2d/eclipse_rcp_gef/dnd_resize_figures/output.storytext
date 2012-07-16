@@ -14,8 +14,7 @@ TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Unknown
 'drag' event created with arguments 'Node1 to 54:133'
 
 Updated Canvas :
-        (-green)  (-green)  (-green)
-(-green)
+(-green)  (-green)  (-green)  (-green)
 
 'select' event created with arguments 'Node2'
 
@@ -31,7 +30,7 @@ ERROR: Could not find any objects in viewer matching description 'NoSuchNode'
 ---------- Shell 'Save Resource' ----------
 Unknown Image  ''file.graph1' has been modified. Save changes?'
 
-Button '&Yes'  Button '&No'  Button 'Cancel'
+Button '&No'  Button 'Cancel'  Button '&Yes'
 
 -------------------------------------------
 
