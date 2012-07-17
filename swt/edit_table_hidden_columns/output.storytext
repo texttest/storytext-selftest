@@ -1,0 +1,60 @@
+
+---------- Shell '' ----------
+Table (Context Menu 1) :
+_______________________
+id      info
+_______________________
+item 0  edit this value
+item 1  edit this value
+item 2  edit this value
+item 3  edit this value
+item 4  edit this value
+item 5  edit this value
+item 6  edit this value
+item 7  edit this value
+item 8  edit this value
+item 9  edit this value
+_______________________
+
+
+Context Menu 1:
+  Show/Hide column
+------------------------------
+
+'show or hide a column' event created with arguments ''
+
+Updated Table (Context Menu 1) :
+____________________________________________
+id      info             additional
+____________________________________________
+item 0  edit this value  Add additional info
+item 1  edit this value  Add additional info
+item 2  edit this value  Add additional info
+item 3  edit this value  Add additional info
+item 4  edit this value  Add additional info
+item 5  edit this value  Add additional info
+item 6  edit this value  Add additional info
+item 7  edit this value  Add additional info
+item 8  edit this value  Add additional info
+item 9  edit this value  Add additional info
+____________________________________________
+
+'show or hide a column' event created with arguments ''
+
+Updated Table (Context Menu 1) :
+_______________________
+id      info
+_______________________
+item 0  edit this value
+item 1  edit this value
+item 2  edit this value
+item 3  edit this value
+item 4  edit this value
+item 5  edit this value
+item 6  edit this value
+item 7  edit this value
+item 8  edit this value
+item 9  edit this value
+_______________________
+
+'close window' event created with arguments ''
