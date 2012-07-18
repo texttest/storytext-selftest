@@ -1,0 +1,2 @@
+wait for file.txt to be updated
+receive signal SIGINT

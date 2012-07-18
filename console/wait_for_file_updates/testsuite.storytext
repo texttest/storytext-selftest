@@ -1,0 +1,5 @@
+# Check we can poll files and wait for changes to them
+wait_for_file_update
+
+# Check we can poll files and wait for changes to them
+wait_for_file_update_name

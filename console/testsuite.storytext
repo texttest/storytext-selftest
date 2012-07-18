@@ -61,3 +61,6 @@ supercede_categories
 
 # Test for superceding application event categories, and renaming them also
 supercede_and_rename
+
+# Tests to do with polling files and generating app events
+wait_for_file_updates

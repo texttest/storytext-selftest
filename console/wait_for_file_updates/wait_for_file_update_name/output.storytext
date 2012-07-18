@@ -1,0 +1,9 @@
+
+Waiting for application event 'file to be written' to occur.
+
+Expected application event 'file to be written' occurred, proceeding.
+
+Generating signal SIGINT
+Interrupted while sleeping for 5 seconds.
+File contains Message
+

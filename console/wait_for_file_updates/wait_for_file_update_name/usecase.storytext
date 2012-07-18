@@ -1,0 +1,2 @@
+wait for file to be written
+receive signal SIGINT

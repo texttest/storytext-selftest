@@ -1,0 +1,9 @@
+
+Waiting for application event 'file.txt to be updated' to occur.
+
+Expected application event 'file.txt to be updated' occurred, proceeding.
+
+Generating signal SIGINT
+Interrupted while sleeping for 5 seconds.
+File contains Message
+
