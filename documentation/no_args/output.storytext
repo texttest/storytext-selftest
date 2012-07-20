@@ -23,6 +23,13 @@ Options:
                         type of interface used by application, should be
                         'console', 'gtk', 'tkinter', 'wx', 'javaswing',
                         'javaswt', 'javarcp' or 'javagef' ('gtk' is default)
+  -f FILENAME, --pollfile=FILENAME
+                        file to poll for updates, generating an application
+                        event when it appears or disappears
+  -F EVENTNAME, --pollfile-event-name=EVENTNAME
+                        Only useful with -f. Use as name for generated
+                        application event instead of 'wait for FILENAME to be
+                        updated'
   -I IMAGEDESCRIPTION, --imagedescription=IMAGEDESCRIPTION
                         determines how images are described by the auto-
                         generated output, should be 'name' or 'number'
