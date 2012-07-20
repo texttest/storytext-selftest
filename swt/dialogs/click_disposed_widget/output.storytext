@@ -24,7 +24,6 @@ Hello
 
 'close first dialog' event created with arguments ''
 
-'enter text' event created with arguments 'Something'
-ERROR: widget  of type Text has already been disposed, cannot simulate event 'enter text'
+ERROR: widget of type Text has already been disposed, cannot simulate event 'enter text'
 
 'close window' event created with arguments ''

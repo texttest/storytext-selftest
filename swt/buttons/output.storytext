@@ -4,8 +4,7 @@ Button 'Why?' (Image 1)  Button 'Exit' (greyed out)
 
 ------------------------------
 
-'exit' event created with arguments ''
-ERROR: widget  of type Button is not sensitive to input at the moment, cannot simulate event 'exit'
+ERROR: widget of type Button is not sensitive to input at the moment, cannot simulate event 'exit'
 
 'ask why' event created with arguments ''
 Because.
