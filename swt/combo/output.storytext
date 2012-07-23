@@ -15,6 +15,6 @@ Charlie
 ===========================
 
 'choose item' event created with arguments 'nonsense'
-ERROR: Item `nonsense' not found in combo box.
+ERROR: Could not simulate command 'choose item nonsense' - Item `nonsense' not found in combo box.
 
 'close' event created with arguments ''

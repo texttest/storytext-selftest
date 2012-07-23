@@ -19,6 +19,6 @@ Updated List :
 -> zero
 
 'select' event created with arguments 'nosuchline'
-ERROR: Could not find item 'nosuchline' in ListCtrl.
+ERROR: Could not simulate command 'select nosuchline' - Could not find item 'nosuchline' in ListCtrl.
 
 'close frame' event created with arguments ''

@@ -18,6 +18,6 @@ Toggle button 'NEW' (depressed) , Toggle button 'RESO' (depressed) , Toggle butt
 ------------------------------------------------------
 
 'change title for description' event created with arguments ''
-ERROR: Cannot generate signal 'notify' for  widget of type 'TreeView'
+ERROR: Could not simulate command 'change title for description' - Cannot generate signal 'notify' for  widget of type 'TreeView'
 
 'close application' event created with arguments ''

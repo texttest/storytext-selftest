@@ -33,7 +33,6 @@ Updated Text Field
 Content for Item 1
 ==========================
 
-'select tab' event created with arguments 'no such tab'
-ERROR: Could not find tab labelled 'no such tab' in TabFolder.
+ERROR: Could not simulate command 'select tab no such tab' - Could not find tab labelled 'no such tab' in TabFolder.
 
 'close window' event created with arguments ''

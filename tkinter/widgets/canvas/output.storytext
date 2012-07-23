@@ -25,7 +25,7 @@ Check Button 'A Checkbutton' (checked)
 ============================
 
 'select shape' event created with arguments 'stupid'
-ERROR: Could not find canvas item 'stupid'
+ERROR: Could not simulate command 'select shape stupid' - Could not find canvas item 'stupid'
 
 'select shape' event created with arguments '4'
 Clicked item (4,)

@@ -33,6 +33,6 @@ Did something from a menu!
 ==========================
 
 'choose file option' event created with arguments 'foobar'
-ERROR: Could not find item 'foobar' in menu.
+ERROR: Could not simulate command 'choose file option foobar' - Could not find item 'foobar' in menu.
 
 'choose file option' event created with arguments 'Exit'

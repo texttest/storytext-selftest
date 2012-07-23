@@ -10,10 +10,10 @@ DateTime (date, showing 2/3/1976)  DateTime (time, short, showing 14:00:00)
 ------------------------------
 
 'set calendar to' event created with arguments 'nonsense'
-ERROR: Could not parse date/time argument 'nonsense', not of format 'M/d/yyyy'.
+ERROR: Could not simulate command 'set calendar to nonsense' - Could not parse date/time argument 'nonsense', not of format 'M/d/yyyy'.
 
 'set time to' event created with arguments 'nonsense'
-ERROR: Could not parse date/time argument 'nonsense', not of format 'kk:mm:ss'.
+ERROR: Could not simulate command 'set time to nonsense' - Could not parse date/time argument 'nonsense', not of format 'kk:mm:ss'.
 
 'set calendar to' event created with arguments '3/4/1975'
 Calendar changed

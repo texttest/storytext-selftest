@@ -44,7 +44,6 @@ Updated Views Menu:
   Show in View 2 (greyed out)
   Show Info View
 
-'activate second view' event created with arguments 'NoSuchView'
-ERROR: Could not find View named 'NoSuchView' to activate.
+ERROR: Could not simulate command 'activate second view NoSuchView' - Could not find View named 'NoSuchView' to activate.
 
 'close window' event created with arguments ''

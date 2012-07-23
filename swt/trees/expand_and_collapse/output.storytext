@@ -14,8 +14,7 @@ Updated Tree :
 ->   Branch 0.1
 -> Root 1
 
-'expand' event created with arguments 'No Such Node'
-ERROR: Could not find item labelled 'No Such Node' in tree.
+ERROR: Could not simulate command 'expand No Such Node' - Could not find item labelled 'No Such Node' in tree.
 
 'expand' event created with arguments 'Branch 0.1'
 

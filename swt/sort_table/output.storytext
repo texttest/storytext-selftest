@@ -22,8 +22,7 @@ ________________________________________________________________________________
 
 ------------------------------
 
-'sort rows by' event created with arguments 'Something Nonexistent'
-ERROR: Could not find column labelled 'Something Nonexistent' in table.
+ERROR: Could not simulate command 'sort rows by Something Nonexistent' - Could not find column labelled 'Something Nonexistent' in table.
 
 'sort rows by' event created with arguments 'Location'
 

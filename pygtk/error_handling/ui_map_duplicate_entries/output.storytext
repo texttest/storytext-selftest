@@ -13,6 +13,6 @@ Showing Movie Tree with columns: Movie Name
 
 'set new movie name to' event created with arguments 'Star Wars'
 Edited 'Movie Name' Text entry (set to 'Star Wars')
-ERROR: Could not parse script command 'add movie'
+ERROR: Could not simulate command 'add movie' - could not find matching entry in UI map file.
 
 'close' event created with arguments ''

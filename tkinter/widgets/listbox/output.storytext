@@ -16,6 +16,6 @@ Selected ('1',)
 Selected ('4',)
 
 'choose item' event created with arguments 'nonsense'
-ERROR: Could not find item 'nonsense' in Listbox.
+ERROR: Could not simulate command 'choose item nonsense' - Could not find item 'nonsense' in Listbox.
 
 'close window' event created with arguments ''

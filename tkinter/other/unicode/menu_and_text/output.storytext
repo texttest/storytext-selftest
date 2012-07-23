@@ -33,6 +33,6 @@ Gjorde någonting från en meny!
 ==========================
 
 'Välj hjälpoption' event created with arguments 'Skräp'
-ERROR: Could not find item 'Skräp' in menu.
+ERROR: Could not simulate command 'V\xc3\xa4lj hj\xc3\xa4lpoption Skr\xc3\xa4p' - Could not find item 'Skräp' in menu.
 
 'Välj filoption' event created with arguments 'Avsluta'

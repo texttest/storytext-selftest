@@ -40,13 +40,10 @@ Anders  21   male (selected)
 Eva     22   female
 ____________________________
 
-'select' event created with arguments 'Nonsense'
-ERROR: Could not find row identified by 'Nonsense' in table.
+ERROR: Could not simulate command 'select Nonsense' - Could not find row identified by 'Nonsense' in table.
 
-'select' event created with arguments 'Name for Nobody'
-ERROR: Could not find row identified by 'Nobody' in table.
+ERROR: Could not simulate command 'select Name for Nobody' - Could not find row identified by 'Nobody' in table.
 
-'select' event created with arguments 'Bad Attribute for Eva'
-ERROR: Could not find column labelled 'Bad Attribute' in table.
+ERROR: Could not simulate command 'select Bad Attribute for Eva' - Could not find column labelled 'Bad Attribute' in table.
 
 'close window' event created with arguments ''

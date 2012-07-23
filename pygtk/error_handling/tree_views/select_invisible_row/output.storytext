@@ -32,6 +32,6 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 Toggled Toggle button 'RESO'
 
 'select bug' event created with arguments '123456'
-ERROR: Row '123456' is currently hidden and cannot be accessed
+ERROR: Could not simulate command 'select bug 123456' - Row '123456' is currently hidden and cannot be accessed
 
 'close application' event created with arguments ''

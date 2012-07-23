@@ -21,6 +21,6 @@ Expanded row in GtkTreeView with columns: Column 0
 -> parent 3 (bold)
 
 'select row' event created with arguments 'child 1'
-ERROR: 'child 1' in Tree View is ambiguous, could refer to 4 different paths
+ERROR: Could not simulate command 'select row child 1' - 'child 1' in Tree View is ambiguous, could refer to 4 different paths
 
 'close application' event created with arguments ''

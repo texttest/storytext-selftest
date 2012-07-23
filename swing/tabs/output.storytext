@@ -27,6 +27,6 @@ Updated TabFolder with tabs Tab 1 (Tooltip 1, selected), Tab 2 (Tooltip 2), Tab 
 Updated 'Edited'
 
 'click' event created with arguments 'No such Tab'
-ERROR: Could not find tab named 'No such Tab' to select.
+ERROR: Could not simulate command 'click No such Tab' - Could not find tab named 'No such Tab' to select.
 
 'close window' event created with arguments ''

@@ -18,8 +18,7 @@ Edited 'Movie Name' Text entry (set to 'The Muppet Show')
 
 Updated : Movie Tree with columns: Movie Name
 -> The Muppet Show
-ERROR: Could not parse script command 'unknown command'
-ERROR: Could not execute script command 'click non-existent widget'.
-No widget found with descriptor 'Label=No Such Widget' to perform action 'clicked' on.
+ERROR: Could not simulate command 'unknown command' - could not find matching entry in UI map file.
+ERROR: Could not simulate command 'click non-existent widget' - no widget found with descriptor 'Label=No Such Widget' to perform action 'clicked' on.
 
 'close' event created with arguments ''

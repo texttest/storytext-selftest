@@ -2,15 +2,15 @@
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/error_handling/file_choosers/bad_paths/sampledir/file.txt')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.20Jul160217.22415/storytext/pygtk/error_handling/file_choosers/bad_paths/sampledir/file.txt')
 Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
 'look in folder' event created with arguments 'no-such-folder'
-ERROR: Cannot find folder 'no-such-folder' to change to!
+ERROR: Could not simulate command 'look in folder no-such-folder' - Cannot find folder 'no-such-folder' to change to!
 
 'select file' event created with arguments 'no-such-file'
-ERROR: Cannot select file 'no-such-file', no such file in current folder
+ERROR: Could not simulate command 'select file no-such-file' - Cannot select file 'no-such-file', no such file in current folder
 
 'cancel file selection' event created with arguments ''
 Closed, no files selected

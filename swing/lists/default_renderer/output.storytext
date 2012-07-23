@@ -23,7 +23,6 @@ Updated List :
 -> Item 3 (selected)
 -> Item 4
 
-'select' event created with arguments 'Nothing'
-ERROR: Could not find item labeled 'Nothing' in list.
+ERROR: Could not simulate command 'select Nothing' - Could not find item labeled 'Nothing' in list.
 
 'close window' event created with arguments ''

@@ -18,7 +18,7 @@ Toggle button 'NEW' (depressed) , Toggle button 'RESO' (depressed) , Toggle butt
 ------------------------------------------------------
 
 'select bug' event created with arguments 'no_such_bug'
-ERROR: Could not find row 'no_such_bug' in Tree View
+ERROR: Could not simulate command 'select bug no_such_bug' - Could not find row 'no_such_bug' in Tree View
 Known names are ['123014', '138163', '124181', '120595', '123037', '121339', '138804', '122569', '123458', '123456', '138619']
 
 'close application' event created with arguments ''

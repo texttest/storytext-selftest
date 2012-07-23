@@ -7,6 +7,6 @@ Button 'Press 1'
 
 'press button 1' event created with arguments ''
 
-ERROR: widget  of type JButton is not visible at the moment, cannot simulate event 'press button 2'
+ERROR: Could not simulate command 'press button 2' - widget of type JButton is not visible at the moment.
 
 'close window' event created with arguments ''

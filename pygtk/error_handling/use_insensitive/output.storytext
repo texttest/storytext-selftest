@@ -33,7 +33,7 @@ Updated : Movie Tree with columns: Movie Name
 Greyed out : Add, Delete, Sort
 
 'delete movie' event created with arguments ''
-ERROR: widget 'GtkButton' is not sensitive to input at the moment, cannot simulate event 'delete movie'
+ERROR: Could not simulate command 'delete movie' - widget 'GtkButton' is not sensitive to input at the moment.
 
 'enable buttons' event created with arguments ''
 

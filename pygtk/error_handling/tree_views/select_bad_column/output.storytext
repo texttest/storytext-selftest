@@ -16,7 +16,6 @@ Showing GtkTreeView with columns: Bug No. , Status , Description
 -> 138804 | UNCO | In gtk2.4, gdk_font_get_display and gdk_pixmap_lookup is ...
 Toggle button 'NEW' (depressed) , Toggle button 'RESO' (depressed) , Toggle button 'NEED' (depressed) , Toggle button 'VERI' (depressed) , Toggle button 'UNCO' (depressed)
 ------------------------------------------------------
-ERROR: Could not execute script command 'sort bugs by no such column'.
-No widget found with descriptor 'Type=TreeView' to perform action 'clicked.no such column' on.
+ERROR: Could not simulate command 'sort bugs by no such column' - no widget found with descriptor 'Type=TreeView' to perform action 'clicked.no such column' on.
 
 'close application' event created with arguments ''

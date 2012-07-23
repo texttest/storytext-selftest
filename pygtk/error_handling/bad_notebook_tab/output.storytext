@@ -12,6 +12,6 @@ Showing Movie Tree with columns: Movie Name
 ----------------------------------------------
 
 'show' event created with arguments 'non-existent tab'
-ERROR: 'show' failed : Could not find page 'non-existent tab' in the Notebook.
+ERROR: Could not simulate command 'show non-existent tab' - 'show' failed : Could not find page 'non-existent tab' in the Notebook.
 
 'close' event created with arguments ''

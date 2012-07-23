@@ -52,9 +52,9 @@ New widgets have appeared: describing common parent :
 
 'toggle maximized status of' event created with arguments 'Document #2'
 
-ERROR: could not find internal frame 'Non-Existant Document', found 'Document #1', cannot simulate event 'maximize via double click'
+ERROR: Could not simulate command 'maximize via double click Non-Existant Document' - could not find internal frame 'Non-Existant Document', found 'Document #1'
 
-ERROR: could not find internal frame 'Non-Existant Document', found 'Document #1', cannot simulate event 'toggle maximized status of'
+ERROR: Could not simulate command 'toggle maximized status of Non-Existant Document' - could not find internal frame 'Non-Existant Document', found 'Document #1'
 
 'close' event created with arguments 'Document #1'
 

@@ -69,7 +69,6 @@ Updated Expand Bar:
 Context Menu 2:
   Button Popup
 
-'expand item' event created with arguments 'nonsense'
-ERROR: Could not find item labelled 'nonsense' in expandbar.
+ERROR: Could not simulate command 'expand item nonsense' - Could not find item labelled 'nonsense' in expandbar.
 
 'close window' event created with arguments ''

@@ -35,6 +35,6 @@ Hiding the 'Sort' widget
 Hiding the 'Clear' widget
 
 'delete movie' event created with arguments ''
-ERROR: widget 'GtkButton' is not visible at the moment, cannot simulate event 'delete movie'
+ERROR: Could not simulate command 'delete movie' - widget 'GtkButton' is not visible at the moment.
 
 'close' event created with arguments ''

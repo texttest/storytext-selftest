@@ -170,13 +170,10 @@ item 9               edit this value
 new item (selected)  edit this value
 ____________________________________
 
-'select cell' event created with arguments 'Nonsense'
-ERROR: Could not find row identified by 'Nonsense' in table.
+ERROR: Could not simulate command 'select cell Nonsense' - Could not find row identified by 'Nonsense' in table.
 
-'select cell' event created with arguments 'info for Nonsense'
-ERROR: Could not find row identified by 'Nonsense' in table.
+ERROR: Could not simulate command 'select cell info for Nonsense' - Could not find row identified by 'Nonsense' in table.
 
-'select cell' event created with arguments 'Nonsense for item 4'
-ERROR: Could not find column labelled 'Nonsense' in table.
+ERROR: Could not simulate command 'select cell Nonsense for item 4' - Could not find column labelled 'Nonsense' in table.
 
 'close window' event created with arguments ''
