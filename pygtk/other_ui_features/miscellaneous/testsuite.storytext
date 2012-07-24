@@ -17,5 +17,7 @@ custom_widgets
 custom_widgets_error
 
 # Test that we can handle dialogs created using gtk.Builder
-# 
 builder_dialog
+
+# Test that we can handle tree views created using gtk.Builder
+builder_treeview
