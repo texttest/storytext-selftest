@@ -1,0 +1,20 @@
+
+---------- Shell 'Main Window' ----------
+Button 'Open a dialog'
+
+-----------------------------------------
+
+'open dialog' event created with arguments ''
+
+---------- Shell 'Dialog' ----------
+Button 'OK'
+
+------------------------------------
+
+'ok dialog' event created with arguments ''
+
+Waiting for application event 'just before the dialog gets removed' to occur.
+
+Expected application event 'just before the dialog gets removed' occurred, proceeding.
+
+'close window' event created with arguments ''

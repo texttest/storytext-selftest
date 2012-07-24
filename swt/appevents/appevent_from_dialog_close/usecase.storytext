@@ -1,0 +1,4 @@
+open dialog
+ok dialog
+wait for just before the dialog gets removed
+close window
