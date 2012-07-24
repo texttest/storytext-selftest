@@ -1,14 +1,19 @@
 
 ---------- Dialog 'None' ----------
-Focus widget is 'GtkTreeView'
+Focus widget is 'treeview'
 
-Showing GtkTreeView with columns: Name , Value
--> Foo | 20
+Showing treeview with columns: Name , Value
+-> Foo | 20   ***
 -> Bar | 22
+---------------
 Button 'Cancel' , Button 'OK'
 -----------------------------------
 
 'double click' event created with arguments 'Bar'
 Bar 22
+
+Changed selection in treeview with columns: Name , Value
+-> Foo | 20
+-> Bar | 22
 
 'press ok' event created with arguments ''
