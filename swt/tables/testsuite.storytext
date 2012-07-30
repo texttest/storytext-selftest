@@ -1,0 +1,14 @@
+# Sort by column headers, including those added later
+sort_by_column
+
+# Edit cells in a table
+edit_cells
+
+# Edit cells in a table. Make sure it works if we listen at a lower level.
+edit_cells_key_listen
+
+# Edit cells in a table where a column is unnamed and so is a row
+unnamed_cells_and_columns
+
+# Shows a table having invisible columns
+hidden_columns

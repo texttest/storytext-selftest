@@ -49,18 +49,6 @@ link
 # Test we can handle datetimes of various sorts...
 datetime
 
-# Sort by column headers, including those added later
-sort_table
-
-# Edit cells in a table
-edit_table
-
-# Edit cells in a table. Make sure it works if we listen at a lower level.
-edit_table_key_listen
-
-# Shows a table having invisible columns
-edit_table_hidden_columns
-
 # Test we notice copying things to the clipboard
 clipboard
 
@@ -73,6 +61,9 @@ browsers
 
 # Stuff to do with trees...
 trees
+
+# Tests to do with Table objects
+tables
 
 # Test for widgets that become visible during the run
 visibility
