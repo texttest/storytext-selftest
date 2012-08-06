@@ -1,0 +1,4 @@
+wait for rows to be added
+select node Initial - 1
+wait for rows to be added
+close window
