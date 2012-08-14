@@ -23,8 +23,8 @@ Cool Bar:
     Tooltip 'Open Message (Ctrl+3)' (Icon 'sample3.gif')
 
 Tree :
--> me@this.com (Icon 'fldr_obj.gif')
--> other@aol.com (Icon 'fldr_obj.gif')
+-> me@this.com (Icon 'fldr_obj.gif', +)
+-> other@aol.com (Icon 'fldr_obj.gif', +)
 
 --------------- Vertical sash ---------------
 
@@ -56,6 +56,6 @@ Updated Tree :
 ->   Inbox (Icon 'elements_obj.gif')
 ->   Drafts (Icon 'elements_obj.gif')
 ->   Sent (Icon 'elements_obj.gif')
--> other@aol.com (Icon 'fldr_obj.gif')
+-> other@aol.com (Icon 'fldr_obj.gif', +)
 
 'close window' event created with arguments ''

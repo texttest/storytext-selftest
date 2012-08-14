@@ -1,8 +1,8 @@
 
 ---------- Shell '' ----------
 Tree :
--> Root 0
--> Root 1
+-> Root 0 (+)
+-> Root 1 (+)
 
 ------------------------------
 
@@ -10,9 +10,9 @@ Tree :
 
 Updated Tree :
 -> Root 0
-->   Branch 0.0
-->   Branch 0.1
--> Root 1
+->   Branch 0.0 (+)
+->   Branch 0.1 (+)
+-> Root 1 (+)
 
 ERROR: Could not simulate command 'expand No Such Node' - Could not find item labelled 'No Such Node' in tree.
 
@@ -20,42 +20,44 @@ ERROR: Could not simulate command 'expand No Such Node' - Could not find item la
 
 Updated Tree :
 -> Root 0
-->   Branch 0.0
+->   Branch 0.0 (+)
 ->   Branch 0.1
 ->     Leaf 0.1.0
 ->     Leaf 0.1.1
--> Root 1
+-> Root 1 (+)
+
+ERROR: Could not simulate command 'expand Leaf 0.1.0' - Item labelled 'Leaf 0.1.0' in tree is not expandable.
 
 'expand' event created with arguments 'Root 1'
 
 Updated Tree :
 -> Root 0
-->   Branch 0.0
+->   Branch 0.0 (+)
 ->   Branch 0.1
 ->     Leaf 0.1.0
 ->     Leaf 0.1.1
 -> Root 1
-->   Branch 1.0
-->   Branch 1.1
+->   Branch 1.0 (+)
+->   Branch 1.1 (+)
 
 'select' event created with arguments 'Branch 1.1'
 
 Updated Tree :
 -> Root 0
-->   Branch 0.0
+->   Branch 0.0 (+)
 ->   Branch 0.1
 ->     Leaf 0.1.0
 ->     Leaf 0.1.1
 -> Root 1
-->   Branch 1.0
-->   Branch 1.1 (selected)
+->   Branch 1.0 (+)
+->   Branch 1.1 (selected, +)
 
 'collapse' event created with arguments 'Root 0'
 
 Updated Tree :
--> Root 0
+-> Root 0 (+)
 -> Root 1
-->   Branch 1.0
-->   Branch 1.1 (selected)
+->   Branch 1.0 (+)
+->   Branch 1.1 (selected, +)
 
 'close window' event created with arguments ''

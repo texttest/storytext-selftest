@@ -1,11 +1,11 @@
 
 ---------- Shell '' ----------
 Tree :
-Column 1              Column 2  Column 3
--> item 0 (selected)  abc       defghi
--> item 1             abc       defghi
--> item 2             abc       defghi
--> item 3             abc       defghi
+Column 1                 Column 2  Column 3
+-> item 0 (selected, +)  abc       defghi
+-> item 1 (+)            abc       defghi
+-> item 2 (+)            abc       defghi
+-> item 3 (+)            abc       defghi
 
 ------------------------------
 
@@ -18,8 +18,8 @@ Column 1              Column 2  Column 3
 ->   subitem 1        jklmnop   qrs
 ->   subitem 2        jklmnop   qrs
 ->   subitem 3        jklmnop   qrs
--> item 1             abc       defghi
--> item 2             abc       defghi
--> item 3             abc       defghi
+-> item 1 (+)         abc       defghi
+-> item 2 (+)         abc       defghi
+-> item 3 (+)         abc       defghi
 
 'close window' event created with arguments ''

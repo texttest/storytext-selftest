@@ -1,8 +1,8 @@
 
 ---------- Shell '' ----------
 Tree :
--> Root 0
--> Root 1
+-> Root 0 (+)
+-> Root 1 (+)
 
 ------------------------------
 
@@ -10,22 +10,22 @@ Tree :
 
 Updated Tree :
 -> Root 0
-->   Branch 0.0
-->   Branch 0.1
--> Root 1
+->   Branch 0.0 (+)
+->   Branch 0.1 (+)
+-> Root 1 (+)
 
 'select' event created with arguments 'Branch 0.1'
 
 Updated Tree :
 -> Root 0
-->   Branch 0.0
-->   Branch 0.1 (selected)
--> Root 1
+->   Branch 0.0 (+)
+->   Branch 0.1 (selected, +)
+-> Root 1 (+)
 
 'collapse' event created with arguments 'Root 0'
 
 Updated Tree :
--> Root 0
--> Root 1
+-> Root 0 (+)
+-> Root 1 (+)
 
 'close window' event created with arguments ''
