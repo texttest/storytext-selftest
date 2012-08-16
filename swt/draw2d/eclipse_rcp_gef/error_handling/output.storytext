@@ -1,0 +1,20 @@
+
+---------- Shell 'RCP GEF Draw2d Application' ----------
+Menu Bar:
+  File (cascade)
+    Exit
+
+TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Unknown Image, selected)
+
+(-green)
+        (-green)  (-green)  (-green)
+
+--------------------------------------------------------
+
+ERROR: Could not simulate command 'select NoSuchNode' - could not find any objects in viewer matching description 'NoSuchNode'
+
+ERROR: Could not simulate command 'drag NoSuchNode to 1:1' - could not find any objects in viewer matching description 'NoSuchNode'
+
+ERROR: Could not simulate command 'drag Node2 to Hell' - drag destination must be in the form <xpos>:<ypos>
+
+'close window' event created with arguments ''

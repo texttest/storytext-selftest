@@ -1,1 +1,7 @@
 dnd_resize_figures
+
+# Copy of dnd_resize_figures
+error_handling
+
+# If only some figures can be selected, select the ones we can and warn for the others
+multi_select_partial

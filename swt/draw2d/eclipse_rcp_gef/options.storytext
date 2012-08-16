@@ -1,1 +1,1 @@
-{CLEAR} -i javagef -I name
+{CLEAR} -i javagef -I name -d 1 org.storytext.rcp.gef.basic.application

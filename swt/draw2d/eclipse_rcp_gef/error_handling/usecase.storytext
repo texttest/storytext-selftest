@@ -1,0 +1,4 @@
+select NoSuchNode
+drag NoSuchNode to 1:1
+drag Node2 to Hell
+close window

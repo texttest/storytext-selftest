@@ -2,8 +2,5 @@ drag Node1 to 54:133
 select Node2
 select Node2 (2)
 select Node1,Node2 (3)
-select NoSuchNode
-drag NoSuchNode to 1:1
-drag Node2 to Hell
 close window
 no
