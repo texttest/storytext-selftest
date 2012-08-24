@@ -6,3 +6,4 @@ XDG_CONFIG_HOME:$TEXTTEST_SANDBOX/xdg_config_home
 # Without it tests will fail intermittently if run in parallel
 GTK_RECENTLY_USED_FILE:$TEXTTEST_SANDBOX/gtk_recently_used
 UBUNTU_MENUPROXY:{CLEAR}
+DBUS_SESSION_BUS_ADDRESS:{CLEAR}
