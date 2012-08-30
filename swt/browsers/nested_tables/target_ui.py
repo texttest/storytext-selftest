@@ -31,7 +31,7 @@ body {background-color:#FFFFFF;font:12px arial,sans-serif} table {font:12px aria
 </head><body><table cellspacing="0" cellpadding="1" border="0" align="left"><tbody>
 <tr><td>Table-0</td></tr>
 <tr><td><table cellspacing="0" cellpadding="1" border="0" align="left"><tbody>
-<tr><td>Table-1</td></tr>
+<tr><td>Table-1</TD></tr>
 <tr><td><table cellspacing="0" cellpadding="1" border="0" align="left"><tbody>
 <tr><td><table></table>Table-2</td></tr>
 <tr><td>Non-breaking spaces:</td><td width=30>Hello &nbsp; world</td></tr>
