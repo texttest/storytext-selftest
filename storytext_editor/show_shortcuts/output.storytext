@@ -1,0 +1,47 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> <b>add die hard</b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'expand preview node' event created with arguments 'add die hard'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add die hard</b>
+->   set new movie name to<i> Die Hard</i>
+->   add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'expand preview node' event created with arguments 'set new movie name to Die Hard'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add die hard</b>
+->   set new movie name to<i> Die Hard</i>
+->     Perform 'changed' on widget identified by 'Name=Movie Name'
+->   add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'expand preview node' event created with arguments 'close'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add die hard</b>
+->   set new movie name to<i> Die Hard</i>
+->     Perform 'changed' on widget identified by 'Name=Movie Name'
+->   add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+->   Perform 'delete-event' on widget identified by 'Title=The Video Store'
+
+'finish name entry editing' event created with arguments ''

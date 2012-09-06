@@ -55,7 +55,7 @@ link_test_path:logconfig_file
 
 extra_version:nouimap
 extra_version:jython
-extra_version:namechooser
+extra_version:editor
 
 unsaveable_version:cover
 unsaveable_version:jython

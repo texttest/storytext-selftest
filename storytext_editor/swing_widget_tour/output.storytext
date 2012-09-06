@@ -1,0 +1,59 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 5 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'JButton' | 'Label=Hello!' | 'Click' | Text entry
+'JRadioButton' | 'Label=First' | 'Click' | Text entry
+'JRadioButton' | 'Label=Second' | 'Click' | Text entry
+'JFrame' | 'Type=JFrame' | 'Close' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+Showing GtkTreeView with columns: 
+-> ?
+-> ?
+-> ?
+-> ?
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'Click' on JButton 'Label=Hello!' =' event created with arguments 'click hello'
+Edited 'GtkEntry' Text entry (set to 'click hello')
+
+Updated : GtkTreeView with columns: 
+-> click hello
+-> ?
+-> ?
+-> ?
+
+'enter usecase name for signal 'Click' on JRadioButton 'Label=First' =' event created with arguments 'select first'
+Edited 'GtkEntry' Text entry (set to 'select first')
+
+Updated : GtkTreeView with columns: 
+-> click hello
+-> select first
+-> ?
+-> ?
+
+'enter usecase name for signal 'Click' on JRadioButton 'Label=Second' =' event created with arguments 'select second'
+Edited 'GtkEntry' Text entry (set to 'select second')
+
+Updated : GtkTreeView with columns: 
+-> click hello
+-> select first
+-> select second
+-> ?
+
+'enter usecase name for signal 'Close' on JFrame 'Type=JFrame' =' event created with arguments 'close window'
+Edited 'GtkEntry' Text entry (set to 'close window')
+
+Updated : GtkTreeView with columns: 
+-> click hello
+-> select first
+-> select second
+-> close window
+
+'finish name entry editing' event created with arguments ''

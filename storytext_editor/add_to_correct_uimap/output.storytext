@@ -1,0 +1,27 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 2 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'Entry' | 'Name=Movie Name' | 'edited text' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+Showing GtkTreeView with columns: 
+-> ?<i> Star Wars</i>
+-> add movie
+-> close
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set new movie name to'
+Edited 'GtkEntry' Text entry (set to 'set new movie name to')
+
+Updated : GtkTreeView with columns: 
+-> set new movie name to<i> Star Wars</i>
+-> add movie
+-> close
+
+'finish name entry editing' event created with arguments ''

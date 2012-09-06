@@ -1,7 +1,7 @@
 [command line]
-intercepts = usecase_name_chooser
+intercepts = storytext_editor
 
-[usecase_name_chooser]
+[storytext_editor]
 environment = PATH,USECASE_RECORD_SCRIPT,USECASE_REPLAY_SCRIPT
 
 [python]

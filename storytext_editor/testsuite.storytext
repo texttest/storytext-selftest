@@ -1,0 +1,38 @@
+# The script auto-recorded from textfield_button, just basic replacement needed
+basic_usage
+
+# Press cancel, shouldn't edit the UI map and should remove the usecase.
+cancel_editing
+
+# Check we can declare ourselves satisfied by pressing <enter>
+accept_with_enter_key
+
+# Make sure nothing comes up if there's aren't any auto-generated commands
+show_shortcuts
+
+# Show the shortcuts and their arguments correctly
+show_shortcuts_arguments
+
+# Make sure we can cause actions to be blocked and not recorded by not providing names for them
+ignore_actions
+
+# Every type of widget for GTK
+gtk_widget_tour
+
+# Every type of widget for Tkinter
+tkinter_widget_tour
+
+# Some type of widget for swing
+swing_widget_tour
+
+# If we have several map files, we should add to the one that already contains the right section
+add_to_correct_uimap
+
+# Check we don't fall over with a relative path to the mapfile
+local_uimap
+
+# GTK requires UTF8 text, see what happens if it gets some other encoding
+text_not_utf8
+
+# Don't crash if we don't recognise the interface
+unknown_interface

@@ -1,0 +1,113 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 8 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'Button' | 'Name=hello button' | 'clicked' | Text entry
+'Label' | 'Name=hello label' | 'left-clicked' | Text entry
+'Entry' | 'Type=Entry' | 'edited text' | Text entry
+'Button' | 'Label=Planner's Workspace' | 'clicked' | Text entry
+'Label' | 'Name=another label' | 'right-clicked' | Text entry
+'Listbox' | 'Name=the list box' | 'select item' | Text entry
+'Tk' | 'Title=tk' | 'closed' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+Showing GtkTreeView with columns: 
+-> ?
+-> ?
+-> ?<i> hello</i>
+-> ?
+-> ?
+-> ?<i> fourth row</i>
+-> ?
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+----------------------------------------------------------------------------
+
+'enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button 'Name=hello button' =' event created with arguments 'say hello'
+Edited 'GtkEntry' Text entry (set to 'say hello')
+
+Updated : GtkTreeView with columns: 
+-> say hello
+-> ?
+-> ?<i> hello</i>
+-> ?
+-> ?
+-> ?<i> fourth row</i>
+-> ?
+
+'enter usecase name for signal '<Button-1>' on Label 'Name=hello label' =' event created with arguments 'click on hello label'
+Edited 'GtkEntry' Text entry (set to 'click on hello label')
+
+Updated : GtkTreeView with columns: 
+-> say hello
+-> click on hello label
+-> ?<i> hello</i>
+-> ?
+-> ?
+-> ?<i> fourth row</i>
+-> ?
+
+'enter usecase name for signal '<Enter>,<Button-1>,<ButtonRelease-1>' on Button 'Label=Planner's Workspace' =' event created with arguments 'click something'
+Edited 'GtkEntry' Text entry (set to 'click something')
+
+Updated : GtkTreeView with columns: 
+-> say hello
+-> click on hello label
+-> ?<i> hello</i>
+-> click something
+-> ?
+-> ?<i> fourth row</i>
+-> ?
+
+'enter usecase name for signal '<Button-3>' on Label 'Name=another label' =' event created with arguments 'right-click something else'
+Edited 'GtkEntry' Text entry (set to 'right-click something else')
+
+Updated : GtkTreeView with columns: 
+-> say hello
+-> click on hello label
+-> ?<i> hello</i>
+-> click something
+-> right-click something else
+-> ?<i> fourth row</i>
+-> ?
+
+'enter usecase name for signal '<KeyPress>,<KeyRelease>' on Entry 'Type=Entry' =' event created with arguments 'set text to'
+Edited 'GtkEntry' Text entry (set to 'set text to')
+
+Updated : GtkTreeView with columns: 
+-> say hello
+-> click on hello label
+-> set text to<i> hello</i>
+-> click something
+-> right-click something else
+-> ?<i> fourth row</i>
+-> ?
+
+'enter usecase name for signal '<<ListboxSelect>>' on Listbox 'Name=the list box' =' event created with arguments 'select list item'
+Edited 'GtkEntry' Text entry (set to 'select list item')
+
+Updated : GtkTreeView with columns: 
+-> say hello
+-> click on hello label
+-> set text to<i> hello</i>
+-> click something
+-> right-click something else
+-> select list item<i> fourth row</i>
+-> ?
+
+'enter usecase name for signal 'WM_DELETE_WINDOW' on Tk 'Title=tk' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+Updated : GtkTreeView with columns: 
+-> say hello
+-> click on hello label
+-> set text to<i> hello</i>
+-> click something
+-> right-click something else
+-> select list item<i> fourth row</i>
+-> close
+
+'finish name entry editing' event created with arguments ''

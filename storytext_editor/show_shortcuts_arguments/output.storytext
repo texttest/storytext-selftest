@@ -1,0 +1,45 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'expand preview node' event created with arguments 'add movies Star Wars and Die Hard'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+->   set new movie name to<i> Star Wars</i>
+->   add movie
+->   set new movie name to<i> Die Hard</i>
+->   add movie
+-> close
+
+'expand preview node' event created with arguments 'set new movie name to Star Wars'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+->   set new movie name to<i> Star Wars</i>
+->     Perform 'changed' on widget identified by 'Name=Movie Name'
+->   add movie
+->   set new movie name to<i> Die Hard</i>
+->   add movie
+-> close
+
+'expand preview node' event created with arguments 'add movie (2)'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+->   set new movie name to<i> Star Wars</i>
+->     Perform 'changed' on widget identified by 'Name=Movie Name'
+->   add movie
+->   set new movie name to<i> Die Hard</i>
+->   add movie
+->     Perform 'clicked' on widget identified by 'Label=Add'
+-> close
+
+'finish name entry editing' event created with arguments ''

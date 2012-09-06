@@ -1,0 +1,5 @@
+enter usecase name for signal 'changed' on Entry 'Name=Textfältet' = set movie name to
+enter usecase name for signal 'clicked' on Button 'Label=Lägg till' = add movie
+enter usecase name for signal 'delete-event' on Window 'Title=Videoaffären' = close
+expand preview node set movie name to Stj&#228;rnornas Krig
+finish name entry editing
