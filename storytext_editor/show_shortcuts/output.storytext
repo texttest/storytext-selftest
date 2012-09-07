@@ -42,6 +42,6 @@ Expanded row in GtkTreeView with columns:
 -> <span foreground="#826200">wait for<i> the movies to reload</i></span>
 -> <b>add star wars</b>
 -> close
-->   Perform 'delete-event' on widget identified by 'Title=The Video Store'
+->   Perform 'delete-event' on widget identified by 'Title=The Video Store &amp; Friends'
 
 'finish name entry editing' event created with arguments ''
