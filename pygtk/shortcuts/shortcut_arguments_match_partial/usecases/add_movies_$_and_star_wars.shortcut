@@ -1,4 +1,7 @@
+# Add some comments here
 set new movie name to $
 add movie
+
+# To make sure comments work
 set new movie name to Star Wars
 add movie
