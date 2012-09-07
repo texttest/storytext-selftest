@@ -1,6 +1,8 @@
 wait for shell to be created
 open dialog
 press disable button
+# Whither this comment?
 wait for button to be disabled
+# And this one?
 ok dialog
 close window
