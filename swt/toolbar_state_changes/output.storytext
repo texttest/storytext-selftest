@@ -1,0 +1,26 @@
+
+---------- Shell '' ----------
+Tool Bar:
+  Item 1
+  Item 2
+  Item 3
+  Item 4
+  Item 5
+  Item 6
+  Item 7
+
+------------------------------
+
+'select first item' event created with arguments ''
+Selected item 1
+
+Updated Tool Bar:
+'Item 1' changed to 'Item 1 (greyed out)'
+
+'select fourth item' event created with arguments ''
+Selected item 4
+
+Updated Tool Bar:
+'Item 4' changed to 'Item 4 (greyed out)'
+
+'close window' event created with arguments ''

@@ -10,11 +10,17 @@ checkbox
 # Test we can make use of the menus
 menus
 
+# Test we can handle menu state changes
+menu_state_changes
+
 # Check we can record window resize and closure
 window_events
 
 # Test we can handle a toolbar
 toolbar
+
+# Test we can handle toolbar state changes
+toolbar_state_changes
 
 # Check descriptions when toolbar buttons have images on them
 toolbar_images

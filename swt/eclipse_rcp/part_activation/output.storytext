@@ -21,11 +21,8 @@ TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
 'activate second view' event created with arguments 'SecondView'
 
 Updated Views Menu:
-  Open View 1
-  Open View 2
-  Show in View 1 (greyed out)
-  Show in View 2
-  Show Info View
+'Show in View 1' changed to 'Show in View 1 (greyed out)'
+'Show in View 2 (greyed out)' changed to 'Show in View 2'
 
 'create new first view' event created with arguments ''
 
@@ -38,11 +35,8 @@ TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif') , FirstView
 TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
 
 Updated Views Menu:
-  Open View 1
-  Open View 2
-  Show in View 1
-  Show in View 2 (greyed out)
-  Show Info View
+'Show in View 1 (greyed out)' changed to 'Show in View 1'
+'Show in View 2' changed to 'Show in View 2 (greyed out)'
 
 ERROR: Could not simulate command 'activate second view NoSuchView' - Could not find View named 'NoSuchView' to activate.
 

@@ -1,0 +1,37 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Item 1
+    Item 2
+    Item 3
+    Item 4
+    Submenu.. (cascade)
+      Item 5
+      Item 6
+    E&xit
+
+------------------------------
+
+'select item 1' event created with arguments ''
+
+Updated &File Menu:
+'Item 1' changed to 'Item 1 (greyed out)'
+
+'select item 3' event created with arguments ''
+
+Updated &File Menu:
+'Item 3' changed to 'Item 3 (greyed out)'
+
+'select item 5' event created with arguments ''
+
+Updated &File Menu:
+'Item 5' changed to 'Item 5 (greyed out)'
+
+'select item 6' event created with arguments ''
+
+Updated &File Menu:
+'Item 6' changed to 'Item 6 (greyed out)'
+
+'exit' event created with arguments ''
+Closed!
