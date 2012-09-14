@@ -8,5 +8,3 @@ wait for row to be added
 # And then we close the window
 # and an extra row
 close window
-
-# The end
