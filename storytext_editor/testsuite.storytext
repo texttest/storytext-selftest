@@ -13,6 +13,9 @@ show_shortcuts
 # Show the shortcuts and their arguments correctly
 show_shortcuts_arguments
 
+# Closing window shouldn't cancel in preview mode
+close_window
+
 # Make sure we can cause actions to be blocked and not recorded by not providing names for them
 ignore_actions
 

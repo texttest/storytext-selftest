@@ -1,0 +1,14 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> <span foreground="red">add die hard</span>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <span foreground="red">add star wars</span>
+-> <span foreground="red">close</span>
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'close editor window' event created with arguments ''
