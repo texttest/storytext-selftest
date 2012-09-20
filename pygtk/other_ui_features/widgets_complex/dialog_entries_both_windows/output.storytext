@@ -1,0 +1,27 @@
+
+---------- Window 'None' ----------
+Focus widget is 'Main Text'
+'Enter some text in the main window'
+Text entry
+Button 'hi - this button opens the dialog'
+-----------------------------------
+
+'enter main text' event created with arguments 'Hello Main'
+Edited 'Main Text' Text entry (set to 'Hello Main')
+
+'open dialog' event created with arguments ''
+
+---------- Dialog 'The Dialog Title' ----------
+Focus widget is 'Dialog Text'
+'Enter some text in the dialog'
+Text entry
+---------------
+Button 'Close'
+-----------------------------------------------
+
+'enter dialog text' event created with arguments 'Hello Dialog'
+Edited 'Dialog Text' Text entry (set to 'Hello Dialog')
+
+'close the dialog' event created with arguments ''
+
+'quit' event created with arguments ''

@@ -1,0 +1,5 @@
+enter main text Hello Main
+open dialog
+enter dialog text Hello Dialog
+close the dialog
+quit

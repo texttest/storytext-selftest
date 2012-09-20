@@ -21,4 +21,8 @@ dialog_run_checkbutton
 
 # gtk.Dialog.run on a dialog with entries has been known to cause problems...
 dialog_run_entry
+
+# check we record correctly when we have state changes in  both main window and dialog
+dialog_entries_both_windows
+
 dialog_run_from_tree
