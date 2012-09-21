@@ -39,7 +39,8 @@ class PrintListener(Listener):
 item.addListener(SWT.Selection, PrintListener())
 item.setText("Select &All\tCtrl+A")
 item.setAccelerator(SWT.MOD1 + ord('A'))
-
+item2 = MenuItem(submenu, SWT.PUSH)
+item2.setText("Cancel")
 
 class ExitListener(Listener):
     def handleEvent(self, e):

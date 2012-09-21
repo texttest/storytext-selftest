@@ -3,6 +3,7 @@
 Menu Bar:
   &File (cascade)
     Select &All	Ctrl+A
+    Cancel
     E&xit
 
 ------------------------------
