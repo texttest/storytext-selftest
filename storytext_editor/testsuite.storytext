@@ -13,6 +13,9 @@ show_shortcuts
 # Show the shortcuts and their arguments correctly
 show_shortcuts_arguments
 
+# Create a shortcut in the editor
+create_shortcut
+
 # Closing window shouldn't cancel in preview mode
 close_window
 

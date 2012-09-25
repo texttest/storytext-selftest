@@ -1,0 +1,51 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'select preview node' event created with arguments 'set new movie name to Die Hard,add movie at top level'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>   ***
+-> add movie   ***
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'show preview node options for' event created with arguments 'add movie at top level'
+
+---------- Popup Window ----------
+'Create shortcut'
+----------------------------------
+
+'create a new shortcut' event created with arguments ''
+
+---------- Dialog 'New Shortcut' ----------
+Focus widget is 'New Name'
+'New name for shortcut:'
+Text entry
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+-------------------------------------------
+
+'enter new shortcut name' event created with arguments 'create movie Die Hard'
+Edited 'New Name' Text entry (set to 'create movie Die Hard')
+
+'accept new shortcut name' event created with arguments ''
+
+Updated : GtkTreeView with columns: 
+-> <b>create movie die hard</b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'finish name entry editing' event created with arguments ''
