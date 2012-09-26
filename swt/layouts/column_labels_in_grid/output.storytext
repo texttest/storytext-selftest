@@ -1,0 +1,31 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Describe
+
+'Name'                                            'City'
+========== Text ========== (Tooltip 'Your Name')  ========== Text ========== (Tooltip 'Where You Live')
+
+==========================                        ==========================
+
+------------------------------
+
+'set name to' event created with arguments 'John'
+
+Updated Text Field
+========== Text ========== (Tooltip 'Your Name')
+John
+==========================
+
+'set city to' event created with arguments 'London'
+
+Updated Text Field
+========== Text ========== (Tooltip 'Where You Live')
+London
+==========================
+
+'describe choices' event created with arguments ''
+You are John and you live in London
+
+'close window' event created with arguments ''

@@ -25,3 +25,8 @@ empty_labels
 
 # Test we can provide configuration to ignore certain labels
 ignore_labels
+
+# Sometimes labels appears above rather than to the left of widgets.
+# Should either use them or ignore them.
+# 
+column_labels_in_grid
