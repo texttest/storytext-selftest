@@ -30,3 +30,6 @@ ignore_labels
 # Should either use them or ignore them.
 # 
 column_labels_in_grid
+
+# Test for grid layouts spanning several columns. Have an odd number of widgets.
+span_columns_odd
