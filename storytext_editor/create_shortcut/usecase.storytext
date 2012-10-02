@@ -1,6 +1,19 @@
+select preview node set new movie name to Die Hard
+show preview node options for set new movie name to Die Hard
+select preview node close,add movie at top level
+show preview node options for add movie at top level
+select preview node close
 select preview node set new movie name to Die Hard,add movie at top level
 show preview node options for add movie at top level
 create a new shortcut
+accept new shortcut name
+accept message
+enter new shortcut name add movie
+accept new shortcut name
+accept message
+enter new shortcut name add star wars
+accept new shortcut name
+accept message
 enter new shortcut name create movie Die Hard
 accept new shortcut name
 finish name entry editing

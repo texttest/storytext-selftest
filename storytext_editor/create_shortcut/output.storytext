@@ -12,6 +12,41 @@ Showing GtkTreeView with columns:
 Stock Button 'gtk-ok'
 ----------------------------------------------------
 
+'select preview node' event created with arguments 'set new movie name to Die Hard'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>   ***
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'show preview node options for' event created with arguments 'set new movie name to Die Hard'
+
+---------- Popup Window ----------
+'Create shortcut' (greyed out)
+----------------------------------
+
+'select preview node' event created with arguments 'close,add movie at top level'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+-> add movie   ***
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close   ***
+
+'show preview node options for' event created with arguments 'add movie at top level'
+
+'select preview node' event created with arguments 'close'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close   ***
+
 'select preview node' event created with arguments 'set new movie name to Die Hard,add movie at top level'
 
 Changed selection in GtkTreeView with columns: 
@@ -23,10 +58,6 @@ Changed selection in GtkTreeView with columns:
 
 'show preview node options for' event created with arguments 'add movie at top level'
 
----------- Popup Window ----------
-'Create shortcut'
-----------------------------------
-
 'create a new shortcut' event created with arguments ''
 
 ---------- Dialog 'New Shortcut' ----------
@@ -36,6 +67,42 @@ Text entry
 ---------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
+
+'accept new shortcut name' event created with arguments ''
+
+---------- Messagedialog 'StoryText Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , 'The shortcut name can't be empty.'
+Stock Button 'gtk-ok'
+-----------------------------------------------------
+
+'accept message' event created with arguments ''
+
+'enter new shortcut name' event created with arguments 'add movie'
+Edited 'New Name' Text entry (set to 'add movie')
+
+'accept new shortcut name' event created with arguments ''
+
+---------- Messagedialog 'StoryText Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , 'The shortcut name already exists in the UI map file.'
+Stock Button 'gtk-ok'
+-----------------------------------------------------
+
+'accept message' event created with arguments ''
+
+'enter new shortcut name' event created with arguments 'add star wars'
+Edited 'New Name' Text entry (set to 'add star wars')
+
+'accept new shortcut name' event created with arguments ''
+
+---------- Messagedialog 'StoryText Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , 'The shortcut name is already being used for another shortcut.'
+Stock Button 'gtk-ok'
+-----------------------------------------------------
+
+'accept message' event created with arguments ''
 
 'enter new shortcut name' event created with arguments 'create movie Die Hard'
 Edited 'New Name' Text entry (set to 'create movie Die Hard')
