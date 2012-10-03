@@ -1,0 +1,3 @@
+Auto.Entry.changed.'Name=<APOSTROPHE>Movie Name<APOSTROPHE>' Star Wars
+Auto.Button.clicked.'Label=<OPENBRACKET>Add<CLOSEBRACKET>'
+Auto.Window.delete-event.'Title=The Video Store'

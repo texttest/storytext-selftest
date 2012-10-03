@@ -1,6 +1,9 @@
 # The script auto-recorded from textfield_button, just basic replacement needed
 basic_usage
 
+# Don't leak our special characters into the editor
+special_chars
+
 # Press cancel, shouldn't edit the UI map and should remove the usecase.
 cancel_editing
 

@@ -10,6 +10,9 @@ uimap_naming_split
 # Check we handle application events in UIs also, even if we aren't told to wait for them
 ui_appevent
 
+# Invent some syntax so we can store square bracket names properly
+uimap_square_brackets
+
 # Check we can plug in a module to define support for custom widgets
 custom_widgets
 
