@@ -1,3 +1,5 @@
+# -*- encoding: latin-1 -*-
+
 from javax import swing
 from java.awt import *
 from java.util import *
@@ -16,7 +18,7 @@ def makeGridBagPanel():
     constraints = GridBagConstraints()
     constraints.fill = GridBagConstraints.BOTH
     makeButton("Button One", gridbag, constraints, panel, 0, 0)
-    makeButton("Button Two", gridbag, constraints, panel, 1, 0)
+    makeButton("Button Två", gridbag, constraints, panel, 1, 0)
     return panel
 
 if __name__ == "__main__":

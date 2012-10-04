@@ -1,6 +1,7 @@
+[] {'locale': ['getdefaultlocale']}
 
 ---------- Window 'ButtonDemo' ----------
-Button 'Button One'  Button 'Button Two'  Button 'Button One'  Button 'Button Two'
+Button 'Button One'  Button 'Button Två'  Button 'Button One'  Button 'Button Två'
 -----------------------------------------
 
 'close window' event created with arguments ''
