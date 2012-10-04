@@ -10,6 +10,9 @@ radio_buttons
 # Test for JCheckBox widgets
 check_boxes
 
+# Test for JToggleButton widgets
+toggle_buttons
+
 # Test for JMenu widgets
 menus
 

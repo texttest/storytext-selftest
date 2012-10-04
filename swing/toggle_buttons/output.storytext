@@ -1,0 +1,21 @@
+
+---------- Window 'Toggle Button demo' ----------
+Toggle button: First  Toggle button: Second
+-------------------------------------------------
+
+'select first box' event created with arguments ''
+Selected the First toggle button
+
+Updated Toggle button: First (depressed)
+
+'select second box' event created with arguments ''
+Selected the Second toggle button
+
+Updated Toggle button: Second (depressed)
+
+'select first box' event created with arguments ''
+Deselected the First toggle button
+
+Updated Toggle button: First
+
+'close window' event created with arguments ''

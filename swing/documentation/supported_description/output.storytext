@@ -3,18 +3,17 @@ StoryText trunk is currently capable of recording and replaying. Any type derive
 types is also supported.
 
 javax.swing.JButton                     : Click
-javax.swing.JCheckBox                   : Click
 javax.swing.JComboBox                   : Click
 javax.swing.JComponent                  : PopupActivate
 javax.swing.JDialog                     : Close
 javax.swing.JFrame                      : Close , KeyPress
 javax.swing.JList                       : Select
 javax.swing.JMenuItem                   : Click
-javax.swing.JRadioButton                : Click
 javax.swing.JSpinner                    : Edited
 javax.swing.JTabbedPane                 : Click , PopupActivate
 javax.swing.JTable                      : ClickHeader , DoubleClick , Edited , PopupActivate , Select
 javax.swing.JTextField                  : Activate , Modify , PopupActivate
+javax.swing.JToggleButton               : Click
 javax.swing.plaf.basic.BasicInternalFrameTitlePane: DoubleClick
 javax.swing.text.JTextComponent         : Modify
 
@@ -40,6 +39,7 @@ javax.swing.JSeparator
 javax.swing.JSpinner
 javax.swing.JTabbedPane
 javax.swing.JTable
+javax.swing.JToggleButton
 javax.swing.JToolBar
 javax.swing.JTree
 javax.swing.plaf.basic.BasicSplitPaneDivider
