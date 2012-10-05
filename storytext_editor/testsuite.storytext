@@ -17,7 +17,10 @@ show_shortcuts
 show_shortcuts_arguments
 
 # Create a shortcut in the editor
-create_shortcut
+create_shortcut_noargs
+
+# Create a shortcut in the editor
+create_shortcut_arguments
 
 # Create a shortcut directly after entering the names
 enter_names_create_shortcut

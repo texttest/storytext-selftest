@@ -11,7 +11,7 @@ Viewing table with 4 rows and 4 columns.
 .....'Current Usecase Preview'......
 
 Showing GtkTreeView with columns: 
--> ?<i> Star Wars</i>
+-> ? <i>Star Wars</i>
 -> ?
 -> ?
 ---------------
@@ -60,7 +60,12 @@ Changed selection in GtkTreeView with columns:
 ---------- Dialog 'New Shortcut' ----------
 Focus widget is 'New Name'
 'New name for shortcut:'
-Text entry
+Text entry (set to 'Do something with Star Wars')
+.....'do_something_with_$.shortcut'......
+
+Showing GtkTreeView with columns: 
+-> set movie name to $
+-> add movie
 ---------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
@@ -71,13 +76,13 @@ Edited 'New Name' Text entry (set to 'create new movie Star Wars')
 'accept new shortcut name' event created with arguments ''
 
 Updated : GtkTreeView with columns: 
--> <b>create new movie star wars</b>
+-> <b>create new movie <i>Star Wars</i></b>
 -> close
 
-'expand preview node' event created with arguments 'create new movie star wars'
+'expand preview node' event created with arguments 'create new movie Star Wars'
 
 Expanded row in GtkTreeView with columns: 
--> <b>create new movie star wars</b>
+-> <b>create new movie <i>Star Wars</i></b>
 ->   set movie name to<i> Star Wars</i>
 ->   add movie
 -> close
@@ -85,16 +90,16 @@ Expanded row in GtkTreeView with columns:
 'expand preview node' event created with arguments 'close'
 
 Expanded row in GtkTreeView with columns: 
--> <b>create new movie star wars</b>
+-> <b>create new movie <i>Star Wars</i></b>
 ->   set movie name to<i> Star Wars</i>
 ->   add movie
 -> close
 ->   Perform 'delete-event' on widget of type 'Window' identified by 'Title=The Video Store'
 
-'expand preview node' event created with arguments 'add movie under create new movie star wars'
+'expand preview node' event created with arguments 'add movie under create new movie Star Wars'
 
 Expanded row in GtkTreeView with columns: 
--> <b>create new movie star wars</b>
+-> <b>create new movie <i>Star Wars</i></b>
 ->   set movie name to<i> Star Wars</i>
 ->   add movie
 ->     Perform 'clicked' on widget of type 'Button' identified by 'Label=Add'

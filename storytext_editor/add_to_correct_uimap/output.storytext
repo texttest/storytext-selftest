@@ -9,7 +9,7 @@ Viewing table with 2 rows and 4 columns.
 .....'Current Usecase Preview'......
 
 Showing GtkTreeView with columns: 
--> ?<i> Star Wars</i>
+-> ? <i>Star Wars</i>
 -> add movie
 -> close
 ---------------

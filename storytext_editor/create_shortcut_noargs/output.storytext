@@ -47,12 +47,32 @@ Changed selection in GtkTreeView with columns:
 -> <b>add star wars</b>
 -> close   ***
 
-'select preview node' event created with arguments 'set new movie name to Die Hard,add movie at top level'
+'select preview node' event created with arguments 'add star wars,close'
 
 Changed selection in GtkTreeView with columns: 
--> set new movie name to<i> Die Hard</i>   ***
--> add movie   ***
+-> set new movie name to<i> Die Hard</i>
+-> add movie
 -> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>   ***
+-> close   ***
+
+'show preview node options for' event created with arguments 'add star wars'
+
+'select preview node' event created with arguments 'close'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close   ***
+
+'select preview node' event created with arguments 'add movie at top level,wait for the movies to reload'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+-> add movie   ***
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>   ***
 -> <b>add star wars</b>
 -> close
 
@@ -64,6 +84,11 @@ Changed selection in GtkTreeView with columns:
 Focus widget is 'New Name'
 'New name for shortcut:'
 Text entry
+.....'.shortcut'......
+
+Showing GtkTreeView with columns: 
+-> add movie
+-> wait for the movies to reload
 ---------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
@@ -104,14 +129,14 @@ Stock Button 'gtk-ok'
 
 'accept message' event created with arguments ''
 
-'enter new shortcut name' event created with arguments 'create movie Die Hard'
-Edited 'New Name' Text entry (set to 'create movie Die Hard')
+'enter new shortcut name' event created with arguments 'add and wait'
+Edited 'New Name' Text entry (set to 'add and wait')
 
 'accept new shortcut name' event created with arguments ''
 
 Updated : GtkTreeView with columns: 
--> <b>create movie die hard</b>
--> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> set new movie name to<i> Die Hard</i>
+-> <b>add and wait</b>
 -> <b>add star wars</b>
 -> close
 

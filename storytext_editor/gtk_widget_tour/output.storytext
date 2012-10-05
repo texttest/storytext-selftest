@@ -43,30 +43,30 @@ Showing GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> some text</i>
+-> ? <i>some text</i>
 -> ?
 -> ?
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 ---------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
@@ -81,30 +81,30 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> some text</i>
+-> ? <i>some text</i>
 -> ?
 -> ?
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'response.ok' on Dialog 'Type=Dialog' =' event created with arguments 'press ok'
@@ -116,30 +116,30 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> some text</i>
+-> ? <i>some text</i>
 -> ?
 -> ?
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'response.accept' on Dialog 'Type=Dialog' =' event created with arguments 'press accept'
@@ -151,30 +151,30 @@ Updated : GtkTreeView with columns:
 -> press accept
 -> ?
 -> ?
--> ?<i> some text</i>
+-> ? <i>some text</i>
 -> ?
 -> ?
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'activate' on Entry 'Type=Entry' =' event created with arguments 'press enter'
@@ -186,30 +186,30 @@ Updated : GtkTreeView with columns:
 -> press accept
 -> ?
 -> press enter
--> ?<i> some text</i>
+-> ? <i>some text</i>
 -> ?
 -> ?
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'changed' on Entry 'Type=Entry' =' event created with arguments 'edit'
@@ -226,25 +226,25 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'toggled.true' on CheckMenuItem 'Type=CheckMenuItem' =' event created with arguments 'tick'
@@ -261,25 +261,25 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'toggled.false' on CheckMenuItem 'Type=CheckMenuItem' =' event created with arguments 'untick'
@@ -296,25 +296,25 @@ Updated : GtkTreeView with columns:
 -> untick
 -> ?
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'toggled.false' on CheckButton 'Type=CheckButton' =' event created with arguments 'uncheck'
@@ -331,25 +331,25 @@ Updated : GtkTreeView with columns:
 -> untick
 -> uncheck
 -> ?
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'toggled.true' on CheckButton 'Type=CheckButton' =' event created with arguments 'check'
@@ -366,25 +366,25 @@ Updated : GtkTreeView with columns:
 -> untick
 -> uncheck
 -> check
--> ?<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>an option</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'changed' on ComboBox 'Type=ComboBox' =' event created with arguments 'choose item'
@@ -402,24 +402,24 @@ Updated : GtkTreeView with columns:
 -> uncheck
 -> check
 -> choose item<i> an option</i>
--> ?<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>subdir</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'current-folder-changed' on FileChooserDialog 'Type=FileChooserDialog' =' event created with arguments 'choose folder'
@@ -438,23 +438,23 @@ Updated : GtkTreeView with columns:
 -> check
 -> choose item<i> an option</i>
 -> choose folder<i> subdir</i>
--> ?<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>newfilename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'current-name-changed' on FileChooserDialog 'Type=FileChooserDialog' =' event created with arguments 'set new filename'
@@ -474,22 +474,22 @@ Updated : GtkTreeView with columns:
 -> choose item<i> an option</i>
 -> choose folder<i> subdir</i>
 -> set new filename<i> newfilename</i>
--> ?<i> filename</i>
+-> ? <i>filename</i>
 -> ?
--> ?<i> tab name</i>
--> ?
--> ?
+-> ? <i>tab name</i>
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ?
+-> ? <i>row1</i>
+-> ? <i>row2</i>
+-> ?
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'selection-changed' on FileChooserDialog 'Type=FileChooserDialog' =' event created with arguments 'select file'
@@ -511,20 +511,20 @@ Updated : GtkTreeView with columns:
 -> set new filename<i> newfilename</i>
 -> select file<i> filename</i>
 -> ?
--> ?<i> tab name</i>
+-> ? <i>tab name</i>
 -> ?
 -> ?
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' =' event created with arguments 'choose'
@@ -546,20 +546,20 @@ Updated : GtkTreeView with columns:
 -> set new filename<i> newfilename</i>
 -> select file<i> filename</i>
 -> choose
--> ?<i> tab name</i>
+-> ? <i>tab name</i>
 -> ?
 -> ?
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'switch-page' on Notebook 'Type=Notebook' =' event created with arguments 'view tab'
@@ -586,15 +586,15 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'activate' on MenuItem 'Type=MenuItem' =' event created with arguments 'select in menu'
@@ -621,15 +621,15 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'toggled.true' on RadioButton 'Type=RadioButton' =' event created with arguments 'choose'
@@ -656,15 +656,15 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'toggled.false' on ToggleButton 'Type=ToggleButton' =' event created with arguments 'release'
@@ -691,15 +691,15 @@ Updated : GtkTreeView with columns:
 -> release
 -> ?
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'toggled.true' on ToggleButton 'Type=ToggleButton' =' event created with arguments 'depress'
@@ -726,15 +726,15 @@ Updated : GtkTreeView with columns:
 -> release
 -> depress
 -> ?
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'clicked' on ToolButton 'Type=ToolButton' =' event created with arguments 'click tool item'
@@ -761,15 +761,15 @@ Updated : GtkTreeView with columns:
 -> release
 -> depress
 -> click tool item
--> ?<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row1</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'button-press-event' on TreeView 'Type=TreeView' =' event created with arguments 'view popup for'
@@ -797,14 +797,14 @@ Updated : GtkTreeView with columns:
 -> depress
 -> click tool item
 -> view popup for<i> row1</i>
--> ?<i> row2</i>
+-> ? <i>row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'changed.selection' on TreeView 'Type=TreeView' =' event created with arguments 'select row'
@@ -834,12 +834,12 @@ Updated : GtkTreeView with columns:
 -> view popup for<i> row1</i>
 -> select row<i> row2</i>
 -> ?
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'clicked.Column.' on TreeView 'Type=TreeView' =' event created with arguments 'sort by Column'
@@ -869,12 +869,12 @@ Updated : GtkTreeView with columns:
 -> view popup for<i> row1</i>
 -> select row<i> row2</i>
 -> sort by Column
--> ?<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row3</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'edited.Column' on TreeView 'Type=TreeView' =' event created with arguments 'edit for Column'
@@ -905,11 +905,11 @@ Updated : GtkTreeView with columns:
 -> select row<i> row2</i>
 -> sort by Column
 -> edit for Column<i> row3</i>
--> ?<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row4</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'row-activated' on TreeView 'Type=TreeView' =' event created with arguments 'activate row'
@@ -941,10 +941,10 @@ Updated : GtkTreeView with columns:
 -> sort by Column
 -> edit for Column<i> row3</i>
 -> activate row<i> row4</i>
--> ?<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row5</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'row-collapsed' on TreeView 'Type=TreeView' =' event created with arguments 'collapse row'
@@ -977,9 +977,9 @@ Updated : GtkTreeView with columns:
 -> edit for Column<i> row3</i>
 -> activate row<i> row4</i>
 -> collapse row<i> row5</i>
--> ?<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row6</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' =' event created with arguments 'expand row'
@@ -1013,8 +1013,8 @@ Updated : GtkTreeView with columns:
 -> activate row<i> row4</i>
 -> collapse row<i> row5</i>
 -> expand row<i> row6</i>
--> ?<i> row7</i>
--> ?<i> row8</i>
+-> ? <i>row7</i>
+-> ? <i>row8</i>
 -> ?
 
 'finish name entry editing by pressing <enter>' event created with arguments ''
