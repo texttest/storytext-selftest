@@ -1,0 +1,110 @@
+
+---------- Window 'FileChooserDemo' ----------
+Button 'Open a File...'  Button 'Save a File...'
+
+========== TextArea ========== (read only)
+
+==============================
+----------------------------------------------
+
+'open a file' event created with arguments ''
+
+---------- Window 'Open' ----------
+...... 7-Column Layout ......
+'Look In:'
+
+========== ComboBox ========== (read only)
+/nfs/vm/texttest-tmp/geoff/storytext.jython.05Oct112139.14307/storytext.jython/swing/file_choosers/usecases
+==============================
+
+Button (Tooltip 'Up One Level', Image 1)
+
+Button (Tooltip 'Home', Image 2)
+
+Button (Tooltip 'Create New Folder', Image 3)
+
+Toggle button:  (depressed) (Tooltip 'List', Image 4)
+
+Toggle button:  (Tooltip 'Details', Image 5)
+.............................
+
+List :
+-> ui_map.conf
+
+'File Name:'  ========== TextField ==========
+
+              ===============================
+
+'Files of Type:'  ========== ComboBox ========== (read only)
+                  All Files
+                  ==============================
+
+Button 'Open' (Tooltip 'Open selected file')
+
+Button 'Cancel' (Tooltip 'Abort file chooser dialog')
+-----------------------------------
+
+'set file name to' event created with arguments 'file.txt'
+
+Updated File Name: Field
+========== TextField ==========
+file.txt
+===============================
+
+'confirm open' event created with arguments ''
+
+Updated Text Field
+========== TextArea ========== (read only)
+Opening: file.txt.
+==============================
+
+'save a file' event created with arguments ''
+
+---------- Window 'Save' ----------
+...... 7-Column Layout ......
+'Save In:'
+
+========== ComboBox ========== (read only)
+/nfs/vm/texttest-tmp/geoff/storytext.jython.05Oct112139.14307/storytext.jython/swing/file_choosers/usecases
+==============================
+
+Button (Tooltip 'Up One Level', Image 1)
+
+Button (Tooltip 'Home', Image 2)
+
+Button (Tooltip 'Create New Folder', Image 3)
+
+Toggle button:  (depressed) (Tooltip 'List', Image 4)
+
+Toggle button:  (Tooltip 'Details', Image 5)
+.............................
+
+List :
+-> ui_map.conf
+
+'File Name:'  ========== TextField ==========
+              file.txt
+              ===============================
+
+'Files of Type:'  ========== ComboBox ========== (read only)
+                  All Files
+                  ==============================
+
+Button 'Save' (Tooltip 'Save selected file')
+
+Button 'Cancel' (Tooltip 'Abort file chooser dialog')
+-----------------------------------
+
+Updated 'Save In:'
+
+Updated Button 'Save' (Tooltip 'Save selected file')
+
+'confirm save' event created with arguments ''
+
+Updated Text Field
+========== TextArea ========== (read only)
+Opening: file.txt.
+Saving: file.txt.
+==============================
+
+'close' event created with arguments ''

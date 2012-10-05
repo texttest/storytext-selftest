@@ -70,6 +70,9 @@ progressbar
 # Test for JInternalFrame
 internal_frames
 
+# Test we can handle file choosers properly
+file_choosers
+
 # Tests for describer using various layouts
 layouts
 

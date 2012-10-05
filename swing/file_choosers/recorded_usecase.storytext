@@ -1,0 +1,6 @@
+open a file
+set file name to file.txt
+confirm open
+save a file
+confirm save
+close
