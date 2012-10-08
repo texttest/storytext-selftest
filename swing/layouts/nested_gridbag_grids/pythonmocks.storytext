@@ -1,2 +1,0 @@
-<-PYT:locale.getdefaultlocale()
-->RET:('en_US', 'ISO8859-1')

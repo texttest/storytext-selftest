@@ -1,3 +1,0 @@
-[python]
-intercepts = locale.getdefaultlocale
-check_repeated_calls = False
