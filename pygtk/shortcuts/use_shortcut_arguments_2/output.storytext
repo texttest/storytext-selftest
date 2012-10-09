@@ -1,0 +1,77 @@
+
+---------- Window 'The Video Store' ----------
+Focus widget is 'Movie Name'
+
+Menu Bar : 'File' (+)
+'New Movie Name  ' , Text entry , Button 'Add' , Button 'Delete' , Button 'Sort' , Button 'Clear' (greyed out)
+
+Showing Notebook with tabs: text info , video view
+Viewing page 'video view'
+
+Showing Movie Tree with columns: Movie Name
+----------------------------------------------
+
+'set new movie name to' event created with arguments '$Dollar'
+Edited 'Movie Name' Text entry (set to '$Dollar')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> $Dollar
+
+'set new movie name to' event created with arguments 'One $1'
+Edited 'Movie Name' Text entry (set to 'One $1')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> $Dollar
+-> One $1
+
+'set new movie name to' event created with arguments 'Two $2'
+Edited 'Movie Name' Text entry (set to 'Two $2')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> $Dollar
+-> One $1
+-> Two $2
+
+'set new movie name to' event created with arguments '$'
+Edited 'Movie Name' Text entry (set to '$')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> $Dollar
+-> One $1
+-> Two $2
+-> $
+
+'set new movie name to' event created with arguments '$New Dollar'
+Edited 'Movie Name' Text entry (set to '$New Dollar')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> $Dollar
+-> One $1
+-> Two $2
+-> $
+-> $New Dollar
+
+'set new movie name to' event created with arguments '$$DOUBLE'
+Edited 'Movie Name' Text entry (set to '$$DOUBLE')
+
+'add movie' event created with arguments ''
+
+Updated : Movie Tree with columns: Movie Name
+-> $Dollar
+-> One $1
+-> Two $2
+-> $
+-> $New Dollar
+-> $$DOUBLE
+
+'close' event created with arguments ''
