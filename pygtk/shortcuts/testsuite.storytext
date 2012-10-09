@@ -5,7 +5,7 @@ use_shortcut
 use_shortcut_arguments
 
 # Make sure a shortcut file can be used, and that arguments containing '$' character can be provided
-use_shortcut_arguments_2
+dollars_in_shorcut_arguments
 
 # If a shortcut with arguments doesn't fully match, don't insert the shortcut with dollars
 shortcut_arguments_match_partial

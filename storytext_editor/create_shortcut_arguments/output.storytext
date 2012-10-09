@@ -33,7 +33,8 @@ Changed selection in GtkTreeView with columns:
 Focus widget is 'New Name'
 'New name for shortcut:'
 Text entry (set to 'Do something with Die Hard')
-.....'do_something_with_$.shortcut'......
+---------------
+.....'<b><i>do_something_with_$.shortcut</i></b>'......
 
 Showing GtkTreeView with columns: 
 -> set new movie name to $
@@ -44,6 +45,8 @@ Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 
 'enter new shortcut name' event created with arguments 'create movie Die Hard'
 Edited 'New Name' Text entry (set to 'create movie Die Hard')
+
+Changing GtkLabel to: '<b><i>create_movie_$.shortcut</i></b>'
 
 'accept new shortcut name' event created with arguments ''
 
