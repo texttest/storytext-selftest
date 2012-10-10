@@ -24,3 +24,6 @@ builder_dialog
 
 # Test that we can handle tree views created using gtk.Builder
 builder_treeview
+
+# Test that we can handle changes in frame title
+frame_update_label
