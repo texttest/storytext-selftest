@@ -43,6 +43,9 @@ text.setToolTipText("Your Full Name Please!")
 
 from org.eclipse.jface.fieldassist import FieldDecorationRegistry
 
+decoUseless = ControlDecoration(text, SWT.TOP | SWT.RIGHT)
+decoUseless.hide()
+
 deco = ControlDecoration(text, SWT.TOP | SWT.LEFT)
 image = FieldDecorationRegistry.getDefault().getFieldDecoration(FieldDecorationRegistry.DEC_ERROR).getImage();
 deco.setDescriptionText("Name may not be empty")
