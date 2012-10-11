@@ -1,0 +1,13 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Describe
+
+              'TopRight'
+
+'BottomLeft'  'BottomRight'
+
+------------------------------
+
+'close window' event created with arguments ''

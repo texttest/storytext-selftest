@@ -1,6 +1,9 @@
 # Test for things appearing, and also grid layout description
 text_in_grid
 
+# "Fake" a grid by having two columns, make sure alignment is correct
+adjacent_columns
+
 # Test for rows embedded in grids
 row_in_grid
 
@@ -28,7 +31,6 @@ ignore_labels
 
 # Sometimes labels appears above rather than to the left of widgets.
 # Should either use them or ignore them.
-# 
 column_labels_in_grid
 
 # Test for grid layouts spanning several columns. Have an odd number of widgets.
