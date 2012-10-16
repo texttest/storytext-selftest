@@ -1,0 +1,53 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> set new movie name to<i> E</i>
+-> add movie
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'select preview node' event created with arguments 'set new movie name to E,add movie'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> E</i>   ***
+-> add movie   ***
+-> close
+
+'show preview node options for' event created with arguments 'add movie'
+
+---------- Popup Window ----------
+'Create shortcut'
+----------------------------------
+
+'create a new shortcut' event created with arguments ''
+
+---------- Dialog 'New Shortcut' ----------
+Focus widget is 'New Name'
+'New name for shortcut:'
+Text entry (set to 'Do something with E')
+---------------
+.....'<b><i>do_something_with_$.shortcut</i></b>'......
+
+Showing GtkTreeView with columns: 
+-> set new movie name to $
+-> add movie
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+-------------------------------------------
+
+'enter new shortcut name' event created with arguments 'create movie E'
+Edited 'New Name' Text entry (set to 'create movie E')
+
+Changing GtkLabel to: '<b><i>create_movie_$.shortcut</i></b>'
+
+'accept new shortcut name' event created with arguments ''
+
+Updated : GtkTreeView with columns: 
+-> <b>create movie <i>E</i></b>
+-> close
+
+'finish name entry editing' event created with arguments ''

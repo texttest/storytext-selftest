@@ -22,6 +22,12 @@ create_shortcut_noargs
 # Create a shortcut in the editor
 create_shortcut_arguments
 
+# If the argument is one letter, make sure it doesn't screw up the rest of the usecase...
+short_arguments
+
+# Create a shortcut in the editor
+multiple_arguments_ignore_one
+
 # Create a shortcut directly after entering the names
 enter_names_create_shortcut
 
