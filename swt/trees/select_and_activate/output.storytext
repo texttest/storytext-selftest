@@ -16,14 +16,15 @@ Tree :
 
 ------------------------------
 
-'select' event created with arguments 'Item 2'
+'select' event created with arguments 'Item 2,Item 3'
 False TreeItem {Item 2}
+False TreeItem {Item 3}
 
 Updated Tree :
 -> Item 0
 -> Item 1
 -> Item 2 (selected)
--> Item 3
+-> Item 3 (selected)
 -> Item 4
 -> Item 5
 -> Item 6
