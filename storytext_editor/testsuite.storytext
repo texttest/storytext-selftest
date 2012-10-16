@@ -10,27 +10,6 @@ cancel_editing
 # Check we can declare ourselves satisfied by pressing <enter>
 accept_with_enter_key
 
-# Make sure nothing comes up if there's aren't any auto-generated commands
-show_shortcuts
-
-# Show the shortcuts and their arguments correctly
-show_shortcuts_arguments
-
-# Create a shortcut in the editor
-create_shortcut_noargs
-
-# Create a shortcut in the editor
-create_shortcut_arguments
-
-# If the argument is one letter, make sure it doesn't screw up the rest of the usecase...
-short_arguments
-
-# Create a shortcut in the editor
-multiple_arguments_ignore_one
-
-# Create a shortcut directly after entering the names
-enter_names_create_shortcut
-
 # Closing window shouldn't cancel in preview mode
 close_window
 
@@ -57,3 +36,6 @@ text_not_utf8
 
 # Don't crash if we don't recognise the interface
 unknown_interface
+
+# Test that create
+shortcut_creation

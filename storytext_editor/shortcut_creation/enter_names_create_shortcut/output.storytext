@@ -13,6 +13,8 @@ Viewing table with 4 rows and 4 columns.
 Showing GtkTreeView with columns: 
 -> ? <i>Star Wars</i>
 -> ?
+-> ? <i>Die Hard</i>
+-> ?
 -> ?
 ---------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
@@ -24,6 +26,8 @@ Edited 'GtkEntry' Text entry (set to 'set movie name to')
 Updated : GtkTreeView with columns: 
 -> set movie name to<i> Star Wars</i>
 -> ?
+-> set movie name to<i> Die Hard</i>
+-> ?
 -> ?
 
 'enter usecase name for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'add movie'
@@ -31,6 +35,8 @@ Edited 'GtkEntry' Text entry (set to 'add movie')
 
 Updated : GtkTreeView with columns: 
 -> set movie name to<i> Star Wars</i>
+-> add movie
+-> set movie name to<i> Die Hard</i>
 -> add movie
 -> ?
 
@@ -40,16 +46,20 @@ Edited 'GtkEntry' Text entry (set to 'close')
 Updated : GtkTreeView with columns: 
 -> set movie name to<i> Star Wars</i>
 -> add movie
+-> set movie name to<i> Die Hard</i>
+-> add movie
 -> close
 
-'select preview node' event created with arguments 'set movie name to Star Wars,add movie'
+'select preview node' event created with arguments 'set movie name to Star Wars,add movie (1)'
 
 Changed selection in GtkTreeView with columns: 
 -> set movie name to<i> Star Wars</i>   ***
 -> add movie   ***
+-> set movie name to<i> Die Hard</i>
+-> add movie
 -> close
 
-'show preview node options for' event created with arguments 'add movie'
+'show preview node options for' event created with arguments 'add movie (1)'
 
 ---------- Popup Window ----------
 'Create shortcut'
@@ -80,6 +90,7 @@ Changing GtkLabel to: '<b><i>create_new_movie_$.shortcut</i></b>'
 
 Updated : GtkTreeView with columns: 
 -> <b>create new movie <i>Star Wars</i></b>
+-> <b>create new movie <i>Die Hard</i></b>
 -> close
 
 'expand preview node' event created with arguments 'create new movie Star Wars'
@@ -88,6 +99,7 @@ Expanded row in GtkTreeView with columns:
 -> <b>create new movie <i>Star Wars</i></b>
 ->   set movie name to<i> Star Wars</i>
 ->   add movie
+-> <b>create new movie <i>Die Hard</i></b>
 -> close
 
 'expand preview node' event created with arguments 'close'
@@ -96,6 +108,7 @@ Expanded row in GtkTreeView with columns:
 -> <b>create new movie <i>Star Wars</i></b>
 ->   set movie name to<i> Star Wars</i>
 ->   add movie
+-> <b>create new movie <i>Die Hard</i></b>
 -> close
 ->   Perform 'delete-event' on widget of type 'Window' identified by 'Title=The Video Store'
 
@@ -106,6 +119,7 @@ Expanded row in GtkTreeView with columns:
 ->   set movie name to<i> Star Wars</i>
 ->   add movie
 ->     Perform 'clicked' on widget of type 'Button' identified by 'Label=Add'
+-> <b>create new movie <i>Die Hard</i></b>
 -> close
 ->   Perform 'delete-event' on widget of type 'Window' identified by 'Title=The Video Store'
 

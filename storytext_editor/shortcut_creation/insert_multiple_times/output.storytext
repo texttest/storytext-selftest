@@ -1,0 +1,84 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> set new movie name to<i> Star Wars</i>
+-> add movie
+-> set new movie name to<i> Titanic</i>
+-> add movie
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'select preview node' event created with arguments 'set new movie name to Die Hard,add movie (1)'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>   ***
+-> add movie   ***
+-> set new movie name to<i> Star Wars</i>
+-> add movie
+-> set new movie name to<i> Titanic</i>
+-> add movie
+-> close
+
+'show preview node options for' event created with arguments 'add movie (1)'
+
+---------- Popup Window ----------
+'Create shortcut'
+----------------------------------
+
+'create a new shortcut' event created with arguments ''
+
+---------- Dialog 'New Shortcut' ----------
+Focus widget is 'New Name'
+'New name for shortcut:'
+Text entry (set to 'Do something with Die Hard')
+---------------
+.....'<b><i>do_something_with_$.shortcut</i></b>'......
+
+Showing GtkTreeView with columns: 
+-> set new movie name to $
+-> add movie
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+-------------------------------------------
+
+'enter new shortcut name' event created with arguments 'Create Movie Die Hard'
+Edited 'New Name' Text entry (set to 'Create Movie Die Hard')
+
+Changing GtkLabel to: '<b><i>create_movie_$.shortcut</i></b>'
+
+'accept new shortcut name' event created with arguments ''
+
+Updated : GtkTreeView with columns: 
+-> <b>create movie <i>Die Hard</i></b>
+-> <b>create movie <i>Star Wars</i></b>
+-> <b>create movie <i>Titanic</i></b>
+-> close
+
+'expand preview node' event created with arguments 'create movie Star Wars'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>create movie <i>Die Hard</i></b>
+-> <b>create movie <i>Star Wars</i></b>
+->   set new movie name to<i> Star Wars</i>
+->   add movie
+-> <b>create movie <i>Titanic</i></b>
+-> close
+
+'expand preview node' event created with arguments 'set new movie name to Star Wars under create movie Star Wars'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>create movie <i>Die Hard</i></b>
+-> <b>create movie <i>Star Wars</i></b>
+->   set new movie name to<i> Star Wars</i>
+->     Perform 'changed' on widget identified by 'Name=Movie Name'
+->   add movie
+-> <b>create movie <i>Titanic</i></b>
+-> close
+
+'finish name entry editing' event created with arguments ''
