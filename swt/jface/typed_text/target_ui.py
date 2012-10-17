@@ -18,6 +18,7 @@ from org.eclipse.swt import *
 from org.eclipse.swt.widgets import *
 from org.eclipse.swt.layout import *
 from org.eclipse.jface.fieldassist import ControlDecoration
+from java.lang import Runnable
 
 display = Display()
 shell = Shell(display)
@@ -45,7 +46,7 @@ from org.eclipse.jface.fieldassist import FieldDecorationRegistry
 
 deco = ControlDecoration(text, SWT.TOP | SWT.LEFT)
 image = FieldDecorationRegistry.getDefault().getFieldDecoration(FieldDecorationRegistry.DEC_ERROR).getImage();
-deco.setDescriptionText("Most be a real name")
+deco.setDescriptionText("Must be a real name")
 deco.setImage(image)
 
 
@@ -78,6 +79,11 @@ class CityListener(Listener):
         if e.widget.getText() == "London":
             deco2.show()
             deco2.setDescriptionText("London is in England!")
+            class MyRunnable(Runnable):
+                def run(self):
+                    text.setText("The Queen?")
+
+            display.asyncExec(MyRunnable())
         else:
             deco2.hide()
 

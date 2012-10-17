@@ -5,7 +5,7 @@ Menu Bar:
     Describe
 
 'Name'  ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
-                                    'Most be a real name')
+                                    'Must be a real name')
         ==========================
 'City'  ========== Text ==========
 
@@ -17,24 +17,29 @@ Menu Bar:
 
 Updated Name Field
 ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
-123                         'Most be a real name')
+123                         'Must be a real name')
 ==========================
 
 'set name to' event created with arguments '234'
 
 Updated Name Field
 ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
-234                         'Most be a real name')
+234                         'Must be a real name')
 ==========================
 
 'set name to' event created with arguments '567'
 
 Updated Name Field
 ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
-567                         'Most be a real name')
+567                         'Must be a real name')
 ==========================
 
 'set city to' event created with arguments 'London'
+
+Updated Name Field
+========== Text ========== (Tooltip 'Your Full Name Please!')
+The Queen?
+==========================
 
 Updated City Field
 ========== Text ========== (Decoration Image 2
@@ -42,6 +47,6 @@ London                      'London is in England!')
 ==========================
 
 'describe choices' event created with arguments ''
-You are 567 and you live in London
+You are The Queen? and you live in London
 
 'close window' event created with arguments ''
