@@ -1,6 +1,3 @@
-# Check we correctly do a normal insertion
-basic_insert
-
 # Check we insert the longest of the two choices, when there is a choice
 insert_longest_shortcut
 

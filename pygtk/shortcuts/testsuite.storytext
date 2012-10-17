@@ -35,6 +35,9 @@ choose_shortcut_shorter_arguments
 # Don't get confused if other shortcuts with names that are substrings of this one exist
 shortcut_name_substring
 
+# Check we correctly do a normal insertion
+insert_when_running
+
 # Tests for automatic insertion of shortcuts when recording
 inserting
 

@@ -85,3 +85,6 @@ Options:
   -X EXCLUDE_DESCRIBE, --exclude-describe=EXCLUDE_DESCRIBE
                         Exclude the listed widget class names from being
                         described in the describer
+  --insert-shortcuts    Re-record the replay script to the record script
+                        without running anything, inserting shortcuts as
+                        required
