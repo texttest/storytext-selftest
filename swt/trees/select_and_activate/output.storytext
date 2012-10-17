@@ -1,7 +1,7 @@
 
 ---------- Shell '' ----------
 Tree :
--> Item 0
+-> Initial Item,with commas
 -> Item 1
 -> Item 2
 -> Item 3
@@ -16,12 +16,29 @@ Tree :
 
 ------------------------------
 
+'select' event created with arguments 'Initial Item,with commas'
+False TreeItem {Initial Item,with commas}
+
+Updated Tree :
+-> Initial Item,with commas (selected)
+-> Item 1
+-> Item 2
+-> Item 3
+-> Item 4
+-> Item 5
+-> Item 6
+-> Item 7
+-> Item 8
+-> Item 9
+-> Item 10
+-> Item 11
+
 'select' event created with arguments 'Item 2,Item 3'
 False TreeItem {Item 2}
 False TreeItem {Item 3}
 
 Updated Tree :
--> Item 0
+-> Initial Item,with commas
 -> Item 1
 -> Item 2 (selected)
 -> Item 3 (selected)
@@ -39,7 +56,7 @@ False TreeItem {Item 4}
 True TreeItem {Item 4}
 
 Updated Tree :
--> Item 0
+-> Initial Item,with commas
 -> Item 1
 -> Item 2
 -> Item 3
@@ -57,7 +74,7 @@ False TreeItem {Item 6}
 True TreeItem {Item 6}
 
 Updated Tree :
--> Item 0
+-> Initial Item,with commas
 -> Item 1
 -> Item 2
 -> Item 3
@@ -74,7 +91,7 @@ Updated Tree :
 False None
 
 Updated Tree :
--> Item 0
+-> Initial Item,with commas
 -> Item 1
 -> Item 2
 -> Item 3
