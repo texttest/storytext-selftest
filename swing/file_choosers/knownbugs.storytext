@@ -1,0 +1,7 @@
+[Reported by dgalda at 15Dec16:39:11]
+bug_id = TTT-2401
+bug_system = jira
+ignore_other_errors = 1
+search_file = errors
+search_string = waitForIdle
+
