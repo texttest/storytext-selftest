@@ -40,6 +40,7 @@ is also supported but will only have features of the listed type described.
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/CoolBar.html>org.eclipse.swt.widgets.CoolBar</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/DateTime.html>org.eclipse.swt.widgets.DateTime</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/ExpandBar.html>org.eclipse.swt.widgets.ExpandBar</a>
+<li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Group.html>org.eclipse.swt.widgets.Group</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Label.html>org.eclipse.swt.widgets.Label</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/Link.html>org.eclipse.swt.widgets.Link</a>
 <li><a class="Text_Link" href=http://help.eclipse.org/helios/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/List.html>org.eclipse.swt.widgets.List</a>

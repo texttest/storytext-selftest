@@ -49,7 +49,8 @@ addButtonData.bottom = FormAttachment(100, 0)
 addButton.setLayoutData(addButtonData)
 
 #create the composite that the pages will share
-contentPanel = Composite(shell, SWT.BORDER)
+contentPanel = Group(shell, SWT.BORDER)
+contentPanel.setText("The Page Stack")
 contentPanel.setBounds(100, 10, 190, 90)
 layout = StackLayout()
 contentPanel.setLayout(layout)
