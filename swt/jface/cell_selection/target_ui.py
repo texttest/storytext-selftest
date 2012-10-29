@@ -84,7 +84,7 @@ class MyLabelProvider(LabelProvider, ITableLabelProvider, ITableFontProvider, IT
 
 
 def addWidgets(shell):
-	v = TableViewer(shell, SWT.BORDER|SWT.FULL_SELECTION)
+	v = TableViewer(shell, SWT.BORDER|SWT.MULTI|SWT.FULL_SELECTION)
 	v.setLabelProvider(MyLabelProvider())
 	v.setContentProvider(MyContentProvider())
 
