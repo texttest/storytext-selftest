@@ -65,6 +65,7 @@ Updated : GtkTreeView with columns:
 Changing GtkLabel to: '<b><i>add_some_movies_including_$_and_$.shortcut</i></b>'
 
 'accept new shortcut name' event created with arguments ''
+Shortcut 'add_some_movies_including_$_and_$.shortcut' created.
 
 Updated : GtkTreeView with columns: 
 -> <b>add some movies including <i>Die Hard</i> and <i>Titanic</i></b>

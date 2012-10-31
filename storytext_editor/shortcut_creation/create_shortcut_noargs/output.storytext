@@ -140,6 +140,7 @@ Edited 'New Name' Text entry (set to 'add and wait')
 Changing GtkLabel to: '<b><i>add_and_wait.shortcut</i></b>'
 
 'accept new shortcut name' event created with arguments ''
+Shortcut 'add_and_wait.shortcut' created.
 
 Updated : GtkTreeView with columns: 
 -> set new movie name to<i> Die Hard</i>

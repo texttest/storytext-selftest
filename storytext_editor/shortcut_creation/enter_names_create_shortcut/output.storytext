@@ -87,6 +87,7 @@ Edited 'New Name' Text entry (set to 'create new movie Star Wars')
 Changing GtkLabel to: '<b><i>create_new_movie_$.shortcut</i></b>'
 
 'accept new shortcut name' event created with arguments ''
+Shortcut 'create_new_movie_$.shortcut' created.
 
 Updated : GtkTreeView with columns: 
 -> <b>create new movie <i>Star Wars</i></b>
