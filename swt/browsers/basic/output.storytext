@@ -16,9 +16,9 @@ Waiting for application event 'browser to finish loading' to occur.
 
 Updated Text Field
 ========== Browser ==========
-topleft     top     topright
-midleft     centre  midright
-bottomleft  bottom  bottomright
+topleft     top               topright
+midleft     Image 'ring.png'  midright
+bottomleft  bottom            bottomright
 =============================
 
 Expected application event 'browser to finish loading' occurred, proceeding.
