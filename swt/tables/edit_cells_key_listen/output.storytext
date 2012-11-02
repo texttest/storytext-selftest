@@ -45,7 +45,7 @@ edit this value
 
 'set cell contents to' event created with arguments 'Real Value'
 
-Updated Text Field
+Updated Table Cell Editor Field
 ========== Text ==========
 Real Value
 ==========================
@@ -146,7 +146,7 @@ extra item
 
 'set cell contents to' event created with arguments 'new item'
 
-Updated Text Field
+Updated Table Cell Editor Field
 ========== Text ==========
 new item
 ==========================
