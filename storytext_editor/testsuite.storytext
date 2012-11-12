@@ -37,5 +37,8 @@ text_not_utf8
 # Don't crash if we don't recognise the interface
 unknown_interface
 
+# Update UI map file from the editor
+update_uimap
+
 # Test that create
 shortcut_creation

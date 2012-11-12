@@ -1,0 +1,21 @@
+expand preview node set new movie name to Die Hard
+select preview node Perform 'changed' on widget identified by 'Name=Movie Name' under set new movie name to Die Hard
+show preview node options for Perform 'changed' on widget identified by 'Name=Movie Name' under set new movie name to Die Hard
+update ui map file
+enter new widget description Name=New Movie Name
+enter new activity name rechanged
+accept update ui map file
+expand preview node add star wars
+expand preview node set new movie name to Star Wars
+expand preview node add movie at top level
+show preview node options for Perform 'clicked' on widget identified by 'Label=Add' at top level
+update ui map file
+enter new widget description 
+accept update ui map file
+accept message
+enter new widget description Label=Update
+enter new activity name 
+accept update ui map file
+accept message
+cancel update ui map file
+finish name entry editing

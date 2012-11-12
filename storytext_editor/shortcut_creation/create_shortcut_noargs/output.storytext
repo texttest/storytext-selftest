@@ -25,6 +25,8 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut' (greyed out)
+  ----
+'Update UI map file' (greyed out)
 ----------------------------------
 
 'select preview node' event created with arguments 'close,add movie at top level'
