@@ -125,10 +125,10 @@ Changed selection in GtkTreeView with columns: Messages
 -> Message #8
 -> Message #9
 
-'change text to' event created with arguments 'Now Showing: nothing!'
+'change text to' event created with arguments '  Now Showing: nothing!'
 
 ========== GtkTextView ==========
-Now Showing: nothing!
+  Now Showing: nothing!
 =================================
 
 'select message' event created with arguments 'Message #4'
