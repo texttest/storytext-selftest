@@ -38,6 +38,9 @@ shortcut_name_substring
 # Check we correctly do a normal insertion
 insert_when_running
 
+# If a shortcut calls itself, give an error, don't just hang
+self_reference_shortcut
+
 # Tests for automatic insertion of shortcuts when recording
 inserting
 

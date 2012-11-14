@@ -1,0 +1,3 @@
+Xlib:  extension "RANDR" missing on display ":2857.0".
+ERROR: Cannot execute shortcut command 'add $s $ and $' - shortcut is trying to call itself!
+ERROR: Cannot execute shortcut command 'add movies Star Wars and Die Hard' - shortcut is trying to call itself!
