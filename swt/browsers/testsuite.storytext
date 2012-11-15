@@ -6,3 +6,6 @@ nested_tables
 
 # Test for browser widgets containing nested tables
 table_indent
+
+# Check we prune tab characters properly
+tabs
