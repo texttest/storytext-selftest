@@ -16,17 +16,8 @@
 ## */
 
 import os
-if os.pathsep == ";": # Windows. Quoting gets destroyed by Browser there, don't know why
-    html = """<head>
-</head><body><table>
-<tr><td>Table-0</td></tr>
-<tr><td><table><tr><td>Table-1</td></tr><tr><td><table><tr><td>Table-2</td></tr>
-<tr><td>Non-breaking spaces:</td><td>Hello &nbsp; world</td></tr>
-</table></td>
-</tr></table></td></tr>
-</table></body>"""
-else:
-    html = '''<head><style type="text/css">
+    
+html = '''<head><style type="text/css">
 body {background-color:#FFFFFF;font:12px arial,sans-serif} table {font:12px arial,sans-serif}</style>
 </head><body><table cellspacing="0" cellpadding="1" border="0" align="left"><tbody>
 <tr><td>Table-0</td></tr>
