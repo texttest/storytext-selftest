@@ -1,0 +1,115 @@
+
+---------- Shell '' ----------
+Table :
+_____________________________________
+Column 1           Column 2  Column 3
+_____________________________________
+Item 0 (selected)  Item 0    Item 0
+Item 1             Item 1    Item 1
+Item 2             Item 2    Item 2
+Item 3             Item 3    Item 3
+Item 4             Item 4    Item 4
+Item 5             Item 5    Item 5
+Item 6             Item 6    Item 6
+Item 7             Item 7    Item 7
+Item 8             Item 8    Item 8
+Item 9             Item 9    Item 9
+_____________________________________
+
+------------------------------
+
+'edit cell' event created with arguments 'Column 1 for Item 2'
+
+Updated Table :
+_____________________________________
+Column 1           Column 2  Column 3
+_____________________________________
+Item 0             Item 0    Item 0
+Item 1             Item 1    Item 1
+Item 2 (selected)  Item 2    Item 2
+Item 3             Item 3    Item 3
+Item 4             Item 4    Item 4
+Item 5             Item 5    Item 5
+Item 6             Item 6    Item 6
+Item 7             Item 7    Item 7
+Item 8             Item 8    Item 8
+Item 9             Item 9    Item 9
+_____________________________________
+
+========== Text ==========
+Column 1 => Item 2
+==========================
+
+'set cell contents to' event created with arguments 'blah'
+
+Updated Table Cell Editor Field
+========== Text ==========
+blah
+==========================
+
+'perform cell edit' event created with arguments ''
+
+Updated Table :
+___________________________________
+Column 1         Column 2  Column 3
+___________________________________
+Item 0           Item 0    Item 0
+Item 1           Item 1    Item 1
+blah (selected)  Item 2    Item 2
+Item 3           Item 3    Item 3
+Item 4           Item 4    Item 4
+Item 5           Item 5    Item 5
+Item 6           Item 6    Item 6
+Item 7           Item 7    Item 7
+Item 8           Item 8    Item 8
+Item 9           Item 9    Item 9
+___________________________________
+
+'edit cell' event created with arguments 'Column 3 for Item 8'
+
+Updated Table :
+_____________________________________
+Column 1           Column 2  Column 3
+_____________________________________
+Item 0             Item 0    Item 0
+Item 1             Item 1    Item 1
+blah               Item 2    Item 2
+Item 3             Item 3    Item 3
+Item 4             Item 4    Item 4
+Item 5             Item 5    Item 5
+Item 6             Item 6    Item 6
+Item 7             Item 7    Item 7
+Item 8 (selected)  Item 8    Item 8
+Item 9             Item 9    Item 9
+_____________________________________
+
+========== Text ==========
+Column 3 => Item 8
+==========================
+
+'set cell contents to' event created with arguments 'And again'
+
+Updated Table Cell Editor Field
+========== Text ==========
+And again
+==========================
+
+'perform cell edit' event created with arguments ''
+
+Updated Table :
+______________________________________
+Column 1           Column 2  Column 3
+______________________________________
+Item 0             Item 0    Item 0
+Item 1             Item 1    Item 1
+blah               Item 2    Item 2
+Item 3             Item 3    Item 3
+Item 4             Item 4    Item 4
+Item 5             Item 5    Item 5
+Item 6             Item 6    Item 6
+Item 7             Item 7    Item 7
+Item 8 (selected)  Item 8    And again
+Item 9             Item 9    Item 9
+______________________________________
+
+'close window' event created with arguments ''

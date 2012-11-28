@@ -1,0 +1,7 @@
+edit cell Column 1 for Item 2
+set cell contents to blah
+perform cell edit
+edit cell Column 3 for Item 8
+set cell contents to And again
+perform cell edit
+close window

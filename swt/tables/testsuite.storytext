@@ -4,6 +4,9 @@ sort_by_column
 # Edit cells in a table
 edit_cells
 
+# Some tables may require double-clicking to trigger the editor
+edit_cells_double_click
+
 # Edit cells in a table. Make sure it works if we listen at a lower level.
 edit_cells_key_listen
 
