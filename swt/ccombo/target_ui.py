@@ -7,7 +7,7 @@ shell = Shell()
 combo = CCombo(shell, SWT.BORDER)
 combo.setItems(["", "Alpha", "Bravo", "Charlie" ])
 combo.setText("")
-combo.setSize(100, 10)
+combo.setSize(100, 100)
 
 class PrintListener(Listener):
     def handleEvent(self, e):

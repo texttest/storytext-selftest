@@ -1,0 +1,19 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Item
+    Submenu (cascade)
+      Item
+    E&xit
+
+------------------------------
+
+'press submenu item' event created with arguments ''
+Submenu Item
+
+'press item' event created with arguments ''
+Normal Item
+
+'exit' event created with arguments ''
+Closed!

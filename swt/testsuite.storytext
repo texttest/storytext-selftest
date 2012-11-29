@@ -10,6 +10,9 @@ checkbox
 # Test we can make use of the menus
 menus
 
+# Test we can distinguish between menus that have identical labels
+menus_same_label
+
 # Test we can handle menu state changes
 menu_state_changes
 
