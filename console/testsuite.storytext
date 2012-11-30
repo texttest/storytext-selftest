@@ -59,6 +59,9 @@ appevent_rename
 # Test for superceding application event categories
 supercede_categories
 
+# Test for superceding application event categories, with a duplicate involved also
+supercede_categories_interleave
+
 # Test for superceding application event categories, and renaming them also
 supercede_and_rename
 

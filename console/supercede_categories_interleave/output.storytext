@@ -1,0 +1,7 @@
+
+Waiting for application event 'something interesting * 2' to occur.
+
+Expected application event 'something interesting * 2' occurred, proceeding.
+
+Generating signal SIGINT
+Interrupted while sleeping for 5 seconds.

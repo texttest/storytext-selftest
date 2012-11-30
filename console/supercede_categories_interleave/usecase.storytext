@@ -1,0 +1,2 @@
+wait for something interesting * 2
+receive signal SIGINT
