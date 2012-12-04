@@ -58,7 +58,7 @@ display = Display()
 shell = Shell(display)
 shell.setLayout(FillLayout())
 
-v = TableViewer(shell, SWT.BORDER | SWT.FULL_SELECTION)
+v = TableViewer(shell, SWT.BORDER | SWT.FULL_SELECTION | SWT.MULTI)
 v.setContentProvider(MyContentProvider())
 v.setCellEditors([ TextCellEditor(v.getTable()),
                    TextCellEditor(v.getTable()),
