@@ -1,4 +1,5 @@
 select tab Item 1
-close second tab
+close tab Item 1
 rename tab
+close tab New
 close window

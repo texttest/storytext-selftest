@@ -20,7 +20,7 @@ Updated TabFolder with tabs Item 0 (cascade, Image 1) , Item 1 (cascade, Image 2
 Content for Item 1
 ==========================
 
-'close second tab' event created with arguments ''
+'close tab' event created with arguments 'Item 1'
 
 Updated TabFolder with tabs Item 0 (cascade, Image 1, selected)
 
@@ -40,5 +40,9 @@ Updated Text Field
 ========== Text ==========
 Content for Item 0
 ==========================
+
+'close tab' event created with arguments 'New'
+
+Updated TabFolder with no tabs
 
 'close window' event created with arguments ''

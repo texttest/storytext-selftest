@@ -3,8 +3,7 @@ StoryText trunk is currently capable of recording and replaying. Any type derive
 types is also supported.
 
 org.eclipse.swt.custom.CCombo           : Activate , Modify , Selection
-org.eclipse.swt.custom.CTabFolder       : Selection
-org.eclipse.swt.custom.CTabItem         : Dispose
+org.eclipse.swt.custom.CTabFolder       : CloseTab , Selection
 org.eclipse.swt.widgets.Button          : Selection
 org.eclipse.swt.widgets.Combo           : Activate , Modify
 org.eclipse.swt.widgets.DateTime        : Selection

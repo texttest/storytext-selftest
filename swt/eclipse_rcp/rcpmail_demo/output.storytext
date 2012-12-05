@@ -47,7 +47,7 @@ This RCP Application was generated from the PDE Plug-in Project wizard. This sam
 
 ------------------------------
 
-'close message tab' event created with arguments ''
+'close tab' event created with arguments 'Message'
 
 'expand account' event created with arguments 'me@this.com'
 
