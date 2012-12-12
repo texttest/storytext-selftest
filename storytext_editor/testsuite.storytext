@@ -40,5 +40,8 @@ unknown_interface
 # Update UI map file from the editor
 update_uimap
 
+# Rename usecase name from the editor
+rename_usecase
+
 # Test that create
 shortcut_creation
