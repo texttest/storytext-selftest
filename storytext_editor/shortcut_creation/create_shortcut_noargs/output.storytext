@@ -25,6 +25,7 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut' (greyed out)
+'Rename'
   ----
 'Update UI map file' (greyed out)
 ----------------------------------
