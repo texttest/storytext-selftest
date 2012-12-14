@@ -21,6 +21,9 @@ row_header_list
 # If the row header is a list, make sure that we can replay the selection.
 row_header_list_select_all_cells
 
+# If no columns are unique, index the first one that has data
+no_unique_column
+
 # Selecting cells in a table without key columns
 select_cells_no_key
 edit_cells

@@ -1,0 +1,35 @@
+
+---------- Window 'Table demo' ----------
+Table :
+____________________________
+Species  Name    Age  Gender
+____________________________
+Human    Anders  21   male
+Human    Anders  22   male
+Human    Eva     22   female
+____________________________
+-----------------------------------------
+
+'select' event created with arguments 'Age for Eva'
+
+Updated Table :
+______________________________________
+Species  Name    Age            Gender
+______________________________________
+Human    Anders  21             male
+Human    Anders  22             male
+Human    Eva     22 (selected)  female
+______________________________________
+
+'select' event created with arguments 'Gender for Anders (2)'
+
+Updated Table :
+_____________________________________
+Species  Name    Age  Gender
+_____________________________________
+Human    Anders  21   male
+Human    Anders  22   male (selected)
+Human    Eva     22   female
+_____________________________________
+
+'close window' event created with arguments ''
