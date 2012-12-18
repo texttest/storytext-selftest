@@ -12,3 +12,9 @@ multiple_insert
 
 # Do some of the shortcut, stop, and then do all of it. Don't lose the actions in the first "partial" attempt.
 insert_after_partial_shortcut
+
+# If we wait for two things, and the shortcut includes one, insert the shortcut anyway
+part_of_composite_wait
+
+# If we wait for a duplicated event, and the shortcut includes one, insert the shortcut anyway
+part_of_multiple_wait

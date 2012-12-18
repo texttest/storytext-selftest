@@ -1,0 +1,11 @@
+set new movie name to Star Wars
+add movie
+add die hard and wait
+wait for movie to load
+set new movie name to Chariots of Fire
+add movie
+set new movie name to Star Wars
+add movie
+add die hard and wait
+wait for movie to load * 2
+close

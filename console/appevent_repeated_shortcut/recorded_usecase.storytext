@@ -1,4 +1,6 @@
 wait for first sleep to complete
 receive sigquit and wait
+wait for another event
 receive sigquit and wait
+wait for another event
 receive signal SIGINT
