@@ -1,0 +1,28 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Black (radio, selected)
+    White (radio)
+    E&xit
+
+------------------------------
+
+'select white' event created with arguments ''
+Black unselected
+White selected
+
+Updated &File Menu:
+'Black (radio, selected)' changed to 'Black (radio)'
+'White (radio)' changed to 'White (radio, selected)'
+
+'select black' event created with arguments ''
+White unselected
+Black selected
+
+Updated &File Menu:
+'Black (radio)' changed to 'Black (radio, selected)'
+'White (radio, selected)' changed to 'White (radio)'
+
+'exit' event created with arguments ''
+Closed!
