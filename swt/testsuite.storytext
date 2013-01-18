@@ -58,6 +58,9 @@ ccombo
 # Test we can handle links
 link
 
+# Test we can handle spinners
+spinner
+
 # Test we can handle datetimes of various sorts...
 datetime
 

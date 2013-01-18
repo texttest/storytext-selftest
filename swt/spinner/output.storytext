@@ -1,0 +1,16 @@
+
+---------- Shell '' ----------
+'The Spinner'  ========== Spinner ========== (Max 1000, Page Step 100)
+               500
+               =============================
+
+------------------------------
+
+'set spinner to' event created with arguments '399'
+
+Updated The Spinner Field
+========== Spinner ========== (Max 1000, Page Step 100)
+399
+=============================
+
+'close' event created with arguments ''
