@@ -1,0 +1,4 @@
+set name to John
+activate name field
+describe choices
+close window
