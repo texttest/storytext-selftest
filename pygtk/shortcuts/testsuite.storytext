@@ -40,6 +40,7 @@ insert_when_running
 
 # If a shortcut calls itself, give an error, don't just hang
 self_reference_shortcut
+nested_shortcuts_arguments
 
 # Tests for automatic insertion of shortcuts when recording
 inserting
