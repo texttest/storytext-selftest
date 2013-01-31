@@ -6,4 +6,7 @@ jobs
 
 # Test for activating different parts
 part_activation
+
+# Make sure -x flag works, disabling usecase names
+disable_usecase_names
 ui_forms

@@ -1,2 +1,4 @@
-log4j:WARN No appenders could be found for logger (org.eclipse.swtbot.swt.finder.widgets.SWTBotShell).
+Xlib:  extension "RANDR" missing on display ":22052.0".
+log4j:WARN No appenders could be found for logger (org.eclipse.swtbot.swt.finder.widgets.SWTBotCTabItem).
 log4j:WARN Please initialize the log4j system properly.
+NOTE: discarded terminal comments in usecase file, these are not supported for Java applications.

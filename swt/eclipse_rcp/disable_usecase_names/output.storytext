@@ -1,0 +1,21 @@
+
+---------- Shell 'Tab (View) Selection Application' ----------
+Menu Bar:
+  &File (cascade)
+    E&xit	Ctrl+X
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1
+    Show in View 2 (greyed out)
+    Show Info View
+
+TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif', selected)
+
+--------------- Horizontal sash ---------------
+
+TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
+
+--------------------------------------------------------------
+
+'Auto.Shell.Close.'Label=Tab (View) Selection Application'' event created with arguments ''
