@@ -5,6 +5,9 @@ text_in_grid
 # Will not be recorded.
 type_free_text
 
+# Look in the parent, if appropriate
+text_in_subgrid
+
 # "Fake" a grid by having two columns, make sure alignment is correct
 adjacent_columns
 
