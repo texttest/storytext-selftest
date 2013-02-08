@@ -1,0 +1,5 @@
+open dialog
+show all
+set name to John
+close dialog
+close window

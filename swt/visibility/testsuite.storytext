@@ -22,3 +22,7 @@ show_and_dispose
 
 # Same test as parent_and_child except it all occurs in a dialog
 show_in_dialog
+
+# Same test as parent_and_child except it all occurs in a dialog. Also show stuff in the main window,
+# make sure it gets described at the correct time
+show_in_main_from_dialog

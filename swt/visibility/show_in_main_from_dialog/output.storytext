@@ -1,0 +1,35 @@
+
+---------- Shell 'Main Window' ----------
+Button 'Open a dialog'
+
+-----------------------------------------
+
+'open dialog' event created with arguments ''
+
+---------- Shell 'The Dialog' ----------
+Button 'Show All'
+
+----------------------------------------
+
+'show all' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Button 'Show All'  'Name'  ========== Text ==========
+
+                           ==========================
+
+'set name to' event created with arguments 'John'
+
+Updated Name Field
+========== Text ==========
+John
+==========================
+
+'close dialog' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Button 'Open a dialog'  'Just appeared!'
+
+'close window' event created with arguments ''
