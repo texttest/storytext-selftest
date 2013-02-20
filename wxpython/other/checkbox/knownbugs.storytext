@@ -4,5 +4,5 @@ search_string:Click on
 trigger_on_absence:1
 search_file:recorded_usecase
 ignore_other_errors:1
-bug_system:jira
-bug_id:TTT-2708
+brief_description:not working on Windows
+full_description:wxPython checkboxes don't work on Windows, and never have. Roger House got them working on Linux only. Bug TTT-2708 at Jeppesen, which doesn't say a lot more than this. 
