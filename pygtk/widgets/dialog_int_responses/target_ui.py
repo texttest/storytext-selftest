@@ -12,6 +12,7 @@ class AboutDialog():
 
     def show(self):
         dialog = gtk.Dialog('The Dialog Title', self._parent_window)
+        dialog.set_name("The Dialog")
         text = "Some text"
         about_label = gtk.Label(text)
         dialog.vbox.add(about_label)
