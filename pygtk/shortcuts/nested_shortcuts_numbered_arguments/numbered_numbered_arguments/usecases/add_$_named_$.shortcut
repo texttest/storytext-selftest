@@ -1,0 +1,2 @@
+set new $1 name to $2
+add $1

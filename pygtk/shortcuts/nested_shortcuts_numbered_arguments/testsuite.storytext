@@ -1,0 +1,14 @@
+# Handle when a shortcut, with numbered arguments, contains nested shortcuts
+# with unnumbered arguments
+numbered_unnumbered_arguments
+
+# Copy of nested_shortcuts_arguments
+# numbered_numbered_arguments (automatically commented due to no test directory being found)
+
+# Handle when a shortcut, with unnumbered arguments, contains nested shortcuts
+# with numbered arguments
+unnumbered_numbered_arguments
+
+# Handle when a shortcut, with numbered arguments, contains nested shortcuts
+# with numbered arguments
+numbered_numbered_arguments
