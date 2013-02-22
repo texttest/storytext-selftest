@@ -104,4 +104,24 @@ Updated Tree :
 -> Item 10
 -> Item 11
 
+'select' event created with arguments 'Item 2,Initial Item,with commas'
+False TreeItem {Item 2}
+False TreeItem {Initial Item,with commas}
+
+Updated Tree :
+-> Initial Item,with commas (selected)
+-> Item 1
+-> Item 2 (selected)
+-> Item 3
+-> Item 4
+-> Item 5
+-> Item 6
+-> Item 7
+-> Item 8
+-> Item 9
+-> Item 10
+-> Item 11
+
+ERROR: Could not simulate command 'select non,existent,item,with,commas' - Could not find item labelled 'non' in tree.
+
 'close window' event created with arguments ''

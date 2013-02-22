@@ -3,4 +3,6 @@ select Item 2,Item 3
 activate Item 4
 activate Item 6
 select
+select Item 2,Initial Item,with commas
+select non,existent,item,with,commas
 close window

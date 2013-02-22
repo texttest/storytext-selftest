@@ -43,6 +43,7 @@ menuItem = MenuItem(submenu, SWT.PUSH)
 menuItem.setText("Rename")
 
 folder = CTabFolder(shell, SWT.BORDER)
+folder.setData("org.eclipse.swtbot.widget.key", "The Folder");
 for i in range(2):
     item = CTabItem(folder, SWT.CLOSE)
     item.setText("Item " + str(i))
