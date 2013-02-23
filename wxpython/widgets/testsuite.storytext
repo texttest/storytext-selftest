@@ -16,3 +16,4 @@ dialog_no_mainloop
 
 # Test for opening a file with a (native) file dialog
 filedialog
+filedialog2
