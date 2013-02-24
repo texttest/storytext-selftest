@@ -1,0 +1,24 @@
+
+---------- Frame 'FileDialog Exercise' ----------
+
+Menubar:
+    >>>
+    File (+)
+
+    File menu
+        Open
+    --------------------
+        Save As
+    --------------------
+        Exit
+
+========== TextCtrl ==========
+
+==============================
+
+-------------------------------------------------
+
+'choose menu' event created with arguments 'File~~~Open'
+Changed title of frame to 'Open Dialog Canceled'
+
+'close' event created with arguments ''

@@ -14,6 +14,5 @@ dialog
 # modal dialog standing alone without calling App.MainLoop()
 dialog_no_mainloop
 
-# Test for opening a file with a (native) file dialog
-filedialog
-filedialog2
+# Tests to do with wx.FileDialog
+filedialogs

@@ -1,0 +1,3 @@
+# Test for opening a file with a (native) file dialog
+open_and_save
+cancel

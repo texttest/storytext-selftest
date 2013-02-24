@@ -19,12 +19,12 @@ Menubar:
 -------------------------------------------------
 
 'choose menu' event created with arguments 'File~~~Open'
-Changed title of frame to 'Open /home/geoff/.texttest/tmp/storytext.02Apr222614.6033/storytext/wxpython/widgets/filedialog/target_ui.py'
+Changed title of frame to 'Open /home/geoff/.texttest/tmp/dynamic_gui.24Feb212000.22135/storytext/wxpython/widgets/filedialogs/open_and_save/target_ui.py'
 
 'select file' event created with arguments 'target_ui.py'
 
 'choose menu' event created with arguments 'File~~~Save As'
-Changed title of frame to 'Save as /home/geoff/.texttest/tmp/storytext.02Apr222614.6033/storytext/wxpython/widgets/filedialog/somefile'
+Changed title of frame to 'Save as /home/geoff/.texttest/tmp/dynamic_gui.24Feb212000.22135/storytext/wxpython/widgets/filedialogs/open_and_save/somefile'
 
 'save as' event created with arguments 'somefile'
 
