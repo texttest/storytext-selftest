@@ -21,3 +21,6 @@ builder_treeview
 
 # Test that we can handle changes in frame title
 frame_update_label
+
+# Make sure we can have regular expressions in the UI map file section names
+regexps_in_ui_map
