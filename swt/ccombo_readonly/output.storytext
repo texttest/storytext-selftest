@@ -1,0 +1,18 @@
+
+---------- Shell '' ----------
+========== CCombo ========== (read only, border)
+
+============================
+
+------------------------------
+
+'change combo contents to' event created with arguments 'Alpha'
+Selection = 1
+
+Updated ========== CCombo ========== (read only, border)
+Alpha
+============================
+
+'perform edit' event created with arguments ''
+
+'close' event created with arguments ''

@@ -55,6 +55,9 @@ combo
 # Test we can handle custom ccomboboxes
 ccombo
 
+# If it's readonly and the command is ambiguous, handle the correct command
+ccombo_readonly
+
 # Test we can handle links
 link
 
