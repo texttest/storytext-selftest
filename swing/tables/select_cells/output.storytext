@@ -41,8 +41,10 @@ Eva     22   female
 ____________________________
 
 ERROR: Could not simulate command 'select Nonsense' - Could not find row identified by 'Nonsense' in table.
+Row names are [u'Anders', u'Eva']
 
 ERROR: Could not simulate command 'select Name for Nobody' - Could not find row identified by 'Nobody' in table.
+Row names are [u'Anders', u'Eva']
 
 ERROR: Could not simulate command 'select Bad Attribute for Eva' - Could not find column labelled 'Bad Attribute' in table.
 

@@ -171,8 +171,10 @@ new item (selected)  edit this value
 ____________________________________
 
 ERROR: Could not simulate command 'select cell Nonsense' - Could not find row identified by 'Nonsense' in table.
+Row names are [u'item 0', u'item 1', u'item 2', u'item 3', u'item 4', u'item 5', u'item 6', u'item 7', u'item 8', u'item 9', u'extra item']
 
 ERROR: Could not simulate command 'select cell info for Nonsense' - Could not find row identified by 'Nonsense' in table.
+Row names are [u'item 0', u'item 1', u'item 2', u'item 3', u'item 4', u'item 5', u'item 6', u'item 7', u'item 8', u'item 9', u'extra item']
 
 ERROR: Could not simulate command 'select cell Nonsense for item 4' - Could not find column labelled 'Nonsense' in table.
 
