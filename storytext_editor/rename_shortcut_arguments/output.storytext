@@ -1,0 +1,98 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add <i>movie</i> named <i>Matrix</i></b>
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'expand preview node' event created with arguments 'add movies Star Wars and Die Hard'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+->   <b>add <i>movie</i> named <i>Star Wars</i></b>
+->   <b>add <i>movie</i> named <i>Die Hard</i></b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add <i>movie</i> named <i>Matrix</i></b>
+-> close
+
+'show preview node options for' event created with arguments 'add movie named Matrix'
+
+Changed selection in GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+->   <b>add <i>movie</i> named <i>Star Wars</i></b>
+->   <b>add <i>movie</i> named <i>Die Hard</i></b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add <i>movie</i> named <i>Matrix</i></b>   ***
+-> close
+
+---------- Popup Window ----------
+'Create shortcut' (greyed out)
+'Rename'
+  ----
+'Update UI map file' (greyed out)
+----------------------------------
+
+'rename a usecase name or shortcut' event created with arguments ''
+
+---------- Dialog 'Rename shortcut' ----------
+Focus widget is 'GtkEntry'
+'Shortcut' , Text entry (set to 'add $ named $')
+---------------
+Button 'Cancel' , Button 'Rename'
+----------------------------------------------
+
+'rename shortcut' event created with arguments 'add $ named'
+Edited 'GtkEntry' Text entry (set to 'add $ named')
+
+'accept update ui map file' event created with arguments ''
+Edited 'GtkEntry' Text entry (set to 'add $ named $')
+
+---------- Messagedialog 'StoryText Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , 'The number of shortcut arguments('$') must be 2'
+Stock Button 'gtk-ok'
+-----------------------------------------------------
+
+'accept message' event created with arguments ''
+
+'rename shortcut' event created with arguments 'add $ titled $'
+Edited 'GtkEntry' Text entry (set to 'add $ titled $')
+
+'accept update ui map file' event created with arguments ''
+ShortcutRename 'add (.*) named (.*)$' renamed to 'add $ titled $'
+
+Updated : GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add <i>movie</i> titled <i>Matrix</i></b>
+-> close
+
+'expand preview node' event created with arguments 'add movies Star Wars and Die Hard'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+->   <b>add <i>movie</i> titled <i>Star Wars</i></b>
+->   <b>add <i>movie</i> titled <i>Die Hard</i></b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add <i>movie</i> titled <i>Matrix</i></b>
+-> close
+
+'expand preview node' event created with arguments 'add movie titled Matrix'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+->   <b>add <i>movie</i> titled <i>Star Wars</i></b>
+->   <b>add <i>movie</i> titled <i>Die Hard</i></b>
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add <i>movie</i> titled <i>Matrix</i></b>
+->   set new movie name to<i> Matrix</i>
+->   add movie
+-> close
+
+'finish name entry editing' event created with arguments ''

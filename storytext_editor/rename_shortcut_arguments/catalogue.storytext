@@ -1,0 +1,15 @@
+The following new files/directories were created:
+<Test Directory>
+----usecases
+--------add_$_titled_$.shortcut
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----auto_recorded_usecase
+----usecases
+--------add_$s_$_and_$.shortcut
+
+The following existing files/directories were deleted:
+<Test Directory>
+----usecases
+--------add_$_named_$.shortcut

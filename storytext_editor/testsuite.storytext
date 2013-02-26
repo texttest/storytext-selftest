@@ -43,5 +43,11 @@ update_uimap
 # Rename usecase name from the editor
 rename_usecase
 
+# Rename shortcut name from the editor
+rename_shortcut
+
+# Rename shortcut name containing arguments from the editor
+rename_shortcut_arguments
+
 # Test that create
 shortcut_creation

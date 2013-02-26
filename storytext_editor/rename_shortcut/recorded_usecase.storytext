@@ -1,0 +1,5 @@
+set new movie name to Die Hard
+add movie
+wait for the movies to reload
+add film star wars
+close
