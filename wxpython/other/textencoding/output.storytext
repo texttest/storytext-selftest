@@ -1,0 +1,17 @@
+
+---------- Frame 'Test' ----------
+
+Menubar:
+    >>>
+    File (+)
+
+    File menu
+        aha÷
+
+Button 'Close Me'
+
+----------------------------------
+
+'SelectMenuWithFunnyText' event created with arguments 'File~~~aha÷'
+
+'ExitApplication' event created with arguments ''

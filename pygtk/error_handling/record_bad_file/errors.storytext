@@ -1,3 +1,4 @@
-ERROR: Unable to record 'set new movie name to Star Wars' to file '/no/such/file'
-ERROR: Unable to record 'add movie' to file '/no/such/file'
-ERROR: Unable to record 'close' to file '/no/such/file'
+Xlib:  extension "RANDR" missing on display ":297.0".
+ERROR: Unable to record u'set new movie name to Star Wars' to file '/no/such/file'
+ERROR: Unable to record u'add movie' to file '/no/such/file'
+ERROR: Unable to record u'close' to file '/no/such/file'

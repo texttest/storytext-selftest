@@ -25,3 +25,6 @@ popup_menu
 
 # Make sure we intercept also for PySimpleApp
 pysimpleapp
+
+# Text comparision for characters with 128 < ord() < 256 should work
+textencoding

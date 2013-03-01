@@ -1,5 +1,5 @@
 Found initial shortcut 'first wait and receive' with args []
-Initial 'wait for first sleep to complete', not starting replayer
+Initial u'wait for first sleep to complete', not starting replayer
 
 Waiting for application event 'first sleep to complete' to occur.
 Replayer got application event 'first sleep to complete'
@@ -8,7 +8,7 @@ Spawning replay thread...
 Sleeping for 0.001 seconds...
 
 Expected application event 'first sleep to complete' occurred, proceeding.
-About to perform 'receive signal' with arguments 'SIGQUIT'
+About to perform 'receive signal' with arguments u'SIGQUIT'
 
 Generating signal SIGQUIT
 Signal SIGQUIT has been sent
@@ -22,7 +22,7 @@ Spawning replay thread...
 Sleeping for 0.001 seconds...
 
 Expected application event 'second sleep to complete' occurred, proceeding.
-About to perform 'receive signal' with arguments 'SIGINT'
+About to perform 'receive signal' with arguments u'SIGINT'
 
 Generating signal SIGINT
 Signal SIGINT has been sent

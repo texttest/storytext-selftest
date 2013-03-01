@@ -17,6 +17,8 @@
 from org.eclipse.swt import *
 from org.eclipse.swt.widgets import *
 from org.eclipse.swt.layout import *
+import locale
+encoding = locale.getdefaultlocale()[1]
 
 display = Display()
 shell = Shell(display)
@@ -47,7 +49,8 @@ text2.setData("org.eclipse.swtbot.widget.key", "text2")
 
 class PrintListener(Listener):
     def handleEvent(self, e):
-        print "You are", text.getText(), "and you live in", text2.getText()
+        unicodeText = "You are " + text.getText() + " and you live in " + text2.getText()
+        print unicodeText.encode(encoding, 'replace')
         
 item.addListener(SWT.Selection, PrintListener())
 
