@@ -28,3 +28,7 @@ pysimpleapp
 
 # Text comparision for characters with 128 < ord() < 256 should work
 textencoding
+
+
+# Tests to do with wx.MessageBox
+messagebox

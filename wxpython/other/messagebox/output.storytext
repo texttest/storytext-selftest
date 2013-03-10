@@ -1,0 +1,18 @@
+
+---------- Frame 'Test' ----------
+Button 'MessageBox'
+
+Button 'Close Me'
+----------------------------------
+
+'OpenMessageBox' event created with arguments ''
+Changed title of frame to 'MessageBox Reply=YES'
+
+'Message Box #1-1 reply' event created with arguments 'Yes'
+
+'OpenMessageBox' event created with arguments ''
+Changed title of frame to 'MessageBox Reply=NO'
+
+'Message Box #1-2 reply' event created with arguments 'No'
+
+'CloseApp' event created with arguments ''
