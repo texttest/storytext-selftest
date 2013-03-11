@@ -2,9 +2,7 @@
 ---------- Shell 'Jobs RCP' ----------
 Menu Bar:
   &File (cascade)
-    E&xit	Ctrl+X
   &Jobs (cascade)
-    Job1
   Views (cascade)
     Open View 1
     Open View 2
