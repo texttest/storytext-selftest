@@ -1,6 +1,9 @@
 # Make sure we can describe a tree, including changes to it
 add_rows
 
+# Make sure we can select new added items to the tree
+add_rows_and_select
+
 # Single clicking and double-clicking on TreeItems
 select_and_activate
 

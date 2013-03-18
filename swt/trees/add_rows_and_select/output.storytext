@@ -1,0 +1,94 @@
+False TreeItem {Initial - 0}
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    New TreeItem
+
+Tree :
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+
+------------------------------
+
+'add to tree' event created with arguments ''
+
+Updated Tree :
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+
+'add to tree' event created with arguments ''
+
+Updated Tree :
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+-> Added - 0
+
+'add to tree' event created with arguments ''
+
+Updated Tree :
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+-> Added - 0
+-> Added - 0
+
+'select' event created with arguments 'Added - 0 (2)'
+False TreeItem {Added - 0}
+
+Updated Tree :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+-> Added - 0 (selected)
+-> Added - 0
+
+'select' event created with arguments 'Added - 0 (3)'
+False TreeItem {Added - 0}
+
+Updated Tree :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+-> Added - 0
+-> Added - 0 (selected)
+
+'select' event created with arguments 'Added - 0'
+False TreeItem {Added - 0}
+
+Updated Tree :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0 (selected)
+-> Added - 0
+-> Added - 0
+
+'select' event created with arguments 'Initial - 0'
+False TreeItem {Initial - 0}
+
+Updated Tree :
+-> Initial - 0 (selected)
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+-> Added - 0
+-> Added - 0
+
+'close window' event created with arguments ''
