@@ -1,0 +1,5 @@
+Auto.Button.Press.'Label=MessageBox'
+Auto.MessageBoxWidget.MessageBoxReply.'Title=Message Box #1' Yes
+Auto.Button.Press.'Label=MessageBox'
+Auto.MessageBoxWidget.MessageBoxReply.'Title=Message Box #1' No
+Auto.Button.Press.'Label=Close Me'

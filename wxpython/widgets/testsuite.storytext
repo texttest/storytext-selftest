@@ -9,6 +9,9 @@ listcontrol
 
 # test of a simple app featuring text control widget
 textcontrol
+
+# Tests to do with wx.MessageBox
+messagebox
 dialog
 
 # modal dialog standing alone without calling App.MainLoop()
