@@ -19,3 +19,6 @@ dialog_no_mainloop
 
 # Tests to do with wx.FileDialog
 filedialogs
+
+# Tests to do with wx.DirSelector
+dirselector

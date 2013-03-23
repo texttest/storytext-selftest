@@ -1,0 +1,28 @@
+
+---------- Frame 'Test' ----------
+Button 'Select Dir'
+
+Button 'Close Me'
+----------------------------------
+
+'Auto.Button.Press.'Label=Select Dir'' event created with arguments ''
+
+---------- Dir Selector 'Select a Directory' ----------
+DefaultDir: C:\
+Style     : wx.DD_DEFAULT_STYLE
+-------------------------------------------------------
+Changed title of frame to 'No dir selected'
+
+'Auto.DirSelectorWidget.DirSelectorReply.'Title=Select a Directory'' event created with arguments ''
+
+'Auto.Button.Press.'Label=Select Dir'' event created with arguments ''
+
+---------- Dir Selector 'Select a Directory' ----------
+DefaultDir: C:\
+Style     : wx.DD_DEFAULT_STYLE
+-------------------------------------------------------
+Changed title of frame to 'Dir=C:\Temp'
+
+'Auto.DirSelectorWidget.DirSelectorReply.'Title=Select a Directory'' event created with arguments 'C:/Temp'
+
+'Auto.Button.Press.'Label=Close Me'' event created with arguments ''
