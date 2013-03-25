@@ -10,6 +10,7 @@ types is also supported.
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.FileDialog-class.html>wx.FileDialog</a></td><td><div class="Table_Text_Normal">SelectFile</div></td></tr>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.Frame-class.html>wx.Frame</a></td><td><div class="Table_Text_Normal">Close , Menu</div></td></tr>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.ListCtrl-class.html>wx.ListCtrl</a></td><td><div class="Table_Text_Normal">ListCtrlSelect</div></td></tr>
+<tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.MessageBoxWidget-class.html>wx.MessageBoxWidget</a></td><td><div class="Table_Text_Normal">MessageBoxReply</div></td></tr>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.TextCtrl-class.html>wx.TextCtrl</a></td><td><div class="Table_Text_Normal">TextEnter</div></td></tr>
 <tr><td><a class="Text_Link" href=http://www.wxpython.org/docs/api/wx.Window-class.html>wx.Window</a></td><td><div class="Table_Text_Normal">ContextMenu</div></td></tr>
 </table></div>

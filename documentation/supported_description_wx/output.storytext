@@ -8,6 +8,7 @@ wx.Choice                : Choose
 wx.FileDialog            : SelectFile
 wx.Frame                 : Close , Menu
 wx.ListCtrl              : ListCtrlSelect
+wx.MessageBoxWidget      : MessageBoxReply
 wx.TextCtrl              : TextEnter
 wx.Window                : ContextMenu
 
