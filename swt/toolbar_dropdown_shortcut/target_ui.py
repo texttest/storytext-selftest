@@ -25,12 +25,14 @@ item = ToolItem(toolBar, SWT.DROP_DOWN)
 item.setText("Drop Down")
 class MenuListener(Listener):
     def handleEvent(self, event):
-        rect = item.getBounds()
-        pt = Point(rect.x, rect.y + rect.height)
-        pt = toolBar.toDisplay(pt)
-        menu.setLocation(pt.x, pt.y)
-        menu.setVisible(True)
-
+        if event.detail == SWT.ARROW:
+            rect = item.getBounds()
+            pt = Point(rect.x, rect.y + rect.height)
+            pt = toolBar.toDisplay(pt)
+            menu.setLocation(pt.x, pt.y)
+            menu.setVisible(True)
+        else:
+            print "Pressed the normal button..."
 
 item.addListener(SWT.Selection, MenuListener())
 toolBar.pack()

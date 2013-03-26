@@ -5,14 +5,33 @@ Tool Bar:
 
 ------------------------------
 
-'show drop down' event created with arguments ''
+'select drop down' event created with arguments 'Item 2'
 
-'select item 2' event created with arguments ''
+Choosing from Drop Down Menu:
+  Item 0
+  Item 1
+  Item 2
+  Item 3
+  Item 4
+  Item 5
+  Item 6
+  Item 7
 Selected item 2
 
-'show drop down' event created with arguments ''
+'click button' event created with arguments ''
+Pressed the normal button...
 
-'select item 0' event created with arguments ''
+'select drop down' event created with arguments 'Item 0'
+
+Choosing from Drop Down Menu:
+  Item 0
+  Item 1
+  Item 2
+  Item 3
+  Item 4
+  Item 5
+  Item 6
+  Item 7
 Selected item 0
 
 'close window' event created with arguments ''
