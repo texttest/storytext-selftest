@@ -1,2 +1,2 @@
 add several
-Auto.Window.delete-event.'Title=The Video Store'
+Auto.Window.delete-event.'Title=The Video Store, Type=Window'

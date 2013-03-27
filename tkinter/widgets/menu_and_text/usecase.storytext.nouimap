@@ -1,2 +1,2 @@
-Auto.Menu.select item.'Label=Help' About
-Auto.Menu.select item.'Label=File' Exit
+Auto.Menu.select item.'Label=Help, Type=Menu' About
+Auto.Menu.select item.'Label=File, Type=Menu' Exit

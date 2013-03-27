@@ -26,4 +26,4 @@ This is the Video Store, an example program for PyUseCase
 This is the Video Store, an example program for PyUseCase - really!
 =================================
 
-'Auto.Window.delete-event.'Title=The Video Store'' event created with arguments ''
+'Auto.Window.delete-event.'Title=The Video Store, Type=Window'' event created with arguments ''

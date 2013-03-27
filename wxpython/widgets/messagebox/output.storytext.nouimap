@@ -5,7 +5,7 @@ Button 'MessageBox'
 Button 'Close Me'
 ----------------------------------
 
-'Auto.Button.Press.'Label=MessageBox'' event created with arguments ''
+'Auto.Button.Press.'Label=MessageBox, Type=Button'' event created with arguments ''
 
 ---------- Message Box 'Message Box #1' ----------
 Quit program?
@@ -14,9 +14,9 @@ Button 'Yes'  Button 'No'  Button 'Cancel'
 --------------------------------------------------
 Changed title of frame to 'MessageBox Reply=YES'
 
-'Auto.MessageBoxWidget.MessageBoxReply.'Title=Message Box #1'' event created with arguments 'Yes'
+'Auto.MessageBoxWidget.MessageBoxReply.'Title=Message Box #1, Type=MessageBoxWidget'' event created with arguments 'Yes'
 
-'Auto.Button.Press.'Label=MessageBox'' event created with arguments ''
+'Auto.Button.Press.'Label=MessageBox, Type=Button'' event created with arguments ''
 
 ---------- Message Box 'Message Box #1' ----------
 Quit program?
@@ -25,6 +25,6 @@ Button 'Yes'  Button 'No'  Button 'Cancel'
 --------------------------------------------------
 Changed title of frame to 'MessageBox Reply=NO'
 
-'Auto.MessageBoxWidget.MessageBoxReply.'Title=Message Box #1'' event created with arguments 'No'
+'Auto.MessageBoxWidget.MessageBoxReply.'Title=Message Box #1, Type=MessageBoxWidget'' event created with arguments 'No'
 
-'Auto.Button.Press.'Label=Close Me'' event created with arguments ''
+'Auto.Button.Press.'Label=Close Me, Type=Button'' event created with arguments ''

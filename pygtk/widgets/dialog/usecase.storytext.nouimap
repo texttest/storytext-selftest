@@ -1,5 +1,5 @@
 set new movie name to Star Wars
 add movie
 add movie
-Auto.Dialog.response.accept.'Title=VideoStore Error!'
+Auto.Dialog.response.accept.'Title=VideoStore Error!, Type=Dialog'
 close

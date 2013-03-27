@@ -17,7 +17,7 @@ Showing GtkTreeView with columns: Bug No. , Status , Description
 Toggle button 'NEW' (depressed) , Toggle button 'RESO' (depressed) , Toggle button 'NEED' (depressed) , Toggle button 'VERI' (depressed) , Toggle button 'UNCO' (depressed)
 ------------------------------------------------------
 
-'Auto.ToggleButton.toggled.false.'Label=NEW'' event created with arguments ''
+'Auto.ToggleButton.toggled.false.'Label=NEW, Type=ToggleButton'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 121339 | RESO | dsextras.py installation directory is incorrect
@@ -62,7 +62,7 @@ Changed selection in GtkTreeView with columns: Bug No. , Status , Description
 -> 138619 | UNCO | codegen/definitions.py could use some refactoring
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
-'Auto.ToggleButton.toggled.false.'Label=RESO'' event created with arguments ''
+'Auto.ToggleButton.toggled.false.'Label=RESO, Type=ToggleButton'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
@@ -72,7 +72,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 Toggled Toggle button 'RESO'
 
-'Auto.ToggleButton.toggled.false.'Label=UNCO'' event created with arguments ''
+'Auto.ToggleButton.toggled.false.'Label=UNCO, Type=ToggleButton'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
@@ -80,7 +80,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 Toggled Toggle button 'UNCO'
 
-'Auto.ToggleButton.toggled.true.'Label=NEW'' event created with arguments ''
+'Auto.ToggleButton.toggled.true.'Label=NEW, Type=ToggleButton'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
@@ -103,7 +103,7 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 124181 | NEED | Python Shell inside a gtk GUI
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 
-'Auto.ToggleButton.toggled.false.'Label=NEED'' event created with arguments ''
+'Auto.ToggleButton.toggled.false.'Label=NEED, Type=ToggleButton'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
@@ -113,4 +113,4 @@ Updated : GtkTreeView with columns: Bug No. , Status , Description
 -> 138163 | VERI | NOTA gtk.main_iteration(TRUE) unblocks every .1 seconds
 Toggled Toggle button 'NEED'
 
-'Auto.Window.delete-event.'Title=TreeModelFilter Example'' event created with arguments ''
+'Auto.Window.delete-event.'Title=TreeModelFilter Example, Type=Window'' event created with arguments ''

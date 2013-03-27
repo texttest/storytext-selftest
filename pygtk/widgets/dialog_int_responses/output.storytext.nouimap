@@ -4,7 +4,7 @@ Focus widget is 'hi - this button opens the about dialog'
 Button 'hi - this button opens the about dialog'
 -----------------------------------
 
-'Auto.Button.clicked.'Label=hi - this button opens the about dialog'' event created with arguments ''
+'Auto.Button.clicked.'Label=hi - this button opens the about dialog, Type=Button'' event created with arguments ''
 
 ---------- Dialog 'The Dialog Title' ----------
 Focus widget is 'File a bug'
@@ -13,13 +13,13 @@ Focus widget is 'File a bug'
 Button 'Close' , Button 'Donate' , Button 'File a bug'
 -----------------------------------------------
 
-'Auto.Dialog.response.Label--File a bug.'Title=The Dialog Title'' event created with arguments ''
+'Auto.Dialog.response.Label--File a bug.'Name=The Dialog'' event created with arguments ''
 Result was 42
 
-'Auto.Button.clicked.'Label=Donate'' event created with arguments ''
+'Auto.Button.clicked.'Label=Donate, Type=Button'' event created with arguments ''
 Result was -1
 
-'Auto.Dialog.response.close.'Title=The Dialog Title'' event created with arguments ''
+'Auto.Dialog.response.close.'Name=The Dialog'' event created with arguments ''
 Result was -7
 
 'Auto.Window.delete-event.'Type=Window'' event created with arguments ''

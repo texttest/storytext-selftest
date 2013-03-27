@@ -18,4 +18,4 @@ TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
 
 --------------------------------------------------------------
 
-'Auto.Shell.Close.'Label=Tab (View) Selection Application'' event created with arguments ''
+'Auto.Shell.Close.'Label=Tab (View) Selection Application, Type=Shell'' event created with arguments ''

@@ -12,4 +12,4 @@ Changed title of window to 'There's a modal dialog!'
 
 'Auto.Label.<Button-1>.'Name=hello label'' event created with arguments ''
 
-'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=QUIT'' event created with arguments ''
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=QUIT, Type=Button'' event created with arguments ''

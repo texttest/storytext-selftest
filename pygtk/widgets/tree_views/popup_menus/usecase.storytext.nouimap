@@ -1,5 +1,5 @@
 Auto.TreeView.button-press-event.'Type=TreeView' Open
-Auto.MenuItem.activate.'Label=Clear Last Column Colour'
+Auto.MenuItem.activate.'Label=Clear Last Column Colour, Type=MenuItem'
 Auto.TreeView.button-press-event.'Type=TreeView' Print
-Auto.MenuItem.activate.'Label=Colour Last Column'
-Auto.Window.delete-event.'Title=TreeViewColumn Example'
+Auto.MenuItem.activate.'Label=Colour Last Column, Type=MenuItem'
+Auto.Window.delete-event.'Title=TreeViewColumn Example, Type=Window'

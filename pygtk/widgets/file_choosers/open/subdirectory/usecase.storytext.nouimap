@@ -1,2 +1,2 @@
-Auto.FileChooserDialog.current-folder-changed.'Title=Open..' subsubdir
-Auto.FileChooserDialog.response.ok.'Title=Open..'
+Auto.FileChooserDialog.current-folder-changed.'Title=Open.., Type=FileChooserDialog' subsubdir
+Auto.FileChooserDialog.response.ok.'Title=Open.., Type=FileChooserDialog'

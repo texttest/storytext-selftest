@@ -28,6 +28,6 @@ Focus widget is 'gtk-ok'
 Stock Button 'gtk-ok'
 ------------------------------------------------
 
-'Auto.Dialog.response.accept.'Title=VideoStore Error!'' event created with arguments ''
+'Auto.Dialog.response.accept.'Title=VideoStore Error!, Type=Dialog'' event created with arguments ''
 
 'close' event created with arguments ''

@@ -4,13 +4,13 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2
 Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
-'Auto.FileChooserDialog.current-folder-changed.'Title=Save..'' event created with arguments 'subdir2'
+'Auto.FileChooserDialog.current-folder-changed.'Title=Save.., Type=FileChooserDialog'' event created with arguments 'subdir2'
 
-'Auto.FileChooserDialog.current-name-changed.'Title=Save..'' event created with arguments 'file3.txt'
+'Auto.FileChooserDialog.current-name-changed.'Title=Save.., Type=FileChooserDialog'' event created with arguments 'file3.txt'
 
-'Auto.FileChooserDialog.response.ok.'Title=Save..'' event created with arguments ''
-Saving to /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2/file3.txt
+'Auto.FileChooserDialog.response.ok.'Title=Save.., Type=FileChooserDialog'' event created with arguments ''
+Saving to /nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2/file3.txt

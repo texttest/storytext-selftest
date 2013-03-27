@@ -104,4 +104,4 @@ Collapsed row in GtkTreeView with columns:
 ->   <span foreground='red'>child 2</span>
 -> parent 3 (bold)
 
-'Auto.Window.delete-event.'Title=Basic TreeView Example'' event created with arguments ''
+'Auto.Window.delete-event.'Title=Basic TreeView Example, Type=Window'' event created with arguments ''

@@ -1,4 +1,4 @@
 Auto.Entry.changed.'Name=Movie Name' Star Wars
-Auto.Button.clicked.'Label=Add'
+Auto.Button.clicked.'Label=Add, Type=Button'
 Auto.Entry.changed.'Name=Movie Name' Die Hard
-Auto.Button.clicked.'Label=Add'
+Auto.Button.clicked.'Label=Add, Type=Button'

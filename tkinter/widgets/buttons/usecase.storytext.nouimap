@@ -1,2 +1,2 @@
 Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Name=hello button'
-Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=QUIT'
+Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=QUIT, Type=Button'

@@ -5,8 +5,8 @@ Default widget is 'gtk-ok'
 Viewing table with 4 rows and 4 columns.
 '<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
 'Entry' | 'Name=Movie Name' | 'edited text' | Text entry
-'Button' | 'Label=Add' | 'clicked' | Text entry
-'Window' | 'Title=The Video Store' | 'closed' | Text entry
+'Button' | Combo Box (selected 'Label=Add') (drop-down list containing ['Label=Add', 'Label=Add, Type=Button', '<span foreground="red">Type=Button</span>']) | 'clicked' | Text entry
+'Window' | Combo Box (selected 'Title=The Video Store') (drop-down list containing ['Title=The Video Store', 'Title=The Video Store, Type=Window', '<span foreground="red">Type=Window</span>']) | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 

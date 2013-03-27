@@ -33,4 +33,4 @@ Clicked item (4,)
 'Auto.Canvas.<Button-1>.'Type=Canvas'' event created with arguments 'rectangle'
 Clicked item (5,)
 
-'Auto.Tk.WM_DELETE_WINDOW.'Title=tk'' event created with arguments ''
+'Auto.Tk.WM_DELETE_WINDOW.'Title=tk, Type=Tk'' event created with arguments ''

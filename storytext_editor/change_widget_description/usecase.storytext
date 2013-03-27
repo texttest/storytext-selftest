@@ -1,0 +1,6 @@
+enter usecase name for signal 'changed' on Entry 'Name=Movie Name' = set movie name to
+choose widget description for signal 'clicked' on Button 'Label=Add' = Label=Add, Type=Button
+enter usecase name for signal 'clicked' on Button 'Label=Add' = add movie
+choose widget description for signal 'delete-event' on Window 'Title=The Video Store' = Type=Window
+enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' = close
+finish name entry editing

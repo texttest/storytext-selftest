@@ -59,4 +59,4 @@ Now Showing:
 Message #5
 =================================
 
-'Auto.Window.delete-event.'Title=Paned Windows'' event created with arguments ''
+'Auto.Window.delete-event.'Title=Paned Windows, Type=Window'' event created with arguments ''
