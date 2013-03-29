@@ -18,7 +18,7 @@ Menubar:
 
 -------------------------------------------------
 
-'Auto.MyFrame.Menu.'Title=FileDialog Exercise'' event created with arguments 'File~~~Open'
+'Auto.MyFrame.Menu.'Title=FileDialog Exercise, Type=MyFrame'' event created with arguments 'File~~~Open'
 Changed title of frame to 'Open Dialog Canceled'
 
-'Auto.MyFrame.Close.'Title=FileDialog Exercise'' event created with arguments ''
+'Auto.MyFrame.Close.'Title=FileDialog Exercise, Type=MyFrame'' event created with arguments ''

@@ -3,4 +3,4 @@
 Button 'QUIT'
 ---------------------------------
 
-'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=QUIT'' event created with arguments ''
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=QUIT, Type=Button'' event created with arguments ''

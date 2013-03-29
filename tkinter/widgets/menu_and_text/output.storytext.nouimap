@@ -25,11 +25,11 @@ Help menu:
               ==========================
 ---------------------------------
 
-'Auto.Menu.select item.'Label=Help'' event created with arguments 'About'
+'Auto.Menu.select item.'Label=Help, Type=Menu'' event created with arguments 'About'
 hello
 
 ========== Text ==========
 Did something from a menu!
 ==========================
 
-'Auto.Menu.select item.'Label=File'' event created with arguments 'Exit'
+'Auto.Menu.select item.'Label=File, Type=Menu'' event created with arguments 'Exit'

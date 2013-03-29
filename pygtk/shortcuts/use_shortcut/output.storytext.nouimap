@@ -14,7 +14,7 @@ Showing Movie Tree with columns: Movie Name
 'Auto.Entry.changed.'Name=Movie Name'' event created with arguments 'Star Wars'
 Edited 'Movie Name' Text entry (set to 'Star Wars')
 
-'Auto.Button.clicked.'Label=Add'' event created with arguments ''
+'Auto.Button.clicked.'Label=Add, Type=Button'' event created with arguments ''
 
 Updated : Movie Tree with columns: Movie Name
 -> Star Wars
@@ -22,10 +22,10 @@ Updated : Movie Tree with columns: Movie Name
 'Auto.Entry.changed.'Name=Movie Name'' event created with arguments 'Die Hard'
 Edited 'Movie Name' Text entry (set to 'Die Hard')
 
-'Auto.Button.clicked.'Label=Add'' event created with arguments ''
+'Auto.Button.clicked.'Label=Add, Type=Button'' event created with arguments ''
 
 Updated : Movie Tree with columns: Movie Name
 -> Star Wars
 -> Die Hard
 
-'Auto.Window.delete-event.'Title=The Video Store'' event created with arguments ''
+'Auto.Window.delete-event.'Title=The Video Store, Type=Window'' event created with arguments ''

@@ -7,13 +7,13 @@ Check button 'check button 2
 Button 'Quit'
 -------------------------------------------
 
-'Auto.CheckButton.toggled.true.'Label=check button 1'' event created with arguments ''
+'Auto.CheckButton.toggled.true.'Label=check button 1, Type=CheckButton'' event created with arguments ''
 check button 1 was toggled ON
 Toggled Check button 'check button 1' (checked)
 
-'Auto.CheckButton.toggled.false.'Label=check button 2...'' event created with arguments ''
+'Auto.CheckButton.toggled.false.'Label=check button 2..., Type=CheckButton'' event created with arguments ''
 check button 2 was toggled OFF
 Toggled Check button 'check button 2
 (This button has an extra line...)'
 
-'Auto.Button.clicked.'Label=Quit'' event created with arguments ''
+'Auto.Button.clicked.'Label=Quit, Type=Button'' event created with arguments ''

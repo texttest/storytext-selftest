@@ -1,3 +1,3 @@
 Auto.Listbox.<<ListboxSelect>>.'Type=Listbox' one
 Auto.Listbox.<<ListboxSelect>>.'Type=Listbox' four
-Auto.Tk.WM_DELETE_WINDOW.'Title=tk'
+Auto.Tk.WM_DELETE_WINDOW.'Title=tk, Type=Tk'

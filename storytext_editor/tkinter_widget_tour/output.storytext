@@ -6,7 +6,7 @@ Viewing table with 8 rows and 4 columns.
 '<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
 'Button' | 'Name=hello button' | 'clicked' | Text entry
 'Label' | 'Name=hello label' | 'left-clicked' | Text entry
-'Entry' | 'Type=Entry' | 'edited text' | Text entry
+'Entry' | '<span foreground="red">Type=Entry</span>' | 'edited text' | Text entry
 'Button' | 'Label=Planner's Workspace' | 'clicked' | Text entry
 'Label' | 'Name=another label' | 'right-clicked' | Text entry
 'Listbox' | 'Name=the list box' | 'select item' | Text entry

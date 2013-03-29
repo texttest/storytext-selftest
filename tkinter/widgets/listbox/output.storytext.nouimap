@@ -18,4 +18,4 @@ Selected ('4',)
 'Auto.Listbox.<<ListboxSelect>>.'Type=Listbox'' event created with arguments 'nonsense'
 ERROR: Could not simulate command 'Auto.Listbox.<<ListboxSelect>>.'Type=Listbox' nonsense' - Could not find item 'nonsense' in Listbox.
 
-'Auto.Tk.WM_DELETE_WINDOW.'Title=tk'' event created with arguments ''
+'Auto.Tk.WM_DELETE_WINDOW.'Title=tk, Type=Tk'' event created with arguments ''

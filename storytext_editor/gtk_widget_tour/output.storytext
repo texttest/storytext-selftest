@@ -4,36 +4,36 @@ Default widget is 'gtk-ok'
 .....'Previously unseen actions: provide names for the interesting ones'......
 Viewing table with 31 rows and 4 columns.
 '<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
-'Button' | 'Type=Button' | 'clicked' | Text entry
-'Dialog' | 'Type=Dialog' | 'ok' | Text entry
-'Dialog' | 'Type=Dialog' | 'accept' | Text entry
-'Dialog' | 'Type=Dialog' | 'Label='Some Text'' | Text entry
-'Entry' | 'Type=Entry' | 'pressed Enter' | Text entry
-'Entry' | 'Type=Entry' | 'edited text' | Text entry
-'CheckMenuItem' | 'Type=CheckMenuItem' | 'checked' | Text entry
-'CheckMenuItem' | 'Type=CheckMenuItem' | 'unchecked' | Text entry
-'CheckButton' | 'Type=CheckButton' | 'unchecked' | Text entry
-'CheckButton' | 'Type=CheckButton' | 'checked' | Text entry
-'ComboBox' | 'Type=ComboBox' | 'selected item' | Text entry
-'FileChooserDialog' | 'Type=FileChooserDialog' | 'current folder changed' | Text entry
-'FileChooserDialog' | 'Type=FileChooserDialog' | 'filename changed' | Text entry
-'FileChooserDialog' | 'Type=FileChooserDialog' | 'selection changed' | Text entry
-'MenuItem' | 'Type=MenuItem' | 'selected' | Text entry
-'Notebook' | 'Type=Notebook' | 'switch page' | Text entry
-'RadioButton' | 'Type=RadioButton' | 'checked' | Text entry
-'ToggleButton' | 'Type=ToggleButton' | 'unchecked' | Text entry
-'ToggleButton' | 'Type=ToggleButton' | 'checked' | Text entry
-'ToolButton' | 'Type=ToolButton' | 'clicked' | Text entry
-'TreeView' | 'Type=TreeView' | 'right-clicked row' | Text entry
-'TreeView' | 'Type=TreeView' | 'clicked on row' | Text entry
-'TreeView' | 'Type=TreeView' | 'clicked column header 'Column'' | Text entry
-'TreeView' | 'Type=TreeView' | 'edited cell in column 'Column'' | Text entry
-'TreeView' | 'Type=TreeView' | 'double-clicked row' | Text entry
-'TreeView' | 'Type=TreeView' | 'row collapsed' | Text entry
-'TreeView' | 'Type=TreeView' | 'row expanded' | Text entry
-'TreeView' | 'Type=TreeView' | 'unchecked box in column 'Column'' | Text entry
-'TreeView' | 'Type=TreeView' | 'checked box in column 'Column'' | Text entry
-'Window' | 'Type=Window' | 'closed' | Text entry
+'Button' | '<span foreground="red">Type=Button</span>' | 'clicked' | Text entry
+'Dialog' | '<span foreground="red">Type=Dialog</span>' | 'ok' | Text entry
+'Dialog' | '<span foreground="red">Type=Dialog</span>' | 'accept' | Text entry
+'Dialog' | '<span foreground="red">Type=Dialog</span>' | 'Label='Some Text'' | Text entry
+'Entry' | '<span foreground="red">Type=Entry</span>' | 'pressed Enter' | Text entry
+'Entry' | '<span foreground="red">Type=Entry</span>' | 'edited text' | Text entry
+'CheckMenuItem' | '<span foreground="red">Type=CheckMenuItem</span>' | 'checked' | Text entry
+'CheckMenuItem' | '<span foreground="red">Type=CheckMenuItem</span>' | 'unchecked' | Text entry
+'CheckButton' | '<span foreground="red">Type=CheckButton</span>' | 'unchecked' | Text entry
+'CheckButton' | '<span foreground="red">Type=CheckButton</span>' | 'checked' | Text entry
+'ComboBox' | '<span foreground="red">Type=ComboBox</span>' | 'selected item' | Text entry
+'FileChooserDialog' | '<span foreground="red">Type=FileChooserDialog</span>' | 'current folder changed' | Text entry
+'FileChooserDialog' | '<span foreground="red">Type=FileChooserDialog</span>' | 'filename changed' | Text entry
+'FileChooserDialog' | '<span foreground="red">Type=FileChooserDialog</span>' | 'selection changed' | Text entry
+'MenuItem' | '<span foreground="red">Type=MenuItem</span>' | 'selected' | Text entry
+'Notebook' | '<span foreground="red">Type=Notebook</span>' | 'switch page' | Text entry
+'RadioButton' | '<span foreground="red">Type=RadioButton</span>' | 'checked' | Text entry
+'ToggleButton' | '<span foreground="red">Type=ToggleButton</span>' | 'unchecked' | Text entry
+'ToggleButton' | '<span foreground="red">Type=ToggleButton</span>' | 'checked' | Text entry
+'ToolButton' | '<span foreground="red">Type=ToolButton</span>' | 'clicked' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'right-clicked row' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'clicked on row' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'clicked column header 'Column'' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'edited cell in column 'Column'' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'double-clicked row' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'row collapsed' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'row expanded' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'unchecked box in column 'Column'' | Text entry
+'TreeView' | '<span foreground="red">Type=TreeView</span>' | 'checked box in column 'Column'' | Text entry
+'Window' | '<span foreground="red">Type=Window</span>' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 

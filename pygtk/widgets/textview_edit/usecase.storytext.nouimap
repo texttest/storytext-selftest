@@ -1,3 +1,3 @@
 Auto.Notebook.switch-page.'Type=Notebook' text info
 Auto.TextView.changed.'Type=TextView' This is the Video Store, an example program for PyUseCase - really!
-Auto.Window.delete-event.'Title=The Video Store'
+Auto.Window.delete-event.'Title=The Video Store, Type=Window'

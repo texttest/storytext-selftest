@@ -1,2 +1,2 @@
-Auto.Menu.select item.'Label=file' open
-Auto.Tk.WM_DELETE_WINDOW.'Title=menu bar'
+Auto.Menu.select item.'Label=file, Type=Menu' open
+Auto.Tk.WM_DELETE_WINDOW.'Title=menu bar, Type=Tk'

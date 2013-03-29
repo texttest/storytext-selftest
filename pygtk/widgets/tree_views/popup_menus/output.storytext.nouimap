@@ -15,7 +15,7 @@ Showing GtkTreeView with columns: Pixbuf and Text , Text Only
 'Clear Last Column Colour'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Clear Last Column Colour'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Clear Last Column Colour, Type=MenuItem'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 -> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File
@@ -29,11 +29,11 @@ Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 'Clear Last Column Colour'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Colour Last Column'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Colour Last Column, Type=MenuItem'' event created with arguments ''
 
 Updated : GtkTreeView with columns: Pixbuf and Text , Text Only
 -> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File
 -> (yellow) | New (cyan) | New File (pink)
 -> Stock image 'gtk-print' (yellow) | Print (cyan) | Print File (pink)
 
-'Auto.Window.delete-event.'Title=TreeViewColumn Example'' event created with arguments ''
+'Auto.Window.delete-event.'Title=TreeViewColumn Example, Type=Window'' event created with arguments ''

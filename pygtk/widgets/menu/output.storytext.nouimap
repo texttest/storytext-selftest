@@ -14,7 +14,7 @@ Showing Movie Tree with columns: Movie Name
 'set new movie name to' event created with arguments 'Nisse'
 Edited 'Movie Name' Text entry (set to 'Nisse')
 
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=File, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Actions' (+)
@@ -23,7 +23,7 @@ Edited 'Movie Name' Text entry (set to 'Nisse')
 'Quit'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Actions, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Add'
@@ -32,7 +32,7 @@ Edited 'Movie Name' Text entry (set to 'Nisse')
 'Clear'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Add'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Add, Type=MenuItem'' event created with arguments ''
 
 Updated : Movie Tree with columns: Movie Name
 -> Nisse
@@ -56,7 +56,7 @@ Updated : Movie Tree with columns: Movie Name
 -> Basse
 -> Muppe
 
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=File, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Actions' (+)
@@ -65,7 +65,7 @@ Updated : Movie Tree with columns: Movie Name
 'Quit'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Actions, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Add'
@@ -74,14 +74,14 @@ Updated : Movie Tree with columns: Movie Name
 'Clear'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Sort'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Sort, Type=MenuItem'' event created with arguments ''
 
 Updated : Movie Tree with columns: Movie Name
 -> Basse
 -> Muppe
 -> Nisse
 
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=File, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Actions' (+)
@@ -90,7 +90,7 @@ Updated : Movie Tree with columns: Movie Name
 'Quit'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Actions, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Add'
@@ -99,7 +99,7 @@ Updated : Movie Tree with columns: Movie Name
 'Clear'
 ----------------------------------
 
-'Auto.CheckMenuItem.toggled.false.'Label=Show buttons'' event created with arguments ''
+'Auto.CheckMenuItem.toggled.false.'Label=Show buttons, Type=CheckMenuItem'' event created with arguments ''
 Hiding the 'Add' widget
 Hiding the 'Delete' widget
 Hiding the 'Sort' widget
@@ -116,7 +116,7 @@ Updated : Movie Tree with columns: Movie Name
 -> Nisse
 -> Nils
 
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=File, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Actions' (+)
@@ -125,7 +125,7 @@ Updated : Movie Tree with columns: Movie Name
 'Quit'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Actions, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Add'
@@ -134,7 +134,7 @@ Updated : Movie Tree with columns: Movie Name
 'Clear'
 ----------------------------------
 
-'Auto.CheckMenuItem.toggled.true.'Label=Show buttons'' event created with arguments ''
+'Auto.CheckMenuItem.toggled.true.'Label=Show buttons, Type=CheckMenuItem'' event created with arguments ''
 Button 'Add'
 Button 'Delete'
 Button 'Sort'
@@ -152,7 +152,7 @@ Updated : Movie Tree with columns: Movie Name
 -> Nils
 -> Nils igen
 
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=File, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Actions' (+)
@@ -161,7 +161,7 @@ Updated : Movie Tree with columns: Movie Name
 'Quit'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Actions, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Add'
@@ -170,7 +170,7 @@ Updated : Movie Tree with columns: Movie Name
 'Clear'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Sort'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Sort, Type=MenuItem'' event created with arguments ''
 
 Updated : Movie Tree with columns: Movie Name
 -> Basse
@@ -179,7 +179,7 @@ Updated : Movie Tree with columns: Movie Name
 -> Nils igen
 -> Nisse
 
-'Auto.MenuItem.activate.'Label=File'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=File, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Actions' (+)
@@ -188,7 +188,7 @@ Updated : Movie Tree with columns: Movie Name
 'Quit'
 ----------------------------------
 
-'Auto.MenuItem.activate.'Label=Actions'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Actions, Type=MenuItem'' event created with arguments ''
 
 ---------- Popup Window ----------
 'Add'

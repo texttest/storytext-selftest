@@ -6,7 +6,7 @@ Menu Bar : 'Root Menu' (+)
 Button 'press me'
 --------------------------------------------
 
-'Auto.MenuItem.activate.'Label=Test-undermenu - 2'' event created with arguments ''
+'Auto.MenuItem.activate.'Label=Test-undermenu - 2, Type=MenuItem'' event created with arguments ''
 Test-undermenu - 2
 
-'Auto.Window.delete-event.'Title=GTK Menu Test'' event created with arguments ''
+'Auto.Window.delete-event.'Title=GTK Menu Test, Type=Window'' event created with arguments ''

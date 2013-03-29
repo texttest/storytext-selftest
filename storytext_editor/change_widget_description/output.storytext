@@ -1,0 +1,51 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 4 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'Entry' | 'Name=Movie Name' | 'edited text' | Text entry
+'Button' | Combo Box (selected 'Label=Add') (drop-down list containing ['Label=Add', 'Label=Add, Type=Button', '<span foreground="red">Type=Button</span>']) | 'clicked' | Text entry
+'Window' | Combo Box (selected 'Title=The Video Store') (drop-down list containing ['Title=The Video Store', 'Title=The Video Store, Type=Window', '<span foreground="red">Type=Window</span>']) | 'closed' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+Showing GtkTreeView with columns: 
+-> ? <i>Star Wars</i>
+-> ?
+-> ?
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set movie name to'
+Edited 'GtkEntry' Text entry (set to 'set movie name to')
+
+Updated : GtkTreeView with columns: 
+-> set movie name to<i> Star Wars</i>
+-> ?
+-> ?
+
+'choose widget description for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'Label=Add, Type=Button'
+Changed selection in Combo Box (selected 'Label=Add, Type=Button')
+
+'enter usecase name for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'add movie'
+Edited 'GtkEntry' Text entry (set to 'add movie')
+
+Updated : GtkTreeView with columns: 
+-> set movie name to<i> Star Wars</i>
+-> add movie
+-> ?
+
+'choose widget description for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'Type=Window'
+Changed selection in Combo Box (selected '<span foreground="red">Type=Window</span>')
+
+'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+Updated : GtkTreeView with columns: 
+-> set movie name to<i> Star Wars</i>
+-> add movie
+-> close
+
+'finish name entry editing' event created with arguments ''

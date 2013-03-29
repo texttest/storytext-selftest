@@ -1,0 +1,9 @@
+[Name=Movie Name]
+changed = set movie name to
+
+[Label=Add, Type=Button]
+clicked = add movie
+
+[Type=Window]
+delete-event = close
+

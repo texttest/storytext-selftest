@@ -92,4 +92,4 @@ Changed selection in GtkTreeView with columns: Name , Complete
 ->   Turn on the client and restart the server | Check box (checked)
 -> Watch some tv | Check box
 
-'Auto.Window.delete-event.'Title=CellRenderer Example'' event created with arguments ''
+'Auto.Window.delete-event.'Title=CellRenderer Example, Type=Window'' event created with arguments ''

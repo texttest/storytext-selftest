@@ -8,7 +8,7 @@ Button 'application's print'
 'Auto.Entry.<KeyPress>,<KeyRelease>.'Type=Entry'' event created with arguments 'hello'
 Updated Text entry (set to 'hello')
 
-'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=application<APOSTROPHE>s print'' event created with arguments ''
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=application<APOSTROPHE>s print, Type=Button'' event created with arguments ''
 this is to be printed hello
 
-'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=exit'' event created with arguments ''
+'Auto.Button.<Enter>,<Button-1>,<ButtonRelease-1>.'Label=exit, Type=Button'' event created with arguments ''

@@ -2,15 +2,15 @@
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir')
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir2
 Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
-'Auto.FileChooserDialog.current-folder-changed.'Title=Open..'' event created with arguments 'subsubdir'
+'Auto.FileChooserDialog.current-folder-changed.'Title=Open.., Type=FileChooserDialog'' event created with arguments 'subsubdir'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt')
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt')
 
-'Auto.FileChooserDialog.response.ok.'Title=Open..'' event created with arguments ''
-/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt selected
+'Auto.FileChooserDialog.response.ok.'Title=Open.., Type=FileChooserDialog'' event created with arguments ''
+/nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt selected

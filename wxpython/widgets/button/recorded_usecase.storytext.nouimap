@@ -1,2 +1,2 @@
-Auto.Button.Press.'Label=Hello'
-Auto.Button.Press.'Label=Close'
+Auto.Button.Press.'Label=Hello, Type=Button'
+Auto.Button.Press.'Label=Close, Type=Button'

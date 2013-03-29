@@ -1,2 +1,2 @@
-Auto.MenuItem.activate.'Label=Test-undermenu - 2'
-Auto.Window.delete-event.'Title=GTK Menu Test'
+Auto.MenuItem.activate.'Label=Test-undermenu - 2, Type=MenuItem'
+Auto.Window.delete-event.'Title=GTK Menu Test, Type=Window'

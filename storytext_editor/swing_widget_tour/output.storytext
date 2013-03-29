@@ -7,7 +7,7 @@ Viewing table with 5 rows and 4 columns.
 'JButton' | 'Label=Hello!' | 'Click' | Text entry
 'JRadioButton' | 'Label=First' | 'Click' | Text entry
 'JRadioButton' | 'Label=Second' | 'Click' | Text entry
-'JFrame' | 'Type=JFrame' | 'Close' | Text entry
+'JFrame' | '<span foreground="red">Type=JFrame</span>' | 'Close' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 

@@ -1,6 +1,9 @@
 # The script auto-recorded from textfield_button, just basic replacement needed
 basic_usage
 
+# Same as normal but choose a non-default widget description
+change_widget_description
+
 # Don't leak our special characters into the editor
 special_chars
 

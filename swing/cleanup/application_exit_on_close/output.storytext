@@ -3,4 +3,4 @@
 Button 'Hello!'
 -----------------------------------------
 
-'Auto.JFrame.Close.'Title=ButtonDemo'' event created with arguments ''
+'Auto.JFrame.Close.'Title=ButtonDemo, Type=JFrame'' event created with arguments ''

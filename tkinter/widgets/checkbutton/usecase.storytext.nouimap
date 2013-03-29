@@ -1,4 +1,4 @@
-Auto.Checkbutton.checked.'Label=Music'
-Auto.Checkbutton.unchecked.'Label=Video'
-Auto.Checkbutton.checked.'Label=Subtitles'
-Auto.Tk.WM_DELETE_WINDOW.'Title=tk'
+Auto.Checkbutton.checked.'Label=Music, Type=Checkbutton'
+Auto.Checkbutton.unchecked.'Label=Video, Type=Checkbutton'
+Auto.Checkbutton.checked.'Label=Subtitles, Type=Checkbutton'
+Auto.Tk.WM_DELETE_WINDOW.'Title=tk, Type=Tk'
