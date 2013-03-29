@@ -22,3 +22,6 @@ filedialogs
 
 # Tests to do with wx.DirSelector
 dirselector
+
+# Tests to do with wx.FileSelector
+fileselector
