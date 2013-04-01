@@ -1,0 +1,5 @@
+Auto.Button.Press.'Label=Select Font, Type=Button'
+Auto.GetFontFromUserWidget.GetFontFromUserReply.'Title=Select a Font, Type=GetFontFromUserWidget' 0;-16;0;0;0;400;0;0;0;0;3;2;1;49;Courier New
+Auto.Button.Press.'Label=Select Font, Type=Button'
+Auto.GetFontFromUserWidget.GetFontFromUserReply.'Title=Select a Font, Type=GetFontFromUserWidget' No font selected
+Auto.Button.Press.'Label=Close Me, Type=Button'

@@ -26,8 +26,11 @@ filedialogs
 # Tests to do with wx.DirSelector
 dirselector
 
-# Tests to do with wx.GetColourFromUser
+# Tests to do with wx.DirDialog
 dirdialogs
 
-# Tests to do with wx.DirDialog
+# Tests to do with wx.GetColourFromUser
 getcolourfromuser
+
+# Tests to do with wx.GetFontFromUser
+getfontfromuser

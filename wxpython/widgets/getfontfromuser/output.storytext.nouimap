@@ -1,0 +1,24 @@
+
+---------- Frame 'Test' ----------
+Button 'Select Font'
+
+Button 'Close Me'
+----------------------------------
+
+'Auto.Button.Press.'Label=Select Font, Type=Button'' event created with arguments ''
+
+---------- Get Font from User 'Select a Font' ----------
+--------------------------------------------------------
+Changed title of frame to 'Font selected: courier new 12 windows-1252'
+
+'Auto.GetFontFromUserWidget.GetFontFromUserReply.'Title=Select a Font, Type=GetFontFromUserWidget'' event created with arguments '0;-16;0;0;0;400;0;0;0;0;3;2;1;49;Courier New'
+
+'Auto.Button.Press.'Label=Select Font, Type=Button'' event created with arguments ''
+
+---------- Get Font from User 'Select a Font' ----------
+--------------------------------------------------------
+Changed title of frame to 'No font selected'
+
+'Auto.GetFontFromUserWidget.GetFontFromUserReply.'Title=Select a Font, Type=GetFontFromUserWidget'' event created with arguments 'No font selected'
+
+'Auto.Button.Press.'Label=Close Me, Type=Button'' event created with arguments ''
