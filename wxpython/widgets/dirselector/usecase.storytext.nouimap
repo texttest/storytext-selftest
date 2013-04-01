@@ -1,5 +1,5 @@
-Auto.Button.Press.'Label=Select Dir'
-Auto.DirSelectorWidget.DirSelectorReply.'Title=Select a Directory' 
-Auto.Button.Press.'Label=Select Dir'
-Auto.DirSelectorWidget.DirSelectorReply.'Title=Select a Directory' C:\Temp
-Auto.Button.Press.'Label=Close Me'
+Auto.Button.Press.'Label=Select Dir, Type=Button'
+Auto.DirSelectorWidget.DirSelectorReply.'Title=Select a Directory, Type=DirSelectorWidget' 
+Auto.Button.Press.'Label=Select Dir, Type=Button'
+Auto.DirSelectorWidget.DirSelectorReply.'Title=Select a Directory, Type=DirSelectorWidget' C:\Temp
+Auto.Button.Press.'Label=Close Me, Type=Button'

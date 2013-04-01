@@ -13,4 +13,4 @@ Updated Text Field
 Hello World!
 ==============================
 
-'Auto.MainFrame.Close.'Title=wx.TextCtrl, Type=MainFrame'' event created with arguments ''
+'Auto.MainFrame.Close.'Title=wx.TextCtrl, Label=wx.TextCtrl, Type=MainFrame'' event created with arguments ''

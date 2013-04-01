@@ -6,7 +6,6 @@ Button 'Close Me'
 ----------------------------------
 
 'OpenMessageBox' event created with arguments ''
-
 ---------- Message Box 'Message Box #1' ----------
 Quit program?
 .....
@@ -17,7 +16,6 @@ Changed title of frame to 'MessageBox Reply=YES'
 'reply to message box 1' event created with arguments 'Yes'
 
 'OpenMessageBox' event created with arguments ''
-
 ---------- Message Box 'Message Box #1' ----------
 Quit program?
 .....

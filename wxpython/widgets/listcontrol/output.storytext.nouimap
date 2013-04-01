@@ -39,4 +39,4 @@ Updated List :
 -> one
 -> zero
 
-'Auto.MainFrame.Close.'Title=wx.ListCtrl, Type=MainFrame'' event created with arguments ''
+'Auto.MainFrame.Close.'Title=wx.ListCtrl, Label=wx.ListCtrl, Type=MainFrame'' event created with arguments ''

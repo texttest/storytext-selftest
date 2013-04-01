@@ -1,5 +1,5 @@
-Auto.Button.Press.'Label=Select File'
-Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File' 
-Auto.Button.Press.'Label=Select File'
-Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File' C:\cmpxml.c
-Auto.Button.Press.'Label=Close Me'
+Auto.Button.Press.'Label=Select File, Type=Button'
+Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File, Type=FileSelectorWidget' 
+Auto.Button.Press.'Label=Select File, Type=Button'
+Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File, Type=FileSelectorWidget' C:\cmpxml.c
+Auto.Button.Press.'Label=Close Me, Type=Button'

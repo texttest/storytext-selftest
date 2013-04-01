@@ -1,3 +1,6 @@
+# Tests to do with wx.FileSelector
+fileselector
+
 # Basic GUI with just buttons
 button
 
@@ -23,5 +26,8 @@ filedialogs
 # Tests to do with wx.DirSelector
 dirselector
 
-# Tests to do with wx.FileSelector
-fileselector
+# Tests to do with wx.GetColourFromUser
+dirdialogs
+
+# Tests to do with wx.DirDialog
+getcolourfromuser

@@ -1,0 +1,40 @@
+
+---------- Frame 'Test' ----------
+Button 'Select Colour'
+
+Button 'Close Me'
+----------------------------------
+
+'Auto.Button.Press.'Label=Select Colour, Type=Button'' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'Colour selected: (255, 0, 0, 255)'
+
+'Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget'' event created with arguments '(255, 0, 0, 255)'
+
+'Auto.Button.Press.'Label=Select Colour, Type=Button'' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'Colour selected: (0, 255, 0, 255)'
+
+'Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget'' event created with arguments '(0, 255, 0, 255)'
+
+'Auto.Button.Press.'Label=Select Colour, Type=Button'' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'Colour selected: (0, 0, 255, 255)'
+
+'Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget'' event created with arguments '(0, 0, 255, 255)'
+
+'Auto.Button.Press.'Label=Select Colour, Type=Button'' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'No colour selected'
+
+'Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget'' event created with arguments '(-1, -1, -1, 255)'
+
+'Auto.Button.Press.'Label=Close Me, Type=Button'' event created with arguments ''

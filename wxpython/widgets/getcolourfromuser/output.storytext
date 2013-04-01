@@ -1,0 +1,40 @@
+
+---------- Frame 'Test' ----------
+Button 'Select Colour'
+
+Button 'Close Me'
+----------------------------------
+
+'OpenColourSelectionDialog' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'Colour selected: (255, 0, 0, 255)'
+
+'SelectColour' event created with arguments '(255, 0, 0, 255)'
+
+'OpenColourSelectionDialog' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'Colour selected: (0, 255, 0, 255)'
+
+'SelectColour' event created with arguments '(0, 255, 0, 255)'
+
+'OpenColourSelectionDialog' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'Colour selected: (0, 0, 255, 255)'
+
+'SelectColour' event created with arguments '(0, 0, 255, 255)'
+
+'OpenColourSelectionDialog' event created with arguments ''
+
+---------- Get Colour from User 'Select a Colour' ----------
+------------------------------------------------------------
+Changed title of frame to 'No colour selected'
+
+'SelectColour' event created with arguments '(-1, -1, -1, 255)'
+
+'CloseApplication' event created with arguments ''

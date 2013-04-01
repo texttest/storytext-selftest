@@ -5,7 +5,7 @@ Button 'Select File'
 Button 'Close Me'
 ----------------------------------
 
-'Auto.Button.Press.'Label=Select File'' event created with arguments ''
+'Auto.Button.Press.'Label=Select File, Type=Button'' event created with arguments ''
 
 ---------- File Selector 'Select a File' ----------
 DefaultFile: None
@@ -13,9 +13,9 @@ Flags      : wx.FD_OPEN
 ---------------------------------------------------
 Changed title of frame to 'No file selected'
 
-'Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File'' event created with arguments ''
+'Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File, Type=FileSelectorWidget'' event created with arguments ''
 
-'Auto.Button.Press.'Label=Select File'' event created with arguments ''
+'Auto.Button.Press.'Label=Select File, Type=Button'' event created with arguments ''
 
 ---------- File Selector 'Select a File' ----------
 DefaultFile: None
@@ -23,6 +23,6 @@ Flags      : wx.FD_OPEN
 ---------------------------------------------------
 Changed title of frame to 'File=C:/cmpxml.c'
 
-'Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File'' event created with arguments 'C:\cmpxml.c'
+'Auto.FileSelectorWidget.FileSelectorReply.'Title=Select a File, Type=FileSelectorWidget'' event created with arguments 'C:\cmpxml.c'
 
-'Auto.Button.Press.'Label=Close Me'' event created with arguments ''
+'Auto.Button.Press.'Label=Close Me, Type=Button'' event created with arguments ''

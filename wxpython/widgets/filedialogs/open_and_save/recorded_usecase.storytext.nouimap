@@ -1,5 +1,5 @@
-Auto.MyFrame.Menu.'Title=FileDialog Exercise, Type=MyFrame' File~~~Open
+Auto.MyFrame.Menu.'Title=FileDialog Exercise, Label=FileDialog Exercise, Type=MyFrame' File~~~Open
 Auto.FileDialog.SelectFile.'Title=Open a File, Type=FileDialog' target_ui.py
-Auto.MyFrame.Menu.'Title=FileDialog Exercise, Type=MyFrame' File~~~Save As
+Auto.MyFrame.Menu.'Title=FileDialog Exercise, Label=FileDialog Exercise, Type=MyFrame' File~~~Save As
 Auto.FileDialog.SelectFile.'Title=Save As, Type=FileDialog' somefile
-Auto.MyFrame.Close.'Title=FileDialog Exercise, Type=MyFrame'
+Auto.MyFrame.Close.'Title=FileDialog Exercise, Label=FileDialog Exercise, Type=MyFrame'

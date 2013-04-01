@@ -18,14 +18,14 @@ Menubar:
 
 -------------------------------------------------
 
-'Auto.MyFrame.Menu.'Title=FileDialog Exercise, Type=MyFrame'' event created with arguments 'File~~~Open'
-Changed title of frame to 'Open target_ui.py'
+'Auto.MyFrame.Menu.'Title=FileDialog Exercise, Label=FileDialog Exercise, Type=MyFrame'' event created with arguments 'File~~~Open'
+Changed title of frame to 'Open <texttest sandbox>/target_ui.py'
 
 'Auto.FileDialog.SelectFile.'Title=Open a File, Type=FileDialog'' event created with arguments 'target_ui.py'
 
-'Auto.MyFrame.Menu.'Title=FileDialog Exercise, Type=MyFrame'' event created with arguments 'File~~~Save As'
-Changed title of frame to 'Save as somefile'
+'Auto.MyFrame.Menu.'Title=FileDialog Exercise, Label=FileDialog Exercise, Type=MyFrame'' event created with arguments 'File~~~Save As'
+Changed title of frame to 'Save as <texttest sandbox>/somefile'
 
 'Auto.FileDialog.SelectFile.'Title=Save As, Type=FileDialog'' event created with arguments 'somefile'
 
-'Auto.MyFrame.Close.'Title=FileDialog Exercise, Type=MyFrame'' event created with arguments ''
+'Auto.MyFrame.Close.'Title=FileDialog Exercise, Label=FileDialog Exercise, Type=MyFrame'' event created with arguments ''

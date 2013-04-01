@@ -6,7 +6,6 @@ Button 'Close Me'
 ----------------------------------
 
 'Auto.Button.Press.'Label=MessageBox, Type=Button'' event created with arguments ''
-
 ---------- Message Box 'Message Box #1' ----------
 Quit program?
 .....
@@ -17,7 +16,6 @@ Changed title of frame to 'MessageBox Reply=YES'
 'Auto.MessageBoxWidget.MessageBoxReply.'Title=Message Box #1, Type=MessageBoxWidget'' event created with arguments 'Yes'
 
 'Auto.Button.Press.'Label=MessageBox, Type=Button'' event created with arguments ''
-
 ---------- Message Box 'Message Box #1' ----------
 Quit program?
 .....

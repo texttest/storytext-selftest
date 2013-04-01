@@ -1,0 +1,9 @@
+Auto.Button.Press.'Label=Select Colour, Type=Button'
+Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget' (255, 0, 0, 255)
+Auto.Button.Press.'Label=Select Colour, Type=Button'
+Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget' (0, 255, 0, 255)
+Auto.Button.Press.'Label=Select Colour, Type=Button'
+Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget' (0, 0, 255, 255)
+Auto.Button.Press.'Label=Select Colour, Type=Button'
+Auto.GetColourFromUserWidget.GetColourFromUserReply.'Title=Select a Colour, Type=GetColourFromUserWidget' (-1, -1, -1, 255)
+Auto.Button.Press.'Label=Close Me, Type=Button'
