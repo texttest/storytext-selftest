@@ -35,6 +35,10 @@ appevent_already_happened
 # Handle a shortcut ending in an application event that gets used several times
 appevent_repeated_shortcut
 
+# Handle a shortcut ending in an application event that gets used several times
+# and followed by another application event twice or once
+appevent_twice__repeated_shortcut
+
 # Check there is a timeout on things that never happen
 appevent_never_happens
 
