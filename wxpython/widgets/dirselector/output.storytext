@@ -1,0 +1,28 @@
+
+---------- Frame 'Test' ----------
+Button 'Select Dir'
+
+Button 'Close Me'
+----------------------------------
+
+'OpenDirSelectorDialog' event created with arguments ''
+
+---------- Dir Selector 'Select a Directory' ----------
+DefaultDir: C:\
+Style     : wx.DD_DEFAULT_STYLE
+-------------------------------------------------------
+Changed title of frame to 'No dir selected'
+
+'SelectDirectory' event created with arguments ''
+
+'OpenDirSelectorDialog' event created with arguments ''
+
+---------- Dir Selector 'Select a Directory' ----------
+DefaultDir: C:\
+Style     : wx.DD_DEFAULT_STYLE
+-------------------------------------------------------
+Changed title of frame to 'Dir=C:\Temp'
+
+'SelectDirectory' event created with arguments 'C:\Temp'
+
+'CloseApplication' event created with arguments ''

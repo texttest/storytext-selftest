@@ -1,0 +1,3 @@
+Auto.MyFrame.Menu.'Title=DirDialog Exercise, Type=MyFrame' File~~~Select
+Auto.DirDialog.SelectDir.'Title=Open a File, Type=DirDialog' C:\DB2
+Auto.MyFrame.Close.'Title=DirDialog Exercise, Type=MyFrame'

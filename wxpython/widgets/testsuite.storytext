@@ -1,3 +1,6 @@
+# Tests to do with wx.FileSelector
+fileselector
+
 # Basic GUI with just buttons
 button
 
@@ -19,3 +22,15 @@ dialog_no_mainloop
 
 # Tests to do with wx.FileDialog
 filedialogs
+
+# Tests to do with wx.DirSelector
+dirselector
+
+# Tests to do with wx.DirDialog
+dirdialogs
+
+# Tests to do with wx.GetColourFromUser
+getcolourfromuser
+
+# Tests to do with wx.GetFontFromUser
+getfontfromuser

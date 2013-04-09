@@ -1,0 +1,24 @@
+
+---------- Frame 'DirDialog Exercise' ----------
+
+Menubar:
+    >>>
+    File (+)
+
+    File menu
+        Select
+    --------------------
+        Exit
+
+========== TextCtrl ==========
+
+==============================
+
+------------------------------------------------
+
+'Auto.MyFrame.Menu.'Title=DirDialog Exercise, Type=MyFrame'' event created with arguments 'File~~~Select'
+Changed title of frame to 'Open C:\DB2'
+
+'Auto.DirDialog.SelectDir.'Title=Open a File, Type=DirDialog'' event created with arguments 'C:\DB2'
+
+'Auto.MyFrame.Close.'Title=DirDialog Exercise, Type=MyFrame'' event created with arguments ''

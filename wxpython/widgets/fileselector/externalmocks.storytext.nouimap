@@ -1,0 +1,1 @@
+<-CMD:env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT 'PATH=$PATH:<path_to_bin_dir>/bin' storytext_editor -m <texttest tmp dir>/usecases/ui_map.conf -i wx <texttest tmp dir>/usecase.storytext

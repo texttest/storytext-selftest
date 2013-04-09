@@ -1,0 +1,24 @@
+
+---------- Frame 'Test' ----------
+Button 'Select Font'
+
+Button 'Close Me'
+----------------------------------
+
+'OpenSelectFontDialog' event created with arguments ''
+
+---------- Get Font from User 'Select a Font' ----------
+--------------------------------------------------------
+Changed title of frame to 'Font selected: Courier New 12'
+
+'SelectFont' event created with arguments 'Courier New 12'
+
+'OpenSelectFontDialog' event created with arguments ''
+
+---------- Get Font from User 'Select a Font' ----------
+--------------------------------------------------------
+Changed title of frame to 'No font selected'
+
+'SelectFont' event created with arguments 'No font selected'
+
+'CloseApplication' event created with arguments ''

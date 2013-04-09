@@ -1,0 +1,9 @@
+OpenColourSelectionDialog
+SelectColour (255, 0, 0, 255)
+OpenColourSelectionDialog
+SelectColour (0, 255, 0, 255)
+OpenColourSelectionDialog
+SelectColour (0, 0, 255, 255)
+OpenColourSelectionDialog
+SelectColour (-1, -1, -1, 255)
+CloseApplication
