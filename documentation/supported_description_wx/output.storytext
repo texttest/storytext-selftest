@@ -5,8 +5,13 @@ types is also supported.
 wx.Button                : Press
 wx.CheckBox              : Check , CheckThirdState , Uncheck
 wx.Choice                : Choose
+wx.DirDialog             : SelectDir
+wx.DirSelectorWidget     : DirSelectorReply
 wx.FileDialog            : SelectFile
+wx.FileSelectorWidget    : FileSelectorReply
 wx.Frame                 : Close , Menu
+wx.GetColourFromUserWidget: GetColourFromUserReply
+wx.GetFontFromUserWidget : GetFontFromUserReply
 wx.ListCtrl              : ListCtrlSelect
 wx.MessageBoxWidget      : MessageBoxReply
 wx.TextCtrl              : TextEnter

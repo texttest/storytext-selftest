@@ -1,0 +1,15 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Select &All	Ctrl+A
+    Cancel
+    E&xit
+
+------------------------------
+
+'select all' event created with arguments ''
+Select All
+
+'exit' event created with arguments ''
+Closed!

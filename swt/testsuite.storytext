@@ -10,6 +10,9 @@ checkbox
 # Test we can make use of the menus
 menus
 
+# Test we can produce some screenshot files...
+menus_screenshots
+
 # Test we can make use of menu with radio buttons
 menus_radio
 
