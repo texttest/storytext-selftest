@@ -1,0 +1,75 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> <b>add <i>movie</i> named <i>Matrix</i></b>
+-> sort movies
+-> <b>add <i>movie</i> named <i>Star Trek</i></b>
+-> sort movies
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'select preview node' event created with arguments 'add movie named Matrix,sort movies (1)'
+
+Changed selection in GtkTreeView with columns: 
+-> <b>add <i>movie</i> named <i>Matrix</i></b>   ***
+-> sort movies   ***
+-> <b>add <i>movie</i> named <i>Star Trek</i></b>
+-> sort movies
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+-> close
+
+'show preview node options for' event created with arguments 'sort movies (1)'
+
+---------- Popup Window ----------
+'Create shortcut'
+'Rename' (greyed out)
+  ----
+'Update UI map file' (greyed out)
+----------------------------------
+
+'create a new shortcut' event created with arguments ''
+
+---------- Dialog 'New Shortcut' ----------
+Focus widget is 'New Name'
+'New name for shortcut:'
+Text entry (set to 'Do something with movie and Matrix')
+---------------
+.....'<b><i>do_something_with_$_and_$.shortcut</i></b>'......
+
+Showing GtkTreeView with columns: 
+-> add $ named $
+-> sort movies
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+-------------------------------------------
+
+'enter new shortcut name' event created with arguments 'Add new movie named Matrix and sort'
+Edited 'New Name' Text entry (set to 'Add new movie named Matrix and sort')
+
+Changing GtkLabel to: '<b><i>add_new_$_named_$_and_sort.shortcut</i></b>'
+
+'accept new shortcut name' event created with arguments ''
+Shortcut 'add_new_$_named_$_and_sort.shortcut' created.
+
+Updated : GtkTreeView with columns: 
+-> <b>add new <i>movie</i> named <i>Matrix</i> and sort</b>
+-> <b>add new <i>movie</i> named <i>Star Trek</i> and sort</b>
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+-> close
+
+'expand preview node' event created with arguments 'add new movie named Matrix and sort'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add new <i>movie</i> named <i>Matrix</i> and sort</b>
+->   <b>add <i>movie</i> named <i>Matrix</i></b>
+->   sort movies
+-> <b>add new <i>movie</i> named <i>Star Trek</i> and sort</b>
+-> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
+-> close
+
+'finish name entry editing' event created with arguments ''

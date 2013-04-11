@@ -10,6 +10,9 @@ create_shortcut_noargs
 # Create a shortcut in the editor
 create_shortcut_arguments
 
+# Create a shortcut in the editor containing other shortcuts
+create_shortcut_with_shortcuts
+
 # If the argument is one letter, make sure it doesn't screw up the rest of the usecase...
 short_arguments
 
