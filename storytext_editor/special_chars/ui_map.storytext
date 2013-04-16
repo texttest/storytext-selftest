@@ -4,6 +4,6 @@ changed = set movie name to
 [Label=<OPENBRACKET>Add<CLOSEBRACKET>]
 clicked = add movie
 
-[Title=The Video Store]
+[Title=&The Video Store]
 delete-event = close
 

@@ -6,7 +6,7 @@ Viewing table with 4 rows and 4 columns.
 '<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
 'Entry' | 'Name='Movie Name'' | 'edited text' | Text entry
 'Button' | 'Label=[Add]' | 'clicked' | Text entry
-'Window' | 'Title=The Video Store' | 'closed' | Text entry
+'Window' | 'Title=&amp;The Video Store' | 'closed' | Text entry
 ---------------
 .....'Current Usecase Preview'......
 
@@ -34,7 +34,7 @@ Updated : GtkTreeView with columns:
 -> add movie
 -> ?
 
-'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
+'enter usecase name for signal 'delete-event' on Window 'Title=&The Video Store' =' event created with arguments 'close'
 Edited 'GtkEntry' Text entry (set to 'close')
 
 Updated : GtkTreeView with columns: 
