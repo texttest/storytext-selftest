@@ -9,20 +9,23 @@
 'select' event created with arguments 'Alpha'
 Selection = 1
 
-Updated ========== CCombo ========== (border)
+Updated  Combo Box
+========== CCombo ========== (border)
 Alpha
 ============================
 
 'select' event created with arguments 'Bravo'
 Selection = 2
 
-Updated ========== CCombo ========== (border)
+Updated  Combo Box
+========== CCombo ========== (border)
 Bravo
 ============================
 
 'set text' event created with arguments 'Charlie'
 
-Updated ========== CCombo ========== (border)
+Updated  Combo Box
+========== CCombo ========== (border)
 Charlie
 ============================
 
@@ -30,7 +33,8 @@ Charlie
 
 'set text' event created with arguments 'Nonsense'
 
-Updated ========== CCombo ========== (border)
+Updated  Combo Box
+========== CCombo ========== (border)
 Nonsense
 ============================
 
@@ -39,7 +43,8 @@ Nonsense
 'select' event created with arguments 'Charlie'
 Selection = 3
 
-Updated ========== CCombo ========== (border)
+Updated  Combo Box
+========== CCombo ========== (border)
 Charlie
 ============================
 
