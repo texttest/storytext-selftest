@@ -33,4 +33,5 @@ dirdialogs
 getcolourfromuser
 
 # Tests to do with wx.GetFontFromUser
-getfontfromuser
+# Commented out as can't get it to behave consistently on different systems
+#getfontfromuser
