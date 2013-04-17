@@ -1,0 +1,29 @@
+
+---------- Shell '' ----------
+Tool Bar:
+  Item 0
+  Item 1
+  Item 2
+  Item 3
+  ---
+  ========== Combo ========== (read only)
+  
+  ===========================
+
+  Item 5
+  Item 6
+  Item 7
+  Item 8
+
+------------------------------
+
+'press item 2' event created with arguments ''
+
+'select' event created with arguments 'Item 2'
+
+Updated  Combo Box
+========== Combo ========== (read only)
+Item 2
+===========================
+
+'close window' event created with arguments ''
