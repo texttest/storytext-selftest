@@ -38,7 +38,6 @@ toolbar_images
 toolbar_dropdown_shortcut
 
 # Embed a combobox in the toolbar. This does not work in SWTBot 2.0.5, check our workaround does.
-# 
 combobox_in_toolbar
 
 # Test we can handle expandbar descriptions and state changes.
@@ -79,6 +78,9 @@ clipboard
 
 # Make sure we get a sensible message if a label becomes empty
 label_text_becomes_empty
+
+# Make sure we can exclude a composite widget and all its children
+exclude_composite
 
 # If we are identified in the UI map file by tooltip, use that
 tooltip_label_conflict

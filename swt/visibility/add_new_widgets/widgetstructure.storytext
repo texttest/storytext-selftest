@@ -1,8 +1,11 @@
-org.eclipse.swt.widgets.Shell 3 (org.eclipse.swt.layout.FillLayout)
+New window:
+org.eclipse.swt.widgets.Shell 4 (org.eclipse.swt.layout.FillLayout)
 --org.eclipse.swt.widgets.Composite 5 (org.eclipse.swt.layout.GridLayout, 2 columns)
 ----org.eclipse.swt.widgets.Label 6
 ----org.eclipse.swt.widgets.Text 7
+Widget changed state:
 org.eclipse.swt.widgets.Text 7
+Newly appeared widget:
 org.eclipse.swt.widgets.Composite 5 (org.eclipse.swt.layout.GridLayout, 2 columns)
 --org.eclipse.swt.widgets.Label 6
 --org.eclipse.swt.widgets.Text 7
