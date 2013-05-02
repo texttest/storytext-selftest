@@ -1,0 +1,74 @@
+
+---------- Shell '' ----------
+Table (Context Menu 1) :
+____
+id
+____
+
+
+
+
+
+
+
+
+
+____
+
+Context Menu 1:
+  Add Data
+
+------------------------------
+
+'select cell' event created with arguments '<untitled> for <unnamed> (1)'
+
+Updated Table (Context Menu 1) :
+__________
+id
+__________
+selected
+
+
+
+
+
+
+
+
+__________
+
+'add data' event created with arguments ''
+
+Updated Table (Context Menu 1) :
+__________________________________
+id
+__________________________________
+item 0 (selected)  edit this value
+item 1             edit this value
+item 2             edit this value
+item 3             edit this value
+item 4             edit this value
+item 5             edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+__________________________________
+
+'select cell' event created with arguments 'id for item 5'
+
+Updated Table (Context Menu 1) :
+__________________________________
+id
+__________________________________
+item 0             edit this value
+item 1             edit this value
+item 2             edit this value
+item 3             edit this value
+item 4             edit this value
+item 5 (selected)  edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+__________________________________
+
+'close window' event created with arguments ''

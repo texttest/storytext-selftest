@@ -13,5 +13,8 @@ edit_cells_key_listen
 # Edit cells in a table where a column is unnamed and so is a row
 unnamed_cells_and_columns
 
+# Try to generate columns again if we get all unnamed first time round
+subsequent_data_input
+
 # Shows a table having invisible columns
 hidden_columns
