@@ -1,0 +1,29 @@
+
+---------- Shell '' ----------
+Tree (Context Menu 1) :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+
+Context Menu 1:
+  Where am I?
+
+------------------------------
+
+'select row' event created with arguments 'Initial - 2'
+
+Updated Tree (Context Menu 1) :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2 (selected)
+-> Initial - 3
+
+Updated Context Menu 1:
+  Where am I?
+  Dynamic!
+
+'click dynamic menu item' event created with arguments ''
+Clicked the dynamic one!
+
+'close window' event created with arguments ''

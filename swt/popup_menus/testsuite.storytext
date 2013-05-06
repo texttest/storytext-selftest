@@ -3,3 +3,6 @@ basic
 
 # Disable menu description
 disable_menu_describer
+
+# Check we handle items that are added in right-click
+dynamic_add_item
