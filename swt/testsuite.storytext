@@ -58,6 +58,9 @@ list
 # Test we can handle comboboxes
 combo
 
+# Test we can handle comboboxes that change their item text when you select it
+combo_change_text
+
 # Test we can handle custom ccomboboxes
 ccombo
 

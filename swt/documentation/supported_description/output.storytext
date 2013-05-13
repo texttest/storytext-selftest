@@ -5,7 +5,7 @@ types is also supported.
 org.eclipse.swt.custom.CCombo           : Activate , Modify , Selection
 org.eclipse.swt.custom.CTabFolder       : CloseTab , Selection
 org.eclipse.swt.widgets.Button          : Selection
-org.eclipse.swt.widgets.Combo           : Activate , Modify
+org.eclipse.swt.widgets.Combo           : Activate , Modify , Selection
 org.eclipse.swt.widgets.DateTime        : Selection
 org.eclipse.swt.widgets.ExpandBar       : Collapse , Expand
 org.eclipse.swt.widgets.Link            : Selection
