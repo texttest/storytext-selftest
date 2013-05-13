@@ -60,15 +60,20 @@ for i in range(len(titles)):
 
 
 class SortListener(Listener):
+    def __init__(self):
+        self.sortAsc = False
+
     def handleEvent(self, e):
         items = table.getItems()
         column = e.widget
         index = table.getColumns().index(column)
         texts = [ item.getText(index) for item in items ]
-        texts.sort()
+        texts.sort(reverse=self.sortAsc)
         for i, item in enumerate(items):
             item.setText(index, texts[i])
         table.setSortColumn(column)
+        self.sortAsc = not self.sortAsc
+        table.setSortDirection(SWT.UP if self.sortAsc else SWT.DOWN)
 
 class AddColumnListener(Listener):
     def handleEvent(self, e):
@@ -79,6 +84,7 @@ class AddColumnListener(Listener):
         column.pack()
         column.addListener(SWT.Selection, SortListener())
         table.setSortColumn(column)
+        table.setSortDirection(SWT.DOWN)
 
 
 for column in table.getColumns():
