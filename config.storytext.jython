@@ -6,6 +6,10 @@ link_test_path:TargetUI$1.class
 link_test_path:TargetUI$2.class
 link_test_path:TargetUI$MyTableModel.class
 
+# Files that are internal details of Jython
+# we don't care if they change but we need them in a unique
+# place to avoid clashes when running in parallel
+test_data_ignore:*py.class
 
 # Xvfb runs with 12-bit color depth by default
 # This causes all the GanttEditor colours to be black
