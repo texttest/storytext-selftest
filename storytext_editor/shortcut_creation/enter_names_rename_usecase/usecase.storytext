@@ -1,0 +1,15 @@
+enter usecase name for signal 'changed' on Entry 'Name=Movie Name' = set movie name to
+enter usecase name for signal 'clicked' on Button 'Label=Add' = add movie
+select preview node set movie name to Star Wars,add movie (1)
+show preview node options for add movie (1)
+create a new shortcut
+enter new shortcut name create new movie Star Wars
+accept new shortcut name
+expand preview node create new movie Star Wars
+expand preview node close
+expand preview node add movie under create new movie Star Wars
+show preview node options for close
+rename a usecase name or shortcut
+rename usecase exit
+accept update ui map file
+finish name entry editing

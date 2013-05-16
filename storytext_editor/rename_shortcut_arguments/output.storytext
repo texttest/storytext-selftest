@@ -69,18 +69,10 @@ ShortcutRename 'add (.*) named (.*)$' renamed to 'add $ titled $'
 
 Updated : GtkTreeView with columns: 
 -> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
--> <span foreground="#826200">wait for<i> the movies to reload</i></span>
--> <b>add <i>movie</i> titled <i>Matrix</i></b>
--> close
-
-'expand preview node' event created with arguments 'add movies Star Wars and Die Hard'
-
-Expanded row in GtkTreeView with columns: 
--> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
 ->   <b>add <i>movie</i> titled <i>Star Wars</i></b>
 ->   <b>add <i>movie</i> titled <i>Die Hard</i></b>
 -> <span foreground="#826200">wait for<i> the movies to reload</i></span>
--> <b>add <i>movie</i> titled <i>Matrix</i></b>
+-> <b>add <i>movie</i> titled <i>Matrix</i></b>   ***
 -> close
 
 'expand preview node' event created with arguments 'add movie titled Matrix'
@@ -90,7 +82,7 @@ Expanded row in GtkTreeView with columns:
 ->   <b>add <i>movie</i> titled <i>Star Wars</i></b>
 ->   <b>add <i>movie</i> titled <i>Die Hard</i></b>
 -> <span foreground="#826200">wait for<i> the movies to reload</i></span>
--> <b>add <i>movie</i> titled <i>Matrix</i></b>
+-> <b>add <i>movie</i> titled <i>Matrix</i></b>   ***
 ->   set new movie name to<i> Matrix</i>
 ->   add movie
 -> close

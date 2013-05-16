@@ -6,6 +6,5 @@ accept update ui map file
 accept message
 rename shortcut add $ titled $
 accept update ui map file
-expand preview node add movies Star Wars and Die Hard
 expand preview node add movie titled Matrix
 finish name entry editing

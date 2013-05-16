@@ -1,0 +1,10 @@
+The following new files/directories were created:
+<Test Directory>
+----usecases
+--------create_new_film_$.shortcut
+
+The following existing files/directories changed their contents:
+<Test Directory>
+----auto_recorded_usecase
+----usecases
+--------ui_map.conf

@@ -24,3 +24,9 @@ insert_multiple_times
 
 # Create a shortcut directly after entering the names
 enter_names_create_shortcut
+
+# See if we can rename usecase names directly after creating new shortcut
+enter_names_rename_usecase
+
+# See if we can rename shortcuts directly after creating new ones
+enter_names_rename_shortcut
