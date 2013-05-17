@@ -1,0 +1,8 @@
+enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' = close
+select preview node set new movie name to Star Wars,add movie (1)
+show preview node options for add movie (1)
+create a new shortcut
+enter new shortcut name add new movie named Star Wars
+accept new shortcut name
+expand preview node add new movie named Star Wars
+finish name entry editing

@@ -1,0 +1,87 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 2 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'Window' | 'Title=The Video Store' | 'closed' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+Showing GtkTreeView with columns: 
+-> set new movie name to<i> Star Wars</i>
+-> add movie
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> ?
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+Updated : GtkTreeView with columns: 
+-> set new movie name to<i> Star Wars</i>
+-> add movie
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> close
+
+'select preview node' event created with arguments 'set new movie name to Star Wars,add movie (1)'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Star Wars</i>   ***
+-> add movie   ***
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> close
+
+'show preview node options for' event created with arguments 'add movie (1)'
+
+---------- Popup Window ----------
+'Create shortcut'
+'Rename' (greyed out)
+  ----
+'Update UI map file' (greyed out)
+----------------------------------
+
+'create a new shortcut' event created with arguments ''
+
+---------- Dialog 'New Shortcut' ----------
+Focus widget is 'New Name'
+'New name for shortcut:'
+Text entry (set to 'Do something with Star Wars')
+---------------
+.....'<b><i>do_something_with_$.shortcut</i></b>'......
+
+Showing GtkTreeView with columns: 
+-> set new movie name to $
+-> add movie
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+-------------------------------------------
+
+'enter new shortcut name' event created with arguments 'add new movie named Star Wars'
+Edited 'New Name' Text entry (set to 'add new movie named Star Wars')
+
+Changing GtkLabel to: '<b><i>add_new_movie_named_$.shortcut</i></b>'
+
+'accept new shortcut name' event created with arguments ''
+Shortcut 'add_new_movie_named_$.shortcut' created.
+
+Updated : GtkTreeView with columns: 
+-> <b>add new movie named <i>Star Wars</i></b>
+-> <b>add new movie named <i>Die Hard</i></b>
+-> close
+
+'expand preview node' event created with arguments 'add new movie named Star Wars'
+
+Expanded row in GtkTreeView with columns: 
+-> <b>add new movie named <i>Star Wars</i></b>
+->   set new movie name to<i> Star Wars</i>
+->   add movie
+-> <b>add new movie named <i>Die Hard</i></b>
+-> close
+
+'finish name entry editing' event created with arguments ''
