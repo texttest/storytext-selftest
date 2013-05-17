@@ -29,4 +29,6 @@ Anders  25   male
 Eva     22   femme (selected)
 _____________________________
 
+ERROR: Could not simulate command 'change Age for Anders badly' - Missing '=' sign in argument 'Age for Anders badly'
+
 'close window' event created with arguments ''

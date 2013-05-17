@@ -85,4 +85,6 @@ Anika   31   female
 Anders  21   male
 ______________________________
 
+ERROR: Could not simulate command 'sort by Nonsense' - Could not find column named 'Nonsense'
+
 'close window' event created with arguments ''

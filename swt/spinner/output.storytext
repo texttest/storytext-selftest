@@ -13,4 +13,6 @@ Updated The Spinner Field
 399
 =============================
 
+ERROR: Could not simulate command 'set spinner to stupid' - Cannot set Spinners to non-numeric values!
+
 'close' event created with arguments ''

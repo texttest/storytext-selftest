@@ -5,7 +5,6 @@ One
 ==============================
 ---------------------------------------------
 
-'select' event created with arguments 'Nothing'
 ERROR: Could not simulate command 'select Nothing' - Could not find item named 'Nothing' to select.
 
 'select' event created with arguments 'Two'

@@ -8,6 +8,8 @@ Menu Bar:
 
 ------------------------------
 
+ERROR: Could not simulate command 'select all with an argument' - Action 'select all' did not expect an argument 'with an argument'.
+
 'select all' event created with arguments ''
 Select All
 
