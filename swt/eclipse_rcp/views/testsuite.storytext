@@ -1,0 +1,8 @@
+# Test for activating different parts
+part_activation
+
+# Widgets in the active view are to be preferred over those in other views
+prefer_active_view
+
+# Make sure -x flag works, disabling usecase names
+disable_usecase_names

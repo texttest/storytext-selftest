@@ -1,0 +1,37 @@
+
+---------- Shell 'Tab (View) Selection Application' ----------
+Menu Bar:
+  &File (cascade)
+    E&xit	Ctrl+X
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1
+    Show in View 2 (greyed out)
+    Show Info View
+
+TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif', selected)
+
+Button 'The First View Button'
+
+--------------- Horizontal sash ---------------
+
+TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
+
+Button 'The Second View Button'
+
+--------------------------------------------------------------
+
+'press current view button' event created with arguments ''
+Pressed in the first view!
+
+'activate second view' event created with arguments 'SecondView'
+
+Updated Views Menu:
+'Show in View 1' changed to 'Show in View 1 (greyed out)'
+'Show in View 2 (greyed out)' changed to 'Show in View 2'
+
+'press current view button' event created with arguments ''
+Pressed in the second view!
+
+'close window' event created with arguments ''

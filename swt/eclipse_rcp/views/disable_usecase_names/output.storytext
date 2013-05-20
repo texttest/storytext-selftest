@@ -12,9 +12,13 @@ Menu Bar:
 
 TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif', selected)
 
+Button 'The First View Button'
+
 --------------- Horizontal sash ---------------
 
 TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
+
+Button 'The Second View Button'
 
 --------------------------------------------------------------
 
