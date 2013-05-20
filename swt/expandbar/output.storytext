@@ -11,11 +11,11 @@ Expand Bar:
     Image 2  'SWT.ICON_ERROR'
     Image 3  'SWT.ICON_INFORMATION'
     Image 1  'SWT.ICON_QUESTION'
+    
+    Context Menu 1:
+      Popup
 
   What is your favorite button (Image 1)
-
-Context Menu 1:
-  Popup
 
 -----------------------------------------------
 
