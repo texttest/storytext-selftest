@@ -87,9 +87,6 @@ exclude_composite
 
 # If we are identified in the UI map file by tooltip, use that
 tooltip_label_conflict
-
-# Test we can handle buttons
-preferred_widget
 popup_menus
 
 # Tests for Browser widgets
@@ -115,6 +112,9 @@ jface
 
 # Tests around application events
 appevents
+
+# Tests for what happens when multiple widgets match the UI map definitions
+ambiguity
 
 # New suite for Eclipse RCP tests
 eclipse_rcp

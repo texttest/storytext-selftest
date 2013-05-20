@@ -1,0 +1,10 @@
+
+---------- Shell '' ----------
+Button 'Button' (Tooltip 'Has an image!', Image 1)  Button 'Button' (Tooltip 'Has no image!')
+
+------------------------------
+
+'press button' event created with arguments ''
+Right!
+
+'exit' event created with arguments ''

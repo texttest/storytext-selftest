@@ -1,0 +1,15 @@
+[Title=The Video Store & Friends]
+delete-event = close
+
+[Name=Movie Name]
+changed = set new film name to
+activate = add movie by pressing <enter>
+
+[Name=Alternative Movie Name]
+changed = set new film name to
+activate = add movie by pressing <enter>
+
+[Label=Add]
+activate = select menu item 'add'
+clicked = add movie
+

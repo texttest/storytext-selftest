@@ -46,6 +46,9 @@ update_uimap
 # Rename usecase name from the editor
 rename_usecase
 
+# Rename usecase name which is defined multiple times
+rename_usecase_multiple
+
 # Rename shortcut name from the editor
 rename_shortcut
 

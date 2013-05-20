@@ -1,0 +1,14 @@
+
+---------- Shell '' ----------
+Button 'Button' (Tooltip 'Has an image!', Image 1)  Button 'Button' (Tooltip 'Has no image!')
+
+------------------------------
+
+ERROR: Could not simulate command 'press button' - Instruction could be interpreted more than one way!
+There is more than one widget matching [Label=Button], but there are other attributes that may be used to distinguish them.
+The widgets would be identified fully by sections as follows:
+[Label=Button, Tooltip=Has no image!, Type=Button]
+[Label=Button, Tooltip=Has an image!, Type=Button]
+It is suggested to replace the section appropriately in your UI map file and add distinguishing names for these widgets.
+
+'exit' event created with arguments ''

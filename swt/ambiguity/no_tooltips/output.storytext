@@ -1,0 +1,13 @@
+
+---------- Shell '' ----------
+Button 'Button' (Image 1)  Button 'Button'
+
+------------------------------
+
+ERROR: Could not simulate command 'press button' - Instruction could be interpreted more than one way!
+There is more than one widget matching [Label=Button] and no other attributes which distinguish them.
+You can fix this by adding distinguishing tooltips to the different widgets.
+You can also fix this by adding widget names/internal IDs if this is not desirable.
+(see the StoryText documentation for how to do this for your chosen toolkit).
+
+'exit' event created with arguments ''

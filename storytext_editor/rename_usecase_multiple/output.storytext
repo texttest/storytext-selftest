@@ -1,0 +1,98 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'expand preview node' event created with arguments 'set new movie name to Die Hard'
+
+Expanded row in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>
+->   Perform 'changed' on widget identified by 'Name=Movie Name'
+->   Perform 'changed' on widget identified by 'Name=Alternative Movie Name'
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'select preview node' event created with arguments 'set new movie name to Die Hard'
+
+Changed selection in GtkTreeView with columns: 
+-> set new movie name to<i> Die Hard</i>   ***
+->   Perform 'changed' on widget identified by 'Name=Movie Name'
+->   Perform 'changed' on widget identified by 'Name=Alternative Movie Name'
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'show preview node options for' event created with arguments 'set new movie name to Die Hard'
+
+---------- Popup Window ----------
+'Create shortcut' (greyed out)
+'Rename'
+  ----
+'Update UI map file' (greyed out)
+----------------------------------
+
+'rename a usecase name or shortcut' event created with arguments ''
+
+---------- Dialog 'Rename usecase' ----------
+Focus widget is 'GtkEntry'
+'Usecase' , Text entry (set to 'set new movie name to')
+---------------
+Button 'Cancel' , Button 'Rename'
+---------------------------------------------
+
+'rename usecase' event created with arguments 'set new film name to'
+Edited 'GtkEntry' Text entry (set to 'set new film name to')
+
+'accept update ui map file' event created with arguments ''
+UsecaseRename 'set new movie name to' renamed to 'set new film name to'
+
+Updated : GtkTreeView with columns: 
+-> set new film name to<i> Die Hard</i>   ***
+->   Perform 'changed' on widget identified by 'Name=Movie Name'
+->   Perform 'changed' on widget identified by 'Name=Alternative Movie Name'
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+-> close
+
+'expand preview node' event created with arguments 'add star wars'
+
+Expanded row in GtkTreeView with columns: 
+-> set new film name to<i> Die Hard</i>   ***
+->   Perform 'changed' on widget identified by 'Name=Movie Name'
+->   Perform 'changed' on widget identified by 'Name=Alternative Movie Name'
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+->   set new film name to<i> Star Wars</i>
+->   add movie
+-> close
+
+'expand preview node' event created with arguments 'set new film name to Star Wars'
+
+Expanded row in GtkTreeView with columns: 
+-> set new film name to<i> Die Hard</i>   ***
+->   Perform 'changed' on widget identified by 'Name=Movie Name'
+->   Perform 'changed' on widget identified by 'Name=Alternative Movie Name'
+-> add movie
+-> <span foreground="#826200">wait for<i> the movies to reload</i></span>
+-> <b>add star wars</b>
+->   set new film name to<i> Star Wars</i>
+->     Perform 'changed' on widget identified by 'Name=Movie Name'
+->     Perform 'changed' on widget identified by 'Name=Alternative Movie Name'
+->   add movie
+-> close
+
+'finish name entry editing' event created with arguments ''

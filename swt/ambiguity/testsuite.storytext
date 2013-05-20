@@ -1,0 +1,11 @@
+# Should get an ambiguity error if we don't know which to press
+tooltips_exist
+
+# Should get an ambiguity error if we don't know which to press
+no_tooltips
+
+# If the ambiguity is in the UI map file, we assume it's deliberate
+deliberate_ambiguity
+
+# Test mechanism to declare one of the options preferred
+preferred_widget
