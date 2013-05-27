@@ -84,4 +84,4 @@ Expanded row in GtkTreeView with columns:
 -> <b>add new movie named <i>Die Hard</i></b>
 -> close
 
-'finish name entry editing' event created with arguments ''
+'cancel name entry editing' event created with arguments ''

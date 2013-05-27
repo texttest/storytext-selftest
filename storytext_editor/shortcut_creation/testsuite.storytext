@@ -25,11 +25,8 @@ insert_multiple_times
 # Create a shortcut directly after entering the names
 enter_names_create_shortcut
 
-# See that we can remove shortcuts containing new names when cancelling edit enter the names
-cancel_edit_enter_names_create_unusable_shortcut
-
-# See that we don't remove usable shortcuts when cancelling edit enter the names
-cancel_edit_enter_names_create_usable_shortcut
+# See that we don't remove created shortcuts when cancelling edit enter the names
+cancel_edit_enter_names_create_shortcut
 
 # See if we can rename usecase names directly after creating new shortcut
 enter_names_rename_usecase
