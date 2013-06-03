@@ -149,7 +149,7 @@ Changed selection in GtkTreeView with columns: Messages
 Now Showing: Message #4
 =================================
 
-'change text to' event created with arguments 'Now Showing: Message #4 alone'
+'change text to' event created with arguments 'Now Showing: Message #4 alone  '
 
 ========== GtkTextView ==========
 Now Showing: Message #4 alone

@@ -7,6 +7,6 @@ change text to Now Showing: Message #0 alone
 select message 
 change text to   Now Showing: nothing!
 select message Message #4
-change text to Now Showing: Message #4 alone
+change text to Now Showing: Message #4 alone  
 select message Message #4
 close application
