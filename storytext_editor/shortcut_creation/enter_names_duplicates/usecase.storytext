@@ -1,0 +1,7 @@
+enter usecase name for signal 'changed' on Entry 'Name=Movie Name' = set movie name to
+enter usecase name for signal 'clicked' on Button 'Label=Add' = add movie
+finish name entry editing
+cancel message
+enter usecase name for signal 'changed' on Entry 'Name=Movie Name' = set film name to
+finish name entry editing
+accept message

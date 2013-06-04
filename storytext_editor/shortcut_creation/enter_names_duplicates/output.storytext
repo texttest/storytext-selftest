@@ -1,0 +1,79 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 3 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'Entry' | 'Name=Movie Name' | 'edited text' | Text entry
+'Button' | 'Label=Add' | 'clicked' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+Showing GtkTreeView with columns: 
+-> ? <i>Star Wars</i>
+-> ?
+-> ? <i>Die Hard</i>
+-> ?
+-> close
+---------------
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set movie name to'
+Edited 'GtkEntry' Text entry (set to 'set movie name to')
+
+Updated : GtkTreeView with columns: 
+-> set movie name to<i> Star Wars</i>
+-> ?
+-> set movie name to<i> Die Hard</i>
+-> ?
+-> close
+
+'enter usecase name for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'add movie'
+Edited 'GtkEntry' Text entry (set to 'add movie')
+
+Updated : GtkTreeView with columns: 
+-> set movie name to<i> Star Wars</i>
+-> add movie
+-> set movie name to<i> Die Hard</i>
+-> add movie
+-> close
+
+'finish name entry editing' event created with arguments ''
+
+---------- Messagedialog 'StoryText Warning' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-warning' , 'You have entered a name that already exists in the UI map.
+You are allowed to do this but please be aware it may cause problems.
+The following duplicate names were found:
+set movie name to
+add movie
+'
+Stock Button 'gtk-ok' , Stock Button 'gtk-cancel'
+-------------------------------------------------------
+
+'cancel message' event created with arguments ''
+
+'enter usecase name for signal 'changed' on Entry 'Name=Movie Name' =' event created with arguments 'set film name to'
+Edited 'GtkEntry' Text entry (set to 'set film name to')
+
+Updated : GtkTreeView with columns: 
+-> set film name to<i> Star Wars</i>
+-> add movie
+-> set film name to<i> Die Hard</i>
+-> add movie
+-> close
+
+'finish name entry editing' event created with arguments ''
+
+---------- Messagedialog 'StoryText Warning' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-warning' , 'You have entered a name that already exists in the UI map.
+You are allowed to do this but please be aware it may cause problems.
+The following duplicate names were found:
+add movie
+'
+Stock Button 'gtk-ok' , Stock Button 'gtk-cancel'
+-------------------------------------------------------
+
+'accept message' event created with arguments ''

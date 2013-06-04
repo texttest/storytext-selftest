@@ -33,3 +33,6 @@ enter_names_rename_usecase
 
 # See if we can rename shortcuts directly after creating new ones
 enter_names_rename_shortcut
+
+# Hadle duplicates when entering new names.
+enter_names_duplicates
