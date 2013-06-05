@@ -1,0 +1,15 @@
+
+---------- Shell 'Main Window' ----------
+
+-----------------------------------------
+
+'close window' event created with arguments ''
+
+---------- Shell 'Information' ----------
+'You're exiting!'
+
+Button 'OK'
+
+-----------------------------------------
+
+'agree with message' event created with arguments ''

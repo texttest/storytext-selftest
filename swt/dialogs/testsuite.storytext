@@ -7,6 +7,9 @@ closure_confirm_appevents
 # Test we can handle several dialogs nested inside one another
 nested
 
+# If components of a widget are shown before the dialog is, don't try to monitor them first
+show_before_dialog
+
 # Try to use a widget in a dialog after the dialog is closed
 click_disposed_widget
 
