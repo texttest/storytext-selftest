@@ -30,6 +30,9 @@ wide_grid
 # Test for wide grid output controlled by -M option
 wide_grid_max_output_width
 
+# Find labels buried as last items of a composite
+label_in_composite
+
 # Don't be fooled by additional labels with no text
 empty_labels
 
