@@ -1,0 +1,19 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Menu item 1
+    Menu item 2
+    Menu item 3
+
+Tool Bar:
+  Toolbar item 1
+  Toolbar item 2
+  Toolbar item 3
+
+------------------------------
+
+'select item 2' event created with arguments ''
+Selected item 2 org.eclipse.swt.widgets.ToolItem
+
+'close window' event created with arguments ''

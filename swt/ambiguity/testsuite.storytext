@@ -9,3 +9,6 @@ deliberate_ambiguity
 
 # Test mechanism to declare one of the options preferred
 preferred_widget
+
+# Test we can handle toolbar and menu items triggering the same actions interchangeably
+interchangeable_widgets
