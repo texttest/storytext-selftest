@@ -1,9 +1,7 @@
 
 ---------- Shell '' ----------
 ...... The Page Stack ......
-++++++ Stacked Layout ++++++
 'First Page'
-++++++++++++++++++++++++++++
 ............................
 
 Button 'Add Page'
@@ -17,11 +15,9 @@ Button 'Change Page'
 'change page' event created with arguments ''
 
 ...... The Page Stack ......
-++++++ Stacked Layout ++++++
 ========== Text ==========
 Text on page 2
 ==========================
-++++++++++++++++++++++++++++
 ............................
 
 'set text to' event created with arguments 'New Text'
