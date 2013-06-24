@@ -48,3 +48,6 @@ span_columns_odd
 
 # Test for group widget
 groups
+
+# Test for describing text field updates having complex layouts
+text_in_complex_layout

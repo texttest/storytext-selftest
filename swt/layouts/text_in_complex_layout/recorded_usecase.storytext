@@ -1,0 +1,5 @@
+set name2 to second
+set phone2 to 2222
+set name1 to first
+set phone1 to 1111
+close window

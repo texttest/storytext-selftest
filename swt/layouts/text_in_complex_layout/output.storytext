@@ -1,0 +1,44 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Describe
+
+'Names:'          ========== Text ==========  ========== Text ==========
+
+'Phone Numbers:'  ==========================  ==========================
+                  ========== Text ==========  ========== Text ==========
+
+                  ==========================  ==========================
+
+------------------------------
+
+'set name2 to' event created with arguments 'second'
+
+Updated name2 Field
+========== Text ==========
+second
+==========================
+
+'set phone2 to' event created with arguments '2222'
+
+Updated phone2 Field
+========== Text ==========
+2222
+==========================
+
+'set name1 to' event created with arguments 'first'
+
+Updated name1 Field
+========== Text ==========
+first
+==========================
+
+'set phone1 to' event created with arguments '1111'
+
+Updated phone1 Field
+========== Text ==========
+1111
+==========================
+
+'close window' event created with arguments ''
