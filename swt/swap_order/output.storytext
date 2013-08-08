@@ -1,0 +1,13 @@
+
+---------- Shell '' ----------
+Button 'Swap!'  Button 'Exit'
+
+------------------------------
+
+'swap' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Button 'Exit'  Button 'Swap!'
+
+'exit' event created with arguments ''

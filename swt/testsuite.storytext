@@ -87,6 +87,9 @@ exclude_composite
 
 # If we are identified in the UI map file by tooltip, use that
 tooltip_label_conflict
+
+# If we switch the order of the button, does this get described?
+swap_order
 popup_menus
 
 # Tests for Browser widgets
