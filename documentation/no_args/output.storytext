@@ -71,7 +71,8 @@ Options:
   -s, --supported       list which PyGTK widgets and signals are currently
                         supported 'out-of-the-box'
   -S, --screenshot      Take screenshots of the GUI after each action. Only
-                        works in SWT/Eclipse currently
+                        works in SWT/Eclipse currently. Also enabled via the
+                        environment variable USECASE_REPLAY_SCREENSHOTS.
   -t SECONDS, --timeout=SECONDS
                         amount of time to wait for application events before
                         giving up and trying to proceed.
