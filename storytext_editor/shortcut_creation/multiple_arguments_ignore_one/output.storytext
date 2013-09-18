@@ -54,8 +54,8 @@ Showing GtkTreeView with columns:
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
 
-'enter new shortcut name' event created with arguments 'Add some movies including Die Hard and Titanic'
-Edited 'New Name' Text entry (set to 'Add some movies including Die Hard and Titanic')
+'enter new shortcut name' event created with arguments 'Add some movies including Die Hard, Titanic'
+Edited 'New Name' Text entry (set to 'Add some movies including Die Hard, Titanic')
 
 Updated : GtkTreeView with columns: 
 -> set new movie name to $
@@ -65,13 +65,13 @@ Updated : GtkTreeView with columns:
 -> set new movie name to $
 -> add movie
 
-Changing GtkLabel to: '<b><i>add_some_movies_including_$_and_$.shortcut</i></b>'
+Changing GtkLabel to: '<b><i>add_some_movies_including_$,_$.shortcut</i></b>'
 
 'accept new shortcut name' event created with arguments ''
-Shortcut 'add_some_movies_including_$_and_$.shortcut' created.
+Shortcut 'add_some_movies_including_$,_$.shortcut' created.
 
 Updated : GtkTreeView with columns: 
--> <b>add some movies including <i>Die Hard</i> and <i>Titanic</i></b>
+-> <b>add some movies including <i>Die Hard</i>, <i>Titanic</i></b>
 -> close
 
 'finish name entry editing' event created with arguments ''

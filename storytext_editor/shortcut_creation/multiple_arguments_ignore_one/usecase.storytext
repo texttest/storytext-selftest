@@ -1,6 +1,6 @@
 select preview node set new movie name to Die Hard,add movie (1),set new movie name to Star Wars,add movie (2),set new movie name to Titanic,add movie (3)
 show preview node options for add movie (3)
 create a new shortcut
-enter new shortcut name Add some movies including Die Hard and Titanic
+enter new shortcut name Add some movies including Die Hard, Titanic
 accept new shortcut name
 finish name entry editing
