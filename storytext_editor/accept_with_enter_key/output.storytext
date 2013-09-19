@@ -26,6 +26,8 @@ Updated : GtkTreeView with columns:
 -> ?
 -> ?
 
+'press <enter> in field for signal 'changed' on Entry 'Name=Movie Name'' event created with arguments ''
+
 'enter usecase name for signal 'clicked' on Button 'Label=Add' =' event created with arguments 'add movie'
 Edited 'GtkEntry' Text entry (set to 'add movie')
 
@@ -33,6 +35,8 @@ Updated : GtkTreeView with columns:
 -> set new movie name to<i> Star Wars</i>
 -> add movie
 -> ?
+
+'press <enter> in field for signal 'clicked' on Button 'Label=Add'' event created with arguments ''
 
 'enter usecase name for signal 'delete-event' on Window 'Title=The Video Store' =' event created with arguments 'close'
 Edited 'GtkEntry' Text entry (set to 'close')
@@ -42,4 +46,4 @@ Updated : GtkTreeView with columns:
 -> add movie
 -> close
 
-'finish name entry editing by pressing <enter>' event created with arguments ''
+'press <enter> in field for signal 'delete-event' on Window 'Title=The Video Store'' event created with arguments ''

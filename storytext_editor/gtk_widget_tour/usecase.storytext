@@ -25,4 +25,4 @@ enter usecase name for signal 'edited.Column' on TreeView 'Type=TreeView' = edit
 enter usecase name for signal 'row-activated' on TreeView 'Type=TreeView' = activate row
 enter usecase name for signal 'row-collapsed' on TreeView 'Type=TreeView' = collapse row
 enter usecase name for signal 'row-expanded' on TreeView 'Type=TreeView' = expand row
-finish name entry editing by pressing <enter>
+finish name entry editing

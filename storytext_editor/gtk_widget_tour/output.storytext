@@ -1017,4 +1017,4 @@ Updated : GtkTreeView with columns:
 -> ? <i>row8</i>
 -> ?
 
-'finish name entry editing by pressing <enter>' event created with arguments ''
+'finish name entry editing' event created with arguments ''
