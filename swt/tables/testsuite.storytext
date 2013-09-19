@@ -18,3 +18,6 @@ subsequent_data_input
 
 # Shows a table having invisible columns
 hidden_columns
+
+# Test using a table without columns
+no_columns

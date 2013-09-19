@@ -1,0 +1,31 @@
+
+---------- Shell 'Autocomplete' ----------
+========== Text ==========
+
+==========================
+
+------------------------------------------
+
+'show autocompletions' event created with arguments ''
+
+---------- Shell '' ----------
+Table :
+______________
+abc (selected)
+bcd
+cde
+abc2
+bcd2
+cde2
+______________
+
+------------------------------
+
+'set text to' event created with arguments 'abc2'
+
+Updated Text Field
+========== Text ==========
+abc2
+==========================
+
+'close window' event created with arguments ''

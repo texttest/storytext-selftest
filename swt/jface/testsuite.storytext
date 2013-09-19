@@ -10,3 +10,6 @@ typed_text_combo
 # TableCursor enables individual cell selection, try to workaround SWTBot's habit of
 # selecting the entire row anyway
 cell_selection
+
+# Make sure we notice autocomplete fields
+autocomplete

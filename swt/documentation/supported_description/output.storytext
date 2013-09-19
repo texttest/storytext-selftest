@@ -16,7 +16,7 @@ org.eclipse.swt.widgets.Spinner         : Selection
 org.eclipse.swt.widgets.TabFolder       : Selection
 org.eclipse.swt.widgets.Table           : MouseDoubleClick , MouseDown , Selection
 org.eclipse.swt.widgets.TableColumn     : Selection
-org.eclipse.swt.widgets.Text            : Activate , Modify
+org.eclipse.swt.widgets.Text            : Activate , ContentAssist , Modify
 org.eclipse.swt.widgets.ToolItem        : DropDownSelection , Selection
 org.eclipse.swt.widgets.Tree            : Collapse , DefaultSelection , Expand , Selection
 
