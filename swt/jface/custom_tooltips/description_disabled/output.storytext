@@ -1,0 +1,16 @@
+
+---------- Shell 'Custom Tooltips' ----------
+'First'  ========== Text ==========  'Second'  ========== Text ==========  Button 'Popup on press'
+         Hello World                           Hello World
+         ==========================            ==========================
+
+---------------------------------------------
+
+'set first field to' event created with arguments 'Goodbye World'
+
+Updated First Field
+========== Text ==========
+Goodbye World
+==========================
+
+'close window' event created with arguments ''

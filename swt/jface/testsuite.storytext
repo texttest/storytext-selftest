@@ -13,3 +13,6 @@ cell_selection
 
 # Make sure we notice autocomplete fields
 autocomplete
+
+# Show custom tooltip info, and allow it to be disabled
+custom_tooltips
