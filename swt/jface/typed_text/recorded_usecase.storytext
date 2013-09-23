@@ -1,6 +1,6 @@
-set name to 123
-set name to 234
-set name to 567
-set city to London
+type name as 123
+type name as 234
+type name as 567
+type city as London
 describe choices
 close window

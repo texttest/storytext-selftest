@@ -13,28 +13,28 @@ Menu Bar:
 
 ------------------------------
 
-'set name to' event created with arguments '123'
+'type name as' event created with arguments '123'
 
 Updated Name Field
 ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
 123                         'Must be a real name')
 ==========================
 
-'set name to' event created with arguments '234'
+'type name as' event created with arguments '234'
 
 Updated Name Field
 ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
 234                         'Must be a real name')
 ==========================
 
-'set name to' event created with arguments '567'
+'type name as' event created with arguments '567'
 
 Updated Name Field
 ========== Text ========== (Decoration Image 1   , Tooltip 'Your Full Name Please!'
 567                         'Must be a real name')
 ==========================
 
-'set city to' event created with arguments 'London'
+'type city as' event created with arguments 'London'
 
 Updated Name Field
 ========== Text ========== (Tooltip 'Your Full Name Please!')
