@@ -9,8 +9,8 @@ Hello World
 
 'Second'
 
-========== Text ========== (Custom Tooltip 2)
-Hello World
+========== Text ========== (Tooltip 'Hello World
+Hello World                 Hello World')
 ==========================
 
 Button 'Popup on press'
@@ -25,10 +25,6 @@ Link 'This a custom tooltip you can:
 - define delays
  - ... 
 Go and get Eclipse M4 from <a>http:#www.eclipse.org</a>'
-
-Custom Tooltip 2:
-'Hello World
-Hello World'
 ---------------------------------------------
 
 'set first field to' event created with arguments 'Goodbye World'

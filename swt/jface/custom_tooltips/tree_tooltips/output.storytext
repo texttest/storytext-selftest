@@ -1,0 +1,23 @@
+
+---------- Shell 'Custom Tooltips' ----------
+Tree :
+-> Root (Tooltip 'Tooltip (Root)', selected, +)
+
+---------------------------------------------
+
+'expand node' event created with arguments 'Root'
+
+Updated Tree :
+-> Root (Tooltip 'Tooltip (Root)', selected)
+->   one (Tooltip 'Tooltip (one)')
+->   two (Tooltip 'Tooltip (two)')
+->   three (Tooltip 'Tooltip (three)')
+->   four (Tooltip 'Tooltip (four)')
+->   five (Tooltip 'Tooltip (five)')
+->   six (Tooltip 'Tooltip (six)')
+->   seven (Tooltip 'Tooltip (seven)')
+->   eight (Tooltip 'Tooltip (eight)')
+->   nine (Tooltip 'Tooltip (nine)')
+->   ten (Tooltip 'Tooltip (ten)')
+
+'close window' event created with arguments ''

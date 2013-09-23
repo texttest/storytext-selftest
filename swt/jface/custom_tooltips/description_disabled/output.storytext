@@ -1,7 +1,7 @@
 
 ---------- Shell 'Custom Tooltips' ----------
-'First'  ========== Text ==========  'Second'  ========== Text ==========  Button 'Popup on press'
-         Hello World                           Hello World
+'First'  ========== Text ==========  'Second'  ========== Text ========== (Tooltip 'Hello World  Button 'Popup on press'
+         Hello World                           Hello World                 Hello World')
          ==========================            ==========================
 
 ---------------------------------------------

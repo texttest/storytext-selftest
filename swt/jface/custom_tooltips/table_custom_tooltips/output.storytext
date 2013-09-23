@@ -1,0 +1,51 @@
+
+---------- Shell 'Custom Tooltips' ----------
+Table :
+________________________________
+Column 1
+________________________________
+one (selected, Custom Tooltip 1)
+two (Custom Tooltip 2)
+three (Custom Tooltip 3)
+four (Custom Tooltip 4)
+________________________________
+
+Custom Tooltip 1:
+'ToolTip-Header'
+
+Link 'Custom tooltip for one - you can: 
+- pop up any control you want
+- define delays
+ - ... 
+Go and get Eclipse M4 from <a>http:#www.eclipse.org</a>'
+
+Custom Tooltip 2:
+'ToolTip-Header'
+
+Link 'Custom tooltip for two - you can: 
+- pop up any control you want
+- define delays
+ - ... 
+Go and get Eclipse M4 from <a>http:#www.eclipse.org</a>'
+
+Custom Tooltip 3:
+'ToolTip-Header'
+
+Link 'Custom tooltip for three - you can: 
+- pop up any control you want
+- define delays
+ - ... 
+Go and get Eclipse M4 from <a>http:#www.eclipse.org</a>'
+
+Custom Tooltip 4:
+'ToolTip-Header'
+
+Link 'Custom tooltip for four - you can: 
+- pop up any control you want
+- define delays
+ - ... 
+Go and get Eclipse M4 from <a>http:#www.eclipse.org</a>'
+
+---------------------------------------------
+
+'close window' event created with arguments ''

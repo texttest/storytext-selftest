@@ -3,3 +3,12 @@ description_enabled
 
 # Show custom tooltips, and allow them to be disabled
 description_disabled
+
+# Handle case where table has tooltips per row
+table_tooltips
+
+# Handle case where tree has tooltips per row
+tree_tooltips
+
+# Handle case where table has custom tooltips per row
+table_custom_tooltips

@@ -1,0 +1,21 @@
+
+---------- Shell 'Custom Tooltips' ----------
+Table :
+_______________________________________
+Column 1
+_______________________________________
+one (Tooltip 'Tooltip (one)', selected)
+two (Tooltip 'Tooltip (two)')
+three (Tooltip 'Tooltip (three)')
+four (Tooltip 'Tooltip (four)')
+five (Tooltip 'Tooltip (five)')
+six (Tooltip 'Tooltip (six)')
+seven (Tooltip 'Tooltip (seven)')
+eight (Tooltip 'Tooltip (eight)')
+nine (Tooltip 'Tooltip (nine)')
+ten (Tooltip 'Tooltip (ten)')
+_______________________________________
+
+---------------------------------------------
+
+'close window' event created with arguments ''
