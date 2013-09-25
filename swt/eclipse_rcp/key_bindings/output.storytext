@@ -1,0 +1,61 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Open in &New Window
+    ---
+    Open Message	Ctrl+3 (Icon 'sample3.gif')
+    Open Another Message View	Ctrl+2 (Icon 'add_obj.gif')
+    ---
+    E&xit	Ctrl+X
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1 (greyed out)
+    Show in View 2 (greyed out)
+    Show Info View
+  &Help (cascade)
+    &About
+
+Cool Bar:
+  Tool Bar:
+    Tooltip 'Open Another Message View (Ctrl+2)' (Icon 'add_obj.gif')
+    Tooltip 'Open Message (Ctrl+3)' (Icon 'sample3.gif')
+
+Tree :
+-> me@this.com (Icon 'fldr_obj.gif', +)
+-> other@aol.com (Icon 'fldr_obj.gif', +)
+
+--------------- Vertical sash ---------------
+
+TabFolder with tabs Message (cascade, Icon 'add_obj.gif', selected)
+
+'Subject:' (bold)  'This is a message about the cool Eclipse RCP!'
+'From:' (bold)     Link '<a>nicole@mail.org</a>'
+'Date:' (bold)     '10:34 am'
+
+========== Text ==========
+This RCP Application was generated from the PDE Plug-in Project wizard. This sample shows how to:
+- add a top-level menu and toolbar with actions
+- add keybindings to actions
+- create views that can't be closed and
+  multiple instances of the same view
+- perspectives with placeholders for new views
+- use the default about dialog
+- create a product definition
+==========================
+
+------------------------------
+
+'press keys' event created with arguments 'ctrl+3'
+
+---------- Shell 'Open' ----------
+Unknown Image  'Open Message Dialog!'
+
+Button 'OK'
+
+----------------------------------
+
+'confirm message' event created with arguments ''
+
+'press keys' event created with arguments 'ctrl+x'

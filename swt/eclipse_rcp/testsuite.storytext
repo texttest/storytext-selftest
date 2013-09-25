@@ -1,6 +1,10 @@
 # Test a basic eclipse RCP application (rcpmail demo)
 rcpmail_demo
 
+# Test we can send key bindings via the free text mechanism, and record them 
+# via the RCP key bindings handling
+key_bindings
+
 # Test creation of application events from job termination
 jobs
 ui_forms
