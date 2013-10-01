@@ -1,0 +1,7 @@
+edit cell Column 1 for <unnamed>
+set cell contents to row 1
+edit cell Column 2 for row 1
+set cell contents to edited
+select cell Column 3 for row 1
+edit cell Column 2 for nonexistent row
+close window

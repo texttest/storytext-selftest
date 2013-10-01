@@ -1,0 +1,66 @@
+
+---------- Shell '' ----------
+Table :
+____________________________
+Column 1  Column 2  Column 3
+____________________________
+
+____________________________
+
+------------------------------
+
+'edit cell' event created with arguments 'Column 1 for <unnamed>'
+
+Updated Table :
+____________________________
+Column 1  Column 2  Column 3
+____________________________
+selected
+____________________________
+
+========== Text ==========
+
+==========================
+
+'set cell contents to' event created with arguments 'row 1'
+
+Updated Table :
+____________________________________
+Column 1          Column 2  Column 3
+____________________________________
+row 1 (selected)
+____________________________________
+
+Updated Table Cell Editor Field
+========== Text ==========
+row 1
+==========================
+
+'edit cell' event created with arguments 'Column 2 for row 1'
+
+New widgets have appeared: describing common parent :
+
+========== Text ==========
+
+==========================
+
+'set cell contents to' event created with arguments 'edited'
+
+Updated Table Cell Editor Field
+========== Text ==========
+edited
+==========================
+
+'select cell' event created with arguments 'Column 3 for row 1'
+
+Updated Table :
+____________________________________
+Column 1          Column 2  Column 3
+____________________________________
+row 1 (selected)  edited
+____________________________________
+
+ERROR: Could not simulate command 'edit cell Column 2 for nonexistent row' - Could not find row identified by 'nonexistent row' in table.
+Row names are [u'row 1']
+
+'close window' event created with arguments ''
