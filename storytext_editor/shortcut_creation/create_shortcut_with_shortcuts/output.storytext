@@ -27,6 +27,7 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut'
+'Delete shortcut' (greyed out)
 'Rename' (greyed out)
   ----
 'Update UI map file' (greyed out)
@@ -54,21 +55,36 @@ Edited 'New Name' Text entry (set to 'Add new movie named Matrix and sort')
 Changing GtkLabel to: '<b><i>add_new_$_named_$_and_sort.shortcut</i></b>'
 
 'accept new shortcut name' event created with arguments ''
-Shortcut 'add_new_$_named_$_and_sort.shortcut' created.
+
+---------- Messagedialog 'StoryText Error' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-error' , 'The shortcut name is already being used for another shortcut.'
+Stock Button 'gtk-ok'
+-----------------------------------------------------
+
+'accept message' event created with arguments ''
+
+'enter new shortcut name' event created with arguments 'Add new movie with name Matrix and sort'
+Edited 'New Name' Text entry (set to 'Add new movie with name Matrix and sort')
+
+Changing GtkLabel to: '<b><i>add_new_$_with_name_$_and_sort.shortcut</i></b>'
+
+'accept new shortcut name' event created with arguments ''
+Shortcut 'add_new_$_with_name_$_and_sort.shortcut' created.
 
 Updated : GtkTreeView with columns: 
--> <b>add new <i>movie</i> named <i>Matrix</i> and sort</b>
--> <b>add new <i>movie</i> named <i>Star Trek</i> and sort</b>
+-> <b>add new <i>movie</i> with name <i>Matrix</i> and sort</b>
+-> <b>add new <i>movie</i> with name <i>Star Trek</i> and sort</b>
 -> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
 -> close
 
-'expand preview node' event created with arguments 'add new movie named Matrix and sort'
+'expand preview node' event created with arguments 'add new movie with name Matrix and sort'
 
 Expanded row in GtkTreeView with columns: 
--> <b>add new <i>movie</i> named <i>Matrix</i> and sort</b>
+-> <b>add new <i>movie</i> with name <i>Matrix</i> and sort</b>
 ->   <b>add <i>movie</i> named <i>Matrix</i></b>
 ->   sort movies
--> <b>add new <i>movie</i> named <i>Star Trek</i> and sort</b>
+-> <b>add new <i>movie</i> with name <i>Star Trek</i> and sort</b>
 -> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
 -> close
 

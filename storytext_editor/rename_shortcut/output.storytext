@@ -23,6 +23,7 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut' (greyed out)
+'Delete shortcut'
 'Rename'
   ----
 'Update UI map file' (greyed out)
@@ -40,7 +41,7 @@ Button 'Cancel' , Button 'Rename'
 'rename shortcut' event created with arguments ''
 Edited 'GtkEntry' Text entry
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 Edited 'GtkEntry' Text entry (set to 'add star wars')
 
 ---------- Messagedialog 'StoryText Error' ----------
@@ -54,7 +55,7 @@ Stock Button 'gtk-ok'
 'rename shortcut' event created with arguments 'add movie star wars'
 Edited 'GtkEntry' Text entry (set to 'add movie star wars')
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 Edited 'GtkEntry' Text entry (set to 'add star wars')
 
 ---------- Messagedialog 'StoryText Error' ----------
@@ -68,7 +69,7 @@ Stock Button 'gtk-ok'
 'rename shortcut' event created with arguments 'add die hard'
 Edited 'GtkEntry' Text entry (set to 'add die hard')
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 Edited 'GtkEntry' Text entry (set to 'add star wars')
 
 ---------- Messagedialog 'StoryText Error' ----------
@@ -82,7 +83,7 @@ Stock Button 'gtk-ok'
 'rename shortcut' event created with arguments 'add film star wars'
 Edited 'GtkEntry' Text entry (set to 'add film star wars')
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 ShortcutRename 'add star wars$' renamed to 'add film star wars'
 
 Updated : GtkTreeView with columns: 

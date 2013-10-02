@@ -3,5 +3,8 @@ show preview node options for sort movies (1)
 create a new shortcut
 enter new shortcut name Add new movie named Matrix and sort
 accept new shortcut name
-expand preview node add new movie named Matrix and sort
+accept message
+enter new shortcut name Add new movie with name Matrix and sort
+accept new shortcut name
+expand preview node add new movie with name Matrix and sort
 finish name entry editing

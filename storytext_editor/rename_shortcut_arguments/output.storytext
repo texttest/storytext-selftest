@@ -33,6 +33,7 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut' (greyed out)
+'Delete shortcut'
 'Rename'
   ----
 'Update UI map file' (greyed out)
@@ -50,7 +51,7 @@ Button 'Cancel' , Button 'Rename'
 'rename shortcut' event created with arguments 'add $ named'
 Edited 'GtkEntry' Text entry (set to 'add $ named')
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 Edited 'GtkEntry' Text entry (set to 'add $ named $')
 
 ---------- Messagedialog 'StoryText Error' ----------
@@ -64,7 +65,7 @@ Stock Button 'gtk-ok'
 'rename shortcut' event created with arguments 'add $ titled $'
 Edited 'GtkEntry' Text entry (set to 'add $ titled $')
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 ShortcutRename 'add (.*) named (.*)$' renamed to 'add $ titled $'
 
 Updated : GtkTreeView with columns: 

@@ -1,0 +1,80 @@
+
+---------- Dialog 'auto_recorded_usecase' ----------
+Default widget is 'gtk-ok'
+
+Showing GtkTreeView with columns: 
+-> <b>add new movie <i>Star Wars</i></b>
+-> <b>add new movie <i>Die Hard</i></b>
+-> close
+---------------
+Stock Button 'gtk-ok'
+----------------------------------------------------
+
+'select preview node' event created with arguments 'add new movie Star Wars'
+
+Changed selection in GtkTreeView with columns: 
+-> <b>add new movie <i>Star Wars</i></b>   ***
+-> <b>add new movie <i>Die Hard</i></b>
+-> close
+
+'show preview node options for' event created with arguments 'add new movie Star Wars'
+
+---------- Popup Window ----------
+'Create shortcut' (greyed out)
+'Delete shortcut'
+'Rename'
+  ----
+'Update UI map file' (greyed out)
+----------------------------------
+
+'delete shortcut' event created with arguments ''
+
+---------- Messagedialog 'StoryText Confirmation' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-warning' , 'You are about to delete the file 'add_new_movie_$.shortcut'
+and remove all references to it in the current usecase.'
+Stock Button 'gtk-ok' , Stock Button 'gtk-cancel'
+------------------------------------------------------------
+
+'cancel message' event created with arguments ''
+
+'show preview node options for' event created with arguments 'add new movie Star Wars'
+
+---------- Popup Window ----------
+'Create shortcut' (greyed out)
+'Delete shortcut'
+'Rename'
+  ----
+'Update UI map file' (greyed out)
+----------------------------------
+
+'delete shortcut' event created with arguments ''
+
+---------- Messagedialog 'StoryText Confirmation' ----------
+Default widget is 'gtk-ok'
+Stock image 'gtk-dialog-warning' , 'You are about to delete the file 'add_new_movie_$.shortcut'
+and remove all references to it in the current usecase.'
+Stock Button 'gtk-ok' , Stock Button 'gtk-cancel'
+------------------------------------------------------------
+
+'accept message' event created with arguments ''
+ShortcutRemove 'add new movie (.*)$' renamed to 'set new movie name to $\nadd movie'
+
+Updated : GtkTreeView with columns: 
+-> set new movie name to<i> Star Wars</i>
+-> add movie
+-> set new movie name to<i> Die Hard</i>
+-> add movie
+-> close
+
+'expand preview node' event created with arguments 'set new movie name to Die Hard at top level'
+
+Expanded row in GtkTreeView with columns: 
+-> set new movie name to<i> Star Wars</i>
+-> add movie
+-> set new movie name to<i> Die Hard</i>
+->   Perform 'changed' on widget identified by 'Name=Movie Name'
+-> add movie
+-> close
+
+'finish name entry editing' event created with arguments ''

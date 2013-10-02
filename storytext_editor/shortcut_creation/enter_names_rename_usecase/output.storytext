@@ -52,6 +52,7 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut'
+'Delete shortcut' (greyed out)
 'Rename' (greyed out)
   ----
 'Update UI map file' (greyed out)
@@ -129,6 +130,7 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut' (greyed out)
+'Delete shortcut' (greyed out)
 'Rename'
   ----
 'Update UI map file' (greyed out)
@@ -146,7 +148,7 @@ Button 'Cancel' , Button 'Rename'
 'rename usecase' event created with arguments 'exit'
 Edited 'GtkEntry' Text entry (set to 'exit')
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 UsecaseRename 'close' renamed to 'exit'
 
 Updated : GtkTreeView with columns: 

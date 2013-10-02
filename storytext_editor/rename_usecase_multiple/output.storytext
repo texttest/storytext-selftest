@@ -38,6 +38,7 @@ Changed selection in GtkTreeView with columns:
 
 ---------- Popup Window ----------
 'Create shortcut' (greyed out)
+'Delete shortcut' (greyed out)
 'Rename'
   ----
 'Update UI map file' (greyed out)
@@ -55,7 +56,7 @@ Button 'Cancel' , Button 'Rename'
 'rename usecase' event created with arguments 'set new film name to'
 Edited 'GtkEntry' Text entry (set to 'set new film name to')
 
-'accept update ui map file' event created with arguments ''
+'accept rename' event created with arguments ''
 UsecaseRename 'set new movie name to' renamed to 'set new film name to'
 
 Updated : GtkTreeView with columns: 
