@@ -21,7 +21,7 @@ from org.eclipse.swt.widgets import *
 
 display = Display()
 shell = Shell(display)
-table = Table(shell, SWT.BORDER | SWT.V_SCROLL | SWT.H_SCROLL)
+table = Table(shell, SWT.BORDER | SWT.V_SCROLL | SWT.H_SCROLL | SWT.MULTI)
 for i in range(12):
     item = TableItem(table, 0)
     item.setText("Item " + str(i))

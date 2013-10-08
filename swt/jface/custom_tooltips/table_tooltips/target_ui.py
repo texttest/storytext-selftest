@@ -46,7 +46,7 @@ display = Display()
 shell = Shell(display)
 shell.setLayout(FillLayout())
 
-v = TableViewer(shell, SWT.FULL_SELECTION)
+v = TableViewer(shell, SWT.FULL_SELECTION | SWT.MULTI)
 v.getTable().setLinesVisible(True)
 v.getTable().setHeaderVisible(True)
 v.setContentProvider(MyContentProvider())

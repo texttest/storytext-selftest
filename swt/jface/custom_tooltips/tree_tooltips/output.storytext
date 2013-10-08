@@ -1,14 +1,14 @@
 
 ---------- Shell 'Custom Tooltips' ----------
 Tree :
--> Root (Tooltip 'Tooltip (Root)', selected, +)
+-> Root (Tooltip 'Tooltip (Root)', +)
 
 ---------------------------------------------
 
 'expand node' event created with arguments 'Root'
 
 Updated Tree :
--> Root (Tooltip 'Tooltip (Root)', selected)
+-> Root (Tooltip 'Tooltip (Root)')
 ->   one (Tooltip 'Tooltip (one)')
 ->   two (Tooltip 'Tooltip (two)')
 ->   three (Tooltip 'Tooltip (three)')

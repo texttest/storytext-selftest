@@ -1,14 +1,14 @@
 
 ---------- Shell 'Custom Tooltips' ----------
 Table :
-________________________________
+________________________
 Column 1
-________________________________
-one (selected, Custom Tooltip 1)
+________________________
+one (Custom Tooltip 1)
 two (Custom Tooltip 2)
 three (Custom Tooltip 3)
 four (Custom Tooltip 4)
-________________________________
+________________________
 
 Custom Tooltip 1:
 'ToolTip-Header'

@@ -58,7 +58,7 @@ display = Display()
 shell = Shell(display)
 shell.setLayout(FillLayout())
 
-v = TreeViewer(shell, SWT.FULL_SELECTION)
+v = TreeViewer(shell, SWT.FULL_SELECTION | SWT.MULTI)
 v.getTree().setLinesVisible(True)
 v.getTree().setHeaderVisible(True)
 v.setContentProvider(MyContentProvider())

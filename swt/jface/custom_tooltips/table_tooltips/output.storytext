@@ -1,10 +1,10 @@
 
 ---------- Shell 'Custom Tooltips' ----------
 Table :
-_______________________________________
+_________________________________
 Column 1
-_______________________________________
-one (Tooltip 'Tooltip (one)', selected)
+_________________________________
+one (Tooltip 'Tooltip (one)')
 two (Tooltip 'Tooltip (two)')
 three (Tooltip 'Tooltip (three)')
 four (Tooltip 'Tooltip (four)')
@@ -14,7 +14,7 @@ seven (Tooltip 'Tooltip (seven)')
 eight (Tooltip 'Tooltip (eight)')
 nine (Tooltip 'Tooltip (nine)')
 ten (Tooltip 'Tooltip (ten)')
-_______________________________________
+_________________________________
 
 ---------------------------------------------
 
