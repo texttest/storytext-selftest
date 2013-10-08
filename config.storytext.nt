@@ -1,1 +1,5 @@
 interpreter:python
+
+[run_dependent_text]
+# Button order varies across platforms
+output:Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'{REPLACE Stock Button 'gtk-ok' , Stock Button 'gtk-cancel'}
