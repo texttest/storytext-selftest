@@ -1,0 +1,2 @@
+# Hack syntax working around Jython bug on Windows
+{CLEAR -X Menu!Views} -X MenuNOTViews
