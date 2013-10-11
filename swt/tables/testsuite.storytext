@@ -1,6 +1,9 @@
 # Sort by column headers, including those added later
 sort_by_column
 
+# Set minimum field widths to avoid indeterminism which is hard to filter in TextTest
+min_field_widths
+
 # Edit cells in a table
 edit_cells
 

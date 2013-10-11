@@ -79,6 +79,10 @@ Options:
   -T TESTSCRIPTPLUGINID, --testscriptpluginid=TESTSCRIPTPLUGINID
                         determines the testscript plugin id for an eclipse RCP
                         application, i.e. 'org.eclipse.swtbot.gef.testscript'
+  -w MIN_FIELD_WIDTHS, --min-field-widths=MIN_FIELD_WIDTHS
+                        Set a minimum width for certain fields. Useful for
+                        when table columns have indeterministic width, due to
+                        e.g. date formats
   -x, --disable_usecase_names
                         Disable the entering of usecase names when
                         unrecognised actions are recorded. Recommended only
