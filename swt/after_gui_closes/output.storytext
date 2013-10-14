@@ -1,0 +1,17 @@
+
+---------- Shell '' ----------
+Button 'first' (check, selected)  Button 'second' (check)
+
+------------------------------
+
+'select second button' event created with arguments ''
+Selected the second button.
+
+Updated Button 'second' (check, selected)
+
+'select second button' event created with arguments ''
+
+Updated Button 'second' (check)
+
+'close' event created with arguments ''
+ERROR: Could not simulate command 'select second button' - The GUI has already exited

@@ -90,6 +90,9 @@ tooltip_label_conflict
 
 # If we switch the order of the button, does this get described?
 swap_order
+
+# Test we can handle usecase commands after GUI closes
+after_gui_closes
 popup_menus
 
 # Tests for Browser widgets
