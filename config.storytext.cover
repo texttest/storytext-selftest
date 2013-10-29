@@ -3,3 +3,6 @@ link_test_path:coveragerc
 
 [test_data_environment]
 coveragerc:COVERAGE_PROCESS_START
+
+[run_dependent_text]
+errors:Coverage.py warning: No data was collected.
