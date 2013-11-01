@@ -1,0 +1,5 @@
+wait for rows to be added
+# Make sure this comment gets placed correctly
+select node Initial - 1
+wait for a different event, rows to be added
+close window

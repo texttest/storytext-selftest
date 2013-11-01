@@ -1,0 +1,30 @@
+
+Waiting for application event 'rows to be added' to occur.
+
+---------- Shell '' ----------
+Tree :
+-> Initial - 0
+-> Initial - 1
+-> Initial - 2
+-> Initial - 3
+
+------------------------------
+
+Expected application event 'rows to be added' occurred, proceeding.
+
+'select node' event created with arguments 'Initial - 1'
+
+Waiting for application event 'a different event' to occur.
+Waiting for application event 'rows to be added' to occur.
+
+Updated Tree :
+-> Initial - 0
+-> Initial - 1 (selected)
+-> Initial - 2
+-> Initial - 3
+-> Added - 0
+
+Expected application event 'a different event' occurred, proceeding.
+Expected application event 'rows to be added' occurred, proceeding.
+
+'close window' event created with arguments ''
