@@ -91,7 +91,18 @@ Options:
                         read and hard to maintain.
   -X EXCLUDE_DESCRIBE, --exclude-describe=EXCLUDE_DESCRIBE
                         Exclude the listed widget class names from being
-                        described in the describer
+                        described in the describer.  Refer to online
+                        documentation at
+                        http://www.texttest.org/index.php?page=ui_testing,
+                        under 'Supported Widgets' for your toolkit.  Use any
+                        value from the lower list, i.e. the one for automatic
+                        logging, without the module names. An example would be
+                        '-X Menu,ToolBar,Browser' for SWT/Eclipse RCP, or '-X
+                        MenuBar,Toolbar,TreeView' for PyGTK. Also allow syntax
+                        like '-X Menu!File', to exclude all menus except those
+                        called 'File'.  On Windows, '-X MenuNOTFile' is a
+                        temporary alternative to this, working around a Jython
+                        bug.
   --insert-shortcuts    Re-record the replay script to the record script
                         without running anything, inserting shortcuts as
                         required
