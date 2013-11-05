@@ -25,6 +25,9 @@ menu_state_changes
 # Check we can record window resize and closure
 window_events
 
+# Test we can handle a coolbar, including it changing colour...
+coolbar
+
 # Test we can handle a toolbar
 toolbar
 

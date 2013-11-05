@@ -1,0 +1,39 @@
+
+---------- Shell '' ----------
+Cool Bar:
+  Button 'Button 0'
+
+  Button 'Button 1'
+
+  Button 'Button 2'
+
+------------------------------
+
+'press button 0' event created with arguments ''
+
+Updated Cool Bar (red&) :
+  Button 'Button 0'
+
+  Button 'Button 1'
+
+  Button 'Button 2'
+
+'press button 1' event created with arguments ''
+
+Updated Cool Bar (dark_red) :
+  Button 'Button 0'
+
+  Button 'Button 1'
+
+  Button 'Button 2'
+
+'press button 2' event created with arguments ''
+
+Updated Cool Bar (green&) :
+  Button 'Button 0'
+
+  Button 'Button 1'
+
+  Button 'Button 2'
+
+'close window' event created with arguments ''
