@@ -27,3 +27,6 @@ hidden_columns
 
 # Test using a table without columns
 no_columns
+
+# If a primary key candidate is too long, ignore it
+long_primary_key
