@@ -107,6 +107,9 @@ trees
 # Tests to do with Table objects
 tables
 
+# tests for nebula's NatTable
+NatTable
+
 # Test for widgets that become visible during the run
 visibility
 
