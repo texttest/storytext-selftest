@@ -1,0 +1,8 @@
+New window:
+org.eclipse.swt.widgets.Shell 2 (org.eclipse.swt.layout.GridLayout, 2 columns)
+--org.eclipse.draw2d.FigureCanvas 3
+----org.eclipse.draw2d.Figure 4
+------org.eclipse.draw2d.Label 5
+------org.eclipse.draw2d.RectangleFigure 6
+------__main__.TextRectangle 7
+------__main__.TextRectangle 8
