@@ -27,4 +27,32 @@ ______________________________________________________________________
 5             140  Dogbert                Thu Jan 01 02:23:20 CET 1970
 ______________________________________________________________________
 
+'select row' event created with arguments '130'
+Clicked on cell labelled 'None'
+
+Updated NatTable :
+____________________________________________________________________________________________
+              ID (selected)   First Name (selected)  DOB (selected)
+____________________________________________________________________________________________
+1             100             Mickey Mouse           Thu Jan 01 01:16:40 CET 1970
+2             110             Batman                 Thu Jan 01 01:33:20 CET 1970
+3             120             Bender                 Thu Jan 01 01:50:00 CET 1970
+4 (selected)  130 (selected)  Cartman (selected)     Thu Jan 01 02:06:40 CET 1970 (selected)
+5             140             Dogbert                Thu Jan 01 02:23:20 CET 1970
+____________________________________________________________________________________________
+
+'select column' event created with arguments 'First Name'
+Clicked on cell labelled 'None'
+
+Updated NatTable :
+________________________________________________________________________
+              ID   First Name (selected)    DOB
+________________________________________________________________________
+1 (selected)  100  Mickey Mouse (selected)  Thu Jan 01 01:16:40 CET 1970
+2 (selected)  110  Batman (selected)        Thu Jan 01 01:33:20 CET 1970
+3 (selected)  120  Bender (selected)        Thu Jan 01 01:50:00 CET 1970
+4 (selected)  130  Cartman (selected)       Thu Jan 01 02:06:40 CET 1970
+5 (selected)  140  Dogbert (selected)       Thu Jan 01 02:23:20 CET 1970
+________________________________________________________________________
+
 'close window' event created with arguments ''
