@@ -109,13 +109,22 @@ class MyPaintListener(swt.widgets.Listener):
             rowCommand = nattable.resize.command.InitializeAutoResizeRowsCommand(table, 
                                                                                  i, table.getConfigRegistry(), 
                                                                                  nattable.util.GCFactory(table))
-            table.doCommand(rowCommand);
+            table.doCommand(rowCommand)
+    
         
 table = createNatTable(shell)
 data = swt.layout.GridData(swt.SWT.FILL, swt.SWT.FILL, True, True)
 table.setLayoutData(data)
 table.pack()
+
+class MyLayerListener(nattable.layer.ILayerListener):
+    def handleLayerEvent(self, e):
+        if isinstance(e, nattable.selection.event.CellSelectionEvent):
+            print "Clicked on cell labelled '" + str(table.getDataValueByPosition(e.getColumnPosition(), e.getRowPosition())) + "'"
+
+
 table.addListener(swt.SWT.Paint, MyPaintListener())
+table.addLayerListener(MyLayerListener())
 shell.open()
 while not shell.isDisposed():
     if not display.readAndDispatch():
