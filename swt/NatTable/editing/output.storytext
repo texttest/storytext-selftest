@@ -1,0 +1,54 @@
+
+---------- Shell '' ----------
+NatTable :
+__________________________________________________
+   ID   First Name    DOB
+__________________________________________________
+1  100  Mickey Mouse  Thu Jan 01 01:16:40 CET 1970
+2  110  Batman        Thu Jan 01 01:33:20 CET 1970
+3  120  Bender        Thu Jan 01 01:50:00 CET 1970
+4  130  Cartman       Thu Jan 01 02:06:40 CET 1970
+5  140  Dogbert       Thu Jan 01 02:23:20 CET 1970
+__________________________________________________
+
+------------------------------
+
+'select cell' event created with arguments 'First Name for 130'
+Clicked on cell labelled 'Cartman'
+
+Updated NatTable :
+______________________________________________________________________
+              ID   First Name (selected)  DOB
+______________________________________________________________________
+1             100  Mickey Mouse           Thu Jan 01 01:16:40 CET 1970
+2             110  Batman                 Thu Jan 01 01:33:20 CET 1970
+3             120  Bender                 Thu Jan 01 01:50:00 CET 1970
+4 (selected)  130  Cartman (selected)     Thu Jan 01 02:06:40 CET 1970
+5             140  Dogbert                Thu Jan 01 02:23:20 CET 1970
+______________________________________________________________________
+
+========== Text ==========
+Cartman
+==========================
+
+'set cell contents to' event created with arguments 'Dilbert'
+
+Updated Text Field
+========== Text ==========
+Dilbert
+==========================
+
+'confirm edit' event created with arguments ''
+
+Updated NatTable :
+______________________________________________________________________
+              ID   First Name (selected)  DOB
+______________________________________________________________________
+1             100  Mickey Mouse           Thu Jan 01 01:16:40 CET 1970
+2             110  Batman                 Thu Jan 01 01:33:20 CET 1970
+3             120  Bender                 Thu Jan 01 01:50:00 CET 1970
+4 (selected)  130  Dilbert (selected)     Thu Jan 01 02:06:40 CET 1970
+5             140  Dogbert                Thu Jan 01 02:23:20 CET 1970
+______________________________________________________________________
+
+'close window' event created with arguments ''
