@@ -15,3 +15,6 @@ click_disposed_widget
 
 # Don't describe a canvas repaint just because we've closed a dialog that was hiding it
 main_window_canvas
+
+# If something appears in the main window while a dialog is showing, describe it when the dialog closes
+appear_with_dialog

@@ -1,0 +1,20 @@
+
+---------- Shell 'Main Window' ----------
+Button 'Show Dialog'
+
+-----------------------------------------
+
+'show dialog' event created with arguments ''
+
+---------- Shell 'The Dialog' ----------
+Button 'Close'
+
+----------------------------------------
+
+'close dialog' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+Button 'Show Dialog'  Button 'Appeared!'
+
+'close window' event created with arguments ''
