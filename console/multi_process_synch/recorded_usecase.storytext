@@ -1,0 +1,4 @@
+wait for first sleep to complete
+receive signal SIGINT
+wait for other usecase to write file
+receive signal SIGINT

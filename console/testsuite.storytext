@@ -69,5 +69,8 @@ supercede_categories_interleave
 # Test for superceding application event categories, and renaming them also
 supercede_and_rename
 
+# Test for hand-added application events
+multi_process_synch
+
 # Tests to do with polling files and generating app events
 wait_for_file_updates

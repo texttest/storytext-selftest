@@ -1,7 +1,9 @@
 # Some tests for rather experiment tkinter support
 tkinter
 
-# Tests for console aspect of PyUseCase - i.e. app events and signals
+# Tests for console aspect of StoryText - i.e. app events and signals
+# Structure for app event tests is to use long sleeps which are broken by signals,
+# together with short sleeps which wait for application events to be triggered.
 console
 
 # Tests for the various documentation output

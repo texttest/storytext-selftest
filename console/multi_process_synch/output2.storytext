@@ -1,0 +1,14 @@
+
+Waiting for application event 'first sleep to complete' to occur.
+
+Expected application event 'first sleep to complete' occurred, proceeding.
+
+Generating signal SIGINT
+
+Waiting for application event 'other usecase to write file' to occur.
+
+Expected application event 'other usecase to write file' occurred, proceeding.
+
+Generating signal SIGINT
+Hello Second UseCase
+

@@ -1,4 +1,6 @@
-# Test signal behaviour under Jython
+# Tests for console aspect of StoryText - i.e. app events and signals
+# Structure for app event tests is to use long sleeps which are broken by signals,
+# together with short sleeps which wait for application events to be triggered.
 console
 
 # Tests for SWT GUIs using Jython
