@@ -42,8 +42,13 @@ fileItem.setMenu(submenu)
 menuItem = MenuItem(submenu, SWT.PUSH)
 menuItem.setText("Rename")
 
+class ActivateListener(Listener):
+    def handleEvent(self, e):
+        print e.widget.getSelection().getText() + " has been activated"
+
 folder = CTabFolder(shell, SWT.BORDER)
 folder.setData("org.eclipse.swtbot.widget.key", "The Folder");
+folder.addListener(SWT.Activate, ActivateListener())
 for i in range(2):
     item = CTabItem(folder, SWT.CLOSE)
     item.setText("Item " + str(i))
@@ -52,6 +57,7 @@ for i in range(2):
     text.setEnabled(False)
     item.setImage(makeImage(display, (i + 1) * 8))
     item.setControl(text)
+    item.addListener(SWT.Activate, ActivateListener())
 	
 class RenameListener(Listener):
     def handleEvent(self, e):
