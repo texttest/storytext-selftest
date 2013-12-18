@@ -3,6 +3,7 @@
 Table :
 ____________________________________
    ID   First Name    DOB
+   ID   First Name    DOB
 ____________________________________
 1  100  Mickey Mouse  1/1/70 1:16 AM
 2  110  Batman        1/1/70 1:33 AM
@@ -19,6 +20,7 @@ Clicked on cell labelled 'Batman'
 Updated Table :
 ________________________________________________________
               ID   First Name (selected)  DOB
+              ID   First Name (selected)  DOB
 ________________________________________________________
 1             100  Mickey Mouse           1/1/70 1:16 AM
 2 (selected)  110  Batman (selected)      1/1/70 1:33 AM
@@ -33,6 +35,7 @@ Clicked on cell labelled 'None'
 Updated Table :
 ______________________________________________________________________________
               ID (selected)   First Name (selected)  DOB (selected)
+              ID (selected)   First Name (selected)  DOB (selected)
 ______________________________________________________________________________
 1             100             Mickey Mouse           1/1/70 1:16 AM
 2             110             Batman                 1/1/70 1:33 AM
@@ -46,6 +49,7 @@ Clicked on cell labelled 'None'
 
 Updated Table :
 __________________________________________________________
+              ID   First Name (selected)    DOB
               ID   First Name (selected)    DOB
 __________________________________________________________
 1 (selected)  100  Mickey Mouse (selected)  1/1/70 1:16 AM

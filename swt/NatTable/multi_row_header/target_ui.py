@@ -20,11 +20,25 @@ class Person:
     propertyToLabels = { "id" : "ID", "name": "First Name", "birthDate": "DOB"}
     def __init__(self, *args):
         self.args = args
+
+    @classmethod
+    def getLabels(cls):
+        return map(cls.propertyToLabels.get, cls.properties)
 	
+class MyColumnHeaderProvider(nattable.data.IColumnPropertyAccessor):
+    def getRowCount(self):
+        return 2
+
+    def getColumnCount(self):
+        return 3
+
+    def getDataValue(self, rowObj, colIndex):
+        return rowObj[colIndex]
+
 
 def createNatTable(parent):
     bodyDataProvider = setupBodyDataProvider()
-    colHeaderDataProvider = nattable.grid.data.DefaultColumnHeaderDataProvider(Person.properties, Person.propertyToLabels)
+    colHeaderDataProvider = nattable.data.ListDataProvider([ Person.getLabels(), Person.getLabels() ], MyColumnHeaderProvider())
     rowHeaderDataProvider = nattable.grid.data.DefaultRowHeaderDataProvider(bodyDataProvider)
 
     bodyLayer = BodyLayerStack(bodyDataProvider)
@@ -39,7 +53,7 @@ def createNatTable(parent):
     table.getConfigRegistry().registerConfigAttribute(nattable.config.CellConfigAttributes.DISPLAY_CONVERTER, 
                                                       nattable.data.convert.DefaultDateDisplayConverter(), 
                                                       nattable.style.DisplayMode.NORMAL, 
-                                                      DATE_LABEL);
+                                                      DATE_LABEL)
     return table
 
 class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
@@ -82,7 +96,6 @@ class BodyLayerStack(nattable.layer.AbstractLayerTransform):
     def getSelectionLayer(self):
         return self.selectionLayer
 		
-	
 
 class ColumnHeaderLayerStack(nattable.layer.AbstractLayerTransform):
     def __init__(self, dataProvider, bodyLayer):

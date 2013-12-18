@@ -1,0 +1,30 @@
+
+---------- Shell '' ----------
+Table :
+____________________________________
+   ID   First Name    DOB
+____________________________________
+1  100  Mickey Mouse  1/1/70 1:16 AM
+2
+3
+4  130  Cartman       1/1/70 1:50 AM
+5  140                1/1/70 2:06 AM
+____________________________________
+
+------------------------------
+
+'select cell' event created with arguments 'First Name for 100 (2)'
+Clicked on cell labelled 'Mickey Mouse'
+
+Updated Table :
+__________________________________________________________
+              ID   First Name (selected)    DOB
+__________________________________________________________
+1 (selected)  100  Mickey Mouse (selected)  1/1/70 1:16 AM
+2 (selected)
+3 (selected)
+4             130  Cartman                  1/1/70 1:50 AM
+5             140                           1/1/70 2:06 AM
+__________________________________________________________
+
+'close window' event created with arguments ''

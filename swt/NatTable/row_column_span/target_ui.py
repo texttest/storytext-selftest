@@ -20,11 +20,27 @@ class Person:
     propertyToLabels = { "id" : "ID", "name": "First Name", "birthDate": "DOB"}
     def __init__(self, *args):
         self.args = args
+
+    @classmethod
+    def getLabels(cls):
+        return map(cls.propertyToLabels.get, cls.properties)
 	
+class MyColumnHeaderProvider(nattable.data.IColumnPropertyAccessor):
+    def getRowCount(self):
+        return 1
+
+    def getColumnCount(self):
+        return 3
+
+    def getDataValue(self, rowObj, colIndex):
+        return rowObj[colIndex]
+
 
 def createNatTable(parent):
     bodyDataProvider = setupBodyDataProvider()
-    colHeaderDataProvider = nattable.grid.data.DefaultColumnHeaderDataProvider(Person.properties, Person.propertyToLabels)
+    basicColHeaderProvider = nattable.data.ListDataProvider([ Person.getLabels() ], MyColumnHeaderProvider())
+    colHeaderDataProvider = nattable.data.AutomaticSpanningDataProvider(basicColHeaderProvider, True, True)
+        
     rowHeaderDataProvider = nattable.grid.data.DefaultRowHeaderDataProvider(bodyDataProvider)
 
     bodyLayer = BodyLayerStack(bodyDataProvider)
@@ -39,7 +55,7 @@ def createNatTable(parent):
     table.getConfigRegistry().registerConfigAttribute(nattable.config.CellConfigAttributes.DISPLAY_CONVERTER, 
                                                       nattable.data.convert.DefaultDateDisplayConverter(), 
                                                       nattable.style.DisplayMode.NORMAL, 
-                                                      DATE_LABEL);
+                                                      DATE_LABEL)
     return table
 
 class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
@@ -55,10 +71,10 @@ class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
 
 def setupBodyDataProvider():
     people = [ Person(100, "Mickey Mouse", Date(1000000)), 
-               Person(110, "Batman", Date(2000000)), 
-               Person(120, "Bender", Date(3000000)), 
-               Person(130, "Cartman", Date(4000000)), 
-               Person(140, "Dogbert", Date(5000000)) ]
+               Person(100, "Mickey Mouse", Date(1000000)), 
+               Person(100, "Mickey Mouse", Date(1000000)), 
+               Person(130, "Cartman", Date(3000000)), 
+               Person(140, 140, Date(4000000)) ]
 		
     return nattable.data.ListDataProvider(people, MyPropAccessor())
 
@@ -70,7 +86,8 @@ class MyLabelAccumulator(nattable.layer.cell.AbstractOverrider):
 
 class BodyLayerStack(nattable.layer.AbstractLayerTransform):
     def __init__(self, dataProvider):
-        bodyDataLayer = nattable.layer.DataLayer(dataProvider)
+        spanningProvider = nattable.data.AutomaticSpanningDataProvider(dataProvider, True, True)
+        bodyDataLayer = nattable.layer.SpanningDataLayer(spanningProvider)
         accumulator = MyLabelAccumulator()
         bodyDataLayer.setConfigLabelAccumulator(accumulator)
         columnReorderLayer = nattable.reorder.ColumnReorderLayer(bodyDataLayer)
@@ -82,11 +99,11 @@ class BodyLayerStack(nattable.layer.AbstractLayerTransform):
     def getSelectionLayer(self):
         return self.selectionLayer
 		
-	
 
 class ColumnHeaderLayerStack(nattable.layer.AbstractLayerTransform):
     def __init__(self, dataProvider, bodyLayer):
-        dataLayer = nattable.layer.DataLayer(dataProvider)
+        spanningProvider = nattable.data.AutomaticSpanningDataProvider(dataProvider, True, True)
+        dataLayer = nattable.layer.SpanningDataLayer(spanningProvider)
         colHeaderLayer = nattable.grid.layer.ColumnHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
         self.setUnderlyingLayer(colHeaderLayer)
 		

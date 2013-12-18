@@ -1,6 +1,6 @@
 
 ---------- Shell '' ----------
-NatTable :
+Table :
 __________________________________________________
    ID   First Name    DOB
 __________________________________________________
@@ -16,7 +16,7 @@ __________________________________________________
 'select cell' event created with arguments 'First Name for 130'
 Clicked on cell labelled 'Cartman'
 
-Updated NatTable :
+Updated Table :
 ______________________________________________________________________
               ID   First Name (selected)  DOB
 ______________________________________________________________________
@@ -40,7 +40,7 @@ Dilbert
 
 'confirm edit' event created with arguments ''
 
-Updated NatTable :
+Updated Table :
 ______________________________________________________________________
               ID   First Name (selected)  DOB
 ______________________________________________________________________

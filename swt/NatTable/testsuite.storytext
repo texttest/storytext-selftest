@@ -2,3 +2,9 @@ selection
 
 # Copy of selection
 editing
+
+# Header can have multiple lines in it, handle this case
+multi_row_header
+
+# When cells span several positions don't reprint the contents
+row_column_span
