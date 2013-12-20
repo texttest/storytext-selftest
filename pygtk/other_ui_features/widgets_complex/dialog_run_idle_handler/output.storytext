@@ -1,0 +1,22 @@
+
+---------- Window 'None' ----------
+Focus widget is 'hi - this button opens the dialog'
+Button 'hi - this button opens the dialog'
+-----------------------------------
+
+'open dialog' event created with arguments ''
+
+---------- Dialog 'The Dialog Title' ----------
+Focus widget is 'check button 1'
+Check button 'check button 1'
+---------------
+Button 'Close'
+-----------------------------------------------
+
+'check the button' event created with arguments ''
+Toggled Check button 'check button 1' (checked)
+
+'close the dialog' event created with arguments ''
+The dialog was actually destroyed!
+
+'quit' event created with arguments ''
