@@ -7,6 +7,9 @@ window_hidden
 # If we destroy a window from a handler from one of its children, we should still record this
 window_destroy_from_child
 
+# If we have a confirmation dialog for closing the window, this should work also...
+window_close_confirm
+
 # If we destroy a dialog from a handler from one of its children, we should still record this
 dialog_destroy_from_child
 

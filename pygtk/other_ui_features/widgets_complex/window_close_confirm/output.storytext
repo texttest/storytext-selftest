@@ -1,0 +1,26 @@
+
+---------- Window 'None' ----------
+
+-----------------------------------
+
+'close window' event created with arguments ''
+
+---------- Dialog 'Confirm' ----------
+Focus widget is 'Yes'
+'Are you sure you want to close the window?'
+---------------
+Button 'No' , Button 'Yes'
+--------------------------------------
+
+'say no' event created with arguments ''
+
+'close window' event created with arguments ''
+
+---------- Dialog 'Confirm' ----------
+Focus widget is 'Yes'
+'Are you sure you want to close the window?'
+---------------
+Button 'No' , Button 'Yes'
+--------------------------------------
+
+'say yes' event created with arguments ''
