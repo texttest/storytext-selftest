@@ -1,0 +1,10 @@
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/resources.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/rt.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/jsse.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/jce.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/charsets.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/ext/localedata.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/ext/sunjce_provider.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/ext/dnsns.jar'
+*sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-1.6.0-sun-1.6.0.37.x86_64/jre/lib/ext/sunpkcs11.jar'
+Xlib:  extension "RANDR" missing on display ":2914.0".

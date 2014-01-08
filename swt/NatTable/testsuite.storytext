@@ -11,3 +11,6 @@ multi_row_header
 
 # When cells span several positions don't reprint the contents
 row_column_span
+
+# Don't crash in describer if there is no data
+no_data
