@@ -3,6 +3,9 @@ selection
 # Copy of selection
 editing
 
+# Copy of selection
+editing_double_click
+
 # Header can have multiple lines in it, handle this case
 multi_row_header
 
