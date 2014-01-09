@@ -58,4 +58,4 @@ Updated Tree :
 ->   Sent (Icon 'elements_obj.gif')
 -> other@aol.com (Icon 'fldr_obj.gif', +)
 
-'quit' event created with arguments ''
+'close window' event created with arguments ''

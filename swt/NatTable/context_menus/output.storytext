@@ -1,0 +1,66 @@
+
+---------- Shell '' ----------
+Table :
+__________________________________________________
+   ID   First Name    DOB
+__________________________________________________
+1  100  Mickey Mouse  Thu Jan 01 01:16:40 CET 1970
+2  110  Batman        Thu Jan 01 01:33:20 CET 1970
+3  120  Bender        Thu Jan 01 01:50:00 CET 1970
+4  130  Cartman       Thu Jan 01 02:06:40 CET 1970
+5  140  Dogbert       Thu Jan 01 02:23:20 CET 1970
+__________________________________________________
+
+------------------------------
+
+'show menu for column' event created with arguments 'First Name'
+
+Showing Popup Menu:
+  Hide column (Image 1)
+  Show all columns (Image 2)
+  Group selected columns
+  Ungroup selected columns
+  Auto resize column (Image 3)
+  Edit styles (Image 4)
+  Rename column
+  Clear all filters (Image 5)
+
+'hide selected column' event created with arguments ''
+
+Updated Table :
+____________________________________
+   ID   DOB
+____________________________________
+1  100  Thu Jan 01 01:16:40 CET 1970
+2  110  Thu Jan 01 01:33:20 CET 1970
+3  120  Thu Jan 01 01:50:00 CET 1970
+4  130  Thu Jan 01 02:06:40 CET 1970
+5  140  Thu Jan 01 02:23:20 CET 1970
+____________________________________
+
+'show corner menu' event created with arguments ''
+
+Showing Popup Menu:
+  Show all columns (Image 1)
+
+'show all columns' event created with arguments ''
+
+Updated Table :
+__________________________________________________
+   ID   First Name    DOB
+__________________________________________________
+1  100  Mickey Mouse  Thu Jan 01 01:16:40 CET 1970
+2  110  Batman        Thu Jan 01 01:33:20 CET 1970
+3  120  Bender        Thu Jan 01 01:50:00 CET 1970
+4  130  Cartman       Thu Jan 01 02:06:40 CET 1970
+5  140  Dogbert       Thu Jan 01 02:23:20 CET 1970
+__________________________________________________
+
+'show row menu for' event created with arguments '120'
+
+Showing Popup Menu:
+  Auto resize row
+
+'autoresize selected row' event created with arguments ''
+
+'close window' event created with arguments ''

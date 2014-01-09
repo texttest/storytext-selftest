@@ -4,6 +4,9 @@ selection
 editing
 
 # Copy of selection
+context_menus
+
+# Copy of selection
 editing_double_click
 
 # Header can have multiple lines in it, handle this case

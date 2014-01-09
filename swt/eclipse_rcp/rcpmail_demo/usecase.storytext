@@ -3,6 +3,6 @@ close tab Message
 
 # Expand!!
 expand account me@this.com
-quit
+close window
 
 # The end
