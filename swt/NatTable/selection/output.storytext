@@ -55,4 +55,6 @@ __________________________________________________________
 5 (selected)  140  Dogbert (selected)       1/1/70 2:23 AM
 __________________________________________________________
 
+ERROR: Could not simulate command 'select column No Such Column' - Could not find column labelled 'No Such Column' in table.
+
 'close window' event created with arguments ''
