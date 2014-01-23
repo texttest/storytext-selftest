@@ -21,3 +21,7 @@ part_of_multiple_wait
 
 # If we wait for a duplicated event and another one, and the shortcut includes one of each, insert the shortcut anyway
 part_of_composite_multiple_wait
+
+# If we wait for more than two things, and the shortcut includes some of them, insert the shortcut anyway
+# 
+several_parts_of_composite_wait

@@ -1,0 +1,4 @@
+set new movie name to Die Hard
+add movie
+wait for movie to load, other stuff to happen, some extra stuff to happen, even more stuff
+close
