@@ -22,6 +22,7 @@ output:@[0-9a-f]*{REPLACE @addr}
 # Python 2.4 help output
 output:^options:{REPLACE Options:}
 output:^usage:{REPLACE Usage:}
+output:You have loaded library .* which might have disabled stack guard{LINES 2}
 externalmocks:{INTERNAL writedir}{REPLACE <texttest tmp dir>}
 externalmocks:PATH[:;][^ ]*[/\\]bin{REPLACE PATH:<path_to_bin_dir>/bin}
 
