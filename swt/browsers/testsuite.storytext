@@ -7,6 +7,9 @@ nested_tables
 # Test for browser widgets containing nested tables
 table_indent
 
+# Test for browser widgets containing table with header
+table_header
+
 # Check we prune tab characters properly. Note different behaviour on
 # Windows, where tab characters are anyway interpreted as spaces for some reason.
 tabs

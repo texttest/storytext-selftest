@@ -1,0 +1,18 @@
+
+---------- Shell '' ----------
+========== Browser ==========
+Conflicting object:   something
+Description:          The description
+
+_______________________________________________________________________________________
+Property                Original value           My lost value  Live plan value
+_______________________________________________________________________________________
+Activity                S CPH 2009-Nov-24 23:00  Removed        S CPH 2009-Nov-24 23:01
+Assigned start station  CPH                      Removed        CPH
+Assigned end station    CPH                      Removed        CPH
+_______________________________________________________________________________________
+=============================
+
+------------------------------
+
+'close window' event created with arguments ''
