@@ -1,0 +1,14 @@
+
+Waiting for application event 'first sleep to complete' to occur.
+
+Expected application event 'first sleep to complete' occurred, proceeding.
+
+Generating signal SIGQUIT
+
+Waiting for application event 'normal sleep to complete * 2' to occur.
+Waiting for application event 'some other event' to occur.
+
+Expected application event 'normal sleep to complete * 2' occurred, proceeding.
+Expected application event 'some other event' occurred, proceeding.
+
+Generating signal SIGINT

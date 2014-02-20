@@ -1,0 +1,6 @@
+# A comment!
+# another line
+receive sigquit and wait
+# Another comment!
+wait for normal sleep to complete, some other event
+receive signal SIGINT

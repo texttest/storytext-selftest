@@ -39,6 +39,14 @@ appevent_repeated_shortcut
 # and followed by another application event twice or once
 appevent_twice__repeated_shortcut
 
+# Combine the events at the end of the shortcut with following events in the usecase
+shortcut_appevent_combine
+
+# Combine the events at the end of the shortcut with following events in the usecase.
+# Check it also works with initial shortcuts, which are treated separately.
+# 
+shortcut_appevent_combine_initial
+
 # Check there is a timeout on things that never happen
 appevent_never_happens
 

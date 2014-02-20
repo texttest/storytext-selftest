@@ -1,0 +1,5 @@
+wait for first sleep to complete
+# A comment!
+receive sigquit and wait
+wait for normal sleep to complete, some other event
+receive signal SIGINT
