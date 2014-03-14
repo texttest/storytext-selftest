@@ -1,3 +1,5 @@
+Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /tmp/jna1237876010227078896.tmp which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
 
 ---------- Shell '' ----------
 Table :
@@ -34,7 +36,7 @@ Cartman
 
 'set cell contents to' event created with arguments 'Dilbert'
 
-Updated Text Field
+Updated Table Cell Editor Field
 ========== Text ==========
 Dilbert
 ==========================
