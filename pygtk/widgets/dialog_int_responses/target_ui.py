@@ -16,6 +16,7 @@ class AboutDialog():
         text = "Some text"
         about_label = gtk.Label(text)
         dialog.vbox.add(about_label)
+        dialog.set_has_separator(False)
         
         dialog.add_button('File a bug', AboutDialog.BUG_BUTTON)
         dialog.add_button('Donate', AboutDialog.DONATE_BUTTON)

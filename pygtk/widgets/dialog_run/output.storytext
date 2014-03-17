@@ -9,7 +9,6 @@ Button 'hi - this button opens the about dialog'
 ---------- Dialog 'The Dialog Title' ----------
 Focus widget is 'File a bug'
 'Some text'
----------------
 Button 'Close' , Button 'Donate' , Button 'File a bug'
 -----------------------------------------------
 

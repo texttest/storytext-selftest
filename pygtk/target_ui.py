@@ -7,11 +7,11 @@
 #  (d) menus
 #  (e) notebooks
 
-import gtk, gobject
+import gtk
 
 class VideoStore:
     def __init__(self):
-        self.model = gtk.ListStore(gobject.TYPE_STRING)
+        self.model = gtk.ListStore(str)
         self.nameEntry = gtk.Entry()
         self.nameEntry.set_name("Movie Name")
         self.buttons = []
@@ -183,7 +183,7 @@ class VideoStore:
     def getMovieNames(self):
         movies = []
         iter = self.model.get_iter_root()
-        while iter:
+        while iter is not None:
             movies.append(self.model.get_value(iter, 0))
             iter = self.model.iter_next(iter)
         return movies
@@ -191,6 +191,7 @@ class VideoStore:
         dialog = gtk.Dialog("VideoStore Error!", buttons=(gtk.STOCK_OK, gtk.RESPONSE_ACCEPT))
         label = gtk.Label(message)
         dialog.vbox.pack_start(label, expand=True, fill=True)
+        dialog.set_has_separator(False)
         label.show()
         dialog.connect("response", self.destroyErrorDialogue)
         dialog.show()
