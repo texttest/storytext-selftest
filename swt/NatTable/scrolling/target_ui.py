@@ -102,7 +102,7 @@ class RowHeaderLayerStack(nattable.layer.AbstractLayerTransform):
 display = swt.widgets.Display()
 shell = swt.widgets.Shell(display)
 shell.setLayout(swt.layout.GridLayout())
-#shell.setSize(300,100)
+shell.setSize(300, 290)
 class MyPaintListener(swt.widgets.Listener):
     def __init__(self):
         self.resized = False

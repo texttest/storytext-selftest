@@ -1,85 +1,83 @@
-Java HotSpot(TM) 64-Bit Server VM warning: You have loaded library /tmp/jna2483604904231493720.tmp which might have disabled stack guard. The VM will try to fix the stack guard now.
-It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
 
 ---------- Shell '' ----------
 Table :
 _______________________________________
     ID   First Name      DOB
 _______________________________________
-62  161  Myckey Mouse61  1/1/70 1:16 AM
-63  162  Myckey Mouse62  1/1/70 1:16 AM
-64  163  Myckey Mouse63  1/1/70 1:16 AM
-65  164  Myckey Mouse64  1/1/70 1:16 AM
-66  165  Myckey Mouse65  1/1/70 1:16 AM
-67  166  Myckey Mouse66  1/1/70 1:16 AM
-68  167  Myckey Mouse67  1/1/70 1:16 AM
-69  168  Myckey Mouse68  1/1/70 1:16 AM
-70  169  Myckey Mouse69  1/1/70 1:16 AM
-71  170  Myckey Mouse70  1/1/70 1:16 AM
-72  171  Myckey Mouse71  1/1/70 1:16 AM
-73  172  Myckey Mouse72  1/1/70 1:16 AM
-74  173  Myckey Mouse73  1/1/70 1:16 AM
-75  174  Myckey Mouse74  1/1/70 1:16 AM
-76  175  Myckey Mouse75  1/1/70 1:16 AM
-77  176  Myckey Mouse76  1/1/70 1:16 AM
-78  177  Myckey Mouse77  1/1/70 1:16 AM
-79  178  Myckey Mouse78  1/1/70 1:16 AM
-80  179  Myckey Mouse79  1/1/70 1:16 AM
-81  180  Myckey Mouse80  1/1/70 1:16 AM
-82  181  Myckey Mouse81  1/1/70 1:16 AM
-83  182  Myckey Mouse82  1/1/70 1:16 AM
-84  183  Myckey Mouse83  1/1/70 1:16 AM
-85  184  Myckey Mouse84  1/1/70 1:16 AM
-86  185  Myckey Mouse85  1/1/70 1:16 AM
-87  186  Myckey Mouse86  1/1/70 1:16 AM
-88  187  Myckey Mouse87  1/1/70 1:16 AM
-89  188  Myckey Mouse88  1/1/70 1:16 AM
-90  189  Myckey Mouse89  1/1/70 1:16 AM
-91  190  Myckey Mouse90  1/1/70 1:16 AM
-92  191  Myckey Mouse91  1/1/70 1:16 AM
-93  192  Myckey Mouse92  1/1/70 1:16 AM
+1   100  Myckey Mouse0   1/1/70 1:16 AM
+2   101  Myckey Mouse1   1/1/70 1:16 AM
+3   102  Myckey Mouse2   1/1/70 1:16 AM
+4   103  Myckey Mouse3   1/1/70 1:16 AM
+5   104  Myckey Mouse4   1/1/70 1:16 AM
+6   105  Myckey Mouse5   1/1/70 1:16 AM
+7   106  Myckey Mouse6   1/1/70 1:16 AM
+8   107  Myckey Mouse7   1/1/70 1:16 AM
+9   108  Myckey Mouse8   1/1/70 1:16 AM
+10  109  Myckey Mouse9   1/1/70 1:16 AM
+11  110  Myckey Mouse10  1/1/70 1:16 AM
+12  111  Myckey Mouse11  1/1/70 1:16 AM
 _______________________________________
 
 ------------------------------
 
-'select row' event created with arguments '190'
+'select row' event created with arguments '103'
+
+Updated Table :
+________________________________________________________
+    ID (selected)  First Name (selected)  DOB (selected)
+________________________________________________________
+41  140            Myckey Mouse40         1/1/70 1:16 AM
+42  141            Myckey Mouse41         1/1/70 1:16 AM
+43  142            Myckey Mouse42         1/1/70 1:16 AM
+44  143            Myckey Mouse43         1/1/70 1:16 AM
+45  144            Myckey Mouse44         1/1/70 1:16 AM
+46  145            Myckey Mouse45         1/1/70 1:16 AM
+47  146            Myckey Mouse46         1/1/70 1:16 AM
+48  147            Myckey Mouse47         1/1/70 1:16 AM
+49  148            Myckey Mouse48         1/1/70 1:16 AM
+50  149            Myckey Mouse49         1/1/70 1:16 AM
+51  150            Myckey Mouse50         1/1/70 1:16 AM
+52  151            Myckey Mouse51         1/1/70 1:16 AM
+________________________________________________________
+
+'select row' event created with arguments '144'
+Clicked on cell labelled 'None'
+
+Updated Table :
+_________________________________________________________
+     ID (selected)  First Name (selected)  DOB (selected)
+_________________________________________________________
+90   189            Myckey Mouse89         1/1/70 1:16 AM
+91   190            Myckey Mouse90         1/1/70 1:16 AM
+92   191            Myckey Mouse91         1/1/70 1:16 AM
+93   192            Myckey Mouse92         1/1/70 1:16 AM
+94   193            Myckey Mouse93         1/1/70 1:16 AM
+95   194            Myckey Mouse94         1/1/70 1:16 AM
+96   195            Myckey Mouse95         1/1/70 1:16 AM
+97   196            Myckey Mouse96         1/1/70 1:16 AM
+98   197            Myckey Mouse97         1/1/70 1:16 AM
+99   198            Myckey Mouse98         1/1/70 1:16 AM
+100  199            Myckey Mouse99         1/1/70 1:16 AM
+_________________________________________________________
+
+'select row' event created with arguments '191'
+Clicked on cell labelled 'None'
 
 Updated Table :
 ___________________________________________________________________________________
                ID (selected)   First Name (selected)      DOB (selected)
 ___________________________________________________________________________________
-62             161             Myckey Mouse61             1/1/70 1:16 AM
-63             162             Myckey Mouse62             1/1/70 1:16 AM
-64             163             Myckey Mouse63             1/1/70 1:16 AM
-65             164             Myckey Mouse64             1/1/70 1:16 AM
-66             165             Myckey Mouse65             1/1/70 1:16 AM
-67             166             Myckey Mouse66             1/1/70 1:16 AM
-68             167             Myckey Mouse67             1/1/70 1:16 AM
-69             168             Myckey Mouse68             1/1/70 1:16 AM
-70             169             Myckey Mouse69             1/1/70 1:16 AM
-71             170             Myckey Mouse70             1/1/70 1:16 AM
-72             171             Myckey Mouse71             1/1/70 1:16 AM
-73             172             Myckey Mouse72             1/1/70 1:16 AM
-74             173             Myckey Mouse73             1/1/70 1:16 AM
-75             174             Myckey Mouse74             1/1/70 1:16 AM
-76             175             Myckey Mouse75             1/1/70 1:16 AM
-77             176             Myckey Mouse76             1/1/70 1:16 AM
-78             177             Myckey Mouse77             1/1/70 1:16 AM
-79             178             Myckey Mouse78             1/1/70 1:16 AM
-80             179             Myckey Mouse79             1/1/70 1:16 AM
-81             180             Myckey Mouse80             1/1/70 1:16 AM
-82             181             Myckey Mouse81             1/1/70 1:16 AM
-83             182             Myckey Mouse82             1/1/70 1:16 AM
-84             183             Myckey Mouse83             1/1/70 1:16 AM
-85             184             Myckey Mouse84             1/1/70 1:16 AM
-86             185             Myckey Mouse85             1/1/70 1:16 AM
-87             186             Myckey Mouse86             1/1/70 1:16 AM
-88             187             Myckey Mouse87             1/1/70 1:16 AM
-89             188             Myckey Mouse88             1/1/70 1:16 AM
 90             189             Myckey Mouse89             1/1/70 1:16 AM
-91 (selected)  190 (selected)  Myckey Mouse90 (selected)  1/1/70 1:16 AM (selected)
-92             191             Myckey Mouse91             1/1/70 1:16 AM
+91             190             Myckey Mouse90             1/1/70 1:16 AM
+92 (selected)  191 (selected)  Myckey Mouse91 (selected)  1/1/70 1:16 AM (selected)
 93             192             Myckey Mouse92             1/1/70 1:16 AM
+94             193             Myckey Mouse93             1/1/70 1:16 AM
+95             194             Myckey Mouse94             1/1/70 1:16 AM
+96             195             Myckey Mouse95             1/1/70 1:16 AM
+97             196             Myckey Mouse96             1/1/70 1:16 AM
+98             197             Myckey Mouse97             1/1/70 1:16 AM
+99             198             Myckey Mouse98             1/1/70 1:16 AM
+100            199             Myckey Mouse99             1/1/70 1:16 AM
 ___________________________________________________________________________________
 
 'close window' event created with arguments ''
