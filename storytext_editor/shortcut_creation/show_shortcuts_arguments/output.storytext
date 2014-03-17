@@ -5,7 +5,6 @@ Default widget is 'gtk-ok'
 Showing GtkTreeView with columns: 
 -> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
 -> close
----------------
 Stock Button 'gtk-ok'
 ----------------------------------------------------
 

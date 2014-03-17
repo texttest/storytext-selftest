@@ -9,7 +9,6 @@ Showing GtkTreeView with columns:
 -> sort movies
 -> <b>add <i>movie</i>s <i>Star Wars</i> and <i>Die Hard</i></b>
 -> close
----------------
 Stock Button 'gtk-ok'
 ----------------------------------------------------
 

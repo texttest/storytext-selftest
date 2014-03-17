@@ -10,7 +10,6 @@ Showing GtkTreeView with columns:
 -> set new movie name to<i> Titanic</i>
 -> add movie
 -> close
----------------
 Stock Button 'gtk-ok'
 ----------------------------------------------------
 

@@ -14,7 +14,6 @@ Showing GtkTreeView with columns:
 -> set new movie name to<i> Die Hard</i>
 -> add movie
 -> ?
----------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 ----------------------------------------------------------------------------
 

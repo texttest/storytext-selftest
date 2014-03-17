@@ -6,7 +6,6 @@ Showing GtkTreeView with columns:
 -> <b>add new movie <i>Star Wars</i></b>
 -> <b>add new movie <i>Die Hard</i></b>
 -> close
----------------
 Stock Button 'gtk-ok'
 ----------------------------------------------------
 
