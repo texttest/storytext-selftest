@@ -9,7 +9,6 @@ Button 'hi - this button opens the dialog'
 ---------- Dialog 'The Dialog Title' ----------
 Focus widget is 'check button 1'
 Check button 'check button 1'
----------------
 Button 'Close'
 -----------------------------------------------
 

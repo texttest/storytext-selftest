@@ -8,7 +8,7 @@ class ConfirmDialog:
         dialog = gtk.Dialog('Confirm', self._parent_window)
         text = "Are you sure you want to close the window?"
         dialog.vbox.add(gtk.Label(text))
-        
+        dialog.set_has_separator(False)
         dialog.add_button('Yes', gtk.RESPONSE_YES)
         dialog.add_button('No', gtk.RESPONSE_NO)
         dialog.show_all()

@@ -4,9 +4,8 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget (tooltip 'The FileChooser')
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.17Mar133720.2006/storytext/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2
 Check button 'Make the file readonly'
----------------
 Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 -------------------------------------
 
@@ -15,4 +14,4 @@ Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 'enter file name for save =' event created with arguments 'file3.txt'
 
 'save selected file' event created with arguments ''
-Saving writeable file to /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2/file3.txt
+Saving writeable file to /nfs/vm/texttest-tmp/geoff/dynamic_gui.17Mar133720.2006/storytext/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2/file3.txt

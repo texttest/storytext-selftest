@@ -17,6 +17,7 @@ class MyDialog():
         
         dialog.add_button('Close', gtk.RESPONSE_CLOSE)
         dialog.connect('destroy', self.destroyed)
+        dialog.set_has_separator(False)
         result = dialog.run()
         dialog.destroy()
 

@@ -17,6 +17,7 @@ class MyDialog():
         dialog.vbox.add(label2)
         entry2 = gtk.Entry()
         entry2.set_name("Second")
+        dialog.set_has_separator(False)
         dialog.vbox.add(entry2)
         
         dialog.add_button('Close', gtk.RESPONSE_CLOSE)

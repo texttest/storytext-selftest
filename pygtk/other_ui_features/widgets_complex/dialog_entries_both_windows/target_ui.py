@@ -10,6 +10,7 @@ class MyDialog():
         dialog = gtk.Dialog('The Dialog Title', self._parent_window)
         label = gtk.Label("Enter some text in the dialog")
         dialog.vbox.add(label)
+        dialog.set_has_separator(False)
         entry = gtk.Entry()
         entry.set_name("Dialog Text")
         dialog.vbox.add(entry)

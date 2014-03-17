@@ -10,6 +10,7 @@ class MyDialog():
         dialog = gtk.Dialog('The Dialog Title', self._parent_window)
         label = gtk.Label("Some message")
         dialog.vbox.add(label)        
+        dialog.set_has_separator(False)
         dialog.add_button('Close', gtk.RESPONSE_CLOSE)
         
         result = dialog.run()

@@ -10,6 +10,7 @@ class LoginDialog(object):
         login_button = gtk.Button("Log in")
         login_button.connect("clicked", self.login_clicked)
         self._dialog.action_area.pack_end(login_button, expand=False)
+        self._dialog.set_has_separator(False)
 
         self._dialog.show_all()
 

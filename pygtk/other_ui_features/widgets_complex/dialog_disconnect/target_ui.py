@@ -13,6 +13,7 @@ class MyDialog():
         dialog.add_button('Button', 42)
         dialog.add_button('Close', gtk.RESPONSE_CLOSE)
         self.handler = dialog.connect('response', self.respond)
+        dialog.set_has_separator(False)
         dialog.connect('response', self.closeRespond)
         dialog.show_all()
 

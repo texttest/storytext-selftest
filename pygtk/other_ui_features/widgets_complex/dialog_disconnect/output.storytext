@@ -8,7 +8,6 @@ Button 'hi - this button opens the dialog'
 
 ---------- Dialog 'The Dialog Title' ----------
 Focus widget is 'Button'
----------------
 Button 'Close' , Button 'Button'
 -----------------------------------------------
 

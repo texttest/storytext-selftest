@@ -9,6 +9,7 @@ class QuitDialog(object):
 
         self._dialog.add_button("Quit", gtk.RESPONSE_ACCEPT)
         self._dialog.connect("response", self.respond)
+        self._dialog.set_has_separator(False)
 
         self._dialog.show_all()
 
