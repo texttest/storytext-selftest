@@ -24,13 +24,17 @@ class MyDialog():
         print "The dialog was actually destroyed!"
         
 if __name__ == "__main__":
-    gobject.idle_add(idle_handler, priority=gobject.PRIORITY_DEFAULT_IDLE + 20)
+    handler = gobject.idle_add(idle_handler, priority=gobject.PRIORITY_DEFAULT_IDLE + 20)
     win = gtk.Window()
     dialog = MyDialog(win)
 
     def clicked(*args):
         global dialog
         dialog.show()
+        if gobject.source_remove(handler):
+            print "Idle handler removed successfully!"
+        else:
+            print "FAILED to remove idle handler"
     box = gtk.VBox()
     button = gtk.Button("hi - this button opens the dialog")
     button.connect("clicked", clicked)

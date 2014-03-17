@@ -18,5 +18,6 @@ Toggled Check button 'check button 1' (checked)
 
 'close the dialog' event created with arguments ''
 The dialog was actually destroyed!
+Idle handler removed successfully!
 
 'quit' event created with arguments ''
