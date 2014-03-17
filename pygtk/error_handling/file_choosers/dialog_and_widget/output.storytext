@@ -14,7 +14,6 @@ Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Check button 'Make the file readonly'
----------------
 Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 ------------------------------------------------------
 

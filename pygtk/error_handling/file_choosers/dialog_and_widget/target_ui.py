@@ -10,7 +10,8 @@ def startDialogWithWidget():
     dialog.vbox.pack_start(fileChooser, expand=True, fill=True)
     checkBox = gtk.CheckButton("Make the file readonly")
     dialog.vbox.pack_start(checkBox, expand=False, fill=False)
-    
+    dialog.set_has_separator(False)
+
     dialog.set_default_response(gtk.RESPONSE_OK)
     dialog.connect("response", dialogRespond, fileChooser)
     dialog.set_modal(True)

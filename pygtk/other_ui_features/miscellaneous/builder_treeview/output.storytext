@@ -5,7 +5,6 @@ Focus widget is 'treeview'
 Showing treeview with columns: Name , Value
 -> Foo | 20   ***
 -> Bar | 22
----------------
 Button 'Cancel' , Button 'OK'
 -----------------------------------
 

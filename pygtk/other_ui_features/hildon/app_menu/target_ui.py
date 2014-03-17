@@ -24,6 +24,7 @@ class Example:
         self.appmenu = hildon.AppMenu()
 
         self.appmenu.set_title("App Menu")
+        self.appmenu.set_has_separator(False)
 
         self.window.show()
 

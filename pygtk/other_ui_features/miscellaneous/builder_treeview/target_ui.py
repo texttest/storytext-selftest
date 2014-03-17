@@ -13,6 +13,7 @@ def activate(col, path, column):
 builder.get_object('treeview').connect('row-activated', activate)
 
 dialog = builder.get_object('test_dialog')
+
 dialog.connect('response', gtk.main_quit)
 dialog.show()
 gtk.main()

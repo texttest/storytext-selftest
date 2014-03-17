@@ -19,7 +19,8 @@ class AboutDialog():
         dialog.add_button('File a bug', AboutDialog.BUG_BUTTON)
         dialog.add_button('Donate', AboutDialog.DONATE_BUTTON)
         dialog.add_button('Close', AboutDialog.CLOSE_BUTTON)
-        
+        dialog.set_has_separator(False)
+
         self._runDialog(dialog)
                 
     def _runDialog(self, dialog):
