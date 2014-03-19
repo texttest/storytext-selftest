@@ -33,7 +33,6 @@ Changed selection in GtkTreeView with columns:
 ---------- Dialog 'Rename usecase' ----------
 Focus widget is 'GtkEntry'
 'Usecase' , Text entry (set to 'set new movie name to')
----------------
 Button 'Cancel' , Button 'Rename'
 ---------------------------------------------
 

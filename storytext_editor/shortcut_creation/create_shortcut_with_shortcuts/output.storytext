@@ -44,7 +44,6 @@ Text entry (set to 'Do something with movie and Matrix')
 Showing GtkTreeView with columns: 
 -> add $ named $
 -> sort movies
----------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
 

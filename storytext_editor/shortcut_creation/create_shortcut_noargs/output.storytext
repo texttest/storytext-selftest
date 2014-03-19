@@ -93,7 +93,6 @@ Text entry
 Showing GtkTreeView with columns: 
 -> add movie
 -> wait for the movies to reload
----------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
 

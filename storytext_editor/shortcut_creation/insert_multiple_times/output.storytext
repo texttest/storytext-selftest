@@ -46,7 +46,6 @@ Text entry (set to 'Do something with Die Hard')
 Showing GtkTreeView with columns: 
 -> set new movie name to $
 -> add movie
----------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
 

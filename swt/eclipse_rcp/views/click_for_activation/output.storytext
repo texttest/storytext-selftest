@@ -1,0 +1,52 @@
+
+---------- Shell 'Tab (View) Selection Application' ----------
+Menu Bar:
+  &File (cascade)
+    E&xit	Ctrl+X
+  Views (cascade)
+    Open View 1
+    Open View 2
+    Show in View 1
+    Show in View 2 (greyed out)
+    Show Info View
+
+TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif', selected)
+
+Button 'The First View Button'
+
+--------------- Horizontal sash ---------------
+
+TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
+
+Button 'The Second View Button'
+
+--------------------------------------------------------------
+
+'activate second view' event created with arguments 'SecondView'
+
+Updated Views Menu:
+'Show in View 1' changed to 'Show in View 1 (greyed out)'
+'Show in View 2 (greyed out)' changed to 'Show in View 2'
+
+'create new first view' event created with arguments ''
+
+New widgets have appeared: describing common parent :
+
+TabFolder with tabs FirstView (cascade, Icon 'defaultview_misc.gif') , FirstView (cascade, Icon 'defaultview_misc.gif', selected)
+
+Button 'The First View Button'
+
+--------------- Horizontal sash ---------------
+
+TabFolder with tabs SecondView (cascade, Icon 'defaultview_misc.gif', selected)
+
+Button 'The Second View Button'
+
+Updated Views Menu:
+'Show in View 1 (greyed out)' changed to 'Show in View 1'
+'Show in View 2' changed to 'Show in View 2 (greyed out)'
+
+ERROR: Could not simulate command 'activate second view NoSuchView' - Could not find View named 'NoSuchView' to activate.
+Views are named ['FirstView', 'SecondView', 'FirstView (2)']
+
+'close window' event created with arguments ''

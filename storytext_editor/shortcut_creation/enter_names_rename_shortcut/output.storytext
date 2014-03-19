@@ -69,7 +69,6 @@ Text entry (set to 'Do something with Star Wars')
 Showing GtkTreeView with columns: 
 -> set movie name to $
 -> add movie
----------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
 
@@ -140,7 +139,6 @@ Changed selection in GtkTreeView with columns:
 ---------- Dialog 'Rename shortcut' ----------
 Focus widget is 'GtkEntry'
 'Shortcut' , Text entry (set to 'create new movie $')
----------------
 Button 'Cancel' , Button 'Rename'
 ----------------------------------------------
 

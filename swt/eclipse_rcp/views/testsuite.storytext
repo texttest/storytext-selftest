@@ -1,6 +1,9 @@
 # Test for activating different parts
 part_activation
 
+# Check we can work with physical clicking
+click_for_activation
+
 # Widgets in the active view are to be preferred over those in other views
 prefer_active_view
 

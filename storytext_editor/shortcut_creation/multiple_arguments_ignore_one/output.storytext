@@ -50,7 +50,6 @@ Showing GtkTreeView with columns:
 -> add movie
 -> set new movie name to $
 -> add movie
----------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
 

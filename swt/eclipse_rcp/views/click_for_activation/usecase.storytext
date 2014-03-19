@@ -1,0 +1,4 @@
+activate second view SecondView
+create new first view
+activate second view NoSuchView
+close window

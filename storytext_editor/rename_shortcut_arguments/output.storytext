@@ -43,7 +43,6 @@ Changed selection in GtkTreeView with columns:
 ---------- Dialog 'Rename shortcut' ----------
 Focus widget is 'GtkEntry'
 'Shortcut' , Text entry (set to 'add $ named $')
----------------
 Button 'Cancel' , Button 'Rename'
 ----------------------------------------------
 

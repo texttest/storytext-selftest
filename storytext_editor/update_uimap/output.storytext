@@ -47,7 +47,6 @@ Changed selection in GtkTreeView with columns:
 Focus widget is 'GtkEntry'
 'Widget description' , Text entry (set to 'Name=Movie Name')
 'Activity' , Text entry (set to 'changed')
----------------
 Button 'Cancel' , Button 'Update'
 ------------------------------------------------------------------------
 
@@ -134,7 +133,6 @@ Changed selection in GtkTreeView with columns:
 Focus widget is 'GtkEntry'
 'Widget description' , Text entry (set to 'Label=Add')
 'Activity' , Text entry (set to 'clicked')
----------------
 Button 'Cancel' , Button 'Update'
 ------------------------------------------------------------
 

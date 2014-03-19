@@ -80,7 +80,6 @@ Text entry (set to 'Do something with Star Wars')
 Showing GtkTreeView with columns: 
 -> set movie name to $
 -> add movie
----------------
 Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
 -------------------------------------------
 
