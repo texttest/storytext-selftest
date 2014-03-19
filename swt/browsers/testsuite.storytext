@@ -10,6 +10,10 @@ table_indent
 # Test for browser widgets containing table with header
 table_header
 
+# <th> elements can be spread around at will, they don't have to be a traditional table header
+# 
+table_header_in_cell
+
 # Check we prune tab characters properly. Note different behaviour on
 # Windows, where tab characters are anyway interpreted as spaces for some reason.
 tabs
