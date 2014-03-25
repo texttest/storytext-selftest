@@ -18,3 +18,6 @@ row_column_span
 # Don't crash in describer if there is no data
 no_data
 scrolling
+
+# handle checkboxes and comboboxes
+non_text_cells

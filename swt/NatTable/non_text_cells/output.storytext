@@ -1,0 +1,59 @@
+
+---------- Shell '' ----------
+Table :
+_________________________________________
+   First Name  Married  City of Residence
+_________________________________________
+1  Joe         [ ]      London
+2  Maria       [x]      Santiago
+_________________________________________
+
+------------------------------
+
+'select cell' event created with arguments 'Married for Joe'
+Clicked on cell labelled 'False'
+
+Updated Table :
+_______________________________________________________________
+              First Name  Married (selected)  City of Residence
+_______________________________________________________________
+1 (selected)  Joe         [x]                 London
+2             Maria       [x]                 Santiago
+_______________________________________________________________
+
+'select cell' event created with arguments 'Married for Maria'
+Clicked on cell labelled 'True'
+
+Updated Table :
+_______________________________________________________________
+              First Name  Married (selected)  City of Residence
+_______________________________________________________________
+1             Joe         [x]                 London
+2 (selected)  Maria       [ ]                 Santiago
+_______________________________________________________________
+
+'select cell' event created with arguments 'City of Residence for Joe'
+Clicked on cell labelled 'London'
+
+---------- Shell '' ----------
+Table :
+_________________
+London (selected)
+Washington
+Santiago
+Stockholm
+_________________
+
+------------------------------
+
+'choose city option' event created with arguments 'Washington'
+
+Updated Table :
+_______________________________________________________________
+              First Name  Married  City of Residence (selected)
+_______________________________________________________________
+1 (selected)  Joe         [x]      Washington (selected)
+2             Maria       [ ]      Santiago
+_______________________________________________________________
+
+'close window' event created with arguments ''

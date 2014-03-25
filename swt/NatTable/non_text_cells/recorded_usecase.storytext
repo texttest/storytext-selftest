@@ -1,0 +1,5 @@
+select cell Married for Joe
+select cell Married for Maria
+select cell City of Residence for Joe
+choose city option Washington
+close window
