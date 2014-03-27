@@ -5,9 +5,10 @@ select cell id for item 2
 select cell id for item 2
 add row
 select cell id for extra item
-set cell contents to new item
+set cell contents to item 9
 perform cell edit
 select cell Nonsense
 select cell info for Nonsense
 select cell Nonsense for item 4
+select cell info for item 9 (2)
 close window

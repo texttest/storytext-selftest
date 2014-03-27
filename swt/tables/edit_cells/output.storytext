@@ -144,38 +144,46 @@ ______________________________________
 extra item
 ==========================
 
-'set cell contents to' event created with arguments 'new item'
+'set cell contents to' event created with arguments 'item 9'
 
 Updated Table Cell Editor Field
 ========== Text ==========
-new item
+item 9
 ==========================
 
 'perform cell edit' event created with arguments ''
 
 Updated Table (Context Menu 1) :
-____________________________________
-id                   info
-____________________________________
-item 0               edit this value
-item 1               edit this value
-item 2               edit this value
-item 3               edit this value
-item 4               Real Value
-item 5               edit this value
-item 6               edit this value
-item 7               edit this value
-item 8               edit this value
-item 9               edit this value
-new item (selected)  edit this value
-____________________________________
+__________________________________
+id                 info
+__________________________________
+item 0             edit this value
+item 1             edit this value
+item 2             edit this value
+item 3             edit this value
+item 4             Real Value
+item 5             edit this value
+item 6             edit this value
+item 7             edit this value
+item 8             edit this value
+item 9             edit this value
+item 9 (selected)  edit this value
+__________________________________
 
 ERROR: Could not simulate command 'select cell Nonsense' - Could not find row identified by 'Nonsense' in table.
-Row names are [u'item 0', u'item 1', u'item 2', u'item 3', u'item 4', u'item 5', u'item 6', u'item 7', u'item 8', u'item 9', u'extra item']
+Row names are [u'item 0', u'item 1', u'item 2', u'item 3', u'item 4', u'item 5', u'item 6', u'item 7', u'item 8', u'item 9 (1)', u'item 9 (2)']
 
 ERROR: Could not simulate command 'select cell info for Nonsense' - Could not find row identified by 'Nonsense' in table.
-Row names are [u'item 0', u'item 1', u'item 2', u'item 3', u'item 4', u'item 5', u'item 6', u'item 7', u'item 8', u'item 9', u'extra item']
+Row names are [u'item 0', u'item 1', u'item 2', u'item 3', u'item 4', u'item 5', u'item 6', u'item 7', u'item 8', u'item 9 (1)', u'item 9 (2)']
 
 ERROR: Could not simulate command 'select cell Nonsense for item 4' - Could not find column labelled 'Nonsense' in table.
+
+'select cell' event created with arguments 'info for item 9 (2)'
+
+New widgets have appeared: describing common parent :
+
+========== Text ==========
+edit this value
+==========================
 
 'close window' event created with arguments ''

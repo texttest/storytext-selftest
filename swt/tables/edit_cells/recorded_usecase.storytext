@@ -4,6 +4,7 @@ perform cell edit
 select cell id for item 2
 add row
 select cell id for extra item
-set cell contents to new item
+set cell contents to item 9
 perform cell edit
+select cell info for item 9 (2)
 close window
