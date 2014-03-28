@@ -36,10 +36,10 @@ def createNatTable(parent):
 
     gridLayer = nattable.grid.layer.GridLayer(bodyLayer, columnHeaderLayer, rowHeaderLayer, cornerLayer)
     table = nattable.NatTable(parent, gridLayer, True)
-    table.getConfigRegistry().registerConfigAttribute(nattable.config.CellConfigAttributes.DISPLAY_CONVERTER, 
-                                                      nattable.data.convert.DefaultDateDisplayConverter(), 
-                                                      nattable.style.DisplayMode.NORMAL, 
-                                                      DATE_LABEL);
+    CONVERTER = nattable.config.CellConfigAttributes.DISPLAY_CONVERTER
+    NORMAL = nattable.style.DisplayMode.NORMAL
+    dateConverter = nattable.data.convert.DefaultDateDisplayConverter("yyyy-MM-dd HH:mm")
+    table.getConfigRegistry().registerConfigAttribute(CONVERTER, dateConverter, NORMAL, DATE_LABEL)
     return table
 
 class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
