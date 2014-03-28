@@ -1,0 +1,86 @@
+
+---------- Shell '' ----------
+Table :
+_________________________________________
+    ID   First Name      DOB
+_________________________________________
+1   100  Myckey Mouse0   1970-01-01 01:16
+2   101  Myckey Mouse1   1970-01-01 01:16
+3   102  Myckey Mouse2   1970-01-01 01:16
+4   103  Myckey Mouse3   1970-01-01 01:16
+5   104  Myckey Mouse4   1970-01-01 01:16
+6   105  Myckey Mouse5   1970-01-01 01:16
+7   106  Myckey Mouse6   1970-01-01 01:16
+8   107  Myckey Mouse7   1970-01-01 01:16
+9   108  Myckey Mouse8   1970-01-01 01:16
+10  109  Myckey Mouse9   1970-01-01 01:16
+11  110  Myckey Mouse10  1970-01-01 01:16
+12  111  Myckey Mouse11  1970-01-01 01:16
+13  112  Myckey Mouse12  1970-01-01 01:16
+_________________________________________
+
+------------------------------
+
+'select row' event created with arguments '103'
+
+Updated Table :
+__________________________________________________________
+    ID (selected)  First Name (selected)  DOB (selected)
+__________________________________________________________
+42  141            Myckey Mouse41         1970-01-01 01:16
+43  142            Myckey Mouse42         1970-01-01 01:16
+44  143            Myckey Mouse43         1970-01-01 01:16
+45  144            Myckey Mouse44         1970-01-01 01:16
+46  145            Myckey Mouse45         1970-01-01 01:16
+47  146            Myckey Mouse46         1970-01-01 01:16
+48  147            Myckey Mouse47         1970-01-01 01:16
+49  148            Myckey Mouse48         1970-01-01 01:16
+50  149            Myckey Mouse49         1970-01-01 01:16
+51  150            Myckey Mouse50         1970-01-01 01:16
+52  151            Myckey Mouse51         1970-01-01 01:16
+53  152            Myckey Mouse52         1970-01-01 01:16
+__________________________________________________________
+
+'select row' event created with arguments '144'
+Clicked on cell labelled 'None'
+
+Updated Table :
+__________________________________________________________
+    ID (selected)  First Name (selected)  DOB (selected)
+__________________________________________________________
+82  181            Myckey Mouse81         1970-01-01 01:16
+83  182            Myckey Mouse82         1970-01-01 01:16
+84  183            Myckey Mouse83         1970-01-01 01:16
+85  184            Myckey Mouse84         1970-01-01 01:16
+86  185            Myckey Mouse85         1970-01-01 01:16
+87  186            Myckey Mouse86         1970-01-01 01:16
+88  187            Myckey Mouse87         1970-01-01 01:16
+89  188            Myckey Mouse88         1970-01-01 01:16
+90  189            Myckey Mouse89         1970-01-01 01:16
+91  190            Myckey Mouse90         1970-01-01 01:16
+92  191            Myckey Mouse91         1970-01-01 01:16
+93  192            Myckey Mouse92         1970-01-01 01:16
+__________________________________________________________
+
+'select row' event created with arguments '191'
+Clicked on cell labelled 'None'
+
+Updated Table :
+_____________________________________________________________________________________
+               ID (selected)   First Name (selected)      DOB (selected)
+_____________________________________________________________________________________
+82             181             Myckey Mouse81             1970-01-01 01:16
+83             182             Myckey Mouse82             1970-01-01 01:16
+84             183             Myckey Mouse83             1970-01-01 01:16
+85             184             Myckey Mouse84             1970-01-01 01:16
+86             185             Myckey Mouse85             1970-01-01 01:16
+87             186             Myckey Mouse86             1970-01-01 01:16
+88             187             Myckey Mouse87             1970-01-01 01:16
+89             188             Myckey Mouse88             1970-01-01 01:16
+90             189             Myckey Mouse89             1970-01-01 01:16
+91             190             Myckey Mouse90             1970-01-01 01:16
+92 (selected)  191 (selected)  Myckey Mouse91 (selected)  1970-01-01 01:16 (selected)
+93             192             Myckey Mouse92             1970-01-01 01:16
+_____________________________________________________________________________________
+
+'close window' event created with arguments ''
