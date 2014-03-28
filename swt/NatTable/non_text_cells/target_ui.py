@@ -76,9 +76,9 @@ class BodyLayerStack(nattable.layer.AbstractLayerTransform):
         return self.selectionLayer
 	
     def registerColumnLabels(self, columnLabelAccumulator):
-        columnLabelAccumulator.registerColumnOverrides(0, "name");
-        columnLabelAccumulator.registerColumnOverrides(1, "married");
-        columnLabelAccumulator.registerColumnOverrides(2, "city");
+        columnLabelAccumulator.registerColumnOverrides(0, [ "name" ])
+        columnLabelAccumulator.registerColumnOverrides(1, [ "married" ])
+        columnLabelAccumulator.registerColumnOverrides(2, [ "city" ])
 	
 
 class ColumnHeaderLayerStack(nattable.layer.AbstractLayerTransform):
