@@ -53,7 +53,7 @@ def createNatTable(parent):
     gridLayer = nattable.grid.layer.GridLayer(bodyLayer, columnHeaderLayer, rowHeaderLayer, cornerLayer)
     table = nattable.NatTable(parent, gridLayer, True)
     table.getConfigRegistry().registerConfigAttribute(nattable.config.CellConfigAttributes.DISPLAY_CONVERTER, 
-                                                      nattable.data.convert.DefaultDateDisplayConverter(), 
+                                                      nattable.data.convert.DefaultDateDisplayConverter("yyyy-MM-dd HH:mm"), 
                                                       nattable.style.DisplayMode.NORMAL, 
                                                       DATE_LABEL)
     return table
