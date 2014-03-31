@@ -1,0 +1,45 @@
+
+---------- Shell 'RCP Application' ----------
+Menu Bar:
+
+TabFolder with tabs View (Icon 'defaultview_misc.gif', selected)
+
+Table :
+________________________
+     ID  First Name  DOB
+________________________
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+________________________
+
+---------------------------------------------
+
+'select' event created with arguments 'ID for <unnamed> (97)'
+
+Updated Table :
+_____________________________________________
+               ID (selected)  First Name  DOB
+_____________________________________________
+90
+91
+92
+93
+94
+95
+96
+97
+98 (selected)
+99
+100
+_____________________________________________
+
+'close window' event created with arguments ''
