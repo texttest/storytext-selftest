@@ -5,41 +5,41 @@ Menu Bar:
 TabFolder with tabs View (Icon 'defaultview_misc.gif', selected)
 
 Table :
-________________________
-     ID  First Name  DOB
-________________________
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-________________________
+________________________________________
+     ID   First Name      DOB
+________________________________________
+90   189  Myckey Mouse89  1/1/70 1:16 AM
+91   190  Myckey Mouse90  1/1/70 1:16 AM
+92   191  Myckey Mouse91  1/1/70 1:16 AM
+93   192  Myckey Mouse92  1/1/70 1:16 AM
+94   193  Myckey Mouse93  1/1/70 1:16 AM
+95   194  Myckey Mouse94  1/1/70 1:16 AM
+96   195  Myckey Mouse95  1/1/70 1:16 AM
+97   196  Myckey Mouse96  1/1/70 1:16 AM
+98   197  Myckey Mouse97  1/1/70 1:16 AM
+99   198  Myckey Mouse98  1/1/70 1:16 AM
+100  199  Myckey Mouse99  1/1/70 1:16 AM
+________________________________________
 
 ---------------------------------------------
 
-'select' event created with arguments 'ID for <unnamed> (97)'
+'select cell' event created with arguments 'ID for 197'
 
 Updated Table :
-_____________________________________________
-               ID (selected)  First Name  DOB
-_____________________________________________
-90
-91
-92
-93
-94
-95
-96
-97
-98 (selected)
-99
-100
-_____________________________________________
+_____________________________________________________________
+               ID (selected)   First Name      DOB
+_____________________________________________________________
+90             189             Myckey Mouse89  1/1/70 1:16 AM
+91             190             Myckey Mouse90  1/1/70 1:16 AM
+92             191             Myckey Mouse91  1/1/70 1:16 AM
+93             192             Myckey Mouse92  1/1/70 1:16 AM
+94             193             Myckey Mouse93  1/1/70 1:16 AM
+95             194             Myckey Mouse94  1/1/70 1:16 AM
+96             195             Myckey Mouse95  1/1/70 1:16 AM
+97             196             Myckey Mouse96  1/1/70 1:16 AM
+98 (selected)  197 (selected)  Myckey Mouse97  1/1/70 1:16 AM
+99             198             Myckey Mouse98  1/1/70 1:16 AM
+100            199             Myckey Mouse99  1/1/70 1:16 AM
+_____________________________________________________________
 
 'close window' event created with arguments ''
