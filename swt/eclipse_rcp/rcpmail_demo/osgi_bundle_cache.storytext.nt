@@ -1,6 +1,7 @@
 {u'com.ibm.icu': [],
  u'javax.servlet': [],
  u'org.apache.log4j': ['gif'],
+ u'org.easymock': [],
  u'org.eclipse.compare.core': [],
  u'org.eclipse.core.commands': [],
  u'org.eclipse.core.contenttype': [],
