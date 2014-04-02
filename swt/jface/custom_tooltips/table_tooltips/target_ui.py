@@ -78,7 +78,7 @@ column.getColumn().setWidth(100)
 v.setInput("")
 
 shell.setText("Custom Tooltips")
-shell.setSize(200, 200)
+shell.setSize(300, 300)
 shell.open()
 
 while (not shell.isDisposed()):
