@@ -1,6 +1,6 @@
 
 ---------- Window 'TreeViewColumn Example' ----------
-Focus widget is 'GtkButton'
+Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Pixbuf and Text , Text Only
 -> Stock image 'gtk-open' (yellow) | Open (cyan) | Open a File (pink)

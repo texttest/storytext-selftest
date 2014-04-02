@@ -67,6 +67,7 @@ class BasicTreeViewExample:
         box.pack_start(button)
         self.window.add(box)
 
+        self.treeview.grab_focus()
         self.window.show_all()
 
     def add_rows(self, *args):

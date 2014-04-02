@@ -1,6 +1,6 @@
 
 ---------- Window 'TreeModelFilter Example' ----------
-Focus widget is 'GtkButton'
+Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: Bug No. , Status , Description
 -> 120595 | NEW | Custom GtkTreeModelFilter wrappers need

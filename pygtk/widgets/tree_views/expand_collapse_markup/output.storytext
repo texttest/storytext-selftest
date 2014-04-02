@@ -1,6 +1,6 @@
 
 ---------- Window 'Basic TreeView Example' ----------
-Focus widget is 'GtkButton'
+Focus widget is 'GtkTreeView'
 
 Showing GtkTreeView with columns: 
 -> parent 0 (bold)

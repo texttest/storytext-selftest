@@ -59,7 +59,7 @@ class BasicTreeViewExample:
         # make it searchable
         self.treeview.set_search_column(0)
         self.treeview.get_selection().set_mode(gtk.SELECTION_MULTIPLE)
-
+        
         # Allow sorting on the column
         self.tvcolumn.set_sort_column_id(0)
 
@@ -67,6 +67,7 @@ class BasicTreeViewExample:
         self.treeview.set_reorderable(True)
 
         self.window.add(self.treeview)
+        self.treeview.grab_focus()
 
         self.window.show_all()
         

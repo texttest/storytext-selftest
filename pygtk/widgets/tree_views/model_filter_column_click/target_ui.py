@@ -100,6 +100,7 @@ class TreeModelFilterExample:
         self.scrolledwindow.add(self.treeview)
         self.window.add(self.vbox)
 
+        self.treeview.grab_focus()
         self.window.show_all()
 
     def column_clicked(self, column):

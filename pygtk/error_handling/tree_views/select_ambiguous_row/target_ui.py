@@ -65,6 +65,7 @@ class BasicTreeViewExample:
 
         self.window.add(self.treeview)
 
+        self.treeview.grab_focus()
         self.window.show_all()
 
     def selectionChanged(self, selection, *args):

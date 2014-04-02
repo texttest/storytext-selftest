@@ -85,6 +85,7 @@ class TreeViewColumnExample:
 
         self.window.add(self.treeview)
 
+        self.treeview.grab_focus()
         self.window.show_all()
 
 def main():
