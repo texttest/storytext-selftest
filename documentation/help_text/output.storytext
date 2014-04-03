@@ -33,6 +33,10 @@ Options:
   -I IMAGEDESCRIPTION, --imagedescription=IMAGEDESCRIPTION
                         determines how images are described by the auto-
                         generated output, should be 'name' or 'number'
+  -k PRIMARY_KEY_COLUMNS, --primary-key-columns=PRIMARY_KEY_COLUMNS
+                        Names of columns to use as primary keys when indexing
+                        tables. Useful when the built in algorithm for this
+                        gets the wrong answer for some reason.
   -l LEVEL, --loglevel=LEVEL
                         produce logging at level LEVEL, should be 'info',
                         'debug', 'config' or 'off'. 'info' will point the

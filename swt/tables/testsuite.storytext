@@ -30,3 +30,6 @@ no_columns
 
 # If a primary key candidate is too long, ignore it
 long_primary_key
+
+# We can point out primary keys in the options also
+primary_key_in_options
