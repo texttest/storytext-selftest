@@ -1,1 +1,1 @@
-CLASSPATH:${SWING_CLASSPATH}
+CLASSPATH:${TEXTTEST_CHECKOUT}/${PLATFORM_DIR}/Lib/site-packages/storytext/javaswingtoolkit/*
