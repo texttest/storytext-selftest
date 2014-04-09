@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: latin-1 -*-
 
 import os.path
@@ -22,7 +23,7 @@ class GuiCreator():
     def _create_menu(self):
         menuBar = wx.MenuBar()
         menu1 = wx.Menu()
-        menu1.Append(101, "aha÷", "")
+        menu1.Append(101, u"aha÷", "")
         menuBar.Append(menu1, "&File")
         self.SetMenuBar(menuBar)
 
