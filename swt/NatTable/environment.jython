@@ -1,1 +1,1 @@
-CLASSPATH:${ECLIPSE_PATH_NEBULA}/plugins/*
+CLASSPATH:${ECLIPSE_ROOT}/eclipse_nattable/plugins/*

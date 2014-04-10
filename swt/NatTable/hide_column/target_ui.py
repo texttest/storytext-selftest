@@ -11,7 +11,7 @@
 
 from org.eclipse.nebula.widgets import nattable
 from org.eclipse import swt
-from java.util import Date
+from java.util import Date, TimeZone
 
 DATE_LABEL = "date_label"
 
@@ -38,7 +38,8 @@ def createNatTable(parent):
     table = nattable.NatTable(parent, gridLayer, True)
     CONVERTER = nattable.config.CellConfigAttributes.DISPLAY_CONVERTER
     NORMAL = nattable.style.DisplayMode.NORMAL
-    dateConverter = nattable.data.convert.DefaultDateDisplayConverter("yyyy-MM-dd HH:mm")
+    tz = TimeZone.getTimeZone("GMT+1")
+    dateConverter = nattable.data.convert.DefaultDateDisplayConverter("yyyy-MM-dd HH:mm", tz)
     table.getConfigRegistry().registerConfigAttribute(CONVERTER, dateConverter, NORMAL, DATE_LABEL)
     table.doCommand(nattable.resize.command.ColumnResizeCommand(rowHeaderLayer, 0, 0))
     return table

@@ -11,7 +11,9 @@
 
 from org.eclipse.nebula.widgets import nattable
 from org.eclipse import swt
-from java.util import Date
+from java.util import Date, TimeZone
+
+DATE_LABEL = "date_label"
 
 class Person:
     properties = [ "id", "name", "birthDate" ]
@@ -38,6 +40,11 @@ def createNatTable(parent):
     natTable.addConfiguration(nattable.ui.menu.HeaderMenuConfiguration(natTable))
     natTable.addConfiguration(EditableGridConfiguration())
     natTable.configure()
+    CONVERTER = nattable.config.CellConfigAttributes.DISPLAY_CONVERTER
+    NORMAL = nattable.style.DisplayMode.NORMAL
+    tz = TimeZone.getTimeZone("GMT+1")
+    dateConverter = nattable.data.convert.DefaultDateDisplayConverter("yyyy-MM-dd HH:mm", tz)
+    natTable.getConfigRegistry().registerConfigAttribute(CONVERTER, dateConverter, NORMAL, DATE_LABEL)
     return natTable
 
 class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
@@ -59,12 +66,19 @@ def setupBodyDataProvider():
                Person(140, "Dogbert", Date(5000000)) ]
 		
     return nattable.data.ListDataProvider(people, MyPropAccessor())
-
 	
+class MyLabelAccumulator(nattable.layer.cell.AbstractOverrider):
+    def accumulateConfigLabels(self, configLabels, columnPosition, rowPosition):
+        if columnPosition == 2:
+            configLabels.addLabel(DATE_LABEL)
+
 
 class BodyLayerStack(nattable.layer.AbstractLayerTransform):
     def __init__(self, dataProvider):
         bodyDataLayer = nattable.layer.DataLayer(dataProvider)
+        accumulator = MyLabelAccumulator()
+        bodyDataLayer.setConfigLabelAccumulator(accumulator)
+
         columnReorderLayer = nattable.reorder.ColumnReorderLayer(bodyDataLayer)
         columnHideShowLayer = nattable.hideshow.ColumnHideShowLayer(columnReorderLayer)
         self.selectionLayer = nattable.selection.SelectionLayer(columnHideShowLayer)
@@ -94,10 +108,11 @@ class EditableGridConfiguration(nattable.config.AbstractRegistryConfiguration):
     def configureRegistry(self, configRegistry):
         attrs = nattable.edit.EditConfigAttributes
         IEditableRule = nattable.config.IEditableRule
+        EDIT = nattable.style.DisplayMode.EDIT
         configRegistry.registerConfigAttribute(attrs.CELL_EDITABLE_RULE, IEditableRule.ALWAYS_EDITABLE)
         configRegistry.registerConfigAttribute(attrs.CELL_EDITABLE_RULE, IEditableRule.NEVER_EDITABLE, 
-                                               nattable.style.DisplayMode.EDIT, "ID")
-
+                                               EDIT, "ID")
+        
 
 display = swt.widgets.Display()
 shell = swt.widgets.Shell(display)

@@ -1,1 +1,1 @@
-CLASSPATH:${ECLIPSE_PATH}/plugins/*
+CLASSPATH:${ECLIPSE_ROOT}/eclipse/plugins/*

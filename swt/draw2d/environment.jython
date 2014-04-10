@@ -1,1 +1,1 @@
-CLASSPATH:${ECLIPSE_PATH_GEF}/plugins/*
+CLASSPATH:${ECLIPSE_ROOT}/eclipse_gef/plugins/*

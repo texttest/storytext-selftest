@@ -1,0 +1,4 @@
+# Require this data to exist, we can't do much if there isn't an Eclipse installation
+link_test_path:$ECLIPSE_ROOT
+
+test_data_require:$ECLIPSE_ROOT
