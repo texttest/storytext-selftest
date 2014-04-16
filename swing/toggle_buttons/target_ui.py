@@ -1,15 +1,15 @@
-from javax import swing
 from java.awt import BorderLayout
+from javax.swing import JFrame, JPanel, JToggleButton
 
 class ToggleButtonApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Toggle Button demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Toggle Button demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        cBox1 = swing.JToggleButton("First", actionPerformed=self.printButton)
-        cBox2 = swing.JToggleButton("Second", actionPerformed=self.printButton)
-        newContentPane = swing.JPanel()
+        cBox1 = JToggleButton("First", actionPerformed=self.printButton)
+        cBox2 = JToggleButton("Second", actionPerformed=self.printButton)
+        newContentPane = JPanel()
         newContentPane.add(cBox1)
         newContentPane.add(cBox2)
         frame.add(newContentPane)

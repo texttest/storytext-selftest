@@ -1,6 +1,7 @@
-from javax import swing
 from java.awt import BorderLayout, Dimension
-from java.awt.event import KeyEvent, MouseAdapter
+from java.awt.event import MouseAdapter
+from javax.swing import JFrame, JPopupMenu, JScrollPane, JTabbedPane, JPanel, JTable, AbstractAction, ListSelectionModel
+from javax.swing.table import DefaultTableModel
 
 class PopupListener(MouseAdapter):
     def __init__(self, popup):
@@ -16,17 +17,17 @@ class PopupListener(MouseAdapter):
         if event.isPopupTrigger():
             self.popupMenu.show(event.getComponent(), event.getX(), event.getY());
 
-class InsertAction(swing.AbstractAction):
+class InsertAction(AbstractAction):
     def __init__(self, name, table):
-        swing.AbstractAction.__init__(self, name)
+        AbstractAction.__init__(self, name)
         self.table = table
         
     def actionPerformed(self, event):
         self.table.getModel().addRow(['', '' ,''])
 
-class TabCloseAction(swing.AbstractAction):
+class TabCloseAction(AbstractAction):
     def __init__(self, name, tab):
-        swing.AbstractAction.__init__(self, name)
+        AbstractAction.__init__(self, name)
         self.tab = tab
         
     def actionPerformed(self, event):
@@ -36,18 +37,18 @@ class TabCloseAction(swing.AbstractAction):
 class TableApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Popup demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Popup demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        scrollPane = swing.JScrollPane()
+        scrollPane = JScrollPane()
         scrollPane.setPreferredSize(Dimension(300,100))
         table = self.createTable()
         table.addMouseListener(PopupListener(self.createTablePopup(table)))
-        tabbedPane = swing.JTabbedPane(swing.JTabbedPane.TOP)
+        tabbedPane = JTabbedPane(JTabbedPane.TOP)
         tabbedPane.addMouseListener(PopupListener(self.createTabPopup(tabbedPane)))
-        panel = swing.JPanel()
+        panel = JPanel()
         tabbedPane.add("Persons", table)
-        tabbedPane.add("Nothing", swing.JPanel())
+        tabbedPane.add("Nothing", JPanel())
         scrollPane.getViewport().setView(tabbedPane)
         
         panel.add(scrollPane)
@@ -61,19 +62,19 @@ class TableApp:
                 ['Eva', '22', 'female'],
                 ]
         columns = ("Name", "Age", "Gender")
-        model = swing.table.DefaultTableModel(data, columns)
-        table = swing.JTable(model)
-        table.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
+        model = DefaultTableModel(data, columns)
+        table = JTable(model)
+        table.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
         table.setCellSelectionEnabled(True)
         return table
 
     def createTablePopup(self, table):
-        popup = swing.JPopupMenu();
+        popup = JPopupMenu();
         popup.add(InsertAction("Insert row", table))
         return popup
     
     def createTabPopup(self, pane):
-        popup = swing.JPopupMenu();
+        popup = JPopupMenu();
         popup.add(TabCloseAction("Close", pane))
         return popup
                 

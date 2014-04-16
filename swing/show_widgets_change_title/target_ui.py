@@ -1,33 +1,32 @@
-from javax import swing
 from java.awt import BorderLayout, Dimension
-from java.awt.event import KeyEvent
-from java.lang import System
+from javax.swing import JFrame, JLabel, JTextField, JToolBar, JPanel, JButton
+
 class ToolBarApp:
         
     def make_ui(self):
-        self.frame = swing.JFrame("Tool bar demo")
-        self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        self.frame = JFrame("Tool bar demo")
+        self.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         self.frame.setLayout(BorderLayout())
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.setLayout(BorderLayout())
         panel.setPreferredSize(Dimension(500, 150))
         self.toolbar = self.createToolBar()
         panel.add(self.toolbar, BorderLayout.NORTH)
-        showButton = swing.JButton('Show Toolbar', actionPerformed=self.showToolbar)
+        showButton = JButton('Show Toolbar', actionPerformed=self.showToolbar)
         panel.add(showButton, BorderLayout.CENTER)
         self.frame.add(panel)
         self.frame.pack()
         self.frame.setVisible(True)
 
     def createToolBar(self):
-        toolBar = swing.JToolBar()
+        toolBar = JToolBar()
         self.addButtons(toolBar)
         toolBar.setVisible(False)
         return toolBar
     
     def addButtons(self, toolBar):
-        toolBar.add(swing.JLabel("Value"))
-        toolBar.add(swing.JTextField(actionPerformed=self.activated))
+        toolBar.add(JLabel("Value"))
+        toolBar.add(JTextField(actionPerformed=self.activated))
             
     def showToolbar(self, event):
         self.toolbar.setVisible(True)

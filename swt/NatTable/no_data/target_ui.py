@@ -9,9 +9,27 @@
 ##     Original authors and others - initial API and implementation
 ## *****************************************************************************
 
-from org.eclipse.nebula.widgets import nattable
-from org.eclipse import swt
-from java.util import Date
+from org.eclipse.nebula.widgets.nattable import NatTable
+from org.eclipse.nebula.widgets.nattable.config import CellConfigAttributes
+from org.eclipse.nebula.widgets.nattable.data import IColumnPropertyAccessor, ListDataProvider
+from org.eclipse.nebula.widgets.nattable.data.convert import DefaultDateDisplayConverter
+from org.eclipse.nebula.widgets.nattable.grid.data import DefaultColumnHeaderDataProvider, DefaultRowHeaderDataProvider, DefaultCornerDataProvider
+from org.eclipse.nebula.widgets.nattable.grid.layer import CornerLayer, GridLayer, ColumnHeaderLayer, RowHeaderLayer
+from org.eclipse.nebula.widgets.nattable.hideshow import ColumnHideShowLayer
+from org.eclipse.nebula.widgets.nattable.layer import DataLayer, AbstractLayerTransform, ILayerListener
+from org.eclipse.nebula.widgets.nattable.layer.cell import AbstractOverrider
+from org.eclipse.nebula.widgets.nattable.reorder import ColumnReorderLayer
+from org.eclipse.nebula.widgets.nattable.resize.command import InitializeAutoResizeColumnsCommand, InitializeAutoResizeRowsCommand
+from org.eclipse.nebula.widgets.nattable.selection import SelectionLayer
+from org.eclipse.nebula.widgets.nattable.selection.event import CellSelectionEvent
+from org.eclipse.nebula.widgets.nattable.style import DisplayMode
+from org.eclipse.nebula.widgets.nattable.util import GCFactory
+from org.eclipse.nebula.widgets.nattable.viewport import ViewportLayer
+
+from org.eclipse.swt import SWT
+from org.eclipse.swt.layout import GridLayout, GridData
+from org.eclipse.swt.widgets import Display, Shell, Listener
+
 
 DATE_LABEL = "date_label"
 
@@ -20,84 +38,79 @@ class Person:
     propertyToLabels = { "id" : "ID", "name": "First Name", "birthDate": "DOB"}
     def __init__(self, *args):
         self.args = args
-	
 
 def createNatTable(parent):
     bodyDataProvider = setupBodyDataProvider()
-    colHeaderDataProvider = nattable.grid.data.DefaultColumnHeaderDataProvider(Person.properties, Person.propertyToLabels)
-    rowHeaderDataProvider = nattable.grid.data.DefaultRowHeaderDataProvider(bodyDataProvider)
+    colHeaderDataProvider = DefaultColumnHeaderDataProvider(Person.properties, Person.propertyToLabels)
+    rowHeaderDataProvider = DefaultRowHeaderDataProvider(bodyDataProvider)
 
     bodyLayer = BodyLayerStack(bodyDataProvider)
     columnHeaderLayer = ColumnHeaderLayerStack(colHeaderDataProvider, bodyLayer)
     rowHeaderLayer = RowHeaderLayerStack(rowHeaderDataProvider, bodyLayer)
-    cornerDataProvider = nattable.grid.data.DefaultCornerDataProvider(colHeaderDataProvider, rowHeaderDataProvider)
-    dataLayer = nattable.layer.DataLayer(cornerDataProvider)
-    cornerLayer = nattable.grid.layer.CornerLayer(dataLayer, rowHeaderLayer, columnHeaderLayer)
+    cornerDataProvider = DefaultCornerDataProvider(colHeaderDataProvider, rowHeaderDataProvider)
+    dataLayer = DataLayer(cornerDataProvider)
+    cornerLayer = CornerLayer(dataLayer, rowHeaderLayer, columnHeaderLayer)
 
-    gridLayer = nattable.grid.layer.GridLayer(bodyLayer, columnHeaderLayer, rowHeaderLayer, cornerLayer)
-    table = nattable.NatTable(parent, gridLayer, True)
-    table.getConfigRegistry().registerConfigAttribute(nattable.config.CellConfigAttributes.DISPLAY_CONVERTER, 
-                                                      nattable.data.convert.DefaultDateDisplayConverter(), 
-                                                      nattable.style.DisplayMode.NORMAL, 
+    gridLayer = GridLayer(bodyLayer, columnHeaderLayer, rowHeaderLayer, cornerLayer)
+    table = NatTable(parent, gridLayer, True)
+    table.getConfigRegistry().registerConfigAttribute(CellConfigAttributes.DISPLAY_CONVERTER, 
+                                                      DefaultDateDisplayConverter(), 
+                                                      DisplayMode.NORMAL, 
                                                       DATE_LABEL);
     return table
 
-class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
+class MyPropAccessor(IColumnPropertyAccessor):
     def getColumnCount(self):
         return 3
 
     def getDataValue(self, rowObj, colIndex):
         return rowObj.args[colIndex]
-	
+
     def setDataValue(self, rowObj, colIndex, newValue):
         print "Set, oops!"
 
 
 def setupBodyDataProvider():
     people = []
-    return nattable.data.ListDataProvider(people, MyPropAccessor())
+    return ListDataProvider(people, MyPropAccessor())
 
 
-class MyLabelAccumulator(nattable.layer.cell.AbstractOverrider):
+class MyLabelAccumulator(AbstractOverrider):
     def accumulateConfigLabels(self, configLabels, columnPosition, rowPosition):
         if columnPosition == 2:
             configLabels.addLabel(DATE_LABEL)
 
-class BodyLayerStack(nattable.layer.AbstractLayerTransform):
+class BodyLayerStack(AbstractLayerTransform):
     def __init__(self, dataProvider):
-        bodyDataLayer = nattable.layer.DataLayer(dataProvider)
+        bodyDataLayer = DataLayer(dataProvider)
         accumulator = MyLabelAccumulator()
         bodyDataLayer.setConfigLabelAccumulator(accumulator)
-        columnReorderLayer = nattable.reorder.ColumnReorderLayer(bodyDataLayer)
-        columnHideShowLayer = nattable.hideshow.ColumnHideShowLayer(columnReorderLayer)
-        self.selectionLayer = nattable.selection.SelectionLayer(columnHideShowLayer)
-        viewportLayer = nattable.viewport.ViewportLayer(self.selectionLayer)
+        columnReorderLayer = ColumnReorderLayer(bodyDataLayer)
+        columnHideShowLayer = ColumnHideShowLayer(columnReorderLayer)
+        self.selectionLayer = SelectionLayer(columnHideShowLayer)
+        viewportLayer = ViewportLayer(self.selectionLayer)
         self.setUnderlyingLayer(viewportLayer)
-		
+
     def getSelectionLayer(self):
         return self.selectionLayer
-		
-	
 
-class ColumnHeaderLayerStack(nattable.layer.AbstractLayerTransform):
+class ColumnHeaderLayerStack(AbstractLayerTransform):
     def __init__(self, dataProvider, bodyLayer):
-        dataLayer = nattable.layer.DataLayer(dataProvider)
-        colHeaderLayer = nattable.grid.layer.ColumnHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
+        dataLayer = DataLayer(dataProvider)
+        colHeaderLayer = ColumnHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
         self.setUnderlyingLayer(colHeaderLayer)
-		
-	
 
-class RowHeaderLayerStack(nattable.layer.AbstractLayerTransform): 
+class RowHeaderLayerStack(AbstractLayerTransform): 
     def __init__(self, dataProvider, bodyLayer):
-        dataLayer = nattable.layer.DataLayer(dataProvider, 50, 20)
-        rowHeaderLayer = nattable.grid.layer.RowHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
+        dataLayer = DataLayer(dataProvider, 50, 20)
+        rowHeaderLayer = RowHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
         self.setUnderlyingLayer(rowHeaderLayer)
 
-display = swt.widgets.Display()
-shell = swt.widgets.Shell(display)
-shell.setLayout(swt.layout.GridLayout())
+display = Display()
+shell = Shell(display)
+shell.setLayout(GridLayout())
 
-class MyPaintListener(swt.widgets.Listener):
+class MyPaintListener(Listener):
     def __init__(self):
         self.resized = False
 
@@ -108,30 +121,30 @@ class MyPaintListener(swt.widgets.Listener):
         self.resized = True
         table = e.widget
         for i in range(table.getColumnCount()):
-            columnCommand = nattable.resize.command.InitializeAutoResizeColumnsCommand(table, 
-                                                                                       i, table.getConfigRegistry(), 
-                                                                                       nattable.util.GCFactory(table))
+            columnCommand = InitializeAutoResizeColumnsCommand(table, 
+                                                               i, table.getConfigRegistry(), 
+                                                               GCFactory(table))
             table.doCommand(columnCommand)
                 
         for i in range(table.getRowCount()):
-            rowCommand = nattable.resize.command.InitializeAutoResizeRowsCommand(table, 
-                                                                                 i, table.getConfigRegistry(), 
-                                                                                 nattable.util.GCFactory(table))
+            rowCommand = InitializeAutoResizeRowsCommand(table, 
+                                                         i, table.getConfigRegistry(), 
+                                                         GCFactory(table))
             table.doCommand(rowCommand)
     
         
 table = createNatTable(shell)
-data = swt.layout.GridData(swt.SWT.FILL, swt.SWT.FILL, True, True)
+data = GridData(SWT.FILL, SWT.FILL, True, True)
 table.setLayoutData(data)
 table.pack()
 
-class MyLayerListener(nattable.layer.ILayerListener):
+class MyLayerListener(ILayerListener):
     def handleLayerEvent(self, e):
-        if isinstance(e, nattable.selection.event.CellSelectionEvent):
+        if isinstance(e, CellSelectionEvent):
             print "Clicked on cell labelled '" + str(table.getDataValueByPosition(e.getColumnPosition(), e.getRowPosition())) + "'"
 
 
-table.addListener(swt.SWT.Paint, MyPaintListener())
+table.addListener(SWT.Paint, MyPaintListener())
 table.addLayerListener(MyLayerListener())
 shell.open()
 while not shell.isDisposed():

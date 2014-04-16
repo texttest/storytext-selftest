@@ -1,22 +1,21 @@
-from javax import swing
 from java.awt import BorderLayout
-from java.awt.event import ActionListener
+from javax.swing import JButton, JPanel, JFrame, JLabel, JTextField
 
 class TextFieldApp: 
     def make_ui(self):
-        frame = swing.JFrame("Text field demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Text field demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
         frame.setSize(300, 200)
-        button = swing.JButton("Change text", actionPerformed=self.changeText)
-        panel2 = swing.JPanel(BorderLayout())
-        textLabel = swing.JLabel("Some Text: ")
-        self.textField = swing.JTextField()
+        button = JButton("Change text", actionPerformed=self.changeText)
+        panel2 = JPanel(BorderLayout())
+        textLabel = JLabel("Some Text: ")
+        self.textField = JTextField()
         panel2.add(textLabel, BorderLayout.WEST)
         panel2.add(self.textField, BorderLayout.CENTER)
-        panel = swing.JPanel(BorderLayout())
+        panel = JPanel(BorderLayout())
         panel.add(button)
-        panel3 = swing.JPanel()
+        panel3 = JPanel()
         frame.getContentPane().add(panel, BorderLayout.NORTH)
         frame.getContentPane().add(panel2, BorderLayout.CENTER)
         frame.getContentPane().add(panel3, BorderLayout.SOUTH)

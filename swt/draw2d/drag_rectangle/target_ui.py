@@ -1,9 +1,10 @@
-from org.eclipse import draw2d
+from org.eclipse.draw2d import MouseMotionListener, MouseListener, RectangleFigure, Figure, FigureCanvas, Label, LineBorder, MarginBorder, ColorConstants
+from org.eclipse.draw2d.geometry import Rectangle
 from org.eclipse.swt import SWT
 from org.eclipse.swt.widgets import Display, Shell
 from org.eclipse.swt.layout import GridLayout, GridData
 
-class Dragger(draw2d.MouseMotionListener, draw2d.MouseListener):
+class Dragger(MouseMotionListener, MouseListener):
     def __init__(self, figure):
         figure.addMouseMotionListener(self);
         figure.addMouseListener(self);
@@ -34,9 +35,9 @@ class Dragger(draw2d.MouseMotionListener, draw2d.MouseListener):
         f = e.getSource()
         f.setBounds(f.getBounds().getTranslated(delta.width(), delta.height()))
 
-class TextRectangle(draw2d.RectangleFigure):
+class TextRectangle(RectangleFigure):
     def __init__(self):
-        draw2d.RectangleFigure.__init__(self)
+        RectangleFigure.__init__(self)
         self.texts = []
 
     def setText(self, text, x=2, y=2):
@@ -46,31 +47,31 @@ class TextRectangle(draw2d.RectangleFigure):
     def paintFigure(self, graphics):
         alpha = graphics.getAlpha()
         graphics.setAlpha(50)
-        draw2d.RectangleFigure.paintFigure(self, graphics)
+        RectangleFigure.paintFigure(self, graphics)
         graphics.setAlpha(alpha)
         loc = self.getLocation()
         for text, x, y in self.texts:
             graphics.drawString(text, loc.x() + x, loc.y() + y) 
 
 def createNode(x, y, color=None, border=None, cls=None, text=None, width=50, height=30):
-    actualCls = cls or draw2d.RectangleFigure
+    actualCls = cls or RectangleFigure
     node1 = actualCls()
     if color:
         node1.setBackgroundColor(color)
     if text:
         node1.setText(text)
-    node1.setBounds(draw2d.geometry.Rectangle(x, y, width, height))
+    node1.setBounds(Rectangle(x, y, width, height))
     if border:
         node1.setBorder(border)
     Dragger(node1)
     return node1
     
 def getContents():
-    panel = draw2d.Figure()
-    panel.setBounds(draw2d.geometry.Rectangle(0,0,500,440))
-    panel.add(createNode(40, 42, cls=draw2d.Label, text="A longish label", width=100))
-    panel.add(createNode(38, 98, draw2d.ColorConstants.lightBlue, border=draw2d.LineBorder()))
-    panel.add(createNode(100, 100, draw2d.ColorConstants.lightGreen, border=draw2d.MarginBorder(1), cls=TextRectangle, text="hello"))
+    panel = Figure()
+    panel.setBounds(Rectangle(0,0,500,440))
+    panel.add(createNode(40, 42, cls=Label, text="A longish label", width=100))
+    panel.add(createNode(38, 98, ColorConstants.lightBlue, border=LineBorder()))
+    panel.add(createNode(100, 100, ColorConstants.lightGreen, border=MarginBorder(1), cls=TextRectangle, text="hello"))
     rect = createNode(41, 160, cls=TextRectangle, text="topleft", width=100, height=100)
     rect.addText("topmid", x=50)
     rect.addText("centre", x=50, y=40)
@@ -82,7 +83,7 @@ d = Display.getDefault();
 shell = Shell(d, SWT.SHELL_TRIM)
 shell.setText("Draw2d Application")
 shell.setLayout(GridLayout(2, False))
-figureCanvas = draw2d.FigureCanvas(shell)
+figureCanvas = FigureCanvas(shell)
 figureCanvas.setContents(getContents())
 figureCanvas.getViewport().setContentsTracksHeight(True)
 figureCanvas.getViewport().setContentsTracksWidth(True)

@@ -1,11 +1,9 @@
 # -*- encoding: latin-1 -*-
-
-from javax import swing
-from java.awt import *
-from java.util import *
+from javax.swing import JButton, JPanel, JFrame, WindowConstants
+from java.awt import GridBagLayout, GridBagConstraints
 
 def makeButton(name, layout, constraints, panel, x, y):
-    button = swing.JButton(name)
+    button = JButton(name)
     constraints.gridx = x
     constraints.gridy = y
     layout.setConstraints(button, constraints)
@@ -14,7 +12,7 @@ def makeButton(name, layout, constraints, panel, x, y):
 
 def makeGridBagPanel():
     gridbag = GridBagLayout()
-    panel = swing.JPanel(gridbag)
+    panel = JPanel(gridbag)
     constraints = GridBagConstraints()
     constraints.fill = GridBagConstraints.BOTH
     makeButton("Button One", gridbag, constraints, panel, 0, 0)
@@ -22,21 +20,21 @@ def makeGridBagPanel():
     return panel
 
 if __name__ == "__main__":
-    frame = swing.JFrame("ButtonDemo")
-    frame.setDefaultCloseOperation(swing.WindowConstants.DISPOSE_ON_CLOSE)
+    frame = JFrame("ButtonDemo")
+    frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE)
 
     layout = GridBagLayout()
-    panel = swing.JPanel(layout)
+    panel = JPanel(layout)
     constraints = GridBagConstraints()
     constraints.fill = GridBagConstraints.BOTH
     constraints.gridx = 0
     constraints.gridy = 0
 
-    subpanel1 = swing.JPanel(GridBagLayout())
+    subpanel1 = JPanel(GridBagLayout())
     layout.setConstraints(subpanel1, constraints)
     panel.add(subpanel1)
 
-    subpanel2 = swing.JPanel(GridBagLayout())
+    subpanel2 = JPanel(GridBagLayout())
     subpanel2.add(makeGridBagPanel())
     constraints.gridx = 1
     layout.setConstraints(subpanel2, constraints)

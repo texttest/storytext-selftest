@@ -1,18 +1,18 @@
-from javax import swing
 from java.awt import BorderLayout
+from javax.swing import JRadioButton, JPanel, JFrame, ButtonGroup
 
 class RadioButtonApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Radio button demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Radio button demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        rButton1 = swing.JRadioButton("First", actionPerformed=self.printButton)
-        rButton2 = swing.JRadioButton("Second", actionPerformed=self.printButton)
-        newContentPane = swing.JPanel()
+        rButton1 = JRadioButton("First", actionPerformed=self.printButton)
+        rButton2 = JRadioButton("Second", actionPerformed=self.printButton)
+        newContentPane = JPanel()
         newContentPane.add(rButton1)
         newContentPane.add(rButton2)
-        buttonGroup = swing.ButtonGroup()
+        buttonGroup = ButtonGroup()
         buttonGroup.add(rButton1)
         buttonGroup.add(rButton2)
         frame.add(newContentPane)

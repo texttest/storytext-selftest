@@ -1,19 +1,19 @@
-from javax import swing
 from java.awt import BorderLayout, Dimension
-from java.awt.event import KeyEvent
+from javax.swing import JFrame, JScrollPane, JPanel, JButton, JTable, ListSelectionModel
+from javax.swing.table import DefaultTableModel
 
 class TableApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Table demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Table demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        scrollPane = swing.JScrollPane()
+        scrollPane = JScrollPane()
         scrollPane.setPreferredSize(Dimension(300,100))
         self.table = self.createTable()
         scrollPane.getViewport().setView(self.table)
-        button = swing.JButton("Add Rows", actionPerformed=self.addRows)
-        panel = swing.JPanel()
+        button = JButton("Add Rows", actionPerformed=self.addRows)
+        panel = JPanel()
         panel.add(button)
         panel.add(scrollPane)
         frame.add(panel)
@@ -24,9 +24,9 @@ class TableApp:
         data = [
                 ]
         columns = ("Type", "Name", "Age", "Gender")
-        self.model = swing.table.DefaultTableModel(data, columns)
-        table = swing.JTable(self.model)
-        table.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
+        self.model = DefaultTableModel(data, columns)
+        table = JTable(self.model)
+        table.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
         table.setCellSelectionEnabled(True)
         return table
 

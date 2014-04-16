@@ -1,6 +1,6 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Menu, MenuItem, Composite, Label, Text, Button, Listener
+from org.eclipse.swt.layout import FillLayout, GridLayout
 
 shell = Shell()
 

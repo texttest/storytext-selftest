@@ -1,12 +1,11 @@
-from javax import swing
-from java.awt import BorderLayout, Dimension, BasicStroke, Color
-from java.awt.event import KeyEvent
+from java.awt import BorderLayout,BasicStroke, Color
 from java.lang import System
+from javax.swing import JFrame, JPanel, JButton, JToolBar, Icon
 
 # Translated from Java example code
 ## @author Collin Fagan
 ## @date 7/25/2007
-class RedCrossIcon(swing.Icon):
+class RedCrossIcon(Icon):
     def __init__(self, size=32, description=""):
         self.width = size
         self.height = size
@@ -47,10 +46,10 @@ class RedCrossIconWithImage(RedCrossIcon):
 class ToolBarApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Tool bar demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Tool bar demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        panel = swing.JPanel()
+        panel = JPanel()
         #panel.setPreferredSize(Dimension(500, 100))
         panel.add(self.createToolBar())
         frame.add(panel)
@@ -58,37 +57,37 @@ class ToolBarApp:
         frame.setVisible(True)
 
     def createToolBar(self):
-        toolBar = swing.JToolBar()
+        toolBar = JToolBar()
         self.addButtons(toolBar)
         return toolBar
     
     def addButtons(self, toolBar):
         icon = RedCrossIcon(32)
-        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button = JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item1")
         toolBar.add(button)
 
-        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button = JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item2")
         toolBar.add(button)
 
         icon = RedCrossIconWithImage(32)
-        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button = JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item3")
         toolBar.add(button)
 
         icon = RedCrossIconWithImage(32)
-        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button = JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item4")
         toolBar.add(button)
 
         icon = RedCrossIcon(32, "Has description")
-        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button = JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item5")
         toolBar.add(button)
 
         icon = RedCrossIcon(32, "Came from file:/some/path/image.gif")
-        button = swing.JButton(icon, actionPerformed=self.printButton)
+        button = JButton(icon, actionPerformed=self.printButton)
         button.setToolTipText("Item6")
         toolBar.add(button)
 

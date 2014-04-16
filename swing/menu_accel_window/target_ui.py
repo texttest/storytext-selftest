@@ -1,11 +1,9 @@
+from java.awt.event import KeyEvent, ActionEvent, ActionListener
+from javax.swing import JFrame, JMenu, JMenuBar, JMenuItem, KeyStroke
 
-from javax import swing
-from java import awt
-from java.lang import System
-
-class KeyboardDemo(swing.JFrame, awt.event.ActionListener):
+class KeyboardDemo(JFrame, ActionListener):
     def __init__(self):
-        swing.JFrame.__init__(self, "Keyboard Demo")
+        JFrame.__init__(self, "Keyboard Demo")
         
         #Set up the GUI.
         self.setJMenuBar(self.createMenuBar())
@@ -13,22 +11,22 @@ class KeyboardDemo(swing.JFrame, awt.event.ActionListener):
         self.setSize(500, 500)
 
     def createMenuBar(self): 
-        menuBar = swing.JMenuBar()
+        menuBar = JMenuBar()
 
         #Set up the lone menu.
-        menu = swing.JMenu("File")
+        menu = JMenu("File")
         menuBar.add(menu)
 
         #Set up the first menu item.
-        menuItem = swing.JMenuItem("New")
-        menuItem.setAccelerator(swing.KeyStroke.getKeyStroke(awt.event.KeyEvent.VK_N, awt.event.ActionEvent.CTRL_MASK))
+        menuItem = JMenuItem("New")
+        menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK))
         menuItem.setActionCommand("new")
         menuItem.addActionListener(self)
         menu.add(menuItem)
 
         #Set up the second menu item.
-        menuItem = swing.JMenuItem("Quit")
-        menuItem.setAccelerator(swing.KeyStroke.getKeyStroke(awt.event.KeyEvent.VK_Q, awt.event.ActionEvent.CTRL_MASK))
+        menuItem = JMenuItem("Quit")
+        menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.CTRL_MASK))
         menuItem.setActionCommand("quit")
         menuItem.addActionListener(self)
         menu.add(menuItem)

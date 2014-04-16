@@ -1,5 +1,5 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Shell, ToolBar, ToolItem, Listener
 
 def addItem(i, bar):
     item = ToolItem(bar, SWT.PUSH)

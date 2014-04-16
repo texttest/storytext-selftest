@@ -14,9 +14,10 @@
 ##  * For a list of all SWT example snippets see
 ##  * http://www.eclipse.org/swt/snippets/
 ## */
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
+
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Menu, MenuItem, Composite, Label, Text, Button, Listener
+from org.eclipse.swt.layout import FillLayout, GridLayout
 from org.eclipse.jface.fieldassist import ControlDecoration
 
 display = Display()

@@ -1,10 +1,10 @@
-from javax import swing
 from java.awt import BorderLayout, Dimension
-from java.awt.event import KeyEvent
+from javax.swing import JFrame, JScrollPane, JPanel, JTable, ListSelectionModel
+from javax.swing.table import DefaultTableModel, DefaultTableCellRenderer
 
-class MyRenderer(swing.table.DefaultTableCellRenderer):
+class MyRenderer(DefaultTableCellRenderer):
     def getTableCellRendererComponent(self, widget, value, *args):
-        component = swing.table.DefaultTableCellRenderer.getTableCellRendererComponent(self, widget, value, *args)
+        component = DefaultTableCellRenderer.getTableCellRendererComponent(self, widget, value, *args)
         component.setText("Rendered " + value)
         return component
 
@@ -12,13 +12,13 @@ class MyRenderer(swing.table.DefaultTableCellRenderer):
 class TableApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Table demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Table demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        scrollPane = swing.JScrollPane()
+        scrollPane = JScrollPane()
         scrollPane.setPreferredSize(Dimension(300,100))
         scrollPane.getViewport().setView(self.createTable())
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.add(scrollPane)
         frame.add(panel)
         frame.pack()
@@ -30,9 +30,9 @@ class TableApp:
                 ['Eva', '22', 'female'],
                 ]
         columns = ("Name", "Age", "Gender")
-        model = swing.table.DefaultTableModel(data, columns)
-        table = swing.JTable(model)
-        table.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
+        model = DefaultTableModel(data, columns)
+        table = JTable(model)
+        table.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
         table.setCellSelectionEnabled(True)
         table.getColumnModel().getColumn(0).setCellRenderer(MyRenderer())
         return table

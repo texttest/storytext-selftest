@@ -1,16 +1,16 @@
-from javax import swing
 from java.awt import BorderLayout, Dimension
 from java.awt.event import KeyEvent
-from java.lang import System
+from javax.swing import JFrame, JMenu, JMenuBar, JMenuItem, JPanel, JLabel, JTextField, KeyStroke
+
 class MenuApp:
         
     def make_ui(self):
-        self.frame = swing.JFrame("Menu demo")
-        self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        self.frame = JFrame("Menu demo")
+        self.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         self.frame.setLayout(BorderLayout())
-        panel2 = swing.JPanel(BorderLayout())
-        textLabel = swing.JLabel("Some Text: ")
-        self.textField = swing.JTextField()
+        panel2 = JPanel(BorderLayout())
+        textLabel = JLabel("Some Text: ")
+        self.textField = JTextField()
         panel2.add(textLabel, BorderLayout.WEST)
         panel2.add(self.textField, BorderLayout.CENTER)
         panel2.setOpaque(True) #content panes must be opaque
@@ -21,14 +21,14 @@ class MenuApp:
         self.frame.setVisible(True)
 
     def createMenuBar(self):
-        menuBar = swing.JMenuBar()
-        menu = swing.JMenu("File")
+        menuBar = JMenuBar()
+        menu = JMenu("File")
         menu.setMnemonic(KeyEvent.VK_F)
-        addItem = swing.JMenuItem("Add Text", actionPerformed=self.addText)
-        addItem.setAccelerator(swing.KeyStroke.getKeyStroke(KeyEvent.VK_T, KeyEvent.CTRL_MASK))       
+        addItem = JMenuItem("Add Text", actionPerformed=self.addText)
+        addItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_T, KeyEvent.CTRL_MASK))       
         menu.add(addItem)
-        quitItem = swing.JMenuItem("Quit", actionPerformed=self.quit)
-        quitItem.setAccelerator(swing.KeyStroke.getKeyStroke(KeyEvent.VK_Q, KeyEvent.CTRL_MASK))       
+        quitItem = JMenuItem("Quit", actionPerformed=self.quit)
+        quitItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, KeyEvent.CTRL_MASK))       
         menu.add(quitItem)
         menuBar.add(menu)
         return menuBar

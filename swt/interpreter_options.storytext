@@ -1,3 +1,4 @@
 # None of our tests involve complicated characters currently.
 # So we just hardcode the keyboard layout. Otherwise SWTBot just throws exceptions if it doesn't recognise whatever is present
+-Dpython.cachedir.skip=true
 -Dorg.eclipse.swtbot.keyboard.layout=EN_US

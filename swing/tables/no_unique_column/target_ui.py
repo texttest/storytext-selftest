@@ -1,8 +1,8 @@
-from javax import swing
 from java.awt import BorderLayout, Dimension
-from java.awt.event import MouseAdapter
+from javax.swing import JFrame, JScrollPane, JPanel, JTable, ListSelectionModel
+from javax.swing.table import DefaultTableModel
 
-class MyTableModel(swing.table.DefaultTableModel):
+class MyTableModel(DefaultTableModel):
     def isCellEditable(self, row, col):
         return col != 2
 
@@ -10,13 +10,13 @@ class MyTableModel(swing.table.DefaultTableModel):
 class TableApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Table demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Table demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        scrollPane = swing.JScrollPane()
+        scrollPane = JScrollPane()
         scrollPane.setPreferredSize(Dimension(300,100))
         scrollPane.getViewport().setView(self.createTable())
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.add(scrollPane)
         frame.add(panel)
         frame.pack()
@@ -30,8 +30,8 @@ class TableApp:
                 ]
         columns = ("Species", "Name", "Age", "Gender")
         model = MyTableModel(data, columns)
-        table = swing.JTable(model)
-        table.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
+        table = JTable(model)
+        table.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
         table.setCellSelectionEnabled(True)
         return table
             

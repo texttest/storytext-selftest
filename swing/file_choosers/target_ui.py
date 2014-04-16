@@ -1,11 +1,7 @@
-
-from java.io import *
-from java.awt import *
-from java.awt.event import *
-from javax.swing import *
-from javax.swing.filechooser import *
+from java.awt import BorderLayout, Insets
+from java.awt.event import ActionListener
 from java.lang import Runnable
-import os
+from javax.swing import JFrame, JPanel, JButton, JFileChooser, JTextArea, JScrollPane, SwingUtilities, UIManager
 
 # FileChooserDemo.java uses these files:
 #   images/Open16.gif
@@ -80,9 +76,9 @@ class FileChooserDemo(JPanel, ActionListener):
 
             self.log.setCaretPosition(self.log.getDocument().getLength())
 
-     # Create the GUI and show it.  For thread safety,
-     #self method should be invoked from the
-     # event dispatch thread.
+    # Create the GUI and show it.  For thread safety,
+    #self method should be invoked from the
+    # event dispatch thread.
     @staticmethod
     def createAndShowGUI():
         #Create and set up the window.

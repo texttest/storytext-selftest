@@ -1,18 +1,15 @@
-from javax import swing
-from java.awt import BorderLayout, Dimension
-from java.awt.event import KeyEvent, WindowAdapter
-from java.lang import System, Runnable, Thread
-from javax.swing import JOptionPane, SwingUtilities
+from javax.swing import JFrame, JPanel, JButton, JOptionPane
+from java.awt import BorderLayout
 
 class ConfirmDialogApp:                  
     def make_ui(self):                
-        self.frame = swing.JFrame("Dialog Demo")
-        self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        self.frame = JFrame("Dialog Demo")
+        self.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         self.frame.setLayout(BorderLayout())
-        panel = swing.JPanel()
-        button = swing.JButton("Dialog", actionPerformed=self.showDialog)
+        panel = JPanel()
+        button = JButton("Dialog", actionPerformed=self.showDialog)
         panel.add(button)
-        button2 = swing.JButton("Message", actionPerformed=self.printMessage)
+        button2 = JButton("Message", actionPerformed=self.printMessage)
         panel.add(button2)
         self.frame.add(panel)
         self.frame.pack()

@@ -14,9 +14,9 @@
 ##  * For a list of all SWT example snippets see
 ##  * http://www.eclipse.org/swt/snippets/
 ## */
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Tree, TreeItem, Listener
+from org.eclipse.swt.layout import FillLayout
 
 display = Display()
 shell = Shell(display)

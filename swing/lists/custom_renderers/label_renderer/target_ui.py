@@ -1,7 +1,7 @@
-from javax import swing
+from javax.swing import JLabel, JPanel, JFrame, JList, JScrollPane, ListSelectionModel, ListCellRenderer
 from java.awt import BorderLayout
 
-class LabelListRenderer(swing.JLabel, swing.ListCellRenderer):
+class LabelListRenderer(JLabel, ListCellRenderer):
     def __init__(self):
         self.setOpaque(True)
 
@@ -16,16 +16,16 @@ class LabelListRenderer(swing.JLabel, swing.ListCellRenderer):
 class LabelListApp:
         
     def make_ui(self):
-        frame = swing.JFrame("List box Demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("List box Demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        newContentPane = swing.JPanel()
+        newContentPane = JPanel()
         listData = [ "Item 1", "Item 2", "Item 3", "Item 4" ]
-        list = swing.JList(listData)
-        list.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+        list = JList(listData)
+        list.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
         list.setCellRenderer(LabelListRenderer())
 
-        newContentPane.add(swing.JScrollPane(list), BorderLayout.CENTER);
+        newContentPane.add(JScrollPane(list), BorderLayout.CENTER);
         frame.add(newContentPane)
         frame.pack()
         frame.setVisible(True)

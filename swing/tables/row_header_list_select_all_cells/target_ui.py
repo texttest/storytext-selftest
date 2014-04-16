@@ -1,23 +1,26 @@
 from javax import swing
 from java.awt import BorderLayout, Dimension
 from java.awt.event import KeyEvent
+from javax.swing import JFrame, JScrollPane, JPanel, JTable, JList, ListSelectionModel
+from javax.swing.event import ListSelectionListener
+from javax.swing.table import DefaultTableModel
 
 class TableApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Table demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Table demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        panel = swing.JPanel()
-        scrollPane = swing.JScrollPane()
+        panel = JPanel()
+        scrollPane = JScrollPane()
         self.table = self.createTable()
-        jlist = swing.JList(range(1, 4))
+        jlist = JList(range(1, 4))
         panel.add(jlist)
         panel.add(self.table)
         scrollPane.setColumnHeaderView(self.table.getTableHeader())
         scrollPane.getViewport().setView(panel)
 
-        class ListSelectionListener(swing.event.ListSelectionListener):
+        class MyListSelectionListener(ListSelectionListener):
             def valueChanged(listenerSelf, event):
                 if event.getValueIsAdjusting():
                     return
@@ -25,7 +28,7 @@ class TableApp:
                 for column in range(self.table.getColumnCount()):
                     self.table.changeSelection(event.getFirstIndex(), column, False, True)
                 
-        jlist.addListSelectionListener(ListSelectionListener())
+        jlist.addListSelectionListener(MyListSelectionListener())
         scrollPane.setRowHeaderView(jlist)
         
         panel.setOpaque(True)
@@ -37,14 +40,14 @@ class TableApp:
     def createTable(self):
         data = [ ['Tom'] * 20, ['Dick'] * 20, ['Harry'] * 20 ]
         columns = tuple([ "Name" + str(i) for i in range(1, 21) ])
-        model = swing.table.DefaultTableModel(data, columns)
-        table = swing.JTable(model)
-        table.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
+        model = DefaultTableModel(data, columns)
+        table = JTable(model)
+        table.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
         table.setCellSelectionEnabled(True)
         return table
 
     def createList(self):
-        return swing.JList(range(1, 4))
+        return JList(range(1, 4))
             
     @staticmethod            
     def main():

@@ -1,26 +1,25 @@
-from javax import swing
-from java.awt import *
-from java.util import *
+from javax.swing import JButton, JPanel, JFrame, WindowConstants
+from java.awt import GridLayout
 
 def makeButton(name, layout, constraints, panel):
-    button = swing.JButton(name)
+    button = JButton(name)
     layout.setConstraints(button, constraints)
     panel.add(button)
 
 
 if __name__ == "__main__":
-    frame = swing.JFrame("ButtonDemo")
-    frame.setDefaultCloseOperation(swing.WindowConstants.DISPOSE_ON_CLOSE)
+    frame = JFrame("ButtonDemo")
+    frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE)
     
-    panel = swing.JPanel()
+    panel = JPanel()
     
     grid = GridLayout(2, 2)
 
     panel.setLayout(grid)
 
-    panel.add(swing.JButton("Button One"))
-    panel.add(swing.JButton("Button Two"))        
-    panel.add(swing.JButton("Button Three With An Excessively Long Name"))
+    panel.add(JButton("Button One"))
+    panel.add(JButton("Button Two"))        
+    panel.add(JButton("Button Three With An Excessively Long Name"))
         
     panel.setOpaque(True) #content panes must be opaque
     frame.setContentPane(panel)

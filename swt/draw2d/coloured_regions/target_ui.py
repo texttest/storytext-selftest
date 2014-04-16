@@ -1,11 +1,12 @@
-from org.eclipse import draw2d
+from org.eclipse.draw2d import MouseMotionListener, MouseListener, RectangleFigure, Figure, FigureCanvas, Label, LineBorder, MarginBorder, ColorConstants, FigureUtilities
+from org.eclipse.draw2d.geometry import Rectangle
 from org.eclipse.swt import SWT
+from org.eclipse.swt.graphics import Color as SwtColor
 from org.eclipse.swt.widgets import Display, Shell
 from org.eclipse.swt.layout import GridLayout, GridData
-from org.eclipse import swt
 from java.awt import Color
 
-class Dragger(draw2d.MouseMotionListener, draw2d.MouseListener):
+class Dragger(MouseMotionListener, MouseListener):
     def __init__(self, figure):
         figure.addMouseMotionListener(self);
         figure.addMouseListener(self);
@@ -36,9 +37,9 @@ class Dragger(draw2d.MouseMotionListener, draw2d.MouseListener):
         f = e.getSource()
         f.setBounds(f.getBounds().getTranslated(delta.width(), delta.height()))
 
-class TextRectangle(draw2d.RectangleFigure):
+class TextRectangle(RectangleFigure):
     def __init__(self):
-        draw2d.RectangleFigure.__init__(self)
+        RectangleFigure.__init__(self)
         self.texts = []
         self.rects = []
 
@@ -50,7 +51,7 @@ class TextRectangle(draw2d.RectangleFigure):
         self.rects.append((colour, args))
 
     def paintFigure(self, graphics):
-        draw2d.RectangleFigure.paintFigure(self, graphics)
+        RectangleFigure.paintFigure(self, graphics)
         loc = self.getLocation()
         for color, dimensions in self.rects:
             graphics.setBackgroundColor(color)
@@ -61,7 +62,7 @@ class TextRectangle(draw2d.RectangleFigure):
         
 
 def awtToSwtColor(awtColor):
-    return swt.graphics.Color(Display.getDefault(), awtColor.getRed(), awtColor.getGreen(), awtColor.getBlue())
+    return SwtColor(Display.getDefault(), awtColor.getRed(), awtColor.getGreen(), awtColor.getBlue())
 
 def createNode(x, y, color=None, border=True, cls=None, text=None, width=50, height=30):
     node1 = TextRectangle()
@@ -69,27 +70,27 @@ def createNode(x, y, color=None, border=True, cls=None, text=None, width=50, hei
         node1.setBackgroundColor(color)
     if text:
         node1.setText(text)
-    node1.setBounds(draw2d.geometry.Rectangle(x, y, width, height))
+    node1.setBounds(Rectangle(x, y, width, height))
     if border:
-        node1.setBorder(draw2d.LineBorder())
+        node1.setBorder(LineBorder())
     Dragger(node1)
     return node1
     
 def getContents():
-    panel = draw2d.Figure()
-    panel.setBounds(draw2d.geometry.Rectangle(0,0,500,440))
-    rect = createNode(40, 40, border=False, color=draw2d.ColorConstants.yellow, text="topleft", width=100, height=160)
+    panel = Figure()
+    panel.setBounds(Rectangle(0,0,500,440))
+    rect = createNode(40, 40, border=False, color=ColorConstants.yellow, text="topleft", width=100, height=160)
     rect.addText("topmid", x=50)
     rect.addText("centre", x=50, y=40)
     rect.addText("bottomleft", y=80)
-    rect.addRectangle(draw2d.ColorConstants.lightBlue, 0, 0, 50, 40)
-    rect.addRectangle(draw2d.ColorConstants.lightGreen, 50, 40, 50, 40)
-    #rect.addRectangle(draw2d.ColorConstants.yellow, 0, 40, 50, 40)
+    rect.addRectangle(ColorConstants.lightBlue, 0, 0, 50, 40)
+    rect.addRectangle(ColorConstants.lightGreen, 50, 40, 50, 40)
+    #rect.addRectangle(ColorConstants.yellow, 0, 40, 50, 40)
     rect.addRectangle(awtToSwtColor(Color.orange), 0, 40, 50, 40)
-    rect.addRectangle(draw2d.ColorConstants.orange, 0, 78, 50, 40)
-    rect.addRectangle(draw2d.ColorConstants.red, 50, 78, 50, 40)
-    rect.addRectangle(draw2d.FigureUtilities.lighter(draw2d.ColorConstants.red), 0, 120, 50, 40)
-    rect.addRectangle(draw2d.FigureUtilities.darker(draw2d.ColorConstants.orange), 50, 120, 50, 40)
+    rect.addRectangle(ColorConstants.orange, 0, 78, 50, 40)
+    rect.addRectangle(ColorConstants.red, 50, 78, 50, 40)
+    rect.addRectangle(FigureUtilities.lighter(ColorConstants.red), 0, 120, 50, 40)
+    rect.addRectangle(FigureUtilities.darker(ColorConstants.orange), 50, 120, 50, 40)
     panel.add(rect)
     return panel
 
@@ -97,7 +98,7 @@ d = Display.getDefault();
 shell = Shell(d, SWT.SHELL_TRIM)
 shell.setText("Draw2d Application")
 shell.setLayout(GridLayout(2, False))
-figureCanvas = draw2d.FigureCanvas(shell)
+figureCanvas = FigureCanvas(shell)
 figureCanvas.setContents(getContents())
 figureCanvas.getViewport().setContentsTracksHeight(True)
 figureCanvas.getViewport().setContentsTracksWidth(True)

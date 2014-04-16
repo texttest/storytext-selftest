@@ -1,10 +1,11 @@
-from javax import swing
 from java.awt import BorderLayout, Dimension
 from java.awt.event import ActionListener, MouseEvent
+from javax.swing import JFrame, JScrollPane, JPanel, JTable, JTextField, ListSelectionModel, AbstractCellEditor
+from javax.swing.table import DefaultTableModel, TableCellEditor
 
-class CustomCellEditor(swing.AbstractCellEditor, swing.table.TableCellEditor, ActionListener):
+class CustomCellEditor(AbstractCellEditor, TableCellEditor, ActionListener):
     def __init__(self):
-        self.editorComponent = swing.JTextField()
+        self.editorComponent = JTextField()
         self.editorComponent.addActionListener(self)
         
     def getTableCellEditorComponent(self, table, value, isSelected, rowIndex, vColIndex):
@@ -26,13 +27,13 @@ class CustomCellEditor(swing.AbstractCellEditor, swing.table.TableCellEditor, Ac
     
 class CustomEditorApp:
     def make_ui(self):
-        frame = swing.JFrame("Table demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Table demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        scrollPane = swing.JScrollPane()
+        scrollPane = JScrollPane()
         scrollPane.setPreferredSize(Dimension(300,100))
         scrollPane.getViewport().setView(self.createTable())
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.add(scrollPane)
         frame.add(panel)
         frame.pack()
@@ -41,9 +42,9 @@ class CustomEditorApp:
     def createTable(self):
         data = [ ['Tom', '22'], ['Dick', '23'], ['Harry', '24'] ]
         columns = ("Name", "Age")
-        model = swing.table.DefaultTableModel(data, columns)
-        table = swing.JTable(model)
-        table.setSelectionMode(swing.ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
+        model = DefaultTableModel(data, columns)
+        table = JTable(model)
+        table.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION)
         table.setCellSelectionEnabled(True)
         col = table.getColumnModel().getColumn(1)
         col.setCellEditor(CustomCellEditor())

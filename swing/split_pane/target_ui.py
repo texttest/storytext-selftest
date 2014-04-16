@@ -1,23 +1,23 @@
-from javax import swing
+from javax.swing import JFrame, JLabel, JSplitPane
 
 class DemoApp: 
     def make_ui(self):
-        frame = swing.JFrame("Demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.getContentPane().add(self.getMainPane())
         frame.pack()
         frame.setVisible(True)
 
     def getMainPane(self):
-        pane = swing.JSplitPane(swing.JSplitPane.VERTICAL_SPLIT)
-        pane.setTopComponent(swing.JLabel("The Top"))
+        pane = JSplitPane(JSplitPane.VERTICAL_SPLIT)
+        pane.setTopComponent(JLabel("The Top"))
         pane.setBottomComponent(self.getSubPane())
         return pane
 
     def getSubPane(self):
-        pane = swing.JSplitPane(swing.JSplitPane.HORIZONTAL_SPLIT)
-        pane.setLeftComponent(swing.JLabel("The Left"))
-        pane.setRightComponent(swing.JLabel("The Right"))
+        pane = JSplitPane(JSplitPane.HORIZONTAL_SPLIT)
+        pane.setLeftComponent(JLabel("The Left"))
+        pane.setRightComponent(JLabel("The Right"))
         return pane
 
     @staticmethod        

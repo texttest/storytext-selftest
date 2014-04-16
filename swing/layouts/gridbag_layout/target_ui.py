@@ -1,18 +1,17 @@
-from javax import swing
-from java.awt import *
-from java.util import *
+from javax.swing import JButton, JPanel, JFrame, WindowConstants
+from java.awt import GridBagLayout, GridBagConstraints
 
 def makeButton(name, layout, constraints, panel):
-    button = swing.JButton(name)
+    button = JButton(name)
     layout.setConstraints(button, constraints)
     panel.add(button)
 
 
 if __name__ == "__main__":
-    frame = swing.JFrame("ButtonDemo")
-    frame.setDefaultCloseOperation(swing.WindowConstants.DISPOSE_ON_CLOSE)
+    frame = JFrame("ButtonDemo")
+    frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE)
     
-    panel = swing.JPanel()
+    panel = JPanel()
     
     gridbag = GridBagLayout()
     constraints = GridBagConstraints()

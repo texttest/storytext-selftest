@@ -32,11 +32,10 @@ body {background-color:#FFFFFF;font:15px arial,sans-serif} table {font:15px aria
 </td></tr><tr><td>bottomleft</td><td width="5"></td><td align="center">bottom</td><td width="5"></td><td align="right">bottomright</td>
 </tr></tbody></table></body>'''
 
-
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
-from org.eclipse.swt.browser import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Menu, MenuItem, Listener
+from org.eclipse.swt.layout import FillLayout
+from org.eclipse.swt.browser import Browser
 
 display = Display()
 shell = Shell(display)

@@ -1,8 +1,7 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
 from java.lang import Runnable
-
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Composite, Label, Text, Button, Listener, Event
+from org.eclipse.swt.layout import GridLayout, FillLayout
 
 shell = Shell()
 

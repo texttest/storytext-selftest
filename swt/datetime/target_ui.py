@@ -1,6 +1,6 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Shell, Menu, MenuItem, DateTime, Listener
+from org.eclipse.swt.layout import GridLayout, GridData
 
 shell = Shell()
 shell.setLayout(GridLayout(2, False))

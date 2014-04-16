@@ -31,7 +31,7 @@ from org.eclipse.swt.graphics import Color
 from org.eclipse.swt.graphics import Font
 from org.eclipse.swt.graphics import Image
 from org.eclipse.swt.layout import FillLayout
-from org.eclipse.swt.widgets import *
+from org.eclipse.swt.widgets import Display, Shell, Menu, MenuItem, Composite, Label, Text, TableColumn, Listener
 from org.eclipse.swt.custom import TableCursor
 
 ##*

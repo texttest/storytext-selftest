@@ -1,6 +1,6 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Shell, Composite, Label, List, Listener
+from org.eclipse.swt.layout import RowLayout
 
 shell = Shell()
 composite = Composite(shell, SWT.NONE)

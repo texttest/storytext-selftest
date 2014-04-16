@@ -13,10 +13,9 @@
  * For a list of all SWT example snippets see
  * http://www.eclipse.org/swt/snippets/ """
 
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
-from org.eclipse.swt.graphics import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Composite, Label, Menu, MenuItem, Listener
+from org.eclipse.swt.layout import GridLayout, GridData
 
 display = Display()
 shell = Shell(display)

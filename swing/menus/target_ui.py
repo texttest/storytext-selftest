@@ -2,15 +2,17 @@ from javax import swing
 from java.awt import BorderLayout, Dimension
 from java.awt.event import KeyEvent
 from java.lang import System
+from javax.swing import JFrame, JMenu, JMenuBar, JMenuItem, JPanel, JButton, KeyStroke
+
 class MenuApp:
         
     def make_ui(self):
-        frame = swing.JFrame("Menu demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Menu demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
-        b1 = swing.JButton("Hello!")
+        b1 = JButton("Hello!")
         
-        newContentPane = swing.JPanel()
+        newContentPane = JPanel()
         newContentPane.add(b1)
         newContentPane.setOpaque(True) #content panes must be opaque
         frame.setContentPane(newContentPane)
@@ -20,23 +22,23 @@ class MenuApp:
         frame.setVisible(True)
 
     def createMenuBar(self):
-        menuBar = swing.JMenuBar()
-        menu = swing.JMenu("File")
+        menuBar = JMenuBar()
+        menu = JMenu("File")
         menu.setMnemonic(KeyEvent.VK_F)
-        menu.add(swing.JMenuItem("Select All", actionPerformed=self.printMenu))
+        menu.add(JMenuItem("Select All", actionPerformed=self.printMenu))
         
         menu.addSeparator();
-        subMenu = swing.JMenu("Sub menu")
-        smItem = swing.JMenuItem("Item", actionPerformed=self.printMenu) 
+        subMenu = JMenu("Sub menu")
+        smItem = JMenuItem("Item", actionPerformed=self.printMenu) 
         
         menu.add(subMenu)
         menu.addSeparator()
         subMenu.add(smItem)
-        invisibleItem = swing.JMenuItem("Invisible Item", actionPerformed=self.printMenu)
+        invisibleItem = JMenuItem("Invisible Item", actionPerformed=self.printMenu)
         menu.add(invisibleItem)
         invisibleItem.setVisible(False)
-        quitItem = swing.JMenuItem("Quit", actionPerformed=self.quit)
-        quitItem.setAccelerator(swing.KeyStroke.getKeyStroke(KeyEvent.VK_Q, KeyEvent.CTRL_MASK))       
+        quitItem = JMenuItem("Quit", actionPerformed=self.quit)
+        quitItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, KeyEvent.CTRL_MASK))       
         menu.add(quitItem)
         menuBar.add(menu)
         return menuBar

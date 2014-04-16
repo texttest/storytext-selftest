@@ -14,11 +14,10 @@
 ##  * For a list of all SWT example snippets see
 ##  * http://www.eclipse.org/swt/snippets/
 ## */
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
-from org.eclipse.swt.custom import *
-from org.eclipse.swt.graphics import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Menu, MenuItem, TabFolder, TabItem, Text, Listener
+from org.eclipse.swt.layout import FillLayout
+from org.eclipse.swt.graphics import Image,GC
 
 def makeImage(display, size):
     image = Image(display, size, size)

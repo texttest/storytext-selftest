@@ -1,5 +1,5 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Menu, MenuItem, ToolBar, ToolItem, Button, Listener
 
 def addItem(i, item, name):
     item.setText(name + " item " + str(i))

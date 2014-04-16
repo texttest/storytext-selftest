@@ -1,13 +1,11 @@
-from javax import swing
-from java.awt import *
-from java.util import *
-
+from javax.swing import JLabel, JPanel, JFrame, JTextField, WindowConstants
+from java.awt import GridBagLayout, GridBagConstraints
 
 if __name__ == "__main__":
-    frame = swing.JFrame("ButtonDemo")
-    frame.setDefaultCloseOperation(swing.WindowConstants.DISPOSE_ON_CLOSE)
+    frame = JFrame("ButtonDemo")
+    frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE)
     
-    panel = swing.JPanel()
+    panel = JPanel()
     
     gridbag = GridBagLayout()
     constraints = GridBagConstraints()
@@ -15,12 +13,12 @@ if __name__ == "__main__":
     panel.setLayout(gridbag)
         
     constraints.fill = GridBagConstraints.HORIZONTAL
-    label = swing.JLabel("Name")
+    label = JLabel("Name")
     gridbag.setConstraints(label, constraints)
     panel.add(label)
 
     constraints.fill = GridBagConstraints.BOTH
-    text = swing.JTextField()
+    text = JTextField()
     gridbag.setConstraints(text, constraints)
     panel.add(text)
     panel.setOpaque(True) #content panes must be opaque

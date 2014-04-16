@@ -1,9 +1,8 @@
-from javax import swing
-from java.awt import *
-from java.util import *
+from javax.swing import JButton, JPanel, JFrame, WindowConstants
+from java.awt import GridBagLayout, GridBagConstraints
 
 def makeButton(name, layout, constraints, panel, x, y):
-    button = swing.JButton(name)
+    button = JButton(name)
     constraints.gridx = x
     constraints.gridy = y
     layout.setConstraints(button, constraints)
@@ -11,10 +10,10 @@ def makeButton(name, layout, constraints, panel, x, y):
 
 
 if __name__ == "__main__":
-    frame = swing.JFrame("ButtonDemo")
-    frame.setDefaultCloseOperation(swing.WindowConstants.DISPOSE_ON_CLOSE)
+    frame = JFrame("ButtonDemo")
+    frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE)
     
-    panel = swing.JPanel()
+    panel = JPanel()
     
     gridbag = GridBagLayout()
     constraints = GridBagConstraints()

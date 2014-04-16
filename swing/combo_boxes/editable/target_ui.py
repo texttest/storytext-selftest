@@ -1,4 +1,4 @@
-from javax import swing
+from javax.swing import JFrame, JPanel, JComboBox, WindowConstants
 from java.awt import BorderLayout
 from java.awt.event import ActionListener
 
@@ -12,19 +12,19 @@ class JComboBoxApp:
                     data = self.data[selected]
                     print data + " selected"
                
-        frame = swing.JFrame("Combo box demo")
+        frame = JFrame("Combo box demo")
         frame.setSize(200, 100)
         frame.setLayout(BorderLayout())
 
         self.data = ("One", "Two", "Three")
-        self.cbox = swing.JComboBox(self.data)
+        self.cbox = JComboBox(self.data)
         self.cbox.setEditable(True)
         self.cbox.addActionListener(SelectionListener())
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.add(self.cbox)
 
         frame.add(panel, BorderLayout.CENTER)
-        frame.setDefaultCloseOperation(swing.WindowConstants.DISPOSE_ON_CLOSE)
+        frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE)
         frame.setVisible(True)
 
     def main():

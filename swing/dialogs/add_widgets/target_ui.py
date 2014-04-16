@@ -1,26 +1,25 @@
-from javax import swing
+from javax.swing import JFrame, JPanel, JButton, JDialog, JToolBar
 from java.awt import BorderLayout, Dimension
-from java.awt.event import KeyEvent, WindowAdapter
-from java.lang import System, Runnable, Thread
-from javax.swing import JOptionPane, SwingUtilities
+from java.lang import System
+
 
 class ConfirmDialogApp:                  
     def make_ui(self):                
-        self.frame = swing.JFrame("Confirm Dialog Demo")
-        self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        self.frame = JFrame("Confirm Dialog Demo")
+        self.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         self.frame.setLayout(BorderLayout())
-        panel = swing.JPanel()
-        button = swing.JButton("Dialog", actionPerformed=self.showDialog)
+        panel = JPanel()
+        button = JButton("Dialog", actionPerformed=self.showDialog)
         panel.add(button)
         self.frame.add(panel)
         self.frame.pack()
         self.frame.setVisible(True)
 
     def showDialog(self, event):
-        dialog = swing.JDialog(self.frame, "The Dialog", True)
-        dialog.setDefaultCloseOperation(swing.JDialog.DISPOSE_ON_CLOSE)
+        dialog = JDialog(self.frame, "The Dialog", True)
+        dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE)
         dialog.setLayout(BorderLayout())
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.setPreferredSize(Dimension(500, 150))
         self.toolbar = self.createToolBar()
         panel.add(self.toolbar)        
@@ -30,18 +29,18 @@ class ConfirmDialogApp:
         dialog.setVisible(True)
         
     def createToolBar(self):
-        toolBar = swing.JToolBar()
+        toolBar = JToolBar()
         self.addButtons(toolBar)
         return toolBar
     
     def addButtons(self, toolBar):
         for i in range(1, 6):
-            button = swing.JButton('Item' + str(i), actionPerformed=self.addButton)
+            button = JButton('Item' + str(i), actionPerformed=self.addButton)
             toolBar.add(button)
             
     def addButton(self, event):
         widget = event.getSource()
-        newButton = swing.JButton('Extra ' + widget.getText(), actionPerformed=self.addButton)
+        newButton = JButton('Extra ' + widget.getText(), actionPerformed=self.addButton)
         self.toolbar.add(newButton)
         
     def quit(self, event):

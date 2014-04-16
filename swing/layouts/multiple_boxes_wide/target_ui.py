@@ -1,20 +1,18 @@
-
-from javax import swing
-from java.awt.event import ActionListener
+from javax.swing import JLabel, JPanel, JFrame, JTextField, BoxLayout, WindowConstants
 
 def getBox(num):
-    horizPane = swing.JPanel()
-    horizPane.setLayout(swing.BoxLayout(horizPane, swing.BoxLayout.X_AXIS))
-    horizPane.add(swing.JLabel("Box " + str(num) + " with a load of extra text to make it really wide"))
-    horizPane.add(swing.JTextField())
+    horizPane = JPanel()
+    horizPane.setLayout(BoxLayout(horizPane, BoxLayout.X_AXIS))
+    horizPane.add(JLabel("Box " + str(num) + " with a load of extra text to make it really wide"))
+    horizPane.add(JTextField())
     return horizPane
 
 # Create and set up the window.
-frame = swing.JFrame("ButtonDemo")
-frame.setDefaultCloseOperation(swing.WindowConstants.DISPOSE_ON_CLOSE)
+frame = JFrame("ButtonDemo")
+frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE)
 
-newContentPane = swing.JPanel()
-newContentPane.setLayout(swing.BoxLayout(newContentPane, swing.BoxLayout.X_AXIS))
+newContentPane = JPanel()
+newContentPane.setLayout(BoxLayout(newContentPane, BoxLayout.X_AXIS))
 newContentPane.add(getBox(1))
 newContentPane.add(getBox(2))
 newContentPane.setOpaque(True) #content panes must be opaque

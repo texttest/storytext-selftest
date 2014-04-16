@@ -1,6 +1,6 @@
-from javax import swing
-from java.awt import BorderLayout, Toolkit, AWTEvent, Frame
-from java.awt.event import ActionListener, ActionEvent, MouseEvent
+from javax.swing import JFrame, JPanel, JButton, JComponent
+from java.awt import BorderLayout, Toolkit
+from java.awt.event import MouseEvent
 
 class ApplicationEvent(MouseEvent):
     def __init__(self, component, message):
@@ -10,7 +10,7 @@ class ApplicationEvent(MouseEvent):
     def getApplicationEventMessage(self):
         return self.message
 
-class ApplicationEventManager(swing.JComponent):
+class ApplicationEventManager(JComponent):
     instance = None
     
     def sendApplicationEvent(self, message):
@@ -22,15 +22,15 @@ ApplicationEventManager.instance = ApplicationEventManager()
 
 class ApplicationEventApp:
     def make_ui(self):
-        self.frame = swing.JFrame("Close Buttons")
-        self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        self.frame = JFrame("Close Buttons")
+        self.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         self.frame.setLayout(BorderLayout())
         self.frame.setSize(200, 200);
-        button1 = swing.JButton("Why?", actionPerformed=self.handleButton)
-        self.button2 = swing.JButton("Exit", actionPerformed=self.close)
+        button1 = JButton("Why?", actionPerformed=self.handleButton)
+        self.button2 = JButton("Exit", actionPerformed=self.close)
         self.button2.setEnabled(False)
 
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.add(button1)
         panel.add(self.button2)
         self.frame.add(panel)

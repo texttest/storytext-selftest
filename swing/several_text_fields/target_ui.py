@@ -1,28 +1,27 @@
-from javax import swing
 from java.awt import BorderLayout
-from java.awt.event import ActionListener
+from javax.swing import JButton, JPanel, JFrame, JLabel, JTextField, JPasswordField
 
-class MyTextFieldSubClass(swing.JTextField):
+class MyTextFieldSubClass(JTextField):
     pass
 
 class TextFieldApp: 
     def make_ui(self):
-        frame = swing.JFrame("Text field demo")
-        frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        frame = JFrame("Text field demo")
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         frame.setLayout(BorderLayout())
         frame.setSize(300, 200)
-        button = swing.JButton("Do nothing")
-        panel = swing.JPanel(BorderLayout())
+        button = JButton("Do nothing")
+        panel = JPanel(BorderLayout())
         panel.add(button)
         frame.getContentPane().add(panel, BorderLayout.NORTH)
         frame.getContentPane().add(self.makeTextFieldPanel("User Name: ", MyTextFieldSubClass), BorderLayout.CENTER)
-        frame.getContentPane().add(self.makeTextFieldPanel("Password: ", swing.JPasswordField), BorderLayout.SOUTH)
+        frame.getContentPane().add(self.makeTextFieldPanel("Password: ", JPasswordField), BorderLayout.SOUTH)
         #frame.pack()
         frame.setVisible(True)
 
     def makeTextFieldPanel(self, label, fieldClass):
-        panel = swing.JPanel(BorderLayout())
-        textLabel = swing.JLabel(label)
+        panel = JPanel(BorderLayout())
+        textLabel = JLabel(label)
         textField = fieldClass()
         panel.add(textLabel, BorderLayout.WEST)
         panel.add(textField, BorderLayout.CENTER)

@@ -1,6 +1,6 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Label, Text, Button, Listener, Event
+from org.eclipse.swt.layout import GridLayout
 
 shell = Shell()
 

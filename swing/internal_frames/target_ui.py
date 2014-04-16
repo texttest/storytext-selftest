@@ -1,16 +1,15 @@
-
-from javax import swing
-from java import awt
+from java.awt.event import ActionListener, KeyEvent, ActionEvent
 from java.lang import System
+from javax.swing import JFrame, JInternalFrame, JDesktopPane, JMenu, JMenuItem, JMenuBar,KeyStroke
 
-class MyInternalFrame(swing.JInternalFrame):
+class MyInternalFrame(JInternalFrame):
     openFrameCount = 0
     xOffset = 30
     yOffset = 30
 
     def __init__(self):
         MyInternalFrame.openFrameCount += 1
-        swing.JInternalFrame.__init__(self,
+        JInternalFrame.__init__(self,
                                       "Document #" + str(MyInternalFrame.openFrameCount), 
                                       True, #resizable
                                       True, #closable
@@ -26,39 +25,39 @@ class MyInternalFrame(swing.JInternalFrame):
         self.setLocation(self.xOffset*self.openFrameCount, self.yOffset*self.openFrameCount)
 
 
-class InternalFrameDemo(swing.JFrame, awt.event.ActionListener):
+class InternalFrameDemo(JFrame, ActionListener):
     def __init__(self):
-        swing.JFrame.__init__(self, "Internal Frame Demo")
-        self.desktop = swing.JDesktopPane()
+        JFrame.__init__(self, "Internal Frame Demo")
+        self.desktop = JDesktopPane()
 
         #Set up the GUI.
-        desktop = swing.JDesktopPane() #a specialized layered pane
+        desktop = JDesktopPane() #a specialized layered pane
         self.createFrame() #create first "window"
         self.setContentPane(self.desktop)
         self.setJMenuBar(self.createMenuBar())
 
         #Make dragging a little faster but perhaps uglier.
-        self.desktop.setDragMode(swing.JDesktopPane.OUTLINE_DRAG_MODE)
+        self.desktop.setDragMode(JDesktopPane.OUTLINE_DRAG_MODE)
         self.setSize(500, 500)
 
     def createMenuBar(self): 
-        menuBar = swing.JMenuBar()
+        menuBar = JMenuBar()
 
         #Set up the lone menu.
-        menu = swing.JMenu("Document")
+        menu = JMenu("Document")
         menuBar.add(menu)
 
         #Set up the first menu item.
-        menuItem = swing.JMenuItem("New")
-        menuItem.setAccelerator(swing.KeyStroke.getKeyStroke(awt.event.KeyEvent.VK_N, awt.event.ActionEvent.ALT_MASK))
+        menuItem = JMenuItem("New")
+        menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.ALT_MASK))
         menuItem.setActionCommand("new")
         menuItem.addActionListener(self)
         menu.add(menuItem)
 
         #Set up the second menu item.
-        menuItem = swing.JMenuItem("Quit")
-        menuItem.setMnemonic(awt.event.KeyEvent.VK_Q)
-        menuItem.setAccelerator(swing.KeyStroke.getKeyStroke(awt.event.KeyEvent.VK_Q, awt.event.ActionEvent.ALT_MASK))
+        menuItem = JMenuItem("Quit")
+        menuItem.setMnemonic(KeyEvent.VK_Q)
+        menuItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Q, ActionEvent.ALT_MASK))
         menuItem.setActionCommand("quit")
         menuItem.addActionListener(self)
         menu.add(menuItem)
@@ -89,7 +88,7 @@ class InternalFrameDemo(swing.JFrame, awt.event.ActionListener):
         frame = InternalFrameDemo()
         #Make sure we have nice window decorations.
         frame.setDefaultLookAndFeelDecorated(True)
-        frame.setDefaultCloseOperation(swing.JFrame.EXIT_ON_CLOSE)
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
 
         #Display the window.
         frame.setVisible(True)

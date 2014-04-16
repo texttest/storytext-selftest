@@ -1,6 +1,6 @@
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.graphics import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Shell, ToolBar, ToolItem, Menu, MenuItem, Listener
+from org.eclipse.swt.graphics import Point
 
 def addItem(i, menu):
     item = MenuItem(menu, SWT.PUSH)

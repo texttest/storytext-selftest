@@ -15,12 +15,12 @@
 ##  * http://www.eclipse.org/swt/snippets/
 ## */
 
-from org.eclipse.swt import *
-from org.eclipse.swt.widgets import *
-from org.eclipse.swt.layout import *
-from org.eclipse.swt.events import *
-from org.eclipse.swt.custom import *
-from org.eclipse.swt.graphics import *
+from org.eclipse.swt import SWT
+from org.eclipse.swt.widgets import Display, Shell, Table, TableItem, TableColumn, Menu, MenuItem, Text, Listener
+from org.eclipse.swt.layout import FillLayout
+#from org.eclipse.swt.events import *
+from org.eclipse.swt.custom import TableEditor
+from org.eclipse.swt.graphics import Point
 
 
 display = Display()

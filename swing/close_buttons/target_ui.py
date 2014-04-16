@@ -1,17 +1,16 @@
-from javax import swing
+from javax.swing import JFrame, JPanel, JButton
 from java.awt import BorderLayout
-from java.awt.event import WindowAdapter
 
 class CloseButtonsApp:
     def make_ui(self):
-        self.frame = swing.JFrame("Close Buttons")
-        self.frame.setDefaultCloseOperation(swing.JFrame.DISPOSE_ON_CLOSE)
+        self.frame = JFrame("Close Buttons")
+        self.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE)
         self.frame.setLayout(BorderLayout())
         self.frame.setSize(200, 200);
-        button1 = swing.JButton("Why?", actionPerformed=self.printMessage)
-        self.button2 = swing.JButton("Exit",actionPerformed=self.close)
+        button1 = JButton("Why?", actionPerformed=self.printMessage)
+        self.button2 = JButton("Exit",actionPerformed=self.close)
         self.button2.setEnabled(False)
-        panel = swing.JPanel()
+        panel = JPanel()
         panel.add(button1)
         panel.add(self.button2)
         self.frame.add(panel)

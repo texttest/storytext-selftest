@@ -9,45 +9,64 @@
 ##     Original authors and others - initial API and implementation
 ## *****************************************************************************
 
-from org.eclipse.nebula.widgets import nattable
-from org.eclipse import swt
-from java.util import Date
+from org.eclipse.nebula.widgets.nattable import NatTable
+from org.eclipse.nebula.widgets.nattable.config import AbstractRegistryConfiguration, DefaultNatTableStyleConfiguration, CellConfigAttributes, IEditableRule
+from org.eclipse.nebula.widgets.nattable.data import IColumnPropertyAccessor, ListDataProvider
+from org.eclipse.nebula.widgets.nattable.data.convert import DefaultBooleanDisplayConverter
+from org.eclipse.nebula.widgets.nattable.edit import EditConfigAttributes
+from org.eclipse.nebula.widgets.nattable.edit.editor import CheckBoxCellEditor, ComboBoxCellEditor
+from org.eclipse.nebula.widgets.nattable.grid.data import DefaultColumnHeaderDataProvider, DefaultRowHeaderDataProvider, DefaultCornerDataProvider
+from org.eclipse.nebula.widgets.nattable.grid.layer import CornerLayer, GridLayer, ColumnHeaderLayer, RowHeaderLayer
+from org.eclipse.nebula.widgets.nattable.hideshow import ColumnHideShowLayer
+from org.eclipse.nebula.widgets.nattable.layer import DataLayer, AbstractLayerTransform, ILayerListener
+from org.eclipse.nebula.widgets.nattable.layer.cell import ColumnOverrideLabelAccumulator
+from org.eclipse.nebula.widgets.nattable.painter.cell import CheckBoxPainter, ComboBoxPainter
+from org.eclipse.nebula.widgets.nattable.reorder import ColumnReorderLayer
+from org.eclipse.nebula.widgets.nattable.resize.command import InitializeAutoResizeColumnsCommand, InitializeAutoResizeRowsCommand
+from org.eclipse.nebula.widgets.nattable.selection import SelectionLayer
+from org.eclipse.nebula.widgets.nattable.selection.event import CellSelectionEvent
+from org.eclipse.nebula.widgets.nattable.style import DisplayMode, HorizontalAlignmentEnum
+from org.eclipse.nebula.widgets.nattable.util import GCFactory
+from org.eclipse.nebula.widgets.nattable.viewport import ViewportLayer
+
+from org.eclipse.swt import SWT
+from org.eclipse.swt.layout import GridLayout, GridData
+from org.eclipse.swt.widgets import Display, Shell, Listener
 
 class Person:
     properties = [ "name", "married", "city" ]
     propertyToLabels = { "name": "First Name", "married" : "Married", "city": "City of Residence"}
     def __init__(self, *args):
         self.args = list(args)
-	
 
 def createNatTable(parent):
     bodyDataProvider = setupBodyDataProvider()
-    colHeaderDataProvider = nattable.grid.data.DefaultColumnHeaderDataProvider(Person.properties, Person.propertyToLabels)
-    rowHeaderDataProvider = nattable.grid.data.DefaultRowHeaderDataProvider(bodyDataProvider)
+    colHeaderDataProvider = DefaultColumnHeaderDataProvider(Person.properties, Person.propertyToLabels)
+    rowHeaderDataProvider = DefaultRowHeaderDataProvider(bodyDataProvider)
 
     bodyLayer = BodyLayerStack(bodyDataProvider)
     columnHeaderLayer = ColumnHeaderLayerStack(colHeaderDataProvider, bodyLayer)
     rowHeaderLayer = RowHeaderLayerStack(rowHeaderDataProvider, bodyLayer)
-    cornerDataProvider = nattable.grid.data.DefaultCornerDataProvider(colHeaderDataProvider, rowHeaderDataProvider)
-    dataLayer = nattable.layer.DataLayer(cornerDataProvider)
-    cornerLayer = nattable.grid.layer.CornerLayer(dataLayer, rowHeaderLayer, columnHeaderLayer)
+    cornerDataProvider = DefaultCornerDataProvider(colHeaderDataProvider, rowHeaderDataProvider)
+    dataLayer = DataLayer(cornerDataProvider)
+    cornerLayer = CornerLayer(dataLayer, rowHeaderLayer, columnHeaderLayer)
 
-    gridLayer = nattable.grid.layer.GridLayer(bodyLayer, columnHeaderLayer, rowHeaderLayer, cornerLayer)
-    natTable = nattable.NatTable(parent, gridLayer, False)
-    defaultConfig = nattable.config.DefaultNatTableStyleConfiguration()
-    defaultConfig.hAlign = nattable.style.HorizontalAlignmentEnum.LEFT
+    gridLayer = GridLayer(bodyLayer, columnHeaderLayer, rowHeaderLayer, cornerLayer)
+    natTable = NatTable(parent, gridLayer, False)
+    defaultConfig = DefaultNatTableStyleConfiguration()
+    defaultConfig.hAlign = HorizontalAlignmentEnum.LEFT
     natTable.addConfiguration(defaultConfig)
     natTable.addConfiguration(EditableGridConfiguration())
     natTable.configure()
     return natTable
 
-class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
+class MyPropAccessor(IColumnPropertyAccessor):
     def getColumnCount(self):
         return 3
 
     def getDataValue(self, rowObj, colIndex):
         return rowObj.args[colIndex]
-	
+
     def setDataValue(self, rowObj, colIndex, newValue):
         rowObj.args[colIndex] = newValue
 
@@ -55,70 +74,63 @@ class MyPropAccessor(nattable.data.IColumnPropertyAccessor):
 def setupBodyDataProvider():
     people = [ Person("Joe", False, "London"),
                Person("Maria", True, "Santiago") ]
-		
-    return nattable.data.ListDataProvider(people, MyPropAccessor())
 
-	
+    return ListDataProvider(people, MyPropAccessor())
 
-class BodyLayerStack(nattable.layer.AbstractLayerTransform):
+class BodyLayerStack(AbstractLayerTransform):
     def __init__(self, dataProvider):
-        bodyDataLayer = nattable.layer.DataLayer(dataProvider) 
-        columnLabelAccumulator = nattable.layer.cell.ColumnOverrideLabelAccumulator(bodyDataLayer)
+        bodyDataLayer = DataLayer(dataProvider) 
+        columnLabelAccumulator = ColumnOverrideLabelAccumulator(bodyDataLayer)
         bodyDataLayer.setConfigLabelAccumulator(columnLabelAccumulator)
         self.registerColumnLabels(columnLabelAccumulator)
-        columnReorderLayer = nattable.reorder.ColumnReorderLayer(bodyDataLayer)
-        columnHideShowLayer = nattable.hideshow.ColumnHideShowLayer(columnReorderLayer)
-        self.selectionLayer = nattable.selection.SelectionLayer(columnHideShowLayer)
-        viewportLayer = nattable.viewport.ViewportLayer(self.selectionLayer)
+        columnReorderLayer = ColumnReorderLayer(bodyDataLayer)
+        columnHideShowLayer = ColumnHideShowLayer(columnReorderLayer)
+        self.selectionLayer = SelectionLayer(columnHideShowLayer)
+        viewportLayer = ViewportLayer(self.selectionLayer)
         self.setUnderlyingLayer(viewportLayer)
-		
+
     def getSelectionLayer(self):
         return self.selectionLayer
-	
+
     def registerColumnLabels(self, columnLabelAccumulator):
         columnLabelAccumulator.registerColumnOverrides(0, [ "name" ])
         columnLabelAccumulator.registerColumnOverrides(1, [ "married" ])
         columnLabelAccumulator.registerColumnOverrides(2, [ "city" ])
-	
 
-class ColumnHeaderLayerStack(nattable.layer.AbstractLayerTransform):
+class ColumnHeaderLayerStack(AbstractLayerTransform):
     def __init__(self, dataProvider, bodyLayer):
-        dataLayer = nattable.layer.DataLayer(dataProvider)
-        colHeaderLayer = nattable.grid.layer.ColumnHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
+        dataLayer = DataLayer(dataProvider)
+        colHeaderLayer = ColumnHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
         self.setUnderlyingLayer(colHeaderLayer)
-		
-	
 
-class RowHeaderLayerStack(nattable.layer.AbstractLayerTransform): 
+class RowHeaderLayerStack(AbstractLayerTransform): 
     def __init__(self, dataProvider, bodyLayer):
-        dataLayer = nattable.layer.DataLayer(dataProvider, 50, 20)
-        rowHeaderLayer = nattable.grid.layer.RowHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
+        dataLayer = DataLayer(dataProvider, 50, 20)
+        rowHeaderLayer = RowHeaderLayer(dataLayer, bodyLayer, bodyLayer.getSelectionLayer())
         self.setUnderlyingLayer(rowHeaderLayer)
 
-class EditableGridConfiguration(nattable.config.AbstractRegistryConfiguration):
+class EditableGridConfiguration(AbstractRegistryConfiguration):
     def configureRegistry(self, configRegistry):
-        attrs = nattable.edit.EditConfigAttributes
-        cellattrs = nattable.config.CellConfigAttributes
-        IEditableRule = nattable.config.IEditableRule
-        DisplayMode = nattable.style.DisplayMode
+        attrs = EditConfigAttributes
+        cellattrs = CellConfigAttributes
         configRegistry.registerConfigAttribute(attrs.CELL_EDITABLE_RULE, IEditableRule.ALWAYS_EDITABLE)
-        configRegistry.registerConfigAttribute(attrs.CELL_EDITOR, nattable.edit.editor.CheckBoxCellEditor(), 
+        configRegistry.registerConfigAttribute(attrs.CELL_EDITOR, CheckBoxCellEditor(), 
                                                DisplayMode.EDIT, "married")
-        configRegistry.registerConfigAttribute(cellattrs.CELL_PAINTER, nattable.painter.cell.CheckBoxPainter(), 
+        configRegistry.registerConfigAttribute(cellattrs.CELL_PAINTER, CheckBoxPainter(), 
                                                DisplayMode.NORMAL, "married")
-        configRegistry.registerConfigAttribute(cellattrs.DISPLAY_CONVERTER, nattable.data.convert.DefaultBooleanDisplayConverter(), 
+        configRegistry.registerConfigAttribute(cellattrs.DISPLAY_CONVERTER, DefaultBooleanDisplayConverter(), 
                                                DisplayMode.NORMAL, "married")
 
-        comboBoxCellEditor = nattable.edit.editor.ComboBoxCellEditor([ "London", "Washington", "Santiago", "Stockholm" ])
+        comboBoxCellEditor = ComboBoxCellEditor([ "London", "Washington", "Santiago", "Stockholm" ])
         configRegistry.registerConfigAttribute(attrs.CELL_EDITOR, comboBoxCellEditor, DisplayMode.EDIT, "city")
-        configRegistry.registerConfigAttribute(cellattrs.CELL_PAINTER, nattable.painter.cell.ComboBoxPainter(),
+        configRegistry.registerConfigAttribute(cellattrs.CELL_PAINTER, ComboBoxPainter(),
                                                DisplayMode.NORMAL, "city")
 
-display = swt.widgets.Display()
-shell = swt.widgets.Shell(display)
-shell.setLayout(swt.layout.GridLayout())
+display = Display()
+shell = Shell(display)
+shell.setLayout(GridLayout())
 
-class MyPaintListener(swt.widgets.Listener):
+class MyPaintListener(Listener):
     def __init__(self):
         self.resized = False
 
@@ -129,30 +141,30 @@ class MyPaintListener(swt.widgets.Listener):
         self.resized = True
         table = e.widget
         for i in range(table.getColumnCount()):
-            columnCommand = nattable.resize.command.InitializeAutoResizeColumnsCommand(table, 
-                                                                                       i, table.getConfigRegistry(), 
-                                                                                       nattable.util.GCFactory(table))
+            columnCommand = InitializeAutoResizeColumnsCommand(table, 
+                                                               i, table.getConfigRegistry(), 
+                                                               GCFactory(table))
             table.doCommand(columnCommand)
                 
         for i in range(table.getRowCount()):
-            rowCommand = nattable.resize.command.InitializeAutoResizeRowsCommand(table, 
-                                                                                 i, table.getConfigRegistry(), 
-                                                                                 nattable.util.GCFactory(table))
+            rowCommand = InitializeAutoResizeRowsCommand(table, 
+                                                         i, table.getConfigRegistry(), 
+                                                         GCFactory(table))
             table.doCommand(rowCommand)
     
         
 table = createNatTable(shell)
-data = swt.layout.GridData(swt.SWT.FILL, swt.SWT.FILL, True, True)
+data = GridData(SWT.FILL, SWT.FILL, True, True)
 table.setLayoutData(data)
 table.pack()
 
-class MyLayerListener(nattable.layer.ILayerListener):
+class MyLayerListener(ILayerListener):
     def handleLayerEvent(self, e):
-        if isinstance(e, nattable.selection.event.CellSelectionEvent):
+        if isinstance(e, CellSelectionEvent):
             print "Clicked on cell labelled '" + str(table.getDataValueByPosition(e.getColumnPosition(), e.getRowPosition())) + "'"
 
 
-table.addListener(swt.SWT.Paint, MyPaintListener())
+table.addListener(SWT.Paint, MyPaintListener())
 table.addLayerListener(MyLayerListener())
 shell.open()
 while not shell.isDisposed():
