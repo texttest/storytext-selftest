@@ -46,6 +46,9 @@ combobox_in_toolbar
 # Test we can handle expandbar descriptions and state changes.
 expandbar
 
+# It's often useful to click on icons, support this too...
+click_icon
+
 # Test for ordinary TabFolder widgets
 tabfolder
 
