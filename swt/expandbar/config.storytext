@@ -1,0 +1,4 @@
+# Filtering out and waiting to get some answers from SWT forums.
+# See https://www.eclipse.org/forums/index.php/m/1321844/#msg_1321844
+[run_dependent_text]
+errors:Gtk-CRITICAL **: IA__gtk_widget_map: assertion `gtk_widget_get_visible (widget)' failed
