@@ -1,3 +1,5 @@
+wait for file chooser to read file system
 change to folder subdir2
+wait for file chooser to read file system
 enter file name for save = file3.txt
 save selected file

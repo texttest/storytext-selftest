@@ -1,3 +1,5 @@
+wait for file chooser to read file system
 Auto.FileChooserDialog.current-folder-changed.'Title=Save.., Type=FileChooserDialog' subdir2
+wait for file chooser to read file system
 Auto.FileChooserDialog.current-name-changed.'Title=Save.., Type=FileChooserDialog' file3.txt
 Auto.FileChooserDialog.response.ok.'Title=Save.., Type=FileChooserDialog'

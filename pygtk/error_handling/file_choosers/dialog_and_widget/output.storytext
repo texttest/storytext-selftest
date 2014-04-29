@@ -1,4 +1,6 @@
 
+Waiting for application event 'file chooser to read file system' to occur.
+
 ---------- Filechooserdialog 'Save Dialog' ----------
 Default widget is 'gtk-save'
 
@@ -6,8 +8,12 @@ Showing FileChooserWidget
 Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 -----------------------------------------------------
 
+Expected application event 'file chooser to read file system' occurred, proceeding.
+
 'cancel original save' event created with arguments ''
 Closed, nothing will be saved
+
+Waiting for application event 'file chooser to read file system' to occur.
 
 ---------- Dialog 'Save Dialog with Widget' ----------
 Default widget is 'gtk-save'
@@ -16,6 +22,8 @@ Showing FileChooserWidget
 Check button 'Make the file readonly'
 Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 ------------------------------------------------------
+
+Expected application event 'file chooser to read file system' occurred, proceeding.
 
 'perform widget save' event created with arguments ''
 Saving to None

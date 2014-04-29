@@ -1,3 +1,5 @@
+wait for file chooser to read file system
 look in folder subdir2
+wait for file chooser to read file system
 select file file1.txt
 open selected file

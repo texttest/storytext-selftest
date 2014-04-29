@@ -1,16 +1,24 @@
 
+Waiting for application event 'file chooser to read file system' to occur.
+
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir')
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir2
 Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
+Expected application event 'file chooser to read file system' occurred, proceeding.
+
 'look in folder' event created with arguments 'subsubdir'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt')
+Waiting for application event 'file chooser to read file system' to occur.
+
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt')
+
+Expected application event 'file chooser to read file system' occurred, proceeding.
 
 'open selected file' event created with arguments ''
-/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt selected
+/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/subdirectory/sampledir/subdir/subsubdir/file3.txt selected

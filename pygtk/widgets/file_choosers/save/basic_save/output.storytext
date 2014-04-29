@@ -1,16 +1,24 @@
 
+Waiting for application event 'file chooser to read file system' to occur.
+
 ---------- Filechooserdialog 'Save..' ----------
 Default widget is 'gtk-save'
 
 Showing FileChooserWidget
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2
 Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
+Expected application event 'file chooser to read file system' occurred, proceeding.
+
 'change to folder' event created with arguments 'subdir2'
+
+Waiting for application event 'file chooser to read file system' to occur.
+
+Expected application event 'file chooser to read file system' occurred, proceeding.
 
 'enter file name for save =' event created with arguments 'file3.txt'
 
 'save selected file' event created with arguments ''
-Saving to /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2/file3.txt
+Saving to /nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/save/basic_save/sampledir/subdir2/file3.txt

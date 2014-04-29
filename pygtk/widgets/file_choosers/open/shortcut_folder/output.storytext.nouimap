@@ -1,20 +1,28 @@
 
+Waiting for application event 'file chooser to read file system' to occur.
+
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
 Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
+Expected application event 'file chooser to read file system' occurred, proceeding.
+
 'Auto.FileChooserDialog.current-folder-changed.'Title=Open.., Type=FileChooserDialog'' event created with arguments 'subdir2'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
+Waiting for application event 'file chooser to read file system' to occur.
+
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
+
+Expected application event 'file chooser to read file system' occurred, proceeding.
 
 'Auto.FileChooserDialog.selection-changed.'Title=Open.., Type=FileChooserDialog'' event created with arguments 'file1.txt'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
 
 'Auto.FileChooserDialog.response.ok.'Title=Open.., Type=FileChooserDialog'' event created with arguments ''
-/nfs/vm/texttest-tmp/geoff/storytext.nouimap.25Mar145834.31308/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt selected
+/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext.nouimap/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt selected

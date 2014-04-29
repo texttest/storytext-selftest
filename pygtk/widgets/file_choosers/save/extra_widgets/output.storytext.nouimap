@@ -1,17 +1,25 @@
 
+Waiting for application event 'file chooser to read file system' to occur.
+
 ---------- Dialog 'Save..' ----------
 Default widget is 'gtk-save'
 
 Showing FileChooserWidget (tooltip 'The FileChooser')
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/dynamic_gui.17Mar133720.2006/storytext.nouimap/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr170413.30295/storytext.nouimap/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2
 Check button 'Make the file readonly'
 Stock Button 'gtk-save' , Stock Button 'gtk-cancel'
 -------------------------------------
 
+Expected application event 'file chooser to read file system' occurred, proceeding.
+
 'Auto.FileChooserWidget.current-folder-changed.'Type=FileChooserWidget'' event created with arguments 'subdir2'
+
+Waiting for application event 'file chooser to read file system' to occur.
+
+Expected application event 'file chooser to read file system' occurred, proceeding.
 
 'Auto.FileChooserWidget.current-name-changed.'Type=FileChooserWidget'' event created with arguments 'file3.txt'
 
 'Auto.Dialog.response.ok.'Name=The Save Dialog'' event created with arguments ''
-Saving writeable file to /nfs/vm/texttest-tmp/geoff/dynamic_gui.17Mar133720.2006/storytext.nouimap/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2/file3.txt
+Saving writeable file to /nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr170413.30295/storytext.nouimap/pygtk/widgets/file_choosers/save/extra_widgets/sampledir/subdir2/file3.txt

@@ -1,4 +1,4 @@
+wait for file chooser to read file system
 look in folder no-such-folder
 select file no-such-file
 cancel file selection
-

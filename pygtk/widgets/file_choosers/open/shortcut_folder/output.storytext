@@ -1,20 +1,28 @@
 
+Waiting for application event 'file chooser to read file system' to occur.
+
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir/subsubdir')
 Shortcut folders (1) :
-- /nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
+- /nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2
 Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
 
+Expected application event 'file chooser to read file system' occurred, proceeding.
+
 'look in folder' event created with arguments 'subdir2'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
+Waiting for application event 'file chooser to read file system' to occur.
+
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file2.txt')
+
+Expected application event 'file chooser to read file system' occurred, proceeding.
 
 'select file' event created with arguments 'file1.txt'
 
-Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
+Updated : FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt')
 
 'open selected file' event created with arguments ''
-/nfs/vm/texttest-tmp/geoff/dynamic_gui.31May164610.20822/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt selected
+/nfs/vm/texttest-tmp/geoff/dynamic_gui.28Apr173750.39930/storytext/pygtk/widgets/file_choosers/open/shortcut_folder/sampledir/subdir2/file1.txt selected

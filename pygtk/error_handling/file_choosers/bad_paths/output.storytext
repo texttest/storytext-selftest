@@ -1,10 +1,14 @@
 
+Waiting for application event 'file chooser to read file system' to occur.
+
 ---------- Filechooserdialog 'Open..' ----------
 Default widget is 'gtk-open'
 
-Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.20Jul160217.22415/storytext/pygtk/error_handling/file_choosers/bad_paths/sampledir/file.txt')
+Showing FileChooserWidget (selected '/nfs/vm/texttest-tmp/geoff/storytext.28Apr174229.41491/storytext/pygtk/error_handling/file_choosers/bad_paths/sampledir/file.txt')
 Stock Button 'gtk-open' , Stock Button 'gtk-cancel'
 ------------------------------------------------
+
+Expected application event 'file chooser to read file system' occurred, proceeding.
 
 'look in folder' event created with arguments 'no-such-folder'
 ERROR: Could not simulate command 'look in folder no-such-folder' - Cannot find folder 'no-such-folder' to change to!
