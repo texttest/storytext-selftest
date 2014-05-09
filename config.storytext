@@ -12,6 +12,12 @@ import_config_file:capturemock_config
 # Might as well have nice printouts
 full_name:StoryText
 
+# Xvfb runs with 12-bit color depth by default
+# This causes all the Eclipse colours to be black
+# Use 16-bit color depth instead. No point having different settings for different parts
+# prevents reuse in parallel environments
+virtual_display_extra_args:-screen 0 1290x1040x16
+
 [run_dependent_text]
 errors:RANDR
 errors:{INTERNAL writedir}{REPLACE <texttest sandbox>}
