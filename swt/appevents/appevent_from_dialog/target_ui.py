@@ -67,7 +67,7 @@ class AppEventRunnable(Runnable):
         x.text = "shell to be created"
         shell.notifyListeners(1234, x)
 
-display.timerExec(2000, AppEventRunnable())
+display.timerExec(3000, AppEventRunnable())
 shell.setText("Main Window")
 button = Button(shell, SWT.NONE)
 button.setText("Open a dialog")
