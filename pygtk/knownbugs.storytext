@@ -1,0 +1,8 @@
+
+[Reported by geoff at 09May15:26:18]
+search_string:FcDirCacheLoad
+use_regexp:0
+search_file:free_text
+full_description:Problems with fontconfig cache regenerating multiple times simultaneously. David Rose looking at it.
+brief_description:fontconfig clash
+rerun_count:1
