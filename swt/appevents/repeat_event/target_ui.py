@@ -56,7 +56,7 @@ class AddListener(Listener):
 
 tree.addListener(SWT.Selection, AddListener())
 
-display.timerExec(3000, AppEventRunnable())
+display.timerExec(4000, AppEventRunnable())
 shell.setSize(200, 200)
 shell.open()
 while not shell.isDisposed():
