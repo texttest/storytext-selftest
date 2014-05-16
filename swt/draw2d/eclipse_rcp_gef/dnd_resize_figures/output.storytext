@@ -1,4 +1,6 @@
 
+Waiting for application event 'completion of compacting resource model' to occur.
+
 ---------- Shell 'RCP GEF Draw2d Application' ----------
 Menu Bar:
   File (cascade)
@@ -10,6 +12,8 @@ TabFolder with tabs file.graph1 (Tooltip 'project/file.graph1', cascade, Icon 'd
         (-green)  (-green)  (-green)
 
 --------------------------------------------------------
+
+Expected application event 'completion of compacting resource model' occurred, proceeding.
 
 'drag' event created with arguments 'Node1 to 54:153'
 
