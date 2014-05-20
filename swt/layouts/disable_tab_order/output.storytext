@@ -4,9 +4,9 @@
 'First Page'
 ............................
 
-Button 'Add Page' (tab-order 2)
+Button 'Add Page'
 
-Button 'Change Page' (tab-order 1)
+Button 'Change Page'
 
 ------------------------------
 
@@ -15,7 +15,7 @@ Button 'Change Page' (tab-order 1)
 'change page' event created with arguments ''
 
 ...... The Page Stack ......
-========== Text ========== (tab-order 3)
+========== Text ==========
 Text on page 2
 ==========================
 ............................
@@ -23,7 +23,7 @@ Text on page 2
 'set text to' event created with arguments 'New Text'
 
 Updated Text Field
-========== Text ========== (tab-order 3)
+========== Text ==========
 New Text
 ==========================
 
