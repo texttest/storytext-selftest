@@ -7,9 +7,8 @@ bug_system:jira
 bug_id:TTT-2668
 
 [Reported by geoff at 21May13:38:03]
-search_string:---------- Differences in output ----------\n20,23d19\n< Updated Canvas :\n<         (-green)  (-green)  (-green)\n< (-green)\n< \n31,39d26\n< \n< ---------- Shell 'Save Resource' ----------\n< Unknown Image  ''file.graph1' has been modified. Save changes?'\n< \n< Button '&Yes'  Button '&No'  Button 'Cancel'\n< \n< -------------------------------------------\n< \n< 'no' event created with arguments ''\n---------- Differences in recorded_usecase ----------\n7d6\n< no\n
+search_string:< Updated Canvas :\n<         (-green)  (-green)  (-green)\n< (-green)
 use_regexp:0
-trigger_on_identical:1
 search_file:free_text
 full_description:fails in windows nightjob. See TTT-3473
 brief_description:ttt-3473
