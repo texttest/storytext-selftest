@@ -1,0 +1,28 @@
+
+---------- Shell '' ----------
+Table :
+__________________________________________
+   First Name  Married  City of Residence
+__________________________________________
+1  Joe         [ ]      London (Image 1)
+2  Maria       [x]      Santiago (Image 1)
+__________________________________________
+
+------------------------------
+
+'select cell' event created with arguments 'City of Residence for Joe'
+Clicked on cell labelled 'London'
+
+Updated Table :
+_______________________________________________________________
+              First Name  Married  City of Residence (selected)
+_______________________________________________________________
+1 (selected)  Joe         [ ]      London (selected, Image 1)
+2             Maria       [x]      Santiago (Image 1)
+_______________________________________________________________
+
+========== Text ==========
+London
+==========================
+
+'close window' event created with arguments ''
