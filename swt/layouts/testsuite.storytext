@@ -46,6 +46,9 @@ ignore_labels
 # Should either use them or ignore them.
 column_labels_in_grid
 
+# Allow tooltips to be turned off
+disable_tooltips
+
 # Test for grid layouts spanning several columns. Have an odd number of widgets.
 span_columns_odd
 

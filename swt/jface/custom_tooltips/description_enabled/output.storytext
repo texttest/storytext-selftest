@@ -10,7 +10,7 @@ Hello World
 'Second'
 
 ========== Text ========== (Tooltip 'Hello World
-Hello World                 Hello World')
+Hello World                          Hello World')
 ==========================
 
 Button 'Popup on press'
