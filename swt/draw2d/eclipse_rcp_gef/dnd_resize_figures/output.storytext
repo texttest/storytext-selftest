@@ -30,7 +30,7 @@ Updated Canvas :
 'close window' event created with arguments ''
 
 ---------- Shell 'Save Resource' ----------
-Unknown Image  ''file.graph1' has been modified. Save changes?'
+Icon 'system_question'  ''file.graph1' has been modified. Save changes?'
 
 Button '&No'  Button 'Cancel'  Button '&Yes'
 

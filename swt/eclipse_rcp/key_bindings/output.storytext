@@ -50,7 +50,7 @@ This RCP Application was generated from the PDE Plug-in Project wizard. This sam
 'press keys' event created with arguments 'ctrl+3'
 
 ---------- Shell 'Open' ----------
-Unknown Image  'Open Message Dialog!'
+Icon 'system_information'  'Open Message Dialog!'
 
 Button 'OK'
 
