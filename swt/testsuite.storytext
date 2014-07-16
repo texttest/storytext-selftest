@@ -99,6 +99,9 @@ swap_order
 
 # Test we can handle usecase commands after GUI closes
 after_gui_closes
+
+# See if we can find an image that has been manually greyed out
+greyed_image
 popup_menus
 
 # Tests for Browser widgets

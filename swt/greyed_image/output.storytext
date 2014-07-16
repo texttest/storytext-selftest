@@ -1,0 +1,18 @@
+
+---------- Shell '' ----------
+Tool Bar:
+  Drop Down (drop down)
+
+------------------------------
+
+'click button' event created with arguments ''
+Pressed the normal button...
+
+'select drop down' event created with arguments 'Item 1'
+
+Choosing from Drop Down Menu:
+  Item 1 (Icon 'copy_edit.gif', 'greyed out')
+  Item 2
+Selected item 1
+
+'close window' event created with arguments ''
