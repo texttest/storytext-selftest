@@ -13,3 +13,11 @@ ignore_other_errors:1
 bug_system:jira
 bug_id:TTT-2570
 
+[Reported by geoff at 11Aug11:50:58]
+search_string:Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException\nClassReader.readUnsignedShort
+use_regexp:0
+search_file:errors
+ignore_other_errors:1
+full_description:Classloader internal problems, rerun as infrequent
+brief_description:Classloading problem
+rerun_count:1
