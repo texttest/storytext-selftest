@@ -1,0 +1,7 @@
+
+[Reported by geoff at 13Aug15:48:45]
+search_string:Exception in thread "Jython Shutdown Closer" java.util.ConcurrentModificationException
+use_regexp:0
+search_file:errors
+full_description:Jython bug. See http://bugs.jython.org/issue1747
+brief_description:Jython bug 1747
