@@ -1,0 +1,7 @@
+
+[Reported by geoff at 14Aug09:11:18]
+search_string:invalid (NULL) class pointer
+use_regexp:0
+search_file:errors
+full_description:Indeterministic GTK warnings for unknown reasons. Probably GTK bug, or possibly test program error.
+brief_description:GTK warnings
