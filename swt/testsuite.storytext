@@ -43,6 +43,9 @@ toolbar_dropdown_shortcut
 # Embed a combobox in the toolbar. This does not work in SWTBot 2.0.5, check our workaround does.
 combobox_in_toolbar
 
+# Don't describe empty coolbars, toolbars etc
+empty_coolbar_toolbar
+
 # Test we can handle expandbar descriptions and state changes.
 expandbar
 
