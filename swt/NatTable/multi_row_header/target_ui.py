@@ -17,13 +17,14 @@ from org.eclipse.nebula.widgets.nattable.data import IColumnPropertyAccessor, Li
 from org.eclipse.nebula.widgets.nattable.data.convert import DefaultDateDisplayConverter
 from org.eclipse.nebula.widgets.nattable.grid.data import DefaultRowHeaderDataProvider, DefaultCornerDataProvider
 from org.eclipse.nebula.widgets.nattable.grid.layer import CornerLayer, GridLayer, ColumnHeaderLayer, RowHeaderLayer
+from org.eclipse.nebula.widgets.nattable.grid.layer.event import ColumnHeaderSelectionEvent
 from org.eclipse.nebula.widgets.nattable.hideshow import ColumnHideShowLayer
 from org.eclipse.nebula.widgets.nattable.layer import DataLayer, AbstractLayerTransform, ILayerListener
 from org.eclipse.nebula.widgets.nattable.layer.cell import AbstractOverrider
 from org.eclipse.nebula.widgets.nattable.reorder import ColumnReorderLayer
 from org.eclipse.nebula.widgets.nattable.resize.command import InitializeAutoResizeColumnsCommand, InitializeAutoResizeRowsCommand
 from org.eclipse.nebula.widgets.nattable.selection import SelectionLayer
-from org.eclipse.nebula.widgets.nattable.selection.event import CellSelectionEvent
+from org.eclipse.nebula.widgets.nattable.selection.event import CellSelectionEvent, ColumnSelectionEvent
 from org.eclipse.nebula.widgets.nattable.style import DisplayMode
 from org.eclipse.nebula.widgets.nattable.util import GCFactory
 from org.eclipse.nebula.widgets.nattable.viewport import ViewportLayer
@@ -57,7 +58,7 @@ class MyColumnHeaderProvider(IColumnPropertyAccessor):
 
 def createNatTable(parent):
     bodyDataProvider = setupBodyDataProvider()
-    colHeaderDataProvider = ListDataProvider([ Person.getLabels(), Person.getLabels() ], MyColumnHeaderProvider())
+    colHeaderDataProvider = ListDataProvider([ Person.getLabels(), Person.properties ], MyColumnHeaderProvider())
     rowHeaderDataProvider = DefaultRowHeaderDataProvider(bodyDataProvider)
 
     bodyLayer = BodyLayerStack(bodyDataProvider)
@@ -165,7 +166,11 @@ class MyLayerListener(ILayerListener):
     def handleLayerEvent(self, e):
         if isinstance(e, CellSelectionEvent):
             print "Clicked on cell labelled '" + str(table.getDataValueByPosition(e.getColumnPosition(), e.getRowPosition())) + "'"
-
+        elif isinstance(e, (ColumnSelectionEvent, ColumnHeaderSelectionEvent)):
+            for r in e.getChangedPositionRectangles():
+                print "Column event", r
+                print "Clicked on column header labelled '" + str(table.getDataValueByPosition(r.x, r.y)) + "'"
+            
 
 table.addListener(SWT.Paint, MyPaintListener())
 table.addLayerListener(MyLayerListener())

@@ -3,7 +3,7 @@
 Table :
 ______________________________________
    ID   First Name    DOB
-   ID   First Name    DOB
+   id   name          birthDate
 ______________________________________
 1  100  Mickey Mouse  1970-01-01 01:16
 2  110  Batman        1970-01-01 01:33
@@ -20,7 +20,7 @@ Clicked on cell labelled 'Batman'
 Updated Table :
 __________________________________________________________
               ID   First Name (selected)  DOB
-              ID   First Name (selected)  DOB
+              id   name (selected)        birthDate
 __________________________________________________________
 1             100  Mickey Mouse           1970-01-01 01:16
 2 (selected)  110  Batman (selected)      1970-01-01 01:33
@@ -35,7 +35,7 @@ Clicked on cell labelled 'None'
 Updated Table :
 ________________________________________________________________________________
               ID (selected)   First Name (selected)  DOB (selected)
-              ID (selected)   First Name (selected)  DOB (selected)
+              id (selected)   name (selected)        birthDate (selected)
 ________________________________________________________________________________
 1             100             Mickey Mouse           1970-01-01 01:16
 2             110             Batman                 1970-01-01 01:33
@@ -44,19 +44,42 @@ ________________________________________________________________________________
 5             140             Dogbert                1970-01-01 02:23
 ________________________________________________________________________________
 
-'select column' event created with arguments 'First Name'
+'select column' event created with arguments 'First Name (row 2)'
 Clicked on cell labelled 'None'
+Column event Rectangle {2, 0, 1, 7}
+Clicked on column header labelled 'First Name'
+Column event Rectangle {2, 0, 1, 7}
+Clicked on column header labelled 'First Name'
 
 Updated Table :
 ____________________________________________________________
               ID   First Name (selected)    DOB
-              ID   First Name (selected)    DOB
+              id   name (selected)          birthDate
 ____________________________________________________________
 1 (selected)  100  Mickey Mouse (selected)  1970-01-01 01:16
 2 (selected)  110  Batman (selected)        1970-01-01 01:33
 3 (selected)  120  Bender (selected)        1970-01-01 01:50
 4 (selected)  130  Cartman (selected)       1970-01-01 02:06
 5 (selected)  140  Dogbert (selected)       1970-01-01 02:23
+____________________________________________________________
+
+'select column' event created with arguments 'DOB'
+Clicked on cell labelled 'None'
+Column event Rectangle {3, 0, 1, 7}
+Clicked on column header labelled 'DOB'
+Column event Rectangle {3, 0, 1, 7}
+Clicked on column header labelled 'DOB'
+
+Updated Table :
+____________________________________________________________
+              ID   First Name    DOB (selected)
+              id   name          birthDate (selected)
+____________________________________________________________
+1 (selected)  100  Mickey Mouse  1970-01-01 01:16 (selected)
+2 (selected)  110  Batman        1970-01-01 01:33 (selected)
+3 (selected)  120  Bender        1970-01-01 01:50 (selected)
+4 (selected)  130  Cartman       1970-01-01 02:06 (selected)
+5 (selected)  140  Dogbert       1970-01-01 02:23 (selected)
 ____________________________________________________________
 
 'close window' event created with arguments ''
