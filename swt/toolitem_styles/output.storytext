@@ -1,62 +1,62 @@
 
 ---------- Shell '' ----------
 Tool Bar:
-  Item 1
-  Item 2 (radio)
-  Item 3 (check)
+  Item 1 (check)
+  Item 2
+  Item 3 (radio)
   Item 4 (drop down)
   ---
 
 ------------------------------
 
 'select first item' event created with arguments ''
-Selected item 1 Style SWT.PUSH
+Selected item 1 Style SWT.CHECK
 
 Updated Tool Bar:
-  Item 1
-  Item 2 (radio)
-  Item 3 (check)
+  Item 1 (check, selected)
+  Item 2
+  Item 3 (radio)
   Item 4 (drop down)
   ---
-  Extra Item 1
+  Extra Item 1 (check)
 
 'select second item' event created with arguments ''
-Selected item 2 Style SWT.RADIO
+Selected item 2 Style SWT.PUSH
 
 Updated Tool Bar:
-  Item 1
-  Item 2 (radio, selected)
-  Item 3 (check)
+  Item 1 (check, selected)
+  Item 2
+  Item 3 (radio)
   Item 4 (drop down)
   ---
-  Extra Item 1
-  Extra Item 2 (radio)
+  Extra Item 1 (check)
+  Extra Item 2
 
 'select third item' event created with arguments ''
-Selected item 3 Style SWT.CHECK
+Selected item 3 Style SWT.RADIO
 
 Updated Tool Bar:
-  Item 1
-  Item 2 (radio, selected)
-  Item 3 (check, selected)
+  Item 1 (check, selected)
+  Item 2
+  Item 3 (radio, selected)
   Item 4 (drop down)
   ---
-  Extra Item 1
-  Extra Item 2 (radio)
-  Extra Item 3 (check)
+  Extra Item 1 (check)
+  Extra Item 2
+  Extra Item 3 (radio)
 
 'select fourth item' event created with arguments ''
 Selected item 4 Style WT.DROP_DOWN
 
 Updated Tool Bar:
-  Item 1
-  Item 2 (radio, selected)
-  Item 3 (check, selected)
+  Item 1 (check, selected)
+  Item 2
+  Item 3 (radio, selected)
   Item 4 (drop down)
   ---
-  Extra Item 1
-  Extra Item 2 (radio)
-  Extra Item 3 (check)
+  Extra Item 1 (check)
+  Extra Item 2
+  Extra Item 3 (radio)
   Extra Item 4 (drop down)
 
 'close window' event created with arguments ''

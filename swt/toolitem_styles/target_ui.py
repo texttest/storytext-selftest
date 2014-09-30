@@ -17,7 +17,7 @@ def addItem(i, name, style, bar):
 
 shell = Shell()
 bar = ToolBar(shell, SWT.BORDER)
-for i, (name, style)  in enumerate(styles.items()):
+for i, (name, style)  in enumerate(sorted(styles.items())):
     addItem(i + 1, name, style,  bar)
 
 addItem(5, "SWT.SEPARATOR", SWT.SEPARATOR, bar)   
