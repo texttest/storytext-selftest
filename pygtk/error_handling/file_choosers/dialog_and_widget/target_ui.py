@@ -14,6 +14,7 @@ def startDialogWithWidget():
 
     dialog.set_default_response(gtk.RESPONSE_OK)
     dialog.connect("response", dialogRespond, fileChooser)
+    fileChooser.set_current_folder(os.getcwd())
     dialog.set_modal(True)
     dialog.show_all()
 
@@ -36,6 +37,7 @@ dialog = gtk.FileChooserDialog("Save Dialog",
 
 dialog.set_default_response(gtk.RESPONSE_OK)
 dialog.connect("response", dialogRespond, dialog)
+dialog.set_current_folder(os.getcwd())
 dialog.set_modal(True)
 dialog.show_all()
 gtk.main()
