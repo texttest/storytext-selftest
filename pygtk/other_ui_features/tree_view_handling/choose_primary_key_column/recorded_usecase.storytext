@@ -1,0 +1,4 @@
+select bug Custom GtkTreeModelFilter wrappers need
+select bug Duplicated bug number
+select bug 
+close application

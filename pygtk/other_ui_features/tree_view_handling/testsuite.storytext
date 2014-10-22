@@ -8,6 +8,9 @@ activation_implies_selection
 activation_implies_selection_2
 model_filter_duplicate_names
 
+# Make sure -k flag works for PyGTK
+choose_primary_key_column
+
 # See what happens if we need to handle triple repetition at several levels
 triple_multiple_levels
 

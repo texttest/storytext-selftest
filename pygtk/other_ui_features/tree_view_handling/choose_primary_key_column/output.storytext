@@ -1,0 +1,29 @@
+
+---------- Window 'TreeModelFilter Example' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 120595 | NEW | Duplicated bug number
+Toggle button 'NEW' (depressed)
+------------------------------------------------------
+
+'select bug' event created with arguments 'Custom GtkTreeModelFilter wrappers need'
+
+Changed selection in GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need   ***
+-> 120595 | NEW | Duplicated bug number
+
+'select bug' event created with arguments 'Duplicated bug number'
+
+Changed selection in GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 120595 | NEW | Duplicated bug number   ***
+
+'select bug' event created with arguments ''
+
+Changed selection in GtkTreeView with columns: Bug No. , Status , Description
+-> 120595 | NEW | Custom GtkTreeModelFilter wrappers need
+-> 120595 | NEW | Duplicated bug number
+
+'close application' event created with arguments ''
