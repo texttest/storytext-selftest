@@ -34,3 +34,4 @@ insert_and_expand
 
 # Make sure we can handle gtk.TreeViewColumns created implicitly via gtk.TreeView methods
 insert_column_methods
+tree_model_sort
