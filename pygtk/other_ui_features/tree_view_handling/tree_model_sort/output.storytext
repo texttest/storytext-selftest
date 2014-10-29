@@ -1,6 +1,6 @@
 
 ---------- Window 'TreeModelSort Example' ----------
-Focus widget is 'GtkTreeView'
+Focus widget is 'GtkButton'
 
 Showing GtkTreeView with columns: Rem 0 , Rem 1 , Rem 2
 Button 'Add a Row'
