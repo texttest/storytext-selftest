@@ -164,7 +164,7 @@ class VideoStore:
     def deleteMovie(self, button, entry, *args):
         movieName = entry.get_text()
         if movieName in self.getMovieNames():
-            iter = self.model.get_iter_root()
+            iter = self.model.get_iter_first()
             while iter:
                 if self.model.get_value(iter, 0) == movieName:
                     self.model.remove(iter)
@@ -182,7 +182,7 @@ class VideoStore:
             self.model.append([ movie ])
     def getMovieNames(self):
         movies = []
-        iter = self.model.get_iter_root()
+        iter = self.model.get_iter_first()
         while iter is not None:
             movies.append(self.model.get_value(iter, 0))
             iter = self.model.iter_next(iter)
@@ -191,6 +191,7 @@ class VideoStore:
         dialog = gtk.Dialog("VideoStore Error!", buttons=(gtk.STOCK_OK, gtk.RESPONSE_ACCEPT))
         label = gtk.Label(message)
         dialog.vbox.pack_start(label, expand=True, fill=True)
+        # It has been deprecated in gtk 2.22 and should not be used. There is not gtk3 equivalent
         dialog.set_has_separator(False)
         label.show()
         dialog.connect("response", self.destroyErrorDialogue)
