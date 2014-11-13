@@ -1,0 +1,32 @@
+
+---------- Window 'TreeViewColumn Example' ----------
+Focus widget is 'GtkTreeView'
+
+Showing GtkTreeView with columns: Text
+-> The Row
+-----------------------------------------------------
+
+'select row' event created with arguments 'The Row'
+
+Changed selection in GtkTreeView with columns: Text
+-> The Row   ***
+
+'show popup for' event created with arguments 'The Row'
+
+---------- Popup Window ----------
+'Add New Row'
+----------------------------------
+
+'add new row' event created with arguments ''
+
+Updated : GtkTreeView with columns: Text
+-> The Row
+->    ***
+
+'set new text for' event created with arguments '<unnamed> = New Row'
+
+Updated : GtkTreeView with columns: Text
+-> The Row
+-> New Row   ***
+
+'close' event created with arguments ''

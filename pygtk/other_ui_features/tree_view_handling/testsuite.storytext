@@ -26,6 +26,9 @@ add_data_func_rows
 # Start with an empty tree view, then add rows via set_cell_data_func, make sure such properties are picked up. In this case there is no connection with the model initially
 add_rows_from_empty
 
+# Check consequences when we add a new empty row and then fill in the data
+add_empty_row_and_edit
+
 # Change foreground colour and text weight, check it's logged
 foreground_with_weight
 
