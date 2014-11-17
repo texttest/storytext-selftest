@@ -31,6 +31,7 @@
  u'org.eclipse.swtbot.swt.finder': [],
  u'org.eclipse.swtbot.testscript': [],
  u'org.eclipse.text': [],
+ u'org.eclipse.ui': ['gif', 'png', 'GIF'],
  u'org.eclipse.ui.forms': ['png'],
  u'org.eclipse.ui.workbench': [],
  u'org.eclipse.ui.workbench.texteditor': ['gif'],
