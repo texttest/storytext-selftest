@@ -58,6 +58,9 @@ click_icon
 # Test for ordinary TabFolder widgets
 tabfolder
 
+# Test for ordinary TabFolder widgets
+tabfolder_click_tabs
+
 # Test for CTabFolder widgets
 ctabfolder
 

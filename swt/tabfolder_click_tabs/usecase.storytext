@@ -1,0 +1,5 @@
+select tab Item 1
+rename tab
+wait for tab to be selected
+select tab no such tab
+close window

@@ -1,0 +1,42 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Rename
+
+TabFolder with tabs Item 0 (cascade, Image 1, selected) , Item 1 (cascade, Image 2)
+
+========== Text ========== (greyed out)
+Content for Item 0
+==========================
+
+------------------------------
+
+'select tab' event created with arguments 'Item 1'
+
+Updated TabFolder with tabs Item 0 (cascade, Image 1) , Item 1 (cascade, Image 2, selected)
+
+========== Text ========== (greyed out)
+Content for Item 1
+==========================
+
+'rename tab' event created with arguments ''
+
+Waiting for application event 'tab to be selected' to occur.
+
+Updated TabFolder with tabs Item 0 (cascade, Image 1, selected) , New (cascade, Image 2)
+
+========== Text ========== (greyed out)
+Content for Item 0
+==========================
+
+Updated Text Field
+========== Text ==========
+Content for Item 1
+==========================
+
+Expected application event 'tab to be selected' occurred, proceeding.
+
+ERROR: Could not simulate command 'select tab no such tab' - Could not find tab labelled 'no such tab' in TabFolder.
+
+'close window' event created with arguments ''
