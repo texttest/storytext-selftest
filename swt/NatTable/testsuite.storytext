@@ -15,6 +15,9 @@ editing_double_click
 # Header can have multiple lines in it, handle this case
 multi_row_header
 
+# If the selection itself causes the primary key column to change, need to record the name as it was before
+selection_changes_row_name
+
 # If the headers are grouped, make sure we identify the columns in the right way
 header_grouping
 

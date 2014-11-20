@@ -1,0 +1,3 @@
+select cell First Name for 120
+select cell DOB for 10000
+close window
