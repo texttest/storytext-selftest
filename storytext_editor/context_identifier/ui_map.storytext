@@ -1,0 +1,6 @@
+[Title=The Video Store]
+delete-event = close
+
+[Context=FakedContext, Type=Entry]
+changed = 
+

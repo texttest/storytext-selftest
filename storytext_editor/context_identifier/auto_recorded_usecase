@@ -1,0 +1,2 @@
+Auto.Window.delete-event.'Title=The Video Store, Type=Window'
+Auto.Entry.changed.'Context=FakedContext, Type=Entry'
