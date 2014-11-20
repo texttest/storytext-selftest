@@ -15,6 +15,9 @@ editing_double_click
 # Header can have multiple lines in it, handle this case
 multi_row_header
 
+# If the headers are grouped, make sure we identify the columns in the right way
+header_grouping
+
 # When cells span several positions don't reprint the contents
 row_column_span
 
