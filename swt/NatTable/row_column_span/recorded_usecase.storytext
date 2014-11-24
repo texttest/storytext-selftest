@@ -1,2 +1,3 @@
-select cell First Name for 100 (2)
+select cell First Name for 100 (1)
+select cell ID for 140
 close window
