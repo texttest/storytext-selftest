@@ -21,6 +21,9 @@ selection_changes_row_name
 # If the headers are grouped, make sure we identify the columns in the right way
 header_grouping
 
+# If the headers are grouped, make sure we identify the columns in the right way, may need to use the groupings themselves also
+header_use_group_names
+
 # When cells span several positions don't reprint the contents
 row_column_span
 
