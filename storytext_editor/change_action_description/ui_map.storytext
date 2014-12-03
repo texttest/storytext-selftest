@@ -1,0 +1,15 @@
+[Type=TabFolder]
+Selection = select tab
+
+[Label=Rename, Context=File]
+Selection = rename tab
+
+[Type=Text]
+Modify.typed = type text
+
+[Label=Copy]
+Selection = copy
+
+[Type=Shell]
+Close = close
+

@@ -1,0 +1,80 @@
+
+---------- Dialog 'Enter Usecase names for auto-recorded actions' ----------
+Default widget is 'gtk-ok'
+.....'Previously unseen actions: provide names for the interesting ones'......
+Viewing table with 6 rows and 4 columns.
+'<b><u>Widget Type</u></b>' | '<b><u>Identified By</u></b>' | '<b><u>Action Performed</u></b>' | '<b><u>Usecase Name</u></b>'
+'TabFolder' | '<span foreground="red">Type=TabFolder</span>' | Combo Box (selected 'Selection') (drop-down list containing ['Selection', 'Selection.clicked']) | Text entry
+'MenuItem' | Combo Box (selected 'Label=Rename') (drop-down list containing ['Label=Rename', 'Label=Rename, Type=MenuItem', 'Label=Rename, Context=File', 'Type=MenuItem, Context=File', 'Label=Rename, Type=MenuItem, Context=File', '<span foreground="red">Type=MenuItem</span>']) | 'Selection' | Text entry
+'Text' | '<span foreground="red">Type=Text</span>' | Combo Box (selected 'Modify') (drop-down list containing ['Modify', 'Modify.typed']) | Text entry
+'Button' | Combo Box (selected 'Label=Copy') (drop-down list containing ['Label=Copy', 'Label=Copy, Type=Button', '<span foreground="red">Type=Button</span>']) | 'Selection' | Text entry
+'Shell' | '<span foreground="red">Type=Shell</span>' | 'Close' | Text entry
+---------------
+.....'Current Usecase Preview'......
+
+Showing GtkTreeView with columns: 
+-> ? <i>Item 1</i>
+-> ?
+-> ? <i>Hello</i>
+-> ?
+-> ?
+Stock Button 'gtk-cancel' , Stock Button 'gtk-ok'
+----------------------------------------------------------------------------
+
+'enter usecase name for signal 'Selection|Selection.clicked' on TabFolder 'Type=TabFolder' =' event created with arguments 'select tab'
+Edited 'GtkEntry' Text entry (set to 'select tab')
+
+Updated : GtkTreeView with columns: 
+-> select tab<i> Item 1</i>
+-> ?
+-> ? <i>Hello</i>
+-> ?
+-> ?
+
+'choose widget description for signal 'Selection' on MenuItem 'Label=Rename' =' event created with arguments 'Label=Rename, Context=File'
+Changed selection in Combo Box (selected 'Label=Rename, Context=File')
+
+'enter usecase name for signal 'Selection' on MenuItem 'Label=Rename' =' event created with arguments 'rename tab'
+Edited 'GtkEntry' Text entry (set to 'rename tab')
+
+Updated : GtkTreeView with columns: 
+-> select tab<i> Item 1</i>
+-> rename tab
+-> ? <i>Hello</i>
+-> ?
+-> ?
+
+'choose action description for signal 'Modify|Modify.typed' on Text 'Modify' =' event created with arguments 'Modify.typed'
+Changed selection in Combo Box (selected 'Modify.typed')
+
+'enter usecase name for signal 'Modify|Modify.typed' on Text 'Type=Text' =' event created with arguments 'type text'
+Edited 'GtkEntry' Text entry (set to 'type text')
+
+Updated : GtkTreeView with columns: 
+-> select tab<i> Item 1</i>
+-> rename tab
+-> type text<i> Hello</i>
+-> ?
+-> ?
+
+'enter usecase name for signal 'Selection' on Button 'Label=Copy' =' event created with arguments 'copy'
+Edited 'GtkEntry' Text entry (set to 'copy')
+
+Updated : GtkTreeView with columns: 
+-> select tab<i> Item 1</i>
+-> rename tab
+-> type text<i> Hello</i>
+-> copy
+-> ?
+
+'enter usecase name for signal 'Close' on Shell 'Type=Shell' =' event created with arguments 'close'
+Edited 'GtkEntry' Text entry (set to 'close')
+
+Updated : GtkTreeView with columns: 
+-> select tab<i> Item 1</i>
+-> rename tab
+-> type text<i> Hello</i>
+-> copy
+-> close
+
+'finish name entry editing' event created with arguments ''

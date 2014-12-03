@@ -1,0 +1,28 @@
+
+---------- Shell '' ----------
+========== Text ==========  Button 'Copy'
+
+==========================
+Button 'Paste'
+
+------------------------------
+
+'Auto.Text.Modify|Modify.typed.'Type=Text'' event created with arguments 'Hello'
+
+Updated Text Field
+========== Text ==========
+Hello
+==========================
+
+'Auto.Button.Selection.'Label=Copy, Type=Button'' event created with arguments ''
+Copied following to clipboard :
+Hello
+
+'Auto.Button.Selection.'Label=Paste, Type=Button'' event created with arguments ''
+
+Updated Text Field
+========== Text ==========
+HelloHello
+==========================
+
+'Auto.Shell.Close.'Type=Shell'' event created with arguments ''

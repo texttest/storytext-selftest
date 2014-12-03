@@ -1,0 +1,8 @@
+enter usecase name for signal 'Selection|Selection.clicked' on TabFolder 'Type=TabFolder' = select tab
+choose widget description for signal 'Selection' on MenuItem 'Label=Rename' = Label=Rename, Context=File
+enter usecase name for signal 'Selection' on MenuItem 'Label=Rename' = rename tab
+choose action description for signal 'Modify|Modify.typed' on Text 'Modify' = Modify.typed
+enter usecase name for signal 'Modify|Modify.typed' on Text 'Type=Text' = type text
+enter usecase name for signal 'Selection' on Button 'Label=Copy' = copy
+enter usecase name for signal 'Close' on Shell 'Type=Shell' = close
+finish name entry editing

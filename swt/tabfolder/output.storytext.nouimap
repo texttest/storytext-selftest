@@ -1,0 +1,36 @@
+
+---------- Shell '' ----------
+Menu Bar:
+  &File (cascade)
+    Rename
+
+TabFolder with tabs Item 0 (cascade, Image 1, selected) , Item 1 (cascade, Image 2)
+
+========== Text ========== (greyed out)
+Content for Item 0
+==========================
+
+------------------------------
+
+'Auto.TabFolder.Selection|Selection.clicked.'Type=TabFolder'' event created with arguments 'Item 1'
+
+Updated TabFolder with tabs Item 0 (cascade, Image 1) , Item 1 (cascade, Image 2, selected)
+
+========== Text ========== (greyed out)
+Content for Item 1
+==========================
+
+'Auto.MenuItem.Selection.'Label=Rename, Type=MenuItem, Context=File'' event created with arguments ''
+
+Updated TabFolder with tabs Item 0 (cascade, Image 1) , New (cascade, Image 2, selected)
+
+========== Text ==========
+Content for Item 1
+==========================
+
+Updated Text Field
+========== Text ==========
+Content for Item 1
+==========================
+
+'Auto.Shell.Close.'Type=Shell'' event created with arguments ''

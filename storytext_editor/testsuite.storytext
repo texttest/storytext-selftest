@@ -4,6 +4,9 @@ basic_usage
 # Same as normal but choose a non-default widget description
 change_widget_description
 
+# Same as normal but choose a non-default widget description
+change_action_description
+
 # Don't show disallowed widget identifiers, i.e. 'Context=x'
 context_identifier
 

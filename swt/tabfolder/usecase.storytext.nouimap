@@ -1,0 +1,3 @@
+Auto.TabFolder.Selection|Selection.clicked.'Type=TabFolder' Item 1
+Auto.MenuItem.Selection.'Label=Rename, Type=MenuItem, Context=File'
+Auto.Shell.Close.'Type=Shell'

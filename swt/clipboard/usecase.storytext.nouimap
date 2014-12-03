@@ -1,0 +1,4 @@
+Auto.Text.Modify|Modify.typed.'Type=Text' Hello
+Auto.Button.Selection.'Label=Copy, Type=Button'
+Auto.Button.Selection.'Label=Paste, Type=Button'
+Auto.Shell.Close.'Type=Shell'

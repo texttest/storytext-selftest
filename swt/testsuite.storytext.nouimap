@@ -1,0 +1,5 @@
+# Test for ordinary TabFolder widgets
+tabfolder
+
+# Test we notice copying things to the clipboard
+clipboard
