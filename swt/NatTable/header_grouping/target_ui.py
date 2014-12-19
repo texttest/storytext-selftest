@@ -49,8 +49,7 @@ def createNatTable(parent):
     bodyLayer = BodyLayerStack(bodyDataProvider)
     columnHeaderLayer = ColumnHeaderLayerStack(colHeaderDataProvider, bodyLayer)
     columnGroupHeaderLayer = ColumnGroupHeaderLayer(columnHeaderLayer, bodyLayer.getSelectionLayer(), ColumnGroupModel())
-    columnGroupHeaderLayer.addColumnsIndexesToGroup("Group 1", 1)
-    columnGroupHeaderLayer.addColumnsIndexesToGroup("Group 1", 2)
+    columnGroupHeaderLayer.addColumnsIndexesToGroup("Group 1", [ 1, 2 ])
 
     rowHeaderLayer = RowHeaderLayerStack(rowHeaderDataProvider, bodyLayer)
     cornerDataProvider = DefaultCornerDataProvider(colHeaderDataProvider, rowHeaderDataProvider)
