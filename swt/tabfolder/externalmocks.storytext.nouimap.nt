@@ -1,0 +1,1 @@
+<-CMD:env --unset=USECASE_RECORD_SCRIPT --unset=USECASE_REPLAY_SCRIPT storytext_editor -m C:\nightjob\tmp\storytext.windows.19Dec031955.4040\storytext.windows.jython.nouimap\swt\tabfolder\usecases\ui_map.conf -i javaswt C:/nightjob/tmp/storytext.windows.19Dec031955.4040/storytext.windows.jython.nouimap/swt/tabfolder/usecase.storytext
