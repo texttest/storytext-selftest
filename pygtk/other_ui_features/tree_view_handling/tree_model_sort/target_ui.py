@@ -55,6 +55,7 @@ class TreeModelSortExample:
             win.tv.column[i].set_sort_column_id(i)
             win.tv.column[i].pack_start(win.tv.cell[i], True)
             win.tv.column[i].set_attributes(win.tv.cell[i], text=i)
+        win.tv.grab_focus()
         win.show_all()
         self.window = win
 
